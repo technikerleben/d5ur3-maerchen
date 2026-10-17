@@ -8,7 +8,9 @@ Stand: 17.10.2026 · Phase 1 (Gate A) des Workflows `Workflow_Materialproduktion
 |---|---|
 | Zeitraum | Anfang Dezember 2026 bis 15.01.2027, ohne Weihnachtsferien |
 | Texte | Grimm-Märchen, für Jahrgang 5 bearbeitet |
-| Märchenbuch | digital, mit Druckoption |
+| Märchenbuch | digital, mit Druckoption; **Projekt P1 in der Wahlzeit** (Festlegung 17.10.2026) |
+| Ziel der Reihe | Weiterschreiben eines vorgegebenen Märchenanfangs (LEK); Weiterschreiben ist roter Faden aller Etappen |
+| Märchenkarten | stellt C her; im Material nur als freiwillige Unterstützung erwähnt |
 | Bilder | gemeinfreie Illustrationen oder KI-Bilder, die C bereitstellt |
 
 ## 2 · Aus Jahresplanung und Zootiere übernommen
@@ -19,7 +21,7 @@ Stand: 17.10.2026 · Phase 1 (Gate A) des Workflows `Workflow_Materialproduktion
 - **Sprachspur:** Präteritum · Präsens ↔ Präteritum · Verbformen · wörtliche Rede · Pronomen und Konjunktionen; gestaltendes Vorlesen. Einstieg mit dem Vergleich *Der Otter lebt am Fluss. / Der König lebte in einem großen Schloss.*
 - **SRL-Standard:** Input + identisches Merkblatt → Pflichtblätter mit freiwilliger Vertiefung → Gelingensnachweis (5 Indikatoren, Freigabe ab 4/5) → Etappe 5 endet mit Probearbeit → Feedback → Wahlzeit → LEK an einem von zwei Terminen.
 - **Formate und Gestaltung:** wie `skill.md` Zootiere (08.10.2026): A4 gesetzt, Übungsblätter auf A5 verkleinert, ≥ 14 pt, Graustufen, ohne Maskottchen, Andika; HTML farbig im HBG-SRL-Schema. Lernbuddy nicht nachbauen.
-- **Märchenbuch wächst je Etappe:** Märchenanfang → Figurenbegegnung → Prüfung/Wendung → Zauberszene → vollständiges Märchen. Buchtexte sind Lernprodukte; Nachweise und Probearbeit bleiben Lernunterlagen.
+- **Weiterschreiben in jeder Etappe:** Blatt B jeder Etappe lässt einen vorgegebenen kurzen Anfang mit dem Schwerpunkt der Etappe weiterschreiben (Märchenmerkmale → Begegnung mit wörtlicher Rede → erste Prüfung nach Bauplan → Zauberszene → vollständige Fortsetzung). Die Jahresplanungs-Stationen des Märchenbuchs werden so zu Weiterschreib-Übungen.
 
 ## 3 · Zeitrahmen
 
@@ -60,8 +62,8 @@ Materialien und Lehrkraft-Hinweise sprechen von „Woche W1–W6, Einheit 1/2“
 | W4 | 1 | Etappe 5 abschließen · **Probearbeit Fenster A** (45 Min.) für alle, die Etappe 5 abgeschlossen haben |
 | Ferien | – | Korrektur und Feedback Fenster A |
 | W5 | 1 | Wiedereinstieg, Feedback A, Training; **Probearbeit Fenster B** für die übrigen Kinder |
-| W6 | 1 | Feedback/Vorbereitung (20) · **früher LEK-Termin** (45) · Wahlzeit/Märchenbuch |
-| W6 | 2 | **später LEK-Termin** (45) · Märchenbuch abschließen, Vorleserunde |
+| W6 | 1 | Feedback/Vorbereitung (20) · **früher LEK-Termin** (45) · Wahlzeit (Projekte, u. a. Märchenbuch) |
+| W6 | 2 | **später LEK-Termin** (45) · Wahlzeit, Vorleserunde |
 
 Begründung: Das Muster folgt Zootiere (zwei Probearbeitsfenster, Feedback vor dem frühen Termin, zwei LEK-Termine am Ende). Die Ferien liegen zwischen den Probearbeitsfenstern und geben Korrekturzeit ohne Unterrichtsverlust. Kinder aus Fenster B erhalten ihr Feedback bis W6 und schreiben in der Regel den späten Termin. Training in W5 überbrückt den Abstand nach den Ferien.
 
@@ -89,20 +91,17 @@ Risiko: Bis Fenster A stehen 585 Minuten für fünf Etappen zur Verfügung (Zoot
 - Bilder sind fachliche Impulse (Figuren, Orte, Szenen), keine Dekoration und kein Maskottchen.
 - Ablage: `assets/bilder/<name>_farbe.*` und `<name>_graustufen.*`, Nachweise in `assets/bilder/quellen.json`.
 
-## 6 · Märchenbuch digital mit Druckoption
+## 6 · Märchenbuch: Projekt P1, digital mit Druckoption
 
-Festgelegt: digital, druckbar. Vorgeschlagene Umsetzung: eine statische Seite im Repo (`maerchenbuch/`), Texte als JSON (ein Eintrag pro Kind und Etappe), Inhaltsverzeichnis nach Etappen, Druckansicht A4/A5 in Graustufen, deploy über Vercel. Keine Kinderdaten außer Vorname bzw. Kürzel; Freigabe zur Veröffentlichung klären.
+**Festlegung C (17.10.2026):** Das Märchenbuch ist ein freiwilliges Projekt der Wahlzeit, kein Pflichtmaterial. Die Kinder schreiben von Hand; C digitalisiert die Texte.
 
-**Erfassung (Festlegung C, 17.10.2026):** Die Kinder schreiben von Hand; C digitalisiert die Texte.
-
-Folgen für die Produktion:
-- Je Etappe eine **Buchseite** als Reinschriftvorlage (A4, Graustufen, Lineatur, Felder für Titel und Vorname/Kürzel, Etappenkennung), gestaltet für sauberes Scannen: breite Ränder, kein Text am Rand, kontrastreiche Linien.
-- Entwurf im Heft, Überarbeitung nach Prüfschritten, erst dann Reinschrift auf die Buchseite.
-- Der Ablauf „Reinschrift abgeben → digitalisieren → ins Buch“ steht im Lehrkraft-Leitfaden; Abgabezeitpunkte je Woche festlegen, damit die Digitalisierung nicht am Reihenende gebündelt anfällt.
+- Inhalt: in der Regel die überarbeitete Fortsetzung aus Blatt 10/11 (vorgegebener Anfang + eigene Fortsetzung = vollständiges Märchen); weitere überarbeitete Weiterschreib-Texte möglich.
+- Reinschriftvorlage (A4, Graustufen, Lineatur, Felder für Titel und Vorname/Kürzel), gestaltet für sauberes Scannen: breite Ränder, kein Text am Rand, kontrastreiche Linien.
+- Digitale Fassung: statische Seite im Repo (`maerchenbuch/`), Inhaltsverzeichnis, Druckansicht, Deploy über Vercel. Keine Kinderdaten außer Vorname bzw. Kürzel; Freigabe zur Veröffentlichung klären.
+- Noch offen: Scan der Handschrift oder abgetippte Texte.
 
 ## 7 · Noch offen für Phase 2
 
-- Erfassungsweg der Märchenbuch-Texte (siehe Abschnitt 6)
 - Arbeitszeit Probearbeit und LEK, Punkte, Notengrenzen, erlaubte Hilfen
 - Anzahl der Kinder mit zieldifferentem Material (Zootiere: zwei)
 - Ob Kontroll-Kiosk und Lern-App fortgeführt werden

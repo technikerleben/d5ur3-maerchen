@@ -31,7 +31,7 @@ Ergebnis: `planung/Projektgrundlage.md` mit allen Festlegungen. **Gate A: C gibt
 1. Zeitrahmen: Wochen, Doppelstunden, Lage der zwei LEK-Termine (Märchen hat fünf statt drei Etappen).
 2. Zielaufgabe/LEK aus der Jahresplanung: unbekannten Märchenanfang passend fortsetzen und zu Ende führen (Typ 6).
 3. Kompetenzraster K1–K5 übernehmen, um Förderstandard ergänzen (wie Zootiere: vier Standards).
-4. Lernprodukt Klassen-Märchenbuch: Form (Heftseiten, Druckheft, digital), wer sammelt, was überarbeitet wird.
+4. Märchenbuch: Projekt P1 der Wahlzeit, digital mit Druckoption (festgelegt 17.10.2026).
 5. Formate und Gestaltung: Zootiere-`skill.md` übernehmen; nur Abweichungen notieren (z. B. gemeinfreie Illustrationen erlaubt?).
 6. Prüfungsrahmen: Arbeitszeit Probearbeit/LEK, erlaubte Hilfen, Punkteverteilung, Notengrenzen, Nachteilsausgleich.
 7. Zieldifferenz: Anzahl Kinder, F-Fassungen ja/nein je Material.
@@ -44,7 +44,7 @@ Ergebnis: `planung/Etappen_Gelingensnachweise.md`, `planung/Materialmatrix.md`, 
 1. Von der LEK zurück: Welche Teilkompetenzen müssen bis zur Probearbeit gezeigt sein?
 2. Je Etappe genau fünf Indikatoren mit Erfüllungskriterien (E1.1–E5.5); jeder Indikator wird im Pflichtkern geübt.
 3. Gelingensnachweise zuerst skizzieren, dann die Pflichtblätter darauf ausrichten (Abdeckungstabelle Indikator ↔ Blatt).
-4. Materialmatrix: Input-/Merkblatt-Abschnitte je Etappe, Pflichtblätter mit Nummern, Vertiefungen, Hilfen, Buchtext-Auftrag je Etappe, Zeitansätze.
+4. Materialmatrix: Input-/Merkblatt-Abschnitte je Etappe, Pflichtblätter mit Nummern, Vertiefungen, Hilfen, Weiterschreiben-Blatt je Etappe, Zeitansätze.
 5. Sprachspur verteilen (Präteritum, Präsens ↔ Präteritum, Verbformen, wörtliche Rede, Pronomen, Konjunktionen); Einstieg mit dem Vergleich *Der Otter lebt am Fluss. / Der König lebte in einem großen Schloss.*; keine eigene Grammatik-Etappe, höchstens eine Sprachaufgabe pro Blatt.
 6. Kapazitätsprüfung Doppelstunde für Doppelstunde (Raumzeit, Flexbudget, Probearbeits- und LEK-Fenster) wie in Zootiere Abschnitt 7.
 
@@ -71,8 +71,8 @@ Ergebnis: Repo `d5ur3-maerchen` lauffähig, leere Etappe baut fehlerfrei.
 
 1. Neues Repo aus Zootiere ableiten: `tools/`, `assets/fonts`, `skill.md`, `inhalt/`-Schema, `build_wissensbasis.py`, `build_anleitung.py`, `build_pakete.py`.
 2. Generatoren verallgemeinern: Etappenzahl aus der Inhaltsquelle statt fest 3; Interview-Renderer → Textrenderer für Märchen; Tier-spezifische Begriffe entfernen.
-3. Neuer Baustein „Märchenbuch-Seite“ (Buchtext je Etappe, A4 Originalgröße oder Heft).
-4. `skill.md` für Märchen anpassen (Rollen der Texte, Buchtext, Sprachspur), `WISSENSBASIS.md` erzeugen.
+3. Neuer Baustein „Weiterschreiben-Blatt“ (vorgegebener Anfang + Auftrag + Prüffragen) und Reinschriftvorlage für Projekt P1.
+4. `skill.md` für Märchen anpassen (Rollen der Texte, Weiterschreiben, Sprachspur), `WISSENSBASIS.md` erzeugen.
 5. Deploy-Struktur wie bisher (Vercel aus `main`, statisch, Einstellungen macht C).
 
 ## 5 · Phase 5 · Etappenproduktion (Schleife je Etappe)
@@ -81,7 +81,7 @@ Ergebnis: Repo `d5ur3-maerchen` lauffähig, leere Etappe baut fehlerfrei.
 
 | Schritt | Ergebnis | Prüfung |
 |---|---|---|
-| 1 Inhaltsquelle | `inhalt/etappeN.json`: Input-/Merkblatt-Abschnitte mit gesicherten Antworten, Pflichtblätter, Sprachdetektiv, Vertiefungen, Buchtext-Auftrag, GN A/B mit 5 Indikatoren | Abdeckungstabelle aus Phase 2 |
+| 1 Inhaltsquelle | `inhalt/etappeN.json`: Input-/Merkblatt-Abschnitte mit gesicherten Antworten, Pflichtblätter, Sprachdetektiv, Vertiefungen, Weiterschreiben-Auftrag, GN A/B mit 5 Indikatoren | Abdeckungstabelle aus Phase 2 |
 | 2 Erzeugen | `python tools/build_material.py N` → Input, Merkblatt, Übungsblätter, Hilfen, GN A/B | automatische Prüfausgabe fehlerfrei |
 | 3 Sichtprüfung | gerenderte Seiten ansehen (A5-Lesbarkeit, Lochrand, Pflicht/freiwillig erkennbar) | Seitenbilder |
 | 4 Kiosk | `inhalt/kiosk.json`: Tipps und Lösungen; offene Aufgaben nur mit Vergleichsbeispielen | `build_kiosk.py` mit Browsertest |
@@ -89,7 +89,7 @@ Ergebnis: Repo `d5ur3-maerchen` lauffähig, leere Etappe baut fehlerfrei.
 | 6 Freigabe | **Gate D: C sieht Druckpaket durch** | Rückmeldung in `inhalt/` einarbeiten |
 | 7 Abschluss | Commit, `WISSENSBASIS.md` und `anleitung.html` neu erzeugen | Linkprüfung |
 
-Kreative Schreibaufträge: Buchtexte sind Lernprodukte, nicht Nachweise; GN und Probearbeit bleiben Lernunterlagen.
+Weiterschreiben-Texte sind Übungen, keine Nachweise; GN und Probearbeit bleiben Lernunterlagen. Märchenkarten stellt C her; das Material verweist nur darauf.
 
 ## 6 · Phase 6 · Abschluss und Prüfungen
 
