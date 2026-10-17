@@ -55,7 +55,7 @@ Je Etappe genau fünf Indikatoren, gleich gewichtet; **4/5 = Freigabe**. Gelinge
 | E1.4 Ich führe einen Märchenanfang weiter und baue zwei Märchenmerkmale passend ein. | zwei Merkmale erkennbar und passend zum Anfang |
 | E1.5 Ich erkenne Verben im Präteritum und nenne ihre Grundform. | 4 von 5 Verben richtig |
 
-Märchenmerkmale für Jahrgang 5 (Input/Merkblatt 1): Anfangs- und Schlussformel · unbestimmte Zeit und unbestimmter Ort · Gut und Böse als Gegensatz · Zauberwesen, Zauberdinge, sprechende Tiere · magische Zahlen (3, 7, 12) · Aufgaben und Prüfungen · Belohnung und Strafe · gutes Ende · Wiederholungen und Sprüche.
+Märchenmerkmale für Jahrgang 5 (Input/Merkblatt 1), **wortgleich mit den zwölf Merkmal-Karten:** „Es war einmal …“ · „Und wenn sie nicht gestorben sind …“ · die unbestimmte Zeit · der unbestimmte Ort · Gut und Böse · die Zahl 3 · die Zahl 7 · die Magie · die Verwandlung · die Prüfung · die Belohnung · die Bestrafung. Ergänzend ohne Karte: Sprüche und Wiederholungen. Sprechende Tiere laufen über die Figur-Karte „das sprechende Tier“. Wichtig für Blatt 1: Nicht jedes Märchen hat alle Merkmale – „Frau Holle“ beginnt zum Beispiel ohne „Es war einmal“.
 
 Einstieg Sprachspur: *Der Otter lebt am Fluss. / Der König lebte in einem großen Schloss.* (Präsens für Sachtexte, Präteritum für Erzählungen.)
 
@@ -168,7 +168,12 @@ Input und Merkblatt aus derselben Inhaltsquelle, 1:1 gleich. Gesicherte Antworte
 - Je Pflichtblatt eine freiwillige Vertiefung (gestrichelter Rahmen), nie Hürde.
 - Kontroll-Kiosk: Tipps und Lösungen zu Blatt 1–11; Weiterschreib-Aufträge nur mit Vergleichsbeispielen und Prüffragen, nie ein Mustertext als einzige Lösung.
 - Wörterhilfe Märchensprache (Hilfekarte A4 → A5): Präteritum-Liste häufiger unregelmäßiger Verben, Formeln, Märchenwörter.
-- **Märchenkarten (stellt C her, freiwillig):** Karten zu Märchenmerkmalen, Figuren, Orten und Gegenständen, die die Kinder bekommen und untereinander zu vollständigen Sets tauschen. Im Material nur als Hinweis erwähnt, z. B. auf den Weiterschreiben-Blättern und im Merkblatt: *„Dir fehlt eine Idee? Deine Märchenkarten zeigen dir Figuren, Orte und Zauberdinge.“* Nicht erlaubt in Gelingensnachweisen, Probearbeit und LEK.
+- **Märchenkarten (von C hergestellt, Bildkarten, freiwillig):** 41 Karten in vier Kategorien. Die Kinder bekommen Karten und tauschen untereinander vollständige Sets. Im Material nur als Hinweis erwähnt, z. B. auf den Weiterschreiben-Blättern und im Merkblatt: *„Dir fehlt eine Idee? Deine Märchenkarten zeigen dir Figuren, Orte, Zauberdinge und Märchenmerkmale.“* Nicht erlaubt in Gelingensnachweisen, Probearbeit und LEK.
+  - **Figuren (13):** der König · die Königin · der Prinz · die Prinzessin · das jüngste Kind · das arme Kind · die Hexe · die Fee · der Zwerg · der Riese · der Wolf · das sprechende Tier · die Stiefmutter
+  - **Orte (6):** der dunkle Wald · das Schloss · die kleine Hütte · der Turm · der Brunnen · der geheimnisvolle Berg
+  - **Gegenstände (10):** der goldene Schlüssel · der Zauberspiegel · die goldene Kugel · der verzauberte Ring · der Zauberstab · die Spindel · der magische Apfel · die Siebenmeilenstiefel · der Schatz · der Zaubertrank
+  - **Märchenmerkmale (12):** die Zahl 3 · die Zahl 7 · die Magie · die Verwandlung · Gut und Böse · die Prüfung · die Belohnung · die Bestrafung · die unbestimmte Zeit · der unbestimmte Ort · „Es war einmal …“ · „Und wenn sie nicht gestorben sind …“
+  - **Folge für das Material:** Begriffe in Inputs, Merkblättern und Blättern benutzen die Kartennamen. Die selbst verfassten Anfänge für Blatt B greifen Kartenfiguren, -orte und -gegenstände auf, damit die Karten beim Weiterschreiben wirklich helfen. Rollen (Held/Heldin, Gegenspieler/in, Helfer/in) stehen nicht auf den Karten; sie werden in Etappe 2 an Kartenfiguren geübt (*Die Hexe ist hier Gegenspielerin, die Fee Helferin.*).
 - F-Material: Blatt 1F–11F (Weiterschreiben mit Lückentext, Wortspeicher und Satzbausteinen), GN1F–GN4F, Probearbeit F, LEK F; Förderziele individuell.
 
 ## 7 · Kapazitätsprüfung
@@ -249,7 +254,7 @@ Alle Anfänge für Probearbeit, LEK und Training dürfen in den übrigen Materia
 1. Fünf verschiedene Texte statt eines wachsenden Märchens.
 2. Weiterschreiben-Blätter der Etappen 1–4 sind Pflicht (ersetzen die früheren Buchseiten).
 3. Indikatoren E1.1–E5.5 übernommen (E1.4 und E2.4 auf das Weiterschreiben ausgerichtet).
-4. Märchenkarten stellt C her; Kinder bekommen Karten und tauschen vollständige Sets. Im Material nur als freiwillige Unterstützung erwähnt.
+4. Märchenkarten stellt C her (41 Bildkarten, umgesetzt); Kinder bekommen Karten und tauschen vollständige Sets. Im Material nur als freiwillige Unterstützung erwähnt; Begriffe im Material folgen den Kartennamen.
 5. Ziel der Reihe und der LEK ist das Weiterschreiben eines vorgegebenen Märchenanfangs; das Märchenbuch ist Projekt P1.
 
 **Gate B ist freigegeben.** Nächster Schritt: Gate C, Textauswahl.

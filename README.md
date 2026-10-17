@@ -10,13 +10,14 @@ Unterrichtsreihe 3 im Jahrgang 5 (Aufgabentyp 6, produktionsorientiertes Schreib
 |---|---|---|
 | A | Rahmen: Zeit, Texte, Märchenbuch, Bilder | freigegeben 17.10.2026 |
 | B | Rückwärtsplanung: Etappen, Indikatoren, Weiterschreiben-Blätter, Kapazität | freigegeben 17.10.2026 |
-| C | Textauswahl und Bearbeitung der Grimm-Texte | offen |
+| C | Textauswahl und Bearbeitung der Grimm-Texte | Vorschlag liegt vor |
 | D | Freigabe der Druckpakete je Etappe | offen |
 
 ## Planung
 
 - [Workflow Materialproduktion](planung/Workflow_Materialproduktion.md) – Phasen, Gates, Lehren aus Zootiere
 - [Projektgrundlage](planung/Projektgrundlage.md) – Entscheidungen, Zeitmodell W1–W6, Texte, Bilder, Märchenbuch
+- [Textauswahl Gate C](planung/Texte_Gate_C.md) – Grimm-Texte, selbst verfasste Anfänge, Probefassung „Frau Holle“
 - [Rückwärtsplanung](planung/Rueckwaertsplanung.md) – fünf Etappen, Indikatoren E1.1–E5.5, Pflichtkern Blatt 1–11, Kapazität, Sprachspur, Textbedarf
 
 ## Grundlagen
