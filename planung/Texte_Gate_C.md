@@ -97,7 +97,7 @@ Zweck: Bearbeitungsstil zur Beurteilung durch C. Geschrieben nach der Fassung vo
 **Wörterhilfe:** Witwe (Frau, deren Mann gestorben ist) · Stieftochter · spinnen, die Spindel (Holzstab, auf den der gesponnene Faden gewickelt wird) · die Besinnung verlieren (ohnmächtig werden) · der Brotschieber · die Magd (Dienerin im Haus) · die Jungfrau (alte Bezeichnung für ein junges Mädchen) · hie (hier) · das Pech (zähe, schwarze, klebrige Masse)
 
 **Bearbeitungsprotokoll:**
-- Entschärft: Im Original muss das Mädchen spinnen, bis ihm „das Blut aus den Fingern sprang“, und die faule Tochter sticht sich absichtlich in den Finger. Hier: Finger tun weh; Spule wird absichtlich hineingeworfen.
+- Entschärft: Im Original muss das Mädchen spinnen, bis ihm „das Blut aus den Fingern sprang“, und die faule Tochter sticht sich absichtlich in den Finger. Hier: Finger tun weh; die Spindel wird absichtlich hineingeworfen.
 - Satzgefüge geteilt, Rechtschreibung angepasst, „zu den Meinigen“ → „zu meiner Familie“, „sagte ihr den Dienst auf“ → „schickte sie fort“.
 - Wörtlich erhalten: Rufe von Brot und Apfelbaum, Rede der Frau Holle (gekürzt), beide Hahnenrufe, Dreischritt der Faulen (erster, zweiter, dritter Tag), Gold und Pech.
 - Grimms „Spule“ durch „Spindel“ ersetzt (Märchenkarte); „schön und fleißig / hässlich und faul“ auf „fleißig / faul“ gekürzt.
