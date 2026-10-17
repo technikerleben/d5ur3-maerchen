@@ -58,11 +58,11 @@ Zweck: Bearbeitungsstil zur Beurteilung durch C. Geschrieben nach der Fassung vo
 > **Frau Holle**
 > *nach den Brüdern Grimm (KHM 24), bearbeitet*
 >
-> Eine Witwe hatte zwei Töchter. Die eine war schön und fleißig, die andere hässlich und faul. Die Witwe hatte aber die faule Tochter viel lieber, denn sie war ihre eigene Tochter. Die andere war ihre Stieftochter und musste alle Arbeit im Haus tun.
+> Eine Witwe hatte zwei Töchter. Die eine war fleißig, die andere faul. Die Witwe hatte aber die faule Tochter viel lieber, denn sie war ihre eigene Tochter. Die andere war ihre Stieftochter und musste alle Arbeit im Haus tun.
 >
-> Jeden Tag musste das arme Mädchen draußen an einem Brunnen sitzen und spinnen, so viel, dass ihm die Finger wehtaten. Einmal wollte es die Spule im Brunnen abwaschen. Da sprang sie ihm aus der Hand und fiel hinab. Das Mädchen weinte, lief zur Stiefmutter und erzählte ihr von dem Unglück. Die Stiefmutter schimpfte und sprach: „Hast du die Spule hinunterfallen lassen, so hol sie auch wieder herauf!“
+> Jeden Tag musste das arme Mädchen draußen an einem Brunnen sitzen und spinnen, so viel, dass ihm die Finger wehtaten. Einmal wollte es die Spindel im Brunnen abwaschen. Da sprang sie ihm aus der Hand und fiel hinab. Das Mädchen weinte, lief zur Stiefmutter und erzählte ihr von dem Unglück. Die Stiefmutter schimpfte und sprach: „Hast du die Spindel hinunterfallen lassen, so hol sie auch wieder herauf!“
 >
-> Da ging das Mädchen zum Brunnen zurück und wusste nicht, was es tun sollte. In seiner großen Angst sprang es in den Brunnen hinein, um die Spule zu holen. Es verlor die Besinnung. Als es wieder aufwachte, lag es auf einer schönen Wiese. Die Sonne schien, und es blühten viele tausend Blumen.
+> Da ging das Mädchen zum Brunnen zurück und wusste nicht, was es tun sollte. In seiner großen Angst sprang es in den Brunnen hinein, um die Spindel zu holen. Es verlor die Besinnung. Als es wieder aufwachte, lag es auf einer schönen Wiese. Die Sonne schien, und es blühten viele tausend Blumen.
 >
 > Das Mädchen ging über die Wiese und kam zu einem Backofen voller Brot. Das Brot rief: „Ach, zieh mich raus, zieh mich raus, sonst verbrenn ich! Ich bin schon längst ausgebacken.“ Da trat das Mädchen heran und holte mit dem Brotschieber alle Brote heraus.
 >
@@ -74,14 +74,14 @@ Zweck: Bearbeitungsstil zur Beurteilung durch C. Geschrieben nach der Fassung vo
 >
 > Nun war das Mädchen eine Zeit lang bei Frau Holle. Da wurde es traurig und merkte endlich, dass es Heimweh hatte. Obwohl es ihm hier viel besser ging als zu Hause, wollte es zurück. Es sagte: „Ich habe Heimweh. Auch wenn es mir hier unten gut geht, kann ich nicht länger bleiben. Ich muss wieder hinauf zu meiner Familie.“ Frau Holle sprach: „Es gefällt mir, dass du wieder nach Hause willst. Und weil du mir so treu gedient hast, will ich dich selbst hinaufbringen.“
 >
-> Sie nahm das Mädchen bei der Hand und führte es vor ein großes Tor. Das Tor wurde aufgetan, und als das Mädchen gerade darunter stand, fiel ein gewaltiger Goldregen. Alles Gold blieb an ihm hängen, sodass es über und über damit bedeckt war. „Das sollst du haben, weil du so fleißig gewesen bist“, sprach Frau Holle und gab ihm auch die Spule zurück, die in den Brunnen gefallen war. Darauf wurde das Tor verschlossen, und das Mädchen stand oben auf der Welt, nicht weit vom Haus der Stiefmutter. Als es in den Hof kam, saß der Hahn auf dem Brunnen und rief:
+> Sie nahm das Mädchen bei der Hand und führte es vor ein großes Tor. Das Tor wurde aufgetan, und als das Mädchen gerade darunter stand, fiel ein gewaltiger Goldregen. Alles Gold blieb an ihm hängen, sodass es über und über damit bedeckt war. „Das sollst du haben, weil du so fleißig gewesen bist“, sprach Frau Holle und gab ihm auch die Spindel zurück, die in den Brunnen gefallen war. Darauf wurde das Tor verschlossen, und das Mädchen stand oben auf der Welt, nicht weit vom Haus der Stiefmutter. Als es in den Hof kam, saß der Hahn auf dem Brunnen und rief:
 >
 > „Kikeriki,
 > unsere goldene Jungfrau ist wieder hie.“
 >
 > Da ging es hinein. Weil es so mit Gold bedeckt ankam, wurde es von der Stiefmutter und der Schwester gut aufgenommen.
 >
-> Das Mädchen erzählte alles, was ihm geschehen war. Als die Stiefmutter hörte, wie es zu dem großen Reichtum gekommen war, wollte sie der faulen Tochter dasselbe Glück verschaffen. Die faule Tochter musste sich an den Brunnen setzen und spinnen. Bald warf sie die Spule absichtlich in den Brunnen und sprang selbst hinterher.
+> Das Mädchen erzählte alles, was ihm geschehen war. Als die Stiefmutter hörte, wie es zu dem großen Reichtum gekommen war, wollte sie der faulen Tochter dasselbe Glück verschaffen. Die faule Tochter musste sich an den Brunnen setzen und spinnen. Bald warf sie die Spindel absichtlich in den Brunnen und sprang selbst hinterher.
 >
 > Sie kam wie die andere auf die schöne Wiese und ging auf demselben Weg weiter. Als sie zu dem Backofen kam, rief das Brot wieder: „Ach, zieh mich raus, zieh mich raus, sonst verbrenn ich! Ich bin schon längst ausgebacken.“ Die Faule aber antwortete: „Ich habe keine Lust, mich schmutzig zu machen!“, und ging fort. Bald kam sie zu dem Apfelbaum, der rief: „Ach, schüttel mich, schüttel mich! Wir Äpfel sind alle miteinander reif.“ Sie antwortete aber: „Du kommst mir gerade recht! Mir könnte ja einer auf den Kopf fallen!“, und ging weiter.
 >
@@ -94,15 +94,18 @@ Zweck: Bearbeitungsstil zur Beurteilung durch C. Geschrieben nach der Fassung vo
 >
 > Das Pech aber blieb an ihr hängen und ging, solange sie lebte, nicht mehr ab.
 
-**Wörterhilfe:** Witwe (Frau, deren Mann gestorben ist) · Stieftochter · spinnen, die Spule (darauf wird der gesponnene Faden gewickelt) · die Besinnung verlieren (ohnmächtig werden) · der Brotschieber · die Magd (Dienerin im Haus) · die Jungfrau (alte Bezeichnung für ein junges Mädchen) · hie (hier) · das Pech (zähe, schwarze, klebrige Masse)
+**Wörterhilfe:** Witwe (Frau, deren Mann gestorben ist) · Stieftochter · spinnen, die Spindel (Holzstab, auf den der gesponnene Faden gewickelt wird) · die Besinnung verlieren (ohnmächtig werden) · der Brotschieber · die Magd (Dienerin im Haus) · die Jungfrau (alte Bezeichnung für ein junges Mädchen) · hie (hier) · das Pech (zähe, schwarze, klebrige Masse)
 
 **Bearbeitungsprotokoll:**
 - Entschärft: Im Original muss das Mädchen spinnen, bis ihm „das Blut aus den Fingern sprang“, und die faule Tochter sticht sich absichtlich in den Finger. Hier: Finger tun weh; Spule wird absichtlich hineingeworfen.
 - Satzgefüge geteilt, Rechtschreibung angepasst, „zu den Meinigen“ → „zu meiner Familie“, „sagte ihr den Dienst auf“ → „schickte sie fort“.
 - Wörtlich erhalten: Rufe von Brot und Apfelbaum, Rede der Frau Holle (gekürzt), beide Hahnenrufe, Dreischritt der Faulen (erster, zweiter, dritter Tag), Gold und Pech.
+- Grimms „Spule“ durch „Spindel“ ersetzt (Märchenkarte); „schön und fleißig / hässlich und faul“ auf „fleißig / faul“ gekürzt.
 - Im Original heißt die Mutter durchgehend „Mutter“, obwohl sie Stiefmutter ist; hier „Stiefmutter“, damit die Figur zur Karte passt.
 
-**Zur Entscheidung durch C:**
-1. **Spule oder Spindel?** Grimm schreibt „Spule“; die Märchenkarte heißt „die Spindel“. Vorschlag: Spule im Text lassen, in der Wörterhilfe auf die Spindel verweisen – oder einheitlich „Spindel“ (häufig in heutigen Nacherzählungen).
-2. **„schön und fleißig / hässlich und faul“** ist Grimm und zeigt den Gegensatz Gut und Böse. Beibehalten und in Etappe 2 besprechen, oder auf „fleißig / faul“ kürzen?
-3. **Merkmale ohne Formel:** „Frau Holle“ hat weder „Es war einmal“ noch „Und wenn sie nicht gestorben sind“. Vorschlag: bewusst so lassen und auf Blatt 1 nutzen („Nicht jedes Märchen hat alle Merkmale“).
+**Entscheidungen C (17.10.2026):**
+1. **Spindel** statt Grimms „Spule“ – passend zur Märchenkarte.
+2. Gegensatz auf **„fleißig / faul“** gekürzt; „schön“ und „hässlich“ entfallen.
+3. „Frau Holle“ bleibt **ohne Anfangs- und Schlussformel**; Blatt 1 nutzt das: Nicht jedes Märchen hat alle Merkmale.
+
+Damit ist die Probefassung freigegeben; nach dem Abgleich mit dem Original wird sie mit Zeilennummern gesperrt.

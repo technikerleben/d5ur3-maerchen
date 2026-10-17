@@ -55,7 +55,7 @@ Je Etappe genau fünf Indikatoren, gleich gewichtet; **4/5 = Freigabe**. Gelinge
 | E1.4 Ich führe einen Märchenanfang weiter und baue zwei Märchenmerkmale passend ein. | zwei Merkmale erkennbar und passend zum Anfang |
 | E1.5 Ich erkenne Verben im Präteritum und nenne ihre Grundform. | 4 von 5 Verben richtig |
 
-Märchenmerkmale für Jahrgang 5 (Input/Merkblatt 1), **wortgleich mit den zwölf Merkmal-Karten:** „Es war einmal …“ · „Und wenn sie nicht gestorben sind …“ · die unbestimmte Zeit · der unbestimmte Ort · Gut und Böse · die Zahl 3 · die Zahl 7 · die Magie · die Verwandlung · die Prüfung · die Belohnung · die Bestrafung. Ergänzend ohne Karte: Sprüche und Wiederholungen. Sprechende Tiere laufen über die Figur-Karte „das sprechende Tier“. Wichtig für Blatt 1: Nicht jedes Märchen hat alle Merkmale – „Frau Holle“ beginnt zum Beispiel ohne „Es war einmal“.
+Märchenmerkmale für Jahrgang 5 (Input/Merkblatt 1), **wortgleich mit den zwölf Merkmal-Karten:** „Es war einmal …“ · „Und wenn sie nicht gestorben sind …“ · die unbestimmte Zeit · der unbestimmte Ort · Gut und Böse · die Zahl 3 · die Zahl 7 · die Magie · die Verwandlung · die Prüfung · die Belohnung · die Bestrafung. Ergänzend ohne Karte: Sprüche und Wiederholungen. Sprechende Tiere laufen über die Figur-Karte „das sprechende Tier“. Wichtig für Blatt 1 (Entscheidung C, 17.10.2026): Nicht jedes Märchen hat alle Merkmale – „Frau Holle“ hat weder „Es war einmal …“ noch „Und wenn sie nicht gestorben sind …“. Blatt 1 lässt die Kinder das entdecken.
 
 Einstieg Sprachspur: *Der Otter lebt am Fluss. / Der König lebte in einem großen Schloss.* (Präsens für Sachtexte, Präteritum für Erzählungen.)
 
