@@ -7,7 +7,7 @@ Stand: 17.10.2026 · Vorschlag zur Entscheidung durch C. Festgelegt (C, 17.10.20
 - Grundlage: Kinder- und Hausmärchen, Ausgabe letzter Hand (1857), gemeinfrei. Vor dem Sperren jeden bearbeiteten Text mit dem Original abgleichen (Handlung, Sprüche, Reihenfolge).
 - **Erhalten:** Präteritum, Handlungsfolge, Sprüche und Reime wörtlich (nur Rechtschreibung angepasst), Dreischritte und Wiederholungen, Gegensätze, Belohnung und Bestrafung.
 - **Anpassen:** heutige Rechtschreibung; lange Satzgefüge teilen; veraltete Wörter ersetzen oder in der Wörterhilfe erklären; Kürzungen ohne Handlungsverlust; drastische Gewalt entschärfen (z. B. Blut, Verstümmelung).
-- **Länge:** Beispielmärchen höchstens etwa 900 Wörter; Anfänge für Etappe 5, Probearbeit, LEK und Training 150–250 Wörter, enden jeweils an einer Stelle, an der Problem und Figuren klar sind, die Lösung aber offen ist.
+- **Länge:** Beispielmärchen und Übungsmärchen höchstens etwa 950 Wörter; Anfänge für Etappe 5 und Training 250–400 Wörter; Anfänge für Probearbeit und LEK 220–380 Wörter (Lesezeit in einer 45-Minuten-Arbeit). Jeder Anfang endet an einer Stelle, an der Problem und Figuren klar sind, die Lösung aber offen ist. (Nach dem Entwurf angepasst: Grimm-Anfänge brauchen mehr Raum als zunächst geplant.)
 - **Kennzeichnung:** „nach den Brüdern Grimm (KHM-Nr.), bearbeitet“.
 - **Kartenbezug:** Wo der Grimm-Text ein Kartenmotiv nennt, bleibt es erkennbar (z. B. Brunnen, Stiefmutter). Abweichungen werden notiert, nicht stillschweigend angeglichen.
 
@@ -32,6 +32,9 @@ Stand: 17.10.2026 · Vorschlag zur Entscheidung durch C. Festgelegt (C, 17.10.20
 
 ## 3 · Selbst verfasste Anfänge im Grimm-Stil
 
+Entwürfe der bearbeiteten Grimm-Texte aus Abschnitt 2: `texte/grimm_bearbeitet.md`.
+
+
 Länge 5–8 Zeilen (Blatt B) bzw. 6–10 Zeilen (GN); Präteritum; jeder Anfang greift mindestens zwei Kartenmotive auf und endet genau dort, wo der Schwerpunkt der Etappe beginnt. Arbeitstitel und Ausgangslage:
 
 | Ort | Arbeitstitel | Ausgangslage, Ende des Anfangs | Kartenmotive |
@@ -49,7 +52,7 @@ Länge 5–8 Zeilen (Blatt B) bzw. 6–10 Zeilen (GN); Präteritum; jeder Anfang
 | GN4 A | Die Stiefel am Wegrand | Ein Junge, der nicht mehr laufen kann vor Müdigkeit, findet ein Paar alte Stiefel. | das jüngste Kind, die Siebenmeilenstiefel |
 | GN4 B | Der Spiegel im Turm | Ein Mädchen putzt im Turm einen staubigen Spiegel; da regt sich etwas darin. | der Turm, der Zauberspiegel |
 
-Die Anfänge entstehen in Phase 3 vollständig und werden mit Zeilennummern gesperrt. F-Fassungen: dieselben Anfänge in einfacher Sprache.
+Entwürfe aller zwölf Anfänge: `texte/anfaenge_eigene.md`. Sie werden nach Freigabe mit Zeilennummern gesperrt. F-Fassungen: dieselben Anfänge in einfacher Sprache.
 
 ## 4 · Probefassung „Frau Holle“ (bearbeitet)
 
