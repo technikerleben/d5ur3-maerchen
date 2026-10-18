@@ -1,5 +1,5 @@
 {
- "_hinweis": "Gesperrte Textbasis der Reihe Märchen (Gate C, 18.10.2026). Änderungen nur nach Rücksprache mit C; danach Zeilenverweise prüfen. sperre_pruefung=true: Text darf in keinem Übungsmaterial, Merkblatt, Kiosk oder der Lern-App vorkommen.",
+ "_hinweis": "Gesperrte Textbasis der Reihe Märchen (Gate C, 18.10.2026). Änderungen nur nach Rücksprache mit C; danach Zeilenverweise prüfen. sperre_pruefung=true: Text darf in keinem Übungsmaterial, Merkblatt, Kiosk oder der Lern-App vorkommen. fussnoten: Die erste Fundstelle von 'stelle' (ganzes Wort) erhält im Druck eine Fußnote mit 'erklaerung'.",
  "texte": [
   {
    "id": "frau-holle",
@@ -69,7 +69,68 @@
      "absatz": "Das Pech aber blieb an ihr hängen und ging, solange sie lebte, nicht mehr ab."
     }
    ],
-   "woerterhilfe": "Gekochtes und Gebratenes (warmes Essen) · Witwe (Frau, deren Mann gestorben ist) · Stieftochter · spinnen, die Spindel (Holzstab, auf den der gesponnene Faden gewickelt wird) · die Besinnung verlieren (ohnmächtig werden) · der Brotschieber · die Magd (Dienerin im Haus) · die Jungfrau (alte Bezeichnung für ein junges Mädchen) · hie (hier) · das Pech (zähe, schwarze, klebrige Masse)"
+   "fussnoten": [
+    {
+     "stelle": "Witwe",
+     "erklaerung": "Frau, deren Mann gestorben ist"
+    },
+    {
+     "stelle": "Stieftochter",
+     "erklaerung": "Tochter, die nicht ihr eigenes Kind ist, sondern das Kind ihres Mannes"
+    },
+    {
+     "stelle": "spinnen",
+     "erklaerung": "aus Wolle einen Faden drehen"
+    },
+    {
+     "stelle": "Spindel",
+     "erklaerung": "Holzstab, auf den der gesponnene Faden gewickelt wird"
+    },
+    {
+     "stelle": "Besinnung",
+     "erklaerung": "die Besinnung verlieren: ohnmächtig werden"
+    },
+    {
+     "stelle": "Brotschieber",
+     "erklaerung": "flache Holzschaufel, mit der man Brot aus dem Ofen holt"
+    },
+    {
+     "stelle": "ausgebacken",
+     "erklaerung": "fertig gebacken"
+    },
+    {
+     "stelle": "Gekochtes und Gebratenes",
+     "erklaerung": "warmes, gutes Essen"
+    },
+    {
+     "stelle": "gedient",
+     "erklaerung": "für jemanden gearbeitet"
+    },
+    {
+     "stelle": "aufgetan",
+     "erklaerung": "geöffnet"
+    },
+    {
+     "stelle": "Jungfrau",
+     "erklaerung": "altes Wort für ein junges Mädchen"
+    },
+    {
+     "stelle": "hie",
+     "erklaerung": "hier"
+    },
+    {
+     "stelle": "Magd",
+     "erklaerung": "Dienerin im Haus"
+    },
+    {
+     "stelle": "Da hätte ich Lust",
+     "erklaerung": "Das ist spöttisch gemeint: Sie hat überhaupt keine Lust."
+    },
+    {
+     "stelle": "Pech",
+     "erklaerung": "zähe, schwarze, klebrige Masse"
+    }
+   ]
   },
   {
    "id": "rumpelstilzchen",
@@ -120,7 +181,64 @@
      "absatz": "„Das hat dir der Teufel gesagt! Das hat dir der Teufel gesagt!“, schrie das Männchen. Vor Zorn stieß es mit dem rechten Fuß so tief in die Erde, dass es bis an den Leib hineinfuhr. Dann zog es sich voller Wut wieder heraus, lief davon und wurde nie wieder gesehen."
     }
    ],
-   "woerterhilfe": "die Jungfer (alte Anrede für ein junges Mädchen) · das Spinnrad, die Spule · über die Maßen (sehr) · sich erkundigen (nachfragen) · der Bote (jemand, der eine Nachricht überbringt) · brauen (Bier herstellen)"
+   "fussnoten": [
+    {
+     "stelle": "Müller",
+     "erklaerung": "Mann, der in einer Mühle Korn zu Mehl mahlt"
+    },
+    {
+     "stelle": "Spinnrad",
+     "erklaerung": "Gerät, mit dem man aus Wolle oder Stroh einen Faden dreht"
+    },
+    {
+     "stelle": "Jungfer",
+     "erklaerung": "alte Anrede für ein junges Mädchen"
+    },
+    {
+     "stelle": "Spule",
+     "erklaerung": "Rolle, auf die der Faden gewickelt wird"
+    },
+    {
+     "stelle": "über die Maßen",
+     "erklaerung": "sehr, über alles"
+    },
+    {
+     "stelle": "Lebendes",
+     "erklaerung": "etwas, das lebt"
+    },
+    {
+     "stelle": "erkundigen",
+     "erklaerung": "nachfragen"
+    },
+    {
+     "stelle": "Boten",
+     "erklaerung": "Mann, der Nachrichten überbringt"
+    },
+    {
+     "stelle": "Kaspar, Melchior, Balzer",
+     "erklaerung": "Namen der Heiligen Drei Könige"
+    },
+    {
+     "stelle": "Rippenbiest",
+     "erklaerung": "Rippenbiest, Hammelswade, Schnürbein: ausgedachte, komische Namen"
+    },
+    {
+     "stelle": "wo Fuchs und Hase sich gute Nacht sagen",
+     "erklaerung": "an einem sehr einsamen Ort"
+    },
+    {
+     "stelle": "brau",
+     "erklaerung": "brauen: Bier herstellen"
+    },
+    {
+     "stelle": "Kunz",
+     "erklaerung": "alte Kurzform von Konrad"
+    },
+    {
+     "stelle": "Leib",
+     "erklaerung": "Bauch, Körper"
+    }
+   ]
   },
   {
    "id": "weisse-schlange",
@@ -142,7 +260,60 @@
      "absatz": "Nun traf es sich, dass gerade an diesem Tag der Königin ihr schönster Ring fortkam. Der Verdacht fiel auf den treuen Diener, der überall Zugang hatte. Der König ließ ihn vor sich kommen und drohte ihm mit harten Worten: Wenn er bis morgen den Täter nicht nennen könne, so werde man ihn selbst für den Dieb halten und richten. Es half nichts, dass der Diener seine Unschuld beteuerte. In seiner Angst und Not ging er hinab in den Hof und überlegte, wie er sich helfen könnte."
     }
    ],
-   "woerterhilfe": "die Sitte (Gewohnheit) · die Neugier bezwingen (sich zurückhalten) · der Sperling (Spatz) · die Gabe (Fähigkeit) · beteuern (fest versichern) · richten (verurteilen und bestrafen)"
+   "fussnoten": [
+    {
+     "stelle": "Weisheit",
+     "erklaerung": "große Klugheit"
+    },
+    {
+     "stelle": "Sitte",
+     "erklaerung": "Gewohnheit"
+    },
+    {
+     "stelle": "bezwingen",
+     "erklaerung": "die Neugier bezwingen: sich zurückhalten"
+    },
+    {
+     "stelle": "widerstehen",
+     "erklaerung": "nicht nachgeben"
+    },
+    {
+     "stelle": "Sperlinge",
+     "erklaerung": "Spatzen"
+    },
+    {
+     "stelle": "Genuss",
+     "erklaerung": "das Essen"
+    },
+    {
+     "stelle": "Gabe",
+     "erklaerung": "besondere Fähigkeit"
+    },
+    {
+     "stelle": "verliehen",
+     "erklaerung": "geschenkt"
+    },
+    {
+     "stelle": "fortkam",
+     "erklaerung": "verloren ging"
+    },
+    {
+     "stelle": "Verdacht",
+     "erklaerung": "Man glaubte, dass er es gewesen war."
+    },
+    {
+     "stelle": "Täter",
+     "erklaerung": "jemand, der etwas Verbotenes getan hat"
+    },
+    {
+     "stelle": "richten",
+     "erklaerung": "verurteilen und bestrafen"
+    },
+    {
+     "stelle": "beteuerte",
+     "erklaerung": "beteuern: fest versichern"
+    }
+   ]
   },
   {
    "id": "jorinde-joringel",
@@ -186,7 +357,72 @@
      "absatz": "Da wurde Joringel los. Er fiel vor der Frau auf die Knie und bat sie, ihm seine Jorinde wiederzugeben. Aber sie sagte, er solle sie nie wiederhaben, und ging fort. Er rief, er weinte, er jammerte, aber alles umsonst. Da ging Joringel fort und kam endlich in ein fremdes Dorf. Dort hütete er lange Zeit die Schafe. Oft ging er rund um das Schloss herum, aber nicht zu nahe dabei."
     }
    ],
-   "woerterhilfe": "die Erzzauberin (sehr mächtige Zauberin) · sich versprechen (sich verloben) · zuweilen (manchmal) · bang (ängstlich) · sich regen (sich bewegen) · todbang (sehr ängstlich) · das Möndel, das Körbel (der kleine Mond, das kleine Körbchen) · zu guter Stund (zur rechten Zeit)"
+   "fussnoten": [
+    {
+     "stelle": "Erzzauberin",
+     "erklaerung": "sehr mächtige Zauberin"
+    },
+    {
+     "stelle": "herbeilocken",
+     "erklaerung": "zu sich rufen"
+    },
+    {
+     "stelle": "freisprach",
+     "erklaerung": "erlaubte, wieder zu gehen"
+    },
+    {
+     "stelle": "Kammer",
+     "erklaerung": "kleines Zimmer"
+    },
+    {
+     "stelle": "Turteltaube",
+     "erklaerung": "eine Taubenart"
+    },
+    {
+     "stelle": "zuweilen",
+     "erklaerung": "manchmal"
+    },
+    {
+     "stelle": "klagte",
+     "erklaerung": "jammerte"
+    },
+    {
+     "stelle": "todbang",
+     "erklaerung": "sehr ängstlich"
+    },
+    {
+     "stelle": "Leide",
+     "erklaerung": "das Leid, der Kummer"
+    },
+    {
+     "stelle": "zicküth",
+     "erklaerung": "So klingt der Ruf der Nachtigall."
+    },
+    {
+     "stelle": "Nachtigall",
+     "erklaerung": "kleiner Singvogel"
+    },
+    {
+     "stelle": "regen",
+     "erklaerung": "sich bewegen"
+    },
+    {
+     "stelle": "murmelte",
+     "erklaerung": "sprach leise und undeutlich"
+    },
+    {
+     "stelle": "Möndel",
+     "erklaerung": "der kleine Mond"
+    },
+    {
+     "stelle": "Körbel",
+     "erklaerung": "das kleine Körbchen"
+    },
+    {
+     "stelle": "zu guter Stund",
+     "erklaerung": "zur rechten Zeit"
+    }
+   ]
   },
   {
    "id": "goldene-gans",
@@ -211,7 +447,64 @@
      "absatz": "Danach sprach das Männlein: „Weil du ein gutes Herz hast und gern von dem Deinigen abgibst, will ich dir Glück bescheren. Dort steht ein alter Baum. Den hau ab, so wirst du in den Wurzeln etwas finden.“ Darauf nahm das Männlein Abschied. Der Dummling ging hin und hieb den Baum um. Als er fiel, saß in den Wurzeln eine Gans, die hatte Federn aus reinem Gold. Er hob sie auf, nahm sie mit und ging in ein Wirtshaus, wo er übernachten wollte."
     }
    ],
-   "woerterhilfe": "der Dummling (jüngster, scheinbar dummer Sohn) · zurücksetzen (benachteiligen) · Holz hauen (Bäume fällen) · fehlhauen (danebenschlagen) · der Aschenkuchen (einfacher Kuchen, in der Asche gebacken) · Glück bescheren (Glück schenken)"
+   "fussnoten": [
+    {
+     "stelle": "Dummling",
+     "erklaerung": "jüngster Sohn, den alle für dumm halten"
+    },
+    {
+     "stelle": "zurückgesetzt",
+     "erklaerung": "benachteiligt"
+    },
+    {
+     "stelle": "Holz hauen",
+     "erklaerung": "Bäume fällen und Holz hacken"
+    },
+    {
+     "stelle": "Eierkuchen",
+     "erklaerung": "Pfannkuchen"
+    },
+    {
+     "stelle": "bot ihm einen guten Tag",
+     "erklaerung": "grüßte ihn"
+    },
+    {
+     "stelle": "Pack dich deiner Wege",
+     "erklaerung": "Verschwinde!"
+    },
+    {
+     "stelle": "hieb er",
+     "erklaerung": "hieb fehl: schlug daneben"
+    },
+    {
+     "stelle": "Schaden",
+     "erklaerung": "sich Schaden tun: sich verletzen"
+    },
+    {
+     "stelle": "saures Bier",
+     "erklaerung": "schlecht gewordenes Bier"
+    },
+    {
+     "stelle": "Trunk",
+     "erklaerung": "ein Schluck zu trinken"
+    },
+    {
+     "stelle": "Aschenkuchen",
+     "erklaerung": "einfacher Kuchen, in der heißen Asche gebacken"
+    },
+    {
+     "stelle": "von dem Deinigen",
+     "erklaerung": "von dem, was dir gehört"
+    },
+    {
+     "stelle": "bescheren",
+     "erklaerung": "schenken"
+    },
+    {
+     "stelle": "Wirtshaus",
+     "erklaerung": "Gasthaus"
+    }
+   ]
   },
   {
    "id": "bienenkoenigin",
@@ -239,7 +532,40 @@
      "absatz": "Endlich kam auch an den Dummling die Reihe. Er suchte im Moos, aber es war so schwer, die Perlen zu finden, und es ging so langsam. Da setzte er sich auf einen Stein und weinte."
     }
    ],
-   "woerterhilfe": "unbekümmert (ohne Sorgen) · die Einfalt (Dummheit) · ich leide nicht (ich erlaube nicht) · das Schlafgemach (Schlafzimmer) · erlösen (von einem Zauber befreien)"
+   "fussnoten": [
+    {
+     "stelle": "wüstes",
+     "erklaerung": "ein wildes, wüstes Leben: ein Leben ohne Ordnung"
+    },
+    {
+     "stelle": "Dummling",
+     "erklaerung": "jüngster Sohn, den alle für dumm halten"
+    },
+    {
+     "stelle": "Einfalt",
+     "erklaerung": "Dummheit, Gutgläubigkeit"
+    },
+    {
+     "stelle": "aufwühlen",
+     "erklaerung": "durcheinanderwühlen"
+    },
+    {
+     "stelle": "ich leide nicht",
+     "erklaerung": "ich erlaube nicht"
+    },
+    {
+     "stelle": "Schlafgemach",
+     "erklaerung": "Schlafzimmer"
+    },
+    {
+     "stelle": "Tafel",
+     "erklaerung": "Platte mit Schrift"
+    },
+    {
+     "stelle": "erlöst",
+     "erklaerung": "von einem Zauber befreit"
+    }
+   ]
   },
   {
    "id": "drei-federn",
@@ -276,7 +602,48 @@
      "absatz": "Die Tür ging auf, und der Dummling sah eine große, dicke Kröte sitzen. Rings um sie herum saßen viele kleine Kröten. Die dicke Kröte fragte, was sein Begehren wäre."
     }
    ],
-   "woerterhilfe": "gescheit (klug) · einfältig (ein bisschen dumm, naiv) · das Reich erben (König werden, wenn der Vater stirbt) · die Falltür (Tür im Boden) · die Jungfer (altes Wort für junges Mädchen) · Hutzelbein (Fantasiename aus dem Spruch) · die Kröte (froschähnliches Tier) · das Begehren (der Wunsch)"
+   "fussnoten": [
+    {
+     "stelle": "gescheit",
+     "erklaerung": "klug"
+    },
+    {
+     "stelle": "einfältig",
+     "erklaerung": "ein bisschen dumm, gutgläubig"
+    },
+    {
+     "stelle": "Dummling",
+     "erklaerung": "jüngster Sohn, den alle für dumm halten"
+    },
+    {
+     "stelle": "erben",
+     "erklaerung": "bekommen, wenn jemand gestorben ist"
+    },
+    {
+     "stelle": "Falltür",
+     "erklaerung": "Tür im Boden"
+    },
+    {
+     "stelle": "Jungfer",
+     "erklaerung": "altes Wort für ein junges Mädchen"
+    },
+    {
+     "stelle": "Hutzelbein",
+     "erklaerung": "Fantasiename im Spruch"
+    },
+    {
+     "stelle": "geschwind",
+     "erklaerung": "schnell"
+    },
+    {
+     "stelle": "Kröte",
+     "erklaerung": "Tier, das einem Frosch ähnlich ist"
+    },
+    {
+     "stelle": "Begehren",
+     "erklaerung": "der Wunsch"
+    }
+   ]
   },
   {
    "id": "blaues-licht",
@@ -301,7 +668,44 @@
      "absatz": "Der Soldat fiel, ohne Schaden zu nehmen, auf den feuchten Boden. Das blaue Licht brannte weiter, aber was konnte ihm das helfen? Er sah wohl, dass er dem Tod nicht entgehen würde. Traurig saß er eine Weile da. Dann griff er zufällig in seine Tasche und fand seine Tabakspfeife, die noch halb gestopft war."
     }
    ],
-   "woerterhilfe": "verschmachten (vor Hunger und Durst sterben) · barmherzig (gütig, mitleidig) · einwilligen (zustimmen) · verlöschen (ausgehen) · ein Fuder Holz (eine Wagenladung Holz) · die Tabakspfeife"
+   "fussnoten": [
+    {
+     "stelle": "gedient",
+     "erklaerung": "als Soldat für ihn gearbeitet"
+    },
+    {
+     "stelle": "Nachtlager",
+     "erklaerung": "ein Platz zum Schlafen"
+    },
+    {
+     "stelle": "verschmachte",
+     "erklaerung": "verschmachten: vor Hunger und Durst sterben"
+    },
+    {
+     "stelle": "barmherzig",
+     "erklaerung": "gütig, mitleidig"
+    },
+    {
+     "stelle": "willigte",
+     "erklaerung": "einwilligen: zustimmen"
+    },
+    {
+     "stelle": "Fuder",
+     "erklaerung": "eine Wagenladung"
+    },
+    {
+     "stelle": "geringe",
+     "erklaerung": "kleine, leichte"
+    },
+    {
+     "stelle": "verlischt",
+     "erklaerung": "geht aus"
+    },
+    {
+     "stelle": "Tabakspfeife",
+     "erklaerung": "Pfeife zum Rauchen von Tabak"
+    }
+   ]
   },
   {
    "id": "zertanzte-schuhe",
@@ -329,7 +733,48 @@
      "absatz": "Als der Soldat den guten Rat bekommen hatte, ging er zum König und meldete sich. Er wurde ebenso gut aufgenommen wie die anderen, und man zog ihm königliche Kleider an. Am Abend wurde er in das Vorzimmer geführt. Als er zu Bett gehen wollte, kam die älteste Königstochter und brachte ihm einen Becher Wein."
     }
    ],
-   "woerterhilfe": "zertanzt (beim Tanzen kaputtgegangen) · verriegeln (fest verschließen) · herausbringen (herausfinden) · ausrufen lassen (öffentlich bekannt machen) · unsichtbar"
+   "fussnoten": [
+    {
+     "stelle": "verriegelte",
+     "erklaerung": "fest verschloss"
+    },
+    {
+     "stelle": "zertanzt",
+     "erklaerung": "beim Tanzen kaputtgegangen"
+    },
+    {
+     "stelle": "herausbringen",
+     "erklaerung": "herausfinden"
+    },
+    {
+     "stelle": "ausrufen",
+     "erklaerung": "öffentlich bekannt machen"
+    },
+    {
+     "stelle": "aufgeschlagen",
+     "erklaerung": "Das Bett war aufgeschlagen: Das Bett war bereit."
+    },
+    {
+     "stelle": "achtgeben",
+     "erklaerung": "aufpassen"
+    },
+    {
+     "stelle": "heimlich treiben",
+     "erklaerung": "etwas tun, ohne dass es jemand merkt"
+    },
+    {
+     "stelle": "Sohlen",
+     "erklaerung": "die Unterseite der Schuhe"
+    },
+    {
+     "stelle": "Mäntelchen",
+     "erklaerung": "kleiner Mantel, Umhang"
+    },
+    {
+     "stelle": "nachschleichen",
+     "erklaerung": "leise hinterhergehen"
+    }
+   ]
   },
   {
    "id": "blatt2",
@@ -345,7 +790,13 @@
     }
    ],
    "karten": "Karten: das arme Kind · das Schloss · der König.",
-   "merkmale_im_anfang": "die unbestimmte Zeit"
+   "merkmale_im_anfang": "die unbestimmte Zeit",
+   "fussnoten": [
+    {
+     "stelle": "Mühlrad",
+     "erklaerung": "großes Rad an der Mühle, das vom Wasser gedreht wird"
+    }
+   ]
   },
   {
    "id": "gn1a",
@@ -361,7 +812,13 @@
     }
    ],
    "karten": "Karten: das arme Kind · der dunkle Wald.",
-   "merkmale_im_anfang": "„Es war einmal …“, die Zahl 3 (für E1.4 nicht doppelt zählen: zwei weitere eigene Merkmale)"
+   "merkmale_im_anfang": "„Es war einmal …“, die Zahl 3 (für E1.4 nicht doppelt zählen: zwei weitere eigene Merkmale)",
+   "fussnoten": [
+    {
+     "stelle": "Hirtenstab",
+     "erklaerung": "langer Stock eines Hirten"
+    }
+   ]
   },
   {
    "id": "gn1b",
@@ -377,7 +834,8 @@
     }
    ],
    "karten": "Karten: das jüngste Kind · die kleine Hütte.",
-   "merkmale_im_anfang": "der unbestimmte Ort, die Zahl 3"
+   "merkmale_im_anfang": "der unbestimmte Ort, die Zahl 3",
+   "fussnoten": []
   },
   {
    "id": "blatt4",
@@ -392,7 +850,13 @@
      "absatz": "Es war einmal ein armes Mädchen, das lebte bei seiner Stiefmutter. Jeden Tag musste es Wasser vom Brunnen holen, der weit draußen am Rand des Waldes lag. Der Krug war schwer, und der Weg war lang. Eines Tages setzte es sich müde neben den Brunnen und weinte leise. Da hörte es hinter sich eine Stimme: „Warum weinst du, mein Kind?“ Das Mädchen drehte sich um und sah, wer da zu ihm sprach."
     }
    ],
-   "karten": "Karten: das arme Kind · die Stiefmutter · der Brunnen · der dunkle Wald; passend als Begegnung: die Fee, die Hexe, das sprechende Tier, der Zwerg."
+   "karten": "Karten: das arme Kind · die Stiefmutter · der Brunnen · der dunkle Wald; passend als Begegnung: die Fee, die Hexe, das sprechende Tier, der Zwerg.",
+   "fussnoten": [
+    {
+     "stelle": "Krug",
+     "erklaerung": "Gefäß mit Henkel für Wasser"
+    }
+   ]
   },
   {
    "id": "gn2a",
@@ -407,7 +871,8 @@
      "absatz": "Es war einmal ein Prinz, der ritt auf der Jagd so tief in den dunklen Wald, dass er den Weg nicht mehr fand. Als es Abend wurde, stand er vor einem hohen Turm. Der Turm hatte keine Tür und keine Treppe, nur ganz oben ein kleines Fenster. Der Prinz rief: „Ist da jemand?“ Da öffnete sich das Fenster, und jemand schaute zu ihm herunter."
     }
    ],
-   "karten": "Karten: der Prinz · der dunkle Wald · der Turm."
+   "karten": "Karten: der Prinz · der dunkle Wald · der Turm.",
+   "fussnoten": []
   },
   {
    "id": "gn2b",
@@ -422,7 +887,13 @@
      "absatz": "Ein Schneider hatte drei Söhne. Der jüngste war klein und schmächtig, aber er hatte ein gutes Herz. Als die Brüder in die Welt zogen, wollten sie ihn nicht mitnehmen. Da ging er allein los. Am Abend kam er an eine kleine Hütte mitten im Wald. Er klopfte an, und die Tür ging langsam auf."
     }
    ],
-   "karten": "Karten: das jüngste Kind · die kleine Hütte · der dunkle Wald."
+   "karten": "Karten: das jüngste Kind · die kleine Hütte · der dunkle Wald.",
+   "fussnoten": [
+    {
+     "stelle": "schmächtig",
+     "erklaerung": "dünn und schwach"
+    }
+   ]
   },
   {
    "id": "blatt6",
@@ -437,7 +908,13 @@
      "absatz": "Es war einmal ein König, der besaß einen goldenen Schlüssel. Mit ihm ließ sich die Schatzkammer öffnen, in der aller Reichtum des Landes lag. Eines Morgens war der Schlüssel verschwunden. Auf dem Fensterbrett lag nur eine schwarze Feder. Ohne den Schatz konnte der König kein Korn für den Winter kaufen, und das Volk bekam Hunger. Seine beiden ältesten Töchter weinten nur. Die jüngste aber sprach: „Ich will den Schlüssel suchen.“ Sie steckte die schwarze Feder ein und machte sich auf den Weg."
     }
    ],
-   "karten": "Karten: der König · der goldene Schlüssel · der Schatz · das jüngste Kind."
+   "karten": "Karten: der König · der goldene Schlüssel · der Schatz · das jüngste Kind.",
+   "fussnoten": [
+    {
+     "stelle": "Schatzkammer",
+     "erklaerung": "Raum, in dem ein Schatz aufbewahrt wird"
+    }
+   ]
   },
   {
    "id": "gn3a",
@@ -452,7 +929,13 @@
      "absatz": "Vor langer Zeit raubte ein Riese die Königin und trug sie auf den geheimnisvollen Berg. Dort sperrte er sie in seine Höhle. Der König ließ verkünden: „Wer die Königin befreit, bekommt einen Sack voll Gold.“ Viele starke Ritter zogen los, aber keiner kam zurück. Da sagte der Gärtnerjunge des Schlosses: „Ich will es versuchen.“ Die Leute lachten ihn aus, doch er ging trotzdem."
     }
    ],
-   "karten": "Karten: die Königin · der Riese · der geheimnisvolle Berg · der König."
+   "karten": "Karten: die Königin · der Riese · der geheimnisvolle Berg · der König.",
+   "fussnoten": [
+    {
+     "stelle": "verkünden",
+     "erklaerung": "öffentlich bekannt machen"
+    }
+   ]
   },
   {
    "id": "gn3b",
@@ -467,7 +950,8 @@
      "absatz": "Es war einmal eine Prinzessin, die trug einen verzauberten Ring. Eine Fee hatte ihn ihr bei der Geburt geschenkt und gesagt: „Solange du den Ring trägst, kann dir kein böser Zauber schaden.“ Eines Tages beugte sich die Prinzessin über den Brunnen im Schlossgarten. Da glitt der Ring von ihrem Finger und fiel tief hinab ins Wasser. Noch in derselben Nacht kam eine Krähe ans Fenster und krächzte: „Jetzt gehörst du bald mir!“ Am nächsten Morgen machte sich die Prinzessin auf, um ihren Ring zurückzuholen."
     }
    ],
-   "karten": "Karten: die Prinzessin · der verzauberte Ring · der Brunnen · die Fee · das sprechende Tier."
+   "karten": "Karten: die Prinzessin · der verzauberte Ring · der Brunnen · die Fee · das sprechende Tier.",
+   "fussnoten": []
   },
   {
    "id": "blatt8",
@@ -482,7 +966,8 @@
      "absatz": "Es war einmal ein armes Kind, das hatte im Winter nichts zu essen. Eines Abends ging es hinaus in den Schnee, um Holz zu sammeln. Unter einem kahlen Baum lag ein Apfel. Er war rot und glänzte, als wäre mitten im Winter Sommer. Das Kind hob ihn auf. Da wurde der Apfel warm in seiner Hand und begann zu leuchten."
     }
    ],
-   "karten": "Karten: das arme Kind · der magische Apfel · die Magie."
+   "karten": "Karten: das arme Kind · der magische Apfel · die Magie.",
+   "fussnoten": []
   },
   {
    "id": "gn4a",
@@ -497,7 +982,8 @@
      "absatz": "Ein Hirtenjunge sollte eine wichtige Botschaft zum König bringen. Der Weg war so weit, dass er sieben Tage gebraucht hätte. Schon am ersten Abend konnte er vor Müdigkeit nicht mehr laufen. Da sah er am Wegrand ein Paar alte, staubige Stiefel stehen. Er zog sie an und machte einen Schritt."
     }
    ],
-   "karten": "Karten: das arme Kind · die Siebenmeilenstiefel · die Zahl 7 · der König."
+   "karten": "Karten: das arme Kind · die Siebenmeilenstiefel · die Zahl 7 · der König.",
+   "fussnoten": []
   },
   {
    "id": "gn4b",
@@ -512,7 +998,8 @@
      "absatz": "In einem alten Turm lebte ein Mädchen, das für eine strenge Herrin putzen musste. Ganz oben in der Turmkammer hing ein Spiegel, der war grau vor Staub. Eines Abends wischte das Mädchen den Staub ab. Da sah es im Spiegel nicht sich selbst, sondern ein fremdes Gesicht. Und das Gesicht öffnete den Mund."
     }
    ],
-   "karten": "Karten: der Turm · der Zauberspiegel · das arme Kind · die Magie."
+   "karten": "Karten: der Turm · der Zauberspiegel · das arme Kind · die Magie.",
+   "fussnoten": []
   }
  ]
 }

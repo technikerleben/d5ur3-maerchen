@@ -21,6 +21,12 @@ Unterrichtsreihe 3 im Jahrgang 5 (Aufgabentyp 6, produktionsorientiertes Schreib
 - [Texte](texte/) – neun bearbeitete Grimm-Texte und zwölf eigene Anfänge (gesperrt; maschinenlesbar: `inhalt/texte.json`)
 - [Rückwärtsplanung](planung/Rueckwaertsplanung.md) – fünf Etappen, Indikatoren E1.1–E5.5, Pflichtkern Blatt 1–11, Kapazität, Sprachspur, Textbedarf
 
+## Technik (Phase 4)
+
+- [Produktionsregeln](skill.md) – verbindlich für jede Materialarbeit
+- `python3 tools/build_texte.py` – alle Märchentexte als A4-Schülerfassung mit Zeilennummern und Fußnoten → `ausgabe/texte/`, Zeilenbelege in `ausgabe/texte/zeilen.json`
+- Voraussetzungen: Python 3, `playwright` (Chromium), `pymupdf`
+
 ## Grundlagen
 
 - Jahresplanung Deutsch 5: <https://d5-jahresplanung.vercel.app/>

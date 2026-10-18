@@ -4,7 +4,7 @@ Stand: 18.10.2026 · **Gesperrt.** Bearbeitet nach den Regeln in `planung/Texte_
 
 **Abgleich mit dem Original (18.10.2026):** Jeder Text wurde mit der Fassung bei Projekt Gutenberg-DE verglichen (Kinder- und Hausmärchen, Verlag Otto Hendel, Nummerierung der Ausgabe letzter Hand; Frau Holle: Ausgabe Hille u. Partner). Geprüft wurden Handlung, Reihenfolge, wörtliche Reden und Sprüche; Abweichungen sind eingearbeitet und im Bearbeitungsprotokoll jedes Textes vermerkt. Der Abgleich lief über ein Werkzeug, das die Seite liest und vergleicht, nicht Wort für Wort durch eine Person. Stichproben durch C bei Sprüchen und Reimen werden empfohlen.
 
-Maschinenlesbare Fassung mit Absätzen und Versen: `inhalt/texte.json`. Zeilennummern entstehen beim Satz (wie in Zootiere `zeilen.json`); Zeilenverweise in Blättern und Nachweisen beziehen sich auf den Satz.
+Maschinenlesbare Fassung mit Absätzen, Versen und **Fußnoten für den Druck**: `inhalt/texte.json` (maßgeblich). Die Wörterhilfen unten sind die ersten Entwürfe; die Druckfassungen nutzen die Fußnoten aus `inhalt/texte.json`. Satz: `python3 tools/build_texte.py` → `ausgabe/texte/`. Zeilennummern entstehen beim Satz (wie in Zootiere `zeilen.json`); Zeilenverweise in Blättern und Nachweisen beziehen sich auf den Satz.
 
 Frau Holle (Beispielmärchen) steht in `planung/Texte_Gate_C.md`, Abschnitt 4.
 

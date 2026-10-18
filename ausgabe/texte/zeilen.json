@@ -1,0 +1,419 @@
+{
+ "frau-holle": {
+  "zeilen": 94,
+  "seiten": 4,
+  "zeilen_je_seite": [
+   [
+    1,
+    19
+   ],
+   [
+    20,
+    47
+   ],
+   [
+    48,
+    74
+   ],
+   [
+    75,
+    94
+   ]
+  ],
+  "fussnoten": {
+   "Witwe": 1,
+   "Stieftochter": 3,
+   "spinnen": 6,
+   "Spindel": 7,
+   "Besinnung": 14,
+   "ausgebacken": 19,
+   "Brotschieber": 20,
+   "Gekochtes und Gebratenes": 39,
+   "gedient": 46,
+   "aufgetan": 49,
+   "Jungfrau": 58,
+   "hie": 58,
+   "Da hätte ich Lust": 71,
+   "Magd": 78,
+   "Pech": 87
+  }
+ },
+ "rumpelstilzchen": {
+  "zeilen": 90,
+  "seiten": 4,
+  "zeilen_je_seite": [
+   [
+    1,
+    23
+   ],
+   [
+    24,
+    53
+   ],
+   [
+    54,
+    77
+   ],
+   [
+    78,
+    90
+   ]
+  ],
+  "fussnoten": {
+   "Müller": 1,
+   "Spinnrad": 8,
+   "Jungfer": 17,
+   "Spule": 23,
+   "über die Maßen": 36,
+   "Lebendes": 56,
+   "Boten": 62,
+   "erkundigen": 63,
+   "Kaspar, Melchior, Balzer": 65,
+   "Rippenbiest": 69,
+   "wo Fuchs und Hase sich gute Nacht sagen": 75,
+   "brau": 78,
+   "Kunz": 84,
+   "Leib": 88
+  }
+ },
+ "weisse-schlange": {
+  "zeilen": 28,
+  "seiten": 2,
+  "zeilen_je_seite": [
+   [
+    1,
+    20
+   ],
+   [
+    21,
+    28
+   ]
+  ],
+  "fussnoten": {
+   "Weisheit": 2,
+   "Sitte": 4,
+   "bezwingen": 11,
+   "widerstehen": 14,
+   "Sperlinge": 17,
+   "Genuss": 19,
+   "Gabe": 19,
+   "verliehen": 19,
+   "fortkam": 22,
+   "Verdacht": 22,
+   "Täter": 25,
+   "richten": 26,
+   "beteuerte": 27
+  }
+ },
+ "jorinde-joringel": {
+  "zeilen": 45,
+  "seiten": 3,
+  "zeilen_je_seite": [
+   [
+    1,
+    20
+   ],
+   [
+    21,
+    42
+   ],
+   [
+    43,
+    45
+   ]
+  ],
+  "fussnoten": {
+   "Erzzauberin": 3,
+   "herbeilocken": 5,
+   "freisprach": 7,
+   "Kammer": 10,
+   "Turteltaube": 17,
+   "zuweilen": 18,
+   "klagte": 18,
+   "todbang": 21,
+   "Leide": 24,
+   "zicküth": 25,
+   "Nachtigall": 26,
+   "regen": 29,
+   "murmelte": 34,
+   "Möndel": 38,
+   "Körbel": 38,
+   "zu guter Stund": 39
+  }
+ },
+ "goldene-gans": {
+  "zeilen": 38,
+  "seiten": 2,
+  "zeilen_je_seite": [
+   [
+    1,
+    20
+   ],
+   [
+    21,
+    38
+   ]
+  ],
+  "fussnoten": {
+   "Dummling": 2,
+   "zurückgesetzt": 3,
+   "Holz hauen": 5,
+   "Eierkuchen": 5,
+   "bot ihm einen guten Tag": 8,
+   "Pack dich deiner Wege": 12,
+   "hieb er": 12,
+   "Schaden": 19,
+   "saures Bier": 23,
+   "Trunk": 25,
+   "Aschenkuchen": 27,
+   "von dem Deinigen": 33,
+   "bescheren": 33,
+   "Wirtshaus": 38
+  }
+ },
+ "bienenkoenigin": {
+  "zeilen": 38,
+  "seiten": 2,
+  "zeilen_je_seite": [
+   [
+    1,
+    22
+   ],
+   [
+    23,
+    38
+   ]
+  ],
+  "fussnoten": {
+   "wüstes": 2,
+   "Dummling": 3,
+   "Einfalt": 5,
+   "aufwühlen": 9,
+   "ich leide nicht": 12,
+   "Schlafgemach": 26,
+   "Tafel": 28,
+   "erlöst": 29
+  }
+ },
+ "drei-federn": {
+  "zeilen": 27,
+  "seiten": 2,
+  "zeilen_je_seite": [
+   [
+    1,
+    20
+   ],
+   [
+    21,
+    27
+   ]
+  ],
+  "fussnoten": {
+   "gescheit": 2,
+   "einfältig": 2,
+   "Dummling": 3,
+   "erben": 5,
+   "Falltür": 17,
+   "Jungfer": 20,
+   "Hutzelbein": 21,
+   "geschwind": 24,
+   "Kröte": 25,
+   "Begehren": 27
+  }
+ },
+ "blaues-licht": {
+  "zeilen": 39,
+  "seiten": 2,
+  "zeilen_je_seite": [
+   [
+    1,
+    21
+   ],
+   [
+    22,
+    39
+   ]
+  ],
+  "fussnoten": {
+   "gedient": 2,
+   "Nachtlager": 11,
+   "verschmachte": 12,
+   "barmherzig": 13,
+   "willigte": 17,
+   "Fuder": 20,
+   "geringe": 24,
+   "verlischt": 26,
+   "Tabakspfeife": 39
+  }
+ },
+ "zertanzte-schuhe": {
+  "zeilen": 38,
+  "seiten": 2,
+  "zeilen_je_seite": [
+   [
+    1,
+    20
+   ],
+   [
+    21,
+    38
+   ]
+  ],
+  "fussnoten": {
+   "verriegelte": 4,
+   "zertanzt": 6,
+   "herausbringen": 6,
+   "ausrufen": 8,
+   "aufgeschlagen": 15,
+   "achtgeben": 16,
+   "heimlich treiben": 17,
+   "Sohlen": 20,
+   "Mäntelchen": 31,
+   "nachschleichen": 33
+  }
+ },
+ "blatt2": {
+  "zeilen": 9,
+  "seiten": 1,
+  "zeilen_je_seite": [
+   [
+    1,
+    9
+   ]
+  ],
+  "fussnoten": {
+   "Mühlrad": 4
+  }
+ },
+ "gn1a": {
+  "zeilen": 7,
+  "seiten": 1,
+  "zeilen_je_seite": [
+   [
+    1,
+    7
+   ]
+  ],
+  "fussnoten": {
+   "Hirtenstab": 2
+  }
+ },
+ "gn1b": {
+  "zeilen": 6,
+  "seiten": 1,
+  "zeilen_je_seite": [
+   [
+    1,
+    6
+   ]
+  ],
+  "fussnoten": {}
+ },
+ "blatt4": {
+  "zeilen": 7,
+  "seiten": 1,
+  "zeilen_je_seite": [
+   [
+    1,
+    7
+   ]
+  ],
+  "fussnoten": {
+   "Krug": 3
+  }
+ },
+ "gn2a": {
+  "zeilen": 6,
+  "seiten": 1,
+  "zeilen_je_seite": [
+   [
+    1,
+    6
+   ]
+  ],
+  "fussnoten": {}
+ },
+ "gn2b": {
+  "zeilen": 5,
+  "seiten": 1,
+  "zeilen_je_seite": [
+   [
+    1,
+    5
+   ]
+  ],
+  "fussnoten": {
+   "schmächtig": 2
+  }
+ },
+ "blatt6": {
+  "zeilen": 8,
+  "seiten": 1,
+  "zeilen_je_seite": [
+   [
+    1,
+    8
+   ]
+  ],
+  "fussnoten": {
+   "Schatzkammer": 2
+  }
+ },
+ "gn3a": {
+  "zeilen": 6,
+  "seiten": 1,
+  "zeilen_je_seite": [
+   [
+    1,
+    6
+   ]
+  ],
+  "fussnoten": {
+   "verkünden": 3
+  }
+ },
+ "gn3b": {
+  "zeilen": 8,
+  "seiten": 1,
+  "zeilen_je_seite": [
+   [
+    1,
+    8
+   ]
+  ],
+  "fussnoten": {}
+ },
+ "blatt8": {
+  "zeilen": 5,
+  "seiten": 1,
+  "zeilen_je_seite": [
+   [
+    1,
+    5
+   ]
+  ],
+  "fussnoten": {}
+ },
+ "gn4a": {
+  "zeilen": 5,
+  "seiten": 1,
+  "zeilen_je_seite": [
+   [
+    1,
+    5
+   ]
+  ],
+  "fussnoten": {}
+ },
+ "gn4b": {
+  "zeilen": 5,
+  "seiten": 1,
+  "zeilen_je_seite": [
+   [
+    1,
+    5
+   ]
+  ],
+  "fussnoten": {}
+ }
+}

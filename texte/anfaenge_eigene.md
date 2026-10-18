@@ -1,6 +1,6 @@
 # Selbst verfasste Märchenanfänge im Grimm-Stil · Entwurf Gate C
 
-Stand: 18.10.2026 · **Gesperrt** (maschinenlesbar in `inhalt/texte.json`). Für die Weiterschreiben-Blätter (Blatt B) und die Gelingensnachweise GN1–GN4. Jeder Anfang steht im Präteritum, greift mindestens zwei Märchenkarten auf und endet genau dort, wo der Schwerpunkt der Etappe beginnt. Kennzeichnung im Material: „Märchenanfang, ausgedacht“.
+Stand: 18.10.2026 · **Gesperrt** (maschinenlesbar mit Fußnoten in `inhalt/texte.json`; Satz: `ausgabe/texte/`). Für die Weiterschreiben-Blätter (Blatt B) und die Gelingensnachweise GN1–GN4. Jeder Anfang steht im Präteritum, greift mindestens zwei Märchenkarten auf und endet genau dort, wo der Schwerpunkt der Etappe beginnt. Kennzeichnung im Material: „Märchenanfang, ausgedacht“.
 
 Die GN-Anfänge kommen auf keinem Übungsblatt vor. Variante B ist jeweils gleich schwer wie Variante A.
 
