@@ -26,7 +26,7 @@ Unterrichtsreihe 3 im Jahrgang 5 (Aufgabentyp 6, produktionsorientiertes Schreib
 
 - [Produktionsregeln](skill.md) – verbindlich für jede Materialarbeit
 - `python3 tools/build_texte.py` – alle Märchentexte als A4-Schülerfassung mit Zeilennummern und Fußnoten → `ausgabe/texte/`, Zeilenbelege in `ausgabe/texte/zeilen.json`
-- `python3 tools/build_material.py N` – Etappe N komplett, z. B. Etappe 1 → `ausgabe/etappe1/` (Input, Merkblatt, Blatt 1–2, Schülerpaket, GN1 A/B, Erwartungshorizont, Förder 1F–2F, GN1F A/B)
+- `python3 tools/build_material.py N` – Etappe N komplett, z. B. Etappe 1 → `ausgabe/etappe1/` (Input, Merkblatt, Blatt 1–2, Schülerpaket, GN1 A/B, Erwartungshorizont, Förder 1F–2F, GN1F A/B); Etappe 5 zusätzlich Checkliste K1–K5, Rückmeldekarte, Probearbeit mit Feedbackbogen und Erwartungshorizont, Probearbeit F
 - Voraussetzungen: Python 3, `playwright` (Chromium), `pymupdf`
 
 ## Materialstand
@@ -37,7 +37,7 @@ Unterrichtsreihe 3 im Jahrgang 5 (Aufgabentyp 6, produktionsorientiertes Schreib
 | 2 Figuren und Rollen verstehen | erstellt 18.10.2026, Gate D offen |
 | 3 Märchen aufbauen | erstellt 18.10.2026, Gate D offen |
 | 4 Märchensprache nutzen | erstellt 18.10.2026, Gate D offen |
-| 5 Ein Märchen weiterschreiben, Probearbeit | folgt |
+| 5 Ein Märchen weiterschreiben, Probearbeit | erstellt 18.10.2026, Gate D offen (Probearbeit in einer Fassung) |
 
 ## Grundlagen
 

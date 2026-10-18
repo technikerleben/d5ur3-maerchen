@@ -1,0 +1,510 @@
+{
+ "_hinweis": "Einzige Inhaltsquelle für Etappe 5: Input (HTML) und Merkblatt (PDF) werden aus 'abschnitte' erzeugt und sind 1:1 gleich. Markup wie Etappe 1–4. Nachweis = Probearbeit (nur eine Fassung, Entscheidung C 18.10.2026).",
+ "etappe": 5,
+ "titel": "Ein Märchen weiterschreiben",
+ "ziel": "Ich setze einen Märchenanfang passend fort, führe ihn zu Ende und verbessere meinen Text.",
+ "titelbild": "maerchenbuch",
+ "material": [
+  "weisse-schlange",
+  "jorinde-joringel"
+ ],
+ "material_hinweis": "Zwei Übungsanfänge zur Wahl für Blatt 9–11.",
+ "abschnitte": [
+  {
+   "titel": "Hinweise im Anfang finden",
+   "bloecke": [
+    [
+     "Merke",
+     "Ein Märchenanfang verrät dir viel. Bevor du schreibst, sammelst du Hinweise:\n**Wer?** Welche Figuren gibt es, welche Rolle haben sie?\n**Wo?** An welchem Ort spielt das Märchen?\n**Problem:** Was ist schiefgegangen? Was muss geschafft werden?\n**Märchenmerkmale:** Was ist schon märchenhaft?"
+    ],
+    [
+     "Lies",
+     "*Es war einmal ein Hirtenjunge, der hütete die Schafe des Königs. Eines Abends fehlte das schönste Lamm. Da wurde der König zornig und sprach: „Bringst du es mir bis morgen nicht zurück, so musst du das Land verlassen.“ Traurig ging der Junge in den dunklen Wald hinein.*"
+    ],
+    [
+     "Frage",
+     "Welche Hinweise gibt dir dieser Anfang?"
+    ],
+    [
+     "Gesicherte Antwort",
+     "**Wer?** der Hirtenjunge (Held), der König · **Wo?** der dunkle Wald · **Problem:** Das Lamm fehlt, und der Junge hat nur bis morgen Zeit. · **Merkmale:** *Es war einmal*, ein König, der dunkle Wald."
+    ]
+   ]
+  },
+  {
+   "titel": "Der Bauplan für die Fortsetzung",
+   "bild": "weiterschreiben",
+   "bloecke": [
+    [
+     "Merke",
+     "Der **Anfang** steht schon da. Du planst den Rest:\n1. **Weg:** Die Hauptfigur macht sich auf und trifft jemanden – eine Helferin oder einen Gegenspieler.\n2. **Prüfung:** Sie muss etwas schaffen, oft **dreimal**.\n3. **Lösung:** Das Problem aus dem Anfang wird gelöst.\n4. **Ende:** Belohnung oder Bestrafung, gern mit Schlussformel.\nSchreibe den Plan in **Stichworten**.\n{KARTEN}"
+    ],
+    [
+     "Frage",
+     "Plane eine Fortsetzung für den Hirtenjungen in vier Stichworten."
+    ],
+    [
+     "Gesicherte Antwort",
+     "Zum Beispiel: **Weg:** Fuchs in Dornen, Junge hilft · **Prüfung:** Riese bietet dreimal Schlaftrank an · **Lösung:** Riese schläft, Junge holt das Lamm · **Ende:** König macht ihn zum obersten Hirten.\nAuch andere Pläne sind richtig, wenn das Problem gelöst wird."
+    ]
+   ]
+  },
+  {
+   "titel": "Eine Fortsetzung",
+   "bloecke": [
+    [
+     "Beispiel",
+     "*Im Wald war es finster und still. Da hörte der Junge ein leises Wimmern. Unter einem Busch saß ein kleiner Fuchs, der hatte sich in einer Dornenranke verfangen. Behutsam befreite ihn der Junge. „Weil du mir geholfen hast, will ich dir auch helfen“, sprach der Fuchs. „Der Riese vom Berg hat dein Lamm geholt. Trink nichts aus seinem Becher, denn darin ist ein Schlaftrank.“ Der Junge stieg auf den Berg. Dreimal reichte ihm der Riese den Becher, und dreimal goss der Junge den Trank heimlich aus. Da wunderte sich der Riese, nahm selbst einen großen Schluck und schlief sogleich ein. Leise öffnete der Junge den Stall, nahm das Lamm auf den Arm und lief geschwind nach Hause. Der König freute sich sehr und machte ihn zu seinem obersten Hirten. Und wenn sie nicht gestorben sind, dann leben sie noch heute.*"
+    ],
+    [
+     "Frage",
+     "Finde im Beispiel: den Helfer, die Prüfung, die Lösung und eine Schlussformel."
+    ],
+    [
+     "Gesicherte Antwort",
+     "**Helfer:** der Fuchs · **Prüfung:** dreimal der Becher mit dem Schlaftrank · **Lösung:** Der Riese schläft ein, der Junge holt das Lamm. · **Schlussformel:** *Und wenn sie nicht gestorben sind, dann leben sie noch heute.*"
+    ]
+   ]
+  },
+  {
+   "titel": "Die Checkliste K1–K5",
+   "bloecke": [
+    [
+     "Merke",
+     "**K1 Märchen:** Ist es klar ein Märchen? Es gibt Märchenmerkmale: Zauber, Gut und Böse, die Zahl 3, Belohnung oder Bestrafung, eine Schlussformel.\n**K2 Figuren:** Handeln meine Figuren passend zu ihrer Rolle? Die Heldin oder der Held bleibt sich treu, Helfer helfen, Gegenspieler stören.\n**K3 Handlung:** Greife ich das Problem aus dem Anfang auf? Wird es gelöst? Passt das Ende zum Anfang?\n**K4 Sprache:** Erzähle ich im Präteritum? Hat die wörtliche Rede ihre Zeichen? Nutze ich Märchenwörter?\n**K5 Prüfen:** Habe ich den Prüfbeleg gemacht und mindestens zwei Stellen verbessert?"
+    ],
+    [
+     "Frage",
+     "Prüfe das Beispiel mit K4: Steht es im Präteritum? Hat die wörtliche Rede ihre Zeichen?"
+    ],
+    [
+     "Gesicherte Antwort",
+     "Ja: *hörte, saß, befreite, sprach, stieg, schlief, lief …* stehen im Präteritum. Die Rede des Fuchses steht in **„ “**, mit Begleitsatz *sprach der Fuchs*."
+    ]
+   ]
+  },
+  {
+   "titel": "Pronomen statt Wiederholungen",
+   "bloecke": [
+    [
+     "Merke",
+     "Wenn ein Name immer wieder vorkommt, klingt der Text holprig. Ersetze ihn manchmal durch ein **Pronomen**: *er, sie, es, ihn, ihm, ihr*.\nAber Vorsicht: Es muss klar bleiben, **wer** gemeint ist."
+    ],
+    [
+     "Vergleiche",
+     "Holprig: *Der Junge ging in den Wald. Der Junge hörte ein Wimmern. Der Junge sah einen Fuchs.*\nBesser: *Der Junge ging in den Wald. **Er** hörte ein Wimmern. Da sah **er** einen Fuchs.*"
+    ],
+    [
+     "Frage",
+     "Was ist hier unklar? *Der Junge traf den Riesen. Er war sehr müde.*"
+    ],
+    [
+     "Gesicherte Antwort",
+     "Man weiß nicht, wer müde ist: der Junge oder der Riese. Besser: *Der Junge traf den Riesen. **Der Riese** war sehr müde.*"
+    ]
+   ]
+  },
+  {
+   "titel": "Prüfen und verbessern",
+   "bild": "lupe",
+   "bloecke": [
+    [
+     "So gehst du vor",
+     "**Prüfbeleg** – mach in deinem Text sichtbar, was du geprüft hast:\n1. **Kreise** alle Satzanfänge ein. Fangen viele Sätze gleich an?\n2. **Unterstreiche** die Verben. Stehen sie im Präteritum?\n3. **Markiere** die Zeichen der wörtlichen Rede: „ “ : ? !\nDann **verbessere**: Streiche durch und schreibe das Bessere darüber oder an den Rand."
+    ],
+    [
+     "Frage",
+     "Was kannst du hier verbessern? *Dann ging die Prinzessin zum Turm. Dann sah sie eine Tür. Dann geht sie hinein.*"
+    ],
+    [
+     "Gesicherte Antwort",
+     "Drei Sätze beginnen mit *Dann*, und *geht* steht im Präsens. Zum Beispiel: *Die Prinzessin ging zum Turm. Dort sah sie eine kleine Tür. Leise ging sie hinein.*"
+    ]
+   ]
+  }
+ ],
+ "checkliste": [
+  [
+   "K1",
+   "Märchen",
+   "Ist es klar ein Märchen? Es gibt Märchenmerkmale: Zauber, Gut und Böse, die Zahl 3, Belohnung oder Bestrafung, eine Schlussformel."
+  ],
+  [
+   "K2",
+   "Figuren",
+   "Handeln meine Figuren passend zu ihrer Rolle? Die Heldin oder der Held bleibt sich treu, Helfer helfen, Gegenspieler stören."
+  ],
+  [
+   "K3",
+   "Handlung",
+   "Greife ich das Problem aus dem Anfang auf? Wird es gelöst? Passt das Ende zum Anfang?"
+  ],
+  [
+   "K4",
+   "Sprache",
+   "Erzähle ich im Präteritum? Hat die wörtliche Rede ihre Zeichen? Nutze ich Märchenwörter?"
+  ],
+  [
+   "K5",
+   "Prüfen",
+   "Habe ich den Prüfbeleg gemacht und mindestens zwei Stellen verbessert?"
+  ]
+ ],
+ "blaetter": [
+  {
+   "nr": 9,
+   "titel": "Eine Fortsetzung planen",
+   "brauchst": "Märchenanfang „Die weiße Schlange“ oder „Jorinde und Joringel“ · Merkblatt 5 · Heft",
+   "signet": "weiterschreiben",
+   "pflicht": [
+    {
+     "text": "Wähle einen der beiden Märchenanfänge. Lies ihn zweimal."
+    },
+    {
+     "text": "Sammle Hinweise in einer Tabelle mit vier Spalten: **Wer? (mit Rolle) · Wo? · Problem · Märchenmerkmale**. Schreibe die Zeile dazu.",
+     "beispiel": "Problem: Der Ring der Königin ist weg, und der Diener soll der Dieb sein. ({Z:weisse-schlange:Der Verdacht fiel auf den treuen Diener})"
+    },
+    {
+     "text": "Plane deine Fortsetzung mit dem Bauplan in Stichworten: **Weg · Prüfung · Lösung · Ende**.",
+     "karten": true
+    },
+    {
+     "text": "Prüfe deinen Plan: Wird das Problem aus dem Anfang gelöst? Passt das Ende? Ergänze, was fehlt."
+    }
+   ],
+   "sprachdetektiv": "Suche im Anfang drei Märchenwörter, die du in deiner Fortsetzung benutzen willst. Schreibe sie mit Zeile auf.",
+   "vertiefung": "Plane auch für den anderen Anfang eine Fortsetzung in vier Stichworten."
+  },
+  {
+   "nr": 10,
+   "titel": "Die Fortsetzung schreiben",
+   "brauchst": "deinen Plan von Blatt 9 · deinen Märchenanfang · Heft",
+   "signet": "weiterschreiben",
+   "pflicht": [
+    {
+     "text": "Lege deinen Plan neben dich. Lies das Ende des Märchenanfangs noch einmal."
+    },
+    {
+     "text": "Schreibe die Fortsetzung ins Heft. Schreibe nur in **jede zweite Zeile**, dann hast du Platz für Verbesserungen."
+    },
+    {
+     "text": "Führe das Märchen **zu Ende**: Das Problem wird gelöst, und es gibt ein passendes Ende.",
+     "karten": true
+    },
+    {
+     "text": "Lies deinen Text leise. Setze ein **?** an den Rand, wo du unsicher bist."
+    }
+   ],
+   "vertiefung": "Gib deinem Märchen eine eigene Überschrift. Erzähle eine Stelle noch anschaulicher: Was sieht, hört, fühlt die Figur?"
+  },
+  {
+   "nr": 11,
+   "titel": "Prüfen und verbessern",
+   "brauchst": "deinen Text von Blatt 10 · Checkliste K1–K5 · Rückmeldekarte · Merkblatt 5 · Buntstift",
+   "signet": "lupe",
+   "pflicht": [
+    {
+     "text": "Mach den **Prüfbeleg**: Kreise die Satzanfänge ein. Unterstreiche die Verben. Markiere die Zeichen der wörtlichen Rede."
+    },
+    {
+     "text": "Prüfe deinen Text mit der **Checkliste K1–K5** und kreuze an."
+    },
+    {
+     "text": "Geh zur **Haltestelle**. Ein anderes Kind liest deinen Text und füllt die **Rückmeldekarte** aus. Dann tauscht ihr."
+    },
+    {
+     "text": "Entscheide selbst: Verbessere **mindestens zwei Stellen** in den freien Zeilen. Kreuze in der Checkliste an, was du verbessert hast."
+    }
+   ],
+   "sprachdetektiv": "Suche in deinem Text zwei Sätze hintereinander, die mit demselben Namen beginnen. Ersetze einen Namen durch ein Pronomen. Prüfe: Ist klar, wer gemeint ist?",
+   "vertiefung": "Schreibe deine verbesserte Fortsetzung ins Reine – für das Märchenbuch (Projekt P1)."
+  }
+ ],
+ "nachweis": {
+  "probearbeit": true,
+  "titel": "Probearbeit · Ein Märchen weiterschreiben",
+  "signet": "weiterschreiben",
+  "maerchen": "goldene-gans",
+  "ziele": [
+   {
+    "id": "E5.1",
+    "k": "K1",
+    "kurz": "Textmuster Märchen",
+    "kind": "Meine Fortsetzung ist klar ein Märchen.",
+    "lehrkraft": "mindestens zwei passende Märchenmerkmale (z. B. Zauber, Zahl 3, Gut und Böse, Belohnung/Bestrafung, Schlussformel)",
+    "teilweise": "ein Merkmal oder Merkmale ohne Bezug zur Handlung",
+    "ueben": "Merkblatt 1 · Blatt 1–2"
+   },
+   {
+    "id": "E5.2",
+    "k": "K2",
+    "kurz": "Figuren und Rollen",
+    "kind": "Meine Figuren handeln passend zu ihren Rollen.",
+    "lehrkraft": "der Dummling bleibt gutherzig; Helfer und Gegenspieler handeln rollengerecht; Figuren aus dem Anfang werden genutzt",
+    "teilweise": "Rollen erkennbar, aber einzelne Brüche (z. B. Dummling plötzlich gemein ohne Grund)",
+    "ueben": "Merkblatt 2 · Blatt 3–4"
+   },
+   {
+    "id": "E5.3",
+    "k": "K3",
+    "kurz": "Handlung",
+    "kind": "Ich greife das Problem aus dem Anfang auf, löse es, und das Ende passt.",
+    "lehrkraft": "knüpft an Gans und Wirtshaus an; ein Konflikt wird entwickelt und gelöst; passendes Ende (Belohnung des Guten)",
+    "teilweise": "Anknüpfung vorhanden, aber Lösung oder Ende fehlt oder passt nicht",
+    "ueben": "Merkblatt 3 · Blatt 5–6 · Blatt 9"
+   },
+   {
+    "id": "E5.4",
+    "k": "K4",
+    "kurz": "Märchensprache",
+    "kind": "Ich erzähle im Präteritum und nutze Märchensprache.",
+    "lehrkraft": "durchgehend Präteritum (höchstens zwei Ausrutscher); wörtliche Rede mit Zeichen; mindestens ein Märchenwort oder eine Formel",
+    "teilweise": "überwiegend Präteritum, aber Zeichen der Rede oder Märchensprache fehlen",
+    "ueben": "Merkblatt 4 · Blatt 7–8"
+   },
+   {
+    "id": "E5.5",
+    "k": "K5",
+    "kurz": "Prüfen und verbessern",
+    "kind": "Ich habe meinen Text geprüft und verbessert.",
+    "lehrkraft": "Prüfbeleg vollständig (Satzanfänge, Verben, Redezeichen); Checkliste angekreuzt; mindestens zwei sichtbare Verbesserungen",
+    "teilweise": "Prüfbeleg unvollständig oder nur eine Verbesserung",
+    "ueben": "Merkblatt 5 · Blatt 11"
+   }
+  ],
+  "aufgaben": [
+   {
+    "ziel": "E5.3",
+    "text": "Lies den Märchenanfang „Die goldene Gans“. Plane deine Fortsetzung in Stichworten: **Weg · Prüfung · Lösung · Ende**.",
+    "linien": 6,
+    "erwartung": "Stichworte zu allen vier Teilen; Plan knüpft an Gans, Wirtshaus oder Männlein an"
+   },
+   {
+    "ziel": "E5.1–E5.4",
+    "text": "Schreibe die Fortsetzung und führe das Märchen **zu Ende**. Schreibe im Präteritum. Verbesserungen schreibst du über das Wort oder an den Rand.",
+    "linien": 44,
+    "rand": true,
+    "erwartung": "siehe Kriterien K1–K4"
+   },
+   {
+    "ziel": "E5.5",
+    "text": "Prüfe und verbessere deinen Text:\na) Kreise alle **Satzanfänge** ein.\nb) Unterstreiche die **Verben**.\nc) Markiere die **Zeichen der wörtlichen Rede**.\nd) Kreuze die Checkliste an.\ne) Verbessere **mindestens zwei Stellen**.",
+    "checkliste": true,
+    "linien": 0,
+    "erwartung": "Prüfbeleg a–c sichtbar; Checkliste ausgefüllt; mindestens zwei Verbesserungen"
+   }
+  ],
+  "anknuepfung": "Anknüpfungspunkte im Anfang: die Gans mit Federn aus reinem Gold, das Wirtshaus, der gutherzige, verspottete Dummling, das graue Männlein als möglicher Helfer, die geizigen Brüder als Gegenbild. Naheliegend: Jemand will die Gans oder eine Feder haben (Gier wird bestraft), der Dummling wird belohnt.",
+  "original": "Bei Grimm wollen die Töchter des Wirts eine Feder stehlen und bleiben an der Gans kleben; weitere Leute kleben an. Der Zug bringt eine Königstochter, die nie lacht, zum Lachen. Der König stellt drei Aufgaben, das Männlein hilft, der Dummling heiratet die Königstochter. Das Original ist nur Orientierung, kein Maßstab: Jede schlüssige Fortsetzung gilt."
+ },
+ "foerder": {
+  "bild": "brunnen_spindel",
+  "merkkarte": [
+   [
+    "Bauplan",
+    "**Weg** → **Prüfung** → **Lösung** → **Ende**"
+   ],
+   [
+    "Satzanfänge",
+    "*Da …* · *Bald …* · *Am nächsten Morgen …* · *Zum Schluss …*"
+   ],
+   [
+    "Prüfen",
+    "Früher: *er geht → er **ging*** · Rede: *„Hilf mir!“, rief sie.*"
+   ]
+  ],
+  "blaetter": [
+   {
+    "nr": "9F",
+    "titel": "Eine Fortsetzung planen",
+    "signet": "weiterschreiben",
+    "auftraege": [
+     {
+      "art": "lesen",
+      "text": "Lies: *Es war einmal ein armes Mädchen. Es wohnte mit seiner Großmutter in einer kleinen Hütte. Eines Tages wurde die Großmutter krank. „Nur das Wasser aus dem Zauberbrunnen kann mir helfen“, sagte sie. Der Brunnen lag hinter dem dunklen Wald.*"
+     },
+     {
+      "art": "ankreuzen",
+      "text": "Was ist das **Problem**? Kreuze an.",
+      "optionen": [
+       "Die Großmutter ist krank.",
+       "Die Hütte ist klein."
+      ],
+      "loesung": [
+       "Die Großmutter ist krank."
+      ]
+     },
+     {
+      "art": "ankreuzen",
+      "text": "Wer könnte dem Mädchen im Wald **helfen**? Kreuze an.",
+      "optionen": [
+       "ein sprechender Fuchs",
+       "ein Bus",
+       "eine gute Fee"
+      ],
+      "loesung": [
+       "ein sprechender Fuchs",
+       "eine gute Fee"
+      ]
+     },
+     {
+      "art": "zuordnen",
+      "text": "Bring den Plan in die richtige Reihenfolge. Schreibe **1**, **2**, **3** oder **4** in das Kästchen.",
+      "paare": [
+       [
+        "Das Mädchen bringt das Wasser nach Hause.",
+        "3"
+       ],
+       [
+        "Das Mädchen geht in den Wald.",
+        "1"
+       ],
+       [
+        "Die Großmutter wird gesund.",
+        "4"
+       ],
+       [
+        "Ein Fuchs zeigt ihm den Weg zum Brunnen.",
+        "2"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "nr": "10F",
+    "titel": "Die Fortsetzung schreiben",
+    "signet": "weiterschreiben",
+    "auftraege": [
+     {
+      "art": "luecke",
+      "text": "Fülle die Lücken.",
+      "satz": "Das Mädchen {ging} in den Wald. {Da} saß ein Fuchs am Weg. Der Fuchs {sprach}: „Ich zeige dir den Brunnen.“",
+      "ablenker": [
+       "geht"
+      ]
+     },
+     {
+      "art": "schreiben",
+      "text": "Schreibe weiter: Was passiert am Brunnen? Wie endet das Märchen? Nutze die Satzanfänge: *Am Brunnen … · Da … · Zum Schluss …*",
+      "linien": 6
+     }
+    ]
+   },
+   {
+    "nr": "11F",
+    "titel": "Prüfen und verbessern",
+    "signet": "lupe",
+    "auftraege": [
+     {
+      "art": "luecke",
+      "text": "Setze das Pronomen ein: **es** (das Mädchen) oder **er** (der Fuchs).",
+      "satz": "Das Mädchen lief zum Brunnen. Dort schöpfte {es} Wasser. Der Fuchs wartete. Dann brachte {er} das Mädchen nach Hause.",
+      "ablenker": [
+       "sie"
+      ]
+     },
+     {
+      "art": "ankreuzen",
+      "text": "Welcher Satz ist richtig? Kreuze an.",
+      "optionen": [
+       "Das Mädchen sagt Danke.",
+       "„Danke!“, sagte das Mädchen."
+      ],
+      "loesung": [
+       "„Danke!“, sagte das Mädchen."
+      ]
+     },
+     {
+      "art": "ankreuzen",
+      "text": "Prüfe deinen Text von Blatt 10F. Kreuze an, was stimmt.",
+      "optionen": [
+       "Mein Text erzählt von früher (ging, sah, sprach).",
+       "Das Problem wird gelöst.",
+       "Mein Märchen hat ein Ende.",
+       "Ich habe eine Stelle verbessert."
+      ],
+      "loesung": []
+     }
+    ]
+   }
+  ],
+  "nachweis": {
+   "titel": "Probearbeit F · Die goldene Gans",
+   "ziele": [
+    {
+     "id": "F5.1",
+     "kind": "Meine Fortsetzung ist ein Märchen.",
+     "lehrkraft": "ein Märchenmerkmal (Zauber, Gold, Belohnung …)"
+    },
+    {
+     "id": "F5.2",
+     "kind": "Der Dummling bleibt gut.",
+     "lehrkraft": "Rolle angekreuzt und im Text beibehalten"
+    },
+    {
+     "id": "F5.3",
+     "kind": "Mein Märchen hat ein passendes Ende.",
+     "lehrkraft": "Fortsetzung knüpft an Gans oder Gasthaus an und endet"
+    },
+    {
+     "id": "F5.4",
+     "kind": "Ich erzähle von früher.",
+     "lehrkraft": "überwiegend Präteritum"
+    },
+    {
+     "id": "F5.5",
+     "kind": "Ich habe meinen Text geprüft.",
+     "lehrkraft": "Prüfliste angekreuzt, eine Verbesserung sichtbar"
+    }
+   ],
+   "auftraege": [
+    {
+     "art": "lesen",
+     "text": "Lies: *Es war einmal ein Mann. Er hatte drei Söhne. Den jüngsten nannten alle den Dummling, weil sie ihn für dumm hielten. Die zwei großen Brüder gingen in den Wald. Ein kleines graues Männlein bat sie um etwas zu essen. Aber die Brüder gaben ihm nichts. Da verletzten sie sich beim Holzhacken. Dann ging der Dummling in den Wald. Er teilte sein Essen mit dem Männlein. Das Männlein sprach: „Weil du ein gutes Herz hast, schenke ich dir etwas. Hau den alten Baum dort um.“ In den Wurzeln fand der Dummling eine Gans mit Federn aus Gold. Er nahm sie mit und ging in ein Gasthaus.*"
+    },
+    {
+     "art": "ankreuzen",
+     "text": "Wie ist der Dummling? Kreuze an.",
+     "optionen": [
+      "gut und hilfsbereit",
+      "geizig und böse"
+     ],
+     "loesung": [
+      "gut und hilfsbereit"
+     ],
+     "ziel": "F5.2"
+    },
+    {
+     "art": "ankreuzen",
+     "text": "Was könnte im Gasthaus passieren? Kreuze **eine** Idee an oder schreibe deine eigene Idee in die Fortsetzung.",
+     "optionen": [
+      "Jemand will eine goldene Feder stehlen.",
+      "Der Wirt will die Gans kaufen.",
+      "Das Männlein kommt wieder."
+     ],
+     "loesung": [],
+     "ziel": "F5.3"
+    },
+    {
+     "art": "schreiben",
+     "text": "Schreibe weiter und führe das Märchen zu Ende. Nutze die Satzanfänge: *Im Gasthaus … · Da … · Am nächsten Morgen … · Zum Schluss …*",
+     "linien": 10,
+     "ziel": "F5.1"
+    },
+    {
+     "art": "ankreuzen",
+     "text": "Prüfe deinen Text. Kreuze an, was stimmt. Verbessere dann eine Stelle.",
+     "optionen": [
+      "Mein Text erzählt von früher (ging, sah, sprach).",
+      "Die Rede hat ihre Zeichen „ “.",
+      "Mein Märchen hat ein Ende.",
+      "Ich habe eine Stelle verbessert."
+     ],
+     "loesung": [],
+     "ziel": "F5.5"
+    }
+   ]
+  }
+ }
+}

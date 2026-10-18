@@ -10,7 +10,8 @@ Ausgabe ausgabe/etappeN/:
   Schuelerpaket_EtappeN_A4.pdf  Material (Märchentexte) + Blätter
   GNN_A_A4.pdf / GNN_B_A4.pdf   Gelingensnachweise: Material, Aufgaben, Rückmeldung (A4 Original)
   GNN_Erwartungshorizont_A4.pdf Lehrkraft
-  foerder/                      Merkkarte, Blätter NF, GN-F
+  foerder/                      Merkkarte, Blätter NF, GN-F A/B
+Etappe 5: Probearbeit_A4.pdf (eine Fassung) + Erwartungshorizont, Checkliste_K1-K5, Rueckmeldekarte, foerder/Probearbeit_F_A4.pdf
 Vorher: python3 tools/build_texte.py (Zeilenangaben und Märchentexte).
 """
 from __future__ import annotations
@@ -181,6 +182,7 @@ h1{font-size:26pt}
 .ws{border:1.5pt dashed #111;border-radius:2mm;padding:1.5mm 3mm;margin:2mm 0;display:flex;gap:6mm;flex-wrap:wrap}
 .luecke{display:inline-block;min-width:34mm;border-bottom:1.2pt solid #111}
 .linie{height:12mm;border-bottom:1pt solid #555}
+.fseite,#q{width:180mm}
 .fseite{height:262mm;position:relative;break-after:page;overflow:hidden}.fseite:last-child{break-after:auto}
 .loesung{position:absolute;left:0;right:0;bottom:0;border-top:1.5pt dashed #111;padding-top:2mm;transform:rotate(180deg);font-size:14pt;color:#333}
 .loesung::after{content:"✂ hier umknicken";position:absolute;right:0;top:-6mm;font-size:12pt;transform:rotate(180deg)}
@@ -220,7 +222,7 @@ def blatt_html(e: dict, b: dict) -> str:
     for p in b["pflicht"]:
         s = md(p["text"])
         if p.get("beispiel"):
-            s += "<span class=bsp>Beispiel: %s</span>" % esc(p["beispiel"])
+            s += "<span class=bsp>Beispiel: %s</span>" % md(p["beispiel"])
         if p.get("karten"):
             s += "<span class=karten>%s</span>" % esc(KARTEN)
         li.append("<li>%s</li>" % s)
@@ -319,10 +321,11 @@ F_JS = """
   const neu = () => { const s = document.createElement('div'); s.className = 'fseite'; const k = document.createElement('div'); k.className='inhalt';
     s.appendChild(k); const l = document.createElement('div'); l.className = 'loesung'; s.appendChild(l); document.body.appendChild(s); return s; };
   let s = neu(); s.querySelector('.inhalt').appendChild(kopf); let nr = 0;
-  const raum = (x) => x.getBoundingClientRect().height - x.querySelector('.inhalt').getBoundingClientRect().height - x.querySelector('.loesung').getBoundingClientRect().height - 18;
-  auf.forEach(a => { const inh = s.querySelector('.inhalt'); inh.appendChild(a);
-    if (raum(s) < 0 && inh.children.length > 1) { inh.removeChild(a); s = neu(); s.querySelector('.inhalt').appendChild(a); }
-    nr += 1; if (a.dataset.loes) { const l = s.querySelector('.loesung'); l.innerHTML += (l.innerHTML ? ' | ' : '<b>Lösung:</b> ') + nr + ': ' + a.dataset.loes; } });
+  const raum = (x) => x.getBoundingClientRect().height - x.querySelector('.inhalt').getBoundingClientRect().height - x.querySelector('.loesung').getBoundingClientRect().height - 50;
+  const lege = (x, a) => { const inh = x.querySelector('.inhalt'); inh.appendChild(a); const l = x.querySelector('.loesung'); const alt = l.innerHTML;
+    if (a.dataset.loes) l.innerHTML += (alt ? ' | ' : '<b>Lösung:</b> ') + nr + ': ' + a.dataset.loes; return [inh, l, alt]; };
+  auf.forEach(a => { nr += 1; const [inh, l, alt] = lege(s, a);
+    if (raum(s) < 0 && inh.children.length > 1) { inh.removeChild(a); l.innerHTML = alt; s = neu(); lege(s, a); } });
   document.querySelectorAll('.fseite').forEach(x => { const l = x.querySelector('.loesung'); if (!l.innerHTML) l.remove(); });
   q.remove();
 })();
@@ -346,20 +349,112 @@ def f_merkkarte_html(e: dict) -> str:
 def f_gn_html(e: dict, v: str = "A") -> tuple[str, str]:
     nw = e["foerder"]["nachweis"]
     auftraege = nw["auftraege"] if v == "A" else nw["auftraege_b"]
-    kopf = ("<div class=fkopf><div class=meta>Gelingensnachweis %dF · Variante %s</div><h1>%s</h1><div style='display:flex;gap:8mm;font-size:14pt;margin-bottom:3mm'>"
+    probe = e["nachweis"].get("probearbeit")
+    meta = ("Probearbeit · Etappe %dF" % e["etappe"]) if probe else ("Gelingensnachweis %dF · Variante %s" % (e["etappe"], v))
+    kopf = ("<div class=fkopf><div class=meta>%s</div><h1>%s</h1><div style='display:flex;gap:8mm;font-size:14pt;margin-bottom:3mm'>"
             "<span style='flex:1;border-bottom:1pt solid #111'>Name:</span><span style='flex:1;border-bottom:1pt solid #111'>Datum:</span></div></div>"
-            % (e["etappe"], v, esc(nw["titel"])))
+            % (esc(meta), esc(nw["titel"])))
     # Nachweis: keine Lösungsstreifen
     auf = doc(FOERDER_CSS, "<div id=q>%s%s</div>%s" % (kopf, "".join(re.sub(r"data-loes='[^']*'", "data-loes=''", f_auftrag(a)) for a in auftraege), F_JS))
     rows = "".join("<tr><td>%s</td><td class=k>☐</td><td class=k>☐</td></tr>" % esc(z["kind"]) for z in nw["ziele"])
-    rueck = doc(GN_CSS, "<div class=meta>Gelingensnachweis %dF · Variante %s · Rückmeldung</div><h1>Das hast du gezeigt</h1>"
+    erg = ("(Ziele vorher vereinbart; zeigt, was du in der Wahlzeit übst)" if probe else "(Ziele vorher vereinbart; ab 80 % weiter)")
+    rueck = doc(GN_CSS, "<div class=meta>%s · Rückmeldung</div><h1>Das hast du gezeigt</h1>"
                 "<table><tr><th>Dein Ziel</th><th class=k>✓</th><th class=k>…</th></tr>%s"
                 "<tr><td>Eigenes Förderziel: ______________________</td><td class=k>☐</td><td class=k>☐</td></tr></table>"
-                "<div class=erg><b>Ergebnis: ____ von ____</b> (Ziele vorher vereinbart; ab 80 %% weiter)</div>"
+                "<div class=erg><b>Ergebnis: ____ von ____</b> %s</div>"
                 "<div class=feld><b>Das gelingt dir schon:</b></div><div class=feld><b>Dein nächster Schritt:</b></div>"
                 "<div style='font-size:14pt;margin-top:3mm'>Lehrkraft-Hinweis: %s</div>" % (
-                    e["etappe"], v, rows, esc(" · ".join("%s %s" % (z["id"], z["lehrkraft"]) for z in nw["ziele"]))))
+                    esc(meta), rows, esc(erg), esc(" · ".join("%s %s" % (z["id"], z["lehrkraft"]) for z in nw["ziele"]))))
     return auf, rueck
+
+
+# ------------------------------------------------------------ Etappe 5: Checkliste, Rückmeldekarte, Probearbeit
+EXTRA_CSS = """
+body{font-size:15pt;line-height:1.38}
+h1{font-size:24pt}
+table{width:100%;border-collapse:collapse;font-size:14pt}td,th{border:1pt solid #111;padding:2mm;vertical-align:top;text-align:left}
+th{background:#eee}.k{width:13mm;text-align:center;font-size:18pt}
+.kasten{border:2pt solid #111;border-radius:3mm;padding:2.5mm 4mm;margin-top:4mm}
+.karte{height:128mm;border:2pt dashed #111;border-radius:3mm;padding:2.5mm 5mm;margin-bottom:4mm;overflow:hidden;line-height:1.25}
+.karte h2{font-size:17pt;margin-bottom:.5mm}.karte .linie{height:9mm;border-bottom:1pt solid #555}
+.karte td,.karte th{padding:.6mm 2mm}
+"""
+
+
+def checkliste_html(e: dict) -> str:
+    rows = "".join("<tr><td><b>%s</b> %s</td><td>%s</td><td class=k>☐</td><td class=k>☐</td></tr>" % (k, esc(t), esc(f))
+                   for k, t, f in e["checkliste"])
+    return doc(EXTRA_CSS, (
+        "<div class=kopfzeile><div><div class=meta>Etappe %d · Checkliste</div><h1>Checkliste K1–K5</h1></div><img src='%s' alt=''></div>"
+        "<table><tr><th style='width:30mm'>Kriterium</th><th>Prüffrage</th><th class=k style='font-size:14pt'>geprüft</th>"
+        "<th class=k style='font-size:14pt'>verbessert</th></tr>%s</table>"
+        "<div class=kasten><b>Prüfbeleg</b><br>1. Kreise alle Satzanfänge ein.<br>2. Unterstreiche die Verben: Stehen sie im Präteritum?"
+        "<br>3. Markiere die Zeichen der wörtlichen Rede: „ “ : ? !</div>"
+        "<div class=kasten><b>Ich habe verbessert:</b><div style='height:24mm'></div></div>") % (e["etappe"], bild_uri("lupe"), rows))
+
+
+def rueckmeldekarte_html(e: dict) -> str:
+    rows = "".join("<tr><td><b>%s</b> %s</td><td class=k>☐</td><td class=k>☐</td></tr>" % (k, esc(t)) for k, t, _ in e["checkliste"])
+    karte = ("<div class=karte><h2>Rückmeldekarte</h2><div style='display:flex;gap:6mm;font-size:14pt'><span style='flex:1;border-bottom:1pt solid #111'>für:</span>"
+             "<span style='flex:1;border-bottom:1pt solid #111'>von:</span></div>"
+             "<div style='font-size:14pt;margin-top:2mm'><b>Das hat mir gefallen:</b></div><div class=linie></div>"
+             "<table style='margin-top:2mm'><tr><th>Kriterium</th><th class=k style='font-size:14pt'>ja</th><th class=k style='font-size:14pt'>noch nicht</th></tr>%s</table>"
+             "<div style='font-size:14pt;margin-top:2mm'><b>Mein Tipp:</b></div><div class=linie></div></div>") % rows
+    return doc(EXTRA_CSS, karte * 2)
+
+
+PROBE_CSS = GN_CSS + """
+.zeilen .linie{margin-right:28mm}
+.zeilen{border-right:1pt solid #999;margin-bottom:4mm}
+.ck td,.ck th{padding:1.5mm 2mm}
+"""
+
+
+def probe_html(e: dict, nw: dict) -> str:
+    titel = {t["id"]: t["titel"] for t in json.loads((ROOT / "inhalt" / "texte.json").read_text("utf-8"))["texte"]}
+    sg = "<img src='%s' alt=''>" % bild_uri(nw["signet"]) if nw.get("signet") else ""
+    teile = ["<div class=kopfzeile><div><div class=meta>Probearbeit · Etappe %d</div><h1>%s</h1></div>%s</div>" % (e["etappe"], esc(nw["titel"]), sg),
+             "<div class=namen><span>Name:</span><span>Datum:</span></div>",
+             "<div class=hinweis>Du brauchst: den Märchenanfang „%s“ (vorne). Schreibe auf diese Blätter. Arbeite allein. "
+             "Merkblatt und Märchenkarten bleiben in der Tasche.</div>" % esc(titel[nw["maerchen"]])]
+    for n, a in enumerate(nw["aufgaben"], 1):
+        extra = ""
+        if a.get("checkliste"):
+            extra = "<table class=ck style='margin-top:2mm'><tr><th>Kriterium</th><th>Prüffrage</th><th class=k>✓</th></tr>%s</table>" % "".join(
+                "<tr><td><b>%s</b> %s</td><td>%s</td><td class=k>☐</td></tr>" % (k, esc(t), esc(f)) for k, t, f in e["checkliste"])
+        linien = "<div class=linie></div>" * a["linien"]
+        if a.get("rand"):
+            teile.append("<div class=auf><span class=nr>%d.</span> %s</div><div class=zeilen>%s</div>" % (n, md(a["text"]), linien))
+        else:
+            teile.append("<div class=auf><span class=nr>%d.</span> %s%s%s</div>" % (n, md(a["text"]), extra, linien))
+    return doc(PROBE_CSS, "".join(teile))
+
+
+def probe_feedback_html(e: dict, nw: dict) -> str:
+    rows = "".join("<tr><td><b>%s</b> %s</td><td class=k>☐</td><td class=k>☐</td><td class=k>☐</td><td>%s</td></tr>"
+                   % (z["k"], esc(z["kind"]), esc(z["ueben"])) for z in nw["ziele"])
+    return doc(GN_CSS, (
+        "<div class=meta>Probearbeit · Etappe %d · Feedbackbogen</div><h1>Das kannst du schon – so übst du weiter</h1>"
+        "<table><tr><th>Kriterium</th><th class=k>✓</th><th class=k>~</th><th class=k>…</th><th>Übe mit</th></tr>%s</table>"
+        "<div class=erg>✓ = gelingt · ~ = teilweise · … = noch nicht &nbsp;&nbsp; <b>Ergebnis: ____ von 5</b></div>"
+        "<div class=feld><b>Das gelingt dir schon:</b></div><div class=feld><b>Daran arbeitest du in der Wahlzeit:</b></div>"
+        "<div style='font-size:14pt;margin-top:3mm'><b>Ich übe mit:</b> ☐ Training 1 &nbsp; ☐ Training 2 &nbsp; ☐ Merkblatt ____ &nbsp; ☐ Blatt ____ &nbsp; ☐ Förderblatt ____</div>"
+        "<div style='font-size:14pt;margin-top:3mm'>Die Probearbeit zeigt dir, was du vor der Lernerfolgskontrolle noch üben solltest.</div>"
+        "<div style='font-size:14pt;margin-top:3mm'>Rückmeldung der Lehrkraft</div>") % (e["etappe"], rows))
+
+
+def probe_erwartung_html(e: dict, nw: dict) -> str:
+    teile = ["<div class=meta>Lehrkraft · Probearbeit Etappe %d</div><h1>Erwartungshorizont</h1>" % e["etappe"],
+             "<table><tr><th>Kriterium</th><th>✓ erfüllt, wenn …</th><th>~ teilweise, wenn …</th></tr>%s</table>" % "".join(
+                 "<tr><td><b>%s · %s</b> %s</td><td>%s</td><td>%s</td></tr>" % (z["id"], z["k"], esc(z["kurz"]), esc(z["lehrkraft"]), esc(z["teilweise"]))
+                 for z in nw["ziele"]),
+             "<h2 style='font-size:17pt;margin:5mm 0 2mm'>Aufgaben</h2><table><tr><th>Nr.</th><th>Ziel</th><th>Erwartung</th></tr>%s</table>" % "".join(
+                 "<tr><td>%d</td><td>%s</td><td>%s</td></tr>" % (n, a["ziel"], md(a["erwartung"])) for n, a in enumerate(nw["aufgaben"], 1)),
+             "<h2 style='font-size:17pt;margin:5mm 0 2mm'>Zum Anfang</h2><p style='font-size:14pt'>%s</p>" % esc(nw["anknuepfung"]),
+             "<p style='font-size:14pt;margin-top:2mm'><b>Grimm-Original:</b> %s</p>" % esc(nw["original"]),
+             "<p style='font-size:14pt;margin-top:4mm'>Die Probearbeit ist der fünfte Nachweis (4 von 5 = Etappe 5 abgeschlossen) und Diagnose für die Wahlzeit: "
+             "Jedes offene Kriterium bekommt im Feedbackbogen einen Übungsweg. Es gibt bewusst nur eine Fassung.</p>"]
+    return doc(GN_CSS, "".join(teile))
 
 
 # ------------------------------------------------------------ Zusammenfügen
@@ -399,33 +494,44 @@ def main(n: int) -> int:
 
         mach(mb, aus / f"Merkblatt_{n}_A4.pdf", f"Merkblatt {n}", 12)
         blaetter = [mach(blatt_html(e, b), aus / f"Blatt_{b['nr']}_A4.pdf", f"Etappe {n} · Blatt {b['nr']}", 14) for b in e["blaetter"]]
+        if e.get("checkliste"):
+            blaetter.append(mach(checkliste_html(e), aus / "Checkliste_K1-K5_A4.pdf", "Checkliste K1–K5", 14))
+            blaetter.append(mach(rueckmeldekarte_html(e), aus / "Rueckmeldekarte_A4.pdf", "Rückmeldekarte", 14))
         material = [TEXTE / f"{m}_A4.pdf" for m in e["material"]]
         s = verbinde(material + blaetter, aus / f"Schuelerpaket_Etappe{n}_A4.pdf")
         bericht.append("%-34s %d S.  (Material, dann Blätter)" % (f"Schuelerpaket_Etappe{n}_A4.pdf", s))
         nw = e["nachweis"]
-        for v, var in nw["varianten"].items():
+        if nw.get("probearbeit"):
+            a = mach(probe_html(e, nw), tmp / "probe_auf.pdf", "Probearbeit", 14)
+            r = mach(probe_feedback_html(e, nw), tmp / "probe_fb.pdf", "Probearbeit · Feedback", 14)
+            s = verbinde([TEXTE / f"{nw['maerchen']}_A4.pdf", a, r], aus / "Probearbeit_A4.pdf")
+            bericht.append("%-34s %d S.  (Märchenanfang, Aufgaben, Feedbackbogen)" % ("Probearbeit_A4.pdf", s))
+            mach(probe_erwartung_html(e, nw), aus / "Probearbeit_Erwartungshorizont_A4.pdf", "Probearbeit · Lehrkraft", 12)
+        for v, var in nw.get("varianten", {}).items():
             a = mach(gn_aufgaben_html(e, nw, v), tmp / f"gn_{v}_auf.pdf", f"GN{n} {v}", 14)
             r = mach(gn_rueckmeldung_html(e, nw, v), tmp / f"gn_{v}_rueck.pdf", f"GN{n} {v} · Rückmeldung", 14)
             s = verbinde(([TEXTE / f"{var['maerchen']}_A4.pdf"] if var.get("maerchen") else []) + [a, r], aus / f"GN{n}_{v}_A4.pdf")
             bericht.append("%-34s %d S.  (Material, Aufgaben, Rückmeldung)" % (f"GN{n}_{v}_A4.pdf", s))
-        mach(gn_erwartung_html(e, nw), aus / f"GN{n}_Erwartungshorizont_A4.pdf", f"GN{n} · Lehrkraft", 12)
+        if nw.get("varianten"):
+            mach(gn_erwartung_html(e, nw), aus / f"GN{n}_Erwartungshorizont_A4.pdf", f"GN{n} · Lehrkraft", 12)
         # Förder
         f = e["foerder"]
         fa = aus / "foerder"
         mk = mach(f_merkkarte_html(e), tmp / "f_merk.pdf", f"Merkkarte {n}F", 14)
         fb = [mach(f_blatt_html(e, b, "Etappe %dF · Blatt %s" % (n, b["nr"])), tmp / f"f_{b['nr']}.pdf", f"Blatt {b['nr']}", 14) for b in f["blaetter"]]
         fa.mkdir(exist_ok=True)
-        s = verbinde([mk, TEXTE / f"{f['material']}_A4.pdf"] + fb, fa / f"Foerder_Etappe{n}_A4.pdf")
+        s = verbinde([mk] + ([TEXTE / f"{f['material']}_A4.pdf"] if f.get("material") else []) + fb, fa / f"Foerder_Etappe{n}_A4.pdf")
         bericht.append("%-34s %d S.  (Merkkarte, Material, Blätter)" % (f"foerder/Foerder_Etappe{n}_A4.pdf", s))
         alt = fa / f"GN{n}F_A4.pdf"
         if alt.exists():
             alt.unlink()
         for v in (["A", "B"] if f["nachweis"].get("auftraege_b") else ["A"]):
             auf, rueck = f_gn_html(e, v)
-            a = mach(auf, tmp / f"f_gn_{v}_auf.pdf", f"GN{n}F {v}", 14)
-            r = mach(rueck, tmp / f"f_gn_{v}_rueck.pdf", f"GN{n}F {v} · Rückmeldung", 14)
-            s = verbinde([a, r], fa / f"GN{n}F_{v}_A4.pdf")
-            bericht.append("%-34s %d S." % (f"foerder/GN{n}F_{v}_A4.pdf", s))
+            a = mach(auf, tmp / f"f_gn_{v}_auf.pdf", "Probearbeit F" if nw.get("probearbeit") else f"GN{n}F {v}", 14)
+            r = mach(rueck, tmp / f"f_gn_{v}_rueck.pdf", ("Probearbeit F" if nw.get("probearbeit") else f"GN{n}F {v}") + " · Rückmeldung", 14)
+            name = "Probearbeit_F_A4.pdf" if nw.get("probearbeit") else f"GN{n}F_{v}_A4.pdf"
+            s = verbinde([a, r], fa / name)
+            bericht.append("%-34s %d S." % ("foerder/" + name, s))
         br.close()
     print("\n".join(bericht))
     for x in tmp.iterdir():

@@ -267,3 +267,10 @@ GN1–GN4 brauchen außer dem Anfang zum Weiterschreiben einen kurzen, unbekannt
 
 - GN1–GN4 liegen in zwei gleichwertigen Fassungen A und B vor (eigene Anfänge, eigene Märchentexte); dasselbe gilt für die Förderfassungen GN1F–GN4F (Variante A/B, gleiche Ziele, andere Kurztexte und Items).
 - Die **Probearbeit** gibt es nach Entscheidung von C **nur in einer Fassung** („Die goldene Gans“): Sie ist Diagnose, kein Freigabetest. Die individuelle Rückmeldung zu K1–K5 lenkt das Üben in der Wahlzeit.
+
+## 10c Etappe 5 umgesetzt (18.10.2026)
+
+- Input/Merkblatt 5 (6 Abschnitte): Hinweise im Anfang finden, Bauplan für die Fortsetzung, Musterfortsetzung („Der Hirtenjunge und das Lamm“, selbst verfasst), Checkliste K1–K5, Pronomen statt Wiederholungen, Prüfen und verbessern (Prüfbeleg).
+- Blatt 9–11 mit Wahl zwischen „Die weiße Schlange“ und „Jorinde und Joringel“; Checkliste K1–K5 und Rückmeldekarte (2 je A4) als eigene Druckseiten im Schülerpaket.
+- Probearbeit „Die goldene Gans“: Märchenanfang mit Zeilen und Fußnoten, 1 Plan, 2 Fortsetzung (44 Linien mit Rand), 3 Prüfbeleg und Checkliste; Feedbackbogen mit Übungsweg je Kriterium; Erwartungshorizont mit Stufen ✓/~ und Hinweis auf das Grimm-Original (nur Orientierung).
+- Förder: 9F–11F (eigener Kurzanfang „Zauberbrunnen“), Probearbeit F mit vereinfachtem Anfang und Satzanfängen.
