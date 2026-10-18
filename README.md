@@ -19,6 +19,7 @@ Unterrichtsreihe 3 im Jahrgang 5 (Aufgabentyp 6, produktionsorientiertes Schreib
 - [Projektgrundlage](planung/Projektgrundlage.md) – Entscheidungen, Zeitmodell W1–W6, Texte, Bilder, Märchenbuch
 - [Textauswahl Gate C](planung/Texte_Gate_C.md) – Grimm-Texte, selbst verfasste Anfänge, Bearbeitungsregeln, „Frau Holle“
 - [Texte](texte/) – neun bearbeitete Grimm-Texte und zwölf eigene Anfänge (gesperrt; maschinenlesbar: `inhalt/texte.json`)
+- [Bildstil und Bildliste](planung/Bildstil.md) – Stil für KI-Bilder, zehn Motive mit Einsatzort
 - [Rückwärtsplanung](planung/Rueckwaertsplanung.md) – fünf Etappen, Indikatoren E1.1–E5.5, Pflichtkern Blatt 1–11, Kapazität, Sprachspur, Textbedarf
 
 ## Technik (Phase 4)
