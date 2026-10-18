@@ -1,0 +1,172 @@
+{
+ "_hinweis": "Einzige Inhaltsquelle für Etappe 4: Input (HTML) und Merkblatt (PDF) werden aus 'abschnitte' erzeugt und sind 1:1 gleich. Markup: *kursiv*, **fett**, \\n Zeilenumbruch, {Z:text-id:Wortlaut} = Zeilenangabe, {KARTEN} = Hinweis auf die Märchenkarten. Nachweis: Weiterschreib-Aufgabe mit \"mit_anfang\": true.",
+ "etappe": 4,
+ "titel": "Märchensprache nutzen",
+ "ziel": "Ich schreibe weiter wie in einem Märchen: im Präteritum, mit Märchenwörtern und anschaulich.",
+ "titelbild": "maerchenbuch",
+ "material": ["blatt8"],
+ "material_hinweis": "„Frau Holle“ liegt aus dem Schülerpaket der Etappe 1 vor.",
+ "abschnitte": [
+  {
+   "titel": "Präteritum: regelmäßige Verben",
+   "bloecke": [
+    ["Merke", "Viele Verben bilden das Präteritum mit **-te**. Der Wortstamm bleibt gleich:\n*sagen* → *er sag**te*** · *weinen* → *sie wein**te*** · *schütteln* → *es schüttel**te*** · *holen* → *sie hol**te***\nMehrzahl: *sie sag**ten***, *sie hol**ten***."],
+    ["Frage", "Bilde das Präteritum: *lachen* · *fragen* · *spielen* · *wohnen*"],
+    ["Gesicherte Antwort", "*er lachte* · *sie fragte* · *es spielte* · *sie wohnte*"]
+   ]
+  },
+  {
+   "titel": "Präteritum: unregelmäßige Verben",
+   "bloecke": [
+    ["Merke", "Viele wichtige Märchenverben sind **unregelmäßig**. Ihr Stamm ändert sich, es gibt kein **-te**:\n*gehen* → *ging* · *kommen* → *kam* · *sprechen* → *sprach* · *finden* → *fand* · *rufen* → *rief* · *fallen* → *fiel* · *sehen* → *sah* · *geben* → *gab* · *nehmen* → *nahm* · *stehen* → *stand* · *sitzen* → *saß* · *laufen* → *lief* · *springen* → *sprang* · *sein* → *war* · *werden* → *wurde*\nDiese Formen musst du dir merken. Die Liste hilft dir beim Schreiben."],
+    ["Frage", "Welche Form ist richtig? *Der Prinz (gehte / ging) in den Wald. Die Hexe (sprach / sprechte) einen Zauberspruch.*"],
+    ["Gesicherte Antwort", "*Der Prinz **ging** in den Wald. Die Hexe **sprach** einen Zauberspruch.*\n„gehte“ und „sprechte“ gibt es nicht."]
+   ]
+  },
+  {
+   "titel": "Vom Präsens ins Präteritum",
+   "bloecke": [
+    ["So gehst du vor", "1. Unterstreiche alle Verben.\n2. Suche die Grundform.\n3. Bilde das Präteritum: mit **-te** oder mit der Liste.\n4. Lies den Satz noch einmal: Klingt er wie ein Märchen?"],
+    ["Vergleiche", "Präsens: *Die Prinzessin sitzt am Brunnen. Sie spielt mit ihrer goldenen Kugel. Plötzlich fällt die Kugel ins Wasser.*"],
+    ["Frage", "Schreibe die Sätze im Präteritum."],
+    ["Gesicherte Antwort", "*Die Prinzessin **saß** am Brunnen. Sie **spielte** mit ihrer goldenen Kugel. Plötzlich **fiel** die Kugel ins Wasser.*"]
+   ]
+  },
+  {
+   "titel": "Märchenwörter und Formeln",
+   "bloecke": [
+    ["Merke", "Märchen klingen alt und feierlich. Du kannst das mit Wörtern und Formeln zeigen:\n**Wörter:** *sprach* statt *sagte* · *vor langer Zeit* · *gar* (sehr) · *geschwind* (schnell) · *die Königstochter* · *der Königssohn*\n**Formeln:** *Es war einmal …* · *Und wenn sie nicht gestorben sind, dann leben sie noch heute.* · *Da …* am Satzanfang\n**Dreier:** *einmal, zweimal, dreimal* · *am ersten, am zweiten, am dritten Tag*"],
+    ["Vergleiche", "Alltag: *Der König hat gesagt: „Okay, du kriegst das Gold.“*\nMärchen: *Der König sprach: „Nun gut, das Gold soll dein sein.“*"],
+    ["Frage", "Forme in Märchensprache um: *Die Hexe hat total wütend geschrien: „Hau ab!“*"],
+    ["Gesicherte Antwort", "Zum Beispiel: *Da rief die Hexe voller Zorn: „Pack dich fort!“*\nAuch andere Lösungen sind richtig, wenn sie alt und feierlich klingen."]
+   ]
+  },
+  {
+   "titel": "Zaubersprüche",
+   "bloecke": [
+    ["Merke", "Zaubersprüche sind kurz, man kann sie sich gut merken, und oft **reimen** sie sich.\nAus Märchen kennst du: *„Töpfchen, koche!“* – *„Tischlein, deck dich!“* – *„Grüß dich, Zachiel …“*"],
+    ["So baust du einen Spruch", "1. Sprich den Zaubergegenstand an: *„Ringlein, Ringlein …“*\n2. Sag, was er tun soll.\n3. Suche zwei Wörter, die sich reimen: *hell – schnell*, *Stein – mein*."],
+    ["Frage", "Erfinde einen Zauberspruch für einen Schlüssel, der jede Tür öffnet."],
+    ["Gesicherte Antwort", "Zum Beispiel: *„Schlüsselein, Schlüsselein, lass mich durch die Tür hinein!“*"]
+   ]
+  },
+  {
+   "titel": "Anschaulich erzählen",
+   "bloecke": [
+    ["Merke", "Eine Zauberszene wird spannend, wenn man sie sich **vorstellen** kann. Erzähle, was man **sieht**, **hört** und **fühlt**.\n**Treffende Verben:** *funkeln, glitzern, flüstern, schweben, knistern, zittern*\n**Treffende Adjektive:** *golden, eisig, strahlend, leise, warm, geheimnisvoll*"],
+    ["Vergleiche", "A: *Dann passierte etwas Magisches.*\nB: *Da begann der Stein zu funkeln. Ein leises Summen erfüllte die Luft, und der Stein wurde in ihrer Hand ganz warm.*"],
+    ["Frage", "Welcher Text ist anschaulicher? Woran liegt das?"],
+    ["Gesicherte Antwort", "B ist anschaulicher: Man **sieht** das Funkeln, **hört** das Summen und **fühlt**, wie der Stein warm wird. A sagt nur, dass etwas passiert."]
+   ]
+  },
+  {
+   "titel": "Die Zauberszene",
+   "bild": "brot_apfelbaum",
+   "bloecke": [
+    ["Lies", "*Ein armer Fischer fand in seinem Netz einen kleinen, glatten Stein. Er wollte ihn schon zurück ins Wasser werfen, da hörte er eine feine Stimme.*"],
+    ["So gehst du vor", "1. Was löst den Zauber aus? (ein Spruch, eine Berührung, ein Wunsch)\n2. Was **sieht**, **hört**, **fühlt** die Figur?\n3. Was verwandelt sich oder geschieht?\n4. Wie reagiert die Figur?\nSchreibe im **Präteritum** und nutze eine **Formel** oder einen **Spruch**.\n{KARTEN}"],
+    ["Beispiel", "*„Wirf mich nicht fort“, flüsterte der Stein. Der Fischer erschrak. Da begann der Stein zu leuchten, heller und immer heller, bis er wie ein kleiner Mond in seiner Hand glänzte. „Sprich: Steinlein, Steinlein, leuchte fein, dann soll dein Wunsch erfüllet sein!“ Der Fischer sprach die Worte, und vor ihm lag ein Korb voller Fische.*"],
+    ["Frage", "Finde im Beispiel: ein Verb im Präteritum, einen Spruch, etwas, das man sieht."],
+    ["Gesicherte Antwort", "Präteritum: *erschrak, begann, glänzte, sprach, lag* · Spruch: *„Steinlein, Steinlein, leuchte fein …“* · sehen: Der Stein **leuchtet** wie ein kleiner Mond."]
+   ]
+  }
+ ],
+ "blaetter": [
+  {
+   "nr": 7,
+   "titel": "So klingt ein Märchen",
+   "brauchst": "Merkblatt 4 · Heft · Märchen „Frau Holle“",
+   "signet": "lupe",
+   "pflicht": [
+    {"text": "Sortiere die Verben in eine Tabelle mit zwei Spalten: **regelmäßig (-te)** und **unregelmäßig**. Schreibe die Grundform dazu: *weinte · sprang · holte · rief · schüttelte · kam · fiel · legte*", "beispiel": "weinte – weinen – regelmäßig"},
+    {"text": "Bilde das Präteritum und schreibe es ins Heft: *suchen · tanzen · finden · sehen · nehmen · stehen*"},
+    {"text": "Schreibe den Text im Präteritum ins Heft:\n*Der Königssohn reitet durch den Wald. Er sieht einen alten Turm. Oben sitzt ein Mädchen und singt. Er ruft laut, aber sie hört ihn nicht.*"},
+    {"text": "Forme in Märchensprache um:\n*Der Bauer hat gesagt: „Super, danke!“*\n*Die Königin war mega sauer.*\n*Der Junge ist schnell weggerannt.*"}
+   ],
+   "sprachdetektiv": "Suche in „Frau Holle“ drei Wörter oder Wendungen, die alt und märchenhaft klingen. Schreibe sie mit Zeile auf.",
+   "vertiefung": "Erfinde einen Zauberspruch mit Reim für einen Gegenstand deiner Märchenkarten."
+  },
+  {
+   "nr": 8,
+   "titel": "Weiterschreiben: die Zauberszene",
+   "brauchst": "Märchenanfang „Der Apfel im Schnee“ · Merkblatt 4 · Heft",
+   "signet": "weiterschreiben",
+   "pflicht": [
+    {"text": "Lies den Märchenanfang „Der Apfel im Schnee“."},
+    {"text": "Sammle Wörter für deine Zauberszene in drei Spalten: **Das sieht das Kind · Das hört es · Das fühlt es**. Mindestens zwei Wörter pro Spalte."},
+    {"text": "Schreibe die Zauberszene im Heft weiter: **4 bis 6 Sätze** im **Präteritum**. Benutze eine Märchenformel oder einen Zauberspruch.", "karten": true},
+    {"text": "Prüfe: Unterstreiche alle Verben. Stehen sie im Präteritum? Markiere deinen Spruch oder deine Formel."}
+   ],
+   "vertiefung": "Wie geht es weiter? Schreibe, was das Kind mit dem Zauber macht."
+  }
+ ],
+ "nachweis": {
+  "titel": "So klingt ein Märchen",
+  "signet": "weiterschreiben",
+  "ziele": [
+   {"id": "E4.1", "kurz": "Präteritum regelmäßig", "kind": "Ich bilde das Präteritum regelmäßiger Verben richtig.", "lehrkraft": "4 von 5 richtig", "ueben": "Blatt 7, Aufgaben 1–2"},
+   {"id": "E4.2", "kurz": "Präteritum unregelmäßig", "kind": "Ich bilde das Präteritum unregelmäßiger Verben richtig.", "lehrkraft": "4 von 5 richtig", "ueben": "Blatt 7, Aufgaben 1–2"},
+   {"id": "E4.3", "kurz": "umformen", "kind": "Ich forme einen kurzen Text ins Präteritum um.", "lehrkraft": "durchgehend Präteritum, Sinn erhalten (höchstens ein Fehler)", "ueben": "Blatt 7, Aufgabe 3"},
+   {"id": "E4.4", "kurz": "Märchensprache", "kind": "Ich setze Märchenwörter oder Formeln passend ein.", "lehrkraft": "zwei passende Einsätze", "ueben": "Blatt 7, Aufgabe 4"},
+   {"id": "E4.5", "kurz": "Zauberszene", "kind": "Ich schreibe eine Zauberszene anschaulich weiter.", "lehrkraft": "mindestens drei anschauliche, passende Wörter; Präteritum; knüpft an den Anfang an", "ueben": "Blatt 8"}
+  ],
+  "varianten": {
+   "A": {
+    "anfang": "gn4a",
+    "aufgaben": [
+     {"ziel": "E4.1", "text": "Schreibe im Präteritum: *sie lacht · er fragt · das Kind spielt · die Frau kocht · der Wolf wartet*", "linien": 2, "erwartung": "lachte · fragte · spielte · kochte · wartete"},
+     {"ziel": "E4.2", "text": "Schreibe im Präteritum: *er geht · sie kommt · der König spricht · das Mädchen sieht · der Junge findet*", "linien": 2, "erwartung": "ging · kam · sprach · sah · fand"},
+     {"ziel": "E4.3", "text": "Schreibe den Text im Präteritum:\n*Eine alte Frau lebt im Wald. Jeden Morgen holt sie Wasser. Eines Tages findet sie am Brunnen einen goldenen Ring.*", "linien": 3, "erwartung": "lebte · holte · fand"},
+     {"ziel": "E4.4", "text": "Forme in Märchensprache um:\n*Der Prinz hat gesagt: „Cool, ich helfe dir!“*\n*Das Mädchen ist voll schnell nach Hause gelaufen.*", "linien": 3, "erwartung": "z. B. Der Prinz sprach: „Gern will ich dir helfen.“ · Das Mädchen lief geschwind nach Hause."},
+     {"ziel": "E4.5", "mit_anfang": true, "text": "Lies den Märchenanfang „Die Stiefel am Wegrand“. Schreibe die Zauberszene weiter (4 bis 6 Sätze, Präteritum). Erzähle, was der Junge sieht, hört und fühlt.", "linien": 8, "erwartung": "knüpft an (Stiefel, erster Schritt); Zauber anschaulich (Sinne, treffende Verben/Adjektive); Präteritum"}
+    ]
+   },
+   "B": {
+    "anfang": "gn4b",
+    "aufgaben": [
+     {"ziel": "E4.1", "text": "Schreibe im Präteritum: *er tanzt · sie sucht · das Kind lernt · der Mann baut · die Ziege meckert*", "linien": 2, "erwartung": "tanzte · suchte · lernte · baute · meckerte"},
+     {"ziel": "E4.2", "text": "Schreibe im Präteritum: *sie läuft · er nimmt · die Hexe ruft · das Kind sitzt · der Vogel fällt*", "linien": 2, "erwartung": "lief · nahm · rief · saß · fiel"},
+     {"ziel": "E4.3", "text": "Schreibe den Text im Präteritum:\n*Ein armer Schuster wohnt in einer kleinen Hütte. Jeden Abend näht er Schuhe. Eines Nachts steht ein Zwerg vor seiner Tür.*", "linien": 3, "erwartung": "wohnte · nähte · stand"},
+     {"ziel": "E4.4", "text": "Forme in Märchensprache um:\n*Die Königin hat gesagt: „Na gut, geh halt!“*\n*Der Riese war total wütend.*", "linien": 3, "erwartung": "z. B. Die Königin sprach: „Nun gut, so geh!“ · Der Riese war voller Zorn."},
+     {"ziel": "E4.5", "mit_anfang": true, "text": "Lies den Märchenanfang „Der Spiegel im Turm“. Schreibe die Zauberszene weiter (4 bis 6 Sätze, Präteritum). Erzähle, was das Mädchen sieht, hört und fühlt.", "linien": 8, "erwartung": "knüpft an (Gesicht im Spiegel spricht); Zauber anschaulich; Präteritum"}
+    ]
+   }
+  }
+ },
+ "foerder": {
+  "material": "frau-holle-f",
+  "bild": "maerchenbuch",
+  "merkkarte": [
+   ["Früher", "Märchen erzählen von früher: *er geht → er **ging** · sie kommt → sie **kam** · er sagt → er **sagte***"],
+   ["Märchenwörter", "*sprach* statt *sagte* · *vor langer Zeit* · *geschwind* (schnell)"],
+   ["Zauberspruch", "kurz und mit Reim: *„Töpfchen, koche!“*"]
+  ],
+  "blaetter": [
+   {"nr": "7F", "titel": "So klingt ein Märchen", "signet": "lupe", "auftraege": [
+     {"art": "zuordnen", "text": "Welche Form passt? Schreibe die Zahl in das Kästchen: **1** ging · **2** kam · **3** sagte · **4** rief", "paare": [["sie kommt", "2"], ["er geht", "1"], ["er ruft", "4"], ["sie sagt", "3"]]},
+     {"art": "ankreuzen", "text": "Welcher Satz klingt wie ein Märchen? Kreuze an.", "optionen": ["Der König sprach: „Komm her!“", "Der König sagt: „Komm mal her, okay?“"], "loesung": ["Der König sprach: „Komm her!“"]},
+     {"art": "luecke", "text": "Fülle die Lücken mit der Form von früher.", "satz": "Das Mädchen {ging} in den Wald. Dort {sah} es einen Zwerg.", "ablenker": ["geht"]}
+   ]},
+   {"nr": "8F", "titel": "Die Zauberszene", "signet": "weiterschreiben", "auftraege": [
+     {"art": "lesen", "text": "Lies: *Ein armes Kind fand im Schnee einen Apfel. Der Apfel war warm.*"},
+     {"art": "luecke", "text": "Fülle die Lücken.", "satz": "Da {leuchtete} der Apfel hell. Das Kind {sprach}: „Apfel, Apfel, mach mich satt!“ Plötzlich stand ein Korb mit {Brot} im Schnee.", "ablenker": ["Handy"]},
+     {"art": "ankreuzen", "text": "Was ist der Zauberspruch? Kreuze an.", "optionen": ["„Apfel, Apfel, mach mich satt!“", "Der Apfel war warm."], "loesung": ["„Apfel, Apfel, mach mich satt!“"]},
+     {"art": "schreiben", "text": "Was macht das Kind mit dem Brot? Schreibe einen Satz.", "linien": 2}
+   ]}
+  ],
+  "nachweis": {"titel": "GN4F · So klingt ein Märchen", "ziele": [
+    {"id": "F4.1", "kind": "Ich kenne Formen von früher.", "lehrkraft": "3 von 4 richtig zugeordnet"},
+    {"id": "F4.2", "kind": "Ich setze die Form von früher ein.", "lehrkraft": "beide Lücken richtig"},
+    {"id": "F4.3", "kind": "Ich erkenne Märchensprache.", "lehrkraft": "Märchensatz angekreuzt"},
+    {"id": "F4.4", "kind": "Ich erkenne einen Zauberspruch.", "lehrkraft": "Spruch angekreuzt"},
+    {"id": "F4.5", "kind": "Ich schreibe einen Zaubersatz.", "lehrkraft": "eigener Satz, passt zum Zauber"}
+   ],
+   "auftraege": [
+     {"art": "zuordnen", "text": "Schreibe die Zahl in das Kästchen: **1** sah · **2** fand · **3** lief · **4** spielte", "paare": [["er findet", "2"], ["sie spielt", "4"], ["sie sieht", "1"], ["er läuft", "3"]], "ziel": "F4.1"},
+     {"art": "luecke", "text": "Fülle die Lücken mit der Form von früher.", "satz": "Der Junge {kam} zum Schloss. Er {rief} laut.", "ablenker": ["kommt"], "ziel": "F4.2"},
+     {"art": "ankreuzen", "text": "Welcher Satz klingt wie ein Märchen? Kreuze an.", "optionen": ["Vor langer Zeit lebte ein König.", "Gestern hat der König gechattet."], "loesung": ["Vor langer Zeit lebte ein König."], "ziel": "F4.3"},
+     {"art": "ankreuzen", "text": "Was ist ein Zauberspruch? Kreuze an.", "optionen": ["„Tischlein, deck dich!“", "„Ich habe Hunger.“"], "loesung": ["„Tischlein, deck dich!“"], "ziel": "F4.4"},
+     {"art": "schreiben", "text": "Lies: *Ein Mädchen findet einen Zauberstab.* Was passiert? Schreibe einen Satz.", "linien": 2, "ziel": "F4.5"}
+   ]}
+ }
+}

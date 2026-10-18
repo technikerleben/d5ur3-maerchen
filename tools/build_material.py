@@ -235,18 +235,27 @@ def blatt_html(e: dict, b: dict) -> str:
     return doc(BLATT_CSS, "".join(teile))
 
 
+def mit_anfang(a: dict, var: dict) -> bool:
+    """Weiterschreib-Aufgabe eines Nachweises: ausdrücklich markiert; ohne Markierung in der Variante Ziel En.4."""
+    if any("mit_anfang" in x for x in var["aufgaben"]):
+        return bool(a.get("mit_anfang"))
+    return a["ziel"].endswith(".4")
+
+
 def gn_aufgaben_html(e: dict, nw: dict, v: str) -> str:
     var = nw["varianten"][v]
     titel = {t["id"]: t["titel"] for t in json.loads((ROOT / "inhalt" / "texte.json").read_text("utf-8"))["texte"]}
     sg = "<img src='%s' alt=''>" % bild_uri(nw["signet"]) if nw.get("signet") else ""
     teile = ["<div class=kopfzeile><div><div class=meta>Gelingensnachweis %d · Variante %s</div><h1>%s</h1></div>%s</div>" % (e["etappe"], v, esc(nw["titel"]), sg),
              "<div class=namen><span>Name:</span><span>Datum:</span></div>",
-             "<div class=hinweis>Du brauchst: das Märchen „%s“. Den Märchenanfang „%s“ findest du bei Aufgabe 5. "
-             "Schreibe auf dieses Blatt. Arbeite allein. Merkblatt und Märchenkarten bleiben in der Tasche.</div>" % (esc(titel[var["maerchen"]]), esc(titel[var["anfang"]]))]
+             "<div class=hinweis>%sDen Märchenanfang „%s“ findest du bei Aufgabe %d. "
+             "Schreibe auf dieses Blatt. Arbeite allein. Merkblatt und Märchenkarten bleiben in der Tasche.</div>" % (
+                 ("Du brauchst: das Märchen „%s“. " % esc(titel[var["maerchen"]])) if var.get("maerchen") else "",
+                 esc(titel[var["anfang"]]), 1 + next(i for i, a in enumerate(var["aufgaben"]) if mit_anfang(a, var)))]
     texte = {t["id"]: t for t in json.loads((ROOT / "inhalt" / "texte.json").read_text("utf-8"))["texte"]}
     for n, a in enumerate(var["aufgaben"], 1):
         box = ""
-        if a["ziel"].endswith(".4"):  # Weiterschreiben: Anfang direkt über der Aufgabe
+        if mit_anfang(a, var):  # Weiterschreiben: Anfang direkt über der Aufgabe
             t = texte[var["anfang"]]
             fn = " ".join("<i>%s:</i> %s" % (esc(f["stelle"]), esc(f["erklaerung"])) for f in t.get("fussnoten", []))
             box = ("<div class=anfang><b>%s</b> <span class=q>(%s)</span><div>%s</div>%s</div>" % (
@@ -396,7 +405,7 @@ def main(n: int) -> int:
         for v, var in nw["varianten"].items():
             a = mach(gn_aufgaben_html(e, nw, v), tmp / f"gn_{v}_auf.pdf", f"GN{n} {v}", 14)
             r = mach(gn_rueckmeldung_html(e, nw, v), tmp / f"gn_{v}_rueck.pdf", f"GN{n} {v} · Rückmeldung", 14)
-            s = verbinde([TEXTE / f"{var['maerchen']}_A4.pdf", a, r], aus / f"GN{n}_{v}_A4.pdf")
+            s = verbinde(([TEXTE / f"{var['maerchen']}_A4.pdf"] if var.get("maerchen") else []) + [a, r], aus / f"GN{n}_{v}_A4.pdf")
             bericht.append("%-34s %d S.  (Material, Aufgaben, Rückmeldung)" % (f"GN{n}_{v}_A4.pdf", s))
         mach(gn_erwartung_html(e, nw), aus / f"GN{n}_Erwartungshorizont_A4.pdf", f"GN{n} · Lehrkraft", 12)
         # Förder
