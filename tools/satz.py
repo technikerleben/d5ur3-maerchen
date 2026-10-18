@@ -36,6 +36,11 @@ def font_css() -> str:
     return "\n".join(out)
 
 
+def bild_uri(name: str) -> str:
+    """Strichzeichnung aus assets/bilder/<name>_strich.png als data-URI (offline, eingebettet)."""
+    return "data:image/png;base64," + b64(ROOT / "assets" / "bilder" / f"{name}_strich.png")
+
+
 def esc(s: str) -> str:
     return html.escape(s, quote=False)
 

@@ -1,5 +1,5 @@
 {
- "_hinweis": "Gesperrte Textbasis der Reihe Märchen (Gate C, 18.10.2026). Änderungen nur nach Rücksprache mit C; danach Zeilenverweise prüfen. sperre_pruefung=true: Text darf in keinem Übungsmaterial, Merkblatt, Kiosk oder der Lern-App vorkommen. fussnoten: Die erste Fundstelle von 'stelle' (ganzes Wort) erhält im Druck eine Fußnote mit 'erklaerung'.",
+ "_hinweis": "Gesperrte Textbasis der Reihe Märchen (Gate C, 18.10.2026). Änderungen nur nach Rücksprache mit C; danach Zeilenverweise prüfen. sperre_pruefung=true: Text darf in keinem Übungsmaterial, Merkblatt, Kiosk oder der Lern-App vorkommen. fussnoten: Die erste Fundstelle von 'stelle' (ganzes Wort) erhält im Druck eine Fußnote mit 'erklaerung'. bild: optionale Strichzeichnung (assets/bilder/<bild>_strich.png) im Kopf; nie bei sperre_pruefung-Texten.",
  "texte": [
   {
    "id": "frau-holle",
@@ -130,7 +130,8 @@
      "stelle": "Pech",
      "erklaerung": "zähe, schwarze, klebrige Masse"
     }
-   ]
+   ],
+   "bild": "frau_holle_bett"
   },
   {
    "id": "rumpelstilzchen",
@@ -796,7 +797,8 @@
      "stelle": "Mühlrad",
      "erklaerung": "großes Rad an der Mühle, das vom Wasser gedreht wird"
     }
-   ]
+   ],
+   "bild": "muehlrad"
   },
   {
    "id": "gn1a",
@@ -1199,7 +1201,8 @@
      "stelle": "Pech",
      "erklaerung": "schwarze, klebrige Masse"
     }
-   ]
+   ],
+   "bild": "frau_holle_bett"
   }
  ]
 }

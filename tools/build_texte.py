@@ -20,7 +20,7 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from satz import ROOT, esc, fussnoten_positionen, kleinste_schrift, render_seiten, wort_spans  # noqa: E402
+from satz import ROOT, bild_uri, esc, fussnoten_positionen, kleinste_schrift, render_seiten, wort_spans  # noqa: E402
 
 QUELLE = ROOT / "inhalt" / "texte.json"
 AUS = ROOT / "ausgabe" / "texte"
@@ -40,6 +40,7 @@ h1{font-size:30pt;line-height:1.15;margin:1mm 0 1mm}
 .par.vers{padding-left:23mm;font-style:italic;margin-bottom:0}
 .par.vers + .par:not(.vers){margin-top:2.5mm}
 .hint{font-size:14pt;color:#444;margin-top:4mm}
+.kopf{display:flex;gap:6mm;align-items:flex-end;justify-content:space-between}.kopf img{width:44mm;height:auto;flex:none;margin-bottom:3mm}
 """
 
 
@@ -55,7 +56,9 @@ def text_html(t: dict) -> tuple[str, list[dict]]:
             nummern[i] = nr
     teile = []
     kopf = ROLLEN.get(t["rolle"], t["rolle"])
-    teile.append("<div class=meta>%s</div><h1>%s</h1><div class=quelle>%s</div>" % (esc(kopf), esc(t["titel"]), esc(t["quelle"])))
+    bild = "<img src='%s' alt=''>" % bild_uri(t["bild"]) if t.get("bild") else ""
+    teile.append("<div class=kopf><div><div class=meta>%s</div><h1>%s</h1><div class=quelle>%s</div></div>%s</div>" % (
+        esc(kopf), esc(t["titel"]), esc(t["quelle"]), bild))
     for a, p in enumerate(t["text"]):
         if "vers" in p:
             # jeder Vers eine eigene Zeile: Absatz je Vers, Fundstellen über Gesamttext des Absatzes

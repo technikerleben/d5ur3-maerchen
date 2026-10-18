@@ -26,7 +26,7 @@ import pymupdf as fitz
 from playwright.sync_api import sync_playwright
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from satz import FUSS, ROOT, esc, font_css, kleinste_schrift, zeile  # noqa: E402
+from satz import FUSS, ROOT, bild_uri, esc, font_css, kleinste_schrift, zeile  # noqa: E402
 
 TEXTE = ROOT / "ausgabe" / "texte"
 KARTEN = "Dir fehlt eine Idee? Deine Märchenkarten zeigen dir Figuren, Orte, Zauberdinge und Märchenmerkmale."
@@ -65,6 +65,9 @@ h2{font-size:5vh;line-height:1.15;color:var(--blau2)}
 .block.antwort.zu{background:#fff;cursor:pointer}.block.antwort.zu .inhalt{visibility:hidden}
 .block.antwort.zu>b::after{content:" – klicken oder Leertaste";text-transform:none;letter-spacing:0;font-weight:400;color:#666}
 .karten{display:block;margin-top:1vh;font-style:italic;color:var(--blau)}
+.mitbild{display:grid;grid-template-columns:1fr 26vw;gap:3vw;align-items:start}.mitbild .bloecke{display:flex;flex-direction:column;gap:2.2vh}
+.mitbild img,.titelbild{width:100%;background:#fff;border-radius:1.6vh;padding:1.5vh;border:.3vh solid #d9d6cf}
+.titel{display:grid;grid-template-columns:1fr 30vw;gap:4vw;align-items:center;flex:1}
 .leiste{position:fixed;left:0;right:0;bottom:0;height:6vh;background:var(--blau2);color:#fff;display:flex;align-items:center;gap:2vw;padding:0 3vw;font-size:2vh}
 .leiste .bar{flex:1;height:1vh;background:#ffffff33;border-radius:1vh;overflow:hidden}.leiste .bar i{display:block;height:100%;background:var(--rost)}
 .leiste button{background:none;border:.2vh solid #fff8;color:#fff;border-radius:.8vh;padding:.6vh 1.4vh;font:inherit;cursor:pointer}
@@ -89,14 +92,21 @@ def block_html(name: str, text: str, input_: bool) -> str:
     return "<div class='block %s%s'><b>%s</b><div class=inhalt>%s</div></div>" % (cls, zu, esc(name), md(text))
 
 
+def mit_bild(a: dict, bloecke: str) -> str:
+    if not a.get("bild"):
+        return bloecke
+    return "<div class=mitbild><div class=bloecke>%s</div><img src='%s' alt=''></div>" % (bloecke, bild_uri(a["bild"]))
+
+
 def input_html(e: dict) -> str:
     kopf = "Deutsch · Jahrgang 5 · Märchen · Etappe %d" % e["etappe"]
-    folien = ["<section class=folie><div class=kopf>%s</div><h1>%s</h1><div class=ziel><b>Dein Ziel:</b> %s</div></section>"
-              % (esc(kopf), esc(e["titel"]), esc(e["ziel"]))]
+    tb = "<img class=titelbild src='%s' alt=''>" % bild_uri(e["titelbild"]) if e.get("titelbild") else ""
+    folien = ["<section class=folie><div class=kopf>%s</div><div class=titel><div><h1>%s</h1><br><div class=ziel><b>Dein Ziel:</b> %s</div></div>%s</div></section>"
+              % (esc(kopf), esc(e["titel"]), esc(e["ziel"]), tb)]
     for n, a in enumerate(e["abschnitte"], 1):
         lang = " lang" if sum(len(t) for _, t in a["bloecke"]) > 520 else ""
         folien.append("<section class='folie%s'><div class=kopf>%s · %d/%d</div><h2>%s</h2>%s</section>" % (
-            lang, esc(kopf), n, len(e["abschnitte"]), esc(a["titel"]), "".join(block_html(b, t, True) for b, t in a["bloecke"])))
+            lang, esc(kopf), n, len(e["abschnitte"]), esc(a["titel"]), mit_bild(a, "".join(block_html(b, t, True) for b, t in a["bloecke"]))))
     return ("<!doctype html><html lang=de><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'>"
             "<title>Input Etappe %d · %s</title><style>%s%s</style></head><body>%s"
             "<div class=leiste><button class=zur>◀</button><span class=nr></span><div class=bar><i></i></div>"
@@ -114,6 +124,8 @@ body{font-family:'Andika',sans-serif;color:#111;background:#fff}
 h1{line-height:1.12;margin:1mm 0 3mm}
 em{font-style:italic}strong{font-weight:700}
 .karten{display:block;margin-top:2mm;padding:2mm 3mm;border:1pt solid #777;border-radius:2mm;font-style:italic}
+.kopfzeile{display:flex;justify-content:space-between;align-items:flex-end;gap:5mm}.kopfzeile img{height:30mm;width:auto;flex:none;margin-bottom:2mm}
+.abbild{float:right;width:30mm;margin:0 0 2mm 3mm}
 """
 
 MERK_CSS = """
@@ -187,10 +199,12 @@ def drucke(pg, html_: str, pdf: Path, fuss_rechts: str) -> float:
 
 
 def merkblatt_html(e: dict) -> str:
-    teile = ["<div class=meta>Merkblatt · Etappe %d</div><h1>%s</h1><div class=ziel><b>Dein Ziel:</b> %s</div>"
-             % (e["etappe"], esc(e["titel"]), esc(e["ziel"]))]
+    tb = "<img src='%s' alt=''>" % bild_uri(e["titelbild"]) if e.get("titelbild") else ""
+    teile = ["<div class=kopfzeile><div><div class=meta>Merkblatt · Etappe %d</div><h1>%s</h1></div>%s</div><div class=ziel><b>Dein Ziel:</b> %s</div>"
+             % (e["etappe"], esc(e["titel"]), tb, esc(e["ziel"]))]
     for n, a in enumerate(e["abschnitte"], 1):
-        teile.append("<h2>%d · %s</h2>%s" % (n, esc(a["titel"]), "".join(block_html(b, t, False) for b, t in a["bloecke"])))
+        ab = "<img class=abbild src='%s' alt=''>" % bild_uri(a["bild"]) if a.get("bild") else ""
+        teile.append("<h2>%d · %s</h2>%s%s" % (n, esc(a["titel"]), ab, "".join(block_html(b, t, False) for b, t in a["bloecke"])))
     return doc(MERK_CSS, teile[0] + "<div class=spalten style='column-fill:balance'>%s</div>" % "".join(teile[1:]))
 
 
@@ -203,8 +217,9 @@ def blatt_html(e: dict, b: dict) -> str:
         if p.get("karten"):
             s += "<span class=karten>%s</span>" % esc(KARTEN)
         li.append("<li>%s</li>" % s)
-    teile = ["<div class=meta>Etappe %d · Blatt %s</div><h1>%s</h1><div class=brauchst><b>Das brauchst du:</b> %s</div>"
-             % (e["etappe"], b["nr"], esc(b["titel"]), esc(b["brauchst"])),
+    sg = "<img src='%s' alt=''>" % bild_uri(b["signet"]) if b.get("signet") else ""
+    teile = ["<div class=kopfzeile><div><div class=meta>Etappe %d · Blatt %s</div><h1>%s</h1><div class=brauchst><b>Das brauchst du:</b> %s</div></div>%s</div>"
+             % (e["etappe"], b["nr"], esc(b["titel"]), esc(b["brauchst"]), sg),
              "<div class='kasten pflicht'><span class=etikett>PFLICHT</span><ol>%s</ol></div>" % "".join(li)]
     if b.get("sprachdetektiv"):
         teile.append("<div class='kasten sprache'><span class=etikett>SPRACHDETEKTIV · PFLICHT</span><div>%s</div></div>" % md(b["sprachdetektiv"]))
@@ -216,7 +231,8 @@ def blatt_html(e: dict, b: dict) -> str:
 def gn_aufgaben_html(e: dict, nw: dict, v: str) -> str:
     var = nw["varianten"][v]
     titel = {t["id"]: t["titel"] for t in json.loads((ROOT / "inhalt" / "texte.json").read_text("utf-8"))["texte"]}
-    teile = ["<div class=meta>Gelingensnachweis %d · Variante %s</div><h1>%s</h1>" % (e["etappe"], v, esc(nw["titel"])),
+    sg = "<img src='%s' alt=''>" % bild_uri(nw["signet"]) if nw.get("signet") else ""
+    teile = ["<div class=kopfzeile><div><div class=meta>Gelingensnachweis %d · Variante %s</div><h1>%s</h1></div>%s</div>" % (e["etappe"], v, esc(nw["titel"]), sg),
              "<div class=namen><span>Name:</span><span>Datum:</span></div>",
              "<div class=hinweis>Du brauchst: „%s“ und den Märchenanfang „%s“. Schreibe auf dieses Blatt. "
              "Arbeite allein. Merkblatt und Märchenkarten bleiben in der Tasche.</div>" % (esc(titel[var["maerchen"]]), esc(titel[var["anfang"]]))]
@@ -290,15 +306,17 @@ F_JS = """
 
 
 def f_blatt_html(e: dict, b: dict, titel_meta: str) -> str:
-    teile = "<div class=fkopf><div class=meta>%s</div><h1>%s</h1></div>%s" % (
-        esc(titel_meta), esc(b["titel"]), "".join(f_auftrag(a) for a in b["auftraege"]))
+    sg = "<img src='%s' alt=''>" % bild_uri(b["signet"]) if b.get("signet") else ""
+    teile = "<div class=fkopf><div class=kopfzeile><div><div class=meta>%s</div><h1>%s</h1></div>%s</div></div>%s" % (
+        esc(titel_meta), esc(b["titel"]), sg, "".join(f_auftrag(a) for a in b["auftraege"]))
     return doc(FOERDER_CSS, "<div id=q>%s</div>%s" % (teile, F_JS))
 
 
 def f_merkkarte_html(e: dict) -> str:
     f = e["foerder"]
-    return doc(FOERDER_CSS, "<div class=meta>Merkkarte · Etappe %dF</div><h1>%s</h1>%s" % (
-        e["etappe"], esc(e["titel"]), "".join("<div class=merk><b>%s</b>%s</div>" % (esc(k), md(t)) for k, t in f["merkkarte"])))
+    sg = "<img src='%s' alt=''>" % bild_uri(f["bild"]) if f.get("bild") else ""
+    return doc(FOERDER_CSS, "<div class=kopfzeile><div><div class=meta>Merkkarte · Etappe %dF</div><h1>%s</h1></div>%s</div>%s" % (
+        e["etappe"], esc(e["titel"]), sg, "".join("<div class=merk><b>%s</b>%s</div>" % (esc(k), md(t)) for k, t in f["merkkarte"])))
 
 
 def f_gn_html(e: dict) -> tuple[str, str]:

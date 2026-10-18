@@ -47,6 +47,25 @@ Für die Farbfassung ergänzen:
 | 9 | **Das Mädchen und der Vogel** (`vogel`) | Vor einer kleinen Holzhütte am Waldrand hält ein Mädchen behutsam einen kleinen Vogel in beiden Händen. | Beispiel „Einen Märchenanfang weiterschreiben“ im Input und Merkblatt 1 |
 | 10 | **Otter und König** (`otter_koenig`) | Zwei kleine Bilder nebeneinander, durch einen dünnen Strich getrennt: links ein Fischotter am Flussufer (sachlich gezeichnet), rechts ein König mit Krone vor einem Schloss (märchenhaft). | Abschnitt 1 „So erzählt ein Märchen“ (Präsens ↔ Präteritum); Brücke zur Reihe Zootiere |
 
+## Stand der Bilder (18.10.2026)
+
+Alle zehn Motive liegen als Strichzeichnung vor (KI-generiert, bereitgestellt von C) und sind eingebaut. Aufbereitung: Graustufen, Rand beschnitten, höchstens 1000 px, 16 Graustufen (`assets/bilder/<motiv>_strich.png`, Nachweise in `assets/bilder/quellen.json`). Farbfassungen gibt es noch nicht; der Input zeigt die Strichzeichnungen auf weißen Karten.
+
+| Motiv | eingebaut in (Etappe 1) |
+|---|---|
+| maerchenbuch | Titelfolie Input, Kopf Merkblatt |
+| otter_koenig | Abschnitt 1 „So erzählt ein Märchen“ (Input, Merkblatt) |
+| gold_pech | Abschnitt 2 „Das ist ein Märchen“ |
+| brot_apfelbaum | Abschnitt 3 „Merkmale in Frau Holle“ |
+| vogel | Abschnitt 6 „Einen Märchenanfang weiterschreiben“ |
+| frau_holle_bett | Kopf des Märchentextes „Frau Holle“ (auch einfache Fassung) |
+| muehlrad | Kopf des Märchenanfangs „Die Müllerstochter“ (Blatt 2) |
+| lupe | Signet Blatt 1, GN1 A/B, Blatt 1F |
+| weiterschreiben | Signet Blatt 2, Blatt 2F |
+| brunnen_spindel | Merkkarte 1F |
+
+Hinweis: „gold_pech“ hat eine große schwarze Fläche (Pech). Für den Kopierer unkritisch, aber tonerintensiv; bei Bedarf eine Fassung mit schraffiertem statt flächigem Pech erzeugen. Die Lupe zeigt Textzeilen statt Stern und Schlüssel – passt gut als neutrales Signet.
+
 ## Regeln für den Einsatz
 
 - Höchstens ein Bild pro Blatt; Bilder schmücken die Kopfzeile oder stehen neben dem Material, nie zwischen Aufgaben und Linien.
