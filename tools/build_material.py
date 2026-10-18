@@ -91,7 +91,7 @@ def block_html(name: str, text: str, input_: bool) -> str:
 
 def input_html(e: dict) -> str:
     kopf = "Deutsch · Jahrgang 5 · Märchen · Etappe %d" % e["etappe"]
-    folien = ["<section class="folie"><div class=kopf>%s</div><h1>%s</h1><div class=ziel><b>Dein Ziel:</b> %s</div></section>"
+    folien = ["<section class=folie><div class=kopf>%s</div><h1>%s</h1><div class=ziel><b>Dein Ziel:</b> %s</div></section>"
               % (esc(kopf), esc(e["titel"]), esc(e["ziel"]))]
     for n, a in enumerate(e["abschnitte"], 1):
         lang = " lang" if sum(len(t) for _, t in a["bloecke"]) > 520 else ""
