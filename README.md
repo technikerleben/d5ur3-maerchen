@@ -10,7 +10,7 @@ Unterrichtsreihe 3 im Jahrgang 5 (Aufgabentyp 6, produktionsorientiertes Schreib
 |---|---|---|
 | A | Rahmen: Zeit, Texte, Märchenbuch, Bilder | freigegeben 17.10.2026 |
 | B | Rückwärtsplanung: Etappen, Indikatoren, Weiterschreiben-Blätter, Kapazität | freigegeben 17.10.2026 |
-| C | Textauswahl und Bearbeitung der Grimm-Texte | Liste freigegeben 17.10.2026; Textentwürfe zur Durchsicht |
+| C | Textauswahl und Bearbeitung der Grimm-Texte | Liste und Bearbeitungsentscheidungen freigegeben 18.10.2026; Abgleich mit dem Original offen |
 | D | Freigabe der Druckpakete je Etappe | offen |
 
 ## Planung

@@ -42,7 +42,7 @@ Vollständiger Text. Rolle in der Reihe: Bausteine ordnen, Problem und Lösung, 
 
 **Wörterhilfe:** die Jungfer (alte Anrede für ein junges Mädchen) · das Spinnrad, die Spule · über die Maßen (sehr) · sich erkundigen (nachfragen) · der Bote (jemand, der eine Nachricht überbringt) · brauen (Bier herstellen)
 
-**Bearbeitungsprotokoll:** Satzgefüge geteilt, Rechtschreibung angepasst. Wörtlich erhalten: Rufe und Fragen des Männchens, die drei Gaben (Halsband, Ring, erstes Kind), die Namensliste, der Spruch am Feuer, das Ende der Namensfrage. **Entschärft:** Im Original packt das Männchen „in seiner Wut den linken Fuß mit beiden Händen und riss sich selbst mitten entzwei“. Hier: Es läuft davon und wird nie wieder gesehen. **Zur Entscheidung:** „Das hat dir der Teufel gesagt!“ beibehalten (Grimm) oder ersetzen, z. B. „Das hat dir eine Hexe gesagt!“?
+**Bearbeitungsprotokoll:** Satzgefüge geteilt, Rechtschreibung angepasst. Wörtlich erhalten: Rufe und Fragen des Männchens, die drei Gaben (Halsband, Ring, erstes Kind), die Namensliste, der Spruch am Feuer, das Ende der Namensfrage. **Entschärft:** Im Original packt das Männchen „in seiner Wut den linken Fuß mit beiden Händen und riss sich selbst mitten entzwei“. Hier: Es läuft davon und wird nie wieder gesehen. **Entscheidung C (18.10.2026):** „Das hat dir der Teufel gesagt!“ bleibt wie bei Grimm.
 
 **Für Blatt 5 (Bauplan):** Ausgangslage (Müller prahlt) · Problem (Stroh zu Gold, sonst Tod) · Prüfungen dreimal mit Steigerung (größere Kammer, wertvollerer Lohn: Halsband → Ring → Kind) · Wendung (Bote hört den Namen) · Lösung (Name genannt) · Ende (Rumpelstilzchen verschwindet). Zweite Dreierreihe: drei Tage Namen raten.
 
@@ -156,15 +156,23 @@ Anfang, endet offen. Gleichwertig zu Variante 1: König, drei Söhne, Dummling v
 >
 > Nun ging der eine Bruder rechts, der andere ging links, und sie lachten den Dummling aus, der bei der dritten Feder bleiben musste, da, wo sie niedergefallen war. „Der findet doch nichts“, sagten sie und zogen davon.
 >
-> Der Dummling setzte sich nieder und war traurig. Er wusste nicht, wo er einen feinen Teppich herbekommen sollte, denn hier war weit und breit nichts als Gras und Erde. Da bemerkte er auf einmal, dass neben der Feder eine Falltür lag. Er hob sie in die Höhe. Darunter war eine Treppe, die führte hinab in die Tiefe. Der Dummling stieg hinunter.
+> Der Dummling setzte sich nieder und war traurig. Er wusste nicht, wo er einen feinen Teppich herbekommen sollte, denn hier war weit und breit nichts als Gras und Erde. Da bemerkte er auf einmal, dass neben der Feder eine Falltür lag. Er hob sie in die Höhe. Darunter war eine Treppe, die führte hinab in die Tiefe. Der Dummling stieg hinunter und kam an eine Tür. Er klopfte an und hörte, wie es drinnen rief:
+>
+> „Jungfer grün und klein,
+> Hutzelbein,
+> Hutzelbeins Hündchen,
+> hutzel hin und her,
+> lass geschwind sehen, wer draußen wär.“
+>
+> Die Tür ging auf, und der Dummling sah eine große, dicke Kröte sitzen. Rings um sie herum saßen viele kleine Kröten. Die dicke Kröte fragte freundlich, was er wünsche.
 
-**Wörterhilfe:** gescheit (klug) · einfältig (ein bisschen dumm, naiv) · das Reich erben (König werden, wenn der Vater stirbt) · die Falltür (Tür im Boden)
+**Wörterhilfe:** gescheit (klug) · einfältig (ein bisschen dumm, naiv) · das Reich erben (König werden, wenn der Vater stirbt) · die Falltür (Tür im Boden) · die Jungfer (altes Wort für junges Mädchen) · Hutzelbein (Fantasiename aus dem Spruch) · die Kröte (froschähnliches Tier)
 
-**Kartenbezug:** der König · das jüngste Kind · das Schloss · die Prüfung · die Zahl 3 · die Belohnung
+**Kartenbezug:** der König · das jüngste Kind · das Schloss · das sprechende Tier · die Magie · die Prüfung · die Zahl 3 · die Belohnung
 
-**Bearbeitungsprotokoll:** Rechtschreibung angepasst; Anfang endet, bevor der Dummling unten die Kröten trifft. Weil der Grimm-Anfang kürzer ist als Variante 1, ist der Text hier fast vollständig bis zur Wendestelle erhalten.
+**Bearbeitungsprotokoll:** Rechtschreibung angepasst; Spruch an der Tür wörtlich erhalten. Anfang endet mit der Frage der Kröte, also mit einer angedeuteten Helferfigur (Entscheidung C, 18.10.2026), parallel zu den hilfsbereiten Tieren in Variante 1. Wie die Kröte hilft und welche weiteren Aufgaben folgen, bleibt offen.
 
-**Gleichwertigkeit V1/V2 (für Gate C prüfen):** Beide Anfänge haben König oder Königssöhne, drei Brüder mit verspottetem Dummling, eine Aufgabe und eine offene Wendestelle. V1 (nach Kürzung rund 360 Wörter) gibt mehr Hinweise (hilfsbereite Tiere, drei Aufgaben angekündigt); V2 (rund 220 Wörter) ist kürzer und offener. Vorschlag: V2 um einen Satz ergänzen, der eine Helferfigur andeutet, oder V1 kürzen. **Entscheidung C.**
+**Gleichwertigkeit V1/V2 (Entscheidung C, 18.10.2026):** Beide Anfänge haben König oder Königssöhne, drei Brüder mit verspottetem Dummling, eine Aufgabe, eine angedeutete Hilfe durch Tiere und eine offene Wendestelle. V2 wurde um die Begegnung mit der Kröte ergänzt; V1 rund 360, V2 rund 280 Wörter.
 
 ---
 
@@ -187,7 +195,7 @@ Anfang, endet offen. Problem: Der Soldat sitzt unten im trockenen Brunnen, die H
 
 **Kartenbezug:** der König · die Hexe · der dunkle Wald · die kleine Hütte · der Brunnen · die Magie · die Prüfung · die Zahl 3 (drei Tage Arbeit)
 
-**Bearbeitungsprotokoll:** Rechtschreibung angepasst, Satzgefüge geteilt. Anfang endet, bevor der Soldat die Pfeife am blauen Licht anzündet und das schwarze Männchen erscheint. **Zur Entscheidung:** Die Tabakspfeife ist Grimm und für die Handlung wichtig. Beibehalten oder durch einen anderen Gegenstand ersetzen?
+**Bearbeitungsprotokoll:** Rechtschreibung angepasst, Satzgefüge geteilt. Anfang endet, bevor der Soldat die Pfeife am blauen Licht anzündet und das schwarze Männchen erscheint. **Entscheidung C (18.10.2026):** Die Tabakspfeife bleibt wie bei Grimm (sie löst den Zauber aus).
 
 ---
 
