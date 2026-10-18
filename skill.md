@@ -74,6 +74,9 @@ Etappen im eigenen Tempo: Input + inhaltsgleiches Merkblatt → Pflichtblätter 
 inhalt/texte.json        gesperrte Texte mit Fußnoten (Gate C)
 tools/satz.py            gemeinsame Hilfen: Schrift, Seitenumbruch mit Zeilennummern und Fußnoten, Schriftprüfung
 tools/build_texte.py     Märchentexte A4 -> ausgabe/texte/<id>_A4.pdf, Zeilenbelege ausgabe/texte/zeilen.json
+inhalt/etappeN.json      Inhalt einer Etappe: Input/Merkblatt-Abschnitte, Blätter, Nachweis A/B, Förder
+tools/build_material.py  Etappe N -> ausgabe/etappeN/ (Input, Merkblatt, Blätter, Schülerpaket, GN, F-Material)
+                         Zeilenangaben im Inhalt als {Z:text-id:Wortlaut}; Märchenkarten-Hinweis als {KARTEN}
 assets/fonts/            Andika
 ausgabe/                 erzeugte Dateien (nie von Hand ändern)
 ```

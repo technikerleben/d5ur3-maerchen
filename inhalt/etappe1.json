@@ -1,0 +1,160 @@
+{
+ "_hinweis": "Einzige Inhaltsquelle für Etappe 1: Input (HTML) und Merkblatt (PDF) werden aus 'abschnitte' erzeugt und sind 1:1 gleich. Markup: *kursiv*, **fett**, \\n Zeilenumbruch, {Z:text-id:Wortlaut} = Zeilenangabe aus ausgabe/texte/zeilen.json, {KARTEN} = Hinweis auf die Märchenkarten.",
+ "etappe": 1,
+ "titel": "Märchen erkennen",
+ "ziel": "Ich erkenne ein Märchen an seinen Merkmalen und führe einen Märchenanfang mit Märchenmerkmalen weiter.",
+ "material": ["frau-holle", "blatt2"],
+ "abschnitte": [
+  {
+   "titel": "So erzählt ein Märchen",
+   "bloecke": [
+    ["Vergleiche", "A: *Der Otter lebt am Fluss.*\nB: *Der König lebte in einem großen Schloss.*"],
+    ["Frage", "Welcher Satz erklärt, wie etwas **immer** ist? Welcher Satz erzählt, was **früher einmal** war?"],
+    ["Gesicherte Antwort", "A steht im **Präsens**. So schreibst du Sachtexte, zum Beispiel über Zootiere.\nB steht im **Präteritum**. So erzählen Märchen: Sie berichten, was vor langer Zeit geschah."]
+   ]
+  },
+  {
+   "titel": "Das ist ein Märchen",
+   "bloecke": [
+    ["Merke", "Märchen sind sehr alte Geschichten. Früher wurden sie mündlich weitererzählt. Die Brüder Grimm haben viele Märchen gesammelt und aufgeschrieben."],
+    ["Märchenmerkmale", "**„Es war einmal …“** – so beginnen viele Märchen.\n**„Und wenn sie nicht gestorben sind …“** – so enden viele Märchen.\n**die unbestimmte Zeit** – „vor langer Zeit“, aber kein Jahr\n**der unbestimmte Ort** – „in einem Wald“, „in einem fernen Land“, aber kein echter Ort\n**Gut und Böse** – gute und böse Figuren stehen sich gegenüber.\n**die Magie** – es gibt Zauberei, Zauberdinge und Tiere oder Dinge, die sprechen.\n**die Verwandlung** – jemand wird in etwas anderes verwandelt.\n**die Prüfung** – die Hauptfigur muss eine Aufgabe lösen.\n**die Zahl 3** und **die Zahl 7** – Dinge geschehen dreimal, es gibt sieben Zwerge.\n**die Belohnung** und **die Bestrafung** – das Gute wird belohnt, das Böse bestraft.\n**Sprüche und Wiederholungen** – Reime und Sätze kommen mehrmals vor."],
+    ["Wichtig", "Nicht jedes Märchen hat alle Merkmale. Ein Text ist ein Märchen, wenn du **mehrere** Merkmale findest."]
+   ]
+  },
+  {
+   "titel": "Merkmale in „Frau Holle“",
+   "bloecke": [
+    ["So suchst du", "1. Lies das Märchen einmal ganz.\n2. Lies es noch einmal und suche ein Merkmal nach dem anderen.\n3. Schreibe das Merkmal und die Zeile auf."],
+    ["Frage", "Welche Märchenmerkmale findest du in „Frau Holle“? Nenne die Zeile."],
+    ["Gesicherte Antwort", "**Gut und Böse:** eine fleißige und eine faule Tochter ({Z:frau-holle:Die eine war fleißig, die andere faul})\n**die Magie:** Das Brot spricht ({Z:frau-holle:Das Brot rief}).\n**die Prüfung:** Die Mädchen sollen dem Brot und dem Apfelbaum helfen und für Frau Holle arbeiten ({Z:frau-holle:Du musst nur achtgeben}).\n**die Zahl 3:** erster, zweiter, dritter Tag ({Z:frau-holle:Am ersten Tag})\n**die Belohnung:** der Goldregen ({Z:frau-holle:fiel ein gewaltiger Goldregen})\n**die Bestrafung:** der Kessel voll Pech ({Z:frau-holle:ein großer Kessel voll Pech})"],
+    ["Entdeckt", "„Frau Holle“ beginnt **nicht** mit „Es war einmal“ und endet **nicht** mit „Und wenn sie nicht gestorben sind“. Trotzdem ist es ein Märchen, denn es hat viele andere Merkmale."]
+   ]
+  },
+  {
+   "titel": "Märchen oder nicht?",
+   "bloecke": [
+    ["Lies", "A: *Gestern ging Lena nach der Schule in den Park. Dort fand sie einen Euro und kaufte sich ein Eis.*\nB: *Vor langer Zeit lebte in einem fernen Land ein König mit drei Töchtern. Die jüngste konnte mit den Vögeln sprechen.*"],
+    ["Frage", "Welcher Text ist ein Märchenanfang? Nenne zwei Merkmale."],
+    ["Gesicherte Antwort", "B ist ein Märchenanfang: **die unbestimmte Zeit** („Vor langer Zeit“), **der unbestimmte Ort** („in einem fernen Land“), **die Zahl 3** (drei Töchter) und **die Magie** (sie spricht mit Vögeln).\nA erzählt etwas aus dem Alltag: mit genauer Zeit („gestern“) und echtem Ort, ohne Zauberei."]
+   ]
+  },
+  {
+   "titel": "Sprachdetektiv: Präteritum",
+   "bloecke": [
+    ["Merke", "Verben zeigen die Zeit. Märchen stehen im **Präteritum**. Zu jedem Verb gibt es eine **Grundform**:\n*sie hatte* → **haben** · *es war* → **sein** · *es sprang* → **springen** · *sie rief* → **rufen**"],
+    ["Frage", "Finde die Grundform: *es fiel* · *sie lief* · *es kam*"],
+    ["Gesicherte Antwort", "*es fiel* → **fallen** · *sie lief* → **laufen** · *es kam* → **kommen**\nTipp: Setze „ich will …“ davor: *ich will fallen*."]
+   ]
+  },
+  {
+   "titel": "Einen Märchenanfang weiterschreiben",
+   "bloecke": [
+    ["Lies", "*Ein armer Holzfäller lebte mit seiner Tochter am Rand eines großen Waldes. Eines Tages fand die Tochter vor der Tür einen kleinen, verletzten Vogel.*"],
+    ["So gehst du vor", "1. Lies den Anfang genau. Wer kommt vor? Was ist passiert?\n2. Wähle **zwei** Märchenmerkmale aus, die du einbauen willst.\n3. Schreibe im **Präteritum** weiter.\n4. Prüfe: Sind beide Merkmale drin? Passt dein Text zum Anfang?\n{KARTEN}"],
+    ["Beispiel", "*Die Tochter pflegte den Vogel drei Tage lang.* (**die Zahl 3**) *Am dritten Morgen öffnete der Vogel den Schnabel und sprach: „Weil du so gut zu mir warst, schenke ich dir eine goldene Feder.“* (**die Magie**, **die Belohnung**)"],
+    ["Frage", "Welche Merkmale stecken im Beispiel? Passt die Fortsetzung zum Anfang?"],
+    ["Gesicherte Antwort", "Im Beispiel stecken **die Zahl 3** (drei Tage), **die Magie** (der Vogel spricht) und **die Belohnung** (die goldene Feder). Die Fortsetzung passt: Sie erzählt weiter, was mit dem Vogel aus dem Anfang geschieht."]
+   ]
+  }
+ ],
+ "karten_hinweis": "Dir fehlt eine Idee? Deine Märchenkarten zeigen dir Figuren, Orte, Zauberdinge und Märchenmerkmale.",
+ "blaetter": [
+  {
+   "nr": 1,
+   "titel": "Märchendetektiv",
+   "brauchst": "Märchen „Frau Holle“ · Merkblatt 1 · Heft",
+   "material": "frau-holle",
+   "pflicht": [
+    {"text": "Lies das Märchen „Frau Holle“. Lies es danach ein zweites Mal und markiere Stellen, an denen du ein Märchenmerkmal entdeckst."},
+    {"text": "Finde **drei verschiedene** Märchenmerkmale. Schreibe ins Heft: das Merkmal, die Zeile und ein Stichwort.", "beispiel": "die Bestrafung – Z. … – Pech"},
+    {"text": "In „Frau Holle“ passieren Dinge, die es in Wirklichkeit nicht gibt. Nenne **zwei** Beispiele für Magie. Schreibe die Zeile dazu."},
+    {"text": "„Frau Holle“ hat keine Anfangsformel und keine Schlussformel. Schreibe ins Heft einen passenden **Anfangssatz** mit „Es war einmal“ und einen passenden **Schlusssatz**."}
+   ],
+   "sprachdetektiv": "Diese Verben stehen im Märchen im Präteritum: *hatte · musste · sprang · weinte · rief*. Schreibe zu jedem Verb die Grundform ins Heft.",
+   "vertiefung": "Lies die zwei Textanfänge im Merkblatt (Abschnitt „Märchen oder nicht?“). Erfinde selbst zwei kurze Anfänge: einen Märchenanfang und einen Alltagsanfang. Lass ein anderes Kind raten, welcher das Märchen ist."
+  },
+  {
+   "nr": 2,
+   "titel": "Weiterschreiben: Märchenmerkmale",
+   "brauchst": "Märchenanfang „Die Müllerstochter“ · Merkblatt 1 · Heft",
+   "material": "blatt2",
+   "pflicht": [
+    {"text": "Lies den Märchenanfang „Die Müllerstochter“. Unterstreiche die Wörter, die ein Märchenmerkmal zeigen. Welches Merkmal ist es?"},
+    {"text": "Plane: Wähle **zwei** Märchenmerkmale aus, die du in deine Fortsetzung einbauen willst. Schreibe sie ins Heft.", "karten": true},
+    {"text": "Schreibe den Anfang im Heft weiter: **4 bis 6 Sätze** im Präteritum. Erzähle, wie die Müllerstochter das Wasser sucht."},
+    {"text": "Prüfe deinen Text: Schreibe an den Rand **M1** und **M2**, wo deine zwei Merkmale stehen. Unterstreiche drei Verben im Präteritum."}
+   ],
+   "vertiefung": "Schreibe noch einen Schluss für dein Märchen. Benutze eine Schlussformel."
+  }
+ ],
+ "nachweis": {
+  "titel": "Märchendetektiv",
+  "ziele": [
+   {"id": "E1.1", "kurz": "Merkmale belegen", "kind": "Ich nenne drei Märchenmerkmale und zeige die Zeile.", "lehrkraft": "drei verschiedene Merkmale mit passender Zeile", "ueben": "Blatt 1, Aufgabe 2"},
+   {"id": "E1.2", "kurz": "Formeln", "kind": "Ich erkenne Anfangs- und Schlussformeln.", "lehrkraft": "Formel im Text gefunden und Schlussformel richtig ergänzt", "ueben": "Blatt 1, Aufgabe 4"},
+   {"id": "E1.3", "kurz": "Magie", "kind": "Ich finde zwei Beispiele für Magie.", "lehrkraft": "zwei wunderbare Elemente richtig benannt", "ueben": "Blatt 1, Aufgabe 3"},
+   {"id": "E1.4", "kurz": "Weiterschreiben", "kind": "Ich schreibe einen Märchenanfang weiter und baue zwei Märchenmerkmale ein.", "lehrkraft": "zwei Merkmale erkennbar und passend zum Anfang; Fortsetzung knüpft an", "ueben": "Blatt 2"},
+   {"id": "E1.5", "kurz": "Präteritum", "kind": "Ich nenne zu Verben im Präteritum die Grundform.", "lehrkraft": "4 von 5 Grundformen richtig", "ueben": "Blatt 1, Sprachdetektiv"}
+  ],
+  "varianten": {
+   "A": {
+    "maerchen": "sterntaler",
+    "anfang": "gn1a",
+    "aufgaben": [
+     {"ziel": "E1.1", "text": "Lies „Die Sterntaler“. Finde **drei verschiedene** Märchenmerkmale. Schreibe das Merkmal und die Zeile auf.", "linien": 3, "erwartung": "z. B. „Es war einmal“ ({Z:sterntaler:Es war einmal}), Gut und Böse/ein gutes Kind ({Z:sterntaler:Es war aber gut und fromm}), die Magie: Sterne werden zu Talern ({Z:sterntaler:fielen auf einmal die Sterne}), die Belohnung ({Z:sterntaler:war reich für sein Lebtag}), die Prüfung: Sie gibt alles weg."},
+     {"ziel": "E1.2", "text": "Mit welcher Formel beginnt „Die Sterntaler“? Schreibe sie auf. Das Märchen hat keine Schlussformel. Schreibe eine passende Schlussformel auf.", "linien": 2, "erwartung": "„Es war einmal“; Schlussformel z. B. „Und wenn sie nicht gestorben ist, dann lebt sie noch heute.“"},
+     {"ziel": "E1.3", "text": "Nenne **zwei** Dinge im Märchen, die es in Wirklichkeit nicht gibt.", "linien": 2, "erwartung": "Sterne fallen vom Himmel und sind Geld; plötzlich ein neues Hemd aus feinem Leinen"},
+     {"ziel": "E1.5", "text": "Schreibe die Grundform auf: *war* · *ging* · *sprach* · *kam* · *fielen*", "linien": 1, "erwartung": "sein · gehen · sprechen · kommen · fallen"},
+     {"ziel": "E1.4", "text": "Lies den Märchenanfang „Der Hirtenjunge“. Schreibe ihn auf den Linien weiter (4 bis 6 Sätze). Baue **zwei** Märchenmerkmale ein, die noch nicht im Anfang stehen. Schreibe M1 und M2 an den Rand.", "linien": 9, "erwartung": "Fortsetzung knüpft an (Schaf, Lichter im Wald); zwei neue Merkmale, z. B. Magie, Prüfung, Belohnung, sprechendes Tier"}
+    ]
+   },
+   "B": {
+    "maerchen": "suesser-brei",
+    "anfang": "gn1b",
+    "aufgaben": [
+     {"ziel": "E1.1", "text": "Lies „Der süße Brei“. Finde **drei verschiedene** Märchenmerkmale. Schreibe das Merkmal und die Zeile auf.", "linien": 3, "erwartung": "z. B. „Es war einmal“ ({Z:suesser-brei:Es war einmal}), die Magie: Zaubertopf ({Z:suesser-brei:Sie schenkte ihm ein Töpfchen}), Sprüche: „Töpfchen, koche!“ / „Töpfchen, steh!“, der unbestimmte Ort: „in den Wald“, das arme Kind"},
+     {"ziel": "E1.2", "text": "Mit welcher Formel beginnt „Der süße Brei“? Schreibe sie auf. Das Märchen hat keine Schlussformel. Schreibe eine passende Schlussformel auf.", "linien": 2, "erwartung": "„Es war einmal“; Schlussformel z. B. „Und wenn sie nicht gestorben sind, dann essen sie noch heute Brei.“"},
+     {"ziel": "E1.3", "text": "Nenne **zwei** Dinge im Märchen, die es in Wirklichkeit nicht gibt.", "linien": 2, "erwartung": "Topf kocht auf Befehl; Brei füllt die ganze Stadt; Topf hört auf ein Zauberwort"},
+     {"ziel": "E1.5", "text": "Schreibe die Grundform auf: *hatten* · *ging* · *schenkte* · *wusste* · *stieg*", "linien": 1, "erwartung": "haben · gehen · schenken · wissen · steigen"},
+     {"ziel": "E1.4", "text": "Lies den Märchenanfang „Die Kerzenmacherin“. Schreibe ihn auf den Linien weiter (4 bis 6 Sätze). Baue **zwei** Märchenmerkmale ein, die noch nicht im Anfang stehen. Schreibe M1 und M2 an den Rand.", "linien": 9, "erwartung": "Fortsetzung knüpft an (wer klopft? das Licht); zwei neue Merkmale, z. B. Magie, Fee, Prüfung, Belohnung"}
+    ]
+   }
+  }
+ },
+ "foerder": {
+  "material": "frau-holle-f",
+  "merkkarte": [
+   ["Märchen", "Ein Märchen ist eine alte Geschichte."],
+   ["Merkmale", "„Es war einmal …“ · Zauberei · gut und böse · die Zahl 3 · Belohnung · Strafe"],
+   ["Zeit", "Märchen erzählen von früher: *es war, sie hatte, er rief*."]
+  ],
+  "blaetter": [
+   {"nr": "1F", "titel": "Märchendetektiv", "auftraege": [
+     {"art": "lesen", "text": "Lies „Frau Holle“. Lies Satz für Satz. Zeige mit dem Finger mit."},
+     {"art": "ankreuzen", "text": "Was gibt es in „Frau Holle“? Kreuze **3** an.", "optionen": ["Das Brot spricht.", "Ein Auto fährt.", "Gold fällt auf das Mädchen.", "Die faule Tochter bekommt Pech.", "Das Mädchen spielt mit dem Handy."], "loesung": ["Das Brot spricht.", "Gold fällt auf das Mädchen.", "Die faule Tochter bekommt Pech."]},
+     {"art": "zuordnen", "text": "Wer ist gut, wer ist faul? Schreibe **G** (gut) oder **F** (faul) in das Kästchen.", "paare": [["Das Mädchen hilft dem Brot.", "G"], ["Sie hilft nicht.", "F"], ["Es schüttelt das Bett.", "G"], ["Sie arbeitet nicht.", "F"]]},
+     {"art": "luecke", "text": "Fülle die Lücken. Nutze den Wortspeicher.", "satz": "Die fleißige Tochter bekommt {Gold}. Die faule Tochter bekommt {Pech}.", "ablenker": ["Eis"]}
+   ]},
+   {"nr": "2F", "titel": "Weiterschreiben", "auftraege": [
+     {"art": "lesen", "text": "Lies den Anfang: *Es war einmal ein armes Mädchen. Es fand im Wald einen kleinen Vogel.*"},
+     {"art": "luecke", "text": "Schreibe weiter. Fülle die Lücken. Nutze den Wortspeicher.", "satz": "Das Mädchen pflegte den Vogel {drei} Tage lang. Dann {sprach} der Vogel: „Danke!“ Er schenkte dem Mädchen eine goldene {Feder}.", "ablenker": ["Handy"]},
+     {"art": "ankreuzen", "text": "Welche Märchenmerkmale sind in deinem Text? Kreuze **2** an.", "optionen": ["die Zahl 3", "Zauberei: Der Vogel spricht.", "Ein Auto"], "loesung": ["die Zahl 3", "Zauberei: Der Vogel spricht."]},
+     {"art": "schreiben", "text": "Schreibe einen eigenen Satz: Was macht das Mädchen mit der Feder?", "linien": 2}
+   ]}
+  ],
+  "nachweis": {"titel": "GN1F · Märchendetektiv", "ziele": [
+    {"id": "F1.1", "kind": "Ich erkenne Zauberei im Märchen.", "lehrkraft": "2 von 3 Zauber-Sätzen richtig angekreuzt"},
+    {"id": "F1.2", "kind": "Ich erkenne gut und faul.", "lehrkraft": "3 von 4 richtig zugeordnet"},
+    {"id": "F1.3", "kind": "Ich kenne Belohnung und Strafe.", "lehrkraft": "Gold und Pech richtig eingesetzt"},
+    {"id": "F1.4", "kind": "Ich kenne den Märchenanfang.", "lehrkraft": "„Es war einmal“ erkannt"},
+    {"id": "F1.5", "kind": "Ich schreibe einen Märchensatz weiter.", "lehrkraft": "eigener verständlicher Satz, passt zum Anfang"}
+   ],
+   "auftraege": [
+     {"art": "ankreuzen", "text": "Was ist Zauberei? Kreuze **3** an.", "optionen": ["Der Topf kocht von allein.", "Die Mutter kocht Suppe.", "Sterne werden zu Geld.", "Ein Vogel spricht.", "Das Kind geht zur Schule."], "loesung": ["Der Topf kocht von allein.", "Sterne werden zu Geld.", "Ein Vogel spricht."], "ziel": "F1.1"},
+     {"art": "zuordnen", "text": "Schreibe **G** (gut) oder **F** (faul) in das Kästchen.", "paare": [["Sie teilt ihr Brot.", "G"], ["Er schläft den ganzen Tag.", "F"], ["Sie hilft der alten Frau.", "G"], ["Er will nicht helfen.", "F"]], "ziel": "F1.2"},
+     {"art": "luecke", "text": "Fülle die Lücken.", "satz": "Wer gut ist, bekommt eine {Belohnung}. Wer böse ist, bekommt eine {Strafe}.", "ablenker": ["Pause"], "ziel": "F1.3"},
+     {"art": "ankreuzen", "text": "Wie beginnt ein Märchen? Kreuze an.", "optionen": ["Es war einmal …", "Gestern im Supermarkt …", "Hallo, wie geht's?"], "loesung": ["Es war einmal …"], "ziel": "F1.4"},
+     {"art": "schreiben", "text": "Lies: *Es war einmal ein armer Junge. Er fand einen goldenen Schlüssel.* Schreibe einen Satz weiter.", "linien": 2, "ziel": "F1.5"}
+   ]}
+ }
+}

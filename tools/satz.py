@@ -74,6 +74,31 @@ def wort_spans(text: str, a: int, marken: dict[tuple[int, int], list[int]], numm
     return " ".join(out)
 
 
+# ------------------------------------------------------------ Zeilenverweise
+_ZEILEN: dict | None = None
+
+
+def zeile(text_id: str, wortlaut: str) -> str:
+    """Zeilenangabe („Z. 12“ oder „Z. 12–13“) einer Textstelle im gesetzten Märchentext."""
+    global _ZEILEN
+    if _ZEILEN is None:
+        _ZEILEN = __import__("json").loads((ROOT / "ausgabe" / "texte" / "zeilen.json").read_text(encoding="utf-8"))
+    zeilen = _ZEILEN[text_id]["zeilentext"]
+    voll = " ".join(zeilen)
+    i = voll.find(wortlaut)
+    if i < 0:
+        raise ValueError("Textstelle nicht gefunden in %s: %r" % (text_id, wortlaut))
+    pos, start, ende = 0, None, None
+    for n, z in enumerate(zeilen, 1):
+        if start is None and i < pos + len(z) + 1:
+            start = n
+        if i + len(wortlaut) <= pos + len(z):
+            ende = n
+            break
+        pos += len(z) + 1
+    return "Z. %d" % start if start == ende else "Z. %d–%d" % (start, ende)
+
+
 # ------------------------------------------------------------ Seitenumbruch
 SEITEN_CSS = """
 *{box-sizing:border-box;margin:0;padding:0}

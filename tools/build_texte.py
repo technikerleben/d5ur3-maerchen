@@ -2,7 +2,8 @@
 """Märchentexte als Schülerfassung: A4, Zeilennummern alle 5 Zeilen, Fußnoten am Seitenende.
 
 Quelle: inhalt/texte.json (gesperrt, Gate C). Ausgabe: ausgabe/texte/<id>_A4.pdf und
-ausgabe/texte/zeilen.json (Zeilenzahl, Seiten, Zeilen je Seite, Zeile jeder Fußnote).
+ausgabe/texte/zeilen.json (Zeilenzahl, Seiten, Zeilen je Seite, Zeile jeder Fußnote, Text jeder Zeile).
+Zeilenverweise in anderen Materialien: tools/satz.py zeile(id, wortlaut).
 
     python3 tools/build_texte.py              # alle Texte
     python3 tools/build_texte.py frau-holle   # einzelne Texte
@@ -89,11 +90,15 @@ def main(ids: list[str]) -> int:
             fz = pg  # Seite ist nach dem Rendern noch im DOM
             fn_zeilen = fz.evaluate("""() => [...document.querySelectorAll('sup.fz')].map(s => {
                 const l = s.closest('.ln'); return [+s.dataset.fn, l && l.dataset.zeile ? +l.dataset.zeile : null]; })""")
+            zeilentext = fz.evaluate("""() => [...document.querySelectorAll('.ln[data-zeile]')].map(l => {
+                const c = l.cloneNode(true); c.querySelectorAll('.nr, sup').forEach(x => x.remove());
+                return c.textContent.replace(/\\s+/g, ' ').trim(); })""")
             mn = kleinste_schrift(pdf, ausnahmen=(11.0,))
             ok = mn >= 14
             fehler += not ok
             zeilen_alt[t["id"]] = {"zeilen": info["zeilen"], "seiten": info["seiten"], "zeilen_je_seite": info["zeilen_je_seite"],
-                                   "fussnoten": {t["fussnoten"][i]["stelle"]: z for i, z in fn_zeilen}}
+                                   "fussnoten": {t["fussnoten"][i]["stelle"]: z for i, z in fn_zeilen},
+                                   "zeilentext": zeilentext}
             print("%-18s %3d Zeilen  %d S.  %2d Fußnoten  min %.1f pt %s" % (
                 t["id"], info["zeilen"], info["seiten"], len(fns), mn, "" if ok else "  << unter 14 pt"))
         browser.close()

@@ -1000,6 +1000,206 @@
    ],
    "karten": "Karten: der Turm · der Zauberspiegel · das arme Kind · die Magie.",
    "fussnoten": []
+  },
+  {
+   "id": "sterntaler",
+   "titel": "Die Sterntaler",
+   "khm": 153,
+   "rolle": "gn1_a",
+   "vollstaendig": true,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": true,
+   "quelle": "nach den Brüdern Grimm (KHM 153), bearbeitet",
+   "text": [
+    {
+     "absatz": "Es war einmal ein kleines Mädchen, dem waren Vater und Mutter gestorben. Es war so arm, dass es kein Kämmerchen mehr hatte, darin zu wohnen, und kein Bettchen mehr, darin zu schlafen. Endlich hatte es gar nichts mehr als die Kleider auf dem Leib und ein Stückchen Brot in der Hand, das ihm ein mitleidiges Herz geschenkt hatte. Es war aber gut und fromm. Weil es so von aller Welt verlassen war, ging es im Vertrauen auf den lieben Gott hinaus ins Feld."
+    },
+    {
+     "absatz": "Da begegnete ihm ein armer Mann, der sprach: „Ach, gib mir etwas zu essen, ich bin so hungrig.“ Es reichte ihm das ganze Stückchen Brot, sagte: „Gott segne dir's“, und ging weiter. Da kam ein Kind, das jammerte und sprach: „Es friert mich so an meinem Kopf. Schenk mir etwas, womit ich ihn bedecken kann.“ Da tat es seine Mütze ab und gab sie ihm. Als es noch eine Weile gegangen war, kam wieder ein Kind. Es hatte kein Leibchen an und fror. Da gab es ihm seins. Und noch weiter bat eines um ein Röcklein, das gab es auch von sich hin."
+    },
+    {
+     "absatz": "Endlich gelangte es in einen Wald, und es war schon dunkel geworden. Da kam noch eines und bat um ein Hemdlein. Das gute Mädchen dachte: Es ist dunkle Nacht, da sieht dich niemand, du kannst wohl dein Hemd weggeben. Und es gab auch das Hemd noch hin."
+    },
+    {
+     "absatz": "Wie es so stand und gar nichts mehr hatte, fielen auf einmal die Sterne vom Himmel, und es waren lauter harte, blanke Taler. Und obwohl es sein Hemdlein weggegeben hatte, hatte es auf einmal ein neues an, und das war aus dem allerfeinsten Leinen. Da sammelte es die Taler hinein und war reich für sein Lebtag."
+    }
+   ],
+   "fussnoten": [
+    {
+     "stelle": "Kämmerchen",
+     "erklaerung": "kleines Zimmer"
+    },
+    {
+     "stelle": "mitleidiges Herz",
+     "erklaerung": "ein Mensch, der Mitleid hatte"
+    },
+    {
+     "stelle": "fromm",
+     "erklaerung": "gläubig, glaubt fest an Gott"
+    },
+    {
+     "stelle": "Vertrauen",
+     "erklaerung": "im Vertrauen auf den lieben Gott: Sie glaubte fest, dass Gott ihr hilft."
+    },
+    {
+     "stelle": "Gott segne dir's",
+     "erklaerung": "Gott soll es dir gut gehen lassen."
+    },
+    {
+     "stelle": "Leibchen",
+     "erklaerung": "Unterhemd, Weste"
+    },
+    {
+     "stelle": "Röcklein",
+     "erklaerung": "kleiner Rock"
+    },
+    {
+     "stelle": "Hemdlein",
+     "erklaerung": "kleines Hemd"
+    },
+    {
+     "stelle": "Taler",
+     "erklaerung": "alte Geldmünzen aus Silber"
+    },
+    {
+     "stelle": "Leinen",
+     "erklaerung": "feiner Stoff"
+    },
+    {
+     "stelle": "Lebtag",
+     "erklaerung": "für sein Lebtag: für ihr ganzes Leben"
+    }
+   ],
+   "abgleich": "18.10.2026 mit Projekt Gutenberg-DE (Hendel); das Werkzeug meldete „alter Mann“ und „vergessen“ statt „armer Mann“ und „verlassen“ – unsicher, von C zu prüfen."
+  },
+  {
+   "id": "suesser-brei",
+   "titel": "Der süße Brei",
+   "khm": 103,
+   "rolle": "gn1_b",
+   "vollstaendig": true,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": true,
+   "quelle": "nach den Brüdern Grimm (KHM 103), bearbeitet",
+   "text": [
+    {
+     "absatz": "Es war einmal ein armes, frommes Mädchen, das lebte mit seiner Mutter allein, und sie hatten nichts mehr zu essen. Da ging das Kind hinaus in den Wald. Dort begegnete ihm eine alte Frau, die wusste schon von seinem Kummer. Sie schenkte ihm ein Töpfchen. Zu dem sollte es sagen:"
+    },
+    {
+     "vers": [
+      "„Töpfchen, koche!“"
+     ]
+    },
+    {
+     "absatz": "Dann kochte es guten, süßen Hirsebrei. Und wenn es sagte:"
+    },
+    {
+     "vers": [
+      "„Töpfchen, steh!“"
+     ]
+    },
+    {
+     "absatz": "so hörte es wieder auf zu kochen. Das Mädchen brachte den Topf seiner Mutter heim. Nun waren sie ihre Armut und ihren Hunger los und aßen süßen Brei, so oft sie wollten."
+    },
+    {
+     "absatz": "Einmal war das Mädchen ausgegangen. Da sprach die Mutter: „Töpfchen, koche!“ Da kochte es, und sie aß sich satt. Nun wollte sie, dass das Töpfchen wieder aufhörte, aber sie wusste das Wort nicht. Also kochte es immer weiter. Der Brei stieg über den Rand hinaus und kochte und kochte, bis die Küche und das ganze Haus voll waren, dann das zweite Haus und dann die Straße, als wollte er die ganze Welt satt machen. Die Not war groß, und kein Mensch wusste sich zu helfen."
+    },
+    {
+     "absatz": "Endlich, als nur noch ein einziges Haus übrig war, kam das Kind heim und sprach nur: „Töpfchen, steh!“ Da stand es und hörte auf zu kochen. Und wer wieder in die Stadt wollte, der musste sich durchessen."
+    }
+   ],
+   "fussnoten": [
+    {
+     "stelle": "frommes",
+     "erklaerung": "gläubig, glaubt fest an Gott"
+    },
+    {
+     "stelle": "Kummer",
+     "erklaerung": "Sorgen, Traurigkeit"
+    },
+    {
+     "stelle": "Hirsebrei",
+     "erklaerung": "Brei aus Hirse, einem Getreide"
+    },
+    {
+     "stelle": "ausgegangen",
+     "erklaerung": "aus dem Haus gegangen"
+    },
+    {
+     "stelle": "durchessen",
+     "erklaerung": "sich durch den Brei hindurchessen"
+    }
+   ],
+   "abgleich": "18.10.2026 mit Projekt Gutenberg-DE (Hendel): Zauberwort „koche“, Armut ergänzt; Grimms Wechsel ins Präsens bewusst ins Präteritum gesetzt."
+  },
+  {
+   "id": "frau-holle-f",
+   "titel": "Frau Holle",
+   "khm": 24,
+   "rolle": "foerder_beispiel",
+   "vollstaendig": true,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": false,
+   "einfach": true,
+   "quelle": "nach den Brüdern Grimm (KHM 24), in einfacher Sprache",
+   "text": [
+    {
+     "vers": [
+      "Eine Mutter hat zwei Töchter.",
+      "Die eine Tochter ist fleißig.",
+      "Die andere Tochter ist faul."
+     ]
+    },
+    {
+     "vers": [
+      "Das fleißige Mädchen sitzt am Brunnen.",
+      "Die Spindel fällt in den Brunnen.",
+      "Das Mädchen springt hinterher."
+     ]
+    },
+    {
+     "vers": [
+      "Unten ist eine schöne Wiese.",
+      "Das Brot im Ofen ruft: „Zieh mich raus!“",
+      "Das Mädchen hilft dem Brot.",
+      "Der Apfelbaum ruft: „Schüttel mich!“",
+      "Das Mädchen hilft dem Baum."
+     ]
+    },
+    {
+     "vers": [
+      "Dann kommt das Mädchen zu Frau Holle.",
+      "Es arbeitet fleißig für Frau Holle.",
+      "Es schüttelt das Bett. Dann schneit es auf der Erde."
+     ]
+    },
+    {
+     "vers": [
+      "Zum Schluss geht das Mädchen durch ein Tor.",
+      "Gold fällt auf das Mädchen.",
+      "Das ist die Belohnung."
+     ]
+    },
+    {
+     "vers": [
+      "Die faule Tochter will auch Gold.",
+      "Sie hilft nicht. Sie arbeitet nicht.",
+      "Pech fällt auf sie.",
+      "Das ist die Strafe."
+     ]
+    }
+   ],
+   "hinweis_f": "Kurzfassung im Präsens, ein Satz pro Zeile (wie Zootiere F-Material). Präteritum wird im F-Material nur erkannt, nicht im Grundtext gelesen.",
+   "fussnoten": [
+    {
+     "stelle": "Spindel",
+     "erklaerung": "Holzstab für Wolle"
+    },
+    {
+     "stelle": "Pech",
+     "erklaerung": "schwarze, klebrige Masse"
+    }
+   ]
   }
  ]
 }
