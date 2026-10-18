@@ -1,6 +1,6 @@
 # Textauswahl · Gate C · Deutsch 5 · Märchen
 
-Stand: 17.10.2026 · Vorschlag zur Entscheidung durch C. Festgelegt (C, 17.10.2026): **echte, bearbeitete Grimm-Texte** für Beispiel, Übungsmärchen, Etappe 5, Probearbeit, LEK und Training; **selbst verfasste Anfänge im Grimm-Stil** für die Weiterschreiben-Blätter (Blatt B) und die Gelingensnachweise.
+Stand: 18.10.2026 · **Gate C abgeschlossen:** Textliste, Bearbeitungsentscheidungen und Abgleich mit dem Original; alle Texte gesperrt in `inhalt/texte.json`. Festgelegt (C, 17.10.2026): **echte, bearbeitete Grimm-Texte** für Beispiel, Übungsmärchen, Etappe 5, Probearbeit, LEK und Training; **selbst verfasste Anfänge im Grimm-Stil** für die Weiterschreiben-Blätter (Blatt B) und die Gelingensnachweise.
 
 ## 1 · Bearbeitungsregeln für Grimm-Texte
 
@@ -54,7 +54,7 @@ Länge 5–8 Zeilen (Blatt B) bzw. 6–10 Zeilen (GN); Präteritum; jeder Anfang
 
 Entwürfe aller zwölf Anfänge: `texte/anfaenge_eigene.md`. Sie werden nach Freigabe mit Zeilennummern gesperrt. F-Fassungen: dieselben Anfänge in einfacher Sprache.
 
-## 4 · Probefassung „Frau Holle“ (bearbeitet)
+## 4 · „Frau Holle“ (bearbeitet, gesperrt)
 
 Zweck: Bearbeitungsstil zur Beurteilung durch C. Geschrieben nach der Fassung von 1857; **Abgleich mit dem Original vor dem Sperren noch nötig.** Rund 900 Wörter.
 
@@ -63,19 +63,19 @@ Zweck: Bearbeitungsstil zur Beurteilung durch C. Geschrieben nach der Fassung vo
 >
 > Eine Witwe hatte zwei Töchter. Die eine war fleißig, die andere faul. Die Witwe hatte aber die faule Tochter viel lieber, denn sie war ihre eigene Tochter. Die andere war ihre Stieftochter und musste alle Arbeit im Haus tun.
 >
-> Jeden Tag musste das arme Mädchen draußen an einem Brunnen sitzen und spinnen, so viel, dass ihm die Finger wehtaten. Einmal wollte es die Spindel im Brunnen abwaschen. Da sprang sie ihm aus der Hand und fiel hinab. Das Mädchen weinte, lief zur Stiefmutter und erzählte ihr von dem Unglück. Die Stiefmutter schimpfte und sprach: „Hast du die Spindel hinunterfallen lassen, so hol sie auch wieder herauf!“
+> Jeden Tag musste das arme Mädchen draußen an der großen Straße bei einem Brunnen sitzen und spinnen, so viel, dass ihm die Finger wehtaten. Einmal wollte es die Spindel im Brunnen abwaschen. Da sprang sie ihm aus der Hand und fiel hinab. Das Mädchen weinte, lief zur Stiefmutter und erzählte ihr von dem Unglück. Die Stiefmutter schimpfte und sprach: „Hast du die Spindel hinunterfallen lassen, so hol sie auch wieder herauf!“
 >
 > Da ging das Mädchen zum Brunnen zurück und wusste nicht, was es tun sollte. In seiner großen Angst sprang es in den Brunnen hinein, um die Spindel zu holen. Es verlor die Besinnung. Als es wieder aufwachte, lag es auf einer schönen Wiese. Die Sonne schien, und es blühten viele tausend Blumen.
 >
 > Das Mädchen ging über die Wiese und kam zu einem Backofen voller Brot. Das Brot rief: „Ach, zieh mich raus, zieh mich raus, sonst verbrenn ich! Ich bin schon längst ausgebacken.“ Da trat das Mädchen heran und holte mit dem Brotschieber alle Brote heraus.
 >
-> Dann ging es weiter und kam zu einem Baum voller Äpfel. Der Baum rief: „Ach, schüttel mich, schüttel mich! Wir Äpfel sind alle miteinander reif.“ Da schüttelte das Mädchen den Baum, bis kein Apfel mehr oben hing. Es legte die Äpfel ordentlich auf einen Haufen und ging weiter.
+> Dann ging es weiter und kam zu einem Baum voller Äpfel. Der Baum rief: „Ach, schüttel mich, schüttel mich! Wir Äpfel sind alle miteinander reif.“ Da schüttelte das Mädchen den Baum, dass die Äpfel fielen, als regneten sie, bis keiner mehr oben war. Dann legte es sie alle auf einen Haufen und ging weiter.
 >
-> Endlich kam es zu einem kleinen Haus. Eine alte Frau schaute heraus. Sie hatte so große Zähne, dass dem Mädchen angst wurde und es weglaufen wollte. Die alte Frau aber rief ihm nach: „Was fürchtest du dich, liebes Kind? Bleib bei mir! Wenn du alle Arbeit im Haus ordentlich tun willst, so soll es dir gut gehen. Du musst nur gut auf mein Bett achten und es fleißig aufschütteln, dass die Federn fliegen. Dann schneit es in der Welt. Ich bin die Frau Holle.“
+> Endlich kam es zu einem kleinen Haus. Eine alte Frau schaute heraus. Sie hatte so große Zähne, dass dem Mädchen angst wurde und es weglaufen wollte. Die alte Frau aber rief ihm nach: „Was fürchtest du dich, liebes Kind? Bleib bei mir! Wenn du alle Arbeit im Haus ordentlich tun willst, so soll es dir gut gehen. Du musst nur achtgeben, dass du mein Bett gut machst und es fleißig aufschüttelst, dass die Federn fliegen. Dann schneit es in der Welt. Ich bin die Frau Holle.“
 >
-> Weil die Alte so freundlich sprach, blieb das Mädchen bei ihr. Es tat alles zu ihrer Zufriedenheit und schüttelte das Bett immer kräftig, sodass die Federn wie Schneeflocken umherflogen. Dafür hatte es ein gutes Leben bei ihr: Es hörte kein böses Wort und bekam jeden Tag gutes Essen.
+> Weil die Alte so freundlich sprach, blieb das Mädchen bei ihr. Es tat alles zu ihrer Zufriedenheit und schüttelte das Bett immer kräftig, sodass die Federn wie Schneeflocken umherflogen. Dafür hatte es ein gutes Leben bei ihr: Es hörte kein böses Wort und bekam jeden Tag Gekochtes und Gebratenes.
 >
-> Nun war das Mädchen eine Zeit lang bei Frau Holle. Da wurde es traurig und merkte endlich, dass es Heimweh hatte. Obwohl es ihm hier viel besser ging als zu Hause, wollte es zurück. Es sagte: „Ich habe Heimweh. Auch wenn es mir hier unten gut geht, kann ich nicht länger bleiben. Ich muss wieder hinauf zu meiner Familie.“ Frau Holle sprach: „Es gefällt mir, dass du wieder nach Hause willst. Und weil du mir so treu gedient hast, will ich dich selbst hinaufbringen.“
+> Nun war das Mädchen eine Zeit lang bei Frau Holle. Da wurde es traurig und merkte endlich, dass es Heimweh hatte. Obwohl es ihm hier viel besser ging als zu Hause, wollte es zurück. Es sagte: „Ich habe Heimweh. Auch wenn es mir hier unten gut geht, kann ich nicht länger bleiben. Ich muss wieder hinauf zu meiner Familie.“ Frau Holle sprach: „Es gefällt mir, dass du wieder nach Hause willst. Und weil du mir so treu gedient hast, will ich dich selbst wieder hinaufbringen.“
 >
 > Sie nahm das Mädchen bei der Hand und führte es vor ein großes Tor. Das Tor wurde aufgetan, und als das Mädchen gerade darunter stand, fiel ein gewaltiger Goldregen. Alles Gold blieb an ihm hängen, sodass es über und über damit bedeckt war. „Das sollst du haben, weil du so fleißig gewesen bist“, sprach Frau Holle und gab ihm auch die Spindel zurück, die in den Brunnen gefallen war. Darauf wurde das Tor verschlossen, und das Mädchen stand oben auf der Welt, nicht weit vom Haus der Stiefmutter. Als es in den Hof kam, saß der Hahn auf dem Brunnen und rief:
 >
@@ -86,21 +86,22 @@ Zweck: Bearbeitungsstil zur Beurteilung durch C. Geschrieben nach der Fassung vo
 >
 > Das Mädchen erzählte alles, was ihm geschehen war. Als die Stiefmutter hörte, wie es zu dem großen Reichtum gekommen war, wollte sie der faulen Tochter dasselbe Glück verschaffen. Die faule Tochter musste sich an den Brunnen setzen und spinnen. Bald warf sie die Spindel absichtlich in den Brunnen und sprang selbst hinterher.
 >
-> Sie kam wie die andere auf die schöne Wiese und ging auf demselben Weg weiter. Als sie zu dem Backofen kam, rief das Brot wieder: „Ach, zieh mich raus, zieh mich raus, sonst verbrenn ich! Ich bin schon längst ausgebacken.“ Die Faule aber antwortete: „Ich habe keine Lust, mich schmutzig zu machen!“, und ging fort. Bald kam sie zu dem Apfelbaum, der rief: „Ach, schüttel mich, schüttel mich! Wir Äpfel sind alle miteinander reif.“ Sie antwortete aber: „Du kommst mir gerade recht! Mir könnte ja einer auf den Kopf fallen!“, und ging weiter.
+> Sie kam wie die andere auf die schöne Wiese und ging auf demselben Weg weiter. Als sie zu dem Backofen kam, rief das Brot wieder: „Ach, zieh mich raus, zieh mich raus, sonst verbrenn ich! Ich bin schon längst ausgebacken.“ Die Faule aber antwortete: „Da hätte ich Lust, mich schmutzig zu machen!“, und ging fort. Bald kam sie zu dem Apfelbaum, der rief: „Ach, schüttel mich, schüttel mich! Wir Äpfel sind alle miteinander reif.“ Sie antwortete aber: „Du kommst mir recht, es könnte mir einer auf den Kopf fallen“, und ging weiter.
 >
-> Als sie vor das Haus der Frau Holle kam, fürchtete sie sich nicht, denn sie hatte von den großen Zähnen schon gehört. Sie trat gleich als Magd in ihren Dienst. Am ersten Tag strengte sie sich an, war fleißig und folgte Frau Holle, denn sie dachte an das viele Gold. Am zweiten Tag fing sie schon an zu faulenzen, am dritten Tag noch mehr. Da wollte sie morgens gar nicht mehr aufstehen. Sie machte Frau Holle das Bett nicht, wie es sich gehörte, und schüttelte es nicht, dass die Federn aufflogen. Das wurde Frau Holle bald leid, und sie schickte sie fort. Die Faule war damit zufrieden und meinte, nun käme der Goldregen.
+> Als sie vor das Haus der Frau Holle kam, fürchtete sie sich nicht, denn sie hatte von den großen Zähnen schon gehört. Sie trat gleich als Magd in ihren Dienst. Am ersten Tag strengte sie sich an, war fleißig und folgte Frau Holle, denn sie dachte an das viele Gold, das Frau Holle ihr schenken würde. Am zweiten Tag fing sie schon an zu faulenzen, am dritten Tag noch mehr. Da wollte sie morgens gar nicht mehr aufstehen. Sie machte Frau Holle das Bett nicht, wie es sich gehörte, und schüttelte es nicht, dass die Federn aufflogen. Das wurde Frau Holle bald leid, und sie schickte sie fort. Die Faule war damit zufrieden und meinte, nun käme der Goldregen.
 >
-> Frau Holle führte auch sie zu dem Tor. Als sie aber darunter stand, wurde statt des Goldes ein großer Kessel voll Pech ausgeschüttet. „Das ist der Lohn für deine Dienste“, sagte Frau Holle und schloss das Tor zu. Da kam die Faule nach Hause, ganz mit Pech bedeckt. Der Hahn auf dem Brunnen sah sie und rief:
+> Frau Holle führte auch sie zu dem Tor. Als sie aber darunter stand, wurde statt des Goldes ein großer Kessel voll Pech ausgeschüttet. „Das ist zur Belohnung deiner Dienste“, sagte Frau Holle und schloss das Tor zu. Da kam die Faule nach Hause, ganz mit Pech bedeckt. Der Hahn auf dem Brunnen sah sie und rief:
 >
 > „Kikeriki,
 > unsere schmutzige Jungfrau ist wieder hie.“
 >
 > Das Pech aber blieb an ihr hängen und ging, solange sie lebte, nicht mehr ab.
 
-**Wörterhilfe:** Witwe (Frau, deren Mann gestorben ist) · Stieftochter · spinnen, die Spindel (Holzstab, auf den der gesponnene Faden gewickelt wird) · die Besinnung verlieren (ohnmächtig werden) · der Brotschieber · die Magd (Dienerin im Haus) · die Jungfrau (alte Bezeichnung für ein junges Mädchen) · hie (hier) · das Pech (zähe, schwarze, klebrige Masse)
+**Wörterhilfe:** Gekochtes und Gebratenes (warmes Essen) · Witwe (Frau, deren Mann gestorben ist) · Stieftochter · spinnen, die Spindel (Holzstab, auf den der gesponnene Faden gewickelt wird) · die Besinnung verlieren (ohnmächtig werden) · der Brotschieber · die Magd (Dienerin im Haus) · die Jungfrau (alte Bezeichnung für ein junges Mädchen) · hie (hier) · das Pech (zähe, schwarze, klebrige Masse)
 
 **Bearbeitungsprotokoll:**
 - Entschärft: Im Original muss das Mädchen spinnen, bis ihm „das Blut aus den Fingern sprang“, und die faule Tochter sticht sich absichtlich in den Finger. Hier: Finger tun weh; die Spindel wird absichtlich hineingeworfen.
+- Abgleich mit dem Original (18.10.2026, Projekt Gutenberg-DE) eingearbeitet: Brunnen „an der großen Straße“, Äpfel fallen „als regneten sie“, Bett-Satz, Antworten der Faulen und Pech-Satz wieder im Grimm-Wortlaut; „Da hätte ich Lust, mich schmutzig zu machen!“ ist ironisch gemeint (im Input/Merkblatt erklären). Weggelassen: Vergleich mit Aschenputtel, die Dornhecke.
 - Satzgefüge geteilt, Rechtschreibung angepasst, „zu den Meinigen“ → „zu meiner Familie“, „sagte ihr den Dienst auf“ → „schickte sie fort“.
 - Wörtlich erhalten: Rufe von Brot und Apfelbaum, Rede der Frau Holle (gekürzt), beide Hahnenrufe, Dreischritt der Faulen (erster, zweiter, dritter Tag), Gold und Pech.
 - Grimms „Spule“ durch „Spindel“ ersetzt (Märchenkarte); „schön und fleißig / hässlich und faul“ auf „fleißig / faul“ gekürzt.
@@ -111,4 +112,4 @@ Zweck: Bearbeitungsstil zur Beurteilung durch C. Geschrieben nach der Fassung vo
 2. Gegensatz auf **„fleißig / faul“** gekürzt; „schön“ und „hässlich“ entfallen.
 3. „Frau Holle“ bleibt **ohne Anfangs- und Schlussformel**; Blatt 1 nutzt das: Nicht jedes Märchen hat alle Merkmale.
 
-Damit ist die Probefassung freigegeben; nach dem Abgleich mit dem Original wird sie mit Zeilennummern gesperrt.
+Damit ist die Fassung freigegeben. Nach dem Abgleich mit dem Original (18.10.2026) ist sie **gesperrt** (`inhalt/texte.json`).

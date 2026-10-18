@@ -1,0 +1,518 @@
+{
+ "_hinweis": "Gesperrte Textbasis der Reihe Märchen (Gate C, 18.10.2026). Änderungen nur nach Rücksprache mit C; danach Zeilenverweise prüfen. sperre_pruefung=true: Text darf in keinem Übungsmaterial, Merkblatt, Kiosk oder der Lern-App vorkommen.",
+ "texte": [
+  {
+   "id": "frau-holle",
+   "titel": "Frau Holle",
+   "khm": 24,
+   "rolle": "beispielmaerchen",
+   "vollstaendig": true,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": false,
+   "quelle": "nach den Brüdern Grimm (KHM 24), bearbeitet",
+   "text": [
+    {
+     "absatz": "Eine Witwe hatte zwei Töchter. Die eine war fleißig, die andere faul. Die Witwe hatte aber die faule Tochter viel lieber, denn sie war ihre eigene Tochter. Die andere war ihre Stieftochter und musste alle Arbeit im Haus tun."
+    },
+    {
+     "absatz": "Jeden Tag musste das arme Mädchen draußen an der großen Straße bei einem Brunnen sitzen und spinnen, so viel, dass ihm die Finger wehtaten. Einmal wollte es die Spindel im Brunnen abwaschen. Da sprang sie ihm aus der Hand und fiel hinab. Das Mädchen weinte, lief zur Stiefmutter und erzählte ihr von dem Unglück. Die Stiefmutter schimpfte und sprach: „Hast du die Spindel hinunterfallen lassen, so hol sie auch wieder herauf!“"
+    },
+    {
+     "absatz": "Da ging das Mädchen zum Brunnen zurück und wusste nicht, was es tun sollte. In seiner großen Angst sprang es in den Brunnen hinein, um die Spindel zu holen. Es verlor die Besinnung. Als es wieder aufwachte, lag es auf einer schönen Wiese. Die Sonne schien, und es blühten viele tausend Blumen."
+    },
+    {
+     "absatz": "Das Mädchen ging über die Wiese und kam zu einem Backofen voller Brot. Das Brot rief: „Ach, zieh mich raus, zieh mich raus, sonst verbrenn ich! Ich bin schon längst ausgebacken.“ Da trat das Mädchen heran und holte mit dem Brotschieber alle Brote heraus."
+    },
+    {
+     "absatz": "Dann ging es weiter und kam zu einem Baum voller Äpfel. Der Baum rief: „Ach, schüttel mich, schüttel mich! Wir Äpfel sind alle miteinander reif.“ Da schüttelte das Mädchen den Baum, dass die Äpfel fielen, als regneten sie, bis keiner mehr oben war. Dann legte es sie alle auf einen Haufen und ging weiter."
+    },
+    {
+     "absatz": "Endlich kam es zu einem kleinen Haus. Eine alte Frau schaute heraus. Sie hatte so große Zähne, dass dem Mädchen angst wurde und es weglaufen wollte. Die alte Frau aber rief ihm nach: „Was fürchtest du dich, liebes Kind? Bleib bei mir! Wenn du alle Arbeit im Haus ordentlich tun willst, so soll es dir gut gehen. Du musst nur achtgeben, dass du mein Bett gut machst und es fleißig aufschüttelst, dass die Federn fliegen. Dann schneit es in der Welt. Ich bin die Frau Holle.“"
+    },
+    {
+     "absatz": "Weil die Alte so freundlich sprach, blieb das Mädchen bei ihr. Es tat alles zu ihrer Zufriedenheit und schüttelte das Bett immer kräftig, sodass die Federn wie Schneeflocken umherflogen. Dafür hatte es ein gutes Leben bei ihr: Es hörte kein böses Wort und bekam jeden Tag Gekochtes und Gebratenes."
+    },
+    {
+     "absatz": "Nun war das Mädchen eine Zeit lang bei Frau Holle. Da wurde es traurig und merkte endlich, dass es Heimweh hatte. Obwohl es ihm hier viel besser ging als zu Hause, wollte es zurück. Es sagte: „Ich habe Heimweh. Auch wenn es mir hier unten gut geht, kann ich nicht länger bleiben. Ich muss wieder hinauf zu meiner Familie.“ Frau Holle sprach: „Es gefällt mir, dass du wieder nach Hause willst. Und weil du mir so treu gedient hast, will ich dich selbst wieder hinaufbringen.“"
+    },
+    {
+     "absatz": "Sie nahm das Mädchen bei der Hand und führte es vor ein großes Tor. Das Tor wurde aufgetan, und als das Mädchen gerade darunter stand, fiel ein gewaltiger Goldregen. Alles Gold blieb an ihm hängen, sodass es über und über damit bedeckt war. „Das sollst du haben, weil du so fleißig gewesen bist“, sprach Frau Holle und gab ihm auch die Spindel zurück, die in den Brunnen gefallen war. Darauf wurde das Tor verschlossen, und das Mädchen stand oben auf der Welt, nicht weit vom Haus der Stiefmutter. Als es in den Hof kam, saß der Hahn auf dem Brunnen und rief:"
+    },
+    {
+     "vers": [
+      "„Kikeriki,",
+      "unsere goldene Jungfrau ist wieder hie.“"
+     ]
+    },
+    {
+     "absatz": "Da ging es hinein. Weil es so mit Gold bedeckt ankam, wurde es von der Stiefmutter und der Schwester gut aufgenommen."
+    },
+    {
+     "absatz": "Das Mädchen erzählte alles, was ihm geschehen war. Als die Stiefmutter hörte, wie es zu dem großen Reichtum gekommen war, wollte sie der faulen Tochter dasselbe Glück verschaffen. Die faule Tochter musste sich an den Brunnen setzen und spinnen. Bald warf sie die Spindel absichtlich in den Brunnen und sprang selbst hinterher."
+    },
+    {
+     "absatz": "Sie kam wie die andere auf die schöne Wiese und ging auf demselben Weg weiter. Als sie zu dem Backofen kam, rief das Brot wieder: „Ach, zieh mich raus, zieh mich raus, sonst verbrenn ich! Ich bin schon längst ausgebacken.“ Die Faule aber antwortete: „Da hätte ich Lust, mich schmutzig zu machen!“, und ging fort. Bald kam sie zu dem Apfelbaum, der rief: „Ach, schüttel mich, schüttel mich! Wir Äpfel sind alle miteinander reif.“ Sie antwortete aber: „Du kommst mir recht, es könnte mir einer auf den Kopf fallen“, und ging weiter."
+    },
+    {
+     "absatz": "Als sie vor das Haus der Frau Holle kam, fürchtete sie sich nicht, denn sie hatte von den großen Zähnen schon gehört. Sie trat gleich als Magd in ihren Dienst. Am ersten Tag strengte sie sich an, war fleißig und folgte Frau Holle, denn sie dachte an das viele Gold, das Frau Holle ihr schenken würde. Am zweiten Tag fing sie schon an zu faulenzen, am dritten Tag noch mehr. Da wollte sie morgens gar nicht mehr aufstehen. Sie machte Frau Holle das Bett nicht, wie es sich gehörte, und schüttelte es nicht, dass die Federn aufflogen. Das wurde Frau Holle bald leid, und sie schickte sie fort. Die Faule war damit zufrieden und meinte, nun käme der Goldregen."
+    },
+    {
+     "absatz": "Frau Holle führte auch sie zu dem Tor. Als sie aber darunter stand, wurde statt des Goldes ein großer Kessel voll Pech ausgeschüttet. „Das ist zur Belohnung deiner Dienste“, sagte Frau Holle und schloss das Tor zu. Da kam die Faule nach Hause, ganz mit Pech bedeckt. Der Hahn auf dem Brunnen sah sie und rief:"
+    },
+    {
+     "vers": [
+      "„Kikeriki,",
+      "unsere schmutzige Jungfrau ist wieder hie.“"
+     ]
+    },
+    {
+     "absatz": "Das Pech aber blieb an ihr hängen und ging, solange sie lebte, nicht mehr ab."
+    }
+   ],
+   "woerterhilfe": "Gekochtes und Gebratenes (warmes Essen) · Witwe (Frau, deren Mann gestorben ist) · Stieftochter · spinnen, die Spindel (Holzstab, auf den der gesponnene Faden gewickelt wird) · die Besinnung verlieren (ohnmächtig werden) · der Brotschieber · die Magd (Dienerin im Haus) · die Jungfrau (alte Bezeichnung für ein junges Mädchen) · hie (hier) · das Pech (zähe, schwarze, klebrige Masse)"
+  },
+  {
+   "id": "rumpelstilzchen",
+   "titel": "Rumpelstilzchen",
+   "khm": 55,
+   "rolle": "uebungsmaerchen_blatt5",
+   "vollstaendig": true,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": false,
+   "quelle": "nach den Brüdern Grimm (KHM 55), bearbeitet",
+   "text": [
+    {
+     "absatz": "Es war einmal ein Müller, der war arm, aber er hatte eine schöne Tochter. Eines Tages kam er mit dem König ins Gespräch. Weil er sich wichtig machen wollte, sagte er: „Ich habe eine Tochter, die kann Stroh zu Gold spinnen.“ Der König sprach: „Das ist eine Kunst, die mir gefällt. Wenn deine Tochter so geschickt ist, wie du sagst, so bring sie morgen in mein Schloss.“"
+    },
+    {
+     "absatz": "Als das Mädchen zu ihm gebracht wurde, führte er es in eine Kammer, die ganz voll Stroh lag. Er gab ihm ein Spinnrad und sprach: „Jetzt mach dich an die Arbeit. Wenn du bis morgen früh dieses Stroh nicht zu Gold gesponnen hast, so musst du sterben.“ Dann schloss er die Kammer zu, und das Mädchen blieb allein darin."
+    },
+    {
+     "absatz": "Da saß die arme Müllerstochter und wusste keinen Rat. Sie verstand gar nichts davon, wie man Stroh zu Gold spinnt, und ihre Angst wurde immer größer, bis sie anfing zu weinen. Da ging auf einmal die Tür auf, und ein kleines Männchen trat herein. Es sprach: „Guten Abend, Jungfer Müllerin, warum weinst du so sehr?“ – „Ach“, antwortete das Mädchen, „ich soll Stroh zu Gold spinnen und weiß nicht, wie das geht.“ Das Männchen sprach: „Was gibst du mir, wenn ich es dir spinne?“ – „Mein Halsband“, sagte das Mädchen. Das Männchen nahm das Halsband, setzte sich vor das Rad, und schnurr, schnurr, schnurr, dreimal gezogen, war die Spule voll. So ging es fort bis zum Morgen. Da war alles Stroh versponnen, und alle Spulen waren voll Gold."
+    },
+    {
+     "absatz": "Bei Sonnenaufgang kam der König. Als er das Gold erblickte, staunte er und freute sich. Aber sein Herz wurde nur noch gieriger. Er ließ die Müllerstochter in eine andere Kammer voll Stroh bringen, die noch viel größer war, und befahl ihr, auch das in einer Nacht zu spinnen, wenn ihr das Leben lieb sei. Das Mädchen wusste sich nicht zu helfen und weinte. Da ging wieder die Tür auf, und das kleine Männchen erschien und sprach: „Was gibst du mir, wenn ich dir das Stroh zu Gold spinne?“ – „Meinen Ring von dem Finger“, antwortete das Mädchen. Das Männchen nahm den Ring, fing wieder an zu schnurren mit dem Rade und hatte bis zum Morgen alles Stroh zu glänzendem Gold gesponnen."
+    },
+    {
+     "absatz": "Der König freute sich über die Maßen, aber er hatte immer noch nicht genug. Er ließ die Müllerstochter in eine noch größere Kammer voll Stroh bringen und sprach: „Die musst du noch in dieser Nacht verspinnen. Gelingt dir das, so sollst du meine Frau werden.“ Als das Mädchen allein war, kam das Männchen zum dritten Mal und sprach: „Was gibst du mir, wenn ich dir noch diesmal das Stroh spinne?“ – „Ich habe nichts mehr, was ich dir geben könnte“, antwortete das Mädchen. „So versprich mir, wenn du Königin wirst, dein erstes Kind.“ Die Müllerstochter dachte: Wer weiß, wie das noch kommt. In ihrer Not wusste sie sich nicht anders zu helfen und versprach dem Männchen, was es verlangte. Dafür spann das Männchen noch einmal das Stroh zu Gold. Als am Morgen der König kam und alles fand, wie er es gewünscht hatte, hielt er Hochzeit mit ihr, und die schöne Müllerstochter wurde eine Königin."
+    },
+    {
+     "absatz": "Nach einem Jahr brachte sie ein schönes Kind zur Welt und dachte gar nicht mehr an das Männchen. Da trat es plötzlich in ihre Kammer und sprach: „Nun gib mir, was du versprochen hast.“ Die Königin erschrak und bot dem Männchen alle Reichtümer des Königreichs an, wenn es ihr das Kind lassen wollte. Aber das Männchen sprach: „Nein, etwas Lebendes ist mir lieber als alle Schätze der Welt.“ Da fing die Königin so an zu jammern und zu weinen, dass das Männchen Mitleid mit ihr bekam. „Drei Tage will ich dir Zeit lassen“, sprach es. „Wenn du bis dahin meinen Namen weißt, so sollst du dein Kind behalten.“"
+    },
+    {
+     "absatz": "Nun dachte die Königin die ganze Nacht über alle Namen nach, die sie jemals gehört hatte. Sie schickte einen Boten über Land, der sollte sich erkundigen, was es sonst noch für Namen gäbe. Als am nächsten Tag das Männchen kam, fing sie an mit Kaspar, Melchior, Balzer und sagte alle Namen, die sie wusste, der Reihe nach her. Aber bei jedem sprach das Männchen: „So heiß ich nicht.“ Am zweiten Tag ließ sie in der Nachbarschaft herumfragen, wie die Leute dort hießen, und sagte dem Männchen die ungewöhnlichsten und seltsamsten Namen vor: „Heißt du vielleicht Rippenbiest oder Hammelswade oder Schnürbein?“ Aber es antwortete immer: „So heiß ich nicht.“"
+    },
+    {
+     "absatz": "Am dritten Tag kam der Bote wieder zurück und erzählte: „Neue Namen habe ich keinen einzigen finden können. Aber als ich an einen hohen Berg um die Waldecke kam, wo Fuchs und Hase sich gute Nacht sagen, da sah ich ein kleines Haus. Vor dem Haus brannte ein Feuer, und um das Feuer sprang ein gar zu lächerliches Männchen. Es hüpfte auf einem Bein und schrie:"
+    },
+    {
+     "vers": [
+      "‚Heute back ich, morgen brau ich,",
+      "übermorgen hol ich der Königin ihr Kind;",
+      "ach, wie gut ist, dass niemand weiß,",
+      "dass ich Rumpelstilzchen heiß!‘“"
+     ]
+    },
+    {
+     "absatz": "Wie froh war die Königin, als sie den Namen hörte! Bald danach trat das Männchen herein und fragte: „Nun, Frau Königin, wie heiß ich?“ Da fragte sie erst: „Heißt du Kunz?“ – „Nein.“ – „Heißt du Heinz?“ – „Nein.“ – „Heißt du etwa Rumpelstilzchen?“"
+    },
+    {
+     "absatz": "„Das hat dir der Teufel gesagt! Das hat dir der Teufel gesagt!“, schrie das Männchen. Vor Zorn stieß es mit dem rechten Fuß so tief in die Erde, dass es bis an den Leib hineinfuhr. Dann zog es sich voller Wut wieder heraus, lief davon und wurde nie wieder gesehen."
+    }
+   ],
+   "woerterhilfe": "die Jungfer (alte Anrede für ein junges Mädchen) · das Spinnrad, die Spule · über die Maßen (sehr) · sich erkundigen (nachfragen) · der Bote (jemand, der eine Nachricht überbringt) · brauen (Bier herstellen)"
+  },
+  {
+   "id": "weisse-schlange",
+   "titel": "Die weiße Schlange",
+   "khm": 17,
+   "rolle": "etappe5_wahl1",
+   "vollstaendig": false,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": false,
+   "quelle": "nach den Brüdern Grimm (KHM 17), Anfang, bearbeitet",
+   "text": [
+    {
+     "absatz": "Vor langer Zeit lebte ein König, der war im ganzen Land für seine Weisheit berühmt. Nichts blieb ihm verborgen, und es war, als ob ihm die Nachricht von den geheimsten Dingen durch die Luft zugetragen würde. Er hatte aber eine seltsame Sitte. Jeden Mittag, wenn alle anderen gegessen hatten und er allein war, brachte ihm ein treuer Diener noch eine Schüssel. Sie war zugedeckt, und der Diener wusste selbst nicht, was darin lag. Kein Mensch wusste es, denn der König deckte sie erst auf, wenn er ganz allein war."
+    },
+    {
+     "absatz": "Eines Tages konnte der Diener seine Neugier nicht mehr bezwingen. Als er die Schüssel wieder hinaustrug, nahm er sie mit in seine Kammer. Er schloss die Tür ab und hob den Deckel hoch. Da lag eine weiße Schlange darin. Der Diener konnte nicht widerstehen, schnitt ein Stückchen davon ab und steckte es in den Mund. Kaum hatte es seine Zunge berührt, da hörte er vor dem Fenster ein feines Flüstern. Er ging hin und horchte. Da merkte er, dass es Sperlinge waren, die miteinander sprachen und sich erzählten, was sie im Feld und im Wald gesehen hatten. Der Genuss der Schlange hatte ihm die Gabe verliehen, die Sprache der Tiere zu verstehen."
+    },
+    {
+     "absatz": "Nun traf es sich, dass gerade an diesem Tag der Königin ihr schönster Ring fortkam. Der Verdacht fiel auf den treuen Diener, der überall Zugang hatte. Der König ließ ihn vor sich kommen und drohte ihm mit harten Worten: Wenn er bis morgen den Täter nicht nennen könne, so werde man ihn selbst für den Dieb halten und richten. Es half nichts, dass der Diener seine Unschuld beteuerte. In seiner Angst und Not ging er hinab in den Hof und überlegte, wie er sich helfen könnte."
+    }
+   ],
+   "woerterhilfe": "die Sitte (Gewohnheit) · die Neugier bezwingen (sich zurückhalten) · der Sperling (Spatz) · die Gabe (Fähigkeit) · beteuern (fest versichern) · richten (verurteilen und bestrafen)"
+  },
+  {
+   "id": "jorinde-joringel",
+   "titel": "Jorinde und Joringel",
+   "khm": 69,
+   "rolle": "etappe5_wahl2",
+   "vollstaendig": false,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": false,
+   "quelle": "nach den Brüdern Grimm (KHM 69), Anfang, bearbeitet",
+   "text": [
+    {
+     "absatz": "Es war einmal ein altes Schloss mitten in einem großen, dicken Wald. Darin wohnte eine alte Frau ganz allein, das war eine Erzzauberin. Am Tag verwandelte sie sich in eine Katze oder in eine Nachteule, am Abend aber wurde sie wieder ein Mensch. Sie konnte Wild und Vögel herbeilocken. Wenn jemand dem Schloss auf hundert Schritte nahe kam, so musste er stillstehen und konnte sich nicht von der Stelle bewegen, bis sie ihn freisprach. Wenn aber ein Mädchen in diesen Kreis kam, so verwandelte sie es in einen Vogel, sperrte es in einen Korb und trug den Korb in eine Kammer des Schlosses. Sie hatte wohl siebentausend solcher Körbe mit seltenen Vögeln im Schloss."
+    },
+    {
+     "absatz": "Nun war einmal ein Mädchen, das hieß Jorinde. Es war schöner als alle anderen Mädchen. Jorinde und ein schöner Junge namens Joringel hatten sich versprochen, einander zu heiraten. Eines Abends gingen sie im Wald spazieren. „Hüte dich“, sagte Joringel, „dass du nicht zu nahe an das Schloss kommst.“ Die Sonne schien zwischen den Stämmen hindurch, und die Turteltaube sang traurig. Jorinde weinte zuweilen, und Joringel klagte auch. Sie sahen sich um, waren verwirrt und wussten nicht, wohin sie nach Hause gehen sollten. Da sah Joringel durch das Gebüsch die alte Mauer des Schlosses ganz nahe. Er erschrak und wurde todbang."
+    },
+    {
+     "absatz": "Jorinde sang:"
+    },
+    {
+     "vers": [
+      "„Mein Vöglein mit dem Ringlein rot",
+      "singt Leide, Leide, Leide.“"
+     ]
+    },
+    {
+     "absatz": "Doch plötzlich sang sie nur noch „zicküth, zicküth“. Joringel sah sich um: Jorinde war in eine Nachtigall verwandelt. Eine Nachteule mit glühenden Augen flog dreimal um sie herum und schrie dreimal: „Schu, hu, hu, hu.“ Joringel konnte sich nicht regen. Er stand da wie ein Stein, konnte nicht weinen, nicht reden, nicht Hand noch Fuß bewegen."
+    },
+    {
+     "absatz": "Nun war die Sonne untergegangen. Die Eule flog in einen Strauch, und gleich darauf kam eine krumme alte Frau heraus, gelb und mager, mit großen roten Augen und krummer Nase. Sie murmelte, fing die Nachtigall und trug sie auf der Hand fort. Joringel konnte nichts sagen und sich nicht von der Stelle bewegen. Endlich kam die Frau wieder und sagte mit dumpfer Stimme:"
+    },
+    {
+     "vers": [
+      "„Grüß dich, Zachiel,",
+      "wenn's Möndel ins Körbel scheint,",
+      "bind los, Zachiel, zu guter Stund.“"
+     ]
+    },
+    {
+     "absatz": "Da wurde Joringel los. Er fiel vor der Frau auf die Knie und bat sie, ihm seine Jorinde wiederzugeben. Aber sie sagte, er solle sie nie wiederhaben, und ging fort. Er rief, er weinte, er jammerte, aber alles umsonst. Da ging Joringel fort und kam endlich in ein fremdes Dorf. Dort hütete er lange Zeit die Schafe. Oft ging er rund um das Schloss herum, aber nicht zu nahe dabei."
+    }
+   ],
+   "woerterhilfe": "die Erzzauberin (sehr mächtige Zauberin) · sich versprechen (sich verloben) · zuweilen (manchmal) · bang (ängstlich) · sich regen (sich bewegen) · todbang (sehr ängstlich) · das Möndel, das Körbel (der kleine Mond, das kleine Körbchen) · zu guter Stund (zur rechten Zeit)"
+  },
+  {
+   "id": "goldene-gans",
+   "titel": "Die goldene Gans",
+   "khm": 64,
+   "rolle": "probearbeit",
+   "vollstaendig": false,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": true,
+   "quelle": "nach den Brüdern Grimm (KHM 64), Anfang, bearbeitet",
+   "text": [
+    {
+     "absatz": "Es war ein Mann, der hatte drei Söhne. Der jüngste hieß der Dummling. Er wurde verachtet und verspottet und bei jeder Gelegenheit zurückgesetzt."
+    },
+    {
+     "absatz": "Eines Tages wollte der älteste Sohn in den Wald gehen und Holz hauen. Die Mutter gab ihm einen feinen Eierkuchen und eine Flasche Wein mit, damit er nicht Hunger und Durst leiden musste. Als er in den Wald kam, begegnete ihm ein altes graues Männlein. Es bot ihm einen guten Tag und sprach: „Gib mir doch ein Stück Kuchen aus deiner Tasche und lass mich einen Schluck von deinem Wein trinken. Ich bin so hungrig und durstig.“ Der Sohn aber antwortete: „Gebe ich dir etwas ab, so habe ich selber nichts. Pack dich deiner Wege!“ Bald darauf hieb er beim Holzhauen fehl, verletzte sich am Arm und musste heimgehen. Das war aber von dem grauen Männlein gekommen. Dem zweiten Sohn erging es genauso: Auch er gab dem grauen Männlein nichts, und auch er verletzte sich bald, diesmal am Bein."
+    },
+    {
+     "absatz": "Da sagte der Dummling: „Vater, lass mich einmal hinausgehen und Holz hauen.“ Der Vater antwortete: „Deine Brüder haben sich Schaden dabei getan. Lass es bleiben, du verstehst nichts davon.“ Der Dummling aber bat so lange, bis der Vater endlich sagte: „Geh nur hin, durch Schaden wirst du klug werden.“ Die Mutter gab ihm einen Kuchen, der war mit Wasser in der Asche gebacken, und dazu eine Flasche saures Bier. Als er in den Wald kam, begegnete ihm ebenfalls das alte graue Männlein, grüßte ihn und sprach: „Gib mir ein Stück von deinem Kuchen und einen Trunk aus deiner Flasche. Ich bin so hungrig und durstig.“ Der Dummling antwortete: „Ich habe aber nur Aschenkuchen und saures Bier. Wenn dir das recht ist, so wollen wir uns setzen und essen.“ Da setzten sie sich. Als der Dummling seinen Aschenkuchen herausholte, war es ein feiner Eierkuchen, und das saure Bier war ein guter Wein. Nun aßen und tranken sie."
+    },
+    {
+     "absatz": "Danach sprach das Männlein: „Weil du ein gutes Herz hast und gern von dem Deinigen abgibst, will ich dir Glück bescheren. Dort steht ein alter Baum. Den hau ab, so wirst du in den Wurzeln etwas finden.“ Darauf nahm das Männlein Abschied. Der Dummling ging hin und hieb den Baum um. Als er fiel, saß in den Wurzeln eine Gans, die hatte Federn aus reinem Gold. Er hob sie auf, nahm sie mit und ging in ein Wirtshaus, wo er übernachten wollte."
+    }
+   ],
+   "woerterhilfe": "der Dummling (jüngster, scheinbar dummer Sohn) · zurücksetzen (benachteiligen) · Holz hauen (Bäume fällen) · fehlhauen (danebenschlagen) · der Aschenkuchen (einfacher Kuchen, in der Asche gebacken) · Glück bescheren (Glück schenken)"
+  },
+  {
+   "id": "bienenkoenigin",
+   "titel": "Die Bienenkönigin",
+   "khm": 62,
+   "rolle": "lek_v1",
+   "vollstaendig": false,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": true,
+   "quelle": "nach den Brüdern Grimm (KHM 62), Anfang, bearbeitet",
+   "text": [
+    {
+     "absatz": "Zwei Königssöhne gingen einmal auf Abenteuer aus und gerieten in ein wildes, wüstes Leben, sodass sie gar nicht wieder nach Hause kamen. Ihr jüngster Bruder, den sie nur den Dummling nannten, machte sich auf und suchte sie. Als er sie endlich fand, verspotteten sie ihn: Wie wolle er mit seiner Einfalt durch die Welt kommen, wo sie zwei doch nicht durchkämen und viel klüger wären!"
+    },
+    {
+     "absatz": "Sie zogen alle drei miteinander weiter und kamen an einen Ameisenhaufen. Die beiden älteren wollten ihn aufwühlen und zusehen, wie die kleinen Ameisen in der Angst herumkrochen und ihre Eier forttrugen. Der Dummling aber sagte: „Lasst die Tiere in Frieden, ich leide nicht, dass ihr sie stört.“ Dann gingen sie weiter und kamen an einen See, auf dem schwammen viele Enten. Die beiden Brüder wollten ein paar fangen und braten. Der Dummling aber sagte: „Lasst die Tiere in Frieden, ich leide nicht, dass ihr sie tötet.“ Endlich kamen sie an ein Bienennest, in dem war so viel Honig, dass er am Stamm herunterlief. Die zwei wollten Feuer unter den Baum legen, damit die Bienen erstickten und sie den Honig wegnehmen könnten. Der Dummling hielt sie aber wieder ab und sprach: „Lasst die Tiere in Frieden, ich leide nicht, dass ihr sie verbrennt.“"
+    },
+    {
+     "absatz": "Endlich kamen die drei Brüder in ein Schloss. In den Ställen standen lauter steinerne Pferde, und kein Mensch war zu sehen. Hinter einer Tür mit drei Schlössern saß ein graues Männchen. Erst als sie zum dritten Mal riefen, kam es heraus. Es sprach kein Wort, gab ihnen zu essen und brachte jeden in sein Schlafgemach."
+    },
+    {
+     "absatz": "Am anderen Morgen kam das graue Männchen zu dem ältesten Bruder, winkte und führte ihn zu einer steinernen Tafel. Darauf standen drei Aufgaben, durch die das Schloss erlöst werden konnte. Die erste war: Im Wald unter dem Moos lagen tausend Perlen der Königstochter. Wer sie suchte und bis Sonnenuntergang nicht alle fand, wurde zu Stein. Der Älteste suchte den ganzen Tag, fand aber nur hundert Perlen und wurde zu Stein. Am nächsten Tag fand der zweite Bruder zweihundert und wurde ebenfalls zu Stein."
+    },
+    {
+     "absatz": "Endlich kam auch an den Dummling die Reihe. Er suchte im Moos, aber es war so schwer, die Perlen zu finden, und es ging so langsam. Da setzte er sich auf einen Stein und weinte."
+    }
+   ],
+   "woerterhilfe": "unbekümmert (ohne Sorgen) · die Einfalt (Dummheit) · ich leide nicht (ich erlaube nicht) · das Schlafgemach (Schlafzimmer) · erlösen (von einem Zauber befreien)"
+  },
+  {
+   "id": "drei-federn",
+   "titel": "Die drei Federn",
+   "khm": 63,
+   "rolle": "lek_v2",
+   "vollstaendig": false,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": true,
+   "quelle": "nach den Brüdern Grimm (KHM 63), Anfang, bearbeitet",
+   "text": [
+    {
+     "absatz": "Es war einmal ein König, der hatte drei Söhne. Zwei davon waren klug und gescheit. Der dritte aber sprach nicht viel, war einfältig und hieß nur der Dummling. Als der König alt und schwach wurde und an sein Ende dachte, wusste er nicht, welcher von seinen Söhnen nach ihm das Reich erben sollte."
+    },
+    {
+     "absatz": "Da sprach er zu ihnen: „Zieht aus, und wer mir den feinsten Teppich bringt, der soll nach meinem Tod König sein.“ Damit es keinen Streit unter ihnen gab, führte er sie vor sein Schloss, blies drei Federn in die Luft und sprach: „Wie die fliegen, so sollt ihr ziehen.“ Die eine Feder flog nach Osten, die andere nach Westen. Die dritte aber flog geradeaus, nicht weit, und fiel bald auf die Erde."
+    },
+    {
+     "absatz": "Nun ging der eine Bruder rechts, der andere ging links, und sie lachten den Dummling aus, der bei der dritten Feder bleiben musste, da, wo sie niedergefallen war."
+    },
+    {
+     "absatz": "Der Dummling setzte sich nieder und war traurig. Da bemerkte er auf einmal, dass neben der Feder eine Falltür lag. Er hob sie in die Höhe, fand eine Treppe und stieg hinab. Da kam er an eine Tür. Er klopfte an und hörte, wie es drinnen rief:"
+    },
+    {
+     "vers": [
+      "„Jungfer grün und klein,",
+      "Hutzelbein,",
+      "Hutzelbeins Hündchen,",
+      "hutzel hin und her,",
+      "lass geschwind sehen, wer draußen wär.“"
+     ]
+    },
+    {
+     "absatz": "Die Tür ging auf, und der Dummling sah eine große, dicke Kröte sitzen. Rings um sie herum saßen viele kleine Kröten. Die dicke Kröte fragte, was sein Begehren wäre."
+    }
+   ],
+   "woerterhilfe": "gescheit (klug) · einfältig (ein bisschen dumm, naiv) · das Reich erben (König werden, wenn der Vater stirbt) · die Falltür (Tür im Boden) · die Jungfer (altes Wort für junges Mädchen) · Hutzelbein (Fantasiename aus dem Spruch) · die Kröte (froschähnliches Tier) · das Begehren (der Wunsch)"
+  },
+  {
+   "id": "blaues-licht",
+   "titel": "Das blaue Licht",
+   "khm": 116,
+   "rolle": "training_ue1",
+   "vollstaendig": false,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": true,
+   "quelle": "nach den Brüdern Grimm (KHM 116), Anfang, bearbeitet",
+   "text": [
+    {
+     "absatz": "Es war einmal ein Soldat, der hatte dem König viele Jahre lang treu gedient. Als aber der Krieg zu Ende war und der Soldat wegen seiner vielen Wunden nicht mehr dienen konnte, sprach der König zu ihm: „Du kannst heimgehen, ich brauche dich nicht mehr. Geld bekommst du keines mehr, denn Lohn erhält nur der, der mir Dienste dafür leistet.“ Da wusste der Soldat nicht, wovon er leben sollte. Voller Sorge ging er fort und lief den ganzen Tag, bis er abends in einen Wald kam."
+    },
+    {
+     "absatz": "Als die Dunkelheit hereinbrach, sah er ein Licht. Er ging darauf zu und kam zu einem Haus, darin wohnte eine Hexe. „Gib mir doch ein Nachtlager und ein wenig Essen und Trinken“, bat er sie, „sonst verschmachte ich.“ – „Oho!“, antwortete sie. „Wer gibt einem verlaufenen Soldaten etwas? Doch ich will barmherzig sein und dich aufnehmen, wenn du tust, was ich verlange.“ – „Was verlangst du?“, fragte der Soldat. „Dass du mir morgen meinen Garten umgräbst.“"
+    },
+    {
+     "absatz": "Der Soldat willigte ein und arbeitete am folgenden Tag mit aller Kraft, konnte aber vor Abend nicht fertig werden. „Ich sehe wohl“, sprach die Hexe, „dass du heute nicht weiter kannst. Ich will dich noch eine Nacht behalten. Dafür sollst du mir morgen ein Fuder Holz spalten und klein machen.“ Dazu brauchte der Soldat den ganzen Tag. Abends machte die Hexe ihm den Vorschlag, noch eine Nacht zu bleiben, und sprach: „Du sollst mir morgen nur eine geringe Arbeit tun. Hinter meinem Haus ist ein alter, wasserleerer Brunnen. Da ist mir mein Licht hineingefallen. Es brennt blau und verlischt nie. Das sollst du mir wieder heraufholen.“ Am anderen Tag führte ihn die Alte zu dem Brunnen und ließ ihn in einem Korb hinab. Unten fand er das blaue Licht und machte ein Zeichen, dass sie ihn wieder hinaufziehen sollte. Sie zog ihn auch in die Höhe. Als er aber nahe am Rand war, reichte sie die Hand hinab und wollte ihm das blaue Licht abnehmen. „Nein“, sagte er, denn er merkte ihre bösen Gedanken. „Das Licht gebe ich dir erst, wenn ich mit beiden Füßen auf der Erde stehe.“ Da geriet die Hexe in Wut, ließ ihn wieder in den Brunnen hinabfallen und ging fort."
+    },
+    {
+     "absatz": "Der Soldat fiel, ohne Schaden zu nehmen, auf den feuchten Boden. Das blaue Licht brannte weiter, aber was konnte ihm das helfen? Er sah wohl, dass er dem Tod nicht entgehen würde. Traurig saß er eine Weile da. Dann griff er zufällig in seine Tasche und fand seine Tabakspfeife, die noch halb gestopft war."
+    }
+   ],
+   "woerterhilfe": "verschmachten (vor Hunger und Durst sterben) · barmherzig (gütig, mitleidig) · einwilligen (zustimmen) · verlöschen (ausgehen) · ein Fuder Holz (eine Wagenladung Holz) · die Tabakspfeife"
+  },
+  {
+   "id": "zertanzte-schuhe",
+   "titel": "Die zertanzten Schuhe",
+   "khm": 133,
+   "rolle": "training_ue2",
+   "vollstaendig": false,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": true,
+   "quelle": "nach den Brüdern Grimm (KHM 133), Anfang, bearbeitet",
+   "text": [
+    {
+     "absatz": "Es war einmal ein König, der hatte zwölf Töchter, eine immer schöner als die andere. Sie schliefen zusammen in einem Saal, wo ihre Betten nebeneinander standen. Abends, wenn sie zu Bett gegangen waren, schloss der König die Tür zu und verriegelte sie. Wenn er aber am Morgen die Tür aufschloss, so sah er, dass ihre Schuhe zertanzt waren. Niemand konnte herausbringen, wie das zugegangen war."
+    },
+    {
+     "absatz": "Da ließ der König ausrufen: „Wer herausfindet, wo meine Töchter in der Nacht tanzen, der darf sich eine von ihnen zur Frau wählen und soll nach meinem Tod König werden. Wer sich aber meldet und es nach drei Tagen und Nächten nicht herausgebracht hat, der muss das Land für immer verlassen.“"
+    },
+    {
+     "absatz": "Nicht lange, so meldete sich ein Königssohn. Er wurde gut aufgenommen und abends in ein Zimmer geführt, das an den Schlafsaal stieß. Sein Bett war dort aufgeschlagen, und er sollte achtgeben, wohin sie gingen und tanzten. Damit sie nichts heimlich treiben konnten, blieb die Tür zum Saal offen. Dem Königssohn fielen aber die Augen zu, und er schlief ein. Als er am Morgen aufwachte, waren alle zwölf beim Tanz gewesen, denn ihre Schuhe hatten Löcher in den Sohlen. Den zweiten und dritten Abend ging es nicht anders, und so musste er fort. Danach kamen noch viele andere und wagten es, aber keinem erging es besser."
+    },
+    {
+     "absatz": "Nun trug es sich zu, dass ein armer Soldat, der eine Wunde hatte und nicht mehr dienen konnte, auf dem Weg zu der Stadt war, wo der König wohnte. Da begegnete ihm eine alte Frau und fragte ihn, wo er hinwolle. „Ich weiß es selber nicht recht“, sagte er und setzte im Spaß hinzu: „Ich hätte wohl Lust, herauszufinden, wo die Königstöchter ihre Schuhe zertanzen, und dann König zu werden.“ – „Das ist so schwer nicht“, sagte die Alte. „Du darfst den Wein nicht trinken, der dir abends gebracht wird, und musst tun, als ob du fest schliefst.“ Darauf gab sie ihm ein Mäntelchen und sprach: „Wenn du das umhängst, so bist du unsichtbar und kannst den zwölfen dann nachschleichen.“"
+    },
+    {
+     "absatz": "Als der Soldat den guten Rat bekommen hatte, ging er zum König und meldete sich. Er wurde ebenso gut aufgenommen wie die anderen, und man zog ihm königliche Kleider an. Am Abend wurde er in das Vorzimmer geführt. Als er zu Bett gehen wollte, kam die älteste Königstochter und brachte ihm einen Becher Wein."
+    }
+   ],
+   "woerterhilfe": "zertanzt (beim Tanzen kaputtgegangen) · verriegeln (fest verschließen) · herausbringen (herausfinden) · ausrufen lassen (öffentlich bekannt machen) · unsichtbar"
+  },
+  {
+   "id": "blatt2",
+   "titel": "Die Müllerstochter",
+   "rolle": "Blatt 2",
+   "eigen": true,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": false,
+   "quelle": "Märchenanfang, ausgedacht",
+   "text": [
+    {
+     "absatz": "Vor langer Zeit lebte in einem kleinen Dorf eine arme Müllerstochter. Jeden Morgen trug sie einen Sack Mehl hinauf zum Schloss des Königs. Dafür bekam sie ein Stück Brot und einen Krug Milch, mehr nicht. Eines Morgens aber stand das große Mühlrad still. Das Wasser im Bach war über Nacht verschwunden, und ohne Wasser drehte sich kein Rad. „Wenn kein Mehl mehr ins Schloss kommt, jagt uns der König davon“, sagte der Müller traurig. Da nahm die Tochter ihr Tuch und machte sich auf den Weg, um zu sehen, wohin das Wasser verschwunden war."
+    }
+   ],
+   "karten": "Karten: das arme Kind · das Schloss · der König.",
+   "merkmale_im_anfang": "die unbestimmte Zeit"
+  },
+  {
+   "id": "gn1a",
+   "titel": "Der Hirtenjunge",
+   "rolle": "GN1 A",
+   "eigen": true,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": true,
+   "quelle": "Märchenanfang, ausgedacht",
+   "text": [
+    {
+     "absatz": "Es war einmal ein Hirtenjunge, der hütete die Schafe eines reichen Bauern. Er besaß nichts als einen Hirtenstab und eine kleine Flöte. Eines Abends zählte er die Schafe und merkte, dass das kleinste fehlte. Der Bauer rief zornig: „Bring es bis morgen zurück, sonst brauchst du nicht wiederzukommen!“ Da lief der Junge in den dunklen Wald hinein. Es wurde schon Nacht, und zwischen den Bäumen leuchteten auf einmal drei kleine Lichter."
+    }
+   ],
+   "karten": "Karten: das arme Kind · der dunkle Wald.",
+   "merkmale_im_anfang": "„Es war einmal …“, die Zahl 3 (für E1.4 nicht doppelt zählen: zwei weitere eigene Merkmale)"
+  },
+  {
+   "id": "gn1b",
+   "titel": "Die Kerzenmacherin",
+   "rolle": "GN1 B",
+   "eigen": true,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": true,
+   "quelle": "Märchenanfang, ausgedacht",
+   "text": [
+    {
+     "absatz": "In einem fernen Land lebte eine Kerzenmacherin mit ihren drei Töchtern in einer kleinen Hütte. Die jüngste war die stillste, und die beiden älteren lachten oft über sie. In einer kalten Winternacht gingen im ganzen Dorf alle Kerzen auf einmal aus, und keine ließ sich wieder anzünden. Nur auf dem Tisch der jüngsten Tochter brannte noch ein kleines Licht. Da klopfte es an die Tür."
+    }
+   ],
+   "karten": "Karten: das jüngste Kind · die kleine Hütte.",
+   "merkmale_im_anfang": "der unbestimmte Ort, die Zahl 3"
+  },
+  {
+   "id": "blatt4",
+   "titel": "Das Mädchen mit dem Wasserkrug",
+   "rolle": "Blatt 4",
+   "eigen": true,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": false,
+   "quelle": "Märchenanfang, ausgedacht",
+   "text": [
+    {
+     "absatz": "Es war einmal ein armes Mädchen, das lebte bei seiner Stiefmutter. Jeden Tag musste es Wasser vom Brunnen holen, der weit draußen am Rand des Waldes lag. Der Krug war schwer, und der Weg war lang. Eines Tages setzte es sich müde neben den Brunnen und weinte leise. Da hörte es hinter sich eine Stimme: „Warum weinst du, mein Kind?“ Das Mädchen drehte sich um und sah, wer da zu ihm sprach."
+    }
+   ],
+   "karten": "Karten: das arme Kind · die Stiefmutter · der Brunnen · der dunkle Wald; passend als Begegnung: die Fee, die Hexe, das sprechende Tier, der Zwerg."
+  },
+  {
+   "id": "gn2a",
+   "titel": "Der Prinz am Turm",
+   "rolle": "GN2 A",
+   "eigen": true,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": true,
+   "quelle": "Märchenanfang, ausgedacht",
+   "text": [
+    {
+     "absatz": "Es war einmal ein Prinz, der ritt auf der Jagd so tief in den dunklen Wald, dass er den Weg nicht mehr fand. Als es Abend wurde, stand er vor einem hohen Turm. Der Turm hatte keine Tür und keine Treppe, nur ganz oben ein kleines Fenster. Der Prinz rief: „Ist da jemand?“ Da öffnete sich das Fenster, und jemand schaute zu ihm herunter."
+    }
+   ],
+   "karten": "Karten: der Prinz · der dunkle Wald · der Turm."
+  },
+  {
+   "id": "gn2b",
+   "titel": "Der Schneidersohn",
+   "rolle": "GN2 B",
+   "eigen": true,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": true,
+   "quelle": "Märchenanfang, ausgedacht",
+   "text": [
+    {
+     "absatz": "Ein Schneider hatte drei Söhne. Der jüngste war klein und schmächtig, aber er hatte ein gutes Herz. Als die Brüder in die Welt zogen, wollten sie ihn nicht mitnehmen. Da ging er allein los. Am Abend kam er an eine kleine Hütte mitten im Wald. Er klopfte an, und die Tür ging langsam auf."
+    }
+   ],
+   "karten": "Karten: das jüngste Kind · die kleine Hütte · der dunkle Wald."
+  },
+  {
+   "id": "blatt6",
+   "titel": "Der gestohlene Schlüssel",
+   "rolle": "Blatt 6",
+   "eigen": true,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": false,
+   "quelle": "Märchenanfang, ausgedacht",
+   "text": [
+    {
+     "absatz": "Es war einmal ein König, der besaß einen goldenen Schlüssel. Mit ihm ließ sich die Schatzkammer öffnen, in der aller Reichtum des Landes lag. Eines Morgens war der Schlüssel verschwunden. Auf dem Fensterbrett lag nur eine schwarze Feder. Ohne den Schatz konnte der König kein Korn für den Winter kaufen, und das Volk bekam Hunger. Seine beiden ältesten Töchter weinten nur. Die jüngste aber sprach: „Ich will den Schlüssel suchen.“ Sie steckte die schwarze Feder ein und machte sich auf den Weg."
+    }
+   ],
+   "karten": "Karten: der König · der goldene Schlüssel · der Schatz · das jüngste Kind."
+  },
+  {
+   "id": "gn3a",
+   "titel": "Die Königin und der Riese",
+   "rolle": "GN3 A",
+   "eigen": true,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": true,
+   "quelle": "Märchenanfang, ausgedacht",
+   "text": [
+    {
+     "absatz": "Vor langer Zeit raubte ein Riese die Königin und trug sie auf den geheimnisvollen Berg. Dort sperrte er sie in seine Höhle. Der König ließ verkünden: „Wer die Königin befreit, bekommt einen Sack voll Gold.“ Viele starke Ritter zogen los, aber keiner kam zurück. Da sagte der Gärtnerjunge des Schlosses: „Ich will es versuchen.“ Die Leute lachten ihn aus, doch er ging trotzdem."
+    }
+   ],
+   "karten": "Karten: die Königin · der Riese · der geheimnisvolle Berg · der König."
+  },
+  {
+   "id": "gn3b",
+   "titel": "Der verlorene Ring",
+   "rolle": "GN3 B",
+   "eigen": true,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": true,
+   "quelle": "Märchenanfang, ausgedacht",
+   "text": [
+    {
+     "absatz": "Es war einmal eine Prinzessin, die trug einen verzauberten Ring. Eine Fee hatte ihn ihr bei der Geburt geschenkt und gesagt: „Solange du den Ring trägst, kann dir kein böser Zauber schaden.“ Eines Tages beugte sich die Prinzessin über den Brunnen im Schlossgarten. Da glitt der Ring von ihrem Finger und fiel tief hinab ins Wasser. Noch in derselben Nacht kam eine Krähe ans Fenster und krächzte: „Jetzt gehörst du bald mir!“ Am nächsten Morgen machte sich die Prinzessin auf, um ihren Ring zurückzuholen."
+    }
+   ],
+   "karten": "Karten: die Prinzessin · der verzauberte Ring · der Brunnen · die Fee · das sprechende Tier."
+  },
+  {
+   "id": "blatt8",
+   "titel": "Der Apfel im Schnee",
+   "rolle": "Blatt 8",
+   "eigen": true,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": false,
+   "quelle": "Märchenanfang, ausgedacht",
+   "text": [
+    {
+     "absatz": "Es war einmal ein armes Kind, das hatte im Winter nichts zu essen. Eines Abends ging es hinaus in den Schnee, um Holz zu sammeln. Unter einem kahlen Baum lag ein Apfel. Er war rot und glänzte, als wäre mitten im Winter Sommer. Das Kind hob ihn auf. Da wurde der Apfel warm in seiner Hand und begann zu leuchten."
+    }
+   ],
+   "karten": "Karten: das arme Kind · der magische Apfel · die Magie."
+  },
+  {
+   "id": "gn4a",
+   "titel": "Die Stiefel am Wegrand",
+   "rolle": "GN4 A",
+   "eigen": true,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": true,
+   "quelle": "Märchenanfang, ausgedacht",
+   "text": [
+    {
+     "absatz": "Ein Hirtenjunge sollte eine wichtige Botschaft zum König bringen. Der Weg war so weit, dass er sieben Tage gebraucht hätte. Schon am ersten Abend konnte er vor Müdigkeit nicht mehr laufen. Da sah er am Wegrand ein Paar alte, staubige Stiefel stehen. Er zog sie an und machte einen Schritt."
+    }
+   ],
+   "karten": "Karten: das arme Kind · die Siebenmeilenstiefel · die Zahl 7 · der König."
+  },
+  {
+   "id": "gn4b",
+   "titel": "Der Spiegel im Turm",
+   "rolle": "GN4 B",
+   "eigen": true,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": true,
+   "quelle": "Märchenanfang, ausgedacht",
+   "text": [
+    {
+     "absatz": "In einem alten Turm lebte ein Mädchen, das für eine strenge Herrin putzen musste. Ganz oben in der Turmkammer hing ein Spiegel, der war grau vor Staub. Eines Abends wischte das Mädchen den Staub ab. Da sah es im Spiegel nicht sich selbst, sondern ein fremdes Gesicht. Und das Gesicht öffnete den Mund."
+    }
+   ],
+   "karten": "Karten: der Turm · der Zauberspiegel · das arme Kind · die Magie."
+  }
+ ]
+}

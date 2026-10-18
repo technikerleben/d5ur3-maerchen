@@ -1,6 +1,10 @@
 # Grimm-Texte, bearbeitet · Entwurf Gate C
 
-Stand: 17.10.2026 · Bearbeitet nach den Regeln in `planung/Texte_Gate_C.md`, Abschnitt 1. Grundlage: Kinder- und Hausmärchen, Ausgabe letzter Hand (1857). **Alle Texte sind aus der Kenntnis der Fassung von 1857 bearbeitet; vor dem Sperren ist ein Abgleich mit dem Original nötig** (Handlung, Sprüche, Reihenfolge).
+Stand: 18.10.2026 · **Gesperrt.** Bearbeitet nach den Regeln in `planung/Texte_Gate_C.md`, Abschnitt 1. Grundlage: Kinder- und Hausmärchen, Ausgabe letzter Hand (1857).
+
+**Abgleich mit dem Original (18.10.2026):** Jeder Text wurde mit der Fassung bei Projekt Gutenberg-DE verglichen (Kinder- und Hausmärchen, Verlag Otto Hendel, Nummerierung der Ausgabe letzter Hand; Frau Holle: Ausgabe Hille u. Partner). Geprüft wurden Handlung, Reihenfolge, wörtliche Reden und Sprüche; Abweichungen sind eingearbeitet und im Bearbeitungsprotokoll jedes Textes vermerkt. Der Abgleich lief über ein Werkzeug, das die Seite liest und vergleicht, nicht Wort für Wort durch eine Person. Stichproben durch C bei Sprüchen und Reimen werden empfohlen.
+
+Maschinenlesbare Fassung mit Absätzen und Versen: `inhalt/texte.json`. Zeilennummern entstehen beim Satz (wie in Zootiere `zeilen.json`); Zeilenverweise in Blättern und Nachweisen beziehen sich auf den Satz.
 
 Frau Holle (Beispielmärchen) steht in `planung/Texte_Gate_C.md`, Abschnitt 4.
 
@@ -57,15 +61,15 @@ Anfang, endet offen. Problem: Der Diener soll den Ringdieb finden, sonst gilt er
 >
 > Vor langer Zeit lebte ein König, der war im ganzen Land für seine Weisheit berühmt. Nichts blieb ihm verborgen, und es war, als ob ihm die Nachricht von den geheimsten Dingen durch die Luft zugetragen würde. Er hatte aber eine seltsame Sitte. Jeden Mittag, wenn alle anderen gegessen hatten und er allein war, brachte ihm ein treuer Diener noch eine Schüssel. Sie war zugedeckt, und der Diener wusste selbst nicht, was darin lag. Kein Mensch wusste es, denn der König deckte sie erst auf, wenn er ganz allein war.
 >
-> Eines Tages konnte der Diener seine Neugier nicht mehr bezwingen. Als er die Schüssel wieder hinaustrug, nahm er sie mit in seine Kammer. Er schloss die Tür ab und hob den Deckel hoch. Da lag eine weiße Schlange darin. Der Diener konnte nicht widerstehen und kostete ein kleines Stück davon. Kaum hatte es seine Zunge berührt, da hörte er vor dem Fenster ein feines Flüstern. Er ging hin und horchte. Da merkte er, dass es Sperlinge waren, die miteinander sprachen und sich erzählten, was sie im Feld und im Wald gesehen hatten. Der Genuss der Schlange hatte ihm die Gabe verliehen, die Sprache der Tiere zu verstehen.
+> Eines Tages konnte der Diener seine Neugier nicht mehr bezwingen. Als er die Schüssel wieder hinaustrug, nahm er sie mit in seine Kammer. Er schloss die Tür ab und hob den Deckel hoch. Da lag eine weiße Schlange darin. Der Diener konnte nicht widerstehen, schnitt ein Stückchen davon ab und steckte es in den Mund. Kaum hatte es seine Zunge berührt, da hörte er vor dem Fenster ein feines Flüstern. Er ging hin und horchte. Da merkte er, dass es Sperlinge waren, die miteinander sprachen und sich erzählten, was sie im Feld und im Wald gesehen hatten. Der Genuss der Schlange hatte ihm die Gabe verliehen, die Sprache der Tiere zu verstehen.
 >
-> Nun traf es sich, dass gerade an diesem Tag der Königin ihr schönster Ring fortkam. Der Verdacht fiel auf den treuen Diener, der überall Zugang hatte. Der König ließ ihn vor sich kommen und drohte ihm mit harten Worten: „Wenn du bis morgen den Dieb nicht nennen kannst, so gilt das für dich, und du wirst bestraft.“ Es half nichts, dass der Diener seine Unschuld beteuerte. In seiner Angst und Not ging er hinab in den Hof und überlegte, wie er sich helfen könnte.
+> Nun traf es sich, dass gerade an diesem Tag der Königin ihr schönster Ring fortkam. Der Verdacht fiel auf den treuen Diener, der überall Zugang hatte. Der König ließ ihn vor sich kommen und drohte ihm mit harten Worten: Wenn er bis morgen den Täter nicht nennen könne, so werde man ihn selbst für den Dieb halten und richten. Es half nichts, dass der Diener seine Unschuld beteuerte. In seiner Angst und Not ging er hinab in den Hof und überlegte, wie er sich helfen könnte.
 
-**Wörterhilfe:** die Sitte (Gewohnheit) · die Neugier bezwingen (sich zurückhalten) · der Sperling (Spatz) · die Gabe (Fähigkeit) · beteuern (fest versichern)
+**Wörterhilfe:** die Sitte (Gewohnheit) · die Neugier bezwingen (sich zurückhalten) · der Sperling (Spatz) · die Gabe (Fähigkeit) · beteuern (fest versichern) · richten (verurteilen und bestrafen)
 
 **Kartenbezug:** der König · die Königin · der verzauberte Ring (hier: Ring der Königin) · das sprechende Tier · die Magie
 
-**Bearbeitungsprotokoll:** gekürzt auf den Anfang bis zum Problem; Rechtschreibung angepasst; Drohung des Königs vereinfacht („so wirst du gerichtet“ → „so wirst du bestraft“).
+**Bearbeitungsprotokoll:** gekürzt auf den Anfang bis zum Problem; Rechtschreibung angepasst; Drohung des Königs wie im Original als indirekte Rede („angesehen und gerichtet“ → „für den Dieb halten und richten“). Abgleich mit dem Original am 18.10.2026 eingearbeitet.
 
 ---
 
@@ -76,22 +80,30 @@ Anfang, endet offen. Problem: Jorinde ist in einen Vogel verwandelt und gefangen
 > **Jorinde und Joringel**
 > *nach den Brüdern Grimm (KHM 69), Anfang, bearbeitet*
 >
-> Es war einmal ein altes Schloss mitten in einem großen, dicken Wald. Darin wohnte eine alte Frau ganz allein, das war eine Erzzauberin. Am Tag verwandelte sie sich in eine Katze oder in eine Nachteule, am Abend aber wurde sie wieder ein Mensch. Sie konnte Wild und Vögel herbeilocken. Wenn jemand dem Schloss auf hundert Schritte nahe kam, so musste er stillstehen und konnte sich nicht von der Stelle bewegen, bis sie ihn freisprach. Wenn aber ein Mädchen in diesen Kreis kam, so verwandelte sie es in einen Vogel und sperrte es in einen Korb. Siebentausend solcher Körbe mit seltenen Vögeln hingen im Schloss.
+> Es war einmal ein altes Schloss mitten in einem großen, dicken Wald. Darin wohnte eine alte Frau ganz allein, das war eine Erzzauberin. Am Tag verwandelte sie sich in eine Katze oder in eine Nachteule, am Abend aber wurde sie wieder ein Mensch. Sie konnte Wild und Vögel herbeilocken. Wenn jemand dem Schloss auf hundert Schritte nahe kam, so musste er stillstehen und konnte sich nicht von der Stelle bewegen, bis sie ihn freisprach. Wenn aber ein Mädchen in diesen Kreis kam, so verwandelte sie es in einen Vogel, sperrte es in einen Korb und trug den Korb in eine Kammer des Schlosses. Sie hatte wohl siebentausend solcher Körbe mit seltenen Vögeln im Schloss.
 >
-> Nun war einmal ein Mädchen, das hieß Jorinde. Es war schöner als alle anderen Mädchen. Jorinde und ein schöner Junge namens Joringel hatten sich versprochen, einander zu heiraten. Eines Abends gingen sie im Wald spazieren. „Hüte dich“, sagte Joringel, „dass du nicht zu nahe an das Schloss kommst.“ Die Sonne schien zwischen den Stämmen hindurch, und die Turteltaube sang traurig. Jorinde weinte zuweilen, und auch Joringel wurde bang. Sie hatten sich verirrt und wussten nicht, wie sie nach Hause gehen sollten. Da sah Joringel durch das Gebüsch die alte Mauer des Schlosses ganz nahe.
+> Nun war einmal ein Mädchen, das hieß Jorinde. Es war schöner als alle anderen Mädchen. Jorinde und ein schöner Junge namens Joringel hatten sich versprochen, einander zu heiraten. Eines Abends gingen sie im Wald spazieren. „Hüte dich“, sagte Joringel, „dass du nicht zu nahe an das Schloss kommst.“ Die Sonne schien zwischen den Stämmen hindurch, und die Turteltaube sang traurig. Jorinde weinte zuweilen, und Joringel klagte auch. Sie sahen sich um, waren verwirrt und wussten nicht, wohin sie nach Hause gehen sollten. Da sah Joringel durch das Gebüsch die alte Mauer des Schlosses ganz nahe. Er erschrak und wurde todbang.
 >
 > Jorinde sang:
+>
 > „Mein Vöglein mit dem Ringlein rot
 > singt Leide, Leide, Leide.“
+>
 > Doch plötzlich sang sie nur noch „zicküth, zicküth“. Joringel sah sich um: Jorinde war in eine Nachtigall verwandelt. Eine Nachteule mit glühenden Augen flog dreimal um sie herum und schrie dreimal: „Schu, hu, hu, hu.“ Joringel konnte sich nicht regen. Er stand da wie ein Stein, konnte nicht weinen, nicht reden, nicht Hand noch Fuß bewegen.
 >
-> Nun war die Sonne untergegangen. Die Eule flog in einen Strauch, und gleich darauf kam eine krumme alte Frau heraus, gelb und mager. Sie fing die Nachtigall und trug sie fort. Erst später sprach sie mit dumpfer Stimme: „Sei frei, Zachiel“, und Joringel wurde wieder frei. Er fiel vor der Frau auf die Knie und bat sie, ihm seine Jorinde wiederzugeben. Aber sie sagte, er solle sie nie wiederhaben, und ging fort. Er rief, er weinte, er jammerte, aber alles umsonst. Da ging Joringel fort und kam endlich in ein fremdes Dorf. Dort hütete er lange Zeit die Schafe. Oft ging er rund um das Schloss herum, aber nicht zu nahe dabei.
+> Nun war die Sonne untergegangen. Die Eule flog in einen Strauch, und gleich darauf kam eine krumme alte Frau heraus, gelb und mager, mit großen roten Augen und krummer Nase. Sie murmelte, fing die Nachtigall und trug sie auf der Hand fort. Joringel konnte nichts sagen und sich nicht von der Stelle bewegen. Endlich kam die Frau wieder und sagte mit dumpfer Stimme:
+>
+> „Grüß dich, Zachiel,
+> wenn's Möndel ins Körbel scheint,
+> bind los, Zachiel, zu guter Stund.“
+>
+> Da wurde Joringel los. Er fiel vor der Frau auf die Knie und bat sie, ihm seine Jorinde wiederzugeben. Aber sie sagte, er solle sie nie wiederhaben, und ging fort. Er rief, er weinte, er jammerte, aber alles umsonst. Da ging Joringel fort und kam endlich in ein fremdes Dorf. Dort hütete er lange Zeit die Schafe. Oft ging er rund um das Schloss herum, aber nicht zu nahe dabei.
 
-**Wörterhilfe:** die Erzzauberin (sehr mächtige Zauberin) · sich versprechen (sich verloben) · zuweilen (manchmal) · bang (ängstlich) · sich regen (sich bewegen)
+**Wörterhilfe:** die Erzzauberin (sehr mächtige Zauberin) · sich versprechen (sich verloben) · zuweilen (manchmal) · bang (ängstlich) · sich regen (sich bewegen) · todbang (sehr ängstlich) · das Möndel, das Körbel (der kleine Mond, das kleine Körbchen) · zu guter Stund (zur rechten Zeit)
 
 **Kartenbezug:** die Hexe (Erzzauberin) · der dunkle Wald · das Schloss · die Verwandlung · die Magie · die Zahl 3 (dreimal um sie herum, dreimal geschrien) · die Zahl 7 (siebentausend Körbe)
 
-**Bearbeitungsprotokoll:** Liedstrophe gekürzt auf zwei Verse; Formel „Sei frei, Zachiel“ erhalten; Rechtschreibung angepasst; Satzgefüge geteilt. Anfang endet vor dem Traum von der blutroten Blume.
+**Bearbeitungsprotokoll:** Liedstrophe gekürzt auf zwei Verse; Zauberformel „Grüß dich, Zachiel …“ im Grimm-Wortlaut (nach Abgleich am 18.10.2026 berichtigt); weggelassen, dass die Zauberin gefangenes Wild „schlachtete, kochte und briet“; Rechtschreibung angepasst; Satzgefüge geteilt. Anfang endet vor dem Traum von der blutroten Blume.
 
 ---
 
@@ -102,11 +114,11 @@ Anfang, endet offen. Problem: Der Dummling wird verachtet; er hat nun etwas Beso
 > **Die goldene Gans**
 > *nach den Brüdern Grimm (KHM 64), Anfang, bearbeitet*
 >
-> Es war ein Mann, der hatte drei Söhne. Der jüngste hieß der Dummling. Er wurde von allen verachtet und verspottet und bei jeder Gelegenheit zurückgesetzt.
+> Es war ein Mann, der hatte drei Söhne. Der jüngste hieß der Dummling. Er wurde verachtet und verspottet und bei jeder Gelegenheit zurückgesetzt.
 >
-> Eines Tages wollte der älteste Sohn in den Wald gehen und Holz hauen. Die Mutter gab ihm einen feinen Eierkuchen und eine Flasche Wein mit, damit er nicht Hunger und Durst leiden musste. Als er in den Wald kam, begegnete ihm ein altes graues Männlein. Es bot ihm einen guten Tag und sprach: „Gib mir doch ein Stück Kuchen aus deiner Tasche und lass mich einen Schluck von deinem Wein trinken. Ich bin so hungrig und durstig.“ Der Sohn aber antwortete: „Gebe ich dir etwas ab, so habe ich selber nichts. Pack dich deiner Wege!“ Bald darauf hieb er beim Holzhauen fehl, verletzte sich am Arm und musste heimgehen. Dem zweiten Sohn erging es genauso: Auch er gab dem grauen Männlein nichts, und auch er verletzte sich bald, diesmal am Bein.
+> Eines Tages wollte der älteste Sohn in den Wald gehen und Holz hauen. Die Mutter gab ihm einen feinen Eierkuchen und eine Flasche Wein mit, damit er nicht Hunger und Durst leiden musste. Als er in den Wald kam, begegnete ihm ein altes graues Männlein. Es bot ihm einen guten Tag und sprach: „Gib mir doch ein Stück Kuchen aus deiner Tasche und lass mich einen Schluck von deinem Wein trinken. Ich bin so hungrig und durstig.“ Der Sohn aber antwortete: „Gebe ich dir etwas ab, so habe ich selber nichts. Pack dich deiner Wege!“ Bald darauf hieb er beim Holzhauen fehl, verletzte sich am Arm und musste heimgehen. Das war aber von dem grauen Männlein gekommen. Dem zweiten Sohn erging es genauso: Auch er gab dem grauen Männlein nichts, und auch er verletzte sich bald, diesmal am Bein.
 >
-> Da sagte der Dummling: „Vater, lass mich einmal hinausgehen und Holz hauen.“ Der Vater wollte es erst nicht erlauben, aber der Dummling bat so lange, bis er sagte: „Geh nur hin.“ Die Mutter gab ihm einen Kuchen, der war mit Wasser in der Asche gebacken, und dazu eine Flasche saures Bier. Als er in den Wald kam, begegnete ihm ebenfalls das alte graue Männlein, grüßte ihn und sprach: „Gib mir ein Stück von deinem Kuchen und einen Trunk aus deiner Flasche. Ich bin so hungrig und durstig.“ Der Dummling antwortete: „Ich habe aber nur Aschenkuchen und saures Bier. Wenn dir das recht ist, so wollen wir uns setzen und essen.“ Da setzten sie sich. Als der Dummling seinen Aschenkuchen herausholte, war es ein feiner Eierkuchen, und das saure Bier war ein guter Wein. Nun aßen und tranken sie.
+> Da sagte der Dummling: „Vater, lass mich einmal hinausgehen und Holz hauen.“ Der Vater antwortete: „Deine Brüder haben sich Schaden dabei getan. Lass es bleiben, du verstehst nichts davon.“ Der Dummling aber bat so lange, bis der Vater endlich sagte: „Geh nur hin, durch Schaden wirst du klug werden.“ Die Mutter gab ihm einen Kuchen, der war mit Wasser in der Asche gebacken, und dazu eine Flasche saures Bier. Als er in den Wald kam, begegnete ihm ebenfalls das alte graue Männlein, grüßte ihn und sprach: „Gib mir ein Stück von deinem Kuchen und einen Trunk aus deiner Flasche. Ich bin so hungrig und durstig.“ Der Dummling antwortete: „Ich habe aber nur Aschenkuchen und saures Bier. Wenn dir das recht ist, so wollen wir uns setzen und essen.“ Da setzten sie sich. Als der Dummling seinen Aschenkuchen herausholte, war es ein feiner Eierkuchen, und das saure Bier war ein guter Wein. Nun aßen und tranken sie.
 >
 > Danach sprach das Männlein: „Weil du ein gutes Herz hast und gern von dem Deinigen abgibst, will ich dir Glück bescheren. Dort steht ein alter Baum. Den hau ab, so wirst du in den Wurzeln etwas finden.“ Darauf nahm das Männlein Abschied. Der Dummling ging hin und hieb den Baum um. Als er fiel, saß in den Wurzeln eine Gans, die hatte Federn aus reinem Gold. Er hob sie auf, nahm sie mit und ging in ein Wirtshaus, wo er übernachten wollte.
 
@@ -114,7 +126,7 @@ Anfang, endet offen. Problem: Der Dummling wird verachtet; er hat nun etwas Beso
 
 **Kartenbezug:** das jüngste Kind · der Zwerg (graues Männlein) · der dunkle Wald · der Schatz · die Prüfung · die Belohnung · die Bestrafung · die Zahl 3 (drei Söhne)
 
-**Bearbeitungsprotokoll:** ältere Söhne gekürzt, zweiter Sohn zusammengefasst; Rechtschreibung angepasst. Anfang endet vor den Wirtstöchtern und der Prinzessin, die nicht lachen kann.
+**Bearbeitungsprotokoll:** ältere Söhne gekürzt, zweiter Sohn zusammengefasst; Rede des Vaters und „Das war aber von dem grauen Männlein gekommen“ nach Abgleich (18.10.2026) wieder ergänzt; Rechtschreibung angepasst. Anfang endet vor den Wirtstöchtern und der Prinzessin, die nicht lachen kann.
 
 ---
 
@@ -125,7 +137,7 @@ Anfang, endet offen. Problem: Die Brüder sind versteinert, der Dummling scheite
 > **Die Bienenkönigin**
 > *nach den Brüdern Grimm (KHM 62), Anfang, bearbeitet*
 >
-> Zwei Königssöhne gingen einmal auf Abenteuer aus und kamen nicht wieder nach Hause. Ihr jüngster Bruder, den sie nur den Dummling nannten, machte sich auf und suchte sie. Als er sie endlich fand, verspotteten sie ihn: „Wie willst du mit deiner Einfalt durch die Welt kommen?“
+> Zwei Königssöhne gingen einmal auf Abenteuer aus und gerieten in ein wildes, wüstes Leben, sodass sie gar nicht wieder nach Hause kamen. Ihr jüngster Bruder, den sie nur den Dummling nannten, machte sich auf und suchte sie. Als er sie endlich fand, verspotteten sie ihn: Wie wolle er mit seiner Einfalt durch die Welt kommen, wo sie zwei doch nicht durchkämen und viel klüger wären!
 >
 > Sie zogen alle drei miteinander weiter und kamen an einen Ameisenhaufen. Die beiden älteren wollten ihn aufwühlen und zusehen, wie die kleinen Ameisen in der Angst herumkrochen und ihre Eier forttrugen. Der Dummling aber sagte: „Lasst die Tiere in Frieden, ich leide nicht, dass ihr sie stört.“ Dann gingen sie weiter und kamen an einen See, auf dem schwammen viele Enten. Die beiden Brüder wollten ein paar fangen und braten. Der Dummling aber sagte: „Lasst die Tiere in Frieden, ich leide nicht, dass ihr sie tötet.“ Endlich kamen sie an ein Bienennest, in dem war so viel Honig, dass er am Stamm herunterlief. Die zwei wollten Feuer unter den Baum legen, damit die Bienen erstickten und sie den Honig wegnehmen könnten. Der Dummling hielt sie aber wieder ab und sprach: „Lasst die Tiere in Frieden, ich leide nicht, dass ihr sie verbrennt.“
 >
@@ -139,7 +151,7 @@ Anfang, endet offen. Problem: Die Brüder sind versteinert, der Dummling scheite
 
 **Kartenbezug:** das jüngste Kind · der Prinz · der Zwerg · das Schloss · der dunkle Wald · der Schatz (Perlen) · die Prüfung · die Verwandlung · die Zahl 3
 
-**Bearbeitungsprotokoll:** gekürzt (Schloss-Szene und Perlensuche der Brüder zusammengefasst), Rechtschreibung angepasst; die dreifache Rede des Dummlings wörtlich erhalten. Anfang endet vor der Hilfe der Ameisen; Aufgabe 2 und 3 bleiben für die Kinder offen.
+**Bearbeitungsprotokoll:** gekürzt (Schloss-Szene und Perlensuche der Brüder zusammengefasst), Rechtschreibung angepasst; die dreifache Rede des Dummlings wörtlich erhalten; Spott der Brüder nach Abgleich (18.10.2026) wieder als indirekte Rede wie bei Grimm. Anfang endet vor der Hilfe der Ameisen; Aufgabe 2 und 3 bleiben für die Kinder offen.
 
 ---
 
@@ -154,9 +166,9 @@ Anfang, endet offen. Gleichwertig zu Variante 1: König, drei Söhne, Dummling v
 >
 > Da sprach er zu ihnen: „Zieht aus, und wer mir den feinsten Teppich bringt, der soll nach meinem Tod König sein.“ Damit es keinen Streit unter ihnen gab, führte er sie vor sein Schloss, blies drei Federn in die Luft und sprach: „Wie die fliegen, so sollt ihr ziehen.“ Die eine Feder flog nach Osten, die andere nach Westen. Die dritte aber flog geradeaus, nicht weit, und fiel bald auf die Erde.
 >
-> Nun ging der eine Bruder rechts, der andere ging links, und sie lachten den Dummling aus, der bei der dritten Feder bleiben musste, da, wo sie niedergefallen war. „Der findet doch nichts“, sagten sie und zogen davon.
+> Nun ging der eine Bruder rechts, der andere ging links, und sie lachten den Dummling aus, der bei der dritten Feder bleiben musste, da, wo sie niedergefallen war.
 >
-> Der Dummling setzte sich nieder und war traurig. Er wusste nicht, wo er einen feinen Teppich herbekommen sollte, denn hier war weit und breit nichts als Gras und Erde. Da bemerkte er auf einmal, dass neben der Feder eine Falltür lag. Er hob sie in die Höhe. Darunter war eine Treppe, die führte hinab in die Tiefe. Der Dummling stieg hinunter und kam an eine Tür. Er klopfte an und hörte, wie es drinnen rief:
+> Der Dummling setzte sich nieder und war traurig. Da bemerkte er auf einmal, dass neben der Feder eine Falltür lag. Er hob sie in die Höhe, fand eine Treppe und stieg hinab. Da kam er an eine Tür. Er klopfte an und hörte, wie es drinnen rief:
 >
 > „Jungfer grün und klein,
 > Hutzelbein,
@@ -164,15 +176,15 @@ Anfang, endet offen. Gleichwertig zu Variante 1: König, drei Söhne, Dummling v
 > hutzel hin und her,
 > lass geschwind sehen, wer draußen wär.“
 >
-> Die Tür ging auf, und der Dummling sah eine große, dicke Kröte sitzen. Rings um sie herum saßen viele kleine Kröten. Die dicke Kröte fragte freundlich, was er wünsche.
+> Die Tür ging auf, und der Dummling sah eine große, dicke Kröte sitzen. Rings um sie herum saßen viele kleine Kröten. Die dicke Kröte fragte, was sein Begehren wäre.
 
-**Wörterhilfe:** gescheit (klug) · einfältig (ein bisschen dumm, naiv) · das Reich erben (König werden, wenn der Vater stirbt) · die Falltür (Tür im Boden) · die Jungfer (altes Wort für junges Mädchen) · Hutzelbein (Fantasiename aus dem Spruch) · die Kröte (froschähnliches Tier)
+**Wörterhilfe:** gescheit (klug) · einfältig (ein bisschen dumm, naiv) · das Reich erben (König werden, wenn der Vater stirbt) · die Falltür (Tür im Boden) · die Jungfer (altes Wort für junges Mädchen) · Hutzelbein (Fantasiename aus dem Spruch) · die Kröte (froschähnliches Tier) · das Begehren (der Wunsch)
 
 **Kartenbezug:** der König · das jüngste Kind · das Schloss · das sprechende Tier · die Magie · die Prüfung · die Zahl 3 · die Belohnung
 
-**Bearbeitungsprotokoll:** Rechtschreibung angepasst; Spruch an der Tür wörtlich erhalten. Anfang endet mit der Frage der Kröte, also mit einer angedeuteten Helferfigur (Entscheidung C, 18.10.2026), parallel zu den hilfsbereiten Tieren in Variante 1. Wie die Kröte hilft und welche weiteren Aufgaben folgen, bleibt offen.
+**Bearbeitungsprotokoll:** Rechtschreibung angepasst; Spruch an der Tür wörtlich erhalten; nach Abgleich (18.10.2026) erfundene Rede der Brüder und Gedanken des Dummlings gestrichen. Anfang endet mit der Frage der Kröte, also mit einer angedeuteten Helferfigur (Entscheidung C, 18.10.2026), parallel zu den hilfsbereiten Tieren in Variante 1. Wie die Kröte hilft und welche weiteren Aufgaben folgen, bleibt offen.
 
-**Gleichwertigkeit V1/V2 (Entscheidung C, 18.10.2026):** Beide Anfänge haben König oder Königssöhne, drei Brüder mit verspottetem Dummling, eine Aufgabe, eine angedeutete Hilfe durch Tiere und eine offene Wendestelle. V2 wurde um die Begegnung mit der Kröte ergänzt; V1 rund 360, V2 rund 280 Wörter.
+**Gleichwertigkeit V1/V2 (Entscheidung C, 18.10.2026):** Beide Anfänge haben König oder Königssöhne, drei Brüder mit verspottetem Dummling, eine Aufgabe, eine angedeutete Hilfe durch Tiere und eine offene Wendestelle. V2 wurde um die Begegnung mit der Kröte ergänzt; V1 rund 380, V2 rund 250 Wörter (nach Abgleich mit dem Original).
 
 ---
 
@@ -187,15 +199,15 @@ Anfang, endet offen. Problem: Der Soldat sitzt unten im trockenen Brunnen, die H
 >
 > Als die Dunkelheit hereinbrach, sah er ein Licht. Er ging darauf zu und kam zu einem Haus, darin wohnte eine Hexe. „Gib mir doch ein Nachtlager und ein wenig Essen und Trinken“, bat er sie, „sonst verschmachte ich.“ – „Oho!“, antwortete sie. „Wer gibt einem verlaufenen Soldaten etwas? Doch ich will barmherzig sein und dich aufnehmen, wenn du tust, was ich verlange.“ – „Was verlangst du?“, fragte der Soldat. „Dass du mir morgen meinen Garten umgräbst.“
 >
-> Der Soldat willigte ein und arbeitete am folgenden Tag mit aller Kraft. Am Abend wollte die Hexe, dass er noch eine Nacht bleibe und am nächsten Tag Holz für sie hacke. Auch das tat er. Am dritten Tag sprach die Hexe: „Hinter meinem Haus ist ein alter, wasserleerer Brunnen. Da ist mir mein Licht hineingefallen. Es brennt blau und verlischt nie. Das sollst du mir wieder heraufholen.“ Sie ließ ihn in einem Korb an einem Seil hinab. Unten fand er das blaue Licht und machte ein Zeichen, dass sie ihn wieder hinaufziehen sollte. Sie zog ihn auch in die Höhe. Als er aber nahe am Rand war, reichte sie die Hand hinab und wollte ihm das blaue Licht abnehmen. „Nein“, sagte er, denn er merkte ihre bösen Gedanken. „Das Licht gebe ich dir erst, wenn ich mit beiden Füßen auf der Erde stehe.“ Da geriet die Hexe in Wut, ließ ihn wieder in den Brunnen hinabfallen und ging fort.
+> Der Soldat willigte ein und arbeitete am folgenden Tag mit aller Kraft, konnte aber vor Abend nicht fertig werden. „Ich sehe wohl“, sprach die Hexe, „dass du heute nicht weiter kannst. Ich will dich noch eine Nacht behalten. Dafür sollst du mir morgen ein Fuder Holz spalten und klein machen.“ Dazu brauchte der Soldat den ganzen Tag. Abends machte die Hexe ihm den Vorschlag, noch eine Nacht zu bleiben, und sprach: „Du sollst mir morgen nur eine geringe Arbeit tun. Hinter meinem Haus ist ein alter, wasserleerer Brunnen. Da ist mir mein Licht hineingefallen. Es brennt blau und verlischt nie. Das sollst du mir wieder heraufholen.“ Am anderen Tag führte ihn die Alte zu dem Brunnen und ließ ihn in einem Korb hinab. Unten fand er das blaue Licht und machte ein Zeichen, dass sie ihn wieder hinaufziehen sollte. Sie zog ihn auch in die Höhe. Als er aber nahe am Rand war, reichte sie die Hand hinab und wollte ihm das blaue Licht abnehmen. „Nein“, sagte er, denn er merkte ihre bösen Gedanken. „Das Licht gebe ich dir erst, wenn ich mit beiden Füßen auf der Erde stehe.“ Da geriet die Hexe in Wut, ließ ihn wieder in den Brunnen hinabfallen und ging fort.
 >
 > Der Soldat fiel, ohne Schaden zu nehmen, auf den feuchten Boden. Das blaue Licht brannte weiter, aber was konnte ihm das helfen? Er sah wohl, dass er dem Tod nicht entgehen würde. Traurig saß er eine Weile da. Dann griff er zufällig in seine Tasche und fand seine Tabakspfeife, die noch halb gestopft war.
 
-**Wörterhilfe:** verschmachten (vor Hunger und Durst sterben) · barmherzig (gütig, mitleidig) · einwilligen (zustimmen) · verlöschen (ausgehen) · die Tabakspfeife
+**Wörterhilfe:** verschmachten (vor Hunger und Durst sterben) · barmherzig (gütig, mitleidig) · einwilligen (zustimmen) · verlöschen (ausgehen) · ein Fuder Holz (eine Wagenladung Holz) · die Tabakspfeife
 
 **Kartenbezug:** der König · die Hexe · der dunkle Wald · die kleine Hütte · der Brunnen · die Magie · die Prüfung · die Zahl 3 (drei Tage Arbeit)
 
-**Bearbeitungsprotokoll:** Rechtschreibung angepasst, Satzgefüge geteilt. Anfang endet, bevor der Soldat die Pfeife am blauen Licht anzündet und das schwarze Männchen erscheint. **Entscheidung C (18.10.2026):** Die Tabakspfeife bleibt wie bei Grimm (sie löst den Zauber aus).
+**Bearbeitungsprotokoll:** Rechtschreibung angepasst, Satzgefüge geteilt; nach Abgleich (18.10.2026) die Tagesfolge wie bei Grimm (Garten unfertig, Fuder Holz, „geringe Arbeit“, Gang zum Brunnen). Anfang endet, bevor der Soldat die Pfeife am blauen Licht anzündet und das schwarze Männchen erscheint. **Entscheidung C (18.10.2026):** Die Tabakspfeife bleibt wie bei Grimm (sie löst den Zauber aus).
 
 ---
 
@@ -210,14 +222,14 @@ Anfang, endet offen. Problem: Niemand weiß, wo die Prinzessinnen nachts tanzen.
 >
 > Da ließ der König ausrufen: „Wer herausfindet, wo meine Töchter in der Nacht tanzen, der darf sich eine von ihnen zur Frau wählen und soll nach meinem Tod König werden. Wer sich aber meldet und es nach drei Tagen und Nächten nicht herausgebracht hat, der muss das Land für immer verlassen.“
 >
-> Nicht lange, so meldete sich ein Königssohn. Er wurde gut aufgenommen und abends in ein Zimmer geführt, das an den Schlafsaal stieß. Die Tür blieb offen, damit er sehen konnte, wohin die Prinzessinnen gingen. Dem Königssohn fielen aber die Augen zu, und er schlief ein. Als er am Morgen aufwachte, waren alle zwölf beim Tanz gewesen, denn ihre Schuhe hatten Löcher in den Sohlen. Den zweiten und dritten Abend ging es nicht anders, und so musste er fort. Danach kamen noch viele andere und wagten es, aber keinem erging es besser.
+> Nicht lange, so meldete sich ein Königssohn. Er wurde gut aufgenommen und abends in ein Zimmer geführt, das an den Schlafsaal stieß. Sein Bett war dort aufgeschlagen, und er sollte achtgeben, wohin sie gingen und tanzten. Damit sie nichts heimlich treiben konnten, blieb die Tür zum Saal offen. Dem Königssohn fielen aber die Augen zu, und er schlief ein. Als er am Morgen aufwachte, waren alle zwölf beim Tanz gewesen, denn ihre Schuhe hatten Löcher in den Sohlen. Den zweiten und dritten Abend ging es nicht anders, und so musste er fort. Danach kamen noch viele andere und wagten es, aber keinem erging es besser.
 >
-> Nun trug es sich zu, dass ein armer Soldat, der eine Wunde hatte und nicht mehr dienen konnte, auf dem Weg zu der Stadt war, wo der König wohnte. Da begegnete ihm eine alte Frau und fragte ihn, wo er hinwolle. „Ich weiß es selber nicht recht“, sagte er und setzte im Spaß hinzu: „Ich hätte wohl Lust, herauszufinden, wo die Königstöchter ihre Schuhe zertanzen, und dann König zu werden.“ – „Das ist so schwer nicht“, sagte die Alte. „Du darfst den Wein nicht trinken, der dir abends gebracht wird, und musst tun, als ob du fest schliefst.“ Darauf gab sie ihm ein Mäntelchen und sprach: „Wenn du das umhängst, so bist du unsichtbar.“
+> Nun trug es sich zu, dass ein armer Soldat, der eine Wunde hatte und nicht mehr dienen konnte, auf dem Weg zu der Stadt war, wo der König wohnte. Da begegnete ihm eine alte Frau und fragte ihn, wo er hinwolle. „Ich weiß es selber nicht recht“, sagte er und setzte im Spaß hinzu: „Ich hätte wohl Lust, herauszufinden, wo die Königstöchter ihre Schuhe zertanzen, und dann König zu werden.“ – „Das ist so schwer nicht“, sagte die Alte. „Du darfst den Wein nicht trinken, der dir abends gebracht wird, und musst tun, als ob du fest schliefst.“ Darauf gab sie ihm ein Mäntelchen und sprach: „Wenn du das umhängst, so bist du unsichtbar und kannst den zwölfen dann nachschleichen.“
 >
-> Als der Soldat den guten Rat bekommen hatte, ging er zum König und meldete sich. Am Abend wurde er in das Vorzimmer geführt. Als er zu Bett gehen wollte, kam die älteste Königstochter und brachte ihm einen Becher Wein.
+> Als der Soldat den guten Rat bekommen hatte, ging er zum König und meldete sich. Er wurde ebenso gut aufgenommen wie die anderen, und man zog ihm königliche Kleider an. Am Abend wurde er in das Vorzimmer geführt. Als er zu Bett gehen wollte, kam die älteste Königstochter und brachte ihm einen Becher Wein.
 
 **Wörterhilfe:** zertanzt (beim Tanzen kaputtgegangen) · verriegeln (fest verschließen) · herausbringen (herausfinden) · ausrufen lassen (öffentlich bekannt machen) · unsichtbar
 
 **Kartenbezug:** der König · die Prinzessin · das arme Kind (hier: armer Soldat) · das Schloss · die Fee (alte Frau als Helferin) · die Magie · die Prüfung · die Zahl 3
 
-**Bearbeitungsprotokoll:** **Entschärft:** Im Original verliert, wer scheitert, sein Leben („der hatte sein Leben verwirkt“); hier muss er das Land verlassen. Zahlen 12 und 3 erhalten. Anfang endet, bevor der Soldat den Wein heimlich wegschüttet.
+**Bearbeitungsprotokoll:** **Entschärft:** Im Original verliert, wer scheitert, sein Leben („der hatte sein Leben verwirkt“); hier muss er das Land verlassen. Zahlen 12 und 3 erhalten; nach Abgleich (18.10.2026) Bett und Auftrag des Königssohns, Zweck des Mantels und die königlichen Kleider ergänzt. Anfang endet, bevor der Soldat den Wein heimlich wegschüttet.
