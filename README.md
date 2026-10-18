@@ -26,7 +26,7 @@ Unterrichtsreihe 3 im Jahrgang 5 (Aufgabentyp 6, produktionsorientiertes Schreib
 
 - [Produktionsregeln](skill.md) – verbindlich für jede Materialarbeit
 - `python3 tools/build_texte.py` – alle Märchentexte als A4-Schülerfassung mit Zeilennummern und Fußnoten → `ausgabe/texte/`, Zeilenbelege in `ausgabe/texte/zeilen.json`
-- `python3 tools/build_material.py N` – Etappe N komplett, z. B. Etappe 1 → `ausgabe/etappe1/` (Input, Merkblatt, Blatt 1–2, Schülerpaket, GN1 A/B, Erwartungshorizont, Förder 1F–2F, GN1F)
+- `python3 tools/build_material.py N` – Etappe N komplett, z. B. Etappe 1 → `ausgabe/etappe1/` (Input, Merkblatt, Blatt 1–2, Schülerpaket, GN1 A/B, Erwartungshorizont, Förder 1F–2F, GN1F A/B)
 - Voraussetzungen: Python 3, `playwright` (Chromium), `pymupdf`
 
 ## Materialstand

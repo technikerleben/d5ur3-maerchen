@@ -502,6 +502,76 @@
      "linien": 2,
      "ziel": "F1.5"
     }
+   ],
+   "auftraege_b": [
+    {
+     "art": "ankreuzen",
+     "text": "Was ist Zauberei? Kreuze **3** an.",
+     "optionen": [
+      "Ein Spiegel spricht.",
+      "Der Vater liest Zeitung.",
+      "Ein Kürbis wird zur Kutsche.",
+      "Eine Fee zaubert einen Ring.",
+      "Das Kind putzt die Zähne."
+     ],
+     "loesung": [
+      "Ein Spiegel spricht.",
+      "Ein Kürbis wird zur Kutsche.",
+      "Eine Fee zaubert einen Ring."
+     ],
+     "ziel": "F1.1"
+    },
+    {
+     "art": "zuordnen",
+     "text": "Schreibe **G** (gut) oder **F** (faul) in das Kästchen.",
+     "paare": [
+      [
+       "Er hilft dem kleinen Vogel.",
+       "G"
+      ],
+      [
+       "Sie bleibt den ganzen Tag im Bett.",
+       "F"
+      ],
+      [
+       "Er trägt das Holz für die alte Frau.",
+       "G"
+      ],
+      [
+       "Sie will nicht teilen.",
+       "F"
+      ]
+     ],
+     "ziel": "F1.2"
+    },
+    {
+     "art": "luecke",
+     "text": "Fülle die Lücken.",
+     "satz": "Die gute Tochter bekommt {Gold}. Die faule Tochter bekommt eine {Strafe}.",
+     "ablenker": [
+      "Pause"
+     ],
+     "ziel": "F1.3"
+    },
+    {
+     "art": "ankreuzen",
+     "text": "Wie beginnt ein Märchen? Kreuze an.",
+     "optionen": [
+      "Hallo Leute, heute …",
+      "Es war einmal …",
+      "In der Pause …"
+     ],
+     "loesung": [
+      "Es war einmal …"
+     ],
+     "ziel": "F1.4"
+    },
+    {
+     "art": "schreiben",
+     "text": "Lies: *Es war einmal ein kleines Mädchen. Es fand im Wald einen Zauberstab.* Schreibe einen Satz weiter.",
+     "linien": 2,
+     "ziel": "F1.5"
+    }
    ]
   },
   "bild": "brunnen_spindel"

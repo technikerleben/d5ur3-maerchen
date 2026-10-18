@@ -343,21 +343,22 @@ def f_merkkarte_html(e: dict) -> str:
         e["etappe"], esc(e["titel"]), sg, "".join("<div class=merk><b>%s</b>%s</div>" % (esc(k), md(t)) for k, t in f["merkkarte"])))
 
 
-def f_gn_html(e: dict) -> tuple[str, str]:
+def f_gn_html(e: dict, v: str = "A") -> tuple[str, str]:
     nw = e["foerder"]["nachweis"]
-    kopf = ("<div class=fkopf><div class=meta>Gelingensnachweis %dF</div><h1>%s</h1><div style='display:flex;gap:8mm;font-size:14pt;margin-bottom:3mm'>"
+    auftraege = nw["auftraege"] if v == "A" else nw["auftraege_b"]
+    kopf = ("<div class=fkopf><div class=meta>Gelingensnachweis %dF · Variante %s</div><h1>%s</h1><div style='display:flex;gap:8mm;font-size:14pt;margin-bottom:3mm'>"
             "<span style='flex:1;border-bottom:1pt solid #111'>Name:</span><span style='flex:1;border-bottom:1pt solid #111'>Datum:</span></div></div>"
-            % (e["etappe"], esc(nw["titel"])))
+            % (e["etappe"], v, esc(nw["titel"])))
     # Nachweis: keine Lösungsstreifen
-    auf = doc(FOERDER_CSS, "<div id=q>%s%s</div>%s" % (kopf, "".join(re.sub(r"data-loes='[^']*'", "data-loes=''", f_auftrag(a)) for a in nw["auftraege"]), F_JS))
+    auf = doc(FOERDER_CSS, "<div id=q>%s%s</div>%s" % (kopf, "".join(re.sub(r"data-loes='[^']*'", "data-loes=''", f_auftrag(a)) for a in auftraege), F_JS))
     rows = "".join("<tr><td>%s</td><td class=k>☐</td><td class=k>☐</td></tr>" % esc(z["kind"]) for z in nw["ziele"])
-    rueck = doc(GN_CSS, "<div class=meta>Gelingensnachweis %dF · Rückmeldung</div><h1>Das hast du gezeigt</h1>"
+    rueck = doc(GN_CSS, "<div class=meta>Gelingensnachweis %dF · Variante %s · Rückmeldung</div><h1>Das hast du gezeigt</h1>"
                 "<table><tr><th>Dein Ziel</th><th class=k>✓</th><th class=k>…</th></tr>%s"
                 "<tr><td>Eigenes Förderziel: ______________________</td><td class=k>☐</td><td class=k>☐</td></tr></table>"
                 "<div class=erg><b>Ergebnis: ____ von ____</b> (Ziele vorher vereinbart; ab 80 %% weiter)</div>"
                 "<div class=feld><b>Das gelingt dir schon:</b></div><div class=feld><b>Dein nächster Schritt:</b></div>"
                 "<div style='font-size:14pt;margin-top:3mm'>Lehrkraft-Hinweis: %s</div>" % (
-                    e["etappe"], rows, esc(" · ".join("%s %s" % (z["id"], z["lehrkraft"]) for z in nw["ziele"]))))
+                    e["etappe"], v, rows, esc(" · ".join("%s %s" % (z["id"], z["lehrkraft"]) for z in nw["ziele"]))))
     return auf, rueck
 
 
@@ -416,11 +417,15 @@ def main(n: int) -> int:
         fa.mkdir(exist_ok=True)
         s = verbinde([mk, TEXTE / f"{f['material']}_A4.pdf"] + fb, fa / f"Foerder_Etappe{n}_A4.pdf")
         bericht.append("%-34s %d S.  (Merkkarte, Material, Blätter)" % (f"foerder/Foerder_Etappe{n}_A4.pdf", s))
-        auf, rueck = f_gn_html(e)
-        a = mach(auf, tmp / "f_gn_auf.pdf", f"GN{n}F", 14)
-        r = mach(rueck, tmp / "f_gn_rueck.pdf", f"GN{n}F · Rückmeldung", 14)
-        s = verbinde([a, r], fa / f"GN{n}F_A4.pdf")
-        bericht.append("%-34s %d S." % (f"foerder/GN{n}F_A4.pdf", s))
+        alt = fa / f"GN{n}F_A4.pdf"
+        if alt.exists():
+            alt.unlink()
+        for v in (["A", "B"] if f["nachweis"].get("auftraege_b") else ["A"]):
+            auf, rueck = f_gn_html(e, v)
+            a = mach(auf, tmp / f"f_gn_{v}_auf.pdf", f"GN{n}F {v}", 14)
+            r = mach(rueck, tmp / f"f_gn_{v}_rueck.pdf", f"GN{n}F {v} · Rückmeldung", 14)
+            s = verbinde([a, r], fa / f"GN{n}F_{v}_A4.pdf")
+            bericht.append("%-34s %d S." % (f"foerder/GN{n}F_{v}_A4.pdf", s))
         br.close()
     print("\n".join(bericht))
     for x in tmp.iterdir():

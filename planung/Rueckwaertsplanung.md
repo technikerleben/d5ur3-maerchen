@@ -262,3 +262,8 @@ GN1–GN4 brauchen außer dem Anfang zum Weiterschreiben einen kurzen, unbekannt
 5. Ziel der Reihe und der LEK ist das Weiterschreiben eines vorgegebenen Märchenanfangs; das Märchenbuch ist Projekt P1.
 
 **Gate B ist freigegeben.** Nächster Schritt: Gate C, Textauswahl.
+
+## 10b Wiederholbarkeit der Nachweise (18.10.2026)
+
+- GN1–GN4 liegen in zwei gleichwertigen Fassungen A und B vor (eigene Anfänge, eigene Märchentexte); dasselbe gilt für die Förderfassungen GN1F–GN4F (Variante A/B, gleiche Ziele, andere Kurztexte und Items).
+- Die **Probearbeit** gibt es nach Entscheidung von C **nur in einer Fassung** („Die goldene Gans“): Sie ist Diagnose, kein Freigabetest. Die individuelle Rückmeldung zu K1–K5 lenkt das Üben in der Wahlzeit.

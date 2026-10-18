@@ -4,70 +4,147 @@
  "titel": "Figuren und Rollen verstehen",
  "ziel": "Ich erkenne, welche Rolle eine Figur im Märchen hat, und lasse Figuren beim Weiterschreiben passend zu ihrer Rolle handeln.",
  "titelbild": "maerchenbuch",
- "material": ["blatt4"],
+ "material": [
+  "blatt4"
+ ],
  "material_hinweis": "„Frau Holle“ liegt aus dem Schülerpaket der Etappe 1 vor.",
  "abschnitte": [
   {
    "titel": "Drei Rollen im Märchen",
    "bloecke": [
-    ["Merke", "In fast jedem Märchen gibt es drei Rollen:\n**der Held / die Heldin** – die Hauptfigur. Sie hat ein Problem oder eine Aufgabe.\n**der Gegenspieler / die Gegenspielerin** – macht der Hauptfigur das Leben schwer.\n**der Helfer / die Helferin** – hilft der Hauptfigur, oft mit Rat oder einem Zauberding."],
-    ["Wichtig", "Die Rolle hängt davon ab, **was eine Figur im Märchen tut**. Eine Hexe ist meistens Gegenspielerin, eine Fee meistens Helferin. Ein sprechendes Tier kann helfen oder schaden. Das jüngste Kind ist oft der Held.\n{KARTEN}"],
-    ["Frage", "Ein Wolf will Rotkäppchen fressen. Ein Jäger rettet es. Welche Rollen haben Rotkäppchen, der Wolf und der Jäger?"],
-    ["Gesicherte Antwort", "Rotkäppchen ist die **Heldin**, der Wolf ist der **Gegenspieler**, der Jäger ist der **Helfer**."]
+    [
+     "Merke",
+     "In fast jedem Märchen gibt es drei Rollen:\n**der Held / die Heldin** – die Hauptfigur. Sie hat ein Problem oder eine Aufgabe.\n**der Gegenspieler / die Gegenspielerin** – macht der Hauptfigur das Leben schwer.\n**der Helfer / die Helferin** – hilft der Hauptfigur, oft mit Rat oder einem Zauberding."
+    ],
+    [
+     "Wichtig",
+     "Die Rolle hängt davon ab, **was eine Figur im Märchen tut**. Eine Hexe ist meistens Gegenspielerin, eine Fee meistens Helferin. Ein sprechendes Tier kann helfen oder schaden. Das jüngste Kind ist oft der Held.\n{KARTEN}"
+    ],
+    [
+     "Frage",
+     "Ein Wolf will Rotkäppchen fressen. Ein Jäger rettet es. Welche Rollen haben Rotkäppchen, der Wolf und der Jäger?"
+    ],
+    [
+     "Gesicherte Antwort",
+     "Rotkäppchen ist die **Heldin**, der Wolf ist der **Gegenspieler**, der Jäger ist der **Helfer**."
+    ]
    ]
   },
   {
    "titel": "Rollen in „Frau Holle“",
    "bild": "frau_holle_bett",
    "bloecke": [
-    ["Frage", "Wer ist in „Frau Holle“ Heldin, wer Gegenspielerin, wer Helferin? Zeige eine passende Stelle."],
-    ["Gesicherte Antwort", "**Heldin:** das fleißige Mädchen. Es muss die Spindel aus dem Brunnen holen.\n**Gegenspielerin:** die Stiefmutter. Sie schimpft und schickt das Mädchen fort ({Z:frau-holle:Die Stiefmutter schimpfte}).\n**Helferin:** Frau Holle. Sie nimmt das Mädchen auf und belohnt es ({Z:frau-holle:Was fürchtest du dich, liebes Kind?})."],
-    ["Entdeckt", "Die faule Schwester ist das **Gegenteil** der Heldin. Bei ihr wird Frau Holle nicht zur Helferin: Sie bestraft sie."]
+    [
+     "Frage",
+     "Wer ist in „Frau Holle“ Heldin, wer Gegenspielerin, wer Helferin? Zeige eine passende Stelle."
+    ],
+    [
+     "Gesicherte Antwort",
+     "**Heldin:** das fleißige Mädchen. Es muss die Spindel aus dem Brunnen holen.\n**Gegenspielerin:** die Stiefmutter. Sie schimpft und schickt das Mädchen fort ({Z:frau-holle:Die Stiefmutter schimpfte}).\n**Helferin:** Frau Holle. Sie nimmt das Mädchen auf und belohnt es ({Z:frau-holle:Was fürchtest du dich, liebes Kind?})."
+    ],
+    [
+     "Entdeckt",
+     "Die faule Schwester ist das **Gegenteil** der Heldin. Bei ihr wird Frau Holle nicht zur Helferin: Sie bestraft sie."
+    ]
    ]
   },
   {
    "titel": "Gegensätze",
    "bild": "gold_pech",
    "bloecke": [
-    ["Merke", "Märchen zeigen oft zwei Figuren, die **ganz verschieden** sind: fleißig und faul, gut und böse, arm und reich. So siehst du gut, was richtig und was falsch ist."],
-    ["Frage", "Vergleiche die beiden Töchter am Backofen. Was tun sie?"],
-    ["Gesicherte Antwort", "Die Fleißige holt alle Brote heraus ({Z:frau-holle:holte mit dem Brotschieber alle Brote heraus}). Die Faule will sich nicht schmutzig machen und geht weiter ({Z:frau-holle:Die Faule aber antwortete})."]
+    [
+     "Merke",
+     "Märchen zeigen oft zwei Figuren, die **ganz verschieden** sind: fleißig und faul, gut und böse, arm und reich. So siehst du gut, was richtig und was falsch ist."
+    ],
+    [
+     "Frage",
+     "Vergleiche die beiden Töchter am Backofen. Was tun sie?"
+    ],
+    [
+     "Gesicherte Antwort",
+     "Die Fleißige holt alle Brote heraus ({Z:frau-holle:holte mit dem Brotschieber alle Brote heraus}). Die Faule will sich nicht schmutzig machen und geht weiter ({Z:frau-holle:Die Faule aber antwortete})."
+    ]
    ]
   },
   {
    "titel": "Eigenschaften aus Handlungen",
    "bloecke": [
-    ["So gehst du vor", "1. Suche eine **Handlung**: Was tut die Figur?\n2. Überlege: Welche **Eigenschaft** zeigt das?\n3. Gib die **Zeile** als Beleg an."],
-    ["Beispiel", "Das Mädchen schüttelt den Apfelbaum, bis kein Apfel mehr oben ist. → Es ist **hilfsbereit** ({Z:frau-holle:dass die Äpfel fielen, als regneten sie})."],
-    ["Frage", "Welche Eigenschaft zeigt die Faule bei Frau Holle am zweiten und dritten Tag?"],
-    ["Gesicherte Antwort", "Sie ist **faul** und **bequem**: Sie will morgens nicht aufstehen und schüttelt das Bett nicht ({Z:frau-holle:Am zweiten Tag fing sie schon an zu faulenzen})."]
+    [
+     "So gehst du vor",
+     "1. Suche eine **Handlung**: Was tut die Figur?\n2. Überlege: Welche **Eigenschaft** zeigt das?\n3. Gib die **Zeile** als Beleg an."
+    ],
+    [
+     "Beispiel",
+     "Das Mädchen schüttelt den Apfelbaum, bis kein Apfel mehr oben ist. → Es ist **hilfsbereit** ({Z:frau-holle:dass die Äpfel fielen, als regneten sie})."
+    ],
+    [
+     "Frage",
+     "Welche Eigenschaft zeigt die Faule bei Frau Holle am zweiten und dritten Tag?"
+    ],
+    [
+     "Gesicherte Antwort",
+     "Sie ist **faul** und **bequem**: Sie will morgens nicht aufstehen und schüttelt das Bett nicht ({Z:frau-holle:Am zweiten Tag fing sie schon an zu faulenzen})."
+    ]
    ]
   },
   {
    "titel": "Was bewirkt eine Figur?",
    "bloecke": [
-    ["Merke", "Jede Figur hat eine **Aufgabe** für die Handlung. Frage dich: Was würde fehlen, wenn es die Figur nicht gäbe?"],
-    ["Frage", "Was bewirkt die Stiefmutter? Was bewirkt Frau Holle?"],
-    ["Gesicherte Antwort", "Die **Stiefmutter** bringt die Handlung in Gang: Ohne sie springt das Mädchen nicht in den Brunnen.\n**Frau Holle** prüft die Mädchen und sorgt für das Ende: Belohnung mit Gold, Bestrafung mit Pech."]
+    [
+     "Merke",
+     "Jede Figur hat eine **Aufgabe** für die Handlung. Frage dich: Was würde fehlen, wenn es die Figur nicht gäbe?"
+    ],
+    [
+     "Frage",
+     "Was bewirkt die Stiefmutter? Was bewirkt Frau Holle?"
+    ],
+    [
+     "Gesicherte Antwort",
+     "Die **Stiefmutter** bringt die Handlung in Gang: Ohne sie springt das Mädchen nicht in den Brunnen.\n**Frau Holle** prüft die Mädchen und sorgt für das Ende: Belohnung mit Gold, Bestrafung mit Pech."
+    ]
    ]
   },
   {
    "titel": "Sprachdetektiv: wörtliche Rede",
    "bloecke": [
-    ["Merke", "Wenn eine Figur spricht, setzt du **Anführungszeichen**: unten „ am Anfang, oben “ am Ende.\nDer **Begleitsatz** sagt, wer spricht.\n**Begleitsatz vorn:** *Frau Holle sprach: „Es gefällt mir.“* – Doppelpunkt vor der Rede.\n**Begleitsatz hinten:** *„Das sollst du haben“, sprach Frau Holle.* – Komma nach der Rede."],
-    ["Frage", "Setze die Zeichen: *Das Brot rief Zieh mich raus*"],
-    ["Gesicherte Antwort", "*Das Brot rief: „Zieh mich raus!“*"]
+    [
+     "Merke",
+     "Wenn eine Figur spricht, setzt du **Anführungszeichen**: unten „ am Anfang, oben “ am Ende.\nDer **Begleitsatz** sagt, wer spricht.\n**Begleitsatz vorn:** *Frau Holle sprach: „Es gefällt mir.“* – Doppelpunkt vor der Rede.\n**Begleitsatz hinten:** *„Das sollst du haben“, sprach Frau Holle.* – Komma nach der Rede."
+    ],
+    [
+     "Frage",
+     "Setze die Zeichen: *Das Brot rief Zieh mich raus*"
+    ],
+    [
+     "Gesicherte Antwort",
+     "*Das Brot rief: „Zieh mich raus!“*"
+    ]
    ]
   },
   {
    "titel": "Figuren beim Weiterschreiben",
    "bild": "vogel",
    "bloecke": [
-    ["Lies", "*Ein armer Schäfer suchte im Wald nach seinem verlorenen Lamm. Da trat hinter einem Baum ein kleiner Mann mit einem langen grauen Bart hervor.*"],
-    ["So gehst du vor", "1. Entscheide: Ist die neue Figur **Helfer** oder **Gegenspieler**?\n2. Überlege, was sie dann **tut** und **sagt**.\n3. Lass sie sprechen: mindestens zwei Sätze **wörtliche Rede**."],
-    ["Beispiel", "*Der kleine Mann sah den Schäfer freundlich an und fragte: „Was suchst du hier so spät?“ „Mein Lamm ist fort“, antwortete der Schäfer. Da zeigte der Mann auf einen schmalen Weg und sprach: „Folge dem Licht, dann findest du es.“*"],
-    ["Frage", "Welche Rolle hat der kleine Mann im Beispiel? Woran erkennst du das?"],
-    ["Gesicherte Antwort", "Er ist ein **Helfer**: Er ist freundlich und zeigt dem Schäfer den Weg. Was er tut und sagt, passt zu seiner Rolle."]
+    [
+     "Lies",
+     "*Ein armer Schäfer suchte im Wald nach seinem verlorenen Lamm. Da trat hinter einem Baum ein kleiner Mann mit einem langen grauen Bart hervor.*"
+    ],
+    [
+     "So gehst du vor",
+     "1. Entscheide: Ist die neue Figur **Helfer** oder **Gegenspieler**?\n2. Überlege, was sie dann **tut** und **sagt**.\n3. Lass sie sprechen: mindestens zwei Sätze **wörtliche Rede**."
+    ],
+    [
+     "Beispiel",
+     "*Der kleine Mann sah den Schäfer freundlich an und fragte: „Was suchst du hier so spät?“ „Mein Lamm ist fort“, antwortete der Schäfer. Da zeigte der Mann auf einen schmalen Weg und sprach: „Folge dem Licht, dann findest du es.“*"
+    ],
+    [
+     "Frage",
+     "Welche Rolle hat der kleine Mann im Beispiel? Woran erkennst du das?"
+    ],
+    [
+     "Gesicherte Antwort",
+     "Er ist ein **Helfer**: Er ist freundlich und zeigt dem Schäfer den Weg. Was er tut und sagt, passt zu seiner Rolle."
+    ]
    ]
   }
  ],
@@ -79,10 +156,19 @@
    "signet": "lupe",
    "material": "frau-holle",
    "pflicht": [
-    {"text": "Zeichne eine Tabelle mit drei Spalten ins Heft: **Heldin · Gegenspielerin · Helferin**. Trage die Figuren aus „Frau Holle“ ein. Schreibe zu jeder Figur eine Zeile auf, die die Rolle zeigt."},
-    {"text": "Wähle **zwei** Figuren. Schreibe zu jeder auf: eine Handlung – die Eigenschaft – die Zeile.", "beispiel": "schüttelt das Bett kräftig – fleißig – Z. …"},
-    {"text": "Was bewirkt Frau Holle für die Handlung? Schreibe zwei Sätze ins Heft."},
-    {"text": "Vergleiche die fleißige und die faule Tochter bei Frau Holle. Schreibe zwei Unterschiede auf."}
+    {
+     "text": "Zeichne eine Tabelle mit drei Spalten ins Heft: **Heldin · Gegenspielerin · Helferin**. Trage die Figuren aus „Frau Holle“ ein. Schreibe zu jeder Figur eine Zeile auf, die die Rolle zeigt."
+    },
+    {
+     "text": "Wähle **zwei** Figuren. Schreibe zu jeder auf: eine Handlung – die Eigenschaft – die Zeile.",
+     "beispiel": "schüttelt das Bett kräftig – fleißig – Z. …"
+    },
+    {
+     "text": "Was bewirkt Frau Holle für die Handlung? Schreibe zwei Sätze ins Heft."
+    },
+    {
+     "text": "Vergleiche die fleißige und die faule Tochter bei Frau Holle. Schreibe zwei Unterschiede auf."
+    }
    ],
    "sprachdetektiv": "Schreibe zwei Sätze mit wörtlicher Rede aus „Frau Holle“ ab. Kreise die Anführungszeichen ein und unterstreiche den Begleitsatz.",
    "vertiefung": "Nimm drei Märchenkarten mit Figuren. Überlege für jede Figur: Wäre sie in einem Märchen eher Held, Gegenspieler oder Helfer? Begründe kurz."
@@ -94,10 +180,19 @@
    "signet": "weiterschreiben",
    "material": "blatt4",
    "pflicht": [
-    {"text": "Lies den Märchenanfang. Wer ist die Hauptfigur? Welches Problem hat sie? Schreibe es in einem Satz ins Heft."},
-    {"text": "Entscheide: Wer spricht das Mädchen an – eine **Helferfigur** oder ein **Gegenspieler**? Schreibe die Figur und ihre Rolle auf.", "karten": true},
-    {"text": "Schreibe die Begegnung im Heft weiter: **4 bis 6 Sätze** im Präteritum. Die neue Figur handelt passend zu ihrer Rolle. Benutze mindestens **zwei Sätze wörtliche Rede**."},
-    {"text": "Prüfe: Hast du alle Anführungszeichen gesetzt? Unterstreiche die Stelle, an der man die Rolle der Figur erkennt."}
+    {
+     "text": "Lies den Märchenanfang. Wer ist die Hauptfigur? Welches Problem hat sie? Schreibe es in einem Satz ins Heft."
+    },
+    {
+     "text": "Entscheide: Wer spricht das Mädchen an – eine **Helferfigur** oder ein **Gegenspieler**? Schreibe die Figur und ihre Rolle auf.",
+     "karten": true
+    },
+    {
+     "text": "Schreibe die Begegnung im Heft weiter: **4 bis 6 Sätze** im Präteritum. Die neue Figur handelt passend zu ihrer Rolle. Benutze mindestens **zwei Sätze wörtliche Rede**."
+    },
+    {
+     "text": "Prüfe: Hast du alle Anführungszeichen gesetzt? Unterstreiche die Stelle, an der man die Rolle der Figur erkennt."
+    }
    ],
    "vertiefung": "Schreibe die Begegnung noch einmal – diesmal mit der anderen Rolle. Was ändert sich?"
   }
@@ -106,33 +201,113 @@
   "titel": "Wer ist wer?",
   "signet": "lupe",
   "ziele": [
-   {"id": "E2.1", "kurz": "Rollen", "kind": "Ich ordne Figuren den Rollen Held, Gegenspieler und Helfer zu.", "lehrkraft": "drei Figuren richtig zugeordnet", "ueben": "Blatt 3, Aufgabe 1"},
-   {"id": "E2.2", "kurz": "Eigenschaft belegen", "kind": "Ich nenne eine Eigenschaft und zeige die Handlung im Text.", "lehrkraft": "passende Eigenschaft + Handlung + Zeile", "ueben": "Blatt 3, Aufgabe 2"},
-   {"id": "E2.3", "kurz": "Funktion", "kind": "Ich erkläre, was eine Figur für die Handlung bewirkt.", "lehrkraft": "Funktion verständlich erklärt", "ueben": "Blatt 3, Aufgabe 3"},
-   {"id": "E2.4", "kurz": "passend handeln", "kind": "Ich lasse eine Figur beim Weiterschreiben passend zu ihrer Rolle handeln.", "lehrkraft": "Rolle benannt; Handeln und Reden passen dazu; knüpft an den Anfang an", "ueben": "Blatt 4"},
-   {"id": "E2.5", "kurz": "wörtliche Rede", "kind": "Ich setze die Zeichen der wörtlichen Rede richtig.", "lehrkraft": "2 von 3 Sätzen vollständig richtig", "ueben": "Blatt 3, Sprachdetektiv"}
+   {
+    "id": "E2.1",
+    "kurz": "Rollen",
+    "kind": "Ich ordne Figuren den Rollen Held, Gegenspieler und Helfer zu.",
+    "lehrkraft": "drei Figuren richtig zugeordnet",
+    "ueben": "Blatt 3, Aufgabe 1"
+   },
+   {
+    "id": "E2.2",
+    "kurz": "Eigenschaft belegen",
+    "kind": "Ich nenne eine Eigenschaft und zeige die Handlung im Text.",
+    "lehrkraft": "passende Eigenschaft + Handlung + Zeile",
+    "ueben": "Blatt 3, Aufgabe 2"
+   },
+   {
+    "id": "E2.3",
+    "kurz": "Funktion",
+    "kind": "Ich erkläre, was eine Figur für die Handlung bewirkt.",
+    "lehrkraft": "Funktion verständlich erklärt",
+    "ueben": "Blatt 3, Aufgabe 3"
+   },
+   {
+    "id": "E2.4",
+    "kurz": "passend handeln",
+    "kind": "Ich lasse eine Figur beim Weiterschreiben passend zu ihrer Rolle handeln.",
+    "lehrkraft": "Rolle benannt; Handeln und Reden passen dazu; knüpft an den Anfang an",
+    "ueben": "Blatt 4"
+   },
+   {
+    "id": "E2.5",
+    "kurz": "wörtliche Rede",
+    "kind": "Ich setze die Zeichen der wörtlichen Rede richtig.",
+    "lehrkraft": "2 von 3 Sätzen vollständig richtig",
+    "ueben": "Blatt 3, Sprachdetektiv"
+   }
   ],
   "varianten": {
    "A": {
     "maerchen": "gaensemagd",
     "anfang": "gn2a",
     "aufgaben": [
-     {"ziel": "E2.1", "text": "Lies „Die Gänsemagd“. Wer ist Heldin, wer Gegenspielerin, wer Helfer? Schreibe die Figuren auf.", "linien": 3, "erwartung": "Heldin: Königstochter; Gegenspielerin: Kammerjungfer; Helfer/in: alte Königin (Tüchlein), Falada (sieht alles)"},
-     {"ziel": "E2.2", "text": "Welche Eigenschaft hat die Kammerjungfer? Schreibe die Eigenschaft, die Handlung und die Zeile auf.", "linien": 2, "erwartung": "z. B. hochmütig/gemein: will keine Magd sein ({Z:gaensemagd:Ich mag Eure Magd nicht sein}); nimmt Kleider und Pferd"},
-     {"ziel": "E2.3", "text": "Was bewirkt das Tüchlein mit den Blutstropfen? Was passiert, als es verloren ist?", "linien": 2, "erwartung": "schützt die Königstochter; als es weg ist, hat die Kammerjungfer Macht über sie ({Z:gaensemagd:nun hatte sie Macht über die Braut})"},
-     {"ziel": "E2.5", "text": "Schreibe die Sätze mit den richtigen Zeichen ab:\n*Die Königstochter sprach Ich habe Durst*\n*Steig selber ab sagte die Kammerjungfer*\n*Falada rief Ich habe alles gesehen*", "linien": 3, "erwartung": "Die Königstochter sprach: „Ich habe Durst.“ · „Steig selber ab“, sagte die Kammerjungfer. · Falada rief: „Ich habe alles gesehen!“"},
-     {"ziel": "E2.4", "text": "Lies den Märchenanfang „Der Prinz am Turm“. Entscheide: Wer schaut aus dem Fenster – Helfer oder Gegenspieler? Schreibe die Rolle auf und dann 4 bis 6 Sätze weiter. Benutze wörtliche Rede.", "linien": 9, "erwartung": "Rolle genannt; Figur handelt und spricht passend; knüpft an Turm/Fenster an"}
+     {
+      "ziel": "E2.1",
+      "text": "Lies „Die Gänsemagd“. Wer ist Heldin, wer Gegenspielerin, wer Helfer? Schreibe die Figuren auf.",
+      "linien": 3,
+      "erwartung": "Heldin: Königstochter; Gegenspielerin: Kammerjungfer; Helfer/in: alte Königin (Tüchlein), Falada (sieht alles)"
+     },
+     {
+      "ziel": "E2.2",
+      "text": "Welche Eigenschaft hat die Kammerjungfer? Schreibe die Eigenschaft, die Handlung und die Zeile auf.",
+      "linien": 2,
+      "erwartung": "z. B. hochmütig/gemein: will keine Magd sein ({Z:gaensemagd:Ich mag Eure Magd nicht sein}); nimmt Kleider und Pferd"
+     },
+     {
+      "ziel": "E2.3",
+      "text": "Was bewirkt das Tüchlein mit den Blutstropfen? Was passiert, als es verloren ist?",
+      "linien": 2,
+      "erwartung": "schützt die Königstochter; als es weg ist, hat die Kammerjungfer Macht über sie ({Z:gaensemagd:nun hatte sie Macht über die Braut})"
+     },
+     {
+      "ziel": "E2.5",
+      "text": "Schreibe die Sätze mit den richtigen Zeichen ab:\n*Die Königstochter sprach Ich habe Durst*\n*Steig selber ab sagte die Kammerjungfer*\n*Falada rief Ich habe alles gesehen*",
+      "linien": 3,
+      "erwartung": "Die Königstochter sprach: „Ich habe Durst.“ · „Steig selber ab“, sagte die Kammerjungfer. · Falada rief: „Ich habe alles gesehen!“"
+     },
+     {
+      "ziel": "E2.4",
+      "text": "Lies den Märchenanfang „Der Prinz am Turm“. Entscheide: Wer schaut aus dem Fenster – Helfer oder Gegenspieler? Schreibe die Rolle auf und dann 4 bis 6 Sätze weiter. Benutze wörtliche Rede.",
+      "linien": 9,
+      "erwartung": "Rolle genannt; Figur handelt und spricht passend; knüpft an Turm/Fenster an"
+     }
     ]
    },
    "B": {
     "maerchen": "laemmchen",
     "anfang": "gn2b",
     "aufgaben": [
-     {"ziel": "E2.1", "text": "Lies „Das Lämmchen und das Fischchen“. Wer sind die Helden, wer ist Gegenspielerin, wer hilft? Schreibe die Figuren auf.", "linien": 3, "erwartung": "Helden: Brüderchen und Schwesterchen; Gegenspielerin: Stiefmutter; Helfer: Koch, Bäuerin, weise Frau"},
-     {"ziel": "E2.2", "text": "Welche Eigenschaft hat der Koch? Schreibe die Eigenschaft, die Handlung und die Zeile auf.", "linien": 2, "erwartung": "z. B. mitleidig/gut: will das Lamm nicht schlachten ({Z:laemmchen:ich will dich nicht schlachten})"},
-     {"ziel": "E2.3", "text": "Was bewirkt die weise Frau für die Handlung?", "linien": 2, "erwartung": "Sie löst den Zauber: Die Kinder werden wieder Menschen ({Z:laemmchen:Da bekamen beide ihre menschliche Gestalt wieder})."},
-     {"ziel": "E2.5", "text": "Schreibe die Sätze mit den richtigen Zeichen ab:\n*Die Stiefmutter rief Hol das Lamm*\n*Ich will dir nichts tun sagte der Koch*\n*Das Fischchen antwortete Mir tut das Herz weh*", "linien": 3, "erwartung": "Die Stiefmutter rief: „Hol das Lamm!“ · „Ich will dir nichts tun“, sagte der Koch. · Das Fischchen antwortete: „Mir tut das Herz weh.“"},
-     {"ziel": "E2.4", "text": "Lies den Märchenanfang „Der Schneidersohn“. Entscheide: Wer öffnet die Tür – Helfer oder Gegenspieler? Schreibe die Rolle auf und dann 4 bis 6 Sätze weiter. Benutze wörtliche Rede.", "linien": 9, "erwartung": "Rolle genannt; Figur handelt und spricht passend; knüpft an Hütte/Tür an"}
+     {
+      "ziel": "E2.1",
+      "text": "Lies „Das Lämmchen und das Fischchen“. Wer sind die Helden, wer ist Gegenspielerin, wer hilft? Schreibe die Figuren auf.",
+      "linien": 3,
+      "erwartung": "Helden: Brüderchen und Schwesterchen; Gegenspielerin: Stiefmutter; Helfer: Koch, Bäuerin, weise Frau"
+     },
+     {
+      "ziel": "E2.2",
+      "text": "Welche Eigenschaft hat der Koch? Schreibe die Eigenschaft, die Handlung und die Zeile auf.",
+      "linien": 2,
+      "erwartung": "z. B. mitleidig/gut: will das Lamm nicht schlachten ({Z:laemmchen:ich will dich nicht schlachten})"
+     },
+     {
+      "ziel": "E2.3",
+      "text": "Was bewirkt die weise Frau für die Handlung?",
+      "linien": 2,
+      "erwartung": "Sie löst den Zauber: Die Kinder werden wieder Menschen ({Z:laemmchen:Da bekamen beide ihre menschliche Gestalt wieder})."
+     },
+     {
+      "ziel": "E2.5",
+      "text": "Schreibe die Sätze mit den richtigen Zeichen ab:\n*Die Stiefmutter rief Hol das Lamm*\n*Ich will dir nichts tun sagte der Koch*\n*Das Fischchen antwortete Mir tut das Herz weh*",
+      "linien": 3,
+      "erwartung": "Die Stiefmutter rief: „Hol das Lamm!“ · „Ich will dir nichts tun“, sagte der Koch. · Das Fischchen antwortete: „Mir tut das Herz weh.“"
+     },
+     {
+      "ziel": "E2.4",
+      "text": "Lies den Märchenanfang „Der Schneidersohn“. Entscheide: Wer öffnet die Tür – Helfer oder Gegenspieler? Schreibe die Rolle auf und dann 4 bis 6 Sätze weiter. Benutze wörtliche Rede.",
+      "linien": 9,
+      "erwartung": "Rolle genannt; Figur handelt und spricht passend; knüpft an Hütte/Tür an"
+     }
     ]
    }
   }
@@ -141,38 +316,248 @@
   "material": "frau-holle-f",
   "bild": "frau_holle_bett",
   "merkkarte": [
-   ["Held", "Die Hauptfigur. Sie hat ein Problem."],
-   ["Gegner", "Eine böse Figur. Sie macht Ärger."],
-   ["Helfer", "Eine gute Figur. Sie hilft der Hauptfigur."],
-   ["Reden", "Wer spricht, bekommt Zeichen: *Das Brot ruft: „Zieh mich raus!“*"]
+   [
+    "Held",
+    "Die Hauptfigur. Sie hat ein Problem."
+   ],
+   [
+    "Gegner",
+    "Eine böse Figur. Sie macht Ärger."
+   ],
+   [
+    "Helfer",
+    "Eine gute Figur. Sie hilft der Hauptfigur."
+   ],
+   [
+    "Reden",
+    "Wer spricht, bekommt Zeichen: *Das Brot ruft: „Zieh mich raus!“*"
+   ]
   ],
   "blaetter": [
-   {"nr": "3F", "titel": "Wer ist wer?", "signet": "lupe", "auftraege": [
-     {"art": "lesen", "text": "Lies „Frau Holle“ noch einmal."},
-     {"art": "zuordnen", "text": "Wer ist wer? Schreibe **H** (Held), **G** (Gegner) oder **F** (Helfer) in das Kästchen.", "paare": [["das fleißige Mädchen", "H"], ["die böse Mutter", "G"], ["Frau Holle", "F"]]},
-     {"art": "ankreuzen", "text": "Das Mädchen hilft dem Brot. Wie ist das Mädchen? Kreuze an.", "optionen": ["hilfsbereit", "faul", "böse"], "loesung": ["hilfsbereit"]},
-     {"art": "luecke", "text": "Fülle die Lücken. Nutze den Wortspeicher.", "satz": "Frau Holle gibt dem fleißigen Mädchen {Gold}. Die faule Tochter bekommt {Pech}.", "ablenker": ["Brot"]}
-   ]},
-   {"nr": "4F", "titel": "Eine Begegnung", "signet": "weiterschreiben", "auftraege": [
-     {"art": "lesen", "text": "Lies: *Ein Mädchen holt Wasser am Brunnen. Da sitzt eine alte Frau.*"},
-     {"art": "ankreuzen", "text": "Die alte Frau ist freundlich. Welche Rolle hat sie? Kreuze an.", "optionen": ["Helfer", "Gegner"], "loesung": ["Helfer"]},
-     {"art": "luecke", "text": "Die Frau spricht. Fülle die Lücken.", "satz": "Die alte Frau sagt: „Ich {helfe} dir.“ Das Mädchen sagt: „{Danke}!“", "ablenker": ["schlafe"]},
-     {"art": "schreiben", "text": "Was gibt die alte Frau dem Mädchen? Schreibe einen Satz.", "linien": 2}
-   ]}
+   {
+    "nr": "3F",
+    "titel": "Wer ist wer?",
+    "signet": "lupe",
+    "auftraege": [
+     {
+      "art": "lesen",
+      "text": "Lies „Frau Holle“ noch einmal."
+     },
+     {
+      "art": "zuordnen",
+      "text": "Wer ist wer? Schreibe **H** (Held), **G** (Gegner) oder **F** (Helfer) in das Kästchen.",
+      "paare": [
+       [
+        "das fleißige Mädchen",
+        "H"
+       ],
+       [
+        "die böse Mutter",
+        "G"
+       ],
+       [
+        "Frau Holle",
+        "F"
+       ]
+      ]
+     },
+     {
+      "art": "ankreuzen",
+      "text": "Das Mädchen hilft dem Brot. Wie ist das Mädchen? Kreuze an.",
+      "optionen": [
+       "hilfsbereit",
+       "faul",
+       "böse"
+      ],
+      "loesung": [
+       "hilfsbereit"
+      ]
+     },
+     {
+      "art": "luecke",
+      "text": "Fülle die Lücken. Nutze den Wortspeicher.",
+      "satz": "Frau Holle gibt dem fleißigen Mädchen {Gold}. Die faule Tochter bekommt {Pech}.",
+      "ablenker": [
+       "Brot"
+      ]
+     }
+    ]
+   },
+   {
+    "nr": "4F",
+    "titel": "Eine Begegnung",
+    "signet": "weiterschreiben",
+    "auftraege": [
+     {
+      "art": "lesen",
+      "text": "Lies: *Ein Mädchen holt Wasser am Brunnen. Da sitzt eine alte Frau.*"
+     },
+     {
+      "art": "ankreuzen",
+      "text": "Die alte Frau ist freundlich. Welche Rolle hat sie? Kreuze an.",
+      "optionen": [
+       "Helfer",
+       "Gegner"
+      ],
+      "loesung": [
+       "Helfer"
+      ]
+     },
+     {
+      "art": "luecke",
+      "text": "Die Frau spricht. Fülle die Lücken.",
+      "satz": "Die alte Frau sagt: „Ich {helfe} dir.“ Das Mädchen sagt: „{Danke}!“",
+      "ablenker": [
+       "schlafe"
+      ]
+     },
+     {
+      "art": "schreiben",
+      "text": "Was gibt die alte Frau dem Mädchen? Schreibe einen Satz.",
+      "linien": 2
+     }
+    ]
+   }
   ],
-  "nachweis": {"titel": "GN2F · Wer ist wer?", "ziele": [
-    {"id": "F2.1", "kind": "Ich erkenne den Helden.", "lehrkraft": "Held richtig zugeordnet"},
-    {"id": "F2.2", "kind": "Ich erkenne Gegner und Helfer.", "lehrkraft": "Gegner und Helfer richtig zugeordnet"},
-    {"id": "F2.3", "kind": "Ich erkenne eine Eigenschaft.", "lehrkraft": "passende Eigenschaft angekreuzt"},
-    {"id": "F2.4", "kind": "Ich erkenne wörtliche Rede.", "lehrkraft": "Satz mit richtigen Zeichen angekreuzt"},
-    {"id": "F2.5", "kind": "Ich schreibe einen Satz für eine Figur.", "lehrkraft": "eigener verständlicher Satz, passt zur Rolle"}
+  "nachweis": {
+   "titel": "GN2F · Wer ist wer?",
+   "ziele": [
+    {
+     "id": "F2.1",
+     "kind": "Ich erkenne den Helden.",
+     "lehrkraft": "Held richtig zugeordnet"
+    },
+    {
+     "id": "F2.2",
+     "kind": "Ich erkenne Gegner und Helfer.",
+     "lehrkraft": "Gegner und Helfer richtig zugeordnet"
+    },
+    {
+     "id": "F2.3",
+     "kind": "Ich erkenne eine Eigenschaft.",
+     "lehrkraft": "passende Eigenschaft angekreuzt"
+    },
+    {
+     "id": "F2.4",
+     "kind": "Ich erkenne wörtliche Rede.",
+     "lehrkraft": "Satz mit richtigen Zeichen angekreuzt"
+    },
+    {
+     "id": "F2.5",
+     "kind": "Ich schreibe einen Satz für eine Figur.",
+     "lehrkraft": "eigener verständlicher Satz, passt zur Rolle"
+    }
    ],
    "auftraege": [
-     {"art": "lesen", "text": "Lies: *Ein Junge sucht seinen Hund. Ein Riese will ihn fangen. Ein Vogel zeigt ihm den Weg.*"},
-     {"art": "zuordnen", "text": "Schreibe **H** (Held), **G** (Gegner) oder **F** (Helfer) in das Kästchen.", "paare": [["der Junge", "H"], ["der Riese", "G"], ["der Vogel", "F"]], "ziel": "F2.1"},
-     {"art": "ankreuzen", "text": "Der Vogel zeigt den Weg. Wie ist der Vogel? Kreuze an.", "optionen": ["hilfsbereit", "gemein"], "loesung": ["hilfsbereit"], "ziel": "F2.3"},
-     {"art": "ankreuzen", "text": "Welcher Satz ist richtig? Kreuze an.", "optionen": ["Der Vogel ruft: „Komm mit!“", "Der Vogel ruft Komm mit"], "loesung": ["Der Vogel ruft: „Komm mit!“"], "ziel": "F2.4"},
-     {"art": "schreiben", "text": "Was sagt der Junge zum Vogel? Schreibe einen Satz mit Zeichen.", "linien": 2, "ziel": "F2.5"}
-   ]}
+    {
+     "art": "lesen",
+     "text": "Lies: *Ein Junge sucht seinen Hund. Ein Riese will ihn fangen. Ein Vogel zeigt ihm den Weg.*"
+    },
+    {
+     "art": "zuordnen",
+     "text": "Schreibe **H** (Held), **G** (Gegner) oder **F** (Helfer) in das Kästchen.",
+     "paare": [
+      [
+       "der Junge",
+       "H"
+      ],
+      [
+       "der Riese",
+       "G"
+      ],
+      [
+       "der Vogel",
+       "F"
+      ]
+     ],
+     "ziel": "F2.1"
+    },
+    {
+     "art": "ankreuzen",
+     "text": "Der Vogel zeigt den Weg. Wie ist der Vogel? Kreuze an.",
+     "optionen": [
+      "hilfsbereit",
+      "gemein"
+     ],
+     "loesung": [
+      "hilfsbereit"
+     ],
+     "ziel": "F2.3"
+    },
+    {
+     "art": "ankreuzen",
+     "text": "Welcher Satz ist richtig? Kreuze an.",
+     "optionen": [
+      "Der Vogel ruft: „Komm mit!“",
+      "Der Vogel ruft Komm mit"
+     ],
+     "loesung": [
+      "Der Vogel ruft: „Komm mit!“"
+     ],
+     "ziel": "F2.4"
+    },
+    {
+     "art": "schreiben",
+     "text": "Was sagt der Junge zum Vogel? Schreibe einen Satz mit Zeichen.",
+     "linien": 2,
+     "ziel": "F2.5"
+    }
+   ],
+   "auftraege_b": [
+    {
+     "art": "lesen",
+     "text": "Lies: *Ein Mädchen sucht seine Katze. Eine Hexe will die Katze einsperren. Eine Eule zeigt dem Mädchen den Weg.*"
+    },
+    {
+     "art": "zuordnen",
+     "text": "Schreibe **H** (Held), **G** (Gegner) oder **F** (Helfer) in das Kästchen.",
+     "paare": [
+      [
+       "die Eule",
+       "F"
+      ],
+      [
+       "das Mädchen",
+       "H"
+      ],
+      [
+       "die Hexe",
+       "G"
+      ]
+     ],
+     "ziel": "F2.1"
+    },
+    {
+     "art": "ankreuzen",
+     "text": "Die Eule zeigt den Weg. Wie ist die Eule? Kreuze an.",
+     "optionen": [
+      "böse",
+      "hilfsbereit"
+     ],
+     "loesung": [
+      "hilfsbereit"
+     ],
+     "ziel": "F2.3"
+    },
+    {
+     "art": "ankreuzen",
+     "text": "Welcher Satz ist richtig? Kreuze an.",
+     "optionen": [
+      "Die Eule ruft Hier entlang",
+      "Die Eule ruft: „Hier entlang!“"
+     ],
+     "loesung": [
+      "Die Eule ruft: „Hier entlang!“"
+     ],
+     "ziel": "F2.4"
+    },
+    {
+     "art": "schreiben",
+     "text": "Was sagt das Mädchen zur Eule? Schreibe einen Satz mit Zeichen.",
+     "linien": 2,
+     "ziel": "F2.5"
+    }
+   ]
+  }
  }
 }

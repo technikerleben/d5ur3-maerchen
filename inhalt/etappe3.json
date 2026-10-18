@@ -4,57 +4,123 @@
  "titel": "Märchen aufbauen",
  "ziel": "Ich plane, wie ein Märchenanfang vom Problem bis zur Lösung weitergeht.",
  "titelbild": "maerchenbuch",
- "material": ["rumpelstilzchen", "blatt6"],
+ "material": [
+  "rumpelstilzchen",
+  "blatt6"
+ ],
  "abschnitte": [
   {
    "titel": "Der Märchenbauplan",
    "bloecke": [
-    ["Merke", "Viele Märchen sind nach demselben Plan gebaut:\n**1. Ausgangslage** – Wer lebt wo? Wie geht es der Hauptfigur?\n**2. Problem oder Aufgabe** – Etwas fehlt, ist gestohlen, verzaubert oder verboten.\n**3. Aufbruch** – Die Hauptfigur macht sich auf den Weg oder muss handeln.\n**4. Prüfungen** – Die Hauptfigur muss Aufgaben lösen, oft dreimal.\n**5. Wendung und Lösung** – Ein Helfer, eine Idee oder ein Zauber löst das Problem.\n**6. Ende** – Belohnung für das Gute, Bestrafung für das Böse."],
-    ["Frage", "Ordne „Frau Holle“: Was ist die Ausgangslage, was das Problem, was das Ende?"],
-    ["Gesicherte Antwort", "**Ausgangslage:** Die fleißige Tochter muss alle Arbeit tun. **Problem:** Die Spindel fällt in den Brunnen. **Ende:** Goldregen für die Fleißige, Pech für die Faule."]
+    [
+     "Merke",
+     "Viele Märchen sind nach demselben Plan gebaut:\n**1. Ausgangslage** – Wer lebt wo? Wie geht es der Hauptfigur?\n**2. Problem oder Aufgabe** – Etwas fehlt, ist gestohlen, verzaubert oder verboten.\n**3. Aufbruch** – Die Hauptfigur macht sich auf den Weg oder muss handeln.\n**4. Prüfungen** – Die Hauptfigur muss Aufgaben lösen, oft dreimal.\n**5. Wendung und Lösung** – Ein Helfer, eine Idee oder ein Zauber löst das Problem.\n**6. Ende** – Belohnung für das Gute, Bestrafung für das Böse."
+    ],
+    [
+     "Frage",
+     "Ordne „Frau Holle“: Was ist die Ausgangslage, was das Problem, was das Ende?"
+    ],
+    [
+     "Gesicherte Antwort",
+     "**Ausgangslage:** Die fleißige Tochter muss alle Arbeit tun. **Problem:** Die Spindel fällt in den Brunnen. **Ende:** Goldregen für die Fleißige, Pech für die Faule."
+    ]
    ]
   },
   {
    "titel": "Der Bauplan von „Rumpelstilzchen“",
    "bloecke": [
-    ["Frage", "Finde in „Rumpelstilzchen“ die sechs Bausteine. Nenne jeweils die Zeile."],
-    ["Gesicherte Antwort", "**1. Ausgangslage:** Ein armer Müller prahlt beim König mit seiner Tochter ({Z:rumpelstilzchen:die kann Stroh zu Gold spinnen}).\n**2. Problem:** Sie soll Stroh zu Gold spinnen, sonst muss sie sterben ({Z:rumpelstilzchen:so musst du sterben}).\n**3. Aufbruch:** Hier wird das Mädchen in die Kammer gesperrt – sie muss handeln, ohne wegzugehen.\n**4. Prüfungen:** drei Nächte, drei Kammern voll Stroh; danach drei Tage Namenraten ({Z:rumpelstilzchen:Drei Tage will ich dir Zeit lassen}).\n**5. Wendung und Lösung:** Der Bote hört den Namen ({Z:rumpelstilzchen:Heute back ich}).\n**6. Ende:** Die Königin nennt den Namen, das Männchen verschwindet für immer ({Z:rumpelstilzchen:wurde nie wieder gesehen})."],
-    ["Entdeckt", "Nicht jedes Märchen hat jeden Baustein gleich deutlich. Wichtig sind immer **Problem**, **Prüfungen** und **Lösung**."]
+    [
+     "Frage",
+     "Finde in „Rumpelstilzchen“ die sechs Bausteine. Nenne jeweils die Zeile."
+    ],
+    [
+     "Gesicherte Antwort",
+     "**1. Ausgangslage:** Ein armer Müller prahlt beim König mit seiner Tochter ({Z:rumpelstilzchen:die kann Stroh zu Gold spinnen}).\n**2. Problem:** Sie soll Stroh zu Gold spinnen, sonst muss sie sterben ({Z:rumpelstilzchen:so musst du sterben}).\n**3. Aufbruch:** Hier wird das Mädchen in die Kammer gesperrt – sie muss handeln, ohne wegzugehen.\n**4. Prüfungen:** drei Nächte, drei Kammern voll Stroh; danach drei Tage Namenraten ({Z:rumpelstilzchen:Drei Tage will ich dir Zeit lassen}).\n**5. Wendung und Lösung:** Der Bote hört den Namen ({Z:rumpelstilzchen:Heute back ich}).\n**6. Ende:** Die Königin nennt den Namen, das Männchen verschwindet für immer ({Z:rumpelstilzchen:wurde nie wieder gesehen})."
+    ],
+    [
+     "Entdeckt",
+     "Nicht jedes Märchen hat jeden Baustein gleich deutlich. Wichtig sind immer **Problem**, **Prüfungen** und **Lösung**."
+    ]
    ]
   },
   {
    "titel": "Die Dreimal-Regel",
    "bloecke": [
-    ["Merke", "In Märchen passiert vieles **dreimal**. Oft wird es dabei **schwerer** oder **wichtiger**. Das nennt man **Steigerung**. Beim dritten Mal kommt die Entscheidung."],
-    ["Frage", "Was gibt die Müllerstochter dem Männchen in den drei Nächten? Was wird größer?"],
-    ["Gesicherte Antwort", "1. Nacht: ihr **Halsband** ({Z:rumpelstilzchen:Mein Halsband}) · 2. Nacht: ihren **Ring** ({Z:rumpelstilzchen:Meinen Ring von dem Finger}) · 3. Nacht: ihr **erstes Kind** ({Z:rumpelstilzchen:dein erstes Kind}).\nDer Preis wird immer höher, und auch die Kammern werden immer größer."]
+    [
+     "Merke",
+     "In Märchen passiert vieles **dreimal**. Oft wird es dabei **schwerer** oder **wichtiger**. Das nennt man **Steigerung**. Beim dritten Mal kommt die Entscheidung."
+    ],
+    [
+     "Frage",
+     "Was gibt die Müllerstochter dem Männchen in den drei Nächten? Was wird größer?"
+    ],
+    [
+     "Gesicherte Antwort",
+     "1. Nacht: ihr **Halsband** ({Z:rumpelstilzchen:Mein Halsband}) · 2. Nacht: ihren **Ring** ({Z:rumpelstilzchen:Meinen Ring von dem Finger}) · 3. Nacht: ihr **erstes Kind** ({Z:rumpelstilzchen:dein erstes Kind}).\nDer Preis wird immer höher, und auch die Kammern werden immer größer."
+    ]
    ]
   },
   {
    "titel": "Problem und Lösung",
    "bloecke": [
-    ["So gehst du vor", "1. Frage: **Was will die Hauptfigur?** Oder: Was ist schiefgegangen?\n2. Frage: **Wodurch** wird es am Ende gut?\n3. Schreibe Problem und Lösung in je **einem Satz** auf."],
-    ["Frage", "Welches Problem hat die Königin im zweiten Teil von „Rumpelstilzchen“? Wie wird es gelöst?"],
-    ["Gesicherte Antwort", "**Problem:** Das Männchen will ihr Kind holen, wenn sie seinen Namen nicht in drei Tagen errät.\n**Lösung:** Der Bote hört den Namen am Feuer. Die Königin nennt ihn, und sie darf ihr Kind behalten."]
+    [
+     "So gehst du vor",
+     "1. Frage: **Was will die Hauptfigur?** Oder: Was ist schiefgegangen?\n2. Frage: **Wodurch** wird es am Ende gut?\n3. Schreibe Problem und Lösung in je **einem Satz** auf."
+    ],
+    [
+     "Frage",
+     "Welches Problem hat die Königin im zweiten Teil von „Rumpelstilzchen“? Wie wird es gelöst?"
+    ],
+    [
+     "Gesicherte Antwort",
+     "**Problem:** Das Männchen will ihr Kind holen, wenn sie seinen Namen nicht in drei Tagen errät.\n**Lösung:** Der Bote hört den Namen am Feuer. Die Königin nennt ihn, und sie darf ihr Kind behalten."
+    ]
    ]
   },
   {
    "titel": "Sprachdetektiv: Ereignisse verbinden",
    "bloecke": [
-    ["Merke", "Mit passenden **Satzanfängen** und **Bindewörtern** zeigst du, wie Ereignisse zusammenhängen:\n**Zeit:** *Am nächsten Morgen … · Da … · Plötzlich … · Endlich … · Als …*\n**Grund:** *weil … · denn …*\n**Gegensatz:** *aber … · doch …*\nVermeide lange Reihen mit *und dann … und dann …*"],
-    ["Vergleiche", "A: *Das Männchen spann das Stroh. Und dann kam der König. Und dann wollte er noch mehr Gold.*\nB: *Das Männchen spann das ganze Stroh zu Gold. Als am Morgen der König kam, freute er sich. Doch er wollte noch mehr.*"],
-    ["Frage", "Welcher Text liest sich besser? Welche Wörter verbinden die Sätze?"],
-    ["Gesicherte Antwort", "B liest sich besser. **Als** zeigt die Zeit, **Doch** zeigt den Gegensatz. In A wiederholt sich „und dann“."]
+    [
+     "Merke",
+     "Mit passenden **Satzanfängen** und **Bindewörtern** zeigst du, wie Ereignisse zusammenhängen:\n**Zeit:** *Am nächsten Morgen … · Da … · Plötzlich … · Endlich … · Als …*\n**Grund:** *weil … · denn …*\n**Gegensatz:** *aber … · doch …*\nVermeide lange Reihen mit *und dann … und dann …*"
+    ],
+    [
+     "Vergleiche",
+     "A: *Das Männchen spann das Stroh. Und dann kam der König. Und dann wollte er noch mehr Gold.*\nB: *Das Männchen spann das ganze Stroh zu Gold. Als am Morgen der König kam, freute er sich. Doch er wollte noch mehr.*"
+    ],
+    [
+     "Frage",
+     "Welcher Text liest sich besser? Welche Wörter verbinden die Sätze?"
+    ],
+    [
+     "Gesicherte Antwort",
+     "B liest sich besser. **Als** zeigt die Zeit, **Doch** zeigt den Gegensatz. In A wiederholt sich „und dann“."
+    ]
    ]
   },
   {
    "titel": "Vom Anfang zum Plan",
    "bloecke": [
-    ["Lies", "*Vor langer Zeit verschwand aus dem Garten eines Königs jede Nacht ein goldener Apfel. Der König war zornig. Da sprach sein jüngster Sohn: „Ich will herausfinden, wer die Äpfel stiehlt.“*"],
-    ["So gehst du vor", "1. Unterstreiche das **Problem** im Anfang.\n2. Plane in Stichwörtern: **Aufbruch – Prüfung 1, 2, 3 – Lösung – Ende**.\n3. Lass die Prüfungen **schwerer** werden.\n{KARTEN}"],
-    ["Beispiel", "**Problem:** Jede Nacht fehlt ein goldener Apfel.\n**Aufbruch:** Der Sohn wacht nachts im Garten.\n**Prüfung 1:** Er muss wach bleiben, obwohl er sehr müde ist.\n**Prüfung 2:** Ein Vogel aus Gold kommt; er muss ihm folgen bis zum dunklen Wald.\n**Prüfung 3:** Im Wald muss er an einem Riesen vorbei.\n**Lösung:** Ein sprechender Fuchs zeigt ihm einen geheimen Weg.\n**Ende:** Er bringt den Vogel zum König und wird belohnt."],
-    ["Frage", "Woran erkennst du, dass die Prüfungen schwerer werden?"],
-    ["Gesicherte Antwort", "Erst muss der Sohn nur wach bleiben, dann einem Vogel weit folgen und zuletzt an einem gefährlichen Riesen vorbei. Jede Prüfung ist **schwieriger** und **gefährlicher**."]
+    [
+     "Lies",
+     "*Vor langer Zeit verschwand aus dem Garten eines Königs jede Nacht ein goldener Apfel. Der König war zornig. Da sprach sein jüngster Sohn: „Ich will herausfinden, wer die Äpfel stiehlt.“*"
+    ],
+    [
+     "So gehst du vor",
+     "1. Unterstreiche das **Problem** im Anfang.\n2. Plane in Stichwörtern: **Aufbruch – Prüfung 1, 2, 3 – Lösung – Ende**.\n3. Lass die Prüfungen **schwerer** werden.\n{KARTEN}"
+    ],
+    [
+     "Beispiel",
+     "**Problem:** Jede Nacht fehlt ein goldener Apfel.\n**Aufbruch:** Der Sohn wacht nachts im Garten.\n**Prüfung 1:** Er muss wach bleiben, obwohl er sehr müde ist.\n**Prüfung 2:** Ein Vogel aus Gold kommt; er muss ihm folgen bis zum dunklen Wald.\n**Prüfung 3:** Im Wald muss er an einem Riesen vorbei.\n**Lösung:** Ein sprechender Fuchs zeigt ihm einen geheimen Weg.\n**Ende:** Er bringt den Vogel zum König und wird belohnt."
+    ],
+    [
+     "Frage",
+     "Woran erkennst du, dass die Prüfungen schwerer werden?"
+    ],
+    [
+     "Gesicherte Antwort",
+     "Erst muss der Sohn nur wach bleiben, dann einem Vogel weit folgen und zuletzt an einem gefährlichen Riesen vorbei. Jede Prüfung ist **schwieriger** und **gefährlicher**."
+    ]
    ]
   }
  ],
@@ -65,10 +131,19 @@
    "brauchst": "Märchen „Rumpelstilzchen“ · Merkblatt 3 · Heft",
    "signet": "lupe",
    "pflicht": [
-    {"text": "Lies das Märchen „Rumpelstilzchen“."},
-    {"text": "Zeichne den Märchenbauplan mit sechs Kästen ins Heft. Schreibe in jeden Kasten ein Stichwort aus „Rumpelstilzchen“ und die Zeile.", "beispiel": "1. Ausgangslage: armer Müller, schöne Tochter – Z. …"},
-    {"text": "Schreibe in je einem Satz auf: Welches **Problem** hat die Müllerstochter? Wie wird es **gelöst**?"},
-    {"text": "Die Müllerstochter muss dreimal Stroh zu Gold spinnen. Schreibe auf, was sie jedes Mal gibt. Erkläre: Was wird jedes Mal größer oder schlimmer?"}
+    {
+     "text": "Lies das Märchen „Rumpelstilzchen“."
+    },
+    {
+     "text": "Zeichne den Märchenbauplan mit sechs Kästen ins Heft. Schreibe in jeden Kasten ein Stichwort aus „Rumpelstilzchen“ und die Zeile.",
+     "beispiel": "1. Ausgangslage: armer Müller, schöne Tochter – Z. …"
+    },
+    {
+     "text": "Schreibe in je einem Satz auf: Welches **Problem** hat die Müllerstochter? Wie wird es **gelöst**?"
+    },
+    {
+     "text": "Die Müllerstochter muss dreimal Stroh zu Gold spinnen. Schreibe auf, was sie jedes Mal gibt. Erkläre: Was wird jedes Mal größer oder schlimmer?"
+    }
    ],
    "sprachdetektiv": "Verbinde die Sätze ohne „und dann“. Benutze *als, doch* oder *am nächsten Morgen*. Schreibe ins Heft: *Die Königin wusste den Namen nicht. Der Bote kam zurück. Er hatte das Männchen gehört.*",
    "vertiefung": "Auch das Namenraten dauert drei Tage. Schreibe auf, was an jedem Tag passiert. Wird es spannender? Begründe."
@@ -79,10 +154,19 @@
    "brauchst": "Märchenanfang „Der gestohlene Schlüssel“ · Merkblatt 3 · Heft",
    "signet": "weiterschreiben",
    "pflicht": [
-    {"text": "Lies den Märchenanfang „Der gestohlene Schlüssel“. Schreibe das **Problem** in einem Satz ins Heft."},
-    {"text": "Plane die Fortsetzung in Stichwörtern: **Aufbruch – Prüfung 1 – Prüfung 2 – Prüfung 3 – Lösung – Ende**. Die Prüfungen sollen schwerer werden.", "karten": true},
-    {"text": "Schreibe die **erste Prüfung** im Heft aus: 4 bis 6 Sätze im Präteritum. Verbinde die Sätze mit passenden Satzanfängen oder Bindewörtern."},
-    {"text": "Prüfe: Unterstreiche die Satzanfänge und Bindewörter. Hast du „und dann“ vermieden?"}
+    {
+     "text": "Lies den Märchenanfang „Der gestohlene Schlüssel“. Schreibe das **Problem** in einem Satz ins Heft."
+    },
+    {
+     "text": "Plane die Fortsetzung in Stichwörtern: **Aufbruch – Prüfung 1 – Prüfung 2 – Prüfung 3 – Lösung – Ende**. Die Prüfungen sollen schwerer werden.",
+     "karten": true
+    },
+    {
+     "text": "Schreibe die **erste Prüfung** im Heft aus: 4 bis 6 Sätze im Präteritum. Verbinde die Sätze mit passenden Satzanfängen oder Bindewörtern."
+    },
+    {
+     "text": "Prüfe: Unterstreiche die Satzanfänge und Bindewörter. Hast du „und dann“ vermieden?"
+    }
    ],
    "vertiefung": "Schreibe auch die zweite Prüfung. Sie soll schwerer sein als die erste."
   }
@@ -91,33 +175,113 @@
   "titel": "Der Märchenbauplan",
   "signet": "lupe",
   "ziele": [
-   {"id": "E3.1", "kurz": "Bausteine ordnen", "kind": "Ich ordne die Bausteine einer Märchenhandlung richtig.", "lehrkraft": "Reihenfolge stimmig (höchstens ein Tausch)", "ueben": "Blatt 5, Aufgabe 2"},
-   {"id": "E3.2", "kurz": "Problem und Lösung", "kind": "Ich nenne Problem und Lösung eines Märchens.", "lehrkraft": "beides richtig und verständlich", "ueben": "Blatt 5, Aufgabe 3"},
-   {"id": "E3.3", "kurz": "Prüfungen und Steigerung", "kind": "Ich erkenne die drei Prüfungen und ihre Steigerung.", "lehrkraft": "drei Prüfungen benannt, Steigerung erklärt", "ueben": "Blatt 5, Aufgabe 4"},
-   {"id": "E3.4", "kurz": "Fortsetzung planen", "kind": "Ich plane zu einem Märchenanfang eine Fortsetzung mit Lösung.", "lehrkraft": "Plan mit Aufbruch, mindestens einer Prüfung, Lösung und Ende; passt zum Problem", "ueben": "Blatt 6, Aufgabe 2"},
-   {"id": "E3.5", "kurz": "Ereignisse verbinden", "kind": "Ich verbinde Ereignisse mit passenden Satzanfängen oder Bindewörtern.", "lehrkraft": "3 passende Verbindungen, keine „und dann“-Reihe", "ueben": "Blatt 5, Sprachdetektiv"}
+   {
+    "id": "E3.1",
+    "kurz": "Bausteine ordnen",
+    "kind": "Ich ordne die Bausteine einer Märchenhandlung richtig.",
+    "lehrkraft": "Reihenfolge stimmig (höchstens ein Tausch)",
+    "ueben": "Blatt 5, Aufgabe 2"
+   },
+   {
+    "id": "E3.2",
+    "kurz": "Problem und Lösung",
+    "kind": "Ich nenne Problem und Lösung eines Märchens.",
+    "lehrkraft": "beides richtig und verständlich",
+    "ueben": "Blatt 5, Aufgabe 3"
+   },
+   {
+    "id": "E3.3",
+    "kurz": "Prüfungen und Steigerung",
+    "kind": "Ich erkenne die drei Prüfungen und ihre Steigerung.",
+    "lehrkraft": "drei Prüfungen benannt, Steigerung erklärt",
+    "ueben": "Blatt 5, Aufgabe 4"
+   },
+   {
+    "id": "E3.4",
+    "kurz": "Fortsetzung planen",
+    "kind": "Ich plane zu einem Märchenanfang eine Fortsetzung mit Lösung.",
+    "lehrkraft": "Plan mit Aufbruch, mindestens einer Prüfung, Lösung und Ende; passt zum Problem",
+    "ueben": "Blatt 6, Aufgabe 2"
+   },
+   {
+    "id": "E3.5",
+    "kurz": "Ereignisse verbinden",
+    "kind": "Ich verbinde Ereignisse mit passenden Satzanfängen oder Bindewörtern.",
+    "lehrkraft": "3 passende Verbindungen, keine „und dann“-Reihe",
+    "ueben": "Blatt 5, Sprachdetektiv"
+   }
   ],
   "varianten": {
    "A": {
     "maerchen": "drei-brueder",
     "anfang": "gn3a",
     "aufgaben": [
-     {"ziel": "E3.1", "text": "Lies „Die drei Brüder“. Bringe die Bausteine in die richtige Reihenfolge. Schreibe 1 bis 5 davor.\n☐ Die drei Söhne lernen ein Handwerk.\n☐ Der Vater weiß nicht, wer das Haus bekommen soll.\n☐ Der Fechtmeister bekommt das Haus.\n☐ Ein Mann hat drei Söhne und ein Haus.\n☐ Die Söhne zeigen ihre Meisterstücke.", "linien": 0, "erwartung": "Mann mit drei Söhnen (1), Vater weiß nicht (2), Handwerk lernen (3), Meisterstücke (4), Fechtmeister bekommt Haus (5)"},
-     {"ziel": "E3.2", "text": "Schreibe in je einem Satz auf: Was ist das **Problem**? Wie wird es **gelöst**?", "linien": 2, "erwartung": "Problem: Nur ein Haus, drei Söhne – wer bekommt es? Lösung: Wer das beste Meisterstück macht; der Fechtmeister gewinnt."},
-     {"ziel": "E3.3", "text": "Nenne die drei Meisterstücke. Erkläre, warum das dritte das beste ist.", "linien": 3, "erwartung": "Hase rasieren ({Z:drei-brueder:rasierte ihm im vollen Lauf}), Hufeisen im Galopp, trocken im Regen; Steigerung: das dritte ist am schwierigsten, der Vater staunt"},
-     {"ziel": "E3.5", "text": "Verbinde die Sätze ohne „und dann“. Schreibe sie neu auf:\n*Der Hase kam. Der Barbier nahm die Seife. Der Vater lobte ihn.*", "linien": 3, "erwartung": "z. B. Als der Hase kam, nahm der Barbier die Seife. Danach lobte ihn der Vater."},
-     {"ziel": "E3.4", "text": "Lies den Märchenanfang. Plane die Fortsetzung in Stichwörtern: **Aufbruch – Prüfung 1 – Prüfung 2 – Prüfung 3 – Lösung – Ende**.", "linien": 6, "erwartung": "Plan passt zum Problem (Königin auf dem Berg); mindestens eine Prüfung, Lösung und Ende; Steigerung erkennbar"}
+     {
+      "ziel": "E3.1",
+      "text": "Lies „Die drei Brüder“. Bringe die Bausteine in die richtige Reihenfolge. Schreibe 1 bis 5 davor.\n☐ Die drei Söhne lernen ein Handwerk.\n☐ Der Vater weiß nicht, wer das Haus bekommen soll.\n☐ Der Fechtmeister bekommt das Haus.\n☐ Ein Mann hat drei Söhne und ein Haus.\n☐ Die Söhne zeigen ihre Meisterstücke.",
+      "linien": 0,
+      "erwartung": "Mann mit drei Söhnen (1), Vater weiß nicht (2), Handwerk lernen (3), Meisterstücke (4), Fechtmeister bekommt Haus (5)"
+     },
+     {
+      "ziel": "E3.2",
+      "text": "Schreibe in je einem Satz auf: Was ist das **Problem**? Wie wird es **gelöst**?",
+      "linien": 2,
+      "erwartung": "Problem: Nur ein Haus, drei Söhne – wer bekommt es? Lösung: Wer das beste Meisterstück macht; der Fechtmeister gewinnt."
+     },
+     {
+      "ziel": "E3.3",
+      "text": "Nenne die drei Meisterstücke. Erkläre, warum das dritte das beste ist.",
+      "linien": 3,
+      "erwartung": "Hase rasieren ({Z:drei-brueder:rasierte ihm im vollen Lauf}), Hufeisen im Galopp, trocken im Regen; Steigerung: das dritte ist am schwierigsten, der Vater staunt"
+     },
+     {
+      "ziel": "E3.5",
+      "text": "Verbinde die Sätze ohne „und dann“. Schreibe sie neu auf:\n*Der Hase kam. Der Barbier nahm die Seife. Der Vater lobte ihn.*",
+      "linien": 3,
+      "erwartung": "z. B. Als der Hase kam, nahm der Barbier die Seife. Danach lobte ihn der Vater."
+     },
+     {
+      "ziel": "E3.4",
+      "text": "Lies den Märchenanfang. Plane die Fortsetzung in Stichwörtern: **Aufbruch – Prüfung 1 – Prüfung 2 – Prüfung 3 – Lösung – Ende**.",
+      "linien": 6,
+      "erwartung": "Plan passt zum Problem (Königin auf dem Berg); mindestens eine Prüfung, Lösung und Ende; Steigerung erkennbar"
+     }
     ]
    },
    "B": {
     "maerchen": "drei-faule",
     "anfang": "gn3b",
     "aufgaben": [
-     {"ziel": "E3.1", "text": "Lies „Die drei Faulen“. Bringe die Bausteine in die richtige Reihenfolge. Schreibe 1 bis 5 davor.\n☐ Der zweite Sohn erzählt vom Feuer.\n☐ Der König will wissen, wer der Faulste ist.\n☐ Der dritte Sohn wird König.\n☐ Ein König hat drei Söhne und ist alt.\n☐ Der älteste Sohn erzählt vom Tropfen im Auge.", "linien": 0, "erwartung": "König alt (1), Aufgabe (2), ältester Sohn (3), zweiter Sohn (4), dritter wird König (5)"},
-     {"ziel": "E3.2", "text": "Schreibe in je einem Satz auf: Was ist das **Problem** des Königs? Wie wird es **gelöst**?", "linien": 2, "erwartung": "Problem: Er weiß nicht, wer König werden soll. Lösung: Der Faulste wird König; das ist der dritte Sohn."},
-     {"ziel": "E3.3", "text": "Was erzählt jeder Sohn? Erkläre, warum der dritte gewinnt.", "linien": 3, "erwartung": "Tropfen im Auge ({Z:drei-faule:ein Tropfen in die Augen}), Fersen im Feuer, lieber im kalten Wasser bleiben; Steigerung: jedes Mal schlimmer, der dritte ist am faulsten"},
-     {"ziel": "E3.5", "text": "Verbinde die Sätze ohne „und dann“. Schreibe sie neu auf:\n*Der König war krank. Er rief seine Söhne. Sie kamen an sein Bett.*", "linien": 3, "erwartung": "z. B. Weil der König krank war, rief er seine Söhne. Da kamen sie an sein Bett."},
-     {"ziel": "E3.4", "text": "Lies den Märchenanfang. Plane die Fortsetzung in Stichwörtern: **Aufbruch – Prüfung 1 – Prüfung 2 – Prüfung 3 – Lösung – Ende**.", "linien": 6, "erwartung": "Plan passt zum Problem (Ring im Brunnen, Krähe droht); mindestens eine Prüfung, Lösung und Ende; Steigerung erkennbar"}
+     {
+      "ziel": "E3.1",
+      "text": "Lies „Die drei Faulen“. Bringe die Bausteine in die richtige Reihenfolge. Schreibe 1 bis 5 davor.\n☐ Der zweite Sohn erzählt vom Feuer.\n☐ Der König will wissen, wer der Faulste ist.\n☐ Der dritte Sohn wird König.\n☐ Ein König hat drei Söhne und ist alt.\n☐ Der älteste Sohn erzählt vom Tropfen im Auge.",
+      "linien": 0,
+      "erwartung": "König alt (1), Aufgabe (2), ältester Sohn (3), zweiter Sohn (4), dritter wird König (5)"
+     },
+     {
+      "ziel": "E3.2",
+      "text": "Schreibe in je einem Satz auf: Was ist das **Problem** des Königs? Wie wird es **gelöst**?",
+      "linien": 2,
+      "erwartung": "Problem: Er weiß nicht, wer König werden soll. Lösung: Der Faulste wird König; das ist der dritte Sohn."
+     },
+     {
+      "ziel": "E3.3",
+      "text": "Was erzählt jeder Sohn? Erkläre, warum der dritte gewinnt.",
+      "linien": 3,
+      "erwartung": "Tropfen im Auge ({Z:drei-faule:ein Tropfen in die Augen}), Fersen im Feuer, lieber im kalten Wasser bleiben; Steigerung: jedes Mal schlimmer, der dritte ist am faulsten"
+     },
+     {
+      "ziel": "E3.5",
+      "text": "Verbinde die Sätze ohne „und dann“. Schreibe sie neu auf:\n*Der König war krank. Er rief seine Söhne. Sie kamen an sein Bett.*",
+      "linien": 3,
+      "erwartung": "z. B. Weil der König krank war, rief er seine Söhne. Da kamen sie an sein Bett."
+     },
+     {
+      "ziel": "E3.4",
+      "text": "Lies den Märchenanfang. Plane die Fortsetzung in Stichwörtern: **Aufbruch – Prüfung 1 – Prüfung 2 – Prüfung 3 – Lösung – Ende**.",
+      "linien": 6,
+      "erwartung": "Plan passt zum Problem (Ring im Brunnen, Krähe droht); mindestens eine Prüfung, Lösung und Ende; Steigerung erkennbar"
+     }
     ]
    }
   }
@@ -126,40 +290,281 @@
   "material": "frau-holle-f",
   "bild": "brunnen_spindel",
   "merkkarte": [
-   ["Anfang", "Wer ist da? Wo ist das?"],
-   ["Problem", "Etwas ist schlimm. *Die Spindel fällt in den Brunnen.*"],
-   ["Prüfung", "Die Hauptfigur muss etwas schaffen – oft **dreimal**."],
-   ["Ende", "Das Problem ist gelöst. Gute bekommen eine Belohnung."],
-   ["Verbinden", "*Am nächsten Morgen … · Da … · Plötzlich … · Endlich …*"]
+   [
+    "Anfang",
+    "Wer ist da? Wo ist das?"
+   ],
+   [
+    "Problem",
+    "Etwas ist schlimm. *Die Spindel fällt in den Brunnen.*"
+   ],
+   [
+    "Prüfung",
+    "Die Hauptfigur muss etwas schaffen – oft **dreimal**."
+   ],
+   [
+    "Ende",
+    "Das Problem ist gelöst. Gute bekommen eine Belohnung."
+   ],
+   [
+    "Verbinden",
+    "*Am nächsten Morgen … · Da … · Plötzlich … · Endlich …*"
+   ]
   ],
   "blaetter": [
-   {"nr": "5F", "titel": "Der Märchenbauplan", "signet": "lupe", "auftraege": [
-     {"art": "lesen", "text": "Lies „Frau Holle“ noch einmal."},
-     {"art": "zuordnen", "text": "In welcher Reihenfolge passiert es? Schreibe **1**, **2**, **3** oder **4** in das Kästchen.", "paare": [["Die Spindel fällt in den Brunnen.", "1"], ["Das Mädchen hilft Brot und Baum.", "2"], ["Es arbeitet bei Frau Holle.", "3"], ["Gold fällt auf das Mädchen.", "4"]]},
-     {"art": "ankreuzen", "text": "Was ist das **Problem**? Kreuze an.", "optionen": ["Die Spindel fällt in den Brunnen.", "Die Sonne scheint."], "loesung": ["Die Spindel fällt in den Brunnen."]},
-     {"art": "luecke", "text": "Verbinde die Sätze. Fülle die Lücken.", "satz": "Das Mädchen fiel in den Brunnen. {Da} lag es auf einer Wiese. {Endlich} kam es zu Frau Holle.", "ablenker": ["Hallo"]}
-   ]},
-   {"nr": "6F", "titel": "Die erste Prüfung", "signet": "weiterschreiben", "auftraege": [
-     {"art": "lesen", "text": "Lies: *Ein König verliert seinen goldenen Schlüssel. Die Prinzessin will ihn suchen.*"},
-     {"art": "ankreuzen", "text": "Was ist eine gute erste Prüfung? Kreuze an.", "optionen": ["Die Prinzessin muss über einen wilden Fluss.", "Die Prinzessin isst ein Eis."], "loesung": ["Die Prinzessin muss über einen wilden Fluss."]},
-     {"art": "luecke", "text": "Fülle die Lücken.", "satz": "{Plötzlich} stand die Prinzessin vor dem Fluss. {Da} sah sie ein Boot.", "ablenker": ["Tschüss"]},
-     {"art": "schreiben", "text": "Wie kommt die Prinzessin über den Fluss? Schreibe einen Satz.", "linien": 2}
-   ]}
+   {
+    "nr": "5F",
+    "titel": "Der Märchenbauplan",
+    "signet": "lupe",
+    "auftraege": [
+     {
+      "art": "lesen",
+      "text": "Lies „Frau Holle“ noch einmal."
+     },
+     {
+      "art": "zuordnen",
+      "text": "In welcher Reihenfolge passiert es? Schreibe **1**, **2**, **3** oder **4** in das Kästchen.",
+      "paare": [
+       [
+        "Die Spindel fällt in den Brunnen.",
+        "1"
+       ],
+       [
+        "Das Mädchen hilft Brot und Baum.",
+        "2"
+       ],
+       [
+        "Es arbeitet bei Frau Holle.",
+        "3"
+       ],
+       [
+        "Gold fällt auf das Mädchen.",
+        "4"
+       ]
+      ]
+     },
+     {
+      "art": "ankreuzen",
+      "text": "Was ist das **Problem**? Kreuze an.",
+      "optionen": [
+       "Die Spindel fällt in den Brunnen.",
+       "Die Sonne scheint."
+      ],
+      "loesung": [
+       "Die Spindel fällt in den Brunnen."
+      ]
+     },
+     {
+      "art": "luecke",
+      "text": "Verbinde die Sätze. Fülle die Lücken.",
+      "satz": "Das Mädchen fiel in den Brunnen. {Da} lag es auf einer Wiese. {Endlich} kam es zu Frau Holle.",
+      "ablenker": [
+       "Hallo"
+      ]
+     }
+    ]
+   },
+   {
+    "nr": "6F",
+    "titel": "Die erste Prüfung",
+    "signet": "weiterschreiben",
+    "auftraege": [
+     {
+      "art": "lesen",
+      "text": "Lies: *Ein König verliert seinen goldenen Schlüssel. Die Prinzessin will ihn suchen.*"
+     },
+     {
+      "art": "ankreuzen",
+      "text": "Was ist eine gute erste Prüfung? Kreuze an.",
+      "optionen": [
+       "Die Prinzessin muss über einen wilden Fluss.",
+       "Die Prinzessin isst ein Eis."
+      ],
+      "loesung": [
+       "Die Prinzessin muss über einen wilden Fluss."
+      ]
+     },
+     {
+      "art": "luecke",
+      "text": "Fülle die Lücken.",
+      "satz": "{Plötzlich} stand die Prinzessin vor dem Fluss. {Da} sah sie ein Boot.",
+      "ablenker": [
+       "Tschüss"
+      ]
+     },
+     {
+      "art": "schreiben",
+      "text": "Wie kommt die Prinzessin über den Fluss? Schreibe einen Satz.",
+      "linien": 2
+     }
+    ]
+   }
   ],
-  "nachweis": {"titel": "GN3F · Der Märchenbauplan", "ziele": [
-    {"id": "F3.1", "kind": "Ich ordne die Teile eines Märchens.", "lehrkraft": "3 von 4 richtig geordnet"},
-    {"id": "F3.2", "kind": "Ich erkenne das Problem.", "lehrkraft": "Problem angekreuzt"},
-    {"id": "F3.3", "kind": "Ich erkenne die Lösung.", "lehrkraft": "Lösung angekreuzt"},
-    {"id": "F3.4", "kind": "Ich verbinde Sätze mit Satzanfängen.", "lehrkraft": "beide Lücken passend"},
-    {"id": "F3.5", "kind": "Ich schreibe eine Prüfung.", "lehrkraft": "eigener Satz zu einer Prüfung"}
+  "nachweis": {
+   "titel": "GN3F · Der Märchenbauplan",
+   "ziele": [
+    {
+     "id": "F3.1",
+     "kind": "Ich ordne die Teile eines Märchens.",
+     "lehrkraft": "3 von 4 richtig geordnet"
+    },
+    {
+     "id": "F3.2",
+     "kind": "Ich erkenne das Problem.",
+     "lehrkraft": "Problem angekreuzt"
+    },
+    {
+     "id": "F3.3",
+     "kind": "Ich erkenne die Lösung.",
+     "lehrkraft": "Lösung angekreuzt"
+    },
+    {
+     "id": "F3.4",
+     "kind": "Ich verbinde Sätze mit Satzanfängen.",
+     "lehrkraft": "beide Lücken passend"
+    },
+    {
+     "id": "F3.5",
+     "kind": "Ich schreibe eine Prüfung.",
+     "lehrkraft": "eigener Satz zu einer Prüfung"
+    }
    ],
    "auftraege": [
-     {"art": "lesen", "text": "Lies: *Ein armer Junge hat Hunger. Er geht in den Wald. Ein Zwerg sagt: „Bring mir drei Pilze.“ Der Junge findet die Pilze. Der Zwerg schenkt ihm einen Zaubertopf. Nun hat der Junge immer zu essen.*"},
-     {"art": "zuordnen", "text": "Schreibe **1**, **2**, **3** oder **4** in das Kästchen.", "paare": [["Der Junge hat Hunger.", "1"], ["Der Zwerg will drei Pilze.", "2"], ["Der Junge findet die Pilze.", "3"], ["Der Junge hat immer zu essen.", "4"]], "ziel": "F3.1"},
-     {"art": "ankreuzen", "text": "Was ist das **Problem**? Kreuze an.", "optionen": ["Der Junge hat Hunger.", "Der Zwerg ist klein."], "loesung": ["Der Junge hat Hunger."], "ziel": "F3.2"},
-     {"art": "ankreuzen", "text": "Was ist die **Lösung**? Kreuze an.", "optionen": ["Der Zaubertopf.", "Der Wald."], "loesung": ["Der Zaubertopf."], "ziel": "F3.3"},
-     {"art": "luecke", "text": "Fülle die Lücken.", "satz": "Der Junge ging in den Wald. {Plötzlich} stand ein Zwerg vor ihm. {Endlich} fand er die Pilze.", "ablenker": ["Hallo"], "ziel": "F3.4"},
-     {"art": "schreiben", "text": "Denk dir eine Prüfung für den Jungen aus. Schreibe einen Satz.", "linien": 2, "ziel": "F3.5"}
-   ]}
+    {
+     "art": "lesen",
+     "text": "Lies: *Ein armer Junge hat Hunger. Er geht in den Wald. Ein Zwerg sagt: „Bring mir drei Pilze.“ Der Junge findet die Pilze. Der Zwerg schenkt ihm einen Zaubertopf. Nun hat der Junge immer zu essen.*"
+    },
+    {
+     "art": "zuordnen",
+     "text": "Schreibe **1**, **2**, **3** oder **4** in das Kästchen.",
+     "paare": [
+      [
+       "Der Junge hat Hunger.",
+       "1"
+      ],
+      [
+       "Der Zwerg will drei Pilze.",
+       "2"
+      ],
+      [
+       "Der Junge findet die Pilze.",
+       "3"
+      ],
+      [
+       "Der Junge hat immer zu essen.",
+       "4"
+      ]
+     ],
+     "ziel": "F3.1"
+    },
+    {
+     "art": "ankreuzen",
+     "text": "Was ist das **Problem**? Kreuze an.",
+     "optionen": [
+      "Der Junge hat Hunger.",
+      "Der Zwerg ist klein."
+     ],
+     "loesung": [
+      "Der Junge hat Hunger."
+     ],
+     "ziel": "F3.2"
+    },
+    {
+     "art": "ankreuzen",
+     "text": "Was ist die **Lösung**? Kreuze an.",
+     "optionen": [
+      "Der Zaubertopf.",
+      "Der Wald."
+     ],
+     "loesung": [
+      "Der Zaubertopf."
+     ],
+     "ziel": "F3.3"
+    },
+    {
+     "art": "luecke",
+     "text": "Fülle die Lücken.",
+     "satz": "Der Junge ging in den Wald. {Plötzlich} stand ein Zwerg vor ihm. {Endlich} fand er die Pilze.",
+     "ablenker": [
+      "Hallo"
+     ],
+     "ziel": "F3.4"
+    },
+    {
+     "art": "schreiben",
+     "text": "Denk dir eine Prüfung für den Jungen aus. Schreibe einen Satz.",
+     "linien": 2,
+     "ziel": "F3.5"
+    }
+   ],
+   "auftraege_b": [
+    {
+     "art": "lesen",
+     "text": "Lies: *Eine arme Frau hat kein Holz. Ihr ist kalt. Sie geht in den Wald. Ein Riese sagt: „Hol mir drei Äpfel.“ Die Frau holt die Äpfel. Der Riese schenkt ihr einen Sack Holz. Nun ist ihr warm.*"
+    },
+    {
+     "art": "zuordnen",
+     "text": "Schreibe **1**, **2**, **3** oder **4** in das Kästchen.",
+     "paare": [
+      [
+       "Der Riese will drei Äpfel.",
+       "2"
+      ],
+      [
+       "Nun ist der Frau warm.",
+       "4"
+      ],
+      [
+       "Die Frau hat kein Holz.",
+       "1"
+      ],
+      [
+       "Die Frau holt die Äpfel.",
+       "3"
+      ]
+     ],
+     "ziel": "F3.1"
+    },
+    {
+     "art": "ankreuzen",
+     "text": "Was ist das **Problem**? Kreuze an.",
+     "optionen": [
+      "Der Riese ist groß.",
+      "Die Frau hat kein Holz."
+     ],
+     "loesung": [
+      "Die Frau hat kein Holz."
+     ],
+     "ziel": "F3.2"
+    },
+    {
+     "art": "ankreuzen",
+     "text": "Was ist die **Lösung**? Kreuze an.",
+     "optionen": [
+      "Der Sack Holz.",
+      "Die Äpfel sind rot."
+     ],
+     "loesung": [
+      "Der Sack Holz."
+     ],
+     "ziel": "F3.3"
+    },
+    {
+     "art": "luecke",
+     "text": "Fülle die Lücken.",
+     "satz": "Die Frau ging in den Wald. {Da} sah sie einen Riesen. {Am nächsten Morgen} brachte sie die Äpfel.",
+     "ablenker": [
+      "Tschüss"
+     ],
+     "ziel": "F3.4"
+    },
+    {
+     "art": "schreiben",
+     "text": "Denk dir eine Prüfung für die Frau aus. Schreibe einen Satz.",
+     "linien": 2,
+     "ziel": "F3.5"
+    }
+   ]
+  }
  }
 }
