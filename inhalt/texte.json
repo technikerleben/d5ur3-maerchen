@@ -1203,6 +1203,190 @@
     }
    ],
    "bild": "frau_holle_bett"
+  },
+  {
+   "id": "gaensemagd",
+   "titel": "Die Gänsemagd",
+   "khm": 89,
+   "rolle": "gn2_a",
+   "vollstaendig": false,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": true,
+   "quelle": "nach den Brüdern Grimm (KHM 89), Anfang, bearbeitet",
+   "text": [
+    {
+     "absatz": "Es lebte einmal eine alte Königin, deren Mann war schon lange gestorben, und sie hatte eine schöne Tochter. Als die Tochter erwachsen war, wurde sie einem Königssohn versprochen, der weit weg wohnte. Als nun die Zeit kam, dass sie heiraten sollten, musste das Kind in das fremde Reich reisen. Da packte ihr die alte Königin viele kostbare Dinge ein: Gold und Silber, Becher und Schmuck, alles, was zu einem königlichen Brautschatz gehörte, denn sie hatte ihr Kind von Herzen lieb."
+    },
+    {
+     "absatz": "Sie gab ihr auch eine Kammerjungfer mit. Die sollte mitreiten und die Braut dem Bräutigam übergeben. Jede bekam ein Pferd für die Reise. Das Pferd der Königstochter aber hieß Falada und konnte sprechen. Zum Abschied stach sich die alte Königin in den Finger und ließ drei Tropfen Blut auf ein weißes Tüchlein fallen. Sie gab es der Tochter und sprach: „Liebes Kind, bewahre es gut auf. Du wirst es unterwegs brauchen.“"
+    },
+    {
+     "absatz": "Traurig nahmen beide Abschied. Die Königstochter steckte das Tüchlein vorn in ihr Kleid, setzte sich aufs Pferd und ritt fort zu ihrem Bräutigam. Als sie eine Stunde geritten waren, bekam sie großen Durst und sprach zu ihrer Kammerjungfer: „Steig ab und hol mir mit meinem Becher Wasser aus dem Bach. Ich möchte gern etwas trinken.“"
+    },
+    {
+     "absatz": "„Wenn Ihr Durst habt“, sprach die Kammerjungfer, „so steigt selber ab, legt Euch ans Wasser und trinkt. Ich mag Eure Magd nicht sein.“ Da stieg die Königstochter vor großem Durst herunter, beugte sich über das Wasser im Bach und trank. Aus dem goldenen Becher durfte sie nicht trinken. Da sprach sie: „Ach Gott!“ Und die drei Blutstropfen antworteten:"
+    },
+    {
+     "vers": [
+      "„Wenn das deine Mutter wüsste,",
+      "das Herz im Leibe täte ihr zerspringen.“"
+     ]
+    },
+    {
+     "absatz": "Aber die Königsbraut war geduldig. Sie sagte nichts und setzte sich wieder aufs Pferd. Beim nächsten Bach bat sie wieder um Wasser. Aber die Kammerjungfer sprach noch hochmütiger: „Wollt Ihr trinken, so trinkt allein. Ich mag nicht Eure Magd sein.“ Als sich die Königstochter nun zum Trinken vorbeugte, fiel ihr das Tüchlein mit den Blutstropfen ins Wasser und schwamm davon. Die Kammerjungfer hatte es gesehen und freute sich, denn nun hatte sie Macht über die Braut. „Auf Falada gehöre ich, und auf meinen Gaul gehörst du“, sagte sie. Die Königstochter musste ihre königlichen Kleider ausziehen und die schlechten Kleider der Kammerjungfer anziehen. Zuletzt musste sie unter freiem Himmel schwören, dass sie am Hof niemandem etwas davon sagen würde. Hätte sie nicht geschworen, wäre es ihr schlecht ergangen. Falada aber sah das alles an und merkte es sich gut."
+    }
+   ],
+   "fussnoten": [
+    {
+     "stelle": "versprochen",
+     "erklaerung": "Man hatte vereinbart, dass sie ihn heiraten soll."
+    },
+    {
+     "stelle": "Brautschatz",
+     "erklaerung": "wertvolle Dinge, die eine Braut mit in die Ehe bringt"
+    },
+    {
+     "stelle": "Kammerjungfer",
+     "erklaerung": "Dienerin einer vornehmen Frau"
+    },
+    {
+     "stelle": "Bräutigam",
+     "erklaerung": "Mann, der bald heiratet"
+    },
+    {
+     "stelle": "Tüchlein",
+     "erklaerung": "kleines Tuch"
+    },
+    {
+     "stelle": "Ihr",
+     "erklaerung": "Ihr, Euch: alte, höfliche Anrede für eine Person"
+    },
+    {
+     "stelle": "Magd",
+     "erklaerung": "Dienerin"
+    },
+    {
+     "stelle": "zerspringen",
+     "erklaerung": "Das Herz würde ihr vor Kummer brechen."
+    },
+    {
+     "stelle": "geduldig",
+     "erklaerung": "Sie ertrug es ruhig."
+    },
+    {
+     "stelle": "Gaul",
+     "erklaerung": "altes Wort für Pferd"
+    },
+    {
+     "stelle": "schwören",
+     "erklaerung": "fest versprechen"
+    },
+    {
+     "stelle": "hochmütiger",
+     "erklaerung": "hochmütig: eingebildet, überheblich"
+    }
+   ],
+   "abgleich": "18.10.2026 mit Projekt Gutenberg-DE (Hendel): Spruch der Mutter („Du wirst es unterwegs brauchen“), zweite Weigerung der Kammerjungfer ergänzt; Todesdrohung beim Schwur entschärft."
+  },
+  {
+   "id": "laemmchen",
+   "titel": "Das Lämmchen und das Fischchen",
+   "khm": 141,
+   "rolle": "gn2_b",
+   "vollstaendig": true,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": true,
+   "quelle": "nach den Brüdern Grimm (KHM 141), bearbeitet",
+   "text": [
+    {
+     "absatz": "Es war einmal ein Brüderchen und ein Schwesterchen, die hatten sich herzlich lieb. Ihre richtige Mutter war tot, und sie hatten eine Stiefmutter, die war ihnen nicht gut und tat ihnen heimlich viel Leid an. Einmal spielten die beiden mit anderen Kindern auf einer Wiese vor dem Haus. An der Wiese war ein Teich. Die Kinder liefen herum, fingen sich und spielten Abzählen."
+    },
+    {
+     "absatz": "Die Stiefmutter stand am Fenster und sah zu, und es ärgerte sie, dass die beiden so fröhlich waren. Weil sie aber Hexenkünste verstand, verwünschte sie beide: das Brüderchen in einen Fisch und das Schwesterchen in ein Lamm. Da schwamm das Fischchen im Teich hin und her und war traurig, und das Lämmchen ging auf der Wiese hin und her und war traurig und fraß nichts."
+    },
+    {
+     "absatz": "Nach einiger Zeit kamen fremde Gäste ins Schloss. Da dachte die falsche Stiefmutter: Jetzt ist die Gelegenheit gut. Sie rief den Koch und sprach: „Geh und hol das Lamm von der Wiese und schlachte es. Wir haben sonst nichts für die Gäste.“ Da ging der Koch hin, holte das Lämmchen, führte es in die Küche und band ihm die Füße. Das Lämmchen hielt ganz still. Da sah es, dass das Fischchen im Wasser vor der Küche schwamm und zu ihm hinaufblickte. Da rief das Lämmchen hinab:"
+    },
+    {
+     "vers": [
+      "„Ach Brüderchen im tiefen See,",
+      "wie tut mir doch mein Herz so weh!",
+      "Der Koch, der wetzt das Messer,",
+      "will mir mein Herz durchstechen.“"
+     ]
+    },
+    {
+     "absatz": "Das Fischchen antwortete:"
+    },
+    {
+     "vers": [
+      "„Ach Schwesterchen in der Höh,",
+      "wie tut mir doch mein Herz so weh",
+      "in dieser tiefen See!“"
+     ]
+    },
+    {
+     "absatz": "Als der Koch hörte, dass das Lämmchen sprechen konnte, erschrak er. Er dachte: Das kann kein gewöhnliches Lamm sein, die böse Frau im Haus hat es verwünscht. Da sprach der Koch: „Sei ruhig, ich will dich nicht schlachten.“ Er nahm ein anderes Tier für die Gäste und brachte das Lämmchen zu einer guten Bäuerin. Die war früher die Amme des Schwesterchens gewesen. Der erzählte er alles, was er gesehen und gehört hatte."
+    },
+    {
+     "absatz": "Die Bäuerin ahnte gleich, wer das Lämmchen war, und ging mit ihm zu einer weisen Frau. Die weise Frau sprach einen Segen über das Lämmchen und das Fischchen. Da bekamen beide ihre menschliche Gestalt wieder. Danach führte sie die beiden in einen großen Wald in ein kleines Häuschen. Dort lebten sie allein, aber zufrieden und glücklich."
+    }
+   ],
+   "fussnoten": [
+    {
+     "stelle": "Leid",
+     "erklaerung": "tat ihnen Leid an: tat ihnen weh, quälte sie"
+    },
+    {
+     "stelle": "Abzählen",
+     "erklaerung": "Spiel mit einem Abzählreim"
+    },
+    {
+     "stelle": "Hexenkünste",
+     "erklaerung": "Zauberei einer Hexe"
+    },
+    {
+     "stelle": "verwünschte",
+     "erklaerung": "verzauberte"
+    },
+    {
+     "stelle": "Gelegenheit",
+     "erklaerung": "ein guter Moment"
+    },
+    {
+     "stelle": "Höh",
+     "erklaerung": "in der Höhe, oben"
+    },
+    {
+     "stelle": "gewöhnliches",
+     "erklaerung": "normales"
+    },
+    {
+     "stelle": "Bäuerin",
+     "erklaerung": "Frau, die einen Bauernhof hat"
+    },
+    {
+     "stelle": "ahnte",
+     "erklaerung": "vermutete"
+    },
+    {
+     "stelle": "Segen",
+     "erklaerung": "guter Zauberspruch, der hilft"
+    },
+    {
+     "stelle": "Gestalt",
+     "erklaerung": "Aussehen, Körper"
+    },
+    {
+     "stelle": "wetzt",
+     "erklaerung": "macht scharf"
+    },
+    {
+     "stelle": "Amme",
+     "erklaerung": "Frau, die ein fremdes Baby stillt und pflegt"
+    }
+   ],
+   "abgleich": "18.10.2026 mit Projekt Gutenberg-DE (Hendel): Verse vollständig, Rede des Kochs und Amme ergänzt; plattdeutscher Abzählreim weggelassen."
   }
  ]
 }

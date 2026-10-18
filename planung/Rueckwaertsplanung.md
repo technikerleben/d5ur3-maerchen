@@ -251,7 +251,7 @@ Alle Anfänge für Probearbeit, LEK und Training dürfen in den übrigen Materia
 
 ## 10a · Ergänzung bei der Produktion von Etappe 1 (18.10.2026)
 
-GN1–GN4 brauchen außer dem Anfang zum Weiterschreiben einen kurzen, unbekannten Märchentext zum Untersuchen (E1.1–E1.3 usw.). Für GN1 wurden dafür zwei kurze, vollständige Grimm-Märchen ergänzt und gesperrt: **Die Sterntaler** (KHM 153, Variante A) und **Der süße Brei** (KHM 103, Variante B). Dazu kommt eine Kurzfassung von „Frau Holle“ in einfacher Sprache für das F-Material. Für GN2–GN4 ist dieselbe Ergänzung nötig (Textvorschläge folgen mit der jeweiligen Etappe).
+GN1–GN4 brauchen außer dem Anfang zum Weiterschreiben einen kurzen, unbekannten Märchentext zum Untersuchen (E1.1–E1.3 usw.). Für GN1 wurden dafür zwei kurze, vollständige Grimm-Märchen ergänzt und gesperrt: **Die Sterntaler** (KHM 153, Variante A) und **Der süße Brei** (KHM 103, Variante B). Dazu kommt eine Kurzfassung von „Frau Holle“ in einfacher Sprache für das F-Material. Für GN2 ergänzt und gesperrt: **Die Gänsemagd** (KHM 89, Anfang, Variante A) und **Das Lämmchen und das Fischchen** (KHM 141, Variante B) – beide mit klaren Rollen (Heldin, Gegenspielerin, Helfer). Für GN3 und GN4 folgt dieselbe Ergänzung mit der jeweiligen Etappe. In allen Nachweisen steht der Märchenanfang zum Weiterschreiben direkt über der Schreibaufgabe (keine eigene Seite).
 
 ## 11 · Gate B · Entscheidungen C (17.10.2026)
 

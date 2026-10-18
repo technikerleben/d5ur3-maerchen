@@ -59,6 +59,7 @@ h2{font-size:5vh;line-height:1.15;color:var(--blau2)}
 .ziel{font-size:3.6vh;line-height:1.35;background:#fff;border-left:1.2vh solid var(--blau);padding:2.4vh 3vh;border-radius:1.4vh;max-width:70ch}
 .block{background:#fff;border-radius:1.6vh;padding:2vh 2.6vh;border:.3vh solid #d9d6cf;font-size:3.1vh;line-height:1.4}
 .folie.lang .block{font-size:2.6vh;padding:1.5vh 2.2vh}.folie.lang{gap:1.6vh}
+.folie.xlang .block{font-size:2.3vh;padding:1.2vh 2vh}.folie.xlang h2{font-size:4.2vh}.folie.xlang .mitbild{grid-template-columns:1fr 20vw}
 .block>b{display:block;font-size:2.1vh;letter-spacing:.08em;text-transform:uppercase;margin-bottom:.8vh;color:var(--blau)}
 .block.frage{border-color:var(--rost)}.block.frage>b{color:var(--rost2)}
 .block.antwort{border-color:var(--gruen);background:#f3f9f1}.block.antwort>b{color:var(--gruen2)}
@@ -75,13 +76,16 @@ h2{font-size:5vh;line-height:1.15;color:var(--blau2)}
 
 INPUT_JS = """
 const F=[...document.querySelectorAll('.folie')];let i=0;
-function zeig(n){i=Math.max(0,Math.min(F.length-1,n));F.forEach((f,k)=>f.classList.toggle('an',k===i));
+function fit(f){const z=f.querySelectorAll(':scope>*');let s=1;z.forEach(x=>x.style.zoom=1);
+while(f.scrollHeight>f.clientHeight+1&&s>0.6){s-=0.04;z.forEach(x=>x.style.zoom=s)}}
+function zeig(n){i=Math.max(0,Math.min(F.length-1,n));F.forEach((f,k)=>f.classList.toggle('an',k===i));fit(F[i]);
 document.querySelector('.bar i').style.width=((i+1)/F.length*100)+'%';document.querySelector('.nr').textContent=(i+1)+' / '+F.length;}
 function auf(){const z=F[i].querySelector('.antwort.zu');if(z){z.classList.remove('zu');return true}return false}
 document.addEventListener('keydown',e=>{if(e.key===' '||e.key==='ArrowRight'||e.key==='PageDown'){e.preventDefault();if(!auf())zeig(i+1)}
 else if(e.key==='ArrowLeft'||e.key==='PageUp')zeig(i-1);else if(e.key==='a'||e.key==='A')document.querySelectorAll('.antwort.zu').forEach(x=>x.classList.remove('zu'));
 else if(e.key==='f'||e.key==='F'){document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen()}});
 document.querySelectorAll('.antwort').forEach(a=>a.addEventListener('click',()=>a.classList.remove('zu')));
+addEventListener('resize',()=>fit(F[i]));
 document.querySelector('.vor').onclick=()=>{if(!auf())zeig(i+1)};document.querySelector('.zur').onclick=()=>zeig(i-1);zeig(0);
 """
 
@@ -104,7 +108,8 @@ def input_html(e: dict) -> str:
     folien = ["<section class=folie><div class=kopf>%s</div><div class=titel><div><h1>%s</h1><br><div class=ziel><b>Dein Ziel:</b> %s</div></div>%s</div></section>"
               % (esc(kopf), esc(e["titel"]), esc(e["ziel"]), tb)]
     for n, a in enumerate(e["abschnitte"], 1):
-        lang = " lang" if sum(len(t) for _, t in a["bloecke"]) > 520 else ""
+        laenge = sum(len(t) for _, t in a["bloecke"]) + (150 if a.get("bild") else 0)
+        lang = " lang xlang" if laenge > 700 else " lang" if laenge > 480 else ""
         folien.append("<section class='folie%s'><div class=kopf>%s · %d/%d</div><h2>%s</h2>%s</section>" % (
             lang, esc(kopf), n, len(e["abschnitte"]), esc(a["titel"]), mit_bild(a, "".join(block_html(b, t, True) for b, t in a["bloecke"]))))
     return ("<!doctype html><html lang=de><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'>"
@@ -163,6 +168,8 @@ table{width:100%;border-collapse:collapse;font-size:14pt}td,th{border:1pt solid 
 th{background:#eee}.k{width:9mm;text-align:center}
 .feld{border:1.2pt solid #111;border-radius:2mm;min-height:24mm;padding:2mm 3mm;margin-top:3mm;font-size:14pt}
 .erg{font-size:16pt;margin-top:3mm}
+.anfang{border:1.5pt solid #111;border-radius:2.5mm;padding:2.5mm 3.5mm;margin:2mm 0 1mm;font-size:15pt;line-height:1.45}
+.anfang .q{font-size:14pt;font-style:italic;color:#444}.anfang .fnz{font-size:14pt;border-top:1pt solid #777;margin-top:2mm;padding-top:1mm}
 """
 
 FOERDER_CSS = """
@@ -234,10 +241,18 @@ def gn_aufgaben_html(e: dict, nw: dict, v: str) -> str:
     sg = "<img src='%s' alt=''>" % bild_uri(nw["signet"]) if nw.get("signet") else ""
     teile = ["<div class=kopfzeile><div><div class=meta>Gelingensnachweis %d · Variante %s</div><h1>%s</h1></div>%s</div>" % (e["etappe"], v, esc(nw["titel"]), sg),
              "<div class=namen><span>Name:</span><span>Datum:</span></div>",
-             "<div class=hinweis>Du brauchst: „%s“ und den Märchenanfang „%s“. Schreibe auf dieses Blatt. "
-             "Arbeite allein. Merkblatt und Märchenkarten bleiben in der Tasche.</div>" % (esc(titel[var["maerchen"]]), esc(titel[var["anfang"]]))]
+             "<div class=hinweis>Du brauchst: das Märchen „%s“. Den Märchenanfang „%s“ findest du bei Aufgabe 5. "
+             "Schreibe auf dieses Blatt. Arbeite allein. Merkblatt und Märchenkarten bleiben in der Tasche.</div>" % (esc(titel[var["maerchen"]]), esc(titel[var["anfang"]]))]
+    texte = {t["id"]: t for t in json.loads((ROOT / "inhalt" / "texte.json").read_text("utf-8"))["texte"]}
     for n, a in enumerate(var["aufgaben"], 1):
-        teile.append("<div class=auf><span class=nr>%d.</span> %s%s</div>" % (n, md(a["text"]), "<div class=linie></div>" * a["linien"]))
+        box = ""
+        if a["ziel"].endswith(".4"):  # Weiterschreiben: Anfang direkt über der Aufgabe
+            t = texte[var["anfang"]]
+            fn = " ".join("<i>%s:</i> %s" % (esc(f["stelle"]), esc(f["erklaerung"])) for f in t.get("fussnoten", []))
+            box = ("<div class=anfang><b>%s</b> <span class=q>(%s)</span><div>%s</div>%s</div>" % (
+                esc(t["titel"]), esc(t["quelle"]), esc(" ".join(p.get("absatz") or " ".join(p["vers"]) for p in t["text"])),
+                "<div class=fnz>%s</div>" % fn if fn else ""))
+        teile.append("<div class=auf><span class=nr>%d.</span> %s%s%s</div>" % (n, md(a["text"]), box, "<div class=linie></div>" * a["linien"]))
     return doc(GN_CSS, "".join(teile))
 
 
@@ -381,7 +396,7 @@ def main(n: int) -> int:
         for v, var in nw["varianten"].items():
             a = mach(gn_aufgaben_html(e, nw, v), tmp / f"gn_{v}_auf.pdf", f"GN{n} {v}", 14)
             r = mach(gn_rueckmeldung_html(e, nw, v), tmp / f"gn_{v}_rueck.pdf", f"GN{n} {v} · Rückmeldung", 14)
-            s = verbinde([TEXTE / f"{var['maerchen']}_A4.pdf", TEXTE / f"{var['anfang']}_A4.pdf", a, r], aus / f"GN{n}_{v}_A4.pdf")
+            s = verbinde([TEXTE / f"{var['maerchen']}_A4.pdf", a, r], aus / f"GN{n}_{v}_A4.pdf")
             bericht.append("%-34s %d S.  (Material, Aufgaben, Rückmeldung)" % (f"GN{n}_{v}_A4.pdf", s))
         mach(gn_erwartung_html(e, nw), aus / f"GN{n}_Erwartungshorizont_A4.pdf", f"GN{n} · Lehrkraft", 12)
         # Förder

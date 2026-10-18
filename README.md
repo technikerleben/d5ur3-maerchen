@@ -11,7 +11,7 @@ Unterrichtsreihe 3 im Jahrgang 5 (Aufgabentyp 6, produktionsorientiertes Schreib
 | A | Rahmen: Zeit, Texte, Märchenbuch, Bilder | freigegeben 17.10.2026 |
 | B | Rückwärtsplanung: Etappen, Indikatoren, Weiterschreiben-Blätter, Kapazität | freigegeben 17.10.2026 |
 | C | Textauswahl und Bearbeitung der Grimm-Texte | abgeschlossen 18.10.2026; Texte gesperrt in `inhalt/texte.json` |
-| D | Freigabe der Druckpakete je Etappe | offen |
+| D | Freigabe der Druckpakete je Etappe | Etappe 1 freigegeben 18.10.2026 |
 
 ## Planung
 
@@ -26,15 +26,16 @@ Unterrichtsreihe 3 im Jahrgang 5 (Aufgabentyp 6, produktionsorientiertes Schreib
 
 - [Produktionsregeln](skill.md) – verbindlich für jede Materialarbeit
 - `python3 tools/build_texte.py` – alle Märchentexte als A4-Schülerfassung mit Zeilennummern und Fußnoten → `ausgabe/texte/`, Zeilenbelege in `ausgabe/texte/zeilen.json`
-- `python3 tools/build_material.py 1` – Etappe 1 komplett → `ausgabe/etappe1/` (Input, Merkblatt, Blatt 1–2, Schülerpaket, GN1 A/B, Erwartungshorizont, Förder 1F–2F, GN1F)
+- `python3 tools/build_material.py N` – Etappe N komplett, z. B. Etappe 1 → `ausgabe/etappe1/` (Input, Merkblatt, Blatt 1–2, Schülerpaket, GN1 A/B, Erwartungshorizont, Förder 1F–2F, GN1F)
 - Voraussetzungen: Python 3, `playwright` (Chromium), `pymupdf`
 
 ## Materialstand
 
 | Etappe | Stand |
 |---|---|
-| 1 Märchen erkennen | erstellt 18.10.2026 als Muster, **Gate D offen** (Durchsicht C) |
-| 2–5 | folgen nach Freigabe von Etappe 1 |
+| 1 Märchen erkennen | **freigegeben 18.10.2026** (Gate D) |
+| 2 Figuren und Rollen verstehen | erstellt 18.10.2026, Gate D offen |
+| 3–5 | folgen |
 
 ## Grundlagen
 
