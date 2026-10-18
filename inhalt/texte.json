@@ -1387,6 +1387,127 @@
     }
    ],
    "abgleich": "18.10.2026 mit Projekt Gutenberg-DE (Hendel): Verse vollständig, Rede des Kochs und Amme ergänzt; plattdeutscher Abzählreim weggelassen."
+  },
+  {
+   "id": "drei-brueder",
+   "titel": "Die drei Brüder",
+   "khm": 124,
+   "rolle": "gn3_a",
+   "vollstaendig": true,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": true,
+   "quelle": "nach den Brüdern Grimm (KHM 124), bearbeitet",
+   "text": [
+    {
+     "absatz": "Es war ein Mann, der hatte drei Söhne und sonst nichts als das Haus, in dem er wohnte. Jeder der Söhne hätte nach seinem Tod gern das Haus gehabt. Der Vater hatte aber einen so lieb wie den anderen und wusste nicht, wie er es machen sollte, damit keinem Unrecht geschah. Verkaufen wollte er das Haus nicht, denn es war von seinen Vorfahren. Da fiel ihm endlich ein Rat ein, und er sprach zu seinen Söhnen: „Geht in die Welt und lernt jeder ein Handwerk. Wenn ihr wiederkommt, soll der das Haus bekommen, der das beste Meisterstück macht.“"
+    },
+    {
+     "absatz": "Damit waren die Söhne zufrieden. Der älteste wollte Hufschmied werden, der zweite Barbier und der dritte Fechtmeister. Sie machten eine Zeit aus, zu der sie wieder nach Hause kommen wollten, und zogen fort. Jeder fand einen guten Meister, bei dem er etwas Ordentliches lernte. Der Schmied durfte die Pferde des Königs beschlagen und dachte: Jetzt bekomme ich das Haus. Der Barbier rasierte lauter vornehme Herren und meinte auch, das Haus wäre schon seins. Der Fechtmeister bekam manchen Hieb, biss aber die Zähne zusammen und dachte: Wenn du dich vor einem Hieb fürchtest, bekommst du das Haus nie."
+    },
+    {
+     "absatz": "Als die Zeit herum war, kamen sie bei ihrem Vater wieder zusammen. Sie wussten aber nicht, wie sie ihre Kunst zeigen sollten, saßen zusammen und berieten. Da kam auf einmal ein Hase über das Feld gelaufen. „Ei“, sagte der Barbier, „der kommt wie gerufen!“ Er nahm Becken und Seife und schäumte, bis der Hase nahe war. Dann seifte er ihn im vollen Lauf ein und rasierte ihm im vollen Lauf ein kleines Bärtchen. Dabei schnitt er ihn nicht und tat ihm an keinem Haar weh. „Das gefällt mir“, sagte der Vater. „Wenn sich die anderen nicht gewaltig anstrengen, so ist das Haus dein.“"
+    },
+    {
+     "absatz": "Es dauerte nicht lange, da kam ein Herr in einem Wagen in vollem Galopp dahergefahren. „Nun sollt Ihr sehen, Vater, was ich kann“, sprach der Hufschmied. Er sprang dem Wagen nach, riss dem Pferd, das immer weiter jagte, die vier Hufeisen ab und schlug ihm im Galopp vier neue an. „Du bist ein ganzer Kerl“, sprach der Vater, „du machst deine Sache so gut wie dein Bruder. Ich weiß nicht, wem ich das Haus geben soll.“"
+    },
+    {
+     "absatz": "Da sprach der dritte: „Vater, lasst mich auch einmal zeigen, was ich kann.“ Weil es gerade anfing zu regnen, zog er seinen Degen und schwang ihn über seinem Kopf so schnell im Kreis, dass kein Tropfen auf ihn fiel. Als der Regen stärker wurde und endlich so stark, als ob man ihn mit Eimern vom Himmel schüttete, schwang er den Degen immer schneller. Er blieb so trocken, als säße er unter einem Dach. Als der Vater das sah, staunte er und sprach: „Du hast das beste Meisterstück gemacht, das Haus ist dein.“"
+    },
+    {
+     "absatz": "Die beiden anderen Brüder waren damit zufrieden, wie sie es vorher versprochen hatten. Und weil sie sich so lieb hatten, blieben sie alle drei zusammen im Haus und arbeiteten in ihrem Handwerk. Weil sie so geschickt waren, verdienten sie viel Geld und lebten zufrieden zusammen bis ins hohe Alter."
+    }
+   ],
+   "fussnoten": [
+    {
+     "stelle": "Unrecht",
+     "erklaerung": "Unrecht geschehen: ungerecht behandelt werden"
+    },
+    {
+     "stelle": "Vorfahren",
+     "erklaerung": "Eltern, Großeltern und Urgroßeltern"
+    },
+    {
+     "stelle": "Handwerk",
+     "erklaerung": "ein Beruf, bei dem man mit den Händen arbeitet"
+    },
+    {
+     "stelle": "Meisterstück",
+     "erklaerung": "eine besonders gute Arbeit, die zeigt, was man kann"
+    },
+    {
+     "stelle": "Hufschmied",
+     "erklaerung": "Handwerker, der Pferden Hufeisen anpasst"
+    },
+    {
+     "stelle": "Barbier",
+     "erklaerung": "Friseur, der auch Bärte rasiert"
+    },
+    {
+     "stelle": "Fechtmeister",
+     "erklaerung": "Lehrer für den Kampf mit dem Degen"
+    },
+    {
+     "stelle": "beschlagen",
+     "erklaerung": "einem Pferd Hufeisen anschlagen"
+    },
+    {
+     "stelle": "Hieb",
+     "erklaerung": "ein Schlag"
+    },
+    {
+     "stelle": "Galopp",
+     "erklaerung": "sehr schnelles Laufen eines Pferdes"
+    },
+    {
+     "stelle": "Degen",
+     "erklaerung": "eine lange, schmale Waffe, ähnlich wie ein Schwert"
+    }
+   ]
+  },
+  {
+   "id": "drei-faule",
+   "titel": "Die drei Faulen",
+   "khm": 151,
+   "rolle": "gn3_b",
+   "vollstaendig": true,
+   "gesperrt": "2026-10-18",
+   "sperre_pruefung": true,
+   "quelle": "nach den Brüdern Grimm (KHM 151), bearbeitet",
+   "text": [
+    {
+     "absatz": "Ein König hatte drei Söhne, die hatte er alle gleich lieb. Er wusste nicht, welcher nach seinem Tod König werden sollte. Als er alt und krank war und spürte, dass er bald sterben würde, rief er sie an sein Bett und sprach: „Liebe Kinder, ich habe mir etwas überlegt. Das will ich euch sagen: Wer von euch der Faulste ist, der soll nach mir König werden.“"
+    },
+    {
+     "absatz": "Da sprach der älteste: „Vater, dann gehört das Reich mir. Denn ich bin so faul: Wenn ich liege und schlafen will und mir ein Tropfen in die Augen fällt, dann mag ich die Augen nicht einmal zumachen, um einzuschlafen.“"
+    },
+    {
+     "absatz": "Der zweite sprach: „Vater, das Reich gehört mir. Denn ich bin so faul: Wenn ich am Feuer sitze, um mich zu wärmen, lasse ich mir lieber die Fersen verbrennen, als dass ich die Beine zurückziehe.“"
+    },
+    {
+     "absatz": "Der dritte sprach: „Vater, das Reich ist mein. Denn ich bin so faul: Wenn ich in einen tiefen Graben voll kaltem Wasser gefallen wäre und mir jemand ein Seil zuwürfe, damit ich herausklettern könnte, so bliebe ich lieber im kalten Wasser liegen, als dass ich die Hand nach dem Seil ausstreckte.“"
+    },
+    {
+     "absatz": "Als der Vater das hörte, sprach er: „Du hast es am weitesten gebracht. Du sollst der König sein.“"
+    }
+   ],
+   "fussnoten": [
+    {
+     "stelle": "Reich",
+     "erklaerung": "das Land, über das ein König herrscht"
+    },
+    {
+     "stelle": "Fersen",
+     "erklaerung": "der hintere, runde Teil des Fußes"
+    },
+    {
+     "stelle": "Graben",
+     "erklaerung": "lange, tiefe Rinne im Boden"
+    },
+    {
+     "stelle": "es am weitesten gebracht",
+     "erklaerung": "Du bist am weitesten gekommen, hier: Du bist am faulsten."
+    }
+   ]
   }
  ]
 }

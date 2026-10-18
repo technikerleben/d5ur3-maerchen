@@ -35,7 +35,8 @@ Unterrichtsreihe 3 im Jahrgang 5 (Aufgabentyp 6, produktionsorientiertes Schreib
 |---|---|
 | 1 Märchen erkennen | **freigegeben 18.10.2026** (Gate D) |
 | 2 Figuren und Rollen verstehen | erstellt 18.10.2026, Gate D offen |
-| 3–5 | folgen |
+| 3 Märchen aufbauen | erstellt 18.10.2026, Gate D offen |
+| 4–5 | folgen |
 
 ## Grundlagen
 

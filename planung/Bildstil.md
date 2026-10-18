@@ -66,6 +66,17 @@ Alle zehn Motive liegen als Strichzeichnung vor (KI-generiert, bereitgestellt vo
 
 Hinweis: „gold_pech“ hat eine große schwarze Fläche (Pech). Für den Kopierer unkritisch, aber tonerintensiv; bei Bedarf eine Fassung mit schraffiertem statt flächigem Pech erzeugen. Die Lupe zeigt Textzeilen statt Stern und Schlüssel – passt gut als neutrales Signet.
 
+## Weitere Motive für Etappe 3–5 (Vorschlag, 18.10.2026)
+
+| Nr. | Motiv (Dateiname) | Beschreibung | Einsatz |
+|---|---|---|---|
+| 11 | **Stroh wird zu Gold** (`spinnrad_gold`) | Ein altes Spinnrad in einer kleinen Kammer; links ein Haufen Stroh, rechts glänzende Spulen voller Goldfaden. Keine Figuren. | Etappe 3: Rumpelstilzchen-Material, Abschnitt „Die Dreimal-Regel“ |
+| 12 | **Das Männchen am Feuer** (`maennchen_feuer`) | Ein kleines, bärtiges Männchen hüpft auf einem Bein um ein Lagerfeuer vor einem Häuschen am Waldrand; lustig, nicht unheimlich. | Etappe 3: Kopf von „Rumpelstilzchen“, Abschnitt „Problem und Lösung“ |
+| 13 | **Der Weg mit Stationen** (`bauplan_weg`) | Ein geschwungener Weg von einer Hütte (links unten) bis zu einem Schloss (rechts oben); unterwegs drei Stationen: ein Fluss, ein dunkler Wald, ein Berg. | Etappe 3: Abschnitt „Der Märchenbauplan“, Signet für Planungsaufgaben |
+| 14 | **Der leuchtende Apfel** (`apfel_schnee`) | Ein Kind im Wintermantel kniet im Schnee unter einem kahlen Baum und hält einen strahlenden Apfel; Lichtstrahlen als feine Linien. | Etappe 4: Märchenanfang Blatt 8, Abschnitt „Zauberszene“ |
+| 15 | **Das Zauberbuch der Wörter** (`zauberwoerter`) | Ein aufgeschlagenes Buch, aus dem kleine Sterne, ein Schlüssel und eine Krone aufsteigen (ohne Buchstaben). | Etappe 4: Abschnitt „Märchenwörter und Formeln“ |
+| 16 | **Prüfen mit Häkchen** (`pruefen`) | Ein Blatt Papier mit Linien, daneben ein Bleistift und eine Lupe; am Rand drei Häkchen. | Etappe 5: Signet für Blatt 11 „Prüfen und verbessern“ und die Checkliste |
+
 ## Regeln für den Einsatz
 
 - Höchstens ein Bild pro Blatt; Bilder schmücken die Kopfzeile oder stehen neben dem Material, nie zwischen Aufgaben und Linien.
