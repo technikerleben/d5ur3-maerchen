@@ -25,6 +25,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build_material import (F_JS, FOERDER_CSS, GN_CSS, PROBE_CSS, TEXTE, doc, drucke, esc,  # noqa: E402
                             f_auftrag, md, verbinde)
 from satz import ROOT, bild_uri  # noqa: E402
+from bewertung import BEW_CSS, STANDARDS, kaestchen, kopf_standards, legende, schluessel_html  # noqa: E402
 
 P = json.loads((ROOT / "inhalt" / "pruefung.json").read_text("utf-8"))
 TITEL = {t["id"]: t["titel"] for t in json.loads((ROOT / "inhalt" / "texte.json").read_text("utf-8"))["texte"]}
@@ -55,35 +56,34 @@ def aufgaben_html(meta: str, titel: str, maerchen: str, hinweis: str, termin: bo
 
 
 def bewertung_html(v: str) -> str:
-    rows = "".join(
-        "<tr><td><b>%s</b> %s</td><td class=k>☐</td><td class=k>☐</td><td class=k>☐</td><td style='width:32mm;white-space:nowrap'>____ / %d</td></tr>"
-        % (k["k"], esc(k["kind"]), k["punkte"]) for k in P["kriterien"])
-    return doc(GN_CSS, (
+    rows = "".join("<tr><td><b>%s</b> %s</td>%s</tr>" % (k["k"], esc(k["titel"]), kaestchen()) for k in P["kriterien"])
+    return doc(GN_CSS + BEW_CSS, (
         "<div class=meta>Lernerfolgskontrolle · Variante %s · Bewertung</div><h1>Das hast du gezeigt</h1>"
-        "<table><tr><th>Kriterium</th><th class=k>✓</th><th class=k>~</th><th class=k>…</th><th>Punkte</th></tr>%s"
-        "<tr><td colspan=4 style='text-align:right'><b>Gesamt</b></td><td style='white-space:nowrap'><b>____ / %d</b></td></tr></table>"
-        "<div class=erg>✓ = gelingt · ~ = teilweise · … = noch nicht &nbsp;&nbsp; <b>Note: ______</b></div>"
+        "<table><tr><th>Kompetenz</th>%s</tr>%s</table>"
+        "<div class=erg><b>Punkte: ____ / %d</b> &nbsp;&nbsp; <b>Note: ______</b></div>%s"
         "<div class=feld><b>Das gelingt dir schon:</b></div><div class=feld><b>Dein nächster Schritt:</b></div>"
         "<div style='font-size:14pt;margin-top:3mm'>Datum, Unterschrift der Lehrkraft: ______________________</div>"
         "<div style='font-size:14pt;margin-top:2mm'>Unterschrift einer erziehungsberechtigten Person: ______________________</div>")
-        % (v, rows, SUMME))
+        % (v, kopf_standards(), rows, SUMME, schluessel_html(SUMME)))
 
 
 def erwartung_html() -> str:
     teile = ["<div class=meta>Lehrkraft · Lernerfolgskontrolle</div><h1>Erwartungshorizont</h1>",
              "<p style='font-size:14pt;margin-bottom:3mm'>Gleicher Aufbau wie die Probearbeit. Arbeitszeit %s. Hilfen: keine (Merkblatt und Märchenkarten bleiben in der Tasche). "
-             "Punkte und Notengrenzen: <b>Vorschlag</b>, Festlegung durch die Fachkonferenz bzw. Lehrkraft.</p>" % esc(P["arbeitszeit"]),
-             "<table><tr><th>Kriterium</th><th>✓ erfüllt (volle Punkte), wenn …</th><th>~ teilweise (etwa halbe Punkte), wenn …</th><th>P.</th></tr>%s"
-             "<tr><td colspan=3 style='text-align:right'><b>Gesamt</b></td><td><b>%d</b></td></tr></table>" % ("".join(
-                 "<tr><td><b>%s</b> %s</td><td>%s</td><td>%s</td><td>%d</td></tr>" % (k["k"], esc(k["titel"]), esc(k["erfuellt"]), esc(k["teilweise"]), k["punkte"])
-                 for k in P["kriterien"]), SUMME)]
+             "Jede Kompetenz wird einem Standard zugeordnet: %s. Höchstpunktzahl %d. Aufgabe 1 (Plan) fließt in K3 ein; "
+             "K5 bewertet Prüfbeleg und Verbesserungen, nicht die Fehlerzahl.</p>" % (esc(P["arbeitszeit"]), legende(), SUMME)]
+    for k in P["kriterien"]:
+        teile.append("<table style='margin-bottom:3mm'><tr><th colspan=2>%s · %s</th></tr>%s</table>" % (k["k"], esc(k["titel"]), "".join(
+            "<tr><td style='width:34mm'><b>%d</b> %s</td><td>%s</td></tr>" % (p, esc(n), esc(t))
+            for (n, p), t in zip(STANDARDS[1:], k["stufen"]))))
+    teile.append("<h2 style='font-size:17pt;margin:4mm 0 2mm'>Notenschlüssel</h2>%s<p style='font-size:14pt;margin-top:2mm'>Grenzen: %s; darunter ungenügend. "
+                 "Untergrenzen aufgerundet.</p>" % (schluessel_html(SUMME), " · ".join("%s ab %d %%" % (n, g) for n, g in P["notengrenzen"][:-1])))
     for v, var in P["lek"].items():
         teile.append("<h2 style='font-size:17pt;margin:5mm 0 2mm'>Variante %s · „%s“</h2><p style='font-size:14pt'>%s</p>"
                      "<p style='font-size:14pt;margin-top:2mm'><b>Grimm-Original (nur Orientierung, kein Maßstab):</b> %s</p>"
                      % (v, esc(TITEL[var["maerchen"]]), esc(var["anknuepfung"]), esc(var["original"])))
-    teile.append("<p style='font-size:14pt;margin-top:4mm'>Jede schlüssige Fortsetzung gilt. Aufgabe 1 (Plan) wird nicht eigens bepunktet, "
-                 "sie fließt in K3 ein. K5 bewertet nur den sichtbaren Prüfbeleg und die Verbesserungen, nicht die Fehlerzahl.</p>")
-    return doc(GN_CSS, "".join(teile))
+    teile.append("<p style='font-size:14pt;margin-top:4mm'>Jede schlüssige Fortsetzung gilt.</p>")
+    return doc(GN_CSS + BEW_CSS, "".join(teile))
 
 
 def f_html(v: str, var: dict) -> tuple[str, str]:
@@ -93,16 +93,15 @@ def f_html(v: str, var: dict) -> tuple[str, str]:
             "<span style='flex:1;border-bottom:1pt solid #111'>Datum:</span></div></div>" % (v, esc(f["titel"])))
     auf = doc(FOERDER_CSS, "<div id=q>%s%s</div>%s" % (
         kopf, "".join(re.sub(r"data-loes='[^']*'", "data-loes=''", f_auftrag(a)) for a in f["auftraege"]), F_JS))
-    rows = "".join("<tr><td>%s</td><td class=k>☐</td><td class=k>☐</td><td style='width:30mm;white-space:nowrap'>____ / %d</td></tr>"
-                   % (esc(z["kind"]), z["punkte"]) for z in P["f_ziele"])
+    rows = "".join("<tr><td>%s</td>%s</tr>" % (esc(z["kind"]), kaestchen()) for z in P["f_ziele"])
     summe = sum(z["punkte"] for z in P["f_ziele"])
-    rueck = doc(GN_CSS, (
+    rueck = doc(GN_CSS + BEW_CSS, (
         "<div class=meta>Lernerfolgskontrolle F · Variante %s · Bewertung</div><h1>Das hast du gezeigt</h1>"
-        "<table><tr><th>Dein Ziel</th><th class=k>✓</th><th class=k>…</th><th>Punkte</th></tr>%s"
-        "<tr><td colspan=3 style='text-align:right'><b>Gesamt</b></td><td style='white-space:nowrap'><b>____ / %d</b></td></tr></table>"
+        "<table><tr><th>Dein Ziel</th>%s</tr>%s</table>"
+        "<div class=erg><b>Punkte: ____ / %d</b> &nbsp;&nbsp; <b>Note: ______</b></div>%s"
         "<div class=feld><b>Das gelingt dir schon:</b></div><div class=feld><b>Dein nächster Schritt:</b></div>"
-        "<div style='font-size:14pt;margin-top:3mm'>Lehrkraft-Hinweis (Bewertung zieldifferent nach Förderplan; Punkte Vorschlag): %s</div>")
-        % (v, rows, summe, esc(" · ".join("%s %s" % (z["id"], z["lehrkraft"]) for z in P["f_ziele"]))))
+        "<div style='font-size:14pt;margin-top:3mm'>Lehrkraft-Hinweis (zieldifferent nach Förderplan): %s</div>")
+        % (v, kopf_standards(), rows, summe, schluessel_html(summe), esc(" · ".join("%s %s" % (z["id"], z["lehrkraft"]) for z in P["f_ziele"]))))
     return auf, rueck
 
 

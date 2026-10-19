@@ -102,6 +102,6 @@ Risiko: Bis Fenster A stehen 585 Minuten für fünf Etappen zur Verfügung (Zoot
 
 ## 7 · Noch offen für Phase 2
 
-- Arbeitszeit Probearbeit und LEK, Punkte, Notengrenzen, erlaubte Hilfen
+- ~~Arbeitszeit Probearbeit und LEK, Punkte, Notengrenzen, erlaubte Hilfen~~ – festgelegt 19.10.2026 (Rückwärtsplanung 10f): 45 Minuten, keine Hilfen, je Kompetenz 0–4 Punkte, Notengrenzen in Prozent
 - Anzahl der Kinder mit zieldifferentem Material (Zootiere: zwei)
 - Ob Kontroll-Kiosk und Lern-App fortgeführt werden

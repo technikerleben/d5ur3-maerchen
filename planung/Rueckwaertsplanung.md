@@ -292,3 +292,12 @@ GN1–GN4 brauchen außer dem Anfang zum Weiterschreiben einen kurzen, unbekannt
 - **Reinschriftvorlage Märchenbuch:** A4 Originalgröße, breite Ränder, kräftige Linien (12 mm), Felder für Vorname/Kürzel, Titel und Bild; Folgeseite nur Linien – für sauberes Scannen.
 - **Kontroll-Kiosk** (aus Zootiere übernommen): Tipp, Lösung und freiwillige Vertiefung zu Blatt 1–11, Nummer 12/13 = Training mit Musterfortsetzung, K-Zuordnung und „ganz anderer Idee“. Weiterschreib-Blätter nur mit Vergleichsbeispielen und Prüffragen. Zeilenangaben werden aus dem Satz berechnet.
 - Beispiele auf Blatt 1, 3, 5 und 9 zeigen jetzt echte Zeilenangaben statt „Z. …“.
+
+## 10f Bewertung der Lernerfolgskontrolle (Festlegung C, 19.10.2026)
+
+- Jede Kompetenz K1–K5 wird einem Standard zugeordnet: **0** nicht erkennbar · **1** in Ansätzen · **2** Mindeststandard · **3** Regelstandard · **4** Leistungsstandard. Höchstpunktzahl 20; alle Kompetenzen gleich gewichtet (ersetzt den Vorschlag 4/4/6/4/2).
+- Notengrenzen in Prozent der Punkte: sehr gut ab 87 % · gut ab 73 % · befriedigend ab 59 % · ausreichend ab 45 % · mangelhaft ab 18 % · darunter ungenügend. Untergrenzen aufgerundet; bei 20 Punkten: 18–20 · 15–17 · 12–14 · 9–11 · 4–8 · 0–3.
+- Die Standards sind im Erwartungshorizont je Kompetenz beschrieben (`inhalt/pruefung.json`, `stufen`); Notenschlüssel wird in `tools/bewertung.py` berechnet und auf jede Bewertungsseite gedruckt.
+- LEK F: dieselbe Skala für die fünf Förderziele (20 Punkte), Bewertung zieldifferent nach Förderplan.
+- Probearbeit: Feedbackbogen mit denselben Standards; Punkte nur zur Orientierung, keine Note; ab Mindeststandard gilt ein Kriterium als gezeigt (4 von 5 = Etappe 5 abgeschlossen).
+- Arbeitszeit 45 Minuten (Zeitmodell W6).

@@ -431,16 +431,16 @@ def probe_html(e: dict, nw: dict) -> str:
 
 
 def probe_feedback_html(e: dict, nw: dict) -> str:
-    rows = "".join("<tr><td><b>%s</b> %s</td><td class=k>☐</td><td class=k>☐</td><td class=k>☐</td><td>%s</td></tr>"
-                   % (z["k"], esc(z["kind"]), esc(z["ueben"])) for z in nw["ziele"])
-    return doc(GN_CSS, (
+    from bewertung import BEW_CSS, kaestchen, kopf_standards
+    rows = "".join("<tr><td><b>%s</b> %s<div style='font-size:14pt;color:#333'>Übe mit: %s</div></td>%s</tr>"
+                   % (z["k"], esc(z["kind"]), esc(z["ueben"]), kaestchen()) for z in nw["ziele"])
+    return doc(GN_CSS + BEW_CSS, (
         "<div class=meta>Probearbeit · Etappe %d · Feedbackbogen</div><h1>Das kannst du schon – so übst du weiter</h1>"
-        "<table><tr><th>Kriterium</th><th class=k>✓</th><th class=k>~</th><th class=k>…</th><th>Übe mit</th></tr>%s</table>"
-        "<div class=erg>✓ = gelingt · ~ = teilweise · … = noch nicht &nbsp;&nbsp; <b>Ergebnis: ____ von 5</b></div>"
+        "<table><tr><th>Kompetenz</th>%s</tr>%s</table>"
+        "<div class=erg><b>Punkte: ____ / 20</b> (zur Orientierung, keine Note) &nbsp; ab 2 = gezeigt: <b>____ von 5</b></div>"
         "<div class=feld><b>Das gelingt dir schon:</b></div><div class=feld><b>Daran arbeitest du in der Wahlzeit:</b></div>"
         "<div style='font-size:14pt;margin-top:3mm'><b>Ich übe mit:</b> ☐ Training 1 &nbsp; ☐ Training 2 &nbsp; ☐ Merkblatt ____ &nbsp; ☐ Blatt ____ &nbsp; ☐ Förderblatt ____</div>"
-        "<div style='font-size:14pt;margin-top:3mm'>Die Probearbeit zeigt dir, was du vor der Lernerfolgskontrolle noch üben solltest.</div>"
-        "<div style='font-size:14pt;margin-top:3mm'>Rückmeldung der Lehrkraft</div>") % (e["etappe"], rows))
+        ) % (e["etappe"], kopf_standards(), rows))
 
 
 def probe_erwartung_html(e: dict, nw: dict) -> str:
@@ -452,8 +452,10 @@ def probe_erwartung_html(e: dict, nw: dict) -> str:
                  "<tr><td>%d</td><td>%s</td><td>%s</td></tr>" % (n, a["ziel"], md(a["erwartung"])) for n, a in enumerate(nw["aufgaben"], 1)),
              "<h2 style='font-size:17pt;margin:5mm 0 2mm'>Zum Anfang</h2><p style='font-size:14pt'>%s</p>" % esc(nw["anknuepfung"]),
              "<p style='font-size:14pt;margin-top:2mm'><b>Grimm-Original:</b> %s</p>" % esc(nw["original"]),
-             "<p style='font-size:14pt;margin-top:4mm'>Die Probearbeit ist der fünfte Nachweis (4 von 5 = Etappe 5 abgeschlossen) und Diagnose für die Wahlzeit: "
-             "Jedes offene Kriterium bekommt im Feedbackbogen einen Übungsweg. Es gibt bewusst nur eine Fassung.</p>"]
+             "<p style='font-size:14pt;margin-top:4mm'>Die Probearbeit ist der fünfte Nachweis und Diagnose für die Wahlzeit. Im Feedbackbogen wird jede Kompetenz "
+             "wie in der Lernerfolgskontrolle einem Standard zugeordnet (0 nicht erkennbar · 1 in Ansätzen · 2 Mindest · 3 Regel · 4 Leistung); "
+             "die Stufen beschreibt der Erwartungshorizont der Lernerfolgskontrolle. Ab Mindeststandard gilt ein Kriterium als gezeigt; "
+             "4 von 5 = Etappe 5 abgeschlossen. Punkte nur zur Orientierung, keine Note. Es gibt bewusst nur eine Fassung.</p>"]
     return doc(GN_CSS, "".join(teile))
 
 

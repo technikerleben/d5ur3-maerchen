@@ -1,5 +1,5 @@
 {
- "_hinweis": "Inhalt für LEK V1/V2 (+F) und Training 1/2. Punkte und Notengrenzen: Vorschlag, Festlegung durch C offen.",
+ "_hinweis": "Inhalt für LEK V1/V2 (+F) und Training 1/2. Bewertung festgelegt von C (19.10.2026): je Kompetenz 0–4 Punkte nach Standard, Notengrenzen in Prozent.",
  "arbeitszeit": "45 Minuten",
  "kriterien": [
   {
@@ -7,40 +7,60 @@
    "titel": "Textmuster Märchen",
    "kind": "Meine Fortsetzung ist klar ein Märchen.",
    "punkte": 4,
-   "erfuellt": "mindestens zwei passende Märchenmerkmale, die zur Handlung gehören (z. B. Zauber, Zahl 3, Gut und Böse, Belohnung/Bestrafung, Schlussformel)",
-   "teilweise": "ein Merkmal oder Merkmale ohne Bezug zur Handlung"
+   "stufen": [
+    "Einzelne märchenhafte Elemente; der Text wirkt eher wie eine Alltagsgeschichte.",
+    "Ein bis zwei Märchenmerkmale sind erkennbar, stehen aber zum Teil unverbunden neben der Handlung.",
+    "Mehrere passende Märchenmerkmale (z. B. Magie, Zahl 3, Gut und Böse, Belohnung oder Bestrafung) gehören zur Handlung.",
+    "Märchenmerkmale sind vielfältig und gezielt eingesetzt; Merkmale des Anfangs werden aufgegriffen und weitergeführt (z. B. Dreierstruktur, Schlussformel)."
+   ]
   },
   {
    "k": "K2",
    "titel": "Figuren und Rollen",
    "kind": "Meine Figuren handeln passend zu ihren Rollen.",
    "punkte": 4,
-   "erfuellt": "der Dummling bleibt sich treu; Helfer und Gegenspieler handeln rollengerecht; Figuren aus dem Anfang werden genutzt",
-   "teilweise": "Rollen erkennbar, aber einzelne Brüche ohne Grund"
+   "stufen": [
+    "Figuren aus dem Anfang kommen vor, handeln aber oft unpassend oder widersprüchlich.",
+    "Die Hauptfigur bleibt überwiegend ihrer Rolle treu; andere Figuren bleiben blass oder handeln nicht immer passend.",
+    "Held, Helfer und Gegenspieler handeln passend zu ihren Rollen; Figuren aus dem Anfang werden genutzt.",
+    "Die Figuren handeln stimmig und nachvollziehbar; ihre Eigenschaften zeigen sich in Handlungen und wörtlicher Rede."
+   ]
   },
   {
    "k": "K3",
    "titel": "Handlung",
    "kind": "Ich greife das Problem aus dem Anfang auf, löse es, und das Ende passt.",
-   "punkte": 6,
-   "erfuellt": "knüpft schlüssig an das Ende des Anfangs an; Prüfung(en) erzählt; Problem gelöst; passendes Ende",
-   "teilweise": "Anknüpfung vorhanden, aber Lösung oder Ende fehlt, ist sprunghaft oder passt nicht"
+   "punkte": 4,
+   "stufen": [
+    "Der Text knüpft kaum an den Anfang an oder bricht ohne Lösung ab.",
+    "Der Text knüpft an den Anfang an; das Problem wird gelöst, aber sprunghaft oder sehr knapp.",
+    "Schlüssige Anknüpfung; Weg und Prüfung werden erzählt; das Problem wird gelöst; das Ende passt.",
+    "Die Handlung ist folgerichtig und spannend aufgebaut (z. B. Steigerung, Wendepunkt); Hinweise aus dem Anfang werden genutzt; das Ende rundet das Märchen ab."
+   ]
   },
   {
    "k": "K4",
    "titel": "Märchensprache",
    "kind": "Ich erzähle im Präteritum und nutze Märchensprache.",
    "punkte": 4,
-   "erfuellt": "durchgehend Präteritum (höchstens zwei Ausrutscher); wörtliche Rede mit Zeichen; mindestens ein Märchenwort oder eine Formel",
-   "teilweise": "überwiegend Präteritum, aber Redezeichen oder Märchensprache fehlen"
+   "stufen": [
+    "Häufiger Wechsel zwischen Präsens und Präteritum; kaum Märchensprache.",
+    "Überwiegend Präteritum; wörtliche Rede teilweise mit Zeichen; vereinzelt Märchenwörter.",
+    "Durchgehend Präteritum (einzelne Ausrutscher); wörtliche Rede mit Zeichen; Märchenwörter oder Formeln passend eingesetzt.",
+    "Sicheres Präteritum; abwechslungsreiche Satzanfänge, treffende Verben und Adjektive; Märchensprache durchgängig; klare Bezüge der Pronomen."
+   ]
   },
   {
    "k": "K5",
    "titel": "Prüfen und verbessern",
    "kind": "Ich habe meinen Text geprüft und verbessert.",
-   "punkte": 2,
-   "erfuellt": "Prüfbeleg vollständig (Satzanfänge, Verben, Redezeichen); Checkliste angekreuzt; mindestens zwei sichtbare Verbesserungen",
-   "teilweise": "Prüfbeleg unvollständig oder nur eine Verbesserung"
+   "punkte": 4,
+   "stufen": [
+    "Prüfbeleg nur in Ansätzen; keine Verbesserung.",
+    "Prüfbeleg teilweise; eine Verbesserung sichtbar.",
+    "Prüfbeleg vollständig (Satzanfänge, Verben, Redezeichen); Checkliste angekreuzt; mindestens zwei sichtbare Verbesserungen.",
+    "Prüfbeleg vollständig; mehrere gezielte Verbesserungen, die den Text sichtbar besser machen (z. B. Zeitform, Wiederholungen, Bezüge)."
+   ]
   }
  ],
  "checkliste": [
@@ -200,31 +220,31 @@
    "id": "F1",
    "kind": "Meine Fortsetzung ist ein Märchen.",
    "lehrkraft": "ein Märchenmerkmal (Zauber, Helfer-Tier, Belohnung …)",
-   "punkte": 2
+   "punkte": 4
   },
   {
    "id": "F2",
    "kind": "Der Dummling bleibt gut.",
    "lehrkraft": "Rolle richtig angekreuzt und im Text beibehalten",
-   "punkte": 2
+   "punkte": 4
   },
   {
    "id": "F3",
    "kind": "Mein Märchen hat ein passendes Ende.",
    "lehrkraft": "knüpft an den Anfang an und endet",
-   "punkte": 2
+   "punkte": 4
   },
   {
    "id": "F4",
    "kind": "Ich erzähle von früher.",
    "lehrkraft": "überwiegend Präteritum",
-   "punkte": 2
+   "punkte": 4
   },
   {
    "id": "F5",
    "kind": "Ich habe meinen Text geprüft.",
    "lehrkraft": "Prüfliste angekreuzt, eine Verbesserung sichtbar",
-   "punkte": 2
+   "punkte": 4
   }
  ],
  "training": {
@@ -276,5 +296,53 @@
    "andere_idee": "**Weg:** Der Soldat trinkt nicht und folgt den Töchtern unsichtbar. · **Prüfung:** Unten wartet ein Riese, der jeden Fremden riecht. · **Lösung:** Der Soldat streut Pfeffer, der Riese niest und merkt nichts. · **Ende:** Der Soldat befreit die Töchter von einem Tanz-Zauber und wird belohnt.",
    "tipp": "Wo endet der Anfang? Die älteste Königstochter bringt dem Soldaten Wein. Was hat die alte Frau ihm geraten?\nDenk an Merkblatt 5: Weg · Prüfung · Lösung · Ende. Wie kann der Soldat beweisen, wo die Töchter tanzen?"
   }
- }
+ },
+ "standards": [
+  [
+   "nicht erkennbar",
+   0
+  ],
+  [
+   "in Ansätzen",
+   1
+  ],
+  [
+   "Mindeststandard",
+   2
+  ],
+  [
+   "Regelstandard",
+   3
+  ],
+  [
+   "Leistungsstandard",
+   4
+  ]
+ ],
+ "notengrenzen": [
+  [
+   "sehr gut",
+   87
+  ],
+  [
+   "gut",
+   73
+  ],
+  [
+   "befriedigend",
+   59
+  ],
+  [
+   "ausreichend",
+   45
+  ],
+  [
+   "mangelhaft",
+   18
+  ],
+  [
+   "ungenügend",
+   0
+  ]
+ ]
 }
