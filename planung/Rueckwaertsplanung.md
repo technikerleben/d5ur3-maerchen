@@ -301,3 +301,8 @@ GN1–GN4 brauchen außer dem Anfang zum Weiterschreiben einen kurzen, unbekannt
 - LEK F: dieselbe Skala für die fünf Förderziele (20 Punkte), Bewertung zieldifferent nach Förderplan.
 - Probearbeit: Feedbackbogen mit denselben Standards; Punkte nur zur Orientierung, keine Note; ab Mindeststandard gilt ein Kriterium als gezeigt (4 von 5 = Etappe 5 abgeschlossen).
 - Arbeitszeit 45 Minuten (Zeitmodell W6).
+
+## 10g Auswertung und Druck (19.10.2026)
+
+- **Auswertungs-App** `apps/auswertung-lek/index.html` (aus Zootiere übernommen): K1–K5 je 0–4 mit den Stufen aus dem Erwartungshorizont, Variante V1/V2 mit Anknüpfungspunkten, Termin, erlaubte Hilfen (Auftrag vorgelesen, Wort erklärt), Note mit Tendenz (oberes/unteres Drittel des Notenbereichs), zweiseitige Rückmeldung zum Drucken (einzeln oder Klassensatz), CSV/JSON. Daten nur im Browserspeicher. Rechtschreibung wird in K1–K5 nicht eigens bewertet.
+- **Druckpakete** `ausgabe/pakete/`: 1_schueler, 2_nachweise, 3_foerder, 4_lehrkraft, 5_digital + ZIP; **Druckplan W1–W6** mit Formaten (A5 verkleinert / A4 Original / einseitig), Anzahl-Spalte und Inventar mit Seitenzahlen. Schülerpakete eine Etappe im Voraus bereitlegen; GN B als Reserve (etwa ein Drittel).

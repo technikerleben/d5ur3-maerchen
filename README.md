@@ -30,6 +30,8 @@ Unterrichtsreihe 3 im Jahrgang 5 (Aufgabentyp 6, produktionsorientiertes Schreib
 - `python3 tools/build_pruefung.py` – Lernerfolgskontrolle V1/V2 mit Bewertungsseite, LEK F, Erwartungshorizont, Training 1/2 und Musterfortsetzungen → `ausgabe/abschluss/`
 - `python3 tools/build_wahlzeit.py` – Lernweg, Wahlhilfe, Projekte P1–P3, Reinschriftvorlage → `ausgabe/wahlzeit/`
 - `python3 tools/build_kiosk.py` – Kontroll-Kiosk aus `inhalt/kiosk.json` (Zeilenangaben automatisch), prüft alle Ansichten im Browser
+- `python3 tools/build_auswertung.py` – Auswertungs-App der LEK aus `inhalt/pruefung.json` (Vorlage `tools/vorlagen/auswertung_lek.html`), mit Rechenprüfung
+- `python3 tools/build_pakete.py` – Druckpakete (Schüler, Nachweise, Förder, Lehrkraft, Digital) und Druckplan W1–W6
 - Voraussetzungen: Python 3, `playwright` (Chromium), `pymupdf`
 
 ## Materialstand
@@ -45,6 +47,8 @@ Unterrichtsreihe 3 im Jahrgang 5 (Aufgabentyp 6, produktionsorientiertes Schreib
 | Abschluss: LEK V1/V2 (+F), Training 1/2 mit Kiosk-Muster | erstellt 19.10.2026 (`python3 tools/build_pruefung.py` → `ausgabe/abschluss/`); Bewertung festgelegt 19.10.2026: je Kompetenz 0–4 Punkte nach Standard, 20 Punkte, Notengrenzen in Prozent |
 | Wahlzeit: Lernweg (+F), Wahlhilfe, Projekte P1–P3, Reinschriftvorlage Märchenbuch | erstellt 19.10.2026 (`python3 tools/build_wahlzeit.py` → `ausgabe/wahlzeit/`) |
 | Kontroll-Kiosk Blatt 1–11, Training 12–13 | erstellt 19.10.2026 (`python3 tools/build_kiosk.py` → `apps/kontroll-kiosk/index.html`, offline, ohne Kinderdaten) |
+| Auswertungs-App LEK (K1–K5, 0–4 Punkte, Notenschlüssel) | erstellt 19.10.2026 (`python3 tools/build_auswertung.py` → `apps/auswertung-lek/index.html`) |
+| Druckpakete und Druckplan W1–W6 | erstellt 19.10.2026 (`python3 tools/build_pakete.py` → `ausgabe/pakete/`, ZIP nicht im Repo) |
 
 ## Grundlagen
 
