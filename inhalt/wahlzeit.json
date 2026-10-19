@@ -1,0 +1,182 @@
+{
+ "_hinweis": "Inhalt für Lernweg (+F), Wahlhilfe, Projekte P1–P3. Gebaut mit tools/build_wahlzeit.py.",
+ "ziel": "Ich kann einen Märchenanfang passend weiterschreiben, zu Ende führen und meinen Text verbessern.",
+ "ziel_f": "Ich schreibe ein Märchen weiter und mache ein gutes Ende.",
+ "lernweg_abschluss": [
+  [
+   "Feedback",
+   "Feedbackbogen der Probearbeit lesen · offene Kriterien auf der **Wahlhilfe** ankreuzen ☐"
+  ],
+  [
+   "Training",
+   "☐ Training 1 „Das blaue Licht“ · ☐ Training 2 „Die zertanzten Schuhe“ – danach am Kiosk vergleichen (Nummer 12 und 13)"
+  ],
+  [
+   "Wahlzeit",
+   "offene Ziele zuerst · ☐ P1 Märchenbuch · ☐ P2 Vorlesen · ☐ P3 Umformen · ☐ Vertiefungen nachholen"
+  ],
+  [
+   "Lernerfolgs-kontrolle",
+   "Mein Termin: ☐ früh · ☐ spät"
+  ]
+ ],
+ "lernweg_f_abschluss": [
+  [
+   "Feedback",
+   "Mit der Lehrkraft besprechen: Das kann ich schon. Das übe ich noch. ☐"
+  ],
+  [
+   "Wahlzeit",
+   "☐ ein Förderblatt wiederholen · ☐ P1 Märchenbuch · ☐ P2 Vorlesen"
+  ],
+  [
+   "Lernerfolgs-kontrolle F",
+   "Mein Termin: ☐ früh · ☐ spät"
+  ]
+ ],
+ "legende": "**☐ Blatt** = Pflicht · **☐ frei** = freiwillige Vertiefung · Nachweis ab **4 von 5**: weiter. Noch nicht? Üben und Variante B. · Kiosk: Tipp und Lösung zu Blatt 1–11.",
+ "legende_f": "**☐** = erledigt · Deine Ziele besprichst du mit der Lehrkraft. · Hilfe: Lösungsstreifen unten am Blatt umknicken.",
+ "wahlhilfe_zuerst": "Schau auf deinen Feedbackbogen. Kreuze unten an, welche Kriterien **noch offen** sind (~ oder …). Übe zuerst diese – eins nach dem anderen.",
+ "wahlhilfe": [
+  [
+   "K1",
+   "Märchen",
+   "Merkblatt 1, Abschnitt „Das ist ein Märchen“ · Blatt 2 noch einmal mit zwei **anderen** Merkmalen · Märchenkarten „Märchenmerkmale“"
+  ],
+  [
+   "K2",
+   "Figuren",
+   "Merkblatt 2, Abschnitt „Rollen“ · Blatt 4: Schreibe die Begegnung mit der **anderen** Rolle"
+  ],
+  [
+   "K3",
+   "Handlung",
+   "Merkblatt 3 und 5, Bauplan · Blatt 9: Plane für den **anderen** Anfang · Kiosk 9"
+  ],
+  [
+   "K4",
+   "Sprache",
+   "Merkblatt 4 (Präteritum-Liste, Märchenwörter) · Blatt 7, Aufgaben 1–3 · Kiosk 7"
+  ],
+  [
+   "K5",
+   "Prüfen",
+   "Merkblatt 5, Abschnitt „Prüfen und verbessern“ · Blatt 11 mit deinem Probearbeitstext"
+  ]
+ ],
+ "wahlhilfe_danach": "Alles geschafft? Dann mach **Training 1 oder 2** und vergleiche am Kiosk. Danach wählst du ein **Projekt**: P1 Märchenbuch, P2 Vorlesen oder P3 Umformen.",
+ "projekte": [
+  {
+   "nr": "P1",
+   "titel": "Unser Märchenbuch",
+   "datei": "Projekt_P1_Maerchenbuch_A4.pdf",
+   "bild": "maerchenbuch",
+   "brauchst": "deinen verbesserten Text von Blatt 10/11 · Checkliste K1–K5 · Reinschriftvorlage · Buntstifte",
+   "einleitung": "Wir sammeln eure Märchen in einem Klassenbuch. Die Lehrkraft scannt die Seiten. Daraus wird ein digitales Märchenbuch, das man auch ausdrucken kann.",
+   "schritte": [
+    [
+     "Text wählen",
+     "Nimm deine Fortsetzung von Blatt 10/11. Der Anfang gehört dazu – schreibe ihn kurz in zwei, drei Sätzen ab oder fasse ihn zusammen."
+    ],
+    [
+     "Noch einmal prüfen",
+     "Prüfe mit der Checkliste K1–K5. Verbessere nur, was nötig ist. Schreibe nicht alles neu."
+    ],
+    [
+     "Titel finden",
+     "Gib deinem Märchen einen eigenen Titel."
+    ],
+    [
+     "Reinschrift",
+     "Schreibe auf die Vorlage, sauber und gut lesbar, mit dunklem Stift. Schreibe nicht über den Rand."
+    ],
+    [
+     "Bild",
+     "Male ein Bild zu einer wichtigen Stelle in das Bildfeld."
+    ],
+    [
+     "Abgeben",
+     "Lege deine Seiten in die Märchenbuch-Mappe. Auf der Vorlage steht nur dein Vorname oder ein Kürzel."
+    ]
+   ],
+   "gelingt": [
+    "Anfang und Fortsetzung ergeben ein ganzes Märchen.",
+    "Der Text ist verbessert und gut lesbar.",
+    "Titel und Bild passen zum Märchen."
+   ],
+   "erweiterung": "Du kannst ein zweites Märchen ergänzen, zum Beispiel deinen Text von Blatt 2, 4, 6 oder 8 – verbessert und zu Ende geschrieben."
+  },
+  {
+   "nr": "P2",
+   "titel": "Ein Märchen gestaltend vorlesen",
+   "datei": "Projekt_P2_Vorlesen_A4.pdf",
+   "bild": "frau_holle_bett",
+   "brauchst": "einen Märchentext (deine Fortsetzung oder ein Märchen aus der Reihe) · Bleistift · ein anderes Kind als Zuhörer",
+   "einleitung": "In der letzten Woche gibt es eine **Vorleserunde**. Lies ein Märchen so vor, dass alle gespannt zuhören.",
+   "schritte": [
+    [
+     "Text wählen",
+     "deine Fortsetzung oder ein Abschnitt aus „Frau Holle“ oder „Rumpelstilzchen“ (höchstens eine Seite)"
+    ],
+    [
+     "Zeichen setzen",
+     "**/** = kurze Pause · **//** = lange Pause · betonte Wörter unterstreichen"
+    ],
+    [
+     "Stimmen finden",
+     "Jede Figur klingt anders: die Hexe krächzend, der König tief."
+    ],
+    [
+     "Üben",
+     "Lies dreimal. An spannenden Stellen langsamer und leiser."
+    ],
+    [
+     "Rückmeldung",
+     "Lies einem Kind vor: Was war spannend? Wo warst du zu schnell?"
+    ]
+   ],
+   "gelingt": [
+    "Ich lese deutlich und nicht zu schnell.",
+    "Man hört die Pausen und die betonten Wörter.",
+    "Die Figuren klingen verschieden."
+   ],
+   "erweiterung": "Lest zu zweit oder zu dritt mit verteilten Rollen. Meldet euch für die Vorleserunde an."
+  },
+  {
+   "nr": "P3",
+   "titel": "Ein Märchen umformen",
+   "datei": "Projekt_P3_Umformen_A4.pdf",
+   "bild": "gold_pech",
+   "brauchst": "„Frau Holle“ oder „Rumpelstilzchen“ · Heft · Merkblatt 2 und 4",
+   "einleitung": "Wie sieht ein Märchen aus der Sicht einer **anderen Figur** aus? Du erzählst einen Abschnitt neu – in der **Ich-Form**.",
+   "schritte": [
+    [
+     "Figur wählen",
+     "Zum Beispiel: der Apfelbaum oder die faule Tochter in „Frau Holle“, das Männchen oder der Bote in „Rumpelstilzchen“."
+    ],
+    [
+     "Abschnitt wählen",
+     "Suche eine Stelle, an der deine Figur dabei ist. Schreibe die Zeilen auf."
+    ],
+    [
+     "Sammeln",
+     "Was sieht, hört, denkt und fühlt deine Figur dort? Schreibe Stichworte."
+    ],
+    [
+     "Schreiben",
+     "Erzähle den Abschnitt in der Ich-Form und im Präteritum: *Ich war schwer von reifen Äpfeln. Da kam ein Mädchen …*"
+    ],
+    [
+     "Prüfen",
+     "Passt alles zur Figur und zum Märchen? Stehen die Verben im Präteritum?"
+    ]
+   ],
+   "gelingt": [
+    "Ich erzähle durchgehend als die gewählte Figur (Ich-Form).",
+    "Die Handlung passt zum Märchen.",
+    "Man erfährt, was die Figur denkt oder fühlt."
+   ],
+   "erweiterung": "Erzähle denselben Abschnitt aus einer zweiten Sicht. Was ist anders? Dir fehlt eine Idee? Deine Märchenkarten zeigen dir Figuren, Orte, Zauberdinge und Märchenmerkmale."
+  }
+ ]
+}

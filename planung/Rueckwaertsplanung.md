@@ -283,3 +283,12 @@ GN1–GN4 brauchen außer dem Anfang zum Weiterschreiben einen kurzen, unbekannt
 - **LEK F V1/V2:** vereinfachter Anfang, Rolle ankreuzen, Helfer-Idee, Fortsetzung mit Satzanfängen, Prüfliste; F1–F5 je 2 Punkte (Vorschlag, zieldifferent nach Förderplan).
 - **Erwartungshorizont** für beide Varianten mit Anknüpfungspunkten und Grimm-Original (nur Orientierung).
 - **Training 1 „Das blaue Licht“, Training 2 „Die zertanzten Schuhe“:** Auftrag wie LEK, aber mit Merkblatt 5, Checkliste und Märchenkarten; Schreiben ins Heft. Kiosk-Blatt je Training: eine Musterfortsetzung, Zuordnung zu K1–K4 und „eine ganz andere Idee“ in Stichworten (nie ein Mustertext als einzige Lösung).
+
+## 10e Wahlzeit, Lernweg und Kiosk (19.10.2026)
+
+- **Lernweg** (A4, eine Seite, ≥ 12 pt): Etappe 1–5 mit Merkblatt, Pflichtblättern, „frei“ für Vertiefungen, GN A/B mit Ergebnis, Probearbeit; dann Feedback, Training 1/2, Wahlzeit, LEK-Termin. **Lernweg F** mit Merkkarten, 1F–11F, GN-F A/B, Probearbeit F.
+- **Wahlhilfe:** offene Kriterien K1–K5 aus dem Feedbackbogen ankreuzen → konkreter Übungsweg (Merkblatt-Abschnitt, Blatt, Kiosk); danach Training, dann Projekt.
+- **Projekte (freiwillig, ohne Note):** P1 Märchenbuch (Reinschrift von Blatt 10/11, Titel, Bild, Abgabe in der Mappe), P2 gestaltend vorlesen (Pausen- und Betonungszeichen, Figurenstimmen, Vorleserunde W6), P3 umformen (Abschnitt aus „Frau Holle“ oder „Rumpelstilzchen“ in der Ich-Form einer anderen Figur).
+- **Reinschriftvorlage Märchenbuch:** A4 Originalgröße, breite Ränder, kräftige Linien (12 mm), Felder für Vorname/Kürzel, Titel und Bild; Folgeseite nur Linien – für sauberes Scannen.
+- **Kontroll-Kiosk** (aus Zootiere übernommen): Tipp, Lösung und freiwillige Vertiefung zu Blatt 1–11, Nummer 12/13 = Training mit Musterfortsetzung, K-Zuordnung und „ganz anderer Idee“. Weiterschreib-Blätter nur mit Vergleichsbeispielen und Prüffragen. Zeilenangaben werden aus dem Satz berechnet.
+- Beispiele auf Blatt 1, 3, 5 und 9 zeigen jetzt echte Zeilenangaben statt „Z. …“.
