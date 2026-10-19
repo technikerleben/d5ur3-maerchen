@@ -100,7 +100,7 @@ dialog{border:0;border-radius:18px;box-shadow:0 20px 70px rgba(0,0,0,.25);max-wi
 dialog::backdrop{background:rgba(20,35,45,.4)}
 .dialog-head{display:flex;justify-content:space-between;gap:12px;align-items:center;border-bottom:1px solid var(--line);padding-bottom:10px}
 .dialog-head h2{margin:0}
-.settings-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:15px 0}
+.weights{display:grid;gap:6px;margin:8px 0 14px}.settings-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:15px 0}
 .setting{border:1px solid var(--line);border-radius:12px;padding:11px}
 .setting label{font-weight:850;color:var(--blue2);display:block;margin-bottom:5px}
 .grade-chart-info{font-size:.92rem;color:var(--muted);line-height:1.5;margin:12px 0 6px}
@@ -204,9 +204,9 @@ dialog::backdrop{background:rgba(20,35,45,.4)}
   <div>
     <div class="eyebrow">Deutsch · Jahrgang 5 · Märchen · Lernerfolgskontrolle</div>
     <h1>Auswertung &amp; Rückmeldung</h1>
-    <p>Fortsetzung eines Märchenanfangs („Die Bienenkönigin“ oder „Die drei Federn“) in den Kompetenzen K1–K5 auswerten, Rückmeldung erzeugen und die Note transparent aus den Punkten berechnen. Alle Daten bleiben ausschließlich im Browserspeicher dieses Geräts.</p>
+    <p>Fortsetzung eines Märchenanfangs („Die Bienenkönigin“ oder „Die drei Federn“) in den Kompetenzen K1–K6 auswerten, Rückmeldung erzeugen und die Note transparent aus den Punkten berechnen. Alle Daten bleiben ausschließlich im Browserspeicher dieses Geräts.</p>
   </div>
-  <div class="header-badge"><b>Notenlogik · Fach Deutsch</b><br>Fünf Kompetenzen K1–K5 mit jeweils 0 bis 4 Punkten ergeben 20 Punkte. Notengrenzen in Prozent der Punkte. Textlänge allein ist kein Qualitätsmerkmal.</div>
+  <div class="header-badge"><b>Notenlogik · Fach Deutsch</b><br>Sechs Kompetenzen K1–K6 mit jeweils 0 bis 4 Punkten (24 Punkte). Jede Kompetenz kann doppelt zählen (2/4/6/8); Höchstpunktzahl und Notengrenzen passen sich an. Textlänge allein ist kein Qualitätsmerkmal.</div>
 </div>
 </header>
 
@@ -239,7 +239,7 @@ dialog::backdrop{background:rgba(20,35,45,.4)}
     <div class="editor">
       <div id="welcome" class="empty">
         <h2>Auswertung starten</h2>
-        <p>Lege ein Kind an oder wähle links einen vorhandenen Eintrag. Die fünf Kompetenzen K1–K5 entsprechen der Bewertungsseite der Lernerfolgskontrolle und dem Feedbackbogen der Probearbeit.</p>
+        <p>Lege ein Kind an oder wähle links einen vorhandenen Eintrag. Die sechs Kompetenzen K1–K6 entsprechen der Bewertungsseite der Lernerfolgskontrolle und dem Feedbackbogen der Probearbeit.</p>
       </div>
 
       <div id="formWrap" class="hidden">
@@ -261,8 +261,8 @@ dialog::backdrop{background:rgba(20,35,45,.4)}
             <label class="check"><input type="checkbox" id="helpRead"> Auftrag vorgelesen</label>
           </div>
           <div class="box-field">
-            <input id="lrsNta" type="checkbox" class="hidden">
-            <span class="help"><b>Nachteilsausgleich</b> (Rechtschreibung wird in K1–K5 nicht bewertet)</span>
+            <label class="check"><input id="lrsNta" type="checkbox"> Nachteilsausgleich Rechtschreibung (LRS)</label>
+            <span class="help">K6 bewertet dann nur Satzgrenzen und Satzschlusszeichen.</span>
             <input class="nta-text" id="ntaText" placeholder="weiterer Nachteilsausgleich, z. B. Zeitzugabe">
           </div>
         </div>
@@ -295,7 +295,7 @@ dialog::backdrop{background:rgba(20,35,45,.4)}
           <button class="btn orange" id="printFeedback">Rückmeldung drucken</button>
           <button class="btn danger" id="deleteStudent">Eintrag löschen</button>
         </div>
-        <div class="notice">Die Note wird ausschließlich aus den Punkten berechnet (20 Punkte = 5 Kompetenzen × 4). Vorlesen des Auftrags und das Erklären eines Wortes sind erlaubt und führen nicht zu Abzug. Einen Fehler nicht mehrfach abwerten: Zeitform und Redezeichen nur in K4, Prüfbeleg nur in K5. Rechtschreibung wird nicht eigens bewertet. Jede schlüssige Fortsetzung gilt; das Grimm-Original ist kein Maßstab. Zieldifferent unterrichtete Kinder (Förderstandard) werden nicht mit diesem Schlüssel benotet. Der Druck erfolgt in Graustufen.</div>
+        <div class="notice">Die Note wird ausschließlich aus den Punkten berechnet (6 Kompetenzen × 4 = 24 Punkte; doppelt gewichtete Kompetenzen zählen 2/4/6/8 – siehe Notenschlüssel). Vorlesen des Auftrags und das Erklären eines Wortes sind erlaubt und führen nicht zu Abzug. Einen Fehler nicht mehrfach abwerten: Zeitform und Märchensprache nur in K4, Prüfbeleg nur in K5. Rechtschreibung, Grammatik und Zeichensetzung nur in K6. Jede schlüssige Fortsetzung gilt; das Grimm-Original ist kein Maßstab. Zieldifferent unterrichtete Kinder (Förderstandard) werden nicht mit diesem Schlüssel benotet. Der Druck erfolgt in Graustufen.</div>
       </div>
     </div>
   </section>
@@ -356,7 +356,7 @@ dialog::backdrop{background:rgba(20,35,45,.4)}
     <div class="print-evaluation">
       <h3>Notenschlüssel</h3>
       <div class="print-key-grid" data-f="printGradeKey"></div>
-      <p class="print-points">Bewertungsbasis: 20 Punkte (5 Kompetenzen × höchstens 4 Punkte).</p>
+      <p class="print-points" data-f="printBasis"></p>
     </div>
     <div class="print-philosophy"><strong>Was wirklich zählt:</strong> Der Aufbau deiner Kompetenzen steht im Vordergrund. Eine Note kann nicht deinen gesamten Lernerfolg zeigen. Die Rückmeldung zu deinen Fähigkeiten und deinen nächsten Lernschritten ist deshalb wichtiger als die Note.</div>
   </section>
@@ -365,9 +365,11 @@ dialog::backdrop{background:rgba(20,35,45,.4)}
 
 <dialog id="settingsDialog">
   <div class="dialog-head"><h2>Notenschlüssel · Fach Deutsch</h2><button class="btn secondary small" id="closeSettings">Schließen</button></div>
-  <p>Die Prozentgrenzen (Festlegung 19.10.2026) beziehen sich auf <strong>20 Punkte</strong>.</p>
+  <p><b>Gewichtung</b> – gilt für alle Kinder dieser Arbeit. Doppelt gewichtete Kompetenzen zählen 2/4/6/8 statt 1/2/3/4.</p>
+  <div class="weights" id="weightGrid"></div>
+  <p>Die Prozentgrenzen (Festlegung 19.10.2026) beziehen sich auf <strong id="maxInfo"></strong>.</p>
   <div class="settings-grid" id="settingsGrid"></div>
-  <p class="notice">Vier von fünf Mindeststandards sind eine pädagogische Orientierung, keine zweite Notenbedingung. Die Punkte bestimmen die rechnerische Note; die Lehrkraft begründet ihre Entscheidung pädagogisch.</p>
+  <p class="notice">Fünf von sechs Mindeststandards sind eine pädagogische Orientierung, keine zweite Notenbedingung. Die Punkte bestimmen die rechnerische Note; die Lehrkraft begründet ihre Entscheidung pädagogisch.</p>
 </dialog>
 
 <dialog id="gradeChartDialog" aria-labelledby="gradeChartTitle">
@@ -402,7 +404,7 @@ function touch(s){s.updatedAt=new Date().toISOString();persist()}
 
 function metrics(s){
   const lv=CRITERIA.map(c=>clampLv(s.levels[c.id]));
-  const total=lv.reduce((a,b)=>a+b,0);
+  const total=CRITERIA.reduce((a,c,i)=>a+lv[i]*w(c.id),0);
   const count=t=>lv.filter(v=>v>=t).length;
   const min=count(2),reg=count(3),perf=count(4);
   let overall="in Ansätzen";
@@ -436,7 +438,7 @@ function renderRubric(){
     if(v&&v.expect[base.id])expect='<div class="expect"><b>Erwartung '+escapeHtml(v.short)+':</b> '+escapeHtml(v.expect[base.id])+'</div>';
     if(base.id==="K5")expect='<div class="expect"><b>Prüfung:</b> '+escapeHtml(K5_EXPECT)+'</div>';
     return '<div class="criterion">'+
-      '<div class="criterion-head"><div><h3>'+escapeHtml(c.title)+'</h3><p>'+escapeHtml(c.desc)+'</p></div><span class="grade-pill">'+lv+'</span></div>'+expect+
+      '<div class="criterion-head"><div><h3>'+escapeHtml(c.title)+'</h3><p>'+escapeHtml(c.desc)+'</p></div><span class="grade-pill">'+(lv*w(base.id))+(w(base.id)>1?' <small>×2</small>':'')+'</span></div>'+expect+
       '<div class="level-buttons">'+[0,1,2,3,4].map(n=>'<button type="button" class="level-btn '+(lv===n?'selected':'')+'" aria-pressed="'+(lv===n)+'" data-level="'+n+'" data-cid="'+base.id+'">'+n+' · '+LEVEL_NAMES[n]+'</button>').join("")+'</div>'+
       '<div class="descriptor">'+escapeHtml(c.levels[lv])+'</div>'+
       '<div class="criterion-note"><input data-note="'+base.id+'" value="'+escapeHtml(s.notes?.[base.id]||"")+'" placeholder="Optional: konkrete Beobachtung oder Textstelle"></div>'+
@@ -507,8 +509,8 @@ function createStudent(){const s=blankStudent(current());students.push(s);curren
 function deleteCurrent(){const s=current();if(!s)return;if(!confirm('Eintrag für "'+(s.name||"dieses Kind")+'" wirklich löschen?'))return;students=students.filter(x=>x.id!==s.id);persist();currentId=students[0]?.id||null;renderAll()}
 function download(name,text,type){const blob=new Blob([text],{type});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)}
 function csv(){
-  const headers=["Name","Lerngruppe","Datum","Variante","Termin","Wort_erklaert","Auftrag_vorgelesen","NTA_Rechtschreibung","Nachteilsausgleich",...CRITERIA.map(c=>c.id+" "+c.short),"Punkte","Note","Lehrkraft_Rueckmeldung"];
-  const rows=students.map(s=>{const m=metrics(s);return [s.name,s.className,s.date,VARIANTS[s.variant]?.short||"",TERMINE[s.termin]||"",s.helps.page?"ja":"nein",s.helps.read?"ja":"nein",s.lrsNta?"ja":"nein",s.ntaText||"",...CRITERIA.map(c=>s.levels[c.id]+" – "+LEVEL_NAMES[s.levels[c.id]]),m.total,m.gradeDisplay,s.teacherComment||""]});
+  const headers=["Name","Lerngruppe","Datum","Variante","Termin","Wort_erklaert","Auftrag_vorgelesen","NTA_Rechtschreibung","Nachteilsausgleich",...CRITERIA.map(c=>c.id+" "+c.short+(w(c.id)>1?" (x2)":"")),"Punkte","Hoechstpunktzahl","Note","Lehrkraft_Rueckmeldung"];
+  const rows=students.map(s=>{const m=metrics(s);return [s.name,s.className,s.date,VARIANTS[s.variant]?.short||"",TERMINE[s.termin]||"",s.helps.page?"ja":"nein",s.helps.read?"ja":"nein",s.lrsNta?"ja":"nein",s.ntaText||"",...CRITERIA.map(c=>s.levels[c.id]*w(c.id)+" – "+LEVEL_NAMES[s.levels[c.id]]),m.total,MAX_POINTS,m.gradeDisplay,s.teacherComment||""]});
   const esc=v=>'"'+String(v??"").replace(/"/g,'""')+'"';
   return "﻿"+[headers,...rows].map(r=>r.map(esc).join(";")).join("\n");
 }
@@ -527,7 +529,9 @@ function renderGradeChart(){
   el("gradeChartBars").innerHTML=[6,5,4,3,2,1].map(g=>{const c=counts[g],h=c?Math.round(c/peak*100):0;
     return '<div class="grade-chart-col" data-grade="'+g+'" role="listitem" aria-label="Note '+g+': '+c+'"><div class="grade-chart-count">'+c+'</div><div class="grade-chart-plot"><div class="grade-chart-bar" style="height:'+h+'%"></div></div><div class="grade-chart-label">Note '+g+'</div></div>'}).join("");
 }
-el("settingsGrid").innerHTML=GRADE_ROWS.map(r=>'<div class="setting"><label>'+GRADE_NAMES[r.n]+'</label><strong>'+r.pct+' · '+r.range+'</strong></div>').join("");
+function renderSettings(){el("maxInfo").textContent=MAX_POINTS+" Punkte";el("weightGrid").innerHTML=CRITERIA.map(c=>'<label class="check"><input type="checkbox" data-weight="'+c.id+'"'+(w(c.id)>1?" checked":"")+'> '+escapeHtml(c.title)+' doppelt (×2)</label>').join("");document.querySelectorAll("[data-weight]").forEach(i=>i.onchange=()=>{WEIGHTS[i.dataset.weight]=i.checked?2:1;saveWeights();recalc();renderSettings();renderAll()});
+el("settingsGrid").innerHTML=GRADE_ROWS.map(r=>'<div class="setting"><label>'+GRADE_NAMES[r.n]+'</label><strong>'+r.pct+' · '+r.range+'</strong></div>').join("");}
+renderSettings();
 
 /* ---------- Druck ---------- */
 const dots=lv=>"●".repeat(lv)+"○".repeat(4-lv);
@@ -543,7 +547,7 @@ function renderPrint(child,root){
   q("printTermin").textContent=TERMINE[child.termin]?TERMINE[child.termin][0].toUpperCase()+TERMINE[child.termin].slice(1):"";
   q("printToday").textContent=new Date().toLocaleDateString("de-DE",{day:"2-digit",month:"2-digit",year:"numeric"});
   q("printRows").innerHTML=rows.map(r=>{const c=criterionFor(r.c,child);
-    return '<tr><td><b>'+r.c.id+'</b> '+escapeHtml(c.short)+'</td><td><span class="dots">'+dots(r.lv)+'</span><span class="lvl-name">'+LEVEL_NAMES_CAP[r.lv]+'</span></td><td>'+r.lv+' / 4</td></tr>'}).join("");
+    return '<tr><td><b>'+r.c.id+'</b> '+escapeHtml(c.short)+'</td><td><span class="dots">'+dots(r.lv)+'</span><span class="lvl-name">'+LEVEL_NAMES_CAP[r.lv]+'</span></td><td>'+(r.lv*w(r.c.id))+' / '+(4*w(r.c.id))+'</td></tr>'}).join("");
 
   const pos=rows.filter(r=>r.lv>=2).sort((a,b)=>b.lv-a.lv||a.i-b.i),msgs=[];
   if(pos.length){
@@ -573,6 +577,7 @@ function renderPrint(child,root){
   q("printRubricGrid").innerHTML=CRITERIA.map(base=>{const c=criterionFor(base,child),mine=clampLv(child.levels[base.id]);
     return '<article class="print-rubric-card"><h3>'+escapeHtml(c.title)+'</h3><div class="print-rubric-desc">'+escapeHtml(c.desc)+'</div>'+
       c.levels.map((d,i)=>'<div class="print-rubric-row'+(i===mine?' mine':'')+'"><span class="print-rubric-num">'+i+'</span><span>'+escapeHtml(d)+'</span></div>').join("")+'</article>'}).join("");
+  q("printBasis").textContent="Bewertungsbasis: "+MAX_POINTS+" Punkte ("+CRITERIA.length+" Kompetenzen × 4"+(CRITERIA.some(c=>w(c.id)>1)?"; doppelt gewichtet: "+CRITERIA.filter(c=>w(c.id)>1).map(c=>c.id).join(", "):"")+").";
   q("printGradeKey").innerHTML=GRADE_ROWS.map(r=>'<div class="print-key-cell"><strong>'+GRADE_NAMES[r.n]+'</strong><span>'+r.pct+' von '+MAX_POINTS+' Punkten · '+r.range+'</span></div>').join("");
 }
 let batchReady=false;
@@ -606,15 +611,15 @@ el("printAllFeedback").onclick=()=>{if(current())syncTop();if(!buildBatch()){ale
 window.addEventListener("beforeprint",()=>{if(!batchReady&&current())renderPrint(current(),el("printSheet"))});
 window.addEventListener("afterprint",()=>{if(batchReady)clearBatch()});
 el("exportCsv").onclick=()=>download("LEK_Maerchen_Auswertung.csv",csv(),"text/csv;charset=utf-8");
-el("exportJson").onclick=()=>download("LEK_Maerchen_Sicherung.json",JSON.stringify({app:"d5ur3-lek",version:DATA_VERSION,exportedAt:new Date().toISOString(),gradePercentages:GRADE_PERCENTAGES,students},null,2),"application/json");
+el("exportJson").onclick=()=>download("LEK_Maerchen_Sicherung.json",JSON.stringify({app:"d5ur3-lek",version:DATA_VERSION,exportedAt:new Date().toISOString(),gradePercentages:GRADE_PERCENTAGES,weights:WEIGHTS,students},null,2),"application/json");
 el("importJson").onchange=async e=>{
   const file=e.target.files[0];if(!file)return;
   try{const data=JSON.parse(await file.text());if(!Array.isArray(data.students))throw new Error();
     if(!confirm("Vorhandene Daten durch die Sicherung ersetzen?"))return;
-    students=normalize(data.students);persist();currentId=students[0]?.id||null;renderAll()}
+    if(data.weights){Object.assign(WEIGHTS,data.weights);saveWeights();recalc();renderSettings()}students=normalize(data.students);persist();currentId=students[0]?.id||null;renderAll()}
   catch(err){alert("Die Datei konnte nicht als gültige Sicherung gelesen werden.")}finally{e.target.value=""}
 };
-el("settingsBtn").onclick=()=>el("settingsDialog").showModal();
+el("settingsBtn").onclick=()=>{renderSettings();el("settingsDialog").showModal()};
 el("closeSettings").onclick=()=>el("settingsDialog").close();
 el("showGradeChart").onclick=()=>{renderGradeChart();el("gradeChartDialog").showModal()};
 el("closeGradeChart").onclick=()=>el("gradeChartDialog").close();

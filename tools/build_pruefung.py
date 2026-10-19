@@ -25,11 +25,12 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build_material import (F_JS, FOERDER_CSS, GN_CSS, PROBE_CSS, TEXTE, doc, drucke, esc,  # noqa: E402
                             f_auftrag, md, verbinde)
 from satz import ROOT, bild_uri  # noqa: E402
-from bewertung import BEW_CSS, STANDARDS, kaestchen, kopf_standards, legende, schluessel_html  # noqa: E402
+from bewertung import BEW_CSS, GEWICHT_KOPF, STANDARDS, kaestchen, kaestchen_gewicht, kopf_standards, legende, schluessel_html  # noqa: E402
 
 P = json.loads((ROOT / "inhalt" / "pruefung.json").read_text("utf-8"))
 TITEL = {t["id"]: t["titel"] for t in json.loads((ROOT / "inhalt" / "texte.json").read_text("utf-8"))["texte"]}
-SUMME = sum(k["punkte"] for k in P["kriterien"])
+SUMME = sum(k["punkte"] * k.get("gewicht", 1) for k in P["kriterien"])
+MAXIMA = [SUMME, SUMME + 4]  # ohne Gewichtung · eine Kompetenz doppelt
 
 
 def checkliste_tabelle() -> str:
@@ -56,32 +57,38 @@ def aufgaben_html(meta: str, titel: str, maerchen: str, hinweis: str, termin: bo
 
 
 def bewertung_html(v: str) -> str:
-    rows = "".join("<tr><td><b>%s</b> %s</td>%s</tr>" % (k["k"], esc(k["titel"]), kaestchen()) for k in P["kriterien"])
+    rows = "".join("<tr><td><b>%s</b> %s</td>%s</tr>" % (k["k"], esc(k["titel"]), kaestchen_gewicht()) for k in P["kriterien"])
     return doc(GN_CSS + BEW_CSS, (
         "<div class=meta>Lernerfolgskontrolle · Variante %s · Bewertung</div><h1>Das hast du gezeigt</h1>"
-        "<table><tr><th>Kompetenz</th>%s</tr>%s</table>"
-        "<div class=erg><b>Punkte: ____ / %d</b> &nbsp;&nbsp; <b>Note: ______</b></div>%s"
+        "<table><tr><th>Kompetenz</th>%s%s</tr>%s</table>"
+        "<div style='font-size:14pt;margin-top:1.5mm'>×2 = Kompetenz zählt doppelt (2 · 4 · 6 · 8 Punkte).</div>"
+        "<div class=erg><b>Punkte: ____ / ____</b> &nbsp;&nbsp; <b>Note: ______</b></div>%s"
         "<div class=feld><b>Das gelingt dir schon:</b></div><div class=feld><b>Dein nächster Schritt:</b></div>"
-        "<div style='font-size:14pt;margin-top:3mm'>Datum, Unterschrift der Lehrkraft: ______________________</div>"
-        "<div style='font-size:14pt;margin-top:2mm'>Unterschrift einer erziehungsberechtigten Person: ______________________</div>")
-        % (v, kopf_standards(), rows, SUMME, schluessel_html(SUMME)))
+        "<div style='display:flex;gap:6mm;font-size:14pt;margin-top:6mm'><div style='flex:1;border-top:1pt solid #111;padding-top:1mm'>Datum, Lehrkraft</div>"
+        "<div style='flex:1;border-top:1pt solid #111;padding-top:1mm'>Erziehungsberechtigte</div></div>")
+        % (v, kopf_standards(), GEWICHT_KOPF, rows, schluessel_html(MAXIMA)))
 
 
 def erwartung_html() -> str:
     teile = ["<div class=meta>Lehrkraft · Lernerfolgskontrolle</div><h1>Erwartungshorizont</h1>",
              "<p style='font-size:14pt;margin-bottom:3mm'>Gleicher Aufbau wie die Probearbeit. Arbeitszeit %s. Hilfen: keine (Merkblatt und Märchenkarten bleiben in der Tasche). "
-             "Jede Kompetenz wird einem Standard zugeordnet: %s. Höchstpunktzahl %d. Aufgabe 1 (Plan) fließt in K3 ein; "
-             "K5 bewertet Prüfbeleg und Verbesserungen, nicht die Fehlerzahl.</p>" % (esc(P["arbeitszeit"]), legende(), SUMME)]
+             "Jede Kompetenz wird einem Standard zugeordnet: %s. Höchstpunktzahl %d (6 × 4). <b>Gewichtung:</b> Eine Kompetenz kann doppelt zählen "
+             "(2 · 4 · 6 · 8 Punkte); die Höchstpunktzahl steigt dann um 4, die Notengrenzen werden in Prozent neu berechnet (Auswertungs-App). "
+             "Aufgabe 1 (Plan) fließt in K3 ein. K5 bewertet Prüfbeleg und Verbesserungen, K6 die sprachliche Richtigkeit – einen Fehler nicht doppelt "
+             "werten: Zeitform und Märchensprache in K4, Rechtschreibung, Grammatik und Zeichensetzung in K6.</p>" % (esc(P["arbeitszeit"]), legende(), SUMME)]
     for k in P["kriterien"]:
         teile.append("<table style='margin-bottom:3mm'><tr><th colspan=2>%s · %s</th></tr>%s</table>" % (k["k"], esc(k["titel"]), "".join(
             "<tr><td style='width:34mm'><b>%d</b> %s</td><td>%s</td></tr>" % (p, esc(n), esc(t))
             for (n, p), t in zip(STANDARDS[1:], k["stufen"]))))
     teile.append("<h2 style='font-size:17pt;margin:4mm 0 2mm'>Notenschlüssel</h2>%s<p style='font-size:14pt;margin-top:2mm'>Grenzen: %s; darunter ungenügend. "
-                 "Untergrenzen aufgerundet.</p>" % (schluessel_html(SUMME), " · ".join("%s ab %d %%" % (n, g) for n, g in P["notengrenzen"][:-1])))
+                 "Untergrenzen aufgerundet. Zweite Zeile: eine Kompetenz doppelt gewichtet.</p>" % (schluessel_html(MAXIMA), " · ".join("%s ab %d %%" % (n, g) for n, g in P["notengrenzen"][:-1])))
     for v, var in P["lek"].items():
         teile.append("<h2 style='font-size:17pt;margin:5mm 0 2mm'>Variante %s · „%s“</h2><p style='font-size:14pt'>%s</p>"
                      "<p style='font-size:14pt;margin-top:2mm'><b>Grimm-Original (nur Orientierung, kein Maßstab):</b> %s</p>"
                      % (v, esc(TITEL[var["maerchen"]]), esc(var["anknuepfung"]), esc(var["original"])))
+    teile.append("<h2 style='font-size:17pt;margin:5mm 0 2mm'>Förderfassung (V1F/V2F)</h2><table>%s</table><p style='font-size:14pt;margin-top:2mm'>"
+                 "Gleiche Skala 0–4 je Förderziel, Gewichtung möglich; Bewertung zieldifferent nach Förderplan.</p>" % "".join(
+                     "<tr><td style='width:14mm'><b>%s</b></td><td>%s</td><td>%s</td></tr>" % (z["id"], esc(z["kind"]), esc(z["lehrkraft"])) for z in P["f_ziele"]))
     teile.append("<p style='font-size:14pt;margin-top:4mm'>Jede schlüssige Fortsetzung gilt.</p>")
     return doc(GN_CSS + BEW_CSS, "".join(teile))
 
@@ -93,15 +100,15 @@ def f_html(v: str, var: dict) -> tuple[str, str]:
             "<span style='flex:1;border-bottom:1pt solid #111'>Datum:</span></div></div>" % (v, esc(f["titel"])))
     auf = doc(FOERDER_CSS, "<div id=q>%s%s</div>%s" % (
         kopf, "".join(re.sub(r"data-loes='[^']*'", "data-loes=''", f_auftrag(a)) for a in f["auftraege"]), F_JS))
-    rows = "".join("<tr><td>%s</td>%s</tr>" % (esc(z["kind"]), kaestchen()) for z in P["f_ziele"])
+    rows = "".join("<tr><td>%s</td>%s</tr>" % (esc(z["kind"]), kaestchen_gewicht()) for z in P["f_ziele"])
     summe = sum(z["punkte"] for z in P["f_ziele"])
     rueck = doc(GN_CSS + BEW_CSS, (
         "<div class=meta>Lernerfolgskontrolle F · Variante %s · Bewertung</div><h1>Das hast du gezeigt</h1>"
-        "<table><tr><th>Dein Ziel</th>%s</tr>%s</table>"
-        "<div class=erg><b>Punkte: ____ / %d</b> &nbsp;&nbsp; <b>Note: ______</b></div>%s"
+        "<table><tr><th>Dein Ziel</th>%s%s</tr>%s</table>"
+        "<div class=erg><b>Punkte: ____ / ____</b> &nbsp;&nbsp; <b>Note: ______</b></div>%s"
         "<div class=feld><b>Das gelingt dir schon:</b></div><div class=feld><b>Dein nächster Schritt:</b></div>"
-        "<div style='font-size:14pt;margin-top:3mm'>Lehrkraft-Hinweis (zieldifferent nach Förderplan): %s</div>")
-        % (v, kopf_standards(), rows, summe, schluessel_html(summe), esc(" · ".join("%s %s" % (z["id"], z["lehrkraft"]) for z in P["f_ziele"]))))
+        "%s")
+        % (v, kopf_standards(), GEWICHT_KOPF, rows, schluessel_html([summe, summe + 4]), ""))
     return auf, rueck
 
 
@@ -113,7 +120,7 @@ def training_html(nr: str, t: dict) -> str:
              "<div class=hinweis>%s</div>" % hinweis,
              "<div class=auf><span class=nr>1.</span> Lies den Märchenanfang. Plane deine Fortsetzung in Stichworten im Heft: <b>Weg · Prüfung · Lösung · Ende</b>.</div>",
              "<div class=auf><span class=nr>2.</span> Schreibe die Fortsetzung ins Heft und führe das Märchen zu Ende. Schreibe in jede zweite Zeile.</div>",
-             "<div class=auf><span class=nr>3.</span> Mach den Prüfbeleg: Satzanfänge einkreisen, Verben unterstreichen, Redezeichen markieren. Prüfe mit deiner <b>Checkliste K1–K5</b> und verbessere mindestens zwei Stellen.</div>",
+             "<div class=auf><span class=nr>3.</span> Mach den Prüfbeleg: Satzanfänge einkreisen, Verben unterstreichen, Redezeichen markieren. Prüfe mit deiner <b>Checkliste K1–K6</b> und verbessere mindestens zwei Stellen.</div>",
              "<div class=auf><span class=nr>4.</span> Hol dir am Kiosk die <b>Musterfortsetzung</b>. Vergleiche: Was hat das Muster, was du auch hast? "
              "Was möchtest du dir abschauen? Schreibe einen Satz ins Heft.</div>",
              "<div class=karten>%s</div>" % esc("Dir fehlt eine Idee? Deine Märchenkarten zeigen dir Figuren, Orte, Zauberdinge und Märchenmerkmale.")]

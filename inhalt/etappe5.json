@@ -67,11 +67,11 @@
    ]
   },
   {
-   "titel": "Die Checkliste K1–K5",
+   "titel": "Die Checkliste K1–K6",
    "bloecke": [
     [
      "Merke",
-     "**K1 Märchen:** Ist es klar ein Märchen? Es gibt Märchenmerkmale: Zauber, Gut und Böse, die Zahl 3, Belohnung oder Bestrafung, eine Schlussformel.\n**K2 Figuren:** Handeln meine Figuren passend zu ihrer Rolle? Die Heldin oder der Held bleibt sich treu, Helfer helfen, Gegenspieler stören.\n**K3 Handlung:** Greife ich das Problem aus dem Anfang auf? Wird es gelöst? Passt das Ende zum Anfang?\n**K4 Sprache:** Erzähle ich im Präteritum? Hat die wörtliche Rede ihre Zeichen? Nutze ich Märchenwörter?\n**K5 Prüfen:** Habe ich den Prüfbeleg gemacht und mindestens zwei Stellen verbessert?"
+     "**K1 Märchen:** Ist es klar ein Märchen? Es gibt Märchenmerkmale: Zauber, Gut und Böse, die Zahl 3, Belohnung oder Bestrafung, eine Schlussformel.\n**K2 Figuren:** Handeln meine Figuren passend zu ihrer Rolle? Die Heldin oder der Held bleibt sich treu, Helfer helfen, Gegenspieler stören.\n**K3 Handlung:** Greife ich das Problem aus dem Anfang auf? Wird es gelöst? Passt das Ende zum Anfang?\n**K4 Sprache:** Erzähle ich im Präteritum? Hat die wörtliche Rede ihre Zeichen? Nutze ich Märchenwörter?\n**K5 Prüfen:** Habe ich den Prüfbeleg gemacht und mindestens zwei Stellen verbessert?\n**K6 Richtig schreiben:** Sind Wörter, Satzanfänge und Nomen richtig geschrieben? Sind die Sätze vollständig? Stehen Punkt, Fragezeichen und Ausrufezeichen am Satzende?"
     ],
     [
      "Frage",
@@ -148,6 +148,11 @@
    "K5",
    "Prüfen",
    "Habe ich den Prüfbeleg gemacht und mindestens zwei Stellen verbessert?"
+  ],
+  [
+   "K6",
+   "Richtig schreiben",
+   "Sind Wörter, Satzanfänge und Nomen richtig geschrieben? Sind die Sätze vollständig? Stehen Punkt, Fragezeichen und Ausrufezeichen am Satzende?"
   ]
  ],
  "blaetter": [
@@ -200,14 +205,14 @@
   {
    "nr": 11,
    "titel": "Prüfen und verbessern",
-   "brauchst": "deinen Text von Blatt 10 · Checkliste K1–K5 · Rückmeldekarte · Merkblatt 5 · Buntstift",
+   "brauchst": "deinen Text von Blatt 10 · Checkliste K1–K6 · Rückmeldekarte · Merkblatt 5 · Buntstift",
    "signet": "lupe",
    "pflicht": [
     {
      "text": "Mach den **Prüfbeleg**: Kreise die Satzanfänge ein. Unterstreiche die Verben. Markiere die Zeichen der wörtlichen Rede."
     },
     {
-     "text": "Prüfe deinen Text mit der **Checkliste K1–K5** und kreuze an."
+     "text": "Prüfe deinen Text mit der **Checkliste K1–K6** und kreuze an."
     },
     {
      "text": "Geh zur **Haltestelle**. Ein anderes Kind liest deinen Text und füllt die **Rückmeldekarte** aus. Dann tauscht ihr."
@@ -270,6 +275,15 @@
     "lehrkraft": "Prüfbeleg vollständig (Satzanfänge, Verben, Redezeichen); Checkliste angekreuzt; mindestens zwei sichtbare Verbesserungen",
     "teilweise": "Prüfbeleg unvollständig oder nur eine Verbesserung",
     "ueben": "Merkblatt 5 · Blatt 11"
+   },
+   {
+    "id": "E5.6",
+    "k": "K6",
+    "kurz": "Richtig schreiben",
+    "kind": "Ich schreibe Wörter und Sätze richtig.",
+    "lehrkraft": "siehe K6 im Erwartungshorizont der LEK",
+    "teilweise": "",
+    "ueben": "Merkblatt 5 · Blatt 11 · Rechtschreibhilfen"
    }
   ],
   "aufgaben": [

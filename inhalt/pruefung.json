@@ -1,5 +1,5 @@
 {
- "_hinweis": "Inhalt für LEK V1/V2 (+F) und Training 1/2. Bewertung festgelegt von C (19.10.2026): je Kompetenz 0–4 Punkte nach Standard, Notengrenzen in Prozent.",
+ "_hinweis": "Inhalt für LEK V1/V2 (+F) und Training 1/2. Bewertung (Festlegung C, 19.10.2026): je Kompetenz K1–K6 0–4 Punkte nach Standard; Gewichtung je Kompetenz ×1 oder ×2 (dann 2/4/6/8); Notengrenzen in Prozent.",
  "arbeitszeit": "45 Minuten",
  "kriterien": [
   {
@@ -12,7 +12,8 @@
     "Ein bis zwei Märchenmerkmale sind erkennbar, stehen aber zum Teil unverbunden neben der Handlung.",
     "Mehrere passende Märchenmerkmale (z. B. Magie, Zahl 3, Gut und Böse, Belohnung oder Bestrafung) gehören zur Handlung.",
     "Märchenmerkmale sind vielfältig und gezielt eingesetzt; Merkmale des Anfangs werden aufgegriffen und weitergeführt (z. B. Dreierstruktur, Schlussformel)."
-   ]
+   ],
+   "gewicht": 1
   },
   {
    "k": "K2",
@@ -24,7 +25,8 @@
     "Die Hauptfigur bleibt überwiegend ihrer Rolle treu; andere Figuren bleiben blass oder handeln nicht immer passend.",
     "Held, Helfer und Gegenspieler handeln passend zu ihren Rollen; Figuren aus dem Anfang werden genutzt.",
     "Die Figuren handeln stimmig und nachvollziehbar; ihre Eigenschaften zeigen sich in Handlungen und wörtlicher Rede."
-   ]
+   ],
+   "gewicht": 1
   },
   {
    "k": "K3",
@@ -36,7 +38,8 @@
     "Der Text knüpft an den Anfang an; das Problem wird gelöst, aber sprunghaft oder sehr knapp.",
     "Schlüssige Anknüpfung; Weg und Prüfung werden erzählt; das Problem wird gelöst; das Ende passt.",
     "Die Handlung ist folgerichtig und spannend aufgebaut (z. B. Steigerung, Wendepunkt); Hinweise aus dem Anfang werden genutzt; das Ende rundet das Märchen ab."
-   ]
+   ],
+   "gewicht": 1
   },
   {
    "k": "K4",
@@ -48,7 +51,8 @@
     "Überwiegend Präteritum; wörtliche Rede teilweise mit Zeichen; vereinzelt Märchenwörter.",
     "Durchgehend Präteritum (einzelne Ausrutscher); wörtliche Rede mit Zeichen; Märchenwörter oder Formeln passend eingesetzt.",
     "Sicheres Präteritum; abwechslungsreiche Satzanfänge, treffende Verben und Adjektive; Märchensprache durchgängig; klare Bezüge der Pronomen."
-   ]
+   ],
+   "gewicht": 1
   },
   {
    "k": "K5",
@@ -60,7 +64,22 @@
     "Prüfbeleg teilweise; eine Verbesserung sichtbar.",
     "Prüfbeleg vollständig (Satzanfänge, Verben, Redezeichen); Checkliste angekreuzt; mindestens zwei sichtbare Verbesserungen.",
     "Prüfbeleg vollständig; mehrere gezielte Verbesserungen, die den Text sichtbar besser machen (z. B. Zeitform, Wiederholungen, Bezüge)."
-   ]
+   ],
+   "gewicht": 1
+  },
+  {
+   "k": "K6",
+   "titel": "Sprachliche Richtigkeit",
+   "kind": "Ich schreibe Wörter und Sätze richtig.",
+   "punkte": 4,
+   "stufen": [
+    "Viele Fehler in Rechtschreibung, Grammatik und Zeichensetzung erschweren das Lesen stark.",
+    "Häufige Fehler; Satzgrenzen und Satzschlusszeichen fehlen oft; der Text bleibt aber verständlich.",
+    "Satzanfänge, Nomen, häufige Wörter und Satzschlusszeichen sind überwiegend richtig; Sätze überwiegend vollständig.",
+    "Wenige Fehler; Satzgrenzen, Satzzeichen (auch bei wörtlicher Rede) und Grammatik weitgehend sicher.",
+    "Weitgehend fehlerfrei, auch bei längeren und abwechslungsreichen Sätzen."
+   ],
+   "gewicht": 1
   }
  ],
  "checkliste": [
@@ -88,6 +107,11 @@
    "K5",
    "Prüfen",
    "Habe ich den Prüfbeleg gemacht und mindestens zwei Stellen verbessert?"
+  ],
+  [
+   "K6",
+   "Richtig schreiben",
+   "Sind Wörter, Satzanfänge und Nomen richtig geschrieben? Sind die Sätze vollständig? Stehen Punkt, Fragezeichen und Ausrufezeichen am Satzende?"
   ]
  ],
  "aufgaben": [
@@ -245,6 +269,12 @@
    "kind": "Ich habe meinen Text geprüft.",
    "lehrkraft": "Prüfliste angekreuzt, eine Verbesserung sichtbar",
    "punkte": 4
+  },
+  {
+   "id": "F6",
+   "kind": "Ich schreibe Sätze mit Punkt am Ende.",
+   "lehrkraft": "überwiegend ganze Sätze, Satzanfang groß, Punkt am Ende",
+   "punkte": 4
   }
  ],
  "training": {
@@ -344,5 +374,9 @@
    "ungenügend",
    0
   ]
+ ],
+ "gewichte_moeglich": [
+  1,
+  2
  ]
 }

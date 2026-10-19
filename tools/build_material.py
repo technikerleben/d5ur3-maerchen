@@ -385,12 +385,12 @@ def checkliste_html(e: dict) -> str:
     rows = "".join("<tr><td><b>%s</b> %s</td><td>%s</td><td class=k>☐</td><td class=k>☐</td></tr>" % (k, esc(t), esc(f))
                    for k, t, f in e["checkliste"])
     return doc(EXTRA_CSS, (
-        "<div class=kopfzeile><div><div class=meta>Etappe %d · Checkliste</div><h1>Checkliste K1–K5</h1></div><img src='%s' alt=''></div>"
+        "<div class=kopfzeile><div><div class=meta>Etappe %d · Checkliste</div><h1>Checkliste K1–K6</h1></div><img src='%s' alt=''></div>"
         "<table><tr><th style='width:30mm'>Kriterium</th><th>Prüffrage</th><th class=k style='font-size:14pt'>geprüft</th>"
         "<th class=k style='font-size:14pt'>verbessert</th></tr>%s</table>"
         "<div class=kasten><b>Prüfbeleg</b><br>1. Kreise alle Satzanfänge ein.<br>2. Unterstreiche die Verben: Stehen sie im Präteritum?"
         "<br>3. Markiere die Zeichen der wörtlichen Rede: „ “ : ? !</div>"
-        "<div class=kasten><b>Ich habe verbessert:</b><div style='height:24mm'></div></div>") % (e["etappe"], bild_uri("lupe"), rows))
+        "") % (e["etappe"], bild_uri("lupe"), rows))
 
 
 def rueckmeldekarte_html(e: dict) -> str:
@@ -437,9 +437,8 @@ def probe_feedback_html(e: dict, nw: dict) -> str:
     return doc(GN_CSS + BEW_CSS, (
         "<div class=meta>Probearbeit · Etappe %d · Feedbackbogen</div><h1>Das kannst du schon – so übst du weiter</h1>"
         "<table><tr><th>Kompetenz</th>%s</tr>%s</table>"
-        "<div class=erg><b>Punkte: ____ / 20</b> (zur Orientierung, keine Note) &nbsp; ab 2 = gezeigt: <b>____ von 5</b></div>"
-        "<div class=feld><b>Das gelingt dir schon:</b></div><div class=feld><b>Daran arbeitest du in der Wahlzeit:</b></div>"
-        "<div style='font-size:14pt;margin-top:3mm'><b>Ich übe mit:</b> ☐ Training 1 &nbsp; ☐ Training 2 &nbsp; ☐ Merkblatt ____ &nbsp; ☐ Blatt ____ &nbsp; ☐ Förderblatt ____</div>"
+        "<div class=erg><b>Punkte: ____ / 24</b> (zur Orientierung, keine Note) &nbsp; K1–K5 ab 2 = gezeigt: <b>____ von 5</b></div>"
+        "<div class=feld><b>Das gelingt dir schon:</b></div><div class=feld><b>Daran arbeitest du in der Wahlzeit</b> (Wahlhilfe):</div>"
         ) % (e["etappe"], kopf_standards(), rows))
 
 
@@ -455,7 +454,8 @@ def probe_erwartung_html(e: dict, nw: dict) -> str:
              "<p style='font-size:14pt;margin-top:4mm'>Die Probearbeit ist der fünfte Nachweis und Diagnose für die Wahlzeit. Im Feedbackbogen wird jede Kompetenz "
              "wie in der Lernerfolgskontrolle einem Standard zugeordnet (0 nicht erkennbar · 1 in Ansätzen · 2 Mindest · 3 Regel · 4 Leistung); "
              "die Stufen beschreibt der Erwartungshorizont der Lernerfolgskontrolle. Ab Mindeststandard gilt ein Kriterium als gezeigt; "
-             "4 von 5 = Etappe 5 abgeschlossen. Punkte nur zur Orientierung, keine Note. Es gibt bewusst nur eine Fassung.</p>"]
+             "Etappe 5 ist abgeschlossen, wenn K1–K5 mindestens viermal Mindeststandard erreichen; K6 (sprachliche Richtigkeit) dient der Diagnose "
+             "für die Wahlzeit. Punkte (24 = 6 × 4) nur zur Orientierung, keine Note. Es gibt bewusst nur eine Fassung.</p>"]
     return doc(GN_CSS, "".join(teile))
 
 
@@ -497,7 +497,7 @@ def main(n: int) -> int:
         mach(mb, aus / f"Merkblatt_{n}_A4.pdf", f"Merkblatt {n}", 12)
         blaetter = [mach(blatt_html(e, b), aus / f"Blatt_{b['nr']}_A4.pdf", f"Etappe {n} · Blatt {b['nr']}", 14) for b in e["blaetter"]]
         if e.get("checkliste"):
-            blaetter.append(mach(checkliste_html(e), aus / "Checkliste_K1-K5_A4.pdf", "Checkliste K1–K5", 14))
+            blaetter.append(mach(checkliste_html(e), aus / "Checkliste_K1-K6_A4.pdf", "Checkliste K1–K6", 14))
             blaetter.append(mach(rueckmeldekarte_html(e), aus / "Rueckmeldekarte_A4.pdf", "Rückmeldekarte", 14))
         material = [TEXTE / f"{m}_A4.pdf" for m in e["material"]]
         s = verbinde(material + blaetter, aus / f"Schuelerpaket_Etappe{n}_A4.pdf")

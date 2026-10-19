@@ -62,6 +62,11 @@
    "K5",
    "Prüfen",
    "Merkblatt 5, Abschnitt „Prüfen und verbessern“ · Blatt 11 mit deinem Probearbeitstext"
+  ],
+  [
+   "K6",
+   "Richtig schreiben",
+   "Prüfbeleg aus Merkblatt 5: Satz für Satz lesen, Satzanfänge und Nomen prüfen, Satzende markieren · schwierige Wörter im Märchentext oder Wörterbuch nachschlagen"
   ]
  ],
  "wahlhilfe_danach": "Alles geschafft? Dann mach **Training 1 oder 2** und vergleiche am Kiosk. Danach wählst du ein **Projekt**: P1 Märchenbuch, P2 Vorlesen oder P3 Umformen.",
@@ -71,7 +76,7 @@
    "titel": "Unser Märchenbuch",
    "datei": "Projekt_P1_Maerchenbuch_A4.pdf",
    "bild": "maerchenbuch",
-   "brauchst": "deinen verbesserten Text von Blatt 10/11 · Checkliste K1–K5 · Reinschriftvorlage · Buntstifte",
+   "brauchst": "deinen verbesserten Text von Blatt 10/11 · Checkliste K1–K6 · Reinschriftvorlage · Buntstifte",
    "einleitung": "Wir sammeln eure Märchen in einem Klassenbuch. Die Lehrkraft scannt die Seiten. Daraus wird ein digitales Märchenbuch, das man auch ausdrucken kann.",
    "schritte": [
     [
@@ -80,7 +85,7 @@
     ],
     [
      "Noch einmal prüfen",
-     "Prüfe mit der Checkliste K1–K5. Verbessere nur, was nötig ist. Schreibe nicht alles neu."
+     "Prüfe mit der Checkliste K1–K6. Verbessere nur, was nötig ist. Schreibe nicht alles neu."
     ],
     [
      "Titel finden",

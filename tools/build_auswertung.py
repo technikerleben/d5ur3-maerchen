@@ -20,13 +20,15 @@ from satz import ROOT  # noqa: E402
 P = json.loads((ROOT / "inhalt" / "pruefung.json").read_text("utf-8"))
 OUT = ROOT / "apps" / "auswertung-lek" / "index.html"
 
-KURZ = {"K1": "Textmuster Märchen", "K2": "Figuren und Rollen", "K3": "Handlung", "K4": "Märchensprache", "K5": "Prüfen und verbessern"}
+KURZ = {"K1": "Textmuster Märchen", "K2": "Figuren und Rollen", "K3": "Handlung", "K4": "Märchensprache", "K5": "Prüfen und verbessern",
+        "K6": "Sprachliche Richtigkeit"}
 DESC = {
     "K1": "Die Fortsetzung ist klar ein Märchen: passende Märchenmerkmale gehören zur Handlung.",
     "K2": "Die Figuren handeln passend zu ihren Rollen; Figuren aus dem Anfang werden genutzt.",
     "K3": "Anknüpfung an den Anfang, Weg und Prüfung, Lösung des Problems, passendes Ende.",
     "K4": "Präteritum, wörtliche Rede mit Zeichen, Märchenwörter und Formeln, anschaulich.",
     "K5": "Prüfbeleg (Satzanfänge, Verben, Redezeichen), Checkliste, sichtbare Verbesserungen.",
+    "K6": "Rechtschreibung, Grammatik und Zeichensetzung (Satzgrenzen, Satzschlusszeichen, Zeichen der wörtlichen Rede).",
 }
 FEEDBACK = {
     "K1": ["Märchenmerkmale sind in deiner Fortsetzung noch nicht zu erkennen.",
@@ -54,6 +56,11 @@ FEEDBACK = {
            "Du zeigst deine Prüfung und hast eine Stelle verbessert.",
            "Du prüfst vollständig und verbesserst mehrere Stellen sichtbar.",
            "Deine Verbesserungen machen deinen Text deutlich besser."],
+    "K6": ["Viele Fehler machen deinen Text noch schwer lesbar.",
+           "Achte noch auf Satzanfänge, Nomen und Punkte am Satzende.",
+           "Satzanfänge, Nomen und Satzzeichen sind überwiegend richtig.",
+           "Du schreibst mit wenigen Fehlern und setzt die Satzzeichen sicher.",
+           "Du schreibst fast fehlerfrei – auch lange Sätze."],
 }
 NEXT = {
     "K1": "Nimm Merkblatt 1: Baue in deine nächste Fortsetzung zwei Märchenmerkmale ein, die zur Handlung gehören – zum Beispiel einen Zauber und die Zahl 3.",
@@ -61,13 +68,14 @@ NEXT = {
     "K3": "Nimm den Bauplan aus Merkblatt 5: Plane in Stichworten Weg, Prüfung, Lösung und Ende. Prüfe: Wird das Problem aus dem Anfang gelöst?",
     "K4": "Nimm die Präteritum-Liste aus Merkblatt 4: Unterstreiche nach dem Schreiben alle Verben und prüfe sie. Setze bei wörtlicher Rede „ “.",
     "K5": "Mach den Prüfbeleg in drei Runden: Satzanfänge einkreisen, Verben unterstreichen, Redezeichen markieren. Verbessere danach zwei Stellen.",
+    "K6": "Lies deinen Text Satz für Satz mit einem Lineal: Großer Satzanfang? Nomen groß? Satzzeichen am Ende? Schlage schwierige Wörter im Märchentext nach.",
 }
 SKILLS = {"K1": "ein Märchen mit Märchenmerkmalen erzählen", "K2": "Figuren passend zu ihren Rollen handeln lassen",
           "K3": "eine Handlung vom Problem bis zum Ende aufbauen", "K4": "im Präteritum und in Märchensprache erzählen",
-          "K5": "deinen Text prüfen und verbessern"}
+          "K5": "deinen Text prüfen und verbessern", "K6": "Wörter und Sätze richtig schreiben"}
 STRENGTHS = {"K1": "Man erkennt sofort, dass dein Text ein Märchen ist", "K2": "Deine Figuren handeln passend",
              "K3": "Deine Handlung passt zum Anfang und hat ein gutes Ende", "K4": "Du erzählst wie in einem Märchen",
-             "K5": "Du prüfst deinen Text sichtbar"}
+             "K5": "Du prüfst deinen Text sichtbar", "K6": "Du schreibst Wörter und Sätze richtig"}
 EXPECT = {
     "v1": {"K1": "z. B. dankbare Tiere als Zauberhelfer, die Zahl 3 (drei Aufgaben, drei Tiere), Erlösung, Belohnung, Schlussformel.",
            "K2": "Dummling bleibt gütig und tierlieb; Ameisen, Enten, Bienen als Helfer naheliegend; Brüder als Gegenbild (zu Stein); graues Männchen.",
@@ -76,6 +84,15 @@ EXPECT = {
            "K2": "Dummling bescheiden und freundlich; Kröte als Helferin; spöttische Brüder machen es sich leicht; König entscheidet.",
            "K3": "Anknüpfung an die Frage der Kröte nach seinem Begehren; der feinste Teppich wird beschafft; Dummling wird König."},
 }
+LRS_K6 = {"id": "K6", "title": "K6 · Satzgrenzen und Satzschlusszeichen", "short": "Satzgrenzen und Satzschlusszeichen",
+          "desc": "Satzgrenzen erkennen und Satzschlusszeichen setzen (Nachteilsausgleich Rechtschreibung).",
+          "levels": ["Satzgrenzen und Satzschlusszeichen fehlen.", "Satzschlusszeichen fehlen noch häufig.",
+                     "Satzschlusszeichen sind überwiegend gesetzt.", "Satzgrenzen und Satzschlusszeichen meistens passend.",
+                     "Satzgrenzen und Satzschlusszeichen durchgehend passend."]}
+LRS_FEEDBACK = ["Achte noch darauf, wo ein Satz endet.", "Setze am Satzende noch öfter einen Punkt.",
+                "Du setzt überwiegend Punkte am Satzende.", "Du setzt die Satzschlusszeichen meistens passend.",
+                "Du setzt die Satzschlusszeichen durchgehend passend."]
+LRS_NEXT = "Lies deinen Text Satz für Satz: Wo endet ein Satz? Steht dort ein Punkt, ein Fragezeichen oder ein Ausrufezeichen?"
 K5_EXPECT = "Sichtbarer Prüfbeleg laut Auftrag 3: Satzanfänge eingekreist, Verben unterstrichen, Redezeichen markiert; Checkliste angekreuzt; mindestens zwei Verbesserungen (Regelstandard)."
 
 
@@ -117,19 +134,30 @@ def daten() -> str:
         "const NEXT_STEPS=%s;" % json.dumps(NEXT, ensure_ascii=False),
         "const SKILLS=%s;" % json.dumps(SKILLS, ensure_ascii=False),
         "const STRENGTHS=%s;" % json.dumps(STRENGTHS, ensure_ascii=False),
-        "function criterionFor(c,s){return c}",
-        "function feedbackFor(c,s,lv){return FEEDBACK[c.id][lv]}",
-        "function nextStepFor(c,s){return NEXT_STEPS[c.id]}",
-        "function skillFor(id,s){return SKILLS[id]}",
-        "function strengthFor(id,s){return STRENGTHS[id]}",
-        "const MAX_POINTS=%d;" % maximum,
+        "const LRS_K6=%s;const LRS_FEEDBACK=%s;const LRS_NEXT=%s;" % (json.dumps(LRS_K6, ensure_ascii=False), json.dumps(LRS_FEEDBACK, ensure_ascii=False), json.dumps(LRS_NEXT, ensure_ascii=False)),
+        "const L=(c,s)=>s?.lrsNta&&c.id==='K6';",
+        "function criterionFor(c,s){return L(c,s)?LRS_K6:c}",
+        "function feedbackFor(c,s,lv){return L(c,s)?LRS_FEEDBACK[lv]:FEEDBACK[c.id][lv]}",
+        "function nextStepFor(c,s){return L(c,s)?LRS_NEXT:NEXT_STEPS[c.id]}",
+        "function skillFor(id,s){return s?.lrsNta&&id==='K6'?'Sätze mit Punkt abschließen':SKILLS[id]}",
+        "function strengthFor(id,s){return s?.lrsNta&&id==='K6'?'Du setzt Punkte am Satzende':STRENGTHS[id]}",
+        # Gewichtung: global für die Arbeit, im Browser gespeichert
+        "const WEIGHT_KEY='d5ur3_lek_gewichtung_v1';",
+        "const WEIGHTS=Object.assign(%s,(()=>{try{return JSON.parse(localStorage.getItem(WEIGHT_KEY))||{}}catch(e){return {}}})());" % json.dumps({k["k"]: k.get("gewicht", 1) for k in P["kriterien"]}),
+        "function w(id){return WEIGHTS[id]===2?2:1}",
+        "function saveWeights(){try{localStorage.setItem(WEIGHT_KEY,JSON.stringify(WEIGHTS))}catch(e){}}",
         "const GRADE_PERCENTAGES=%s;" % json.dumps(pct),
-        "const T=Object.fromEntries(Object.entries(GRADE_PERCENTAGES).map(([g,p])=>[g,Math.ceil(MAX_POINTS*p/100-1e-9)]));",
         'const GRADE_NAMES={1:"sehr gut (1)",2:"gut (2)",3:"befriedigend (3)",4:"ausreichend (4)",5:"mangelhaft (5)",6:"ungenügend (6)"};',
-        "const GRADE_ROWS=[1,2,3,4,5,6].map(n=>{const lo=n===6?0:T[n],hi=n===1?MAX_POINTS:T[n-1]-1;"
-        'return {n,pct:n===6?"unter "+GRADE_PERCENTAGES[5]+" %":"ab "+GRADE_PERCENTAGES[n]+" %",range:lo+"–"+hi+" Punkte"}});',
+        "let MAX_POINTS,T,GRADE_ROWS,TENDENZ;",
+        # Notenschlüssel und Tendenz (oberes/unteres Drittel eines Notenbereichs) bei jeder Gewichtung neu berechnen
+        "function recalc(){MAX_POINTS=CRITERIA.reduce((a,c)=>a+4*w(c.id),0);"
+        "T=Object.fromEntries(Object.entries(GRADE_PERCENTAGES).map(([g,p])=>[g,Math.ceil(MAX_POINTS*p/100-1e-9)]));"
+        "GRADE_ROWS=[1,2,3,4,5,6].map(n=>{const lo=n===6?0:T[n],hi=n===1?MAX_POINTS:T[n-1]-1;"
+        'return {n,lo,hi,pct:n===6?"unter "+GRADE_PERCENTAGES[5]+" %":"ab "+GRADE_PERCENTAGES[n]+" %",range:lo+"–"+hi+" Punkte"}});'
+        "TENDENZ=[];for(const r of GRADE_ROWS){if(r.n===6){TENDENZ.push([0,'6']);continue}const b=r.hi-r.lo+1,d=b>=3?Math.max(1,Math.floor(b/3)):0;"
+        "if(d)TENDENZ.push([r.hi-d+1,r.n+'+'],[r.lo+d,String(r.n)],[r.lo,r.n+'−']);else TENDENZ.push([r.lo,String(r.n)])}}",
+        "recalc();",
         "function gradeFor(p){p=Number(p)||0;for(const g of [1,2,3,4,5])if(p>=T[g])return g;return 6}",
-        "const TENDENZ=%s;" % json.dumps(tend, ensure_ascii=False),
         "function gradeDisplayFor(p){p=Number(p)||0;for(const [ab,n] of TENDENZ)if(p>=ab)return n;return \"6\"}",
     ]
     return "\n".join(js)
@@ -144,23 +172,41 @@ def check(path: Path) -> list[str]:
         errs = []
         pg.on("pageerror", lambda e: errs.append(str(e)))
         pg.goto(path.resolve().as_uri())
+        pg.evaluate("localStorage.clear()")
+        pg.reload()
         pg.click("#newStudent")
         pg.fill("#studentName", "Test")
         pg.click("[data-variant='v1']")
-        if pg.locator(".criterion").count() != 5:
-            fails.append("nicht genau fünf Kompetenzen")
-        # Notenschlüssel prüfen: Punkte → Note
-        soll = {20: "1", 18: "1", 17: "2", 15: "2", 14: "3", 12: "3", 11: "4", 9: "4", 8: "5", 4: "5", 3: "6", 0: "6"}
+        if pg.locator(".criterion").count() != len(P["kriterien"]):
+            fails.append("Zahl der Kompetenzen falsch")
+        # ohne Gewichtung: 24 Punkte
+        soll = {24: 1, 21: 1, 20: 2, 18: 2, 17: 3, 15: 3, 14: 4, 11: 4, 10: 5, 5: 5, 4: 6, 0: 6}
         for punkte, note in soll.items():
-            g = pg.evaluate(f"gradeFor({punkte})")
-            if str(g) != note:
-                fails.append(f"{punkte} Punkte → Note {g}, erwartet {note}")
-        for cid in ["K1", "K2", "K3", "K4", "K5"]:
+            if pg.evaluate(f"gradeFor({punkte})") != note:
+                fails.append(f"24er-Schlüssel: {punkte} Punkte falsch")
+        for cid in [k["k"] for k in P["kriterien"]]:
             pg.click(f"[data-cid='{cid}'][data-level='3']")
-        if pg.inner_text("#corePoints") != "15 / 20":
-            fails.append("Summe falsch: " + pg.inner_text("#corePoints"))
-        if not pg.inner_text("#gradeSuggestion").startswith("2"):
-            fails.append("Note bei 15 Punkten: " + pg.inner_text("#gradeSuggestion"))
+        if pg.inner_text("#corePoints") != "18 / 24":
+            fails.append("Summe ohne Gewichtung: " + pg.inner_text("#corePoints"))
+        # K3 doppelt: 28 Punkte, K3 zählt 6
+        pg.click("#settingsBtn")
+        pg.check("[data-weight='K3']")
+        pg.click("#closeSettings")
+        if pg.inner_text("#corePoints") != "21 / 28":
+            fails.append("Summe mit K3 ×2: " + pg.inner_text("#corePoints"))
+        soll28 = {28: 1, 25: 1, 24: 2, 21: 2, 20: 3, 17: 3, 16: 4, 13: 4, 12: 5, 6: 5, 5: 6}
+        for punkte, note in soll28.items():
+            if pg.evaluate(f"gradeFor({punkte})") != note:
+                fails.append(f"28er-Schlüssel: {punkte} Punkte falsch")
+        # Gewichtung bleibt nach Neuladen erhalten
+        pg.reload()
+        if pg.evaluate("MAX_POINTS") != 28:
+            fails.append("Gewichtung nicht gespeichert")
+        # LRS: K6-Beschreibung wechselt
+        pg.click(".student-item")
+        pg.check("#lrsNta")
+        if "Satzschlusszeichen" not in pg.inner_text("#rubric"):
+            fails.append("Nachteilsausgleich K6 ohne Wirkung")
         if errs:
             fails.append("JS-Fehler: " + "; ".join(errs[:3]))
         pg.evaluate("localStorage.clear()")

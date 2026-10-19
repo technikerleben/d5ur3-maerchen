@@ -306,3 +306,11 @@ GN1–GN4 brauchen außer dem Anfang zum Weiterschreiben einen kurzen, unbekannt
 
 - **Auswertungs-App** `apps/auswertung-lek/index.html` (aus Zootiere übernommen): K1–K5 je 0–4 mit den Stufen aus dem Erwartungshorizont, Variante V1/V2 mit Anknüpfungspunkten, Termin, erlaubte Hilfen (Auftrag vorgelesen, Wort erklärt), Note mit Tendenz (oberes/unteres Drittel des Notenbereichs), zweiseitige Rückmeldung zum Drucken (einzeln oder Klassensatz), CSV/JSON. Daten nur im Browserspeicher. Rechtschreibung wird in K1–K5 nicht eigens bewertet.
 - **Druckpakete** `ausgabe/pakete/`: 1_schueler, 2_nachweise, 3_foerder, 4_lehrkraft, 5_digital + ZIP; **Druckplan W1–W6** mit Formaten (A5 verkleinert / A4 Original / einseitig), Anzahl-Spalte und Inventar mit Seitenzahlen. Schülerpakete eine Etappe im Voraus bereitlegen; GN B als Reserve (etwa ein Drittel).
+
+## 10h Sprachliche Richtigkeit K6 und Gewichtung (Festlegung C, 19.10.2026)
+
+- **K6 Sprachliche Richtigkeit** (Rechtschreibung, Grammatik, Zeichensetzung) ergänzt – in Checkliste und Merkblatt 5 („Die Checkliste K1–K6“, Kinderfassung „Richtig schreiben“), Rückmeldekarte, Blatt 11, Probearbeit und LEK (Prüfauftrag), Wahlhilfe, Erwartungshorizont (Stufen 1–4), LEK F (F6 „Sätze mit Punkt am Ende“). Keine Doppelwertung: Zeitform/Märchensprache in K4, Prüfbeleg in K5, Richtigkeit in K6.
+- Höchstpunktzahl ohne Gewichtung **24** (6 × 4): sehr gut 21–24 · gut 18–20 · befriedigend 15–17 · ausreichend 11–14 · mangelhaft 5–10 · ungenügend 0–4.
+- **Gewichtung:** Jede Kompetenz kann doppelt zählen (2/4/6/8 statt 1/2/3/4). Die Auswertungs-App stellt das im Notenschlüssel-Dialog je Kompetenz ein (gilt für alle Kinder der Arbeit, wird im Browser und in der Sicherung gespeichert) und berechnet Höchstpunktzahl, Notengrenzen und Tendenz neu. Bewertungsseite auf Papier: Spalte „×2“ und Punktefeld je Kompetenz; Notenschlüssel für 24 und für 28 Punkte (eine Kompetenz doppelt).
+- **Nachteilsausgleich LRS:** K6 bewertet dann nur Satzgrenzen und Satzschlusszeichen (App).
+- **Probearbeit:** Feedbackbogen mit K1–K6 (24 Punkte zur Orientierung); Freigabe Etappe 5 weiter über K1–K5 (4 von 5 ab Mindeststandard), K6 dient der Diagnose.
