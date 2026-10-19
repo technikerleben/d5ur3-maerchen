@@ -1,0 +1,278 @@
+{
+ "_hinweis": "Inhalt für LEK V1/V2 (+F) und Training 1/2. Punkte und Notengrenzen: Vorschlag, Festlegung durch C offen.",
+ "arbeitszeit": "45 Minuten",
+ "kriterien": [
+  {
+   "k": "K1",
+   "titel": "Textmuster Märchen",
+   "kind": "Meine Fortsetzung ist klar ein Märchen.",
+   "punkte": 4,
+   "erfuellt": "mindestens zwei passende Märchenmerkmale, die zur Handlung gehören (z. B. Zauber, Zahl 3, Gut und Böse, Belohnung/Bestrafung, Schlussformel)",
+   "teilweise": "ein Merkmal oder Merkmale ohne Bezug zur Handlung"
+  },
+  {
+   "k": "K2",
+   "titel": "Figuren und Rollen",
+   "kind": "Meine Figuren handeln passend zu ihren Rollen.",
+   "punkte": 4,
+   "erfuellt": "der Dummling bleibt sich treu; Helfer und Gegenspieler handeln rollengerecht; Figuren aus dem Anfang werden genutzt",
+   "teilweise": "Rollen erkennbar, aber einzelne Brüche ohne Grund"
+  },
+  {
+   "k": "K3",
+   "titel": "Handlung",
+   "kind": "Ich greife das Problem aus dem Anfang auf, löse es, und das Ende passt.",
+   "punkte": 6,
+   "erfuellt": "knüpft schlüssig an das Ende des Anfangs an; Prüfung(en) erzählt; Problem gelöst; passendes Ende",
+   "teilweise": "Anknüpfung vorhanden, aber Lösung oder Ende fehlt, ist sprunghaft oder passt nicht"
+  },
+  {
+   "k": "K4",
+   "titel": "Märchensprache",
+   "kind": "Ich erzähle im Präteritum und nutze Märchensprache.",
+   "punkte": 4,
+   "erfuellt": "durchgehend Präteritum (höchstens zwei Ausrutscher); wörtliche Rede mit Zeichen; mindestens ein Märchenwort oder eine Formel",
+   "teilweise": "überwiegend Präteritum, aber Redezeichen oder Märchensprache fehlen"
+  },
+  {
+   "k": "K5",
+   "titel": "Prüfen und verbessern",
+   "kind": "Ich habe meinen Text geprüft und verbessert.",
+   "punkte": 2,
+   "erfuellt": "Prüfbeleg vollständig (Satzanfänge, Verben, Redezeichen); Checkliste angekreuzt; mindestens zwei sichtbare Verbesserungen",
+   "teilweise": "Prüfbeleg unvollständig oder nur eine Verbesserung"
+  }
+ ],
+ "checkliste": [
+  [
+   "K1",
+   "Märchen",
+   "Ist es klar ein Märchen? Es gibt Märchenmerkmale: Zauber, Gut und Böse, die Zahl 3, Belohnung oder Bestrafung, eine Schlussformel."
+  ],
+  [
+   "K2",
+   "Figuren",
+   "Handeln meine Figuren passend zu ihrer Rolle? Die Heldin oder der Held bleibt sich treu, Helfer helfen, Gegenspieler stören."
+  ],
+  [
+   "K3",
+   "Handlung",
+   "Greife ich das Problem aus dem Anfang auf? Wird es gelöst? Passt das Ende zum Anfang?"
+  ],
+  [
+   "K4",
+   "Sprache",
+   "Erzähle ich im Präteritum? Hat die wörtliche Rede ihre Zeichen? Nutze ich Märchenwörter?"
+  ],
+  [
+   "K5",
+   "Prüfen",
+   "Habe ich den Prüfbeleg gemacht und mindestens zwei Stellen verbessert?"
+  ]
+ ],
+ "aufgaben": [
+  {
+   "text": "Lies den Märchenanfang „{T}“. Plane deine Fortsetzung in Stichworten: **Weg · Prüfung · Lösung · Ende**.",
+   "linien": 6
+  },
+  {
+   "text": "Schreibe die Fortsetzung und führe das Märchen **zu Ende**. Schreibe im Präteritum. Verbesserungen schreibst du über das Wort oder an den Rand.",
+   "linien": 44,
+   "rand": true
+  },
+  {
+   "text": "Prüfe und verbessere deinen Text:\na) Kreise alle **Satzanfänge** ein.\nb) Unterstreiche die **Verben**.\nc) Markiere die **Zeichen der wörtlichen Rede**.\nd) Kreuze die Checkliste an.\ne) Verbessere **mindestens zwei Stellen**.",
+   "linien": 0,
+   "checkliste": true
+  }
+ ],
+ "lek": {
+  "V1": {
+   "maerchen": "bienenkoenigin",
+   "anknuepfung": "Anknüpfungspunkte: Der Dummling hat Ameisen, Enten und Bienen geschützt (dreimal „Lasst die Tiere in Frieden“) – naheliegend helfen ihm die Tiere. Die Perlen-Aufgabe ist die erste von drei Aufgaben auf der steinernen Tafel; das Schloss soll erlöst werden; die Brüder sind zu Stein geworden; das graue Männchen führt durch die Aufgaben. Ein schlüssiges Ende löst die Aufgaben, erlöst das Schloss und belohnt den Dummling.",
+   "original": "Bei Grimm sammelt der Ameisenkönig mit fünftausend Ameisen die Perlen. Die zweite Aufgabe (Schlüssel aus dem See holen) lösen die Enten, die dritte (die jüngste von drei gleich aussehenden Königstöchtern finden) die Bienenkönigin. Das Schloss wird erlöst, die Brüder werden wieder lebendig, der Dummling heiratet die jüngste Königstochter.",
+   "f": {
+    "titel": "Die Bienenkönigin",
+    "auftraege": [
+     {
+      "art": "lesen",
+      "text": "Lies: *Es war einmal ein König mit drei Söhnen. Den jüngsten nannten alle den Dummling. Die drei Brüder zogen in die Welt. Die zwei großen Brüder wollten Tieren wehtun: den Ameisen, den Enten und den Bienen. Doch der Dummling sagte jedes Mal: „Lasst die Tiere in Frieden!“ Dann kamen sie in ein verzaubertes Schloss. Ein graues Männchen zeigte ihnen eine Aufgabe: Im Wald lagen tausend Perlen im Moos. Wer sie nicht bis zum Abend fand, wurde zu Stein. Die zwei großen Brüder fanden nicht alle Perlen und wurden zu Stein. Nun musste der Dummling suchen. Er fand nur wenige Perlen. Da setzte er sich auf einen Stein und weinte.*"
+     },
+     {
+      "art": "ankreuzen",
+      "text": "Wie ist der Dummling? Kreuze an.",
+      "optionen": [
+       "gut zu den Tieren",
+       "gemein zu den Tieren"
+      ],
+      "loesung": [],
+      "ziel": "F2"
+     },
+     {
+      "art": "ankreuzen",
+      "text": "Wer könnte dem Dummling helfen? Kreuze an.",
+      "optionen": [
+       "die Ameisen",
+       "ein Auto",
+       "die Enten",
+       "die Bienen"
+      ],
+      "loesung": [],
+      "ziel": "F3"
+     },
+     {
+      "art": "schreiben",
+      "text": "Schreibe weiter und führe das Märchen zu Ende. Nutze die Satzanfänge: *Da kamen … · Bald … · Am Abend … · Zum Schluss …*",
+      "linien": 10,
+      "ziel": "F1"
+     },
+     {
+      "art": "ankreuzen",
+      "text": "Prüfe deinen Text. Kreuze an, was stimmt. Verbessere dann eine Stelle.",
+      "optionen": [
+       "Mein Text erzählt von früher (ging, sah, sprach).",
+       "Die Rede hat ihre Zeichen „ “.",
+       "Mein Märchen hat ein Ende.",
+       "Ich habe eine Stelle verbessert."
+      ],
+      "loesung": [],
+      "ziel": "F5"
+     }
+    ]
+   }
+  },
+  "V2": {
+   "maerchen": "drei-federn",
+   "anknuepfung": "Anknüpfungspunkte: Die Kröte fragt nach dem Begehren des Dummlings – er braucht den feinsten Teppich für den König. Die Kröte ist naheliegend Helferin; die Brüder lachen ihn aus und machen es sich vermutlich leicht. Ein schlüssiges Ende: Der Dummling bringt den schönsten Teppich (ggf. nach weiteren Aufgaben) und wird König; die spöttischen Brüder gehen leer aus.",
+   "original": "Bei Grimm holt die dicke Kröte einen wunderschönen Teppich aus einer großen Schachtel. Die Brüder bringen grobe Tücher von Schäferfrauen. Der König stellt noch zwei Aufgaben (den schönsten Ring, die schönste Frau); die Kröte hilft jedes Mal, eine kleine Kröte wird zur schönen Frau. Der Dummling bekommt die Krone.",
+   "f": {
+    "titel": "Die drei Federn",
+    "auftraege": [
+     {
+      "art": "lesen",
+      "text": "Lies: *Es war einmal ein alter König mit drei Söhnen. Den jüngsten nannten alle den Dummling. Der König sprach: „Wer mir den schönsten Teppich bringt, der wird nach mir König.“ Er blies drei Federn in die Luft. Die zwei großen Brüder gingen der ersten und der zweiten Feder nach. Die dritte Feder fiel gleich vor dem Schloss auf die Erde. Dort musste der Dummling bleiben, und die Brüder lachten ihn aus. Traurig setzte er sich hin. Da fand er neben der Feder eine Tür im Boden. Er stieg eine Treppe hinab und kam zu einer dicken Kröte. Die Kröte fragte: „Was wünschst du dir?“*"
+     },
+     {
+      "art": "ankreuzen",
+      "text": "Wie ist der Dummling? Kreuze an.",
+      "optionen": [
+       "traurig, weil die Brüder ihn auslachen",
+       "froh, weil er schon einen Teppich hat"
+      ],
+      "loesung": [],
+      "ziel": "F2"
+     },
+     {
+      "art": "ankreuzen",
+      "text": "Wer könnte dem Dummling helfen? Kreuze an.",
+      "optionen": [
+       "die Kröte",
+       "die großen Brüder",
+       "die kleinen Kröten"
+      ],
+      "loesung": [],
+      "ziel": "F3"
+     },
+     {
+      "art": "schreiben",
+      "text": "Schreibe weiter und führe das Märchen zu Ende. Nutze die Satzanfänge: *Der Dummling sprach: „…“ · Da … · Am nächsten Tag … · Zum Schluss …*",
+      "linien": 10,
+      "ziel": "F1"
+     },
+     {
+      "art": "ankreuzen",
+      "text": "Prüfe deinen Text. Kreuze an, was stimmt. Verbessere dann eine Stelle.",
+      "optionen": [
+       "Mein Text erzählt von früher (ging, sah, sprach).",
+       "Die Rede hat ihre Zeichen „ “.",
+       "Mein Märchen hat ein Ende.",
+       "Ich habe eine Stelle verbessert."
+      ],
+      "loesung": [],
+      "ziel": "F5"
+     }
+    ]
+   }
+  }
+ },
+ "f_ziele": [
+  {
+   "id": "F1",
+   "kind": "Meine Fortsetzung ist ein Märchen.",
+   "lehrkraft": "ein Märchenmerkmal (Zauber, Helfer-Tier, Belohnung …)",
+   "punkte": 2
+  },
+  {
+   "id": "F2",
+   "kind": "Der Dummling bleibt gut.",
+   "lehrkraft": "Rolle richtig angekreuzt und im Text beibehalten",
+   "punkte": 2
+  },
+  {
+   "id": "F3",
+   "kind": "Mein Märchen hat ein passendes Ende.",
+   "lehrkraft": "knüpft an den Anfang an und endet",
+   "punkte": 2
+  },
+  {
+   "id": "F4",
+   "kind": "Ich erzähle von früher.",
+   "lehrkraft": "überwiegend Präteritum",
+   "punkte": 2
+  },
+  {
+   "id": "F5",
+   "kind": "Ich habe meinen Text geprüft.",
+   "lehrkraft": "Prüfliste angekreuzt, eine Verbesserung sichtbar",
+   "punkte": 2
+  }
+ ],
+ "training": {
+  "1": {
+   "maerchen": "blaues-licht",
+   "muster": "Er zündete die Pfeife an dem blauen Licht an und tat einen Zug. Kaum stieg der Rauch empor, da stand ein kleines schwarzes Männlein vor ihm und sprach: „Herr, was befiehlst du?“ Der Soldat staunte und sagte: „Bring mich zuerst aus diesem Brunnen heraus.“ Das Männlein nahm ihn bei der Hand und führte ihn durch einen geheimen Gang ins Freie. Unterwegs zeigte es ihm die Schätze, die die Hexe dort versteckt hatte, und der Soldat nahm so viel Gold mit, wie er tragen konnte. Oben sprach er: „Nun sorge dafür, dass die böse Hexe niemandem mehr schadet.“ Da flog das Männlein davon, und bald darauf hörte man einen lauten Schrei im Wald. Seit diesem Tag hat niemand die Hexe wiedergesehen. Der Soldat aber kaufte sich ein kleines Haus. Er teilte sein Gold mit anderen armen Soldaten, und immer, wenn er Hilfe brauchte, zündete er seine Pfeife an dem blauen Licht an. Und wenn er nicht gestorben ist, dann lebt er noch heute.",
+   "muster_k": [
+    [
+     "K1",
+     "Zauber (das blaue Licht ruft das Männlein), Belohnung (Gold) und Bestrafung (die Hexe), Schlussformel"
+    ],
+    [
+     "K2",
+     "Der Soldat bleibt ehrlich und gut, die Hexe bleibt böse, das Männlein hilft."
+    ],
+    [
+     "K3",
+     "Problem aus dem Anfang: Der Soldat sitzt im Brunnen. Lösung: Das Männlein führt ihn heraus. Ende: Die Hexe wird bestraft, der Soldat belohnt."
+    ],
+    [
+     "K4",
+     "Präteritum (*zündete, stand, sprach, führte*), wörtliche Rede mit Zeichen, Märchenwörter (*empor, Männlein, befiehlst*)"
+    ]
+   ],
+   "andere_idee": "**Weg:** Das blaue Licht beginnt zu sprechen. · **Prüfung:** Es stellt dem Soldaten dreimal eine Rätselfrage. · **Lösung:** Er löst die Rätsel, und eine Strickleiter erscheint. · **Ende:** Er bringt das Licht zum König, der ihm nun doch seinen Lohn gibt."
+  },
+  "2": {
+   "maerchen": "zertanzte-schuhe",
+   "muster": "Der Soldat aber goss den Wein heimlich hinter das Bett. Dann legte er sich hin und schnarchte laut. Als die zwölf Königstöchter das hörten, lachten sie, zogen ihre prächtigsten Kleider an und sprangen in ihre Tanzschuhe. Die Älteste klopfte an ihr Bett, da sank es in die Erde, und eine Treppe führte hinab. Geschwind hängte der Soldat sein Mäntelchen um und schlich ihnen nach. Unten führte der Weg durch einen Wald, an dessen Bäumen silberne Blätter glänzten. Der Soldat brach einen Zweig ab, damit er später einen Beweis hätte. Bald kamen sie an einen See, wo zwölf Königssöhne in kleinen Booten warteten. Am anderen Ufer stand ein hell erleuchtetes Schloss, und dort tanzten die Prinzessinnen, bis ihre Schuhe durchgetanzt waren. Dreimal ging der Soldat mit, und beim dritten Mal nahm er einen goldenen Becher mit. Dann trat er vor den König, erzählte alles und legte den Zweig und den Becher auf den Tisch. Da gaben die Töchter alles zu. Der Soldat wählte die Älteste zur Frau, und als der alte König starb, wurde er selbst König. Und wenn sie nicht gestorben sind, dann leben sie noch heute.",
+   "muster_k": [
+    [
+     "K1",
+     "Zauber (Mäntelchen, Bett sinkt in die Erde), die Zahl 3 (dreimal), Belohnung, Schlussformel"
+    ],
+    [
+     "K2",
+     "Der Soldat folgt dem Rat der Alten und bleibt klug; die Königstöchter bleiben heimlich und listig."
+    ],
+    [
+     "K3",
+     "Problem aus dem Anfang: der Becher Wein, den der Soldat nicht trinken darf. Er gießt ihn weg, folgt den Töchtern unsichtbar und bringt Beweise. Ende: Er wird König."
+    ],
+    [
+     "K4",
+     "Präteritum (*goss, schnarchte, sank, schlich*), Märchenwörter (*geschwind, Mäntelchen, Königstöchter*)"
+    ]
+   ],
+   "andere_idee": "**Weg:** Der Soldat trinkt nicht und folgt den Töchtern unsichtbar. · **Prüfung:** Unten wartet ein Riese, der jeden Fremden riecht. · **Lösung:** Der Soldat streut Pfeffer, der Riese niest und merkt nichts. · **Ende:** Der Soldat befreit die Töchter von einem Tanz-Zauber und wird belohnt."
+  }
+ }
+}

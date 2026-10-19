@@ -11,7 +11,7 @@ Unterrichtsreihe 3 im Jahrgang 5 (Aufgabentyp 6, produktionsorientiertes Schreib
 | A | Rahmen: Zeit, Texte, Märchenbuch, Bilder | freigegeben 17.10.2026 |
 | B | Rückwärtsplanung: Etappen, Indikatoren, Weiterschreiben-Blätter, Kapazität | freigegeben 17.10.2026 |
 | C | Textauswahl und Bearbeitung der Grimm-Texte | abgeschlossen 18.10.2026; Texte gesperrt in `inhalt/texte.json` |
-| D | Freigabe der Druckpakete je Etappe | Etappe 1 freigegeben 18.10.2026 |
+| D | Freigabe der Druckpakete je Etappe | Etappe 1 freigegeben 18.10.2026, Etappe 2–5 freigegeben 19.10.2026 |
 
 ## Planung
 
@@ -27,6 +27,7 @@ Unterrichtsreihe 3 im Jahrgang 5 (Aufgabentyp 6, produktionsorientiertes Schreib
 - [Produktionsregeln](skill.md) – verbindlich für jede Materialarbeit
 - `python3 tools/build_texte.py` – alle Märchentexte als A4-Schülerfassung mit Zeilennummern und Fußnoten → `ausgabe/texte/`, Zeilenbelege in `ausgabe/texte/zeilen.json`
 - `python3 tools/build_material.py N` – Etappe N komplett, z. B. Etappe 1 → `ausgabe/etappe1/` (Input, Merkblatt, Blatt 1–2, Schülerpaket, GN1 A/B, Erwartungshorizont, Förder 1F–2F, GN1F A/B); Etappe 5 zusätzlich Checkliste K1–K5, Rückmeldekarte, Probearbeit mit Feedbackbogen und Erwartungshorizont, Probearbeit F
+- `python3 tools/build_pruefung.py` – Lernerfolgskontrolle V1/V2 mit Bewertungsseite, LEK F, Erwartungshorizont, Training 1/2 und Musterfortsetzungen → `ausgabe/abschluss/`
 - Voraussetzungen: Python 3, `playwright` (Chromium), `pymupdf`
 
 ## Materialstand
@@ -34,10 +35,12 @@ Unterrichtsreihe 3 im Jahrgang 5 (Aufgabentyp 6, produktionsorientiertes Schreib
 | Etappe | Stand |
 |---|---|
 | 1 Märchen erkennen | **freigegeben 18.10.2026** (Gate D) |
-| 2 Figuren und Rollen verstehen | erstellt 18.10.2026, Gate D offen |
-| 3 Märchen aufbauen | erstellt 18.10.2026, Gate D offen |
-| 4 Märchensprache nutzen | erstellt 18.10.2026, Gate D offen |
-| 5 Ein Märchen weiterschreiben, Probearbeit | erstellt 18.10.2026, Gate D offen (Probearbeit in einer Fassung) |
+| 2 Figuren und Rollen verstehen | **freigegeben 19.10.2026** (Gate D) |
+| 3 Märchen aufbauen | **freigegeben 19.10.2026** (Gate D) |
+| 4 Märchensprache nutzen | **freigegeben 19.10.2026** (Gate D) |
+| 5 Ein Märchen weiterschreiben, Probearbeit | **freigegeben 19.10.2026** (Gate D) (Probearbeit in einer Fassung) |
+
+| Abschluss: LEK V1/V2 (+F), Training 1/2 mit Kiosk-Muster | erstellt 19.10.2026 (`python3 tools/build_pruefung.py` → `ausgabe/abschluss/`); Punkte und Notengrenzen: Vorschlag |
 
 ## Grundlagen
 

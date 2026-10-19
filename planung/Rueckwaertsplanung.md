@@ -274,3 +274,12 @@ GN1–GN4 brauchen außer dem Anfang zum Weiterschreiben einen kurzen, unbekannt
 - Blatt 9–11 mit Wahl zwischen „Die weiße Schlange“ und „Jorinde und Joringel“; Checkliste K1–K5 und Rückmeldekarte (2 je A4) als eigene Druckseiten im Schülerpaket.
 - Probearbeit „Die goldene Gans“: Märchenanfang mit Zeilen und Fußnoten, 1 Plan, 2 Fortsetzung (44 Linien mit Rand), 3 Prüfbeleg und Checkliste; Feedbackbogen mit Übungsweg je Kriterium; Erwartungshorizont mit Stufen ✓/~ und Hinweis auf das Grimm-Original (nur Orientierung).
 - Förder: 9F–11F (eigener Kurzanfang „Zauberbrunnen“), Probearbeit F mit vereinfachtem Anfang und Satzanfängen.
+
+## 10d Abschluss: Lernerfolgskontrolle und Training (19.10.2026)
+
+- Gate D: Etappe 2–5 freigegeben (C, 19.10.2026).
+- **LEK V1 „Die Bienenkönigin“ / V2 „Die drei Federn“:** gleicher Aufbau wie die Probearbeit (Märchenanfang mit Zeilen und Fußnoten; 1 Plan, 2 Fortsetzung auf 44 Linien mit Rand, 3 Prüfbeleg und Checkliste). Kopf mit Termin (früh/spät) und Arbeitszeit 45 Minuten; keine Hilfen.
+- **Bewertungsseite** K1–K5 (✓/~/…) mit Punkten – **Vorschlag**: K1 4 · K2 4 · K3 6 · K4 4 · K5 2 = 20 Punkte; Notengrenzen offen (Festlegung C/Fachkonferenz). Plan fließt in K3 ein; K5 bewertet Prüfbeleg und Verbesserungen, nicht die Fehlerzahl.
+- **LEK F V1/V2:** vereinfachter Anfang, Rolle ankreuzen, Helfer-Idee, Fortsetzung mit Satzanfängen, Prüfliste; F1–F5 je 2 Punkte (Vorschlag, zieldifferent nach Förderplan).
+- **Erwartungshorizont** für beide Varianten mit Anknüpfungspunkten und Grimm-Original (nur Orientierung).
+- **Training 1 „Das blaue Licht“, Training 2 „Die zertanzten Schuhe“:** Auftrag wie LEK, aber mit Merkblatt 5, Checkliste und Märchenkarten; Schreiben ins Heft. Kiosk-Blatt je Training: eine Musterfortsetzung, Zuordnung zu K1–K4 und „eine ganz andere Idee“ in Stichworten (nie ein Mustertext als einzige Lösung).
