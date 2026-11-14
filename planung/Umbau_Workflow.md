@@ -1,6 +1,6 @@
 # Workflow: Umbau der Reihe „Märchen“ (Fassung 2)
 
-Stand: 14.11.2026 · Grundlage: Entscheidungen von C vom 14.11.2026 · noch kein Material umgebaut
+Stand: 14.11.2026 · Grundlage: Entscheidungen von C vom 14.11.2026 (inkl. Zeit- und Raummodell) · noch kein Material umgebaut
 
 ## Ausgangslage und Ziel
 
@@ -22,6 +22,32 @@ Stand: 14.11.2026 · Grundlage: Entscheidungen von C vom 14.11.2026 · noch kein
 
 **Umfangsziel:** etwa halb so viele Seiten je Kind wie in Fassung 1. Geplant sind 4 Etappen mit je einem Tandemblatt und einem Einzelblatt (8 Pflichtblätter). Statt 5 Merkblättern à 3 Seiten gibt es 6 einseitige Strategiekarten.
 
+## Zeit- und Raummodell (Angaben C, 14.11.2026)
+
+Pro Woche gibt es drei Doppelstunden. Sie sind Lernzeit, solange sich am Stundenplan nichts ändert.
+
+| Doppelstunde | Rahmen | Nutzung |
+|---|---|---|
+| **A · Deutsch, Doppelbesetzung** (ggf. Flur) | eine Klasse, zwei Lehrkräfte | **Wocheninput** (höchstens 10 Min.), danach Lernweg im eigenen Tempo. Lehrkraft 1 begleitet Lernweg und Gelingensnachweise; Lehrkraft 2 betreut die Förderinsel (F-Pakete, lautes Lesen). Im Flur wird gemeinsam gearbeitet. |
+| **B · Deutsch mit der Parallelklasse** | zwei Klassen, Flur, verschiedene Raumsettings | Lernlandschaft mit drei Zonen: **Stillraum** (Einzelblatt, Gelingensnachweis), **Denkraum** (gemeinsame Aufgaben, Kiosk), **Flur** (Lesen und Planen zu zweit). Gemeinsam arbeiten ist klassenübergreifend erlaubt, weil das Material jahrgangsweit gleich ist. |
+| **C · Sprache, zwei Räume, zwei Lehrkräfte** | feste Lesetandems aus Sprache | **Lesestrang:** Die Tandems lesen das Märchen der Woche mit der Strategie aus dem Wocheninput (Lesebogen mit Stopp-Stellen). |
+
+**Zwei Stränge statt eines Taktes:**
+
+- **Lesestrang** (Doppelstunde C, feste Tandems aus Sprache, wöchentlich gemeinsam):
+  - W1 Frau Holle
+  - W2 Rumpelstilzchen
+  - W3 Jorinde und Joringel
+  - W4 Anfang „Die weiße Schlange“
+  - W5/W6 ein freies Märchen oder ein Trainingsanfang zum Vorlesen und Vorhersagen
+
+  Alle lesen denselben Text zur selben Zeit. So gibt es keinen Tempokonflikt.
+- **Lernweg** (Doppelstunden A und B, eigenes Tempo): Die Etappen bauen auf dem gelesenen Märchen auf.
+  - **Gemeinsame Aufgaben** macht jedes Kind mit einem Partner, der an derselben Stelle ist. Das kann auch jemand außerhalb des Lesetandems sein, auch aus der Parallelklasse. Gefunden wird der Partner über die **Mitdenk-Tafel**.
+  - Einzelblatt und Gelingensnachweis macht jedes Kind allein.
+  - Wer im Lernweg schneller ist als der Lesestrang, liest den Text mit einem Partner von der Mitdenk-Tafel vor.
+- **Ideale Wochenreihenfolge:** erst Input (A), dann Lesen (C), dann Lernweg (A/B). Weil die Stundenpläne der Klassen verschieden sind, darf C auch vor A liegen. Dann gilt beim Lesen die Strategie der Vorwoche.
+
 ## Phasen und Freigabepunkte
 
 ```
@@ -38,7 +64,7 @@ Vor dem Umbau wird Fassung 1 im Repo mit dem Git-Tag `fassung-1` gesichert. Ihre
 | Nr. | Frage | Vorschlag |
 |---|---|---|
 | U0.1 | 4 oder 5 Etappen | 4 Etappen: Etappe 2 „Figuren“ und Etappe 3 „Aufbau“ der Fassung 1 werden zusammengelegt |
-| U0.2 | Tandembildung | Tandem-Tafel als Standard (Partner an derselben Stelle), feste Sprach-Tandems wo möglich |
+| U0.2 | Tandembildung | **entschieden 14.11.:** Lesen in den festen Tandems aus Sprache (Lesestrang); gemeinsames Bearbeiten von Aufgaben auch mit anderen Partnern (Mitdenk-Tafel, auch klassenübergreifend) |
 | U0.3 | Überblick für die Lehrkraft | Klassenübersicht „Wer steht wo?“ als Druckliste oder App, entscheidet C |
 | U0.4 | Probearbeit | Probearbeit ist der Nachweis von Etappe 4 (eine Fassung, wie entschieden) |
 | U0.5 | Wahlzeit | nur P1 Märchenbuch und P2 Vorlesen, P3 Umformen entfällt |
@@ -79,10 +105,11 @@ Grundsatz bleibt: Jeder Inhalt steht in genau einer Quelle (JSON), alles andere 
 |---|---|
 | `inhalt/inputs/wN.json` (neu) | Wocheninput: Strategie (Name, Symbol, drei Schritte), Märchenausschnitt mit Denkblasen der Lehrkraft, Tandemauftrag, Merksatz |
 | `tools/build_input.py` (neu) | aus einer Quelle: Input-HTML mit höchstens 4 Folien (Denkblasen erscheinen Klick für Klick), **Strategiekarte** (1 Seite, gleicher Text), **Lehrkraft-Skript** zum lauten Denken |
-| `inhalt/etappeN.json` | neues Schema: `tandem` (Tandemblatt mit gemeinsamem Ergebnis), `einzel` (Einzelblatt mit Sprachteil und Schreibauftrag), `vertiefung` (nur einmal pro Etappe), `nachweis` A/B, `foerder`. `abschnitte` und `sprachdetektiv` entfallen |
+| `inhalt/lesestrang.json` (neu) | Märchen der Woche W1–W6 mit Stopp-Stellen und Fragen zur Strategie; daraus Lesebogen für die Sprachdoppelstunde |
+| `inhalt/etappeN.json` | neues Schema: `gemeinsam` (Aufgabe für zwei mit gemeinsamem Ergebnis, Partner frei wählbar), `einzel` (Einzelblatt mit Sprachteil und Schreibauftrag), `vertiefung` (nur einmal pro Etappe), `nachweis` A/B, `foerder`. `abschnitte` und `sprachdetektiv` entfallen |
 | `tools/build_texte.py` | Stopp-Zeichen im Märchentext (Markup `{STOPP:n}`) für die Tandemfassung, Zeilennummern bleiben |
 | `tools/build_material.py` | Merkblatt- und Input-Teil entfällt (kommt aus `build_input.py`); Tandemblatt und Einzelblatt als Bausteine; Förder- und Nachweisteile bleiben |
-| neue Druckstücke | Lernweg 2 (4 Schritte je Etappe, Symbole, Wochenziele), Tandem-Tafel (Plakat A3), Satzstarter-Karte „Laut denken im Tandem“, gegebenenfalls Klassenübersicht |
+| neue Druckstücke | Lernweg 2 (4 Schritte je Etappe, Symbole, Wochenziele), **Lesebogen** pro Woche für den Lesestrang (Stopp-Stellen, Strategie), Mitdenk-Tafel (Plakat A3), Zonenschilder Stillraum/Denkraum/Flur, Satzstarter-Karte „Laut denken“, gegebenenfalls Klassenübersicht |
 | Prüfungen | Strategiekarte = Input (Textgleichheit), Strategiekarte genau 1 Seite, Tandem- und Einzelblatt je höchstens 2 Seiten, mindestens 14 pt, jede Stopp-Stelle hat eine Frage im Tandemblatt, alle Verweise auf Blätter und Strategiekarten lösen auf |
 
 **Ergebnis:** Generator mit Testdaten. Noch keine Freigabe nötig, erst das Ergebnis aus U3 wird angeschaut.
