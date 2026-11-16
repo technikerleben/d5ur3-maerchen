@@ -4,3 +4,4 @@ extern/
 __pycache__/
 ausgabe/f2/etappe*/Etappenpaket_*
 ausgabe/f2/*.zip
+ausgabe/f2/Gesamtpaket_*

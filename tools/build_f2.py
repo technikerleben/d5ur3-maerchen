@@ -6,7 +6,7 @@
     python3 tools/build_f2.py lesestrang 1  Lesebogen W1
     python3 tools/build_f2.py lerntheke     Strategiekarten (A5 quer)
     python3 tools/build_f2.py raum          Plakat „Wo stehe ich?“, Zonenschilder, Satzstarter, Lernweg
-    python3 tools/build_f2.py druck         Druckanleitung und ZIP-Druckpaket
+    python3 tools/build_f2.py druck         ein Gesamt-PDF: Druckanleitung (mit Seitenangaben) + alle Druckteile
     python3 tools/build_f2.py alles         alles, was es schon gibt
 
 Ausgabe: ausgabe/f2/…  · Material der Kollegin liegt (nicht im Repo) in extern/ und wird nur eingelegt.
@@ -487,15 +487,19 @@ DRUCK_EXTERN = ["Merkblatt Märchenmerkmale (Kollegin) – Lerntheke, A5", "Merk
                 "Verbliste und Rechtschreib-Check (Kollegin) – folgen"]
 
 
-def druckanleitung_html(inv: list[tuple]) -> str:
-    rows = "".join("<tr><td style='word-break:break-all'>%s<br><b>%s</b></td><td>%s</td><td style='text-align:right'>%s</td><td>%s</td><td>%s</td></tr>" % (
-        esc(o), esc(Path(d).name), esc(f), s, esc(a), esc(h)) for o, d, f, a, h, s in inv)
+def druckanleitung_html(inv: list[tuple], start: int = 1) -> str:
+    rows, seite = [], start
+    for o, d, f, a, h, s in inv:
+        rows.append("<tr><td style='text-align:center'><b>%s</b></td><td style='word-break:break-all'>%s<br><b>%s</b></td><td>%s</td><td>%s</td><td>%s</td></tr>" % (
+            "%d–%d" % (seite, seite + s - 1) if s > 1 else str(seite), esc(o), esc(Path(d).name), esc(f), esc(a), esc(h)))
+        seite += s
+    rows = "".join(rows)
     return doc(GN_CSS + "body{font-size:12.5pt}table{font-size:12.5pt}td,th{padding:1.4mm 2mm}", (
         "<div class=meta>Lehrkraft · Fassung 2 · Muster Etappe 1</div><h1>Druckanleitung</h1>"
         "<div class=hinweis><b>So druckst du:</b> Etappenpakete und Förderpakete sind A4 gesetzt und werden <b>auf A5 verkleinert</b> gedruckt "
-        "(2 Seiten pro Blatt, beidseitig, Buchbindung oder Heftung). Nachweise, Lernweg, Lesebogen und Lehrkraft-Seiten in <b>A4-Originalgröße</b>. "
+        "(2 Seiten pro Blatt, beidseitig, Buchbindung oder Heftung). Drucke dafür nur die angegebenen <b>Seiten im PDF</b>. Nachweise, Lernweg, Lesebogen und Lehrkraft-Seiten in <b>A4-Originalgröße</b>. "
         "Karten und Schilder laminieren. Alles ist für Graustufen gemacht.</div>"
-        "<table style='table-layout:fixed'><tr><th style='width:52mm'>Ordner · Datei</th><th style='width:36mm'>Format</th><th style='width:16mm'>Seiten</th><th style='width:24mm'>Anzahl</th><th>Hinweis</th></tr>%s</table>"
+        "<table style='table-layout:fixed'><tr><th style='width:20mm'>Seiten im PDF</th><th style='width:48mm'>Teil</th><th style='width:34mm'>Format</th><th style='width:24mm'>Anzahl</th><th>Hinweis</th></tr>%s</table>"
         "<h2 style='font-size:16pt;margin:4mm 0 1.5mm'>Digital</h2><p>%s</p>"
         "<h2 style='font-size:16pt;margin:4mm 0 1.5mm'>Vom Material der Kollegin (nicht im Paket, von ihren Originalen drucken)</h2><ul style='margin-left:6mm'>%s</ul>"
         "<h2 style='font-size:16pt;margin:4mm 0 1.5mm'>Vorbereitung im Raum</h2><ul style='margin-left:6mm'>"
@@ -518,15 +522,21 @@ def bau_druck(b: Bau):
     if fehlt:
         b.fehler.append("Druckpaket: fehlt " + ", ".join(fehlt))
         return
-    anl = b.mach(druckanleitung_html(inv), AUS / "Druckanleitung_F2_A4.pdf", "Druckanleitung", 12)
-    zp = AUS / "Druckpaket_F2_Etappe1.zip"
-    with zipfile.ZipFile(zp, "w", zipfile.ZIP_DEFLATED) as z:
-        z.write(anl, "0_Druckanleitung_F2_A4.pdf")
-        for o, d, *_ in inv:
-            z.write(AUS / d, f"{o}/{Path(d).name}")
-        for o, d, _ in DRUCK_DIGITAL:
-            z.write(AUS / d, f"{o}/{Path(d).name}")
-    b.bericht.append("%-40s %d Dateien, %.1f MB" % (zp.name, len(inv) + len(DRUCK_DIGITAL) + 1, zp.stat().st_size / 1e6))
+    anl = AUS / "Druckanleitung_F2_A4.pdf"
+    n_anl = 0
+    for _ in range(3):  # Seitenzahlen hängen von der Länge der Anleitung ab
+        b.mach(druckanleitung_html(inv, n_anl + 1), anl, "Druckanleitung", 12)
+        neu = len(fitz.open(anl))
+        if neu == n_anl:
+            break
+        n_anl = neu
+        b.bericht.pop()
+    gesamt = AUS / "Gesamtpaket_F2_Etappe1.pdf"
+    s = verbinde([anl] + [AUS / d for _, d, *_ in inv], gesamt)
+    soll = n_anl + sum(x[5] for x in inv)
+    if s != soll:
+        b.fehler.append("Gesamt-PDF: %d Seiten statt %d" % (s, soll))
+    b.bericht.append("%-40s %d S. (Anleitung %d S. + %d Teile), %.1f MB" % (gesamt.name, s, n_anl, len(inv), gesamt.stat().st_size / 1e6))
 
 
 def main(argv: list[str]) -> int:
