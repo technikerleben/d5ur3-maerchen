@@ -6,6 +6,7 @@
     python3 tools/build_f2.py lesestrang 1  Lesebogen W1
     python3 tools/build_f2.py lerntheke     Strategiekarten (A5 quer)
     python3 tools/build_f2.py raum          Plakat „Wo stehe ich?“, Zonenschilder, Satzstarter, Lernweg
+    python3 tools/build_f2.py druck         Druckanleitung und ZIP-Druckpaket
     python3 tools/build_f2.py alles         alles, was es schon gibt
 
 Ausgabe: ausgabe/f2/…  · Material der Kollegin liegt (nicht im Repo) in extern/ und wird nur eingelegt.
@@ -462,6 +463,72 @@ def bau_raum(b: Bau):
     b.mach(lernweg_html(), AUS / "raum" / "Lernweg_F2_A4.pdf", "Lernweg", 12, 1)
 
 
+# ------------------------------------------------------------ Druckpaket mit Druckanleitung
+# (Ordner im ZIP, Datei relativ zu ausgabe/f2, Format, Anzahl, Hinweis)
+DRUCK = [
+    ("1_Kinder", "raum/Lernweg_F2_A4.pdf", "A4, einseitig", "je Kind 1", "zu Beginn der Reihe; bleibt in der Mappe"),
+    ("1_Kinder", "etappe1/Etappenpaket_1_A4.pdf", "A4 → A5 verkleinert, beidseitig, geheftet", "je Kind 1",
+     "Reihenfolge: Deckblatt, „Frau Holle“, zu zweit, Quiz, allein. Das Quiz der Kollegin hat zwei Exemplare auf einer Seite: halbieren, je Kind eine Hälfte."),
+    ("2_Nachweise", "etappe1/GN1_A_A4.pdf", "A4, beidseitig", "je Kind 1", "erst ausgeben, wenn das Kind die Schritte im Paket geschafft hat"),
+    ("2_Nachweise", "etappe1/GN1_B_A4.pdf", "A4, beidseitig", "etwa ⅓ der Kinder", "Wiederholung nach dem Üben"),
+    ("3_Foerder", "etappe1/foerder/Foerderpaket_1_A4.pdf", "A4 → A5 verkleinert, beidseitig", "je F-Kind 1", "Lösungsstreifen unten am Blatt umknicken"),
+    ("3_Foerder", "etappe1/foerder/GN1F_A_A4.pdf", "A4, beidseitig", "je F-Kind 1", ""),
+    ("3_Foerder", "etappe1/foerder/GN1F_B_A4.pdf", "A4, beidseitig", "nach Bedarf", ""),
+    ("4_Lesestrang", "lesestrang/Lesebogen_W1_A4.pdf", "A4, einseitig", "je Lesetandem 1", "Sprach-Doppelstunde in Woche 1; „Frau Holle“ liegt im Etappenpaket"),
+    ("5_Lerntheke", "lerntheke/Strategiekarten_alle_A5.pdf", "A5 quer, einseitig, laminieren", "2–3 Sätze je Raum", "neben die Merkblätter der Kollegin (Märchenmerkmale, Spannungsbogen) legen"),
+    ("6_Raum", "raum/Plakat_Wo_stehe_ich_A3.pdf", "A3 quer (oder 2 × A4 zusammenkleben)", "je Raum 1", "Wäscheklammern mit Namen; Klassenübersicht und Partnersuche zugleich"),
+    ("6_Raum", "raum/Zonenschilder_A4quer.pdf", "A4 quer, einseitig, laminieren", "je Raum 1 Satz", "Stillraum · Denkraum · Flur"),
+    ("6_Raum", "raum/Karte_Laut_denken_A5.pdf", "A5 quer, laminieren", "je Tisch 1", ""),
+    ("7_Lehrkraft", "etappe1/GN1_Erwartungshorizont_A4.pdf", "A4", "1", ""),
+    ("7_Lehrkraft", "inputs/Skript_W1_A4.pdf", "A4", "1", "Input W1 (höchstens 10 Minuten) in der ersten Deutsch-Doppelstunde"),
+]
+DRUCK_DIGITAL = [("8_Digital", "inputs/Input_W1.html", "Beamer (im Browser öffnen, F = Vollbild, Klick = nächster Gedanke)")]
+DRUCK_EXTERN = ["Merkblatt Märchenmerkmale (Kollegin) – Lerntheke, A5", "Merkblatt Märchen-Spannungsbogen (Kollegin) – ab Etappe 2",
+                "Verbliste und Rechtschreib-Check (Kollegin) – folgen"]
+
+
+def druckanleitung_html(inv: list[tuple]) -> str:
+    rows = "".join("<tr><td style='word-break:break-all'>%s<br><b>%s</b></td><td>%s</td><td style='text-align:right'>%s</td><td>%s</td><td>%s</td></tr>" % (
+        esc(o), esc(Path(d).name), esc(f), s, esc(a), esc(h)) for o, d, f, a, h, s in inv)
+    return doc(GN_CSS + "body{font-size:12.5pt}table{font-size:12.5pt}td,th{padding:1.4mm 2mm}", (
+        "<div class=meta>Lehrkraft · Fassung 2 · Muster Etappe 1</div><h1>Druckanleitung</h1>"
+        "<div class=hinweis><b>So druckst du:</b> Etappenpakete und Förderpakete sind A4 gesetzt und werden <b>auf A5 verkleinert</b> gedruckt "
+        "(2 Seiten pro Blatt, beidseitig, Buchbindung oder Heftung). Nachweise, Lernweg, Lesebogen und Lehrkraft-Seiten in <b>A4-Originalgröße</b>. "
+        "Karten und Schilder laminieren. Alles ist für Graustufen gemacht.</div>"
+        "<table style='table-layout:fixed'><tr><th style='width:52mm'>Ordner · Datei</th><th style='width:36mm'>Format</th><th style='width:16mm'>Seiten</th><th style='width:24mm'>Anzahl</th><th>Hinweis</th></tr>%s</table>"
+        "<h2 style='font-size:16pt;margin:4mm 0 1.5mm'>Digital</h2><p>%s</p>"
+        "<h2 style='font-size:16pt;margin:4mm 0 1.5mm'>Vom Material der Kollegin (nicht im Paket, von ihren Originalen drucken)</h2><ul style='margin-left:6mm'>%s</ul>"
+        "<h2 style='font-size:16pt;margin:4mm 0 1.5mm'>Vorbereitung im Raum</h2><ul style='margin-left:6mm'>"
+        "<li>Plakat aufhängen, Klammern mit Namen beschriften (Klammer startet bei „Start“).</li>"
+        "<li>Lerntheke: Merkblätter der Kollegin und Strategiekarten auslegen.</li>"
+        "<li>Zonenschilder an Stillraum, Denkraum und Flur; Karte „Laut denken“ auf die Tische.</li>"
+        "<li>Gelingensnachweise GN1 A/B bei der Lehrkraft bereithalten, nicht ins Paket.</li></ul>")
+        % (rows, "<br>".join("<b>%s</b>: %s" % (esc(Path(d).name), esc(h)) for _, d, h in DRUCK_DIGITAL), "".join("<li>%s</li>" % esc(x) for x in DRUCK_EXTERN)))
+
+
+def bau_druck(b: Bau):
+    import zipfile
+    inv, fehlt = [], []
+    for o, d, f, a, h in DRUCK:
+        p = AUS / d
+        if not p.exists():
+            fehlt.append(d)
+            continue
+        inv.append((o, d, f, a, h, len(fitz.open(p))))
+    if fehlt:
+        b.fehler.append("Druckpaket: fehlt " + ", ".join(fehlt))
+        return
+    anl = b.mach(druckanleitung_html(inv), AUS / "Druckanleitung_F2_A4.pdf", "Druckanleitung", 12)
+    zp = AUS / "Druckpaket_F2_Etappe1.zip"
+    with zipfile.ZipFile(zp, "w", zipfile.ZIP_DEFLATED) as z:
+        z.write(anl, "0_Druckanleitung_F2_A4.pdf")
+        for o, d, *_ in inv:
+            z.write(AUS / d, f"{o}/{Path(d).name}")
+        for o, d, _ in DRUCK_DIGITAL:
+            z.write(AUS / d, f"{o}/{Path(d).name}")
+    b.bericht.append("%-40s %d Dateien, %.1f MB" % (zp.name, len(inv) + len(DRUCK_DIGITAL) + 1, zp.stat().st_size / 1e6))
+
+
 def main(argv: list[str]) -> int:
     was = argv[0] if argv else "alles"
     b = Bau()
@@ -479,6 +546,8 @@ def main(argv: list[str]) -> int:
         bau_lerntheke(b)
     if was in ("raum", "alles"):
         bau_raum(b)
+    if was in ("druck", "alles"):
+        bau_druck(b)
     return b.ende()
 
 
