@@ -21,6 +21,7 @@ Unterrichtsreihe 3 im Jahrgang 5 (Aufgabentyp 6, produktionsorientiertes Schreib
 - [Texte](texte/) – neun bearbeitete Grimm-Texte und zwölf eigene Anfänge (gesperrt; maschinenlesbar: `inhalt/texte.json`)
 - [Bildstil und Bildliste](planung/Bildstil.md) – Stil für KI-Bilder, zehn Motive mit Einsatzort
 - [Umbau-Workflow Fassung 2](planung/Umbau_Workflow.md) – Phasen U0–U6 für die verschlankte Reihe mit Tandems und Wocheninputs (geplant 14.11.2026)
+- [Rückwärtsplanung Fassung 2 (Entwurf)](planung/Rueckwaertsplanung_F2.md) – 4 Etappen, Arbeit 3 als Ziel, J-W-A-D-D-A-A, Lesestrang
 - [Rückwärtsplanung](planung/Rueckwaertsplanung.md) – fünf Etappen, Indikatoren E1.1–E5.5, Pflichtkern Blatt 1–11, Kapazität, Sprachspur, Textbedarf
 
 ## Technik (Phase 4)

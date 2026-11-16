@@ -100,7 +100,8 @@ Vor dem Umbau wird Fassung 1 im Repo mit dem Git-Tag `fassung-1` gesichert. Ihre
 | U0.3 | Überblick für die Lehrkraft | **entschieden 16.11.:** Klassenübersicht als **Plakat im Raum** |
 | U0.4 | Probearbeit | Probearbeit ist der Nachweis von Etappe 4 (eine Fassung, wie entschieden) |
 | U0.5 | Wahlzeit | nur P1 Märchenbuch und P2 Vorlesen, P3 Umformen entfällt |
-| U0.6 | Bewertung der Lernerfolgskontrolle | bleibt unverändert: K1–K6, je 0–4 Punkte, Gewichtung, Notengrenzen |
+| U0.6 | Lernerfolgskontrolle | **entschieden 16.11.:** Arbeit 3 der Kollegin (Termin 1/2) mit ihrem Feedbackbogen (100 Punkte) wird übernommen; Notengrenzen bleiben |
+| U0.7 | Bauplan | **entschieden 16.11.:** J-W-A-D-D-A-A (Märchen-Spannungsbogen der Kollegin); die Kinder lernen ihn in der Reihe kennen |
 
 **Ergebnis:** Die Entscheidungen werden in `Projektgrundlage.md` eingetragen.
 
@@ -127,7 +128,7 @@ Ziel ist das Gerüst, noch ohne Material.
 6. **Kapazität:** rund 30 Einheiten Lernzeit. Etwa eine Einheit pro Woche geht für den Input ab. Danach wird geprüft, ob ein mittleres Kind die Etappen im Richtwert schafft, mit Puffer für die Langsamen. Gemessen wird in Minuten pro Blatt, nicht in Seiten.
 7. **Was bleibt, was ändert sich, was entfällt:** eine Liste für jede Datei aus Fassung 1.
 
-**Ergebnis:** `Rueckwaertsplanung.md`, Abschnitt „Fassung 2“, Freigabe durch C.
+**Ergebnis:** [`Rueckwaertsplanung_F2.md`](Rueckwaertsplanung_F2.md) (Entwurf 16.11.2026), Freigabe durch C.
 
 ### U2 · Technik
 
