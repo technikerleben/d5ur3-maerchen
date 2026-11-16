@@ -34,6 +34,7 @@ Unterrichtsreihe 3 im Jahrgang 5 (Aufgabentyp 6, produktionsorientiertes Schreib
 - `python3 tools/build_kiosk.py` – Kontroll-Kiosk aus `inhalt/kiosk.json` (Zeilenangaben automatisch), prüft alle Ansichten im Browser
 - `python3 tools/build_auswertung.py` – Auswertungs-App der LEK aus `inhalt/pruefung.json` (Vorlage `tools/vorlagen/auswertung_lek.html`), mit Rechenprüfung
 - `python3 tools/build_pakete.py` – Druckpakete (Schüler, Nachweise, Förder, Lehrkraft, Digital) und Druckplan W1–W6
+- `python3 tools/build_f2.py alles` – **Fassung 2** (Umbau 11/2026): Etappenpakete, Wocheninputs, Lesebögen, Strategiekarten, Plakat, Lernweg → `ausgabe/f2/`; Material der Kollegin lokal in `extern/` (nicht im Repo)
 - Voraussetzungen: Python 3, `playwright` (Chromium), `pymupdf`
 
 ## Materialstand

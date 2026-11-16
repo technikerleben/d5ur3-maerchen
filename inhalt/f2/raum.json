@@ -1,0 +1,97 @@
+{
+ "etappen": [
+  {
+   "n": 1,
+   "titel": "Märchen erkennen",
+   "woche": "Woche 1"
+  },
+  {
+   "n": 2,
+   "titel": "Der Spannungsbogen",
+   "woche": "Woche 2"
+  },
+  {
+   "n": 3,
+   "titel": "Anschaulich erzählen",
+   "woche": "Woche 3"
+  },
+  {
+   "n": 4,
+   "titel": "Ein Märchen zu Ende schreiben",
+   "woche": "Woche 4–5"
+  }
+ ],
+ "lesestrang": [
+  [
+   "W1",
+   "Frau Holle"
+  ],
+  [
+   "W2",
+   "Rumpelstilzchen"
+  ],
+  [
+   "W3",
+   "Jorinde und Joringel"
+  ],
+  [
+   "W4",
+   "Die weiße Schlange"
+  ],
+  [
+   "W5",
+   "Das blaue Licht"
+  ],
+  [
+   "W6",
+   "Die zertanzten Schuhe"
+  ]
+ ],
+ "ziel": "Ich kann ein Märchen spannend zu Ende schreiben.",
+ "zonen": [
+  {
+   "name": "Stillraum",
+   "symbol": "eins",
+   "text": "Hier arbeitest du allein und leise.",
+   "was": "Einzelblatt · Gelingensnachweis · Probearbeit"
+  },
+  {
+   "name": "Denkraum",
+   "symbol": "zwei",
+   "text": "Hier arbeitet ihr zu zweit. Sprecht mit Flüsterstimme.",
+   "was": "gemeinsame Aufgaben · Lerntheke · Kiosk"
+  },
+  {
+   "name": "Flur",
+   "symbol": "lesen",
+   "text": "Hier lest und plant ihr zu zweit.",
+   "was": "Lesen im Tandem · gemeinsam planen"
+  }
+ ],
+ "satzstarter": [
+  [
+   "Vermuten",
+   "Ich vermute …, weil im Text steht …."
+  ],
+  [
+   "Begründen",
+   "Das ist das Merkmal …, weil …."
+  ],
+  [
+   "Fragen",
+   "Ich frage mich, warum …."
+  ],
+  [
+   "Zustimmen",
+   "Stimmt, und außerdem …."
+  ],
+  [
+   "Widersprechen",
+   "Ich sehe das anders: …."
+  ],
+  [
+   "Nachschauen",
+   "Lass uns nachschauen – in Zeile … steht …."
+  ]
+ ]
+}

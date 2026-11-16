@@ -128,7 +128,7 @@ Ziel ist das Gerüst, noch ohne Material.
 6. **Kapazität:** rund 30 Einheiten Lernzeit. Etwa eine Einheit pro Woche geht für den Input ab. Danach wird geprüft, ob ein mittleres Kind die Etappen im Richtwert schafft, mit Puffer für die Langsamen. Gemessen wird in Minuten pro Blatt, nicht in Seiten.
 7. **Was bleibt, was ändert sich, was entfällt:** eine Liste für jede Datei aus Fassung 1.
 
-**Ergebnis:** [`Rueckwaertsplanung_F2.md`](Rueckwaertsplanung_F2.md) (Entwurf 16.11.2026), Freigabe durch C.
+**Ergebnis:** [`Rueckwaertsplanung_F2.md`](Rueckwaertsplanung_F2.md) – **freigegeben 16.11.2026** (Gate U1). Zusatzpunkte gleichen fehlende Punkte aus, für die Note zählen höchstens 100; Probearbeit ab W4 freigegeben, sobald GN3 geschafft ist; Termin 1 der Arbeit spät in W6 (vorläufig).
 
 ### U2 · Technik
 
@@ -209,3 +209,19 @@ Spätester sinnvoller Abschluss: rund zwei Wochen vor Reihenbeginn (Anfang Dezem
 - Alles Material ist für Kinder geschrieben: kurz, konkret, ein Auftrag pro Kasten.
 - Zusammenarbeit heißt immer: derselbe Text, ein gemeinsames Ergebnis, und jedes Kind kann es erklären. Nachweise sind immer Einzelarbeit.
 - Inputs: höchstens 4 Folien, höchstens 10 Minuten, eine Strategie, lautes Denken am Märchentext.
+
+## Stand (16.11.2026)
+
+| Phase | Stand |
+|---|---|
+| U0 Entscheidungen | erledigt 14./16.11.2026 |
+| U1 Rückwärtsplanung F2 | freigegeben 16.11.2026 |
+| U2 Technik | `tools/build_f2.py` gebaut: Etappenpaket, Wocheninput mit Klick-Denkblasen und Skript, Lesebogen, Strategiekarten A5, Plakat „Wo stehe ich?“ (A3, zugleich Mitdenk-Tafel), Zonenschilder, Karte „Laut denken“, Lernweg F2. Prüfungen: mind. 14 pt, Seitenzahlen, keine überlaufenden Folien (1280×800, 1024×768), jede Strategie hat eine Karte. Fassung 1 liegt in `archiv/fassung1/` (der Git-Tag `fassung-1` existiert nur lokal, Hochladen vom Proxy abgelehnt). |
+| U3 Muster Etappe 1 | gebaut 16.11.2026 → **Gate D1 offen** (Prüfung durch C) |
+
+Hinweise zum Muster:
+
+- **Klassenübersicht und Mitdenk-Tafel** sind ein Plakat: Die Klammern zeigen der Lehrkraft, wer wo steht, und den Kindern, wer als Partner in Frage kommt.
+- **Quiz Märchenmerkmale:** Die Vorlage der Kollegin hat zwei Quiz auf einem Blatt, also reicht ein Blatt für ein Paar. Im Paket liegt sie zwischen „zu zweit“ und „allein“.
+- **Wocheninput W1:** Der Übungstext „Das Schneiderlein“ ist selbst verfasst. Er ist bewusst nicht „Frau Holle“, damit der Input nichts vom gemeinsamen Blatt vorwegnimmt.
+- **Lösungen für den Kiosk** stehen schon in `inhalt/f2/etappe1.json` unter dem Schlüssel `kiosk`. Der Kiosk selbst wird in U5 neu gebaut.

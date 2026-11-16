@@ -1,0 +1,44 @@
+{
+ "_hinweis": "Strategiekarten für die Lerntheke (A5 quer). Symbol erscheint auch an den Aufgaben.",
+ "karten": [
+  {
+   "id": "merkmale",
+   "symbol": "stern",
+   "titel": "Märchenmerkmale finden",
+   "wann": "wenn du prüfen willst, ob ein Text ein Märchen ist – und wenn du selbst schreibst",
+   "schritte": [
+    "Lies einen Abschnitt.",
+    "Frag dich: Was ist hier märchenhaft? Was gibt es in Wirklichkeit nicht?",
+    "Schau auf das Merkblatt Märchenmerkmale: Wie heißt das Merkmal?",
+    "Schreib auf: Merkmal – Beispiel – Zeile."
+   ],
+   "laut": "„Hier steht …. Das ist das Merkmal …, weil ….“"
+  },
+  {
+   "id": "vorhersagen",
+   "symbol": "fernglas",
+   "titel": "Vorhersagen",
+   "wann": "beim Lesen an einem Stopp – und bevor du ein Märchen weiterschreibst",
+   "schritte": [
+    "Lies bis zum Stopp.",
+    "Sag, was du vermutest, und begründe es mit dem Text.",
+    "Lies weiter und prüfe: Stimmt es? Was war anders?"
+   ],
+   "laut": "„Ich vermute …, weil im Text steht ….“",
+   "tipp": "Märchen helfen beim Vermuten: Wer gut ist, wird belohnt. Vieles passiert dreimal."
+  },
+  {
+   "id": "woerter",
+   "symbol": "buch",
+   "titel": "Schwierige Wörter klären",
+   "wann": "wenn du ein Wort nicht verstehst",
+   "schritte": [
+    "Schau, ob unten auf der Seite eine Erklärung steht.",
+    "Lies den Satz davor und danach: Was könnte das Wort heißen?",
+    "Frag dein Tandem oder deinen Partner.",
+    "Noch unklar? Schlag nach oder frag die Lehrkraft."
+   ],
+   "laut": "„Ich verstehe … nicht. Vielleicht heißt es …, weil ….“"
+  }
+ ]
+}

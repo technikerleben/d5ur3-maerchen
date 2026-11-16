@@ -1,0 +1,51 @@
+{
+ "_hinweis": "Lesestrang in der Sprach-Doppelstunde, feste Lesetandems aus Sprache. Stopps beziehen sich auf den Wortlaut im Märchentext (Zeile wird berechnet).",
+ "wochen": [
+  {
+   "woche": 1,
+   "text": "frau-holle",
+   "strategien": [
+    "vorhersagen",
+    "merkmale",
+    "woerter"
+   ],
+   "ablauf": [
+    "Lest abwechselnd: Einer liest einen Abschnitt laut, der andere liest leise mit. Dann wechselt ihr.",
+    "An jedem Stopp hört ihr auf. Ihr löst den Stopp gemeinsam und sagt laut, was ihr denkt."
+   ],
+   "stopps": [
+    {
+     "nach": "so hol sie auch wieder herauf",
+     "symbol": "fernglas",
+     "frage": "Was wird das Mädchen jetzt tun? Sagt: „Ich vermute …, weil im Text steht ….“"
+    },
+    {
+     "nach": "es blühten viele tausend Blumen",
+     "symbol": "fernglas",
+     "frage": "Prüft eure Vermutung: Stimmt sie? Wo ist das Mädchen jetzt?"
+    },
+    {
+     "nach": "legte es sie alle auf einen Haufen",
+     "symbol": "stern",
+     "frage": "Was ist hier märchenhaft? Zeigt zwei Stellen."
+    },
+    {
+     "nach": "Ich bin die Frau Holle",
+     "symbol": "buch",
+     "frage": "Klärt ein schwieriges Wort, zum Beispiel „achtgeben“. Was heißt es?"
+    },
+    {
+     "nach": "gut aufgenommen",
+     "symbol": "fernglas",
+     "frage": "Die faule Tochter soll auch zu Frau Holle. Was wird mit ihr passieren? Begründet."
+    },
+    {
+     "nach": "nicht mehr ab",
+     "symbol": "fernglas",
+     "frage": "Prüft: Stimmt eure Vorhersage? Woran konntet ihr es schon vorher erkennen?"
+    }
+   ],
+   "abschluss": "Erzählt euch gegenseitig in drei Sätzen, worum es in „Frau Holle“ geht."
+  }
+ ]
+}
