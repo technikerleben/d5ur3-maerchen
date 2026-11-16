@@ -1,6 +1,6 @@
 # Workflow: Umbau der Reihe „Märchen“ (Fassung 2)
 
-Stand: 14.11.2026 · Grundlage: Entscheidungen von C vom 14.11.2026 (inkl. Zeit- und Raummodell) · noch kein Material umgebaut
+Stand: 16.11.2026 · Grundlage: Entscheidungen von C vom 14. und 16.11.2026 (inkl. Zeit- und Raummodell, Material der Kollegin) · noch kein Material umgebaut
 
 ## Ausgangslage und Ziel
 
@@ -21,6 +21,38 @@ Stand: 14.11.2026 · Grundlage: Entscheidungen von C vom 14.11.2026 (inkl. Zeit-
 | Förderpakete pro Etappe | bleiben als Etappenpakete |
 
 **Umfangsziel:** etwa halb so viele Seiten je Kind wie in Fassung 1. Geplant sind 4 Etappen mit je einem Tandemblatt und einem Einzelblatt (8 Pflichtblätter). Statt 5 Merkblättern à 3 Seiten gibt es 6 einseitige Strategiekarten.
+
+## Entscheidungen vom 16.11.2026
+
+- **Etappenpaket statt einzelner Blätter:** Viele Kinder sind überfordert, wenn sie sich Arbeitsblätter einzeln holen und das Material dazu selbst zusammensuchen müssen. Deshalb gibt es pro Etappe ein kleines Paket für jedes Kind:
+  - Deckblatt mit den Schritten zum Abhaken
+  - **Märchentext**
+  - gemeinsames Blatt
+  - Einzelblatt
+
+  Den Gelingensnachweis gibt die Lehrkraft separat aus, wenn das Kind so weit ist.
+- **Lerntheke:** Strategiekarten und Merkblätter liegen auf einer Lerntheke zum Nachschlagen. Jede Strategie hat ein eigenes Symbol. An den Aufgaben steht dasselbe Symbol als Hinweis „Diese Strategie hilft dir“.
+- **Input ist kein Merkblatt mehr:** Die Regel „Input = Merkblatt 1:1“ entfällt, weil sie die Kinder eher verwirrt hat. Der Input zeigt nur das Vorgehen: Die Lehrkraft denkt an einem Märchenausschnitt laut vor, wie man an die Aufgabe herangeht. Er verweist mit dem passenden Symbol auf Karte oder Merkblatt.
+- **Klassenübersicht:** als Plakat im Raum („Wer steht wo?“).
+- **Material einer Kollegin** wird genutzt (siehe nächster Abschnitt).
+
+## Material der Kollegin (gesichtet 16.11.2026)
+
+| Material | Inhalt | Vorschlag für Fassung 2 |
+|---|---|---|
+| Merkblatt Märchenmerkmale ⭐ | 6 Bereiche (Anfang, Figuren, Handlung, Zauber, Ende, Sprache) mit je 2 Merkmalen, darunter der Diminutiv; A5 doppelt | **Lerntheke**; ersetzt Merkblatt 1 der Fassung 1; Diminutiv als Merkmal ergänzen |
+| Quiz Märchenmerkmale | gleiche Gliederung als Leerformular (Merkmal und Beispiel) | **gemeinsame Aufgabe Etappe 1:** Quiz zu zweit mit Beispielen aus „Frau Holle“ |
+| Merkblatt Märchen-Spannungsbogen (JWADDAA) | Jemand – wollte – aber – dann – dann – also – also: Einleitung, Wunsch, Problem, Versuche (oft dreimal), Höhepunkt, Lösung, Schluss | **einziger Bauplan der Reihe:** ersetzt Bauplan und „Weg · Prüfung · Lösung · Ende“; Lerntheke |
+| Merkblatt Spannungsbogen universell | gleiches Schema für alle Geschichten | Lerntheke (Brücke zu anderen Textsorten) |
+| Märchen-Schreibplan (2 S.) | JWADDAA als Planungsbogen mit Stichwortfeldern | **Etappe 4:** gemeinsam planen; der Anfang deckt J-W-A ab, die Fortsetzung plant D-D-A-A |
+| Märchen-Lückentext | JWADDAA mit Satzanfängen und Wortspeicher (Verben im Präteritum, Figuren und Orte, Verbinder) | **Förderpaket Etappe 4** und Grundlage für Probearbeit F |
+| Arbeit 3, Termin 1 „Fisch und Zauberer“ und Termin 2 „Prinz Ludwig“ | 45 Minuten mit Zeitplan (5 / 10 / 25 / 5), Merkmale im Anfang finden, mindestens 4 Merkmale planen, Schreibplan freiwillig, Schreiben auf eigenem Blatt | **Entscheidung C:** als Lernerfolgskontrolle jahrgangsweit übernehmen? Dann werden Probearbeit und Training im selben Format gebaut |
+| Märchen-Feedback Arbeit 3 | K1 Aufbau 20 · K2 Märchenmerkmale 25 · K3 Schluss 15 · K4 Sprache 20 · K5 Verständlich 13 · K6 Prüfen 7 = 100 Punkte (+ bis 10 Zusatzpunkte für eine originelle Idee); gleiche fünf Stufen wie die Fassung 1 | **Entscheidung C:** übernehmen, dann richten sich Checkliste, Gelingensnachweise, Probearbeit und Auswertungs-App an diesem K1–K6 aus |
+
+Hinweise:
+
+- Das Material verweist auf eine **Verbliste** und einen **Rechtschreib-Check**. Beide fehlen noch.
+- Die Grafiken stammen von Kate Hadfield bzw. „unterrichtmitspass“, die Anfänge der Arbeit 3 sind von „unterrichtmitspass“ (©). Die Originaldateien kommen deshalb nicht ins Repo. Gedruckt wird von den Originalen. Die Bauskripte verweisen nur darauf.
 
 ## Zeit- und Raummodell (Angaben C, 14.11.2026)
 
@@ -63,9 +95,9 @@ Vor dem Umbau wird Fassung 1 im Repo mit dem Git-Tag `fassung-1` gesichert. Ihre
 
 | Nr. | Frage | Vorschlag |
 |---|---|---|
-| U0.1 | 4 oder 5 Etappen | 4 Etappen: Etappe 2 „Figuren“ und Etappe 3 „Aufbau“ der Fassung 1 werden zusammengelegt |
+| U0.1 | 4 oder 5 Etappen | **entschieden 16.11.:** 4 Etappen (Figuren und Aufbau zusammengelegt) |
 | U0.2 | Tandembildung | **entschieden 14.11.:** Lesen in den festen Tandems aus Sprache (Lesestrang); gemeinsames Bearbeiten von Aufgaben auch mit anderen Partnern (Mitdenk-Tafel, auch klassenübergreifend) |
-| U0.3 | Überblick für die Lehrkraft | Klassenübersicht „Wer steht wo?“ als Druckliste oder App, entscheidet C |
+| U0.3 | Überblick für die Lehrkraft | **entschieden 16.11.:** Klassenübersicht als **Plakat im Raum** |
 | U0.4 | Probearbeit | Probearbeit ist der Nachweis von Etappe 4 (eine Fassung, wie entschieden) |
 | U0.5 | Wahlzeit | nur P1 Märchenbuch und P2 Vorlesen, P3 Umformen entfällt |
 | U0.6 | Bewertung der Lernerfolgskontrolle | bleibt unverändert: K1–K6, je 0–4 Punkte, Gewichtung, Notengrenzen |
@@ -104,13 +136,13 @@ Grundsatz bleibt: Jeder Inhalt steht in genau einer Quelle (JSON), alles andere 
 | Baustein | Änderung |
 |---|---|
 | `inhalt/inputs/wN.json` (neu) | Wocheninput: Strategie (Name, Symbol, drei Schritte), Märchenausschnitt mit Denkblasen der Lehrkraft, Tandemauftrag, Merksatz |
-| `tools/build_input.py` (neu) | aus einer Quelle: Input-HTML mit höchstens 4 Folien (Denkblasen erscheinen Klick für Klick), **Strategiekarte** (1 Seite, gleicher Text), **Lehrkraft-Skript** zum lauten Denken |
+| `tools/build_input.py` (neu) | Input-HTML mit höchstens 4 Folien (Denkblasen erscheinen Klick für Klick) und **Lehrkraft-Skript** zum lauten Denken; Strategiekarten für die Lerntheke separat, mit Symbol; kein 1:1-Merkblatt mehr |
 | `inhalt/lesestrang.json` (neu) | Märchen der Woche W1–W6 mit Stopp-Stellen und Fragen zur Strategie; daraus Lesebogen für die Sprachdoppelstunde |
 | `inhalt/etappeN.json` | neues Schema: `gemeinsam` (Aufgabe für zwei mit gemeinsamem Ergebnis, Partner frei wählbar), `einzel` (Einzelblatt mit Sprachteil und Schreibauftrag), `vertiefung` (nur einmal pro Etappe), `nachweis` A/B, `foerder`. `abschnitte` und `sprachdetektiv` entfallen |
 | `tools/build_texte.py` | Stopp-Zeichen im Märchentext (Markup `{STOPP:n}`) für die Tandemfassung, Zeilennummern bleiben |
 | `tools/build_material.py` | Merkblatt- und Input-Teil entfällt (kommt aus `build_input.py`); Tandemblatt und Einzelblatt als Bausteine; Förder- und Nachweisteile bleiben |
 | neue Druckstücke | Lernweg 2 (4 Schritte je Etappe, Symbole, Wochenziele), **Lesebogen** pro Woche für den Lesestrang (Stopp-Stellen, Strategie), Mitdenk-Tafel (Plakat A3), Zonenschilder Stillraum/Denkraum/Flur, Satzstarter-Karte „Laut denken“, gegebenenfalls Klassenübersicht |
-| Prüfungen | Strategiekarte = Input (Textgleichheit), Strategiekarte genau 1 Seite, Tandem- und Einzelblatt je höchstens 2 Seiten, mindestens 14 pt, jede Stopp-Stelle hat eine Frage im Tandemblatt, alle Verweise auf Blätter und Strategiekarten lösen auf |
+| Prüfungen | Strategiekarte genau 1 Seite, jedes Strategie-Symbol an einer Aufgabe gibt es auch auf einer Karte, Tandem- und Einzelblatt je höchstens 2 Seiten, mindestens 14 pt, jede Stopp-Stelle hat eine Frage im Tandemblatt, alle Verweise auf Blätter und Strategiekarten lösen auf |
 
 **Ergebnis:** Generator mit Testdaten. Noch keine Freigabe nötig, erst das Ergebnis aus U3 wird angeschaut.
 
