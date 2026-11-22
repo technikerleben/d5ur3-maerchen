@@ -46,6 +46,52 @@
     }
    ],
    "abschluss": "Erzählt euch gegenseitig in drei Sätzen, worum es in „Frau Holle“ geht."
+  },
+  {
+   "woche": 2,
+   "text": "rumpelstilzchen",
+   "strategien": [
+    "vorhersagen",
+    "figuren",
+    "bogen"
+   ],
+   "ablauf": [
+    "Lest abwechselnd: Einer liest einen Abschnitt laut, der andere liest leise mit. Dann wechselt ihr.",
+    "An jedem Stopp hört ihr auf. Ihr löst den Stopp gemeinsam und sagt laut, was ihr denkt."
+   ],
+   "stopps": [
+    {
+     "nach": "so musst du sterben",
+     "symbol": "fernglas",
+     "frage": "Was wird die Müllerstochter jetzt tun? Sagt: „Ich vermute …, weil im Text steht ….“"
+    },
+    {
+     "nach": "alle Spulen waren voll Gold",
+     "symbol": "figur",
+     "frage": "Ist das Männchen ein Helfer? Begründet mit dem Text."
+    },
+    {
+     "nach": "die schöne Müllerstochter wurde eine Königin",
+     "symbol": "bogen",
+     "frage": "Was ist bis jetzt passiert? Sagt J – W – A – D mit je einem Satz."
+    },
+    {
+     "nach": "so sollst du dein Kind behalten",
+     "symbol": "figur",
+     "frage": "Ist das Männchen jetzt Helfer oder Gegenspieler? Hat es sich verändert?"
+    },
+    {
+     "nach": "dass ich Rumpelstilzchen heiß",
+     "symbol": "fernglas",
+     "frage": "Was wird die Königin jetzt tun? Vermutet."
+    },
+    {
+     "nach": "wurde nie wieder gesehen",
+     "symbol": "bogen",
+     "frage": "Wo war die gefährlichste Stelle (der Höhepunkt)? Einigt euch."
+    }
+   ],
+   "abschluss": "Erzählt euch das Märchen mit den Signalwörtern: Jemand … wollte … aber … dann … dann … also … also."
   }
  ]
 }

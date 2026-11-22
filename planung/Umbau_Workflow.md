@@ -210,18 +210,21 @@ Spätester sinnvoller Abschluss: rund zwei Wochen vor Reihenbeginn (Anfang Dezem
 - Zusammenarbeit heißt immer: derselbe Text, ein gemeinsames Ergebnis, und jedes Kind kann es erklären. Nachweise sind immer Einzelarbeit.
 - Inputs: höchstens 4 Folien, höchstens 10 Minuten, eine Strategie, lautes Denken am Märchentext.
 
-## Stand (16.11.2026)
+## Stand (22.11.2026)
 
 | Phase | Stand |
 |---|---|
 | U0 Entscheidungen | erledigt 14./16.11.2026 |
 | U1 Rückwärtsplanung F2 | freigegeben 16.11.2026 |
 | U2 Technik | `tools/build_f2.py` gebaut: Etappenpaket, Wocheninput mit Klick-Denkblasen und Skript, Lesebogen, Strategiekarten A5, Plakat „Wo stehe ich?“ (A3, zugleich Mitdenk-Tafel), Zonenschilder, Karte „Laut denken“, Lernweg F2. Prüfungen: mind. 14 pt, Seitenzahlen, keine überlaufenden Folien (1280×800, 1024×768), jede Strategie hat eine Karte. Fassung 1 liegt in `archiv/fassung1/` (der Git-Tag `fassung-1` existiert nur lokal, Hochladen vom Proxy abgelehnt). |
-| U3 Muster Etappe 1 | gebaut 16.11.2026 → **Gate D1 offen** (Prüfung durch C) |
+| U3 Muster Etappe 1 | gebaut 16.11.2026, Gate D1 erledigt (C: „weiter mit Etappe 2“) |
+| U4 Etappe 2 | gebaut 22.11.2026 → **Gate D2 offen** (Prüfung durch C) |
 
 Hinweise zum Muster:
 
 - **Klassenübersicht und Mitdenk-Tafel** sind ein Plakat: Die Klammern zeigen der Lehrkraft, wer wo steht, und den Kindern, wer als Partner in Frage kommt.
 - **Quiz Märchenmerkmale:** Die Vorlage der Kollegin hat zwei Quiz auf einem Blatt, also reicht ein Blatt für ein Paar. Im Paket liegt sie zwischen „zu zweit“ und „allein“.
 - **Wocheninput W1:** Der Übungstext „Das Schneiderlein“ ist selbst verfasst. Er ist bewusst nicht „Frau Holle“, damit der Input nichts vom gemeinsamen Blatt vorwegnimmt.
-- **Lösungen für den Kiosk** stehen schon in `inhalt/f2/etappe1.json` unter dem Schlüssel `kiosk`. Der Kiosk selbst wird in U5 neu gebaut.
+- **Etappe 2 „Der Spannungsbogen“:** Zu zweit legen die Kinder „Rumpelstilzchen“ mit sieben Satzstreifen auf einen J‑W‑A‑D‑D‑A‑A-Legeplan, befragen das Männchen (erst Helfer, dann Gegenspieler) und erzählen ohne Vorlage nach. Allein: Präteritum und ein Schluss für die selbst verfasste Geschichte „Das Mehlsäckchen“. GN2 A/B verwenden „Die drei Brüder“ und „Die drei Faulen“; Rollen und Schluss werden an selbst verfassten Kurzgeschichten geprüft („Die Gans des Bauern“ und „Der Schuhmacher und der Riese“). Neue Strategiekarten: „Mit dem Spannungsbogen zusammenfassen“ und „Figuren befragen“. Input W2 hat den Übungstext „Die Gänsehirtin“. **Die Verbliste der Kollegin fehlt noch.** Auf sie verweisen das Blatt „allein“ und die Druckanleitung.
+- **Druck:** `build_f2.py druck` erzeugt pro Etappe ein `Gesamtpaket_F2_Etappe{n}.pdf` mit nur den neuen Teilen.
+- **Lösungen für den Kiosk** stehen schon in `inhalt/f2/etappe{n}.json` unter dem Schlüssel `kiosk`. Der Kiosk selbst wird in U5 neu gebaut.

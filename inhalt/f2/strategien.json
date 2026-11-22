@@ -12,7 +12,8 @@
     "Schau auf das Merkblatt Märchenmerkmale: Wie heißt das Merkmal?",
     "Schreib auf: Merkmal – Beispiel – Zeile."
    ],
-   "laut": "„Hier steht …. Das ist das Merkmal …, weil ….“"
+   "laut": "„Hier steht …. Das ist das Merkmal …, weil ….“",
+   "etappe": 1
   },
   {
    "id": "vorhersagen",
@@ -25,7 +26,8 @@
     "Lies weiter und prüfe: Stimmt es? Was war anders?"
    ],
    "laut": "„Ich vermute …, weil im Text steht ….“",
-   "tipp": "Märchen helfen beim Vermuten: Wer gut ist, wird belohnt. Vieles passiert dreimal."
+   "tipp": "Märchen helfen beim Vermuten: Wer gut ist, wird belohnt. Vieles passiert dreimal.",
+   "etappe": 1
   },
   {
    "id": "woerter",
@@ -38,7 +40,37 @@
     "Frag dein Tandem oder deinen Partner.",
     "Noch unklar? Schlag nach oder frag die Lehrkraft."
    ],
-   "laut": "„Ich verstehe … nicht. Vielleicht heißt es …, weil ….“"
+   "laut": "„Ich verstehe … nicht. Vielleicht heißt es …, weil ….“",
+   "etappe": 1
+  },
+  {
+   "id": "bogen",
+   "symbol": "bogen",
+   "etappe": 2,
+   "titel": "Mit dem Spannungsbogen zusammenfassen",
+   "wann": "wenn du ein Märchen nacherzählen oder ein Ende planen willst",
+   "schritte": [
+    "Anfang: **J**emand – **w**ollte – **a**ber. Wer? Was wollte er? Was kam dazwischen?",
+    "Weg: **d**ann – **d**ann. Was tat die Figur? Wo wurde es am gefährlichsten?",
+    "Ende: **a**lso – **a**lso. Wie wurde es gut? Wer wird belohnt, wer bestraft?"
+   ],
+   "laut": "„Jemand … wollte …, aber …. Dann …. Dann …. Also …. Also ….“",
+   "tipp": "Höhepunkt = die gefährlichste Stelle."
+  },
+  {
+   "id": "figuren",
+   "symbol": "figur",
+   "etappe": 2,
+   "titel": "Figuren befragen",
+   "wann": "wenn du wissen willst, wer Held, Helfer oder Gegenspieler ist",
+   "schritte": [
+    "Was **tut** die Figur?",
+    "Was **sagt** sie?",
+    "Was **will** sie?",
+    "Hilft sie der Hauptfigur – oder schadet sie ihr? Dann weißt du die Rolle: Held:in, Helfer:in oder Gegenspieler:in."
+   ],
+   "laut": "„… ist Helfer, weil in Zeile … steht: ….“",
+   "tipp": "Eine Figur kann ihre Rolle wechseln. Achte darauf, was sie am Ende will."
   }
  ]
 }

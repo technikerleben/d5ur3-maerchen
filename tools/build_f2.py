@@ -6,7 +6,7 @@
     python3 tools/build_f2.py lesestrang 1  Lesebogen W1
     python3 tools/build_f2.py lerntheke     Strategiekarten (A5 quer)
     python3 tools/build_f2.py raum          Plakat „Wo stehe ich?“, Zonenschilder, Satzstarter, Lernweg
-    python3 tools/build_f2.py druck         ein Gesamt-PDF: Druckanleitung (mit Seitenangaben) + alle Druckteile
+    python3 tools/build_f2.py druck [N]     Gesamt-PDF je Etappe: Druckanleitung (mit Seitenangaben) + alle neuen Druckteile
     python3 tools/build_f2.py alles         alles, was es schon gibt
 
 Ausgabe: ausgabe/f2/…  · Material der Kollegin liegt (nicht im Repo) in extern/ und wird nur eingelegt.
@@ -50,6 +50,7 @@ _P = {
     "auge": "<path d='M1.5 12C5 6 19 6 22.5 12 19 18 5 18 1.5 12z'/><circle cx='12' cy='12' r='3.4'/>",
     "plan": "<rect x='4.5' y='3.5' width='15' height='18' rx='1.5'/><path d='M9 3.5h6v3H9zM8 11h8M8 14.5h8M8 18h5'/>",
     "uhr": "<circle cx='12' cy='12' r='9.5'/><path d='M12 6.5V12l4 2.5'/>",
+    "figur": "<circle cx='9' cy='8' r='3.6'/><path d='M2 21c0-4.3 3-7.2 7-7.2s7 2.9 7 7.2'/><path d='M14.5 2.5h7.5v6h-4l-2 2v-2h-1.5z'/>",
     "klammer": "<path d='M9 2.5h6l-1 9h-4zM10 11.5l-1.5 10h7l-1.5-10'/>",
 }
 
@@ -124,8 +125,40 @@ def deckblatt_html(e: dict) -> str:
         "<div class=hilft>%s <b>Wo stehe ich?</b> Häng deine Klammer am Plakat weiter, wenn du einen Schritt geschafft hast. "
         "Wer an derselben Stelle hängt, kann dein Partner sein.</div>")
         % (e["etappe"], esc(e["titel"]), esc(e["ziel"]), esc(e["woche"]), esc(t),
-           " · Quiz Märchenmerkmale" if e.get("extern") else "", rows,
+           (" · Quiz Märchenmerkmale" if e.get("extern") else "") + (" mit Legeplan und Satzstreifen" if e["gemeinsam"].get("legeplan") else ""), rows,
            " · ".join("%s %s" % (sym(STRAT[s]["symbol"], 7), esc(STRAT[s]["titel"])) for s in strat), sym("klammer", 7)))
+
+
+BOGEN_SCHRITTE = [("J", "jemand", "Einleitung: Wer? Wann? Wo?"), ("W", "wollte", "Wunsch: Was wollte jemand?"),
+                  ("A", "aber", "Problem: Was kam dazwischen?"), ("D", "dann", "Versuche: Was tat die Figur?"),
+                  ("D", "dann", "Höhepunkt: Wo wurde es gefährlich?"), ("A", "also", "Lösung: Wie wurde es gut?"),
+                  ("A", "also", "Schluss: Wie endete es?")]
+
+
+def bogen_svg() -> str:
+    pkt = [(12, 36), (36, 28), (60, 20), (86, 12), (116, 6), (142, 16), (164, 30)]
+    kreise = "".join("<circle cx='%d' cy='%d' r='5.2' fill='#fff' stroke='#111' stroke-width='.7'/><text x='%d' y='%.1f' text-anchor='middle' "
+                     "font-size='6.2' font-weight='700' font-family='Andika'>%s</text>" % (x, y, x, y + 2.2, b) for (x, y), (b, _, _) in zip(pkt, BOGEN_SCHRITTE))
+    return ("<svg viewBox='0 0 176 44' width='150mm' height='37.5mm' style='display:block;margin:0 auto 2mm'>"
+            "<path d='M4 40 C40 30 80 4 116 6 C140 7 158 22 172 36' fill='none' stroke='#111' stroke-width='.9'/>%s"
+            "<text x='116' y='17.5' text-anchor='middle' font-size='6.2' font-family='Andika'>Höhepunkt</text></svg>" % kreise)
+
+
+def legeplan_html(e: dict) -> str:
+    g = e["gemeinsam"]
+    rows = "".join("<tr><td style='width:13mm;text-align:center;font-size:22pt;font-weight:700'>%s</td><td style='width:78mm'><b>%s …</b> %s</td>"
+                   "<td style='height:15mm'></td></tr>" % (b, w, esc(f)) for b, w, f in BOGEN_SCHRITTE)
+    return ("<div style='break-before:page'></div>" + kopf("Etappe %d · zu zweit · Legeplan" % e["etappe"], "Der Spannungsbogen", "bogen")
+            + bogen_svg() + "<table class=st style='font-size:14pt'><tr><td></td><td><b>Signalwort und Frage</b></td><td><b>Hier klebt euer Streifen</b></td></tr>%s</table>" % rows
+            + "<div style='font-size:15pt;margin-top:3mm'><b>Das Männchen ist …, weil …</b></div><div class=linie></div><div class=linie></div>"
+            + ("<div class=unterschrift><span>Wir haben zusammen gearbeitet:</span><span>und</span></div>" if g.get("unterschrift") else ""))
+
+
+def streifen_html(e: dict) -> str:
+    st = "".join("<div style='border:1.4pt dashed #111;border-radius:1.5mm;padding:2.2mm 3mm;margin-bottom:2.6mm;width:124mm;font-size:14pt;line-height:1.3'>%s</div>"
+                 % esc(t) for _, t in e["gemeinsam"]["streifen"])
+    return ("<div style='break-before:page'></div>" + kopf("Etappe %d · zu zweit · zum Ausschneiden" % e["etappe"], "Satzstreifen", "zwei")
+            + "<div class=hilft>✂ Schneidet die Streifen aus. Lest jeden Streifen laut und einigt euch, wohin er gehört.</div>%s" % st)
 
 
 def gemeinsam_html(e: dict) -> str:
@@ -137,7 +170,8 @@ def gemeinsam_html(e: dict) -> str:
         + "<div class='kasten pflicht'><span class=etikett>SO GEHT IHR VOR</span><ol class=schritte>%s</ol>%s</div>" % (
             li, "<div class=tipp>Tipp: %s</div>" % md(g["tipp"]) if g.get("tipp") else "")
         + "<div class=starter><b>So denkt ihr laut:</b>%s</div>" % st
-        + ("<div class=unterschrift><span>Wir haben zusammen gearbeitet:</span><span>und</span></div>" if g.get("unterschrift") else "")))
+        + ("<div class=unterschrift><span>Wir haben zusammen gearbeitet:</span><span>und</span></div>" if g.get("unterschrift") and not g.get("legeplan") else "")
+        + (legeplan_html(e) if g.get("legeplan") else "") + (streifen_html(e) if g.get("streifen") else "")))
 
 
 def einzel_html(e: dict) -> str:
@@ -149,7 +183,8 @@ def einzel_html(e: dict) -> str:
             n, esc(a["titel"]), hilft,
             "<div class=merke>%s</div>" % md(a["merke"]) if a.get("merke") else "",
             anfang_box(a["anfang"]) if a.get("anfang") else "",
-            "", md(a["text"]),
+            "<div class=anfang><b>%s</b><div>%s</div></div>" % (esc(a["geschichte"]["titel"]), esc(a["geschichte"]["text"])) if a.get("geschichte") else "",
+            md(a["text"]),
             ("<div class=satzbox>%s</div>" % esc(a["satzbox"]) if a.get("satzbox") else "") + "<div class=linie></div>" * a.get("linien", 0)))
     if ez.get("vertiefung"):
         teile.append("<div class='kasten frei'><span class=etikett>%s FREIWILLIG</span><div>%s</div></div>" % (sym("plus", 6), md(ez["vertiefung"])))
@@ -387,7 +422,8 @@ def bau_etappe(b: Bau, n: int):
         if s not in STRAT:
             b.fehler.append("Strategie ohne Karte: " + s)
     d = b.mach(deckblatt_html(e), tmp / "deck.pdf", f"Etappe {n} · Paket", 14, 1)
-    g = b.mach(gemeinsam_html(e), aus / f"E{n}_zu_zweit_A4.pdf", f"Etappe {n} · zu zweit", 14, 1)
+    g = b.mach(gemeinsam_html(e), aus / f"E{n}_zu_zweit_A4.pdf", f"Etappe {n} · zu zweit", 14,
+               1 + bool(e["gemeinsam"].get("legeplan")) + bool(e["gemeinsam"].get("streifen")))
     ein = b.mach(einzel_html(e), aus / f"E{n}_allein_A4.pdf", f"Etappe {n} · allein", 14, 2)
     ext = []
     for stw in e.get("extern", []):
@@ -464,79 +500,96 @@ def bau_raum(b: Bau):
 
 
 # ------------------------------------------------------------ Druckpaket mit Druckanleitung
-# (Ordner im ZIP, Datei relativ zu ausgabe/f2, Format, Anzahl, Hinweis)
-DRUCK = [
-    ("1_Kinder", "raum/Lernweg_F2_A4.pdf", "A4, einseitig", "je Kind 1", "zu Beginn der Reihe; bleibt in der Mappe"),
-    ("1_Kinder", "etappe1/Etappenpaket_1_A4.pdf", "A4 → A5 verkleinert, beidseitig, geheftet", "je Kind 1",
-     "Reihenfolge: Deckblatt, „Frau Holle“, zu zweit, Quiz, allein. Das Quiz der Kollegin hat zwei Exemplare auf einer Seite: halbieren, je Kind eine Hälfte."),
-    ("2_Nachweise", "etappe1/GN1_A_A4.pdf", "A4, beidseitig", "je Kind 1", "erst ausgeben, wenn das Kind die Schritte im Paket geschafft hat"),
-    ("2_Nachweise", "etappe1/GN1_B_A4.pdf", "A4, beidseitig", "etwa ⅓ der Kinder", "Wiederholung nach dem Üben"),
-    ("3_Foerder", "etappe1/foerder/Foerderpaket_1_A4.pdf", "A4 → A5 verkleinert, beidseitig", "je F-Kind 1", "Lösungsstreifen unten am Blatt umknicken"),
-    ("3_Foerder", "etappe1/foerder/GN1F_A_A4.pdf", "A4, beidseitig", "je F-Kind 1", ""),
-    ("3_Foerder", "etappe1/foerder/GN1F_B_A4.pdf", "A4, beidseitig", "nach Bedarf", ""),
-    ("4_Lesestrang", "lesestrang/Lesebogen_W1_A4.pdf", "A4, einseitig", "je Lesetandem 1", "Sprach-Doppelstunde in Woche 1; „Frau Holle“ liegt im Etappenpaket"),
-    ("5_Lerntheke", "lerntheke/Strategiekarten_alle_A5.pdf", "A5 quer, einseitig, laminieren", "2–3 Sätze je Raum", "neben die Merkblätter der Kollegin (Märchenmerkmale, Spannungsbogen) legen"),
-    ("6_Raum", "raum/Plakat_Wo_stehe_ich_A3.pdf", "A3 quer (oder 2 × A4 zusammenkleben)", "je Raum 1", "Wäscheklammern mit Namen; Klassenübersicht und Partnersuche zugleich"),
-    ("6_Raum", "raum/Zonenschilder_A4quer.pdf", "A4 quer, einseitig, laminieren", "je Raum 1 Satz", "Stillraum · Denkraum · Flur"),
-    ("6_Raum", "raum/Karte_Laut_denken_A5.pdf", "A5 quer, laminieren", "je Tisch 1", ""),
-    ("7_Lehrkraft", "etappe1/GN1_Erwartungshorizont_A4.pdf", "A4", "1", ""),
-    ("7_Lehrkraft", "inputs/Skript_W1_A4.pdf", "A4", "1", "Input W1 (höchstens 10 Minuten) in der ersten Deutsch-Doppelstunde"),
-]
-DRUCK_DIGITAL = [("8_Digital", "inputs/Input_W1.html", "Beamer (im Browser öffnen, F = Vollbild, Klick = nächster Gedanke)")]
-DRUCK_EXTERN = ["Merkblatt Märchenmerkmale (Kollegin) – Lerntheke, A5", "Merkblatt Märchen-Spannungsbogen (Kollegin) – ab Etappe 2",
-                "Verbliste und Rechtschreib-Check (Kollegin) – folgen"]
+# Druckteile je Etappe: (Ordner, Datei relativ zu ausgabe/f2, Format, Anzahl, Hinweis)
+A5H = "A4 → A5 verkleinert, beidseitig, geheftet"
 
 
-def druckanleitung_html(inv: list[tuple], start: int = 1) -> str:
+def druck_liste(n: int) -> list[tuple]:
+    e = json.loads((IN / f"etappe{n}.json").read_text("utf-8"))
+    t = TEXTDB[e["text"]]["titel"]
+    reihen = []
+    if n == 1:
+        reihen.append(("1_Kinder", "raum/Lernweg_F2_A4.pdf", "A4, einseitig", "je Kind 1", "zu Beginn der Reihe; bleibt in der Mappe"))
+    inhalt = "Deckblatt, „%s“, zu zweit%s, allein" % (t, " (mit Legeplan und Satzstreifen)" if e["gemeinsam"].get("legeplan") else "")
+    hinweis = "Reihenfolge: " + inhalt + "."
+    if e.get("extern"):
+        hinweis += " Das Quiz der Kollegin hat zwei Exemplare auf einer Seite: halbieren, je Kind eine Hälfte."
+    if e["gemeinsam"].get("streifen"):
+        hinweis += " Schere und Kleber bereitlegen."
+    reihen += [
+        ("1_Kinder", f"etappe{n}/Etappenpaket_{n}_A4.pdf", A5H, "je Kind 1", hinweis),
+        ("2_Nachweise", f"etappe{n}/GN{n}_A_A4.pdf", "A4, beidseitig", "je Kind 1", "erst ausgeben, wenn das Kind die Schritte im Paket geschafft hat"),
+        ("2_Nachweise", f"etappe{n}/GN{n}_B_A4.pdf", "A4, beidseitig", "etwa ⅓ der Kinder", "Wiederholung nach dem Üben"),
+        ("3_Foerder", f"etappe{n}/foerder/Foerderpaket_{n}_A4.pdf", "A4 → A5 verkleinert, beidseitig", "je F-Kind 1", "Lösungsstreifen unten am Blatt umknicken"),
+        ("3_Foerder", f"etappe{n}/foerder/GN{n}F_A_A4.pdf", "A4, beidseitig", "je F-Kind 1", ""),
+        ("3_Foerder", f"etappe{n}/foerder/GN{n}F_B_A4.pdf", "A4, beidseitig", "nach Bedarf", ""),
+        ("4_Lesestrang", f"lesestrang/Lesebogen_W{n}_A4.pdf", "A4, einseitig", "je Lesetandem 1", "Sprach-Doppelstunde in Woche %d; „%s“ liegt im Etappenpaket" % (n, t)),
+    ]
+    reihen += [("5_Lerntheke", f"lerntheke/Strategie_{k['id']}_A5.pdf", "A5 quer, einseitig, laminieren", "2–3 je Raum",
+                "neue Strategiekarte: „%s“" % k["titel"]) for k in STRAT.values() if k.get("etappe", 1) == n]
+    if n == 1:
+        reihen += [("6_Raum", "raum/Plakat_Wo_stehe_ich_A3.pdf", "A3 quer (oder 2 × A4 zusammenkleben)", "je Raum 1", "Wäscheklammern mit Namen; Klassenübersicht und Partnersuche zugleich"),
+                   ("6_Raum", "raum/Zonenschilder_A4quer.pdf", "A4 quer, einseitig, laminieren", "je Raum 1 Satz", "Stillraum · Denkraum · Flur"),
+                   ("6_Raum", "raum/Karte_Laut_denken_A5.pdf", "A5 quer, laminieren", "je Tisch 1", "")]
+    reihen += [("7_Lehrkraft", f"etappe{n}/GN{n}_Erwartungshorizont_A4.pdf", "A4", "1", ""),
+               ("7_Lehrkraft", f"inputs/Skript_W{n}_A4.pdf", "A4", "1", "Input W%d (höchstens 10 Minuten) in der ersten Deutsch-Doppelstunde der Woche" % n)]
+    return reihen
+
+
+DRUCK_EXTERN = {1: ["Merkblatt Märchenmerkmale (Kollegin) – Lerntheke, A5"],
+                2: ["Merkblatt Märchen-Spannungsbogen und Spannungsbogen universell (Kollegin) – Lerntheke",
+                    "Verbliste (Kollegin) – Lerntheke; folgt noch"]}
+
+
+def druckanleitung_html(inv: list[tuple], n: int, start: int = 1) -> str:
     rows, seite = [], start
-    for o, d, f, a, h, s in inv:
+    for o, d, f, a, h, sz in inv:
         rows.append("<tr><td style='text-align:center'><b>%s</b></td><td style='word-break:break-all'>%s<br><b>%s</b></td><td>%s</td><td>%s</td><td>%s</td></tr>" % (
-            "%d–%d" % (seite, seite + s - 1) if s > 1 else str(seite), esc(o), esc(Path(d).name), esc(f), esc(a), esc(h)))
-        seite += s
-    rows = "".join(rows)
-    return doc(GN_CSS + "body{font-size:12.5pt}table{font-size:12.5pt}td,th{padding:1.4mm 2mm}", (
-        "<div class=meta>Lehrkraft · Fassung 2 · Muster Etappe 1</div><h1>Druckanleitung</h1>"
+            "%d–%d" % (seite, seite + sz - 1) if sz > 1 else str(seite), esc(o), esc(Path(d).name), esc(f), esc(a), esc(h)))
+        seite += sz
+    raum = ("<li>Plakat aufhängen, Klammern mit Namen beschriften (Klammer startet bei „Start“).</li>"
+            "<li>Zonenschilder an Stillraum, Denkraum und Flur; Karte „Laut denken“ auf die Tische.</li>") if n == 1 else ""
+    extern = "".join("<li>%s</li>" % esc(x) for x in DRUCK_EXTERN.get(n, [])) or "<li>–</li>"
+    h2 = "<h2 style='font-size:16pt;margin:4mm 0 1.5mm'>%s</h2>"
+    return doc(GN_CSS + "body{font-size:12.5pt}table{font-size:12.5pt}td,th{padding:1.4mm 2mm}", "".join([
+        "<div class=meta>Lehrkraft · Fassung 2 · Etappe %d</div><h1>Druckanleitung</h1>" % n,
         "<div class=hinweis><b>So druckst du:</b> Etappenpakete und Förderpakete sind A4 gesetzt und werden <b>auf A5 verkleinert</b> gedruckt "
-        "(2 Seiten pro Blatt, beidseitig, Buchbindung oder Heftung). Drucke dafür nur die angegebenen <b>Seiten im PDF</b>. Nachweise, Lernweg, Lesebogen und Lehrkraft-Seiten in <b>A4-Originalgröße</b>. "
-        "Karten und Schilder laminieren. Alles ist für Graustufen gemacht.</div>"
-        "<table style='table-layout:fixed'><tr><th style='width:20mm'>Seiten im PDF</th><th style='width:48mm'>Teil</th><th style='width:34mm'>Format</th><th style='width:24mm'>Anzahl</th><th>Hinweis</th></tr>%s</table>"
-        "<h2 style='font-size:16pt;margin:4mm 0 1.5mm'>Digital</h2><p>%s</p>"
-        "<h2 style='font-size:16pt;margin:4mm 0 1.5mm'>Vom Material der Kollegin (nicht im Paket, von ihren Originalen drucken)</h2><ul style='margin-left:6mm'>%s</ul>"
-        "<h2 style='font-size:16pt;margin:4mm 0 1.5mm'>Vorbereitung im Raum</h2><ul style='margin-left:6mm'>"
-        "<li>Plakat aufhängen, Klammern mit Namen beschriften (Klammer startet bei „Start“).</li>"
-        "<li>Lerntheke: Merkblätter der Kollegin und Strategiekarten auslegen.</li>"
-        "<li>Zonenschilder an Stillraum, Denkraum und Flur; Karte „Laut denken“ auf die Tische.</li>"
-        "<li>Gelingensnachweise GN1 A/B bei der Lehrkraft bereithalten, nicht ins Paket.</li></ul>")
-        % (rows, "<br>".join("<b>%s</b>: %s" % (esc(Path(d).name), esc(h)) for _, d, h in DRUCK_DIGITAL), "".join("<li>%s</li>" % esc(x) for x in DRUCK_EXTERN)))
+        "(2 Seiten pro Blatt, beidseitig, Heftung). Drucke dafür nur die angegebenen <b>Seiten im PDF</b>. Nachweise, Lesebogen und Lehrkraft-Seiten "
+        "in <b>A4-Originalgröße</b>. Karten und Schilder laminieren. Alles ist für Graustufen gemacht.</div>",
+        "<table style='table-layout:fixed'><tr><th style='width:20mm'>Seiten im PDF</th><th style='width:48mm'>Teil</th><th style='width:34mm'>Format</th>"
+        "<th style='width:24mm'>Anzahl</th><th>Hinweis</th></tr>%s</table>" % "".join(rows),
+        h2 % "Digital", "<p><b>Input_W%d.html</b>: Beamer (im Browser öffnen, F = Vollbild, Klick = nächster Gedanke)</p>" % n,
+        h2 % "Vom Material der Kollegin (nicht im Paket, von ihren Originalen drucken)", "<ul style='margin-left:6mm'>%s</ul>" % extern,
+        h2 % "Vorbereitung im Raum", "<ul style='margin-left:6mm'>%s<li>Lerntheke: neue Strategiekarten und Merkblätter der Kollegin dazulegen.</li>"
+        "<li>Gelingensnachweise GN%d A/B bei der Lehrkraft bereithalten, nicht ins Paket.</li></ul>" % (raum, n)]))
 
 
-def bau_druck(b: Bau):
-    import zipfile
+def bau_druck(b: Bau, n: int):
     inv, fehlt = [], []
-    for o, d, f, a, h in DRUCK:
+    for o, d, f, a, h in druck_liste(n):
         p = AUS / d
         if not p.exists():
             fehlt.append(d)
             continue
         inv.append((o, d, f, a, h, len(fitz.open(p))))
     if fehlt:
-        b.fehler.append("Druckpaket: fehlt " + ", ".join(fehlt))
+        b.fehler.append("Druckpaket %d: fehlt %s" % (n, ", ".join(fehlt)))
         return
-    anl = AUS / "Druckanleitung_F2_A4.pdf"
+    anl = AUS / f"Druckanleitung_F2_Etappe{n}_A4.pdf"
     n_anl = 0
-    for _ in range(3):  # Seitenzahlen hängen von der Länge der Anleitung ab
-        b.mach(druckanleitung_html(inv, n_anl + 1), anl, "Druckanleitung", 12)
+    for _ in range(3):  # Seitenangaben hängen von der Länge der Anleitung ab
+        b.mach(druckanleitung_html(inv, n, n_anl + 1), anl, "Druckanleitung", 12)
         neu = len(fitz.open(anl))
         if neu == n_anl:
             break
         n_anl = neu
         b.bericht.pop()
-    gesamt = AUS / "Gesamtpaket_F2_Etappe1.pdf"
-    s = verbinde([anl] + [AUS / d for _, d, *_ in inv], gesamt)
+    gesamt = AUS / f"Gesamtpaket_F2_Etappe{n}.pdf"
+    seiten = verbinde([anl] + [AUS / d for _, d, *_ in inv], gesamt)
     soll = n_anl + sum(x[5] for x in inv)
-    if s != soll:
-        b.fehler.append("Gesamt-PDF: %d Seiten statt %d" % (s, soll))
-    b.bericht.append("%-40s %d S. (Anleitung %d S. + %d Teile), %.1f MB" % (gesamt.name, s, n_anl, len(inv), gesamt.stat().st_size / 1e6))
+    if seiten != soll:
+        b.fehler.append("Gesamt-PDF %d: %d Seiten statt %d" % (n, seiten, soll))
+    b.bericht.append("%-40s %d S. (Anleitung %d S. + %d Teile), %.1f MB" % (gesamt.name, seiten, n_anl, len(inv), gesamt.stat().st_size / 1e6))
 
 
 def main(argv: list[str]) -> int:
@@ -557,7 +610,8 @@ def main(argv: list[str]) -> int:
     if was in ("raum", "alles"):
         bau_raum(b)
     if was in ("druck", "alles"):
-        bau_druck(b)
+        for n in ([int(argv[1])] if was == "druck" and len(argv) > 1 else [int(p.stem[-1]) for p in sorted(IN.glob("etappe*.json"))]):
+            bau_druck(b, n)
     return b.ende()
 
 

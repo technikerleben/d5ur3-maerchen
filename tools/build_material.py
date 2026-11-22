@@ -239,6 +239,8 @@ def blatt_html(e: dict, b: dict) -> str:
 
 def mit_anfang(a: dict, var: dict) -> bool:
     """Weiterschreib-Aufgabe eines Nachweises: ausdrücklich markiert; ohne Markierung in der Variante Ziel En.4."""
+    if not var.get("anfang"):
+        return False
     if any("mit_anfang" in x for x in var["aufgaben"]):
         return bool(a.get("mit_anfang"))
     return a["ziel"].endswith(".4")
@@ -250,10 +252,11 @@ def gn_aufgaben_html(e: dict, nw: dict, v: str) -> str:
     sg = "<img src='%s' alt=''>" % bild_uri(nw["signet"]) if nw.get("signet") else ""
     teile = ["<div class=kopfzeile><div><div class=meta>Gelingensnachweis %d · Variante %s</div><h1>%s</h1></div>%s</div>" % (e["etappe"], v, esc(nw["titel"]), sg),
              "<div class=namen><span>Name:</span><span>Datum:</span></div>",
-             "<div class=hinweis>%sDen Märchenanfang „%s“ findest du bei Aufgabe %d. "
+             "<div class=hinweis>%s%s"
              "Schreibe auf dieses Blatt. Arbeite allein. Merkblatt und Märchenkarten bleiben in der Tasche.</div>" % (
                  ("Du brauchst: das Märchen „%s“. " % esc(titel[var["maerchen"]])) if var.get("maerchen") else "",
-                 esc(titel[var["anfang"]]), 1 + next(i for i, a in enumerate(var["aufgaben"]) if mit_anfang(a, var)))]
+                 ("Den Märchenanfang „%s“ findest du bei Aufgabe %d. " % (esc(titel[var["anfang"]]),
+                  1 + next(i for i, a in enumerate(var["aufgaben"]) if mit_anfang(a, var)))) if var.get("anfang") else "")]
     texte = {t["id"]: t for t in json.loads((ROOT / "inhalt" / "texte.json").read_text("utf-8"))["texte"]}
     for n, a in enumerate(var["aufgaben"], 1):
         box = ""
