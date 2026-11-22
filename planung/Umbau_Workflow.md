@@ -1,6 +1,6 @@
 # Workflow: Umbau der Reihe „Märchen“ (Fassung 2)
 
-Stand: 16.11.2026 · Grundlage: Entscheidungen von C vom 14. und 16.11.2026 (inkl. Zeit- und Raummodell, Material der Kollegin) · noch kein Material umgebaut
+Stand: 22.11.2026 · Grundlage: Entscheidungen von C vom 14. und 16.11.2026 (inkl. Zeit- und Raummodell, Material der Kollegin) · Etappe 1 und 2 gebaut
 
 ## Ausgangslage und Ziel
 
