@@ -125,7 +125,7 @@ def deckblatt_html(e: dict) -> str:
         "<div class=hilft>%s <b>Wo stehe ich?</b> Häng deine Klammer am Plakat weiter, wenn du einen Schritt geschafft hast. "
         "Wer an derselben Stelle hängt, kann dein Partner sein.</div>")
         % (e["etappe"], esc(e["titel"]), esc(e["ziel"]), esc(e["woche"]), esc(t),
-           (" · Quiz Märchenmerkmale" if e.get("extern") else "") + (" mit Legeplan und Satzstreifen" if e["gemeinsam"].get("legeplan") else ""), rows,
+           (" · Quiz Märchenmerkmale" if e.get("extern") else "") + (" mit Legeplan und Satzstreifen" if e["gemeinsam"].get("legeplan") else "") + (" mit Arbeitsseite" if e["gemeinsam"].get("arbeitsseite") else ""), rows,
            " · ".join("%s %s" % (sym(STRAT[s]["symbol"], 7), esc(STRAT[s]["titel"])) for s in strat), sym("klammer", 7)))
 
 
@@ -161,6 +161,26 @@ def streifen_html(e: dict) -> str:
             + "<div class=hilft>✂ Schneidet die Streifen aus. Lest jeden Streifen laut und einigt euch, wohin er gehört.</div>%s" % st)
 
 
+def arbeitsseite_html(e: dict) -> str:
+    a = e["gemeinsam"]["arbeitsseite"]
+    teile = ["<div style='break-before:page'></div>", kopf("Etappe %d · zu zweit · Arbeitsseite" % e["etappe"], a["titel"], "zwei")]
+    for b in a.get("boxen", []):
+        teile.append("<div class=anfang><b>%s</b><div>%s</div></div>" % (esc(b["titel"]), esc(b["text"])))
+    if a.get("tabelle"):
+        t = a["tabelle"]
+        kopfz = "".join("<td><b>%s</b></td>" % esc(s) for s in t["spalten"])
+        bsp = "".join("<td><i>%s</i></td>" % esc(s) for s in t.get("beispiel", []))
+        leer = ("<tr>%s</tr>" % ("<td style='height:12mm'></td>" * len(t["spalten"]))) * t["zeilen"]
+        teile.append("<table class=st style='table-layout:fixed;font-size:14pt'><tr>%s</tr>%s%s</table>" % (kopfz, "<tr>%s</tr>" % bsp if bsp else "", leer))
+    if a.get("schreiben"):
+        s = a["schreiben"]
+        teile.append("<div class=anfang style='margin-top:3mm'><b>%s</b><div>%s</div></div><div style='font-size:15pt'><b>%s</b></div>%s"
+                     % (esc(s["titel"]), esc(s["text"]), esc(s["auftrag"]), "<div class=linie></div>" * s["linien"]))
+    if e["gemeinsam"].get("unterschrift"):
+        teile.append("<div class=unterschrift><span>Wir haben zusammen gearbeitet:</span><span>und</span></div>")
+    return "".join(teile)
+
+
 def gemeinsam_html(e: dict) -> str:
     g = e["gemeinsam"]
     li = "".join("<li><span class=n>%d.</span><span>%s</span></li>" % (n, md(s)) for n, s in enumerate(g["schritte"], 1))
@@ -170,7 +190,8 @@ def gemeinsam_html(e: dict) -> str:
         + "<div class='kasten pflicht'><span class=etikett>SO GEHT IHR VOR</span><ol class=schritte>%s</ol>%s</div>" % (
             li, "<div class=tipp>Tipp: %s</div>" % md(g["tipp"]) if g.get("tipp") else "")
         + "<div class=starter><b>So denkt ihr laut:</b>%s</div>" % st
-        + ("<div class=unterschrift><span>Wir haben zusammen gearbeitet:</span><span>und</span></div>" if g.get("unterschrift") and not g.get("legeplan") else "")
+        + ("<div class=unterschrift><span>Wir haben zusammen gearbeitet:</span><span>und</span></div>" if g.get("unterschrift") and not g.get("legeplan") and not g.get("arbeitsseite") else "")
+        + (arbeitsseite_html(e) if g.get("arbeitsseite") else "")
         + (legeplan_html(e) if g.get("legeplan") else "") + (streifen_html(e) if g.get("streifen") else "")))
 
 
@@ -423,7 +444,7 @@ def bau_etappe(b: Bau, n: int):
             b.fehler.append("Strategie ohne Karte: " + s)
     d = b.mach(deckblatt_html(e), tmp / "deck.pdf", f"Etappe {n} · Paket", 14, 1)
     g = b.mach(gemeinsam_html(e), aus / f"E{n}_zu_zweit_A4.pdf", f"Etappe {n} · zu zweit", 14,
-               1 + bool(e["gemeinsam"].get("legeplan")) + bool(e["gemeinsam"].get("streifen")))
+               1 + bool(e["gemeinsam"].get("legeplan")) + bool(e["gemeinsam"].get("streifen")) + 2 * bool(e["gemeinsam"].get("arbeitsseite")))
     ein = b.mach(einzel_html(e), aus / f"E{n}_allein_A4.pdf", f"Etappe {n} · allein", 14, 2)
     ext = []
     for stw in e.get("extern", []):
@@ -438,7 +459,7 @@ def bau_etappe(b: Bau, n: int):
     for v, var in nw["varianten"].items():
         a = b.mach(gn_aufgaben_html(e, nw, v), tmp / f"gn_{v}.pdf", f"GN{n} {v}")
         r = b.mach(gn_rueckmeldung_html(e, nw, v), tmp / f"gn_{v}_r.pdf", f"GN{n} {v} · Rückmeldung")
-        s = verbinde([TEXTE / f"{var['maerchen']}_A4.pdf", a, r], aus / f"GN{n}_{v}_A4.pdf")
+        s = verbinde(([TEXTE / f"{var['maerchen']}_A4.pdf"] if var.get("maerchen") else []) + [a, r], aus / f"GN{n}_{v}_A4.pdf")
         b.bericht.append("%-40s %d S." % (f"etappe{n}/GN{n}_{v}_A4.pdf", s))
     b.mach(gn_erwartung_html(e, nw), aus / f"GN{n}_Erwartungshorizont_A4.pdf", f"GN{n} · Lehrkraft", 12)
     f = e["foerder"]
@@ -510,7 +531,8 @@ def druck_liste(n: int) -> list[tuple]:
     reihen = []
     if n == 1:
         reihen.append(("1_Kinder", "raum/Lernweg_F2_A4.pdf", "A4, einseitig", "je Kind 1", "zu Beginn der Reihe; bleibt in der Mappe"))
-    inhalt = "Deckblatt, „%s“, zu zweit%s, allein" % (t, " (mit Legeplan und Satzstreifen)" if e["gemeinsam"].get("legeplan") else "")
+    inhalt = "Deckblatt, „%s“, zu zweit%s, allein" % (t, " (mit Legeplan und Satzstreifen)" if e["gemeinsam"].get("legeplan") else
+                                                      " (mit Arbeitsseite)" if e["gemeinsam"].get("arbeitsseite") else "")
     hinweis = "Reihenfolge: " + inhalt + "."
     if e.get("extern"):
         hinweis += " Das Quiz der Kollegin hat zwei Exemplare auf einer Seite: halbieren, je Kind eine Hälfte."
@@ -538,7 +560,9 @@ def druck_liste(n: int) -> list[tuple]:
 
 DRUCK_EXTERN = {1: ["Merkblatt Märchenmerkmale (Kollegin) – Lerntheke, A5"],
                 2: ["Merkblatt Märchen-Spannungsbogen und Spannungsbogen universell (Kollegin) – Lerntheke",
-                    "Verbliste (Kollegin) – Lerntheke; folgt noch"]}
+                    "Verbliste (Kollegin) – Lerntheke; folgt noch"],
+                3: ["Märchen-Lückentext (Kollegin): Wortspeicher als Lerntheken-Karte, A5",
+                    "Rechtschreib-Check (Kollegin) – Lerntheke, für die wörtliche Rede; folgt noch"]}
 
 
 def druckanleitung_html(inv: list[tuple], n: int, start: int = 1) -> str:

@@ -92,6 +92,47 @@
     }
    ],
    "abschluss": "Erzählt euch das Märchen mit den Signalwörtern: Jemand … wollte … aber … dann … dann … also … also."
+  },
+  {
+   "woche": 3,
+   "text": "jorinde-joringel",
+   "strategien": [
+    "bilder",
+    "vorhersagen",
+    "figuren"
+   ],
+   "ablauf": [
+    "Lest abwechselnd: Einer liest einen Abschnitt laut, der andere liest leise mit. Dann wechselt ihr.",
+    "An jedem Stopp hört ihr auf. Ihr löst den Stopp gemeinsam und sagt laut, was ihr denkt."
+   ],
+   "stopps": [
+    {
+     "nach": "siebentausend solcher Körbe mit seltenen Vögeln im Schloss",
+     "symbol": "auge",
+     "frage": "Augen zu: Wie sieht das Schloss aus? Sagt: „Ich sehe …“"
+    },
+    {
+     "nach": "Er erschrak und wurde todbang",
+     "symbol": "fernglas",
+     "frage": "Was wird jetzt passieren? Vermutet mit dem Text."
+    },
+    {
+     "nach": "nicht Hand noch Fuß bewegen",
+     "symbol": "auge",
+     "frage": "Was seht und hört ihr? Sucht drei Wörter, die das Bild machen."
+    },
+    {
+     "nach": "mit großen roten Augen und krummer Nase",
+     "symbol": "figur",
+     "frage": "Wer ist die alte Frau? Helferin oder Gegenspielerin?"
+    },
+    {
+     "nach": "aber nicht zu nahe dabei",
+     "symbol": "fernglas",
+     "frage": "Wie könnte Joringel Jorinde retten? Vermutet."
+    }
+   ],
+   "abschluss": "Erzählt euch die Verwandlung so, dass der andere sie sehen kann: mit Adjektiven und treffenden Verben."
   }
  ]
 }

@@ -71,6 +71,21 @@
    ],
    "laut": "„… ist Helfer, weil in Zeile … steht: ….“",
    "tipp": "Eine Figur kann ihre Rolle wechseln. Achte darauf, was sie am Ende will."
+  },
+  {
+   "id": "bilder",
+   "symbol": "auge",
+   "etappe": 3,
+   "titel": "Bilder im Kopf",
+   "wann": "wenn du dir eine Stelle vorstellen oder sie anschaulich erzählen willst",
+   "schritte": [
+    "Mach die Augen zu. Was **siehst** du? Farben, Formen, Licht.",
+    "Was **hörst** du? Was **fühlst** du?",
+    "Such die Wörter, die das Bild machen: Adjektive (*glühend, krumm*) und treffende Verben (*schrie, murmelte*).",
+    "Beim Schreiben fragst du dich bei jedem Satz: Sieht mein Leser das?"
+   ],
+   "laut": "„Ich sehe …. Das Wort … macht das Bild.“",
+   "tipp": "Aus *ging* wird *schlich*, *rannte* oder *stolperte* – je nachdem, was passiert."
   }
  ]
 }

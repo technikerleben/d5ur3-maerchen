@@ -27,7 +27,7 @@ AUS = ROOT / "ausgabe" / "texte"
 
 ROLLEN = {
     "beispielmaerchen": "Beispielmärchen", "uebungsmaerchen_blatt5": "Übungsmärchen",
-    "etappe5_wahl1": "Etappe 5 · Märchenanfang zur Wahl", "etappe5_wahl2": "Etappe 5 · Märchenanfang zur Wahl",
+    "etappe5_wahl1": "Märchenanfang", "etappe5_wahl2": "Märchen der Woche · Anfang",
     "probearbeit": "Probearbeit", "lek_v1": "Lernerfolgskontrolle", "lek_v2": "Lernerfolgskontrolle",
     "training_ue1": "Training", "training_ue2": "Training",
 }
