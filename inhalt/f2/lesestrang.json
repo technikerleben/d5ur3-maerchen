@@ -133,6 +133,119 @@
     }
    ],
    "abschluss": "Erzählt euch die Verwandlung so, dass der andere sie sehen kann: mit Adjektiven und treffenden Verben."
+  },
+  {
+   "woche": 4,
+   "text": "weisse-schlange",
+   "strategien": [
+    "vorhersagen",
+    "merkmale",
+    "planen"
+   ],
+   "ablauf": [
+    "Lest abwechselnd: Einer liest einen Abschnitt laut, der andere liest leise mit. Dann wechselt ihr.",
+    "An jedem Stopp hört ihr auf. Ihr löst den Stopp gemeinsam und sagt laut, was ihr denkt."
+   ],
+   "stopps": [
+    {
+     "nach": "erst auf, wenn er ganz allein war",
+     "symbol": "fernglas",
+     "frage": "Was liegt wohl in der Schüssel? Vermutet."
+    },
+    {
+     "nach": "die Sprache der Tiere zu verstehen",
+     "symbol": "stern",
+     "frage": "Welche Märchenmerkmale findet ihr bis hier? Markiert zwei."
+    },
+    {
+     "nach": "für den Dieb halten und richten",
+     "symbol": "figur",
+     "frage": "Ist der König Helfer oder Gegenspieler? Begründet."
+    },
+    {
+     "nach": "wie er sich helfen könnte",
+     "symbol": "plan",
+     "frage": "Hier hört der Anfang auf. Wie kann sich der Diener helfen? Plant zusammen: D – D – A – A."
+    }
+   ],
+   "abschluss": "Sagt euch gegenseitig einen ersten Satz, der genau an den Anfang anschließt."
+  },
+  {
+   "woche": 5,
+   "text": "blaues-licht",
+   "strategien": [
+    "vorhersagen",
+    "figuren",
+    "bogen"
+   ],
+   "ablauf": [
+    "Lest abwechselnd: Einer liest einen Abschnitt laut, der andere liest leise mit. Dann wechselt ihr.",
+    "An jedem Stopp hört ihr auf. Ihr löst den Stopp gemeinsam und sagt laut, was ihr denkt."
+   ],
+   "stopps": [
+    {
+     "nach": "bis er abends in einen Wald kam",
+     "symbol": "fernglas",
+     "frage": "Was wird der Soldat im Wald finden? Vermutet."
+    },
+    {
+     "nach": "Dass du mir morgen meinen Garten umgräbst",
+     "symbol": "figur",
+     "frage": "Ist die Hexe gut oder böse? Prüft eure Vermutung von Stopp 1."
+    },
+    {
+     "nach": "ließ ihn wieder in den Brunnen hinabfallen und ging fort",
+     "symbol": "bogen",
+     "frage": "Welcher Teil des Spannungsbogens ist das? Begründet."
+    },
+    {
+     "nach": "die noch halb gestopft war",
+     "symbol": "fernglas",
+     "frage": "Hier hört der Anfang auf. Was hat die Pfeife mit dem blauen Licht zu tun? Vermutet, wie es weitergeht."
+    }
+   ],
+   "abschluss": "Welche Vermutung hat gestimmt? Woran habt ihr es im Text gemerkt?"
+  },
+  {
+   "woche": 6,
+   "text": "zertanzte-schuhe",
+   "strategien": [
+    "vorhersagen",
+    "merkmale",
+    "figuren"
+   ],
+   "ablauf": [
+    "Lest abwechselnd: Einer liest einen Abschnitt laut, der andere liest leise mit. Dann wechselt ihr.",
+    "An jedem Stopp hört ihr auf. Ihr löst den Stopp gemeinsam und sagt laut, was ihr denkt."
+   ],
+   "stopps": [
+    {
+     "nach": "wie das zugegangen war",
+     "symbol": "fernglas",
+     "frage": "Wohin gehen die Töchter in der Nacht? Vermutet."
+    },
+    {
+     "nach": "der muss das Land für immer verlassen",
+     "symbol": "stern",
+     "frage": "Welche Märchenmerkmale findet ihr? Denkt an Zahlen, Belohnung und Strafe."
+    },
+    {
+     "nach": "aber keinem erging es besser",
+     "symbol": "bogen",
+     "frage": "Viele haben es versucht. Was muss beim nächsten anders sein?"
+    },
+    {
+     "nach": "so bist du unsichtbar und kannst den zwölfen dann nachschleichen",
+     "symbol": "figur",
+     "frage": "Wer ist die alte Frau? Was bekommt der Soldat von ihr?"
+    },
+    {
+     "nach": "brachte ihm einen Becher Wein",
+     "symbol": "fernglas",
+     "frage": "Hier hört der Anfang auf. Was tut der Soldat jetzt? Vermutet mit dem Rat der alten Frau."
+    }
+   ],
+   "abschluss": "Lest euch einen Abschnitt so vor, als ob ihr ihn für das Märchenbuch aufnehmt: laut, langsam, mit Pausen."
   }
  ]
 }

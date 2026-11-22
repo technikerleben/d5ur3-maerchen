@@ -1,0 +1,48 @@
+{
+ "woche": 5,
+ "titel": "Meinen Text prüfen",
+ "strategie": "pruefen",
+ "dauer": "höchstens 10 Minuten",
+ "text_titel": "Das Ende von Mia (Übungstext mit Fehlern)",
+ "text": "Der Fischer suchte dreimal nach dem Stein. Dann geht er zum Nachbarn. Dann sah er den Stein im Fenster. Der Fischer rief Gib mir meinen Stein zurück! Da sprach der Stein: „Komm zu mir.“ Und der Nachbar wurde zu einer Kröte.",
+ "denken": [
+  {
+   "stelle": "suchte dreimal",
+   "gedanke": "Magische Zahl – im Märchen-Check bei K2 abhaken.",
+   "sagen": "Märchen-Check zeigen."
+  },
+  {
+   "stelle": "Dann geht er",
+   "gedanke": "Halt: „geht“ ist Gegenwart. Präteritum: „ging“. Ich verbessere mit grünem Stift.",
+   "sagen": "Sichtbar korrigieren."
+  },
+  {
+   "stelle": "Dann sah er",
+   "gedanke": "Schon wieder „Dann“. Besser: „Plötzlich sah er …“",
+   "sagen": ""
+  },
+  {
+   "stelle": "Der Fischer rief Gib",
+   "gedanke": "Hier fehlen die Redezeichen: rief: „Gib mir …!“",
+   "sagen": "Rechtschreib-Check zeigen."
+  },
+  {
+   "stelle": "wurde zu einer Kröte",
+   "gedanke": "Strafe – gut. Aber wo ist die Belohnung für den Fischer? Und der Schlusssatz fehlt. K3!",
+   "sagen": "Zum Schluss: zwei Dinge loben, zwei verbessern."
+  }
+ ],
+ "jetzt": [
+  "Etappe 4, zu zweit prüfen: Der andere liest deinen Text vor. Geht zusammen den Märchen-Check durch.",
+  "Sagt: „Das gelingt schon: … Verbessere noch: …“"
+ ],
+ "hilfe": [
+  "Lerntheke: Strategiekarte „Meinen Text prüfen“, Märchen-Check, Rechtschreib-Check, Verbliste",
+  "Plakat „Wo stehe ich?“: Häng deine Klammer an deinen Schritt."
+ ],
+ "skript": [
+  "Vor dem Lesen: „Das hat Mia geschrieben. Ich prüfe es laut – so wie ihr gleich euren Text.“",
+  "Mit anderer Stiftfarbe korrigieren.",
+  "Nach dem Input (30 Sekunden): Jedes Kind nennt dem Nachbarn den Punkt im Märchen-Check, den es heute besonders prüft."
+ ]
+}

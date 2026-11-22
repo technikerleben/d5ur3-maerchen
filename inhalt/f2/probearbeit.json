@@ -1,0 +1,140 @@
+{
+ "titel": "Ein Märchen zu Ende schreiben",
+ "text": "goldene-gans",
+ "situation": "Eure Klasse schreibt ein Märchenbuch. Von einem Märchen ist nur der Anfang da – das Ende ist verloren gegangen. Lies den Anfang und schreibe das Märchen zu Ende. Es soll spannend sein und wie ein echtes Märchen klingen.",
+ "zeit": [
+  [
+   "Lesen und markieren",
+   "5 Minuten"
+  ],
+  [
+   "Schreibplan (freiwillig)",
+   "10 Minuten"
+  ],
+  [
+   "Schreiben",
+   "25 Minuten"
+  ],
+  [
+   "Prüfen",
+   "5 Minuten"
+  ]
+ ],
+ "auftrag": [
+  "Lies den Märchenanfang. Markiere wichtige Stellen. Löse Aufgabe 1 und 2.",
+  "Plane dein Ende mit dem Schreibplan. Du darfst ihn nutzen, du musst aber nicht.",
+  "Schreibe das Märchen auf einem linierten Blatt zu Ende. Mach genau da weiter, wo der Anfang aufhört. Schreibe eine Überschrift und deinen Namen darauf.",
+  "Schreibe im Präteritum. Die Verbliste hilft dir.",
+  "Baue die Merkmale ein, die du in Aufgabe 2 angekreuzt hast.",
+  "Prüfe deinen Text mit dem Märchen-Check und dem Rechtschreib-Check. Verbessere mit einem anderen Stift."
+ ],
+ "aufgabe1": [
+  [
+   "magische Zahl",
+   "drei Söhne ({Z:goldene-gans:der hatte drei Söhne}) oder: Er bittet dreimal um Essen."
+  ],
+  [
+   "magisches Wesen",
+   "das alte graue Männlein ({Z:goldene-gans:begegnete ihm ein altes graues Männlein})"
+  ],
+  [
+   "Verwandlung",
+   "Aschenkuchen wird zum Eierkuchen, saures Bier zu Wein ({Z:goldene-gans:war es ein feiner Eierkuchen})"
+  ],
+  [
+   "magischer Gegenstand",
+   "die Gans mit Federn aus reinem Gold ({Z:goldene-gans:Federn aus reinem Gold})"
+  ]
+ ],
+ "aufgabe1_f": {
+  "text": "Welche Märchenmerkmale findest du im Anfang? Kreuze **drei** an.",
+  "optionen": [
+   "die Zahl drei",
+   "ein Handy",
+   "ein graues Männlein",
+   "eine goldene Gans",
+   "ein Fußballspiel"
+  ],
+  "loesung": [
+   "die Zahl drei",
+   "ein graues Männlein",
+   "eine goldene Gans"
+  ]
+ },
+ "merkmale": [
+  "magische Zahl (die 3)",
+  "magischer Gegenstand",
+  "Gegenspieler:in (böse Figur)",
+  "Reim oder Zauberspruch",
+  "Verkleinerungsform (*-chen, -lein*)",
+  "Verwandlung",
+  "Belohnung für die Guten",
+  "Strafe für die Bösen",
+  "feste Formel am Schluss"
+ ],
+ "rahmen_f": [
+  [
+   "D",
+   "dann",
+   "Am Abend kam der Dummling mit seiner Gans in ein Wirtshaus. Dort",
+   3
+  ],
+  [
+   "D",
+   "dann",
+   "Plötzlich",
+   2
+  ],
+  [
+   "",
+   "",
+   "Es wurde gefährlich, denn",
+   2
+  ],
+  [
+   "A",
+   "also",
+   "Da half",
+   2
+  ],
+  [
+   "A",
+   "also",
+   "Am Ende",
+   2
+  ],
+  [
+   "",
+   "",
+   "Und wenn sie nicht gestorben sind,",
+   1
+  ]
+ ],
+ "erwartung": [
+  [
+   "K1 Aufbau",
+   "schließt im Wirtshaus mit der Gans an (Wirtstöchter, Diebstahl, Weg zum Königsschloss o. Ä.); Höhepunkt erkennbar; Lösung passt zum Anfang (z. B. hilft das Männlein, die Gans hilft dem Guten)"
+  ],
+  [
+   "K2 Merkmale",
+   "mindestens 4 passende, z. B. Zahl 3 aufgreifen, Männlein als Helfer, Zauber der Gans, Verwandlung, Gegenspieler:in (Wirt, König, Brüder), Belohnung des Dummlings"
+  ],
+  [
+   "K3 Schluss",
+   "Dummling wird belohnt (Prinzessin, Reich, Ansehen); Böse werden bestraft; Schlusssatz (z. B. „Und wenn sie nicht gestorben sind …“)"
+  ],
+  [
+   "K4 Sprache",
+   "Präteritum durchgehend; treffende Verben und Adjektive; nicht nur „Dann“"
+  ],
+  [
+   "K5 Verständlich",
+   "sinnvolle Reihenfolge, Absätze; Überschrift und Name"
+  ],
+  [
+   "K6 Prüfen",
+   "Rechtschreibung, Zeichensetzung, wörtliche Rede; sichtbare Korrekturen"
+  ]
+ ],
+ "freigabe": "Freigabe für Arbeit 3: mindestens Mindeststandard (Spalte „Das Wichtigste gelingt“) in 4 von 6 Kriterien. Punkte nur zur Orientierung, keine Note. Danach Wahlhilfe: offene Kriterien → Übungsweg."
+}

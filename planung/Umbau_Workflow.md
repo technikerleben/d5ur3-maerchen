@@ -1,6 +1,6 @@
 # Workflow: Umbau der Reihe „Märchen“ (Fassung 2)
 
-Stand: 22.11.2026 · Grundlage: Entscheidungen von C vom 14. und 16.11.2026 (inkl. Zeit- und Raummodell, Material der Kollegin) · Etappe 1 bis 3 gebaut
+Stand: 22.11.2026 · Grundlage: Entscheidungen von C vom 14. und 16.11.2026 (inkl. Zeit- und Raummodell, Material der Kollegin) · Etappe 1 bis 4 gebaut
 
 ## Ausgangslage und Ziel
 
@@ -219,7 +219,8 @@ Spätester sinnvoller Abschluss: rund zwei Wochen vor Reihenbeginn (Anfang Dezem
 | U2 Technik | `tools/build_f2.py` gebaut: Etappenpaket, Wocheninput mit Klick-Denkblasen und Skript, Lesebogen, Strategiekarten A5, Plakat „Wo stehe ich?“ (A3, zugleich Mitdenk-Tafel), Zonenschilder, Karte „Laut denken“, Lernweg F2. Prüfungen: mind. 14 pt, Seitenzahlen, keine überlaufenden Folien (1280×800, 1024×768), jede Strategie hat eine Karte. Fassung 1 liegt in `archiv/fassung1/` (der Git-Tag `fassung-1` existiert nur lokal, Hochladen vom Proxy abgelehnt). |
 | U3 Muster Etappe 1 | gebaut 16.11.2026, Gate D1 erledigt (C: „weiter mit Etappe 2“) |
 | U4 Etappe 2 | gebaut 22.11.2026, Gate D2 erledigt (C: „weiter zu Etappe 3“) |
-| U4 Etappe 3 | gebaut 22.11.2026 → **Gate D3 offen** (Prüfung durch C) |
+| U4 Etappe 3 | gebaut 22.11.2026, Gate D3 erledigt (C: „weiter“) |
+| U4 Etappe 4 | gebaut 22.11.2026 mit Probearbeit (normal und F), Inputs W4–W6, Lesebogen W4–W6 → **Gate D4 offen** (Prüfung durch C) |
 
 Hinweise zum Muster:
 
@@ -228,5 +229,7 @@ Hinweise zum Muster:
 - **Wocheninput W1:** Der Übungstext „Das Schneiderlein“ ist selbst verfasst. Er ist bewusst nicht „Frau Holle“, damit der Input nichts vom gemeinsamen Blatt vorwegnimmt.
 - **Etappe 2 „Der Spannungsbogen“:** Zu zweit legen die Kinder „Rumpelstilzchen“ mit sieben Satzstreifen auf einen J‑W‑A‑D‑D‑A‑A-Legeplan, befragen das Männchen (erst Helfer, dann Gegenspieler) und erzählen ohne Vorlage nach. Allein: Präteritum und ein Schluss für die selbst verfasste Geschichte „Das Mehlsäckchen“. GN2 A/B verwenden „Die drei Brüder“ und „Die drei Faulen“; Rollen und Schluss werden an selbst verfassten Kurzgeschichten geprüft („Die Gans des Bauern“ und „Der Schuhmacher und der Riese“). Neue Strategiekarten: „Mit dem Spannungsbogen zusammenfassen“ und „Figuren befragen“. Input W2 hat den Übungstext „Die Gänsehirtin“. **Die Verbliste der Kollegin fehlt noch.** Auf sie verweisen das Blatt „allein“ und die Druckanleitung.
 - **Etappe 3 „Bilder im Kopf“:** Zu zweit lesen die Kinder die Verwandlungsszene aus „Jorinde und Joringel“ mit geschlossenen Augen vor („Ich sehe … Ich höre …“). Dann vergleichen sie sie mit einer blassen Fassung, sammeln Bild-Wörter in einer Tabelle (Adjektive, treffende Verben, Satzanfänge, wörtliche Rede) und schreiben gemeinsam den Höhepunkt (Blume, Erlösung) aus einer blassen Fassung anschaulich. Allein: Adjektive erkennen, treffende Wörter, Satzanfänge und Redezeichen, Höhepunkt zu „Der Brunnen im Moor“ (selbst verfasst). GN3 A/B nutzen die gesperrten Anfänge „Die Stiefel am Wegrand“ und „Der Spiegel im Turm“ für E3.5. Neue Strategiekarte „Bilder im Kopf“. Input W3 hat den Übungstext „Die Brücke aus Glas“. Lerntheke: Wortspeicher aus dem Lückentext der Kollegin; **der Rechtschreib-Check fehlt noch**. Der Kopf des Märchentexts heißt jetzt „Märchen der Woche · Anfang“ statt „Etappe 5 · zur Wahl“.
+- **Etappe 4 „Ein Märchen zu Ende schreiben“ (W4–W6):** Zu zweit markieren die Kinder den Anfang der „Weißen Schlange“, sammeln Merkmale mit Zeile, planen D‑D‑A‑A mit dem Schreibplan der Kollegin (steckt im Paket) und prüfen sich nach dem Schreiben gegenseitig mit dem neuen **Märchen-Check** (K1–K6 des Feedbackbogens in Kindersprache, hinten im Paket und auf der Lerntheke). Allein: 4 Merkmale ankreuzen, Ende auf liniertem Papier, prüfen und verbessern. Neue Strategiekarten: „Ein Ende planen“, „Meinen Text prüfen“, „Ein Ende in 45 Minuten“. Inputs W4 (Planen, „Der Fischer und der Stein“), W5 (Prüfen, Übungstext mit Fehlern), W6 (Zeitplan). Lesebogen W4 Weiße Schlange, W5 Blaues Licht, W6 Zertanzte Schuhe (die Texte für W5/W6 je Tandem zusätzlich drucken).
+- **Probearbeit = Nachweis Etappe 4:** im Format der Arbeit 3 mit „Die goldene Gans“: Seite 1 Situation, Zeitplan und Auftrag, dann der Anfang mit Zeilennummern, dann Aufgabe 1 (4 Merkmale mit Beispiel) und Aufgabe 2 (mindestens 4 Merkmale ankreuzen). Schreibplan und Feedbackbogen kommen von den Originalen der Kollegin. **Probearbeit F:** Aufgabe 1 zum Ankreuzen und ein Schreibrahmen mit Satzanfängen für D‑D‑A‑A. Erwartungshorizont mit Hinweisen zu K1–K6 für diesen Anfang; Freigabe ab Mindeststandard in 4 von 6. Förderpaket 4: Merkkarte, Blatt 7F „Ein Ende planen“ und der Lückentext der Kollegin (deshalb nicht im Repo).
 - **Druck:** `build_f2.py druck` erzeugt pro Etappe ein `Gesamtpaket_F2_Etappe{n}.pdf` mit nur den neuen Teilen.
 - **Lösungen für den Kiosk** stehen schon in `inhalt/f2/etappe{n}.json` unter dem Schlüssel `kiosk`. Der Kiosk selbst wird in U5 neu gebaut.

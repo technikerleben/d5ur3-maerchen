@@ -1,0 +1,196 @@
+{
+ "_hinweis": "Fassung 2 · Etappe 4. Paket: Deckblatt, Märchenanfang, zu zweit (mit Arbeitsseite), Schreibplan der Kollegin, allein, Märchen-Check. Nachweis: Probearbeit.",
+ "etappe": 4,
+ "titel": "Ein Märchen zu Ende schreiben",
+ "ziel": "Ich schreibe ein Märchen zu Ende: geplant, mit Märchenmerkmalen, im Präteritum, und ich prüfe meinen Text.",
+ "woche": "Woche 4 und 5",
+ "text": "weisse-schlange",
+ "extern": [
+  "Ma_rchen-Schreibplan"
+ ],
+ "extern_name": "Schreibplan",
+ "anhang_check": true,
+ "gemeinsam": {
+  "titel": "Zusammen planen, zusammen prüfen",
+  "brauchst": "„Die weiße Schlange“ · Textmarker · Schreibplan · Märchen-Check",
+  "strategien": [
+   "planen",
+   "pruefen"
+  ],
+  "schritte": [
+   "Häng deine Klammer am Plakat „Wo stehe ich?“ an **Etappe 4 · zu zweit**. Arbeite mit einem Kind, das dort hängt.",
+   "**Markiert** im Anfang: Wer? Was ist das Problem? Wo hört der Anfang auf?",
+   "**Merkmale finden:** Schreibt zu jedem Merkmal ein Beispiel mit Zeile in die Tabelle (Arbeitsseite).",
+   "**Zusammen planen:** Füllt den Schreibplan der Kollegin aus, J – W – A habt ihr schon, plant **D – D – A – A**. Jedes Kind schreibt den Plan auf sein eigenes Blatt. Ihr dürft unterschiedliche Ideen haben.",
+   "Jetzt schreibt jedes Kind **allein** sein Ende (Blatt „Allein“).",
+   "**Zusammen prüfen:** Der andere liest deinen Text laut vor. Geht zusammen den Märchen-Check durch. Schreibt euch je zwei Sätze auf die Arbeitsseite: Was gelingt schon? Was verbesserst du noch?"
+  ],
+  "tipp": "Beim Prüfen: Erst loben, dann einen Tipp geben. Der Text gehört dem, der ihn geschrieben hat.",
+  "unterschrift": true,
+  "arbeitsseite": {
+   "titel": "Merkmale und Rückmeldung",
+   "tabellen": [
+    {
+     "spalten": [
+      "Merkmal",
+      "Beispiel aus dem Text",
+      "Zeile"
+     ],
+     "breiten": [
+      "50mm",
+      "",
+      "22mm"
+     ],
+     "zeilen_kopf": [
+      "Märchenanfang (Formel)",
+      "Zauber oder magisches Wesen",
+      "typische Figuren",
+      "das Problem"
+     ]
+    },
+    {
+     "titel": "Rückmeldung nach dem Prüfen",
+     "spalten": [
+      "",
+      "Das gelingt schon:",
+      "Das verbessere ich noch:"
+     ],
+     "breiten": [
+      "30mm",
+      "",
+      ""
+     ],
+     "zeilen_kopf": [
+      "Text von ……",
+      "Text von ……"
+     ],
+     "hoehe": "30mm"
+    }
+   ]
+  }
+ },
+ "einzel": {
+  "titel": "Mein Ende schreiben",
+  "aufgaben": [
+   {
+    "titel": "Merkmale planen",
+    "strategie": "planen",
+    "text": "Kreuze **mindestens 4** Merkmale an. Diese baust du in dein Ende ein.\n☐ magische Zahl (die 3) ☐ magischer Gegenstand ☐ Gegenspieler:in\n☐ Reim oder Zauberspruch ☐ Verkleinerungsform (*-chen, -lein*) ☐ Verwandlung\n☐ Belohnung für die Guten ☐ Strafe für die Bösen ☐ feste Formel am Schluss",
+    "linien": 0
+   },
+   {
+    "titel": "Dein Ende schreiben",
+    "text": "Schreibe „Die weiße Schlange“ auf einem **linierten Blatt** zu Ende.\n• Mach genau da weiter, wo der Anfang aufhört.\n• Schreibe eine Überschrift und deinen Namen darauf.\n• Schreibe im Präteritum. Die Verbliste hilft dir.\n• Baue deine 4 Merkmale ein. Achte auf Höhepunkt, Lösung und Schluss.",
+    "linien": 0
+   },
+   {
+    "titel": "Prüfen und verbessern",
+    "strategie": "pruefen",
+    "text": "Prüfe deinen Text mit dem **Märchen-Check** (hinten im Paket). Verbessere mit einem anderen Stift. Danach prüft ihr zu zweit (Blatt „Zu zweit“, Schritt 6).\n**Darauf achte ich in der Probearbeit besonders:**",
+    "linien": 2
+   }
+  ],
+  "vertiefung": "Erfinde einen Zauberspruch oder Reim für dein Märchen und baue ihn ein."
+ },
+ "kiosk": {
+  "gemeinsam": "Märchenanfang: „Vor langer Zeit lebte ein König“ ({Z:weisse-schlange:Vor langer Zeit lebte ein König}) · Zauber: Wer von der weißen Schlange isst, versteht die Tiere ({Z:weisse-schlange:die Sprache der Tiere zu verstehen}) · Figuren: König, Königin, treuer Diener · Problem: Der Ring ist weg, der Diener wird verdächtigt ({Z:weisse-schlange:Der Verdacht fiel auf den treuen Diener}). Der Anfang hört auf, als der Diener im Hof überlegt.",
+  "einzel": "Dein Ende passt, wenn es im Hof anschließt (z. B. hört der Diener Tiere sprechen, eine Ente hat den Ring verschluckt), einen Höhepunkt, eine Lösung und einen Schluss mit Belohnung oder Strafe hat. Prüfe mit dem Märchen-Check."
+ },
+ "nachweis": {
+  "art": "probearbeit",
+  "titel": "Probearbeit",
+  "deck": "Probearbeit: Hol sie bei der Lehrkraft. Ab Mindeststandard in 4 von 6 Punkten bist du bereit für die Arbeit."
+ },
+ "foerder": {
+  "bild": "brunnen_spindel",
+  "extern": [
+   "Lu_ckentext"
+  ],
+  "merkkarte": [
+   [
+    "Anschluss",
+    "Ich schreibe genau da weiter, wo der Anfang aufhört."
+   ],
+   [
+    "Plan",
+    "D dann · D dann · A also · A also"
+   ],
+   [
+    "4 Merkmale",
+    "z. B. die Zahl 3, Zauber, Fee, Belohnung"
+   ],
+   [
+    "Früher",
+    "Ich schreibe im Präteritum: *ging, sah, rief*"
+   ],
+   [
+    "Prüfen",
+    "Ich lese meinen Text noch einmal."
+   ]
+  ],
+  "blaetter": [
+   {
+    "nr": "7F",
+    "titel": "Ein Ende planen",
+    "signet": "weiterschreiben",
+    "auftraege": [
+     {
+      "art": "lesen",
+      "text": "Lies: *Es war einmal ein Mädchen, das hatte eine kranke Katze. Eine Fee sagte: „Hol drei Kräuter aus dem Zauberwald.“ Doch im Wald wohnte ein böser Wolf.*"
+     },
+     {
+      "art": "ankreuzen",
+      "text": "Was ist das **Problem**? Kreuze an.",
+      "optionen": [
+       "Das Mädchen hat eine Katze.",
+       "Im Wald wohnt ein böser Wolf."
+      ],
+      "loesung": [
+       "Im Wald wohnt ein böser Wolf."
+      ]
+     },
+     {
+      "art": "ankreuzen",
+      "text": "Welche **Märchenmerkmale** sind im Anfang? Kreuze **zwei** an.",
+      "optionen": [
+       "die Zahl drei",
+       "ein Auto",
+       "eine Fee"
+      ],
+      "loesung": [
+       "die Zahl drei",
+       "eine Fee"
+      ]
+     },
+     {
+      "art": "zuordnen",
+      "text": "Plane das Ende. In welcher Reihenfolge? Schreibe **1**, **2**, **3** oder **4** in das Kästchen.",
+      "paare": [
+       [
+        "Die Katze wird gesund.",
+        "4"
+       ],
+       [
+        "Das Mädchen findet die drei Kräuter.",
+        "1"
+       ],
+       [
+        "Die Fee verzaubert den Wolf in eine Maus.",
+        "3"
+       ],
+       [
+        "Der Wolf springt aus dem Gebüsch.",
+        "2"
+       ]
+      ]
+     },
+     {
+      "art": "schreiben",
+      "text": "Schreibe einen Schlusssatz für das Märchen.",
+      "linien": 2
+     }
+    ]
+   }
+  ]
+ }
+}

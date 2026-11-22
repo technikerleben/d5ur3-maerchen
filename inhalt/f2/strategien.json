@@ -86,6 +86,51 @@
    ],
    "laut": "„Ich sehe …. Das Wort … macht das Bild.“",
    "tipp": "Aus *ging* wird *schlich*, *rannte* oder *stolperte* – je nachdem, was passiert."
+  },
+  {
+   "id": "planen",
+   "symbol": "plan",
+   "etappe": 4,
+   "titel": "Ein Ende planen",
+   "wann": "wenn du ein Märchen zu Ende schreiben sollst",
+   "schritte": [
+    "Lies den Anfang und markiere: **Wer?** Was ist das **Problem**? Welche **Merkmale**?",
+    "Such die Stelle, wo der Anfang **aufhört**. Dein erster Satz schließt genau dort an.",
+    "Plane **D – D – A – A** in Stichworten (Schreibplan).",
+    "Kreuze **4 Merkmale** an, die du einbaust."
+   ],
+   "laut": "„Der Anfang hört auf bei …. Deshalb muss als Nächstes …“",
+   "tipp": "Stichworte reichen. Ein Plan ist noch kein Text."
+  },
+  {
+   "id": "pruefen",
+   "symbol": "haken",
+   "etappe": 4,
+   "titel": "Meinen Text prüfen",
+   "wann": "wenn dein Text fertig ist",
+   "schritte": [
+    "Lies deinen Text Satz für Satz. Fahr mit dem Finger mit.",
+    "Geh den **Märchen-Check** durch und hake ab.",
+    "**Rechtschreib-Check:** Präteritum? Redezeichen? Großschreibung?",
+    "Verbessere mit einem anderen Stift."
+   ],
+   "laut": "„Hier fehlt noch …. Ich verbessere ….“",
+   "tipp": "Zu zweit: Der andere liest deinen Text vor. Fehler hört man!"
+  },
+  {
+   "id": "zeit",
+   "symbol": "uhr",
+   "etappe": 4,
+   "titel": "Ein Ende in 45 Minuten",
+   "wann": "in der Probearbeit und in der Arbeit",
+   "schritte": [
+    "**5 Minuten:** lesen und markieren, Aufgabe 1 und 2.",
+    "**10 Minuten:** Schreibplan in Stichworten.",
+    "**25 Minuten:** schreiben. Nach der Hälfte auf die Uhr schauen: Bin ich beim Höhepunkt?",
+    "**5 Minuten:** prüfen."
+   ],
+   "laut": "„Es sind noch … Minuten. Jetzt schreibe ich ….“",
+   "tipp": "Wird die Zeit knapp: erst Lösung und Schluss, dann verschönern."
   }
  ]
 }

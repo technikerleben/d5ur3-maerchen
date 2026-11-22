@@ -1,0 +1,43 @@
+{
+ "woche": 6,
+ "titel": "Ein Ende in 45 Minuten",
+ "strategie": "zeit",
+ "dauer": "höchstens 10 Minuten",
+ "text_titel": "Mein Zeitplan für die Arbeit",
+ "text": "Lesen und Markieren: 5 Minuten. Schreibplan: 10 Minuten. Schreiben: 25 Minuten. Prüfen: 5 Minuten.",
+ "denken": [
+  {
+   "stelle": "Lesen und Markieren",
+   "gedanke": "Ich lese den Anfang ganz. Ich markiere nur: Wer? Problem? Wo hört er auf? Dann Aufgabe 1 und 2.",
+   "sagen": "Uhr an der Wand zeigen."
+  },
+  {
+   "stelle": "Schreibplan",
+   "gedanke": "Nur Stichworte: D, D, A, A. Nach 10 Minuten fange ich an – fertig oder nicht.",
+   "sagen": ""
+  },
+  {
+   "stelle": "Schreiben: 25 Minuten",
+   "gedanke": "Nach der Hälfte schaue ich auf die Uhr: Bin ich schon beim Höhepunkt?",
+   "sagen": "Zwischenzeit an die Tafel schreiben lassen."
+  },
+  {
+   "stelle": "Prüfen: 5 Minuten",
+   "gedanke": "Die letzten 5 Minuten gehören dem Prüfen: Präteritum? Redezeichen? Schlusssatz?",
+   "sagen": "Zum Schluss: Wer früher fertig ist, prüft länger."
+  }
+ ],
+ "jetzt": [
+  "Schreibt euch die Uhrzeiten für eure Probearbeit oder Trainingsrunde auf: Wann ist Halbzeit?",
+  "Erklärt dem Partner euren Zeitplan."
+ ],
+ "hilfe": [
+  "Lerntheke: Strategiekarte „Ein Ende in 45 Minuten“",
+  "Plakat „Wo stehe ich?“: Häng deine Klammer an deinen Schritt."
+ ],
+ "skript": [
+  "Vor dem Input: „In der Arbeit habt ihr 45 Minuten. Ich zeige, wie ich die Zeit einteile.“",
+  "Uhrzeiten konkret für die nächste Stunde ausrechnen.",
+  "Nach dem Input (30 Sekunden): Jedes Kind sagt, um wie viel Uhr es mit dem Schreiben anfängt."
+ ]
+}
