@@ -1,5 +1,7 @@
 # Workflow: Umbau der Reihe „Märchen“ (Fassung 2)
 
+> **Abgelöst durch [Fassung 3](Fassung3.md) (24.11.2026).** Gate D4 entfällt; Etappe 4 der Fassung 2 ist jetzt Etappe 3, Etappe 3 ist Etappe 4 in Teil 2.
+
 Stand: 22.11.2026 · Grundlage: Entscheidungen von C vom 14. und 16.11.2026 (inkl. Zeit- und Raummodell, Material der Kollegin) · Etappe 1 bis 4 gebaut
 
 ## Ausgangslage und Ziel
@@ -220,7 +222,7 @@ Spätester sinnvoller Abschluss: rund zwei Wochen vor Reihenbeginn (Anfang Dezem
 | U3 Muster Etappe 1 | gebaut 16.11.2026, Gate D1 erledigt (C: „weiter mit Etappe 2“) |
 | U4 Etappe 2 | gebaut 22.11.2026, Gate D2 erledigt (C: „weiter zu Etappe 3“) |
 | U4 Etappe 3 | gebaut 22.11.2026, Gate D3 erledigt (C: „weiter“) |
-| U4 Etappe 4 | gebaut 22.11.2026 mit Probearbeit (normal und F), Inputs W4–W6, Lesebogen W4–W6 → **Gate D4 offen** (Prüfung durch C) |
+| U4 Etappe 4 | gebaut 22.11.2026 mit Probearbeit (normal und F), Inputs W4–W6, Lesebogen W4–W6 → Gate D4 entfällt (Neuplanung Fassung 3, 24.11.2026) |
 
 Hinweise zum Muster:
 

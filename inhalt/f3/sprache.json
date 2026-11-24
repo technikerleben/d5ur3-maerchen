@@ -1,0 +1,71 @@
+{
+ "_hinweis": "Fassung 3 · Sprache (eigenes Fach, freitags 7./8. Stunde, zwei Lehrkräfte, zwei Räume). Sprache liest die Märchen im Vorgriff im Lesetandem; Deutsch arbeitet danach an Inhalt, Merkmalen und Aufbau. Lesebogen aus lesestrang.json (Woche = Lesebogen), Sprachaufgaben aus den Einzelblättern der Fassung 2.",
+ "termine": [
+  {
+   "n": 1,
+   "datum": "Fr 04.12.",
+   "lesebogen": 1,
+   "deutsch": "vor Etappe 1",
+   "plan": "Zu Beginn lesen alle „Frau Holle“ im Lesetandem (etwa 30 Minuten). Danach Lernzeit: Kinder mit dem späten Zootiere-Termin (08.12.) bereiten sich vor (eine Lehrkraft, ein Raum); die anderen vertiefen den Text und erkennen Verben (zweite Lehrkraft, zweiter Raum).",
+   "titel": "Verben in „Frau Holle“",
+   "aufgaben": [
+    {
+     "titel": "Verben erkennen",
+     "merke": "**Verben** sagen, was jemand tut oder was geschieht: *spinnen, rufen, fallen*.",
+     "text": "Unterstreiche alle Verben. Es sind **acht**.",
+     "satzbox": "Das Mädchen saß am Brunnen und spann. Da sprang die Spindel aus seiner Hand und fiel hinab. Das Mädchen weinte und lief zur Stiefmutter. Die schimpfte und rief laut.",
+     "linien": 0
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "datum": "Fr 11.12.",
+   "lesebogen": 2,
+   "deutsch": "vor Etappe 2",
+   "plan": "„Rumpelstilzchen“ im Lesetandem lesen; danach Verben im Präteritum.",
+   "titel": "Verben im Präteritum",
+   "aufgaben": [
+    {
+     "titel": "Verben im Präteritum",
+     "merke": "Märchen erzählen von früher, im **Präteritum**: *er spinnt → er **spann***. Schau in der Verbliste nach, wenn du unsicher bist.",
+     "text": "Schreibe die Form von früher (Präteritum):\ner spinnt → er ____________\nsie kommt → sie ____________\ner ruft → er ____________\nsie weint → sie ____________\ner singt → er ____________\nsie springt → sie ____________\ner gibt → er ____________\nsie weiß → sie ____________",
+     "linien": 0
+    },
+    {
+     "titel": "Im Präteritum erzählen",
+     "merke": "Was in „…“ steht, bleibt, wie es gesagt wurde.",
+     "text": "Schreibe den Abschnitt im Präteritum ab:",
+     "satzbox": "Die Königin wartet. Da kommt das Männchen und sagt: „Nun gib mir dein Kind!“ Die Königin erschrickt.",
+     "linien": 3
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "datum": "Fr 18.12.",
+   "lesebogen": 4,
+   "deutsch": "zu Etappe 3",
+   "plan": "Den Anfang der „Weißen Schlange“ im Lesetandem lesen und vorhersagen. Wer fertig ist, liest schon „Jorinde und Joringel“ (Lesebogen von Termin 4).",
+   "titel": null,
+   "aufgaben": []
+  },
+  {
+   "n": 4,
+   "datum": "Fr 08.01.",
+   "lesebogen": 3,
+   "deutsch": "Training vor der Arbeit",
+   "plan": "„Jorinde und Joringel“ im Lesetandem: vorhersagen und Bilder im Kopf; danach Adjektive erkennen.",
+   "titel": "Adjektive erkennen",
+   "aufgaben": [
+    {
+     "titel": "Adjektive erkennen",
+     "merke": "**Adjektive** sagen, wie etwas ist: *die **alte** Mauer, der **dunkle** Wald*.",
+     "text": "Unterstreiche alle Adjektive. Es sind sechs.",
+     "satzbox": "Im dunklen Wald stand ein altes Schloss. Eine krumme Frau mit roten Augen lebte darin. Sie war mager und böse.",
+     "linien": 0
+    }
+   ]
+  }
+ ]
+}

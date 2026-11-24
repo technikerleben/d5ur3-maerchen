@@ -1,0 +1,48 @@
+{
+ "woche": 1,
+ "titel": "Märchenmerkmale finden",
+ "strategie": "merkmale",
+ "dauer": "höchstens 10 Minuten",
+ "text_titel": "Das Schneiderlein (Übungstext)",
+ "text": "Es war einmal ein armes Schneiderlein, das wohnte in einem kleinen Häuschen am Waldrand. Sieben Tage in der Woche nähte es für die Leute im Dorf. Eines Abends klopfte es dreimal an die Tür. Draußen saß eine graue Katze und sprach: „Nähe mir einen Mantel aus Mondlicht, dann will ich dein Glück sein.“",
+ "denken": [
+  {
+   "stelle": "Es war einmal",
+   "gedanke": "„Es war einmal“ – das kenne ich. Auf dem Merkblatt steht: typischer Anfang. Ich schreibe: Anfang – „Es war einmal“.",
+   "sagen": "Lies den ersten Satz vor, zeig auf das Merkblatt (Bereich Anfang)."
+  },
+  {
+   "stelle": "armes Schneiderlein",
+   "gedanke": "Arm … ist das ein Merkmal? Ich schaue nach: Bei „Gut und Böse“ steht: Die Guten sind oft arm. Und „-lein“ ist eine Verkleinerung! Das sind schon zwei Merkmale.",
+   "sagen": "Zeig echte Unsicherheit und dann das Nachschlagen. Kein schnelles Abhaken."
+  },
+  {
+   "stelle": "dreimal",
+   "gedanke": "Dreimal! Merkblatt: Dreierregel. Und vorhin stand „Sieben“ – auch eine Zauberzahl.",
+   "sagen": "Geh im Text zurück zu „Sieben“: Lesen heißt auch zurückschauen."
+  },
+  {
+   "stelle": "eine graue Katze und sprach",
+   "gedanke": "Eine Katze spricht? Das gibt es in Wirklichkeit nicht. Zauber: sprechende Tiere.",
+   "sagen": "Nutze die Prüffrage der Strategiekarte: Gibt es das in Wirklichkeit?"
+  },
+  {
+   "stelle": "Mantel aus Mondlicht",
+   "gedanke": "Hm, da bin ich unsicher. Einen Mantel aus Mondlicht nähen – das ist fast unmöglich. Ich glaube, das ist eine Prüfung. Ich frage mich, ob das Schneiderlein es schafft …",
+   "sagen": "Ende offen lassen; die Frage leitet zur Strategie Vorhersagen über."
+  }
+ ],
+ "jetzt": [
+  "Etappe 1, gemeinsames Blatt: Sucht zu zweit in „Frau Holle“ zu jedem Bereich ein Merkmal mit Beispiel und Zeile.",
+  "Sagt dabei laut, was ihr denkt: „Hier steht …. Das ist das Merkmal …, weil ….“"
+ ],
+ "hilfe": [
+  "Lerntheke: Merkblatt Märchenmerkmale und Strategiekarte „Märchenmerkmale finden“",
+  "Plakat „Wo stehe ich?“: Häng deine Klammer an deinen Schritt. Dort findest du deinen Partner."
+ ],
+ "skript": [
+  "Vor dem Lesen: „Ich zeige euch, was in meinem Kopf passiert, wenn ich ein Märchen lese. Hört zu, ich denke laut.“",
+  "Nach dem Input (30 Sekunden): Jedes Kind sagt seinem Nachbarn, welchen Bereich es in „Frau Holle“ zuerst untersuchen will.",
+  "Kein Merkblatt vorlesen – das Merkblatt liegt auf der Lerntheke. Der Input zeigt nur das Vorgehen."
+ ]
+}

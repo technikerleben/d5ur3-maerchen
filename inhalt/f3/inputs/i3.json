@@ -1,0 +1,48 @@
+{
+ "woche": 3,
+ "titel": "Ein Ende planen",
+ "strategie": "planen",
+ "dauer": "höchstens 10 Minuten",
+ "text_titel": "Der Fischer und der Stein (Übungstext)",
+ "text": "Es war einmal ein armer Fischer, der hatte drei hungrige Kinder. Eines Morgens fing er statt eines Fisches einen glänzenden Stein. „Wirf mich nicht zurück“, sprach der Stein, „ich erfülle dir einen Wunsch.“ Doch in der Nacht kam der gierige Nachbar und stahl den Stein aus der Hütte. Als der Fischer erwachte, war der Platz auf dem Tisch leer.",
+ "denken": [
+  {
+   "stelle": "Es war einmal",
+   "gedanke": "Feste Formel am Anfang. Ich markiere sie: Merkmal 1.",
+   "sagen": "Textmarker sichtbar benutzen."
+  },
+  {
+   "stelle": "drei hungrige Kinder",
+   "gedanke": "Drei – magische Zahl. Er will Essen für sie: das ist W.",
+   "sagen": ""
+  },
+  {
+   "stelle": "„Wirf mich nicht zurück“",
+   "gedanke": "Ein sprechender Stein: magischer Gegenstand.",
+   "sagen": ""
+  },
+  {
+   "stelle": "der gierige Nachbar",
+   "gedanke": "A – aber: Der Gegenspieler macht das Problem.",
+   "sagen": ""
+  },
+  {
+   "stelle": "war der Platz auf dem Tisch leer",
+   "gedanke": "Hier hört der Anfang auf. Mein erster Satz schließt hier an. Dann plane ich: D sucht · D Gefahr · A Stein hilft · A Belohnung.",
+   "sagen": "Plan an die Tafel: vier Zeilen, nur Stichworte."
+  }
+ ],
+ "jetzt": [
+  "Etappe 3, zu zweit: Markiert den Anfang der „Weißen Schlange“ und füllt zusammen den Schreibplan aus.",
+  "Sagt laut: „Der Anfang hört auf bei … Deshalb …“"
+ ],
+ "hilfe": [
+  "Lerntheke: Strategiekarte „Ein Ende planen“, Schreibplan, Merkblatt Spannungsbogen",
+  "Plakat „Wo stehe ich?“: Häng deine Klammer an deinen Schritt."
+ ],
+ "skript": [
+  "Vor dem Lesen: „Ich zeige euch, wie ich plane, bevor ich ein Ende schreibe. Ich denke laut.“",
+  "Die letzte Denkblase gehört zum ganzen Text: Plan mit vier Stichwortzeilen anschreiben.",
+  "Nach dem Input (30 Sekunden): Jedes Kind sagt dem Nachbarn einen ersten Satz, der genau an den Anfang anschließt."
+ ]
+}

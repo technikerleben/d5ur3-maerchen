@@ -1,0 +1,251 @@
+{
+ "_hinweis": "Lesestrang in der Sprach-Doppelstunde, feste Lesetandems aus Sprache. Stopps beziehen sich auf den Wortlaut im Märchentext (Zeile wird berechnet).",
+ "wochen": [
+  {
+   "woche": 1,
+   "text": "frau-holle",
+   "strategien": [
+    "vorhersagen",
+    "merkmale",
+    "woerter"
+   ],
+   "ablauf": [
+    "Lest abwechselnd: Einer liest einen Abschnitt laut, der andere liest leise mit. Dann wechselt ihr.",
+    "An jedem Stopp hört ihr auf. Ihr löst den Stopp gemeinsam und sagt laut, was ihr denkt."
+   ],
+   "stopps": [
+    {
+     "nach": "so hol sie auch wieder herauf",
+     "symbol": "fernglas",
+     "frage": "Was wird das Mädchen jetzt tun? Sagt: „Ich vermute …, weil im Text steht ….“"
+    },
+    {
+     "nach": "es blühten viele tausend Blumen",
+     "symbol": "fernglas",
+     "frage": "Prüft eure Vermutung: Stimmt sie? Wo ist das Mädchen jetzt?"
+    },
+    {
+     "nach": "legte es sie alle auf einen Haufen",
+     "symbol": "stern",
+     "frage": "Was ist hier märchenhaft? Zeigt zwei Stellen."
+    },
+    {
+     "nach": "Ich bin die Frau Holle",
+     "symbol": "buch",
+     "frage": "Klärt ein schwieriges Wort, zum Beispiel „achtgeben“. Was heißt es?"
+    },
+    {
+     "nach": "gut aufgenommen",
+     "symbol": "fernglas",
+     "frage": "Die faule Tochter soll auch zu Frau Holle. Was wird mit ihr passieren? Begründet."
+    },
+    {
+     "nach": "nicht mehr ab",
+     "symbol": "fernglas",
+     "frage": "Prüft: Stimmt eure Vorhersage? Woran konntet ihr es schon vorher erkennen?"
+    }
+   ],
+   "abschluss": "Erzählt euch gegenseitig in drei Sätzen, worum es in „Frau Holle“ geht."
+  },
+  {
+   "woche": 2,
+   "text": "rumpelstilzchen",
+   "strategien": [
+    "vorhersagen",
+    "figuren",
+    "bogen"
+   ],
+   "ablauf": [
+    "Lest abwechselnd: Einer liest einen Abschnitt laut, der andere liest leise mit. Dann wechselt ihr.",
+    "An jedem Stopp hört ihr auf. Ihr löst den Stopp gemeinsam und sagt laut, was ihr denkt."
+   ],
+   "stopps": [
+    {
+     "nach": "so musst du sterben",
+     "symbol": "fernglas",
+     "frage": "Was wird die Müllerstochter jetzt tun? Sagt: „Ich vermute …, weil im Text steht ….“"
+    },
+    {
+     "nach": "alle Spulen waren voll Gold",
+     "symbol": "figur",
+     "frage": "Ist das Männchen ein Helfer? Begründet mit dem Text."
+    },
+    {
+     "nach": "die schöne Müllerstochter wurde eine Königin",
+     "symbol": "bogen",
+     "frage": "Was ist bis jetzt passiert? Sagt J – W – A – D mit je einem Satz."
+    },
+    {
+     "nach": "so sollst du dein Kind behalten",
+     "symbol": "figur",
+     "frage": "Ist das Männchen jetzt Helfer oder Gegenspieler? Hat es sich verändert?"
+    },
+    {
+     "nach": "dass ich Rumpelstilzchen heiß",
+     "symbol": "fernglas",
+     "frage": "Was wird die Königin jetzt tun? Vermutet."
+    },
+    {
+     "nach": "wurde nie wieder gesehen",
+     "symbol": "bogen",
+     "frage": "Wo war die gefährlichste Stelle (der Höhepunkt)? Einigt euch."
+    }
+   ],
+   "abschluss": "Erzählt euch das Märchen mit den Signalwörtern: Jemand … wollte … aber … dann … dann … also … also."
+  },
+  {
+   "woche": 3,
+   "text": "jorinde-joringel",
+   "strategien": [
+    "bilder",
+    "vorhersagen",
+    "figuren"
+   ],
+   "ablauf": [
+    "Lest abwechselnd: Einer liest einen Abschnitt laut, der andere liest leise mit. Dann wechselt ihr.",
+    "An jedem Stopp hört ihr auf. Ihr löst den Stopp gemeinsam und sagt laut, was ihr denkt."
+   ],
+   "stopps": [
+    {
+     "nach": "siebentausend solcher Körbe mit seltenen Vögeln im Schloss",
+     "symbol": "auge",
+     "frage": "Augen zu: Wie sieht das Schloss aus? Sagt: „Ich sehe …“"
+    },
+    {
+     "nach": "Er erschrak und wurde todbang",
+     "symbol": "fernglas",
+     "frage": "Was wird jetzt passieren? Vermutet mit dem Text."
+    },
+    {
+     "nach": "nicht Hand noch Fuß bewegen",
+     "symbol": "auge",
+     "frage": "Was seht und hört ihr? Sucht drei Wörter, die das Bild machen."
+    },
+    {
+     "nach": "mit großen roten Augen und krummer Nase",
+     "symbol": "figur",
+     "frage": "Wer ist die alte Frau? Helferin oder Gegenspielerin?"
+    },
+    {
+     "nach": "aber nicht zu nahe dabei",
+     "symbol": "fernglas",
+     "frage": "Wie könnte Joringel Jorinde retten? Vermutet."
+    }
+   ],
+   "abschluss": "Erzählt euch die Verwandlung so, dass der andere sie sehen kann: mit Adjektiven und treffenden Verben."
+  },
+  {
+   "woche": 4,
+   "text": "weisse-schlange",
+   "strategien": [
+    "vorhersagen",
+    "merkmale",
+    "planen"
+   ],
+   "ablauf": [
+    "Lest abwechselnd: Einer liest einen Abschnitt laut, der andere liest leise mit. Dann wechselt ihr.",
+    "An jedem Stopp hört ihr auf. Ihr löst den Stopp gemeinsam und sagt laut, was ihr denkt."
+   ],
+   "stopps": [
+    {
+     "nach": "erst auf, wenn er ganz allein war",
+     "symbol": "fernglas",
+     "frage": "Was liegt wohl in der Schüssel? Vermutet."
+    },
+    {
+     "nach": "die Sprache der Tiere zu verstehen",
+     "symbol": "stern",
+     "frage": "Welche Märchenmerkmale findet ihr bis hier? Markiert zwei."
+    },
+    {
+     "nach": "für den Dieb halten und richten",
+     "symbol": "figur",
+     "frage": "Ist der König Helfer oder Gegenspieler? Begründet."
+    },
+    {
+     "nach": "wie er sich helfen könnte",
+     "symbol": "plan",
+     "frage": "Hier hört der Anfang auf. Wie kann sich der Diener helfen? Plant zusammen: D – D – A – A."
+    }
+   ],
+   "abschluss": "Sagt euch gegenseitig einen ersten Satz, der genau an den Anfang anschließt."
+  },
+  {
+   "woche": 5,
+   "text": "blaues-licht",
+   "strategien": [
+    "vorhersagen",
+    "figuren",
+    "bogen"
+   ],
+   "ablauf": [
+    "Lest abwechselnd: Einer liest einen Abschnitt laut, der andere liest leise mit. Dann wechselt ihr.",
+    "An jedem Stopp hört ihr auf. Ihr löst den Stopp gemeinsam und sagt laut, was ihr denkt."
+   ],
+   "stopps": [
+    {
+     "nach": "bis er abends in einen Wald kam",
+     "symbol": "fernglas",
+     "frage": "Was wird der Soldat im Wald finden? Vermutet."
+    },
+    {
+     "nach": "Dass du mir morgen meinen Garten umgräbst",
+     "symbol": "figur",
+     "frage": "Ist die Hexe gut oder böse? Prüft eure Vermutung von Stopp 1."
+    },
+    {
+     "nach": "ließ ihn wieder in den Brunnen hinabfallen und ging fort",
+     "symbol": "bogen",
+     "frage": "Welcher Teil des Spannungsbogens ist das? Begründet."
+    },
+    {
+     "nach": "die noch halb gestopft war",
+     "symbol": "fernglas",
+     "frage": "Hier hört der Anfang auf. Was hat die Pfeife mit dem blauen Licht zu tun? Vermutet, wie es weitergeht."
+    }
+   ],
+   "abschluss": "Welche Vermutung hat gestimmt? Woran habt ihr es im Text gemerkt?"
+  },
+  {
+   "woche": 6,
+   "text": "zertanzte-schuhe",
+   "strategien": [
+    "vorhersagen",
+    "merkmale",
+    "figuren"
+   ],
+   "ablauf": [
+    "Lest abwechselnd: Einer liest einen Abschnitt laut, der andere liest leise mit. Dann wechselt ihr.",
+    "An jedem Stopp hört ihr auf. Ihr löst den Stopp gemeinsam und sagt laut, was ihr denkt."
+   ],
+   "stopps": [
+    {
+     "nach": "wie das zugegangen war",
+     "symbol": "fernglas",
+     "frage": "Wohin gehen die Töchter in der Nacht? Vermutet."
+    },
+    {
+     "nach": "der muss das Land für immer verlassen",
+     "symbol": "stern",
+     "frage": "Welche Märchenmerkmale findet ihr? Denkt an Zahlen, Belohnung und Strafe."
+    },
+    {
+     "nach": "aber keinem erging es besser",
+     "symbol": "bogen",
+     "frage": "Viele haben es versucht. Was muss beim nächsten anders sein?"
+    },
+    {
+     "nach": "so bist du unsichtbar und kannst den zwölfen dann nachschleichen",
+     "symbol": "figur",
+     "frage": "Wer ist die alte Frau? Was bekommt der Soldat von ihr?"
+    },
+    {
+     "nach": "brachte ihm einen Becher Wein",
+     "symbol": "fernglas",
+     "frage": "Hier hört der Anfang auf. Was tut der Soldat jetzt? Vermutet mit dem Rat der alten Frau."
+    }
+   ],
+   "abschluss": "Lest euch einen Abschnitt so vor, als ob ihr ihn für das Märchenbuch aufnehmt: laut, langsam, mit Pausen."
+  }
+ ]
+}

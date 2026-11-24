@@ -1,0 +1,474 @@
+{
+ "_hinweis": "Fassung 3 · Etappe 1 (Teil 1). Paket: Deckblatt, Märchentext, gemeinsames Blatt (+ Quiz der Kollegin aus extern/), Einzelblatt. Verben sind nach Sprache verlagert. Nachweis: GN1 digital (apps/gn1-digital), Papier A/B als Ersatz.",
+ "etappe": 1,
+ "titel": "Märchen erkennen",
+ "ziel": "Ich erkenne, woran man ein Märchen erkennt, und zeige es am Text.",
+ "woche": "1. Doppelstunde",
+ "text": "frau-holle",
+ "extern": [
+  "Quiz_Ma_rchenmerkmale"
+ ],
+ "gemeinsam": {
+  "titel": "Märchenmerkmale in „Frau Holle“",
+  "brauchst": "„Frau Holle“ · Quiz Märchenmerkmale · Stift",
+  "strategien": [
+   "merkmale",
+   "woerter"
+  ],
+  "schritte": [
+   "Häng deine Klammer am Plakat „Wo stehe ich?“ an **Etappe 1 · zu zweit**. Arbeite mit einem Kind, das dort hängt.",
+   "Nehmt das **Quiz Märchenmerkmale**. Jedes Kind füllt sein eigenes Quiz aus. Aber ihr einigt euch vorher, was ihr schreibt.",
+   "Sucht in „Frau Holle“ zu jedem Bereich ein Merkmal mit Beispiel: **Anfang, Figuren, Handlung, Zauber, Ende, Sprache**. Schreibt die Zeile zum Beispiel.",
+   "**Jeder kann es erklären:** Deckt das Quiz zu. Erklärt euch gegenseitig zwei Merkmale mit Beispiel."
+  ],
+  "tipp": "„Frau Holle“ beginnt nicht mit „Es war einmal“. Was steht dafür am Anfang? Schaut auf dem Merkblatt beim Bereich Anfang nach.",
+  "unterschrift": true
+ },
+ "einzel": {
+  "titel": "Formeln und eine Vorhersage",
+  "aufgaben": [
+   {
+    "titel": "Verkleinerungen und Formeln",
+    "strategie": "merkmale",
+    "text": "Schreibe die Verkleinerungsform mit *-chen* oder *-lein*:\ndas Haus → das Häuschen\nder Topf → das ______________\ndas Kind → das ______________\nder Rock → das ______________\n„Frau Holle“ endet ohne Schlussformel. Schreibe einen passenden Schlusssatz.",
+    "linien": 2
+   },
+   {
+    "titel": "Vorhersagen",
+    "strategie": "vorhersagen",
+    "anfang": "blatt2",
+    "text": "Was passiert als Nächstes? Schreibe: *Ich vermute …, weil im Text steht ….* Schreibe dann zwei Sätze weiter.",
+    "linien": 6
+   }
+  ],
+  "vertiefung": "Erfinde einen eigenen Märchenanfang mit drei Märchenmerkmalen (3–4 Sätze). Lass ein anderes Kind die Merkmale finden."
+ },
+ "kiosk": {
+  "gemeinsam": "Zum Beispiel: Anfang – Zeit und Ort unbestimmt: „Eine Witwe hatte zwei Töchter“ ({Z:frau-holle:Eine Witwe hatte zwei Töchter}) · Figuren – Gut und Böse: die fleißige und die faule Tochter ({Z:frau-holle:Die eine war fleißig, die andere faul}) · Handlung – Prüfung: Brot und Apfelbaum ({Z:frau-holle:Das Brot rief}) · Zauber – sprechende Dinge, Federn werden zu Schnee ({Z:frau-holle:Dann schneit es in der Welt}) · Ende – gerechtes Ende: Gold und Pech ({Z:frau-holle:fiel ein gewaltiger Goldregen}, {Z:frau-holle:ein großer Kessel voll Pech}) · Sprache – Sprüche: „Kikeriki …“, Präteritum.",
+  "einzel": "1: saß, spann, sprang, fiel, weinte, lief, schimpfte, rief · 2: Töpfchen, Kindlein (Kindchen), Röcklein; Schlusssatz z. B. „Und wenn sie nicht gestorben sind, dann schüttelt Frau Holle noch heute ihr Bett.“ · 3: Deine Vermutung passt, wenn sie zum Anfang passt und du eine Textstelle nennst (stilles Mühlrad, Wasser verschwunden, König)."
+ },
+ "nachweis": {
+  "titel": "Märchen erkennen",
+  "signet": "lupe",
+  "ziele": [
+   {
+    "id": "E1.1",
+    "kurz": "Merkmale belegen",
+    "kind": "Ich finde drei Märchenmerkmale und belege sie mit Beispiel und Zeile.",
+    "lehrkraft": "drei verschiedene Merkmale mit passendem Beispiel und Zeile",
+    "ueben": "gemeinsames Blatt · Merkblatt Märchenmerkmale"
+   },
+   {
+    "id": "E1.2",
+    "kurz": "Belohnung und Strafe",
+    "kind": "Ich erkläre, wer belohnt oder bestraft wird und warum.",
+    "lehrkraft": "Figur, Belohnung oder Strafe und Grund genannt",
+    "ueben": "Quiz, Bereich Ende · Merkblatt"
+   },
+   {
+    "id": "E1.3",
+    "kurz": "Zauberei",
+    "kind": "Ich erkenne, was im Märchen Zauberei ist.",
+    "lehrkraft": "Papier: zwei Zauber-Stellen mit Zeile · digital: Zauberei angekreuzt, höchstens ein Fehler",
+    "ueben": "Quiz, Bereich Zauber · Merkblatt Märchenmerkmale"
+   },
+   {
+    "id": "E1.4",
+    "kurz": "Formeln und Verkleinerungen",
+    "kind": "Ich erkenne feste Formeln und Verkleinerungsformen.",
+    "lehrkraft": "Anfangsformel und Verkleinerung(en) richtig",
+    "ueben": "Einzelblatt, Aufgabe 1"
+   },
+   {
+    "id": "E1.5",
+    "kurz": "Vorhersagen",
+    "kind": "Ich vermute begründet, wie es weitergeht, und schreibe weiter.",
+    "lehrkraft": "Vermutung mit Textstelle begründet; zwei passende Sätze",
+    "ueben": "Einzelblatt, Aufgabe 2 · Strategiekarte Vorhersagen"
+   }
+  ],
+  "varianten": {
+   "A": {
+    "maerchen": "sterntaler",
+    "anfang": "gn1a",
+    "aufgaben": [
+     {
+      "ziel": "E1.1",
+      "text": "Lies „Die Sterntaler“. Finde **drei verschiedene** Märchenmerkmale. Schreibe Merkmal, Beispiel und Zeile auf.",
+      "linien": 3,
+      "erwartung": "z. B. „Es war einmal“ ({Z:sterntaler:Es war einmal}), Gut und Böse/ein gutes Kind ({Z:sterntaler:Es war aber gut und fromm}), die Magie: Sterne werden zu Talern ({Z:sterntaler:fielen auf einmal die Sterne}), die Belohnung ({Z:sterntaler:war reich für sein Lebtag}), die Prüfung: Sie gibt alles weg."
+     },
+     {
+      "ziel": "E1.2",
+      "text": "Wer wird in „Die Sterntaler“ belohnt? Womit? Warum?",
+      "linien": 2,
+      "erwartung": "Das Mädchen: Die Sterne fallen als Taler herab, und es hat ein neues Hemd ({Z:sterntaler:fielen auf einmal die Sterne}), weil es alles verschenkt hat und gut ist."
+     },
+     {
+      "ziel": "E1.3",
+      "text": "Was ist in „Die Sterntaler“ **Zauberei**? Schreibe **zwei** Stellen mit Zeile auf.",
+      "linien": 2,
+      "erwartung": "Die Sterne fallen als Taler vom Himmel ({Z:sterntaler:fielen auf einmal die Sterne}); das Mädchen hat auf einmal ein neues Hemd an ({Z:sterntaler:hatte es auf einmal ein neues an})."
+     },
+     {
+      "ziel": "E1.4",
+      "text": "Schreibe die Anfangsformel auf. Finde **zwei** Verkleinerungsformen (*-chen, -lein*) im Text.",
+      "linien": 2,
+      "erwartung": "„Es war einmal“; z. B. Kämmerchen, Bettchen, Stückchen, Röcklein, Hemdlein"
+     },
+     {
+      "ziel": "E1.5",
+      "mit_anfang": true,
+      "text": "Lies den Märchenanfang „Der Hirtenjunge“. Was passiert als Nächstes? Schreibe: *Ich vermute …, weil im Text steht ….* Schreibe dann zwei Sätze weiter.",
+      "linien": 6,
+      "erwartung": "Vermutung knüpft an (fehlendes Schaf, Frist bis morgen, drei Lichter) und nennt eine Textstelle; zwei passende Sätze im Präteritum"
+     }
+    ]
+   },
+   "B": {
+    "maerchen": "suesser-brei",
+    "anfang": "gn1b",
+    "aufgaben": [
+     {
+      "ziel": "E1.1",
+      "text": "Lies „Der süße Brei“. Finde **drei verschiedene** Märchenmerkmale. Schreibe Merkmal, Beispiel und Zeile auf.",
+      "linien": 3,
+      "erwartung": "z. B. „Es war einmal“ ({Z:suesser-brei:Es war einmal}), die Magie: Zaubertopf ({Z:suesser-brei:Sie schenkte ihm ein Töpfchen}), Sprüche: „Töpfchen, koche!“ / „Töpfchen, steh!“, der unbestimmte Ort: „in den Wald“, das arme Kind"
+     },
+     {
+      "ziel": "E1.2",
+      "text": "Wer wird in „Der süße Brei“ belohnt? Womit? Warum?",
+      "linien": 2,
+      "erwartung": "Das arme Mädchen bekommt von der alten Frau ein Zaubertöpfchen ({Z:suesser-brei:Sie schenkte ihm ein Töpfchen}), weil es arm ist und nichts mehr zu essen hat."
+     },
+     {
+      "ziel": "E1.3",
+      "text": "Was ist in „Der süße Brei“ **Zauberei**? Schreibe **zwei** Stellen mit Zeile auf.",
+      "linien": 2,
+      "erwartung": "Das Töpfchen kocht von allein Brei ({Z:suesser-brei:Dann kochte es guten}); es hört auf das Zauberwort auf ({Z:suesser-brei:so hörte es wieder auf}); der Brei füllt die ganze Stadt ({Z:suesser-brei:bis die Küche und das ganze Haus})."
+     },
+     {
+      "ziel": "E1.4",
+      "text": "Schreibe die Anfangsformel auf. Finde eine Verkleinerungsform und einen Zauberspruch im Text.",
+      "linien": 2,
+      "erwartung": "„Es war einmal“; Töpfchen; „Töpfchen, koche!“ oder „Töpfchen, steh!“"
+     },
+     {
+      "ziel": "E1.5",
+      "mit_anfang": true,
+      "text": "Lies den Märchenanfang „Die Kerzenmacherin“. Was passiert als Nächstes? Schreibe: *Ich vermute …, weil im Text steht ….* Schreibe dann zwei Sätze weiter.",
+      "linien": 6,
+      "erwartung": "Vermutung knüpft an (Klopfen, einziges Licht, jüngste Tochter) und nennt eine Textstelle; zwei passende Sätze im Präteritum"
+     }
+    ]
+   }
+  },
+  "deck": "Gelingensnachweis am Laptop: Die Lehrkraft sagt dir, wann du ihn machst und welche Variante. Ab 4 von 5 geht es weiter. Ergebnis: ____ / 5"
+ },
+ "foerder": {
+  "material": "frau-holle-f",
+  "merkkarte": [
+   [
+    "Märchen",
+    "Ein Märchen ist eine alte Geschichte mit Zauber."
+   ],
+   [
+    "Merkmale",
+    "„Es war einmal …“ · Zauber · gut und böse · die Zahl 3 · Belohnung · Strafe"
+   ],
+   [
+    "Zahlen",
+    "In Märchen kommen oft die Zahlen **3**, **7** und **12** vor."
+   ]
+  ],
+  "blaetter": [
+   {
+    "nr": "1F",
+    "titel": "Märchendetektiv",
+    "auftraege": [
+     {
+      "art": "lesen",
+      "text": "Lies „Frau Holle“. Lies Satz für Satz. Zeige mit dem Finger mit."
+     },
+     {
+      "art": "ankreuzen",
+      "text": "Was gibt es in „Frau Holle“? Kreuze **3** an.",
+      "optionen": [
+       "Das Brot spricht.",
+       "Ein Auto fährt.",
+       "Gold fällt auf das Mädchen.",
+       "Die faule Tochter bekommt Pech.",
+       "Das Mädchen spielt mit dem Handy."
+      ],
+      "loesung": [
+       "Das Brot spricht.",
+       "Gold fällt auf das Mädchen.",
+       "Die faule Tochter bekommt Pech."
+      ]
+     },
+     {
+      "art": "zuordnen",
+      "text": "Wer ist gut, wer ist faul? Schreibe **G** (gut) oder **F** (faul) in das Kästchen.",
+      "paare": [
+       [
+        "Das Mädchen hilft dem Brot.",
+        "G"
+       ],
+       [
+        "Sie hilft nicht.",
+        "F"
+       ],
+       [
+        "Es schüttelt das Bett.",
+        "G"
+       ],
+       [
+        "Sie arbeitet nicht.",
+        "F"
+       ]
+      ]
+     },
+     {
+      "art": "luecke",
+      "text": "Fülle die Lücken. Nutze den Wortspeicher.",
+      "satz": "Die fleißige Tochter bekommt {Gold}. Die faule Tochter bekommt {Pech}.",
+      "ablenker": [
+       "Eis"
+      ]
+     }
+    ],
+    "signet": "lupe"
+   },
+   {
+    "nr": "2F",
+    "titel": "Märchenzahlen und Vorhersagen",
+    "signet": "weiterschreiben",
+    "auftraege": [
+     {
+      "art": "ankreuzen",
+      "text": "Welche **Zahlen** kommen in Märchen oft vor? Kreuze **3** an.",
+      "optionen": [
+       "3",
+       "7",
+       "5",
+       "12",
+       "100"
+      ],
+      "loesung": [
+       "3",
+       "7",
+       "12"
+      ]
+     },
+     {
+      "art": "lesen",
+      "text": "Lies den Anfang: *Es war einmal ein armes Mädchen. Es fand im Wald einen kleinen Vogel. Der Vogel hatte einen kranken Flügel.*"
+     },
+     {
+      "art": "ankreuzen",
+      "text": "Was passiert als Nächstes? Kreuze an, was du vermutest.",
+      "optionen": [
+       "Das Mädchen hilft dem Vogel.",
+       "Das Mädchen geht einkaufen."
+      ],
+      "loesung": [
+       "Das Mädchen hilft dem Vogel."
+      ]
+     },
+     {
+      "art": "schreiben",
+      "text": "Schreibe weiter: *Ich vermute, …*",
+      "linien": 2
+     }
+    ]
+   }
+  ],
+  "nachweis": {
+   "titel": "GN1F · Märchendetektiv",
+   "ziele": [
+    {
+     "id": "F1.1",
+     "kind": "Ich erkenne Zauberei im Märchen.",
+     "lehrkraft": "2 von 3 Zauber-Sätzen richtig angekreuzt"
+    },
+    {
+     "id": "F1.2",
+     "kind": "Ich erkenne gut und faul.",
+     "lehrkraft": "3 von 4 richtig zugeordnet"
+    },
+    {
+     "id": "F1.3",
+     "kind": "Ich kenne Märchenzahlen.",
+     "lehrkraft": "3 Märchen-Ausdrücke mit Zahlen richtig angekreuzt"
+    },
+    {
+     "id": "F1.4",
+     "kind": "Ich kenne den Märchenanfang.",
+     "lehrkraft": "„Es war einmal“ erkannt"
+    },
+    {
+     "id": "F1.5",
+     "kind": "Ich schreibe einen Märchensatz weiter.",
+     "lehrkraft": "eigener verständlicher Satz, passt zum Anfang"
+    }
+   ],
+   "auftraege": [
+    {
+     "art": "ankreuzen",
+     "text": "Was ist Zauberei? Kreuze **3** an.",
+     "optionen": [
+      "Der Topf kocht von allein.",
+      "Die Mutter kocht Suppe.",
+      "Sterne werden zu Geld.",
+      "Ein Vogel spricht.",
+      "Das Kind geht zur Schule."
+     ],
+     "loesung": [
+      "Der Topf kocht von allein.",
+      "Sterne werden zu Geld.",
+      "Ein Vogel spricht."
+     ],
+     "ziel": "F1.1"
+    },
+    {
+     "art": "zuordnen",
+     "text": "Schreibe **G** (gut) oder **F** (faul) in das Kästchen.",
+     "paare": [
+      [
+       "Sie teilt ihr Brot.",
+       "G"
+      ],
+      [
+       "Er schläft den ganzen Tag.",
+       "F"
+      ],
+      [
+       "Sie hilft der alten Frau.",
+       "G"
+      ],
+      [
+       "Er will nicht helfen.",
+       "F"
+      ]
+     ],
+     "ziel": "F1.2"
+    },
+    {
+     "art": "ankreuzen",
+     "text": "Was klingt nach **Märchen**? Kreuze **3** an.",
+     "optionen": [
+      "drei Brüder",
+      "sieben Zwerge",
+      "vier Autos",
+      "zwölf Feen",
+      "zehn Handys"
+     ],
+     "loesung": [
+      "drei Brüder",
+      "sieben Zwerge",
+      "zwölf Feen"
+     ],
+     "ziel": "F1.3"
+    },
+    {
+     "art": "ankreuzen",
+     "text": "Wie beginnt ein Märchen? Kreuze an.",
+     "optionen": [
+      "Es war einmal …",
+      "Gestern im Supermarkt …",
+      "Hallo, wie geht's?"
+     ],
+     "loesung": [
+      "Es war einmal …"
+     ],
+     "ziel": "F1.4"
+    },
+    {
+     "art": "schreiben",
+     "text": "Lies: *Es war einmal ein armer Junge. Er fand einen goldenen Schlüssel.* Schreibe einen Satz weiter.",
+     "linien": 2,
+     "ziel": "F1.5"
+    }
+   ],
+   "auftraege_b": [
+    {
+     "art": "ankreuzen",
+     "text": "Was ist Zauberei? Kreuze **3** an.",
+     "optionen": [
+      "Ein Spiegel spricht.",
+      "Der Vater liest Zeitung.",
+      "Ein Kürbis wird zur Kutsche.",
+      "Eine Fee zaubert einen Ring.",
+      "Das Kind putzt die Zähne."
+     ],
+     "loesung": [
+      "Ein Spiegel spricht.",
+      "Ein Kürbis wird zur Kutsche.",
+      "Eine Fee zaubert einen Ring."
+     ],
+     "ziel": "F1.1"
+    },
+    {
+     "art": "zuordnen",
+     "text": "Schreibe **G** (gut) oder **F** (faul) in das Kästchen.",
+     "paare": [
+      [
+       "Er hilft dem kleinen Vogel.",
+       "G"
+      ],
+      [
+       "Sie bleibt den ganzen Tag im Bett.",
+       "F"
+      ],
+      [
+       "Er trägt das Holz für die alte Frau.",
+       "G"
+      ],
+      [
+       "Sie will nicht teilen.",
+       "F"
+      ]
+     ],
+     "ziel": "F1.2"
+    },
+    {
+     "art": "ankreuzen",
+     "text": "Was klingt nach **Märchen**? Kreuze **3** an.",
+     "optionen": [
+      "sieben Raben",
+      "zwei Fahrräder",
+      "drei Wünsche",
+      "fünf Computer",
+      "zwölf Prinzessinnen"
+     ],
+     "loesung": [
+      "sieben Raben",
+      "drei Wünsche",
+      "zwölf Prinzessinnen"
+     ],
+     "ziel": "F1.3"
+    },
+    {
+     "art": "ankreuzen",
+     "text": "Wie beginnt ein Märchen? Kreuze an.",
+     "optionen": [
+      "Hallo Leute, heute …",
+      "Es war einmal …",
+      "In der Pause …"
+     ],
+     "loesung": [
+      "Es war einmal …"
+     ],
+     "ziel": "F1.4"
+    },
+    {
+     "art": "schreiben",
+     "text": "Lies: *Es war einmal ein kleines Mädchen. Es fand im Wald einen Zauberstab.* Schreibe einen Satz weiter.",
+     "linien": 2,
+     "ziel": "F1.5"
+    }
+   ]
+  },
+  "bild": "brunnen_spindel"
+ }
+}

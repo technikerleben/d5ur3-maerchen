@@ -1,0 +1,155 @@
+{
+ "_hinweis": "Fassung 3 · GN1 digital (Etappe 1). Geschlossene Aufgaben werden sofort ausgewertet; die Vorhersage (E1.5) mit Vergleichsbeispielen und Selbstprüfung. Indikatoren wie etappe1.json (E1.3 jetzt Zauberei). Freigabe ab 4 von 5. Es werden keine Namen gespeichert; der Zwischenstand liegt nur im Browser (localStorage, ohne Namen).",
+ "freigabe": 4,
+ "varianten": {
+  "A": {
+   "maerchen": "sterntaler",
+   "anfang": "gn1a",
+   "aufgaben": [
+    {
+     "ziel": "E1.1",
+     "art": "zuordnen",
+     "frage": "Welches Märchenmerkmal zeigt diese Stelle? Wähle für jede Stelle ein Merkmal.",
+     "optionen": ["Märchenanfang", "gute Figur", "Helferfigur", "Zauberspruch", "Belohnung", "Strafe"],
+     "stellen": [
+      {"text": "„Es war einmal ein kleines Mädchen …“", "richtig": ["Märchenanfang"]},
+      {"text": "„Es war aber gut und fromm.“", "richtig": ["gute Figur"]},
+      {"text": "„Da sammelte es die Taler hinein und war reich für sein Lebtag.“", "richtig": ["Belohnung"]}
+     ],
+     "mindestens": 3,
+     "erklaerung": "„Es war einmal“ ist der Märchenanfang. „Gut und fromm“ zeigt die gute Figur. Reich für das ganze Leben: Das ist die Belohnung."
+    },
+    {
+     "ziel": "E1.2",
+     "art": "auswahl",
+     "fragen": [
+      {"frage": "Wer wird belohnt?", "optionen": ["das Mädchen", "der arme Mann", "das frierende Kind"], "richtig": "das Mädchen"},
+      {"frage": "Womit?", "optionen": ["mit Talern und einem neuen Hemd", "mit einem Stück Brot", "mit einer Mütze"], "richtig": "mit Talern und einem neuen Hemd"},
+      {"frage": "Warum?", "optionen": ["weil es alles verschenkt hat und gut ist", "weil es fleißig gearbeitet hat", "weil es einen Riesen besiegt hat"], "richtig": "weil es alles verschenkt hat und gut ist"}
+     ],
+     "mindestens": 3,
+     "erklaerung": "Das Mädchen gibt alles her, was es hat. Dafür fallen die Sterne als Taler vom Himmel, und es bekommt ein neues Hemd."
+    },
+    {
+     "ziel": "E1.3",
+     "art": "ankreuzen",
+     "frage": "Was ist in „Die Sterntaler“ Zauberei? Kreuze alles an, was Zauberei ist.",
+     "optionen": [
+      {"text": "Die Sterne fallen als Taler vom Himmel.", "richtig": true},
+      {"text": "Das Mädchen schenkt dem armen Mann sein Brot.", "richtig": false},
+      {"text": "Das Mädchen hat auf einmal ein neues Hemd an.", "richtig": true},
+      {"text": "Im Wald wird es dunkel.", "richtig": false},
+      {"text": "Ein Kind friert am Kopf.", "richtig": false}
+     ],
+     "max_fehler": 1,
+     "erklaerung": "Zauberei kann es in Wirklichkeit nicht geben: Sterne werden nicht zu Geld, und ein Hemd erscheint nicht von allein."
+    },
+    {
+     "ziel": "E1.4",
+     "art": "formeln",
+     "formel": {"frage": "Wie heißt die feste Anfangsformel im Märchen?", "optionen": ["Eines Tages …", "Es war einmal …", "Vor kurzem …"], "richtig": "Es war einmal …"},
+     "woerter": {
+      "frage": "Tippe alle Verkleinerungsformen (-chen, -lein) aus dem Text an.",
+      "liste": [
+       {"text": "Kämmerchen", "richtig": true},
+       {"text": "Brot", "richtig": false},
+       {"text": "Bettchen", "richtig": true},
+       {"text": "Leinen", "richtig": false},
+       {"text": "Röcklein", "richtig": true},
+       {"text": "Himmel", "richtig": false},
+       {"text": "Hemdlein", "richtig": true},
+       {"text": "Taler", "richtig": false}
+      ],
+      "mindestens": 2,
+      "max_fehler": 1
+     },
+     "erklaerung": "Märchen beginnen oft mit „Es war einmal …“. Kämmerchen, Bettchen, Röcklein und Hemdlein sind Verkleinerungsformen. „Leinen“ ist ein Stoff, keine Verkleinerung."
+    },
+    {
+     "ziel": "E1.5",
+     "art": "vorhersage",
+     "beispiele": [
+      "Ich vermute, dass die drei Lichter dem Jungen helfen, weil im Text steht, dass zwischen den Bäumen auf einmal drei kleine Lichter leuchteten. – Der Junge ging auf die Lichter zu. Da sah er, dass es drei kleine Feen waren.",
+      "Ich vermute, dass der Junge das Schaf findet, aber zuerst eine Gefahr bestehen muss, weil im Text steht, dass er es bis morgen zurückbringen muss. – Im Wald hörte er ein leises Blöken. Doch vor dem Schaf saß ein großer schwarzer Wolf."
+     ]
+    }
+   ]
+  },
+  "B": {
+   "maerchen": "suesser-brei",
+   "anfang": "gn1b",
+   "aufgaben": [
+    {
+     "ziel": "E1.1",
+     "art": "zuordnen",
+     "frage": "Welches Märchenmerkmal zeigt diese Stelle? Wähle für jede Stelle ein Merkmal.",
+     "optionen": ["Märchenanfang", "gute Figur", "Helferfigur", "Zauberspruch", "Belohnung", "Strafe"],
+     "stellen": [
+      {"text": "„Es war einmal ein armes, frommes Mädchen …“", "richtig": ["Märchenanfang"]},
+      {"text": "„Dort begegnete ihm eine alte Frau, die wusste schon von seinem Kummer. Sie schenkte ihm ein Töpfchen.“", "richtig": ["Helferfigur"]},
+      {"text": "„Nun waren sie ihre Armut und ihren Hunger los und aßen süßen Brei, so oft sie wollten.“", "richtig": ["Belohnung"]}
+     ],
+     "mindestens": 3,
+     "erklaerung": "„Es war einmal“ ist der Märchenanfang. Die alte Frau hilft dem Mädchen: Sie ist die Helferfigur. Kein Hunger mehr: Das ist die Belohnung."
+    },
+    {
+     "ziel": "E1.2",
+     "art": "auswahl",
+     "fragen": [
+      {"frage": "Wer wird belohnt?", "optionen": ["das arme Mädchen", "die alte Frau", "die Nachbarn in der Stadt"], "richtig": "das arme Mädchen"},
+      {"frage": "Womit?", "optionen": ["mit Gold", "mit einem Töpfchen, das süßen Brei kocht", "mit einem neuen Haus"], "richtig": "mit einem Töpfchen, das süßen Brei kocht"},
+      {"frage": "Warum?", "optionen": ["weil es den Brei gestohlen hat", "weil es arm ist und Hunger hat", "weil es die alte Frau ausgelacht hat"], "richtig": "weil es arm ist und Hunger hat"}
+     ],
+     "mindestens": 3,
+     "erklaerung": "Das Mädchen ist arm und fromm und hat nichts zu essen. Die alte Frau schenkt ihm ein Zaubertöpfchen."
+    },
+    {
+     "ziel": "E1.3",
+     "art": "ankreuzen",
+     "frage": "Was ist in „Der süße Brei“ Zauberei? Kreuze alles an, was Zauberei ist.",
+     "optionen": [
+      {"text": "Das Töpfchen kocht von allein süßen Brei.", "richtig": true},
+      {"text": "Das Mädchen geht in den Wald.", "richtig": false},
+      {"text": "Auf „Töpfchen, steh!“ hört das Töpfchen auf zu kochen.", "richtig": true},
+      {"text": "Die Mutter isst sich satt.", "richtig": false},
+      {"text": "Der Brei aus dem kleinen Topf füllt die ganze Stadt.", "richtig": true}
+     ],
+     "max_fehler": 1,
+     "erklaerung": "Ein echter Topf kocht nicht von allein und hört nicht auf ein Zauberwort. Und aus einem kleinen Topf kommt nie so viel Brei, dass eine Stadt voll wird."
+    },
+    {
+     "ziel": "E1.4",
+     "art": "formeln",
+     "formel": {"frage": "Wie heißt die feste Anfangsformel im Märchen?", "optionen": ["Neulich …", "Eines Morgens …", "Es war einmal …"], "richtig": "Es war einmal …"},
+     "woerter": {
+      "frage": "Tippe die Verkleinerungsform (-chen, -lein) aus dem Text an.",
+      "liste": [
+       {"text": "Hirsebrei", "richtig": false},
+       {"text": "Töpfchen", "richtig": true},
+       {"text": "Küche", "richtig": false},
+       {"text": "Straße", "richtig": false},
+       {"text": "Kummer", "richtig": false}
+      ],
+      "mindestens": 1,
+      "max_fehler": 0
+     },
+     "spruch": {"frage": "Welcher Satz ist ein Zauberspruch?", "optionen": ["„Nun gib mir dein Kind!“", "„Töpfchen, koche!“", "„Ach, gib mir etwas zu essen.“"], "richtig": "„Töpfchen, koche!“"},
+     "erklaerung": "Märchen beginnen oft mit „Es war einmal …“. „Töpfchen“ ist die Verkleinerung von „Topf“. „Töpfchen, koche!“ ist der Zauberspruch."
+    },
+    {
+     "ziel": "E1.5",
+     "art": "vorhersage",
+     "beispiele": [
+      "Ich vermute, dass vor der Tür jemand steht, der Hilfe braucht, weil im Text steht, dass es an die Tür klopfte. – Die jüngste Tochter öffnete die Tür. Draußen stand ein alter Mann, der vor Kälte zitterte.",
+      "Ich vermute, dass das Licht der jüngsten Tochter ein Zauberlicht ist, weil im Text steht, dass nur auf ihrem Tisch noch ein kleines Licht brannte. – Vor der Tür stand eine Fee. Sie sprach: „Dein Licht kann das ganze Dorf retten.“"
+     ]
+    }
+   ]
+  }
+ },
+ "selbstpruefung": [
+  "Ich habe eine Vermutung aufgeschrieben: Ich vermute, dass …",
+  "Ich habe eine Stelle aus dem Text genannt, die zu meiner Vermutung passt.",
+  "Ich habe zwei Sätze weitergeschrieben, die zum Anfang passen."
+ ]
+}
