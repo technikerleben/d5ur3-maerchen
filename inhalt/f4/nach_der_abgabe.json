@@ -1,0 +1,132 @@
+{
+ "_hinweis": "Fassung 4 · Nach der Abgabe (ohne Note, ab 19.01.): Schreibkonferenz, Überarbeiten, Wahlzeit mit den Projekten P1–P3. Die Projekte sind inhaltlich wie in inhalt/wahlzeit.json, nur an den Ablauf von Fassung 4 angepasst (keine Probearbeit, kein Training, Texte der Leseübungen statt Frau Holle/Rumpelstilzchen). Gebaut mit tools/build_f4_nachabgabe.py.",
+ "schreibkonferenz": {
+  "rollen": [
+   ["Autorenkind", "lesen", "liest den eigenen Text vor, hört zu, fragt nach, sagt Danke"],
+   ["Zuhörkind 1", "fernglas", "achtet auf den **Inhalt**: Anfang, Höhepunkt, Lösung, Märchenmerkmale, Schluss"],
+   ["Zuhörkind 2", "auge", "achtet auf die **Sprache**: Präteritum, genaue Wörter, Satzanfänge, verständlich"]
+  ],
+  "schritte": [
+   ["Vorlesen", "Das Autorenkind liest seinen Text langsam vor. Die anderen hören nur zu."],
+   ["Noch einmal", "Es liest ein zweites Mal. Jetzt kreuzen die Zuhörkinder auf der Feedbackkarte an."],
+   ["Loben", "Jedes Zuhörkind sagt zuerst, was schon gut gelingt."],
+   ["Fragen", "Was habt ihr nicht verstanden? Fragt nach."],
+   ["Tipps", "Jedes Zuhörkind gibt **höchstens 2 Tipps** und nennt die Stelle."],
+   ["Danke", "Das Autorenkind hört zu, fragt nach und sagt Danke. Es bekommt die Feedbackkarte. Es muss nicht jeden Tipp nehmen."]
+  ],
+  "regeln": [
+   "Sprecht freundlich und genau: über den Text, nicht über das Kind.",
+   "Schreibt nie in den Text eines anderen Kindes.",
+   "Rechtschreibung prüft jedes Kind später selbst mit dem Märchen-Check."
+  ],
+  "starter": [
+   ["Loben", "Mir gefällt, dass … · Besonders spannend finde ich die Stelle, an der …"],
+   ["Fragen", "Ich habe nicht verstanden, warum … · Wer ist …?"],
+   ["Tipps", "Du könntest … · Bei der Stelle mit … fehlt noch … · Statt „Dann“ könntest du schreiben: …"]
+  ],
+  "karte_inhalt": [
+   ["K1", "Das Märchen geht dort weiter, wo der Anfang aufhört."],
+   ["K1", "Es gibt einen Höhepunkt: eine gefährliche Stelle."],
+   ["K1", "Das Problem wird gelöst."],
+   ["K2", "Ich finde Märchenmerkmale. Anzahl: ____"],
+   ["K3", "Am Schluss wird jemand belohnt oder bestraft."]
+  ],
+  "karte_sprache": [
+   ["K4", "Die Verben stehen im Präteritum (ging, sagte, rief)."],
+   ["K4", "Ich sehe Bilder im Kopf: genaue Verben und Adjektive."],
+   ["K4", "Die Sätze beginnen verschieden, nicht immer mit „Dann“."],
+   ["K5", "Ich verstehe alles. Die Reihenfolge stimmt."],
+   ["K5", "Das Märchen hat eine Überschrift."]
+  ],
+  "karte_leicht_inhalt": [
+   "Es wird gefährlich (Höhepunkt).",
+   "Das Problem wird gelöst.",
+   "Am Schluss wird jemand belohnt oder bestraft."
+  ],
+  "karte_leicht_sprache": [
+   "Die Verben stehen im Präteritum (ging, sagte).",
+   "Die Sätze beginnen verschieden.",
+   "Ich verstehe alles."
+  ],
+  "plan_schritte": [
+   ["Tipps sammeln", "Lies deine Feedbackkarte. Wähle **höchstens 3 Tipps**, die dir wichtig sind. Trage sie unten ein."],
+   ["Überarbeiten", "Arbeite in der **Kopie** deines Rohentwurfs mit **grünem Stift**: streichen, Wörter darüber schreiben. Längere Stellen: Stern ✱ am Rand und auf einem Extrablatt weiterschreiben."],
+   ["Prüfen", "Prüfe deinen Text mit dem **Märchen-Check**: Rechtschreibung, Zeichensetzung, wörtliche Rede."],
+   ["Zeigen", "Zeig deine Kopie der Lehrkraft. Dann beginnt deine **Wahlzeit**."]
+  ],
+  "hilfen": [
+   ["K1", "Aufbau", "Merkblatt Spannungsbogen · Schreibplan"],
+   ["K2", "Märchenmerkmale", "Merkblatt Märchenmerkmale · Märchen-Hilfe S. 2"],
+   ["K3", "Schluss", "Merkblatt Spannungsbogen (Schluss) · Märchen-Hilfe S. 2"],
+   ["K4", "Sprache", "Märchenverben · Märchen-Hilfe S. 3, 4, 5"],
+   ["K5", "Verständlich", "Schreibplan: ein Absatz für jeden Schritt"],
+   ["K6", "Prüfen", "Märchen-Check · Märchen-Hilfe S. 10 und 12"]
+  ],
+  "lehrkraft": [
+   ["Wann", "ab 19.01. in Deutsch, ohne Note. Zuerst Input 5 „Meinen Text prüfen“ (höchstens 10 Minuten), dann Schreibkonferenz."],
+   ["Rohentwurf", "Der Rohentwurf ist die bewertete Klassenarbeit und bleibt **unverändert**. Die Kinder arbeiten mit einer **Kopie** (vorher kopieren oder erst nach der Bewertung austeilen). Die Feedbackkarten und die überarbeitete Kopie bleiben in der Mappe."],
+   ["Gruppen", "zu dritt, drei Runden mit wechselnden Rollen, etwa 15 Minuten pro Text. Verschiedene Anfänge in einer Gruppe sind möglich. Kinder mit Lückentext oder Förderschwerpunkt sind gemischt in den Gruppen und nehmen die leichte Feedbackkarte."],
+   ["Lehrkraft", "geht herum, achtet auf Loben vor Tipps und auf genaue Stellen. Bei Bedarf übernimmt die Lehrkraft die Rolle eines Zuhörkindes."],
+   ["Danach", "Überarbeitungsplan, Überarbeiten in der Kopie, Märchen-Check. Wer fertig ist, geht in die Wahlzeit (P1–P3). Sobald der Bewertungsbogen zurück ist (bis 27.01.), nutzen die Kinder die Wahlhilfe."]
+  ],
+  "druck": [
+   ["Ablauf Schreibkonferenz", "1 S.", "1 pro Gruppe (laminieren)"],
+   ["Feedbackkarte", "1 S.", "1 pro Kind (für den eigenen Text)"],
+   ["Feedbackkarte leicht", "1 S.", "nach Bedarf"],
+   ["Mein Überarbeitungsplan", "1 S.", "1 pro Kind"],
+   ["Wahlhilfe", "1 S.", "1 pro Kind"],
+   ["Projekte P1–P3", "3 S.", "je 4–6 Stück zum Auslegen"],
+   ["Reinschrift Märchenbuch", "2 S.", "A4 Originalgröße, nach Bedarf"]
+  ]
+ },
+ "wahlhilfe_brauchst": "deine Feedbackkarte · deinen Bewertungsbogen der Klassenarbeit · Lernweg",
+ "wahlhilfe_zuerst": "Schau auf deinen **Bewertungsbogen** und deine **Feedbackkarte**. Kreuze unten an, welche Kriterien **noch offen** sind. Übe zuerst diese – eins nach dem anderen.",
+ "wahlhilfe": [
+  ["K1", "Aufbau", "Merkblatt Spannungsbogen · Schreibplan für ein **anderes** Lese-Märchen · Kiosk 11–15"],
+  ["K2", "Märchenmerkmale", "Merkblatt Märchenmerkmale · Quiz mit einem **anderen** Lese-Märchen · Kiosk 6–10"],
+  ["K3", "Schluss", "Merkblatt Spannungsbogen, letzter Schritt · Märchen-Hilfe S. 2 · Schreibe für dein Märchen **zwei andere** Schlüsse."],
+  ["K4", "Sprache", "Märchenverben im Präteritum · Märchen-Hilfe S. 3, 4, 5 · Bilder im Kopf noch einmal mit einer anderen Stelle · Kiosk 16"],
+  ["K5", "Verständlich", "Schreibplan: Mach für jeden Schritt einen Absatz. · Finde eine Überschrift, die neugierig macht."],
+  ["K6", "Prüfen", "Märchen-Check · Märchen-Hilfe S. 10 (wörtliche Rede) und S. 12 (Rechtschreib-Tipps) · Lies deinen Text Wort für Wort rückwärts."]
+ ],
+ "wahlhilfe_danach": "Alles geschafft? Dann wähle ein **Projekt**: P1 Märchenbuch, P2 Vorlesen oder P3 Umformen. Oder lies ein Märchen aus der **Lesekiste**.",
+ "projekte": [
+  {"nr": "P1", "titel": "Unser Märchenbuch", "datei": "Projekt_P1_Maerchenbuch_A4.pdf", "icon": "buch",
+   "brauchst": "deine überarbeitete Kopie · Märchen-Check · Reinschriftvorlage · Buntstifte",
+   "einleitung": "Wir sammeln eure Märchen in einem Klassenbuch. Die Lehrkraft scannt die Seiten. Daraus wird ein digitales Märchenbuch, das man auch ausdrucken kann.",
+   "schritte": [
+    ["Text wählen", "Nimm deine überarbeitete Kopie aus der Schreibkonferenz. Der Anfang gehört dazu – schreibe ihn kurz in zwei, drei Sätzen ab oder fasse ihn zusammen."],
+    ["Noch einmal prüfen", "Prüfe mit dem Märchen-Check. Verbessere nur, was nötig ist. Schreibe nicht alles neu."],
+    ["Titel finden", "Gib deinem Märchen einen eigenen Titel."],
+    ["Reinschrift", "Schreibe auf die Vorlage, sauber und gut lesbar, mit dunklem Stift. Schreibe nicht über den Rand."],
+    ["Bild", "Male ein Bild zu einer wichtigen Stelle in das Bildfeld."],
+    ["Abgeben", "Lege deine Seiten in die Märchenbuch-Mappe. Auf der Vorlage steht nur dein Vorname oder ein Kürzel."]
+   ],
+   "gelingt": ["Anfang und Fortsetzung ergeben ein ganzes Märchen.", "Der Text ist verbessert und gut lesbar.", "Titel und Bild passen zum Märchen."],
+   "erweiterung": "Du kannst ein zweites Märchen ergänzen, zum Beispiel deinen Höhepunkt aus „Bilder im Kopf“ oder einen anderen Anfang aus der Klassenarbeit – verbessert und zu Ende geschrieben."},
+  {"nr": "P2", "titel": "Ein Märchen gestaltend vorlesen", "datei": "Projekt_P2_Vorlesen_A4.pdf", "icon": "lesen",
+   "brauchst": "einen Märchentext (dein Märchen oder eine Leseübung) · Bleistift · ein anderes Kind als Zuhörer",
+   "einleitung": "In der letzten Woche gibt es eine **Vorleserunde**. Lies ein Märchen so vor, dass alle gespannt zuhören.",
+   "schritte": [
+    ["Text wählen", "dein Märchen oder ein Abschnitt aus einer Leseübung, zum Beispiel „Die Bremer Stadtmusikanten“ (höchstens eine Seite)"],
+    ["Zeichen setzen", "**/** = kurze Pause · **//** = lange Pause · betonte Wörter unterstreichen"],
+    ["Stimmen finden", "Jede Figur klingt anders: die Hexe krächzend, der König tief."],
+    ["Üben", "Lies dreimal. An spannenden Stellen langsamer und leiser."],
+    ["Rückmeldung", "Lies einem Kind vor: Was war spannend? Wo warst du zu schnell?"]
+   ],
+   "gelingt": ["Ich lese deutlich und nicht zu schnell.", "Man hört die Pausen und die betonten Wörter.", "Die Figuren klingen verschieden."],
+   "erweiterung": "Lest zu zweit oder zu dritt mit verteilten Rollen. Meldet euch für die Vorleserunde an."},
+  {"nr": "P3", "titel": "Ein Märchen umformen", "datei": "Projekt_P3_Umformen_A4.pdf", "icon": "figur",
+   "brauchst": "eine Leseübung · Heft · Merkblatt Märchenmerkmale · Märchenverben",
+   "einleitung": "Wie sieht ein Märchen aus der Sicht einer **anderen Figur** aus? Du erzählst einen Abschnitt neu – in der **Ich-Form**.",
+   "schritte": [
+    ["Figur wählen", "Zum Beispiel: ein Räuber in „Die Bremer Stadtmusikanten“, der Mann mit dem Brot in „Die Sterntaler“ oder das kleine Mädchen in „Des Kaisers neue Kleider“."],
+    ["Abschnitt wählen", "Suche eine Stelle, an der deine Figur dabei ist. Schreibe die Zeilen auf."],
+    ["Sammeln", "Was sieht, hört, denkt und fühlt deine Figur dort? Schreibe Stichworte."],
+    ["Schreiben", "Erzähle den Abschnitt in der Ich-Form und im Präteritum: *Ich schlich in das dunkle Haus. Da funkelten zwei Augen …*"],
+    ["Prüfen", "Passt alles zur Figur und zum Märchen? Stehen die Verben im Präteritum?"]
+   ],
+   "gelingt": ["Ich erzähle durchgehend als die gewählte Figur (Ich-Form).", "Die Handlung passt zum Märchen.", "Man erfährt, was die Figur denkt oder fühlt."],
+   "erweiterung": "Erzähle denselben Abschnitt aus einer zweiten Sicht. Was ist anders? Dir fehlt eine Idee? Das Merkblatt Märchenmerkmale zeigt dir typische Figuren, Orte und Zauberdinge."}
+ ]
+}

@@ -55,7 +55,7 @@ TERMINE = [
     ("Fr 08.01.", "Sprache", "Lesen; Verben und wörtliche Rede (Märchen-Hilfe S. 8–10)"),
     ("Di 12.01.", "Deutsch", "Klassenarbeit: Schreiben – spätestens jetzt schreiben alle, auch ohne GN2"),
     ("Mi 13.01.", "Deutsch", "Klassenarbeit: Schreiben, Prüfen mit dem Märchen-Check, Abgabe des Rohentwurfs (spätestens)"),
-    ("ab 19.01.", "Deutsch", "ohne Note: Input 5, Schreibkonferenz, Überarbeiten, Reinschrift; Wahl: Märchenbuch, nachspielen, Comic, Märchenfilm, vorlesen"),
+    ("ab 19.01.", "Deutsch", "ohne Note: Input 5, Schreibkonferenz zu dritt, Überarbeiten in einer Kopie des Rohentwurfs; Wahlzeit: P1 Märchenbuch, P2 Vorlesen, P3 Umformen"),
     ("bis 27.01.", "Lehrkraft", "Rohentwürfe bewertet (Bewertungsbogen), Noten eingetragen"),
 ]
 
@@ -322,8 +322,8 @@ def lernweg_html() -> str:
             + "<div class=zw>%s</div>" % "".join(o(x) for x in ["Anfang lesen und markieren", "Aufgabe 1 und 2", "Schreibplan (freiwillig)", "Text schreiben",
                                                                "Märchen-Check", "abgegeben am ________"])),
         blk(6, "Nach der Abgabe", "ohne Note",
-            "<div class=zw>%s</div>" % "".join(o(x) for x in ["Schreibkonferenz", "Text überarbeiten", "Reinschrift"])
-            + "<div class=p><b>Wähle:</b> ○&nbsp;Märchenbuch &nbsp; ○&nbsp;nachspielen &nbsp; ○&nbsp;Märchencomic &nbsp; ○&nbsp;Märchenfilm &nbsp; ○&nbsp;vorlesen</div>"),
+            "<div class=zw>%s</div>" % "".join(o(x) for x in ["Schreibkonferenz", "Überarbeitungsplan", "Kopie überarbeiten (grüner Stift)", "Wahlhilfe"])
+            + "<div class=p><b>Wahlzeit:</b> ○&nbsp;P1 Märchenbuch &nbsp; ○&nbsp;P2 Vorlesen &nbsp; ○&nbsp;P3 Umformen</div>"),
     ]
     return doc(css, "<div class=meta>Lernweg · Deutsch · Märchen</div><h1>Lernweg – Märchen</h1>"
                "<p style='margin-bottom:2mm'>Name: ____________________ &nbsp; Klasse: ______ &nbsp; Hake ab, was du geschafft hast.</p>" + "".join(teile))
@@ -431,7 +431,7 @@ def pruefe_seiten(b: f2.Bau):
     import re
     n = 0
     for pdf in sorted(AUS.rglob("*.pdf")):
-        if pdf.name.startswith("Gesamtpaket") or "_teile" in pdf.parts or "pakete" in pdf.parts:
+        if pdf.name.startswith(("Gesamtpaket", "Paket_")) or "Reinschrift" in pdf.name or "_teile" in pdf.parts or "pakete" in pdf.parts:
             continue
         d = fitz.open(pdf)
         for i, pg in enumerate(d):
