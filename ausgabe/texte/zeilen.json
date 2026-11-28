@@ -325,18 +325,14 @@
  },
  "jorinde-joringel": {
   "zeilen": 45,
-  "seiten": 3,
+  "seiten": 2,
   "zeilen_je_seite": [
    [
     1,
-    20
+    21
    ],
    [
-    21,
-    42
-   ],
-   [
-    43,
+    22,
     45
    ]
   ],
@@ -1030,14 +1026,10 @@
  },
  "suesser-brei": {
   "zeilen": 23,
-  "seiten": 2,
+  "seiten": 1,
   "zeilen_je_seite": [
    [
     1,
-    22
-   ],
-   [
-    23,
     23
    ]
   ],
@@ -1258,7 +1250,7 @@
  },
  "drei-brueder": {
   "zeilen": 49,
-  "seiten": 3,
+  "seiten": 2,
   "zeilen_je_seite": [
    [
     1,
@@ -1266,10 +1258,6 @@
    ],
    [
     20,
-    48
-   ],
-   [
-    49,
     49
    ]
   ],

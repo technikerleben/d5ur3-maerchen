@@ -102,6 +102,38 @@ Texte: A „Die drei Brüder“, B „Die drei Faulen“. Freigabe ab 4 von 5.
 
 Zu jedem Anfang gibt es eine F-Fassung: Aufgabe 1 zum Ankreuzen (bei Vertiefung 1/2 die Originalseite) und einen Schreibrahmen mit Satzanfängen, der zum Anfang passt.
 
+## Vier Materialpakete (28.11.2026)
+
+Bau: `python3 tools/build_f4.py alles`, danach `python3 tools/build_f4_pakete.py`. Das Ergebnis liegt in `ausgabe/f4/pakete/` und ist nicht im Repo. Jedes Paket ist ein PDF und beginnt mit einer Druckanleitung (Seitenangaben, Format, Anzahl).
+
+| Paket | Inhalt |
+|---|---|
+| 1 · Lesematerial Sprache | Deckblatt „Märchen lesen“ (Wahl, So lest ihr, Zeilen und Fußnoten) · Leseübungen 1–5, jeweils Text mit Zeilennummern und Worterklärungen, dann Aufgaben · Märchenverben im Präteritum (Erklärung und 4 Tabellenseiten quer) · Märchen-Hilfe, Seiten 1–12 |
+| 2 · Etappe 1 | Lernweg · Merkblatt Märchenmerkmale · Quiz Märchenmerkmale · GN1 A/B auf Papier (Ersatz) · Förderpaket 1 mit GN1F · Erwartungshorizont · Skript Input 1 |
+| 3 · Etappe 2 | Märchenrap · Merkblatt Spannungsbogen · Lückentext (★) · Schreibplan (★★) · Bilder im Kopf · GN2 A/B · Förderpaket 2 · Erwartungshorizont · Skripte Input 2 und 3 |
+| 4 · Klassenarbeiten | Auftrag · 5 Anfänge normal und F · Lückentext mit Wortspeicher · Märchen-Check · Bewertungsbogen · Erwartungshorizonte · Skripte Input 4 und 5 · Zeitplan |
+
+**Material der Kollegin im HBG-Design:**
+- Alle Blätter sind neu gesetzt: gleicher Kopf, Symbole, mindestens 14 pt (wenige Tabellen 12,5–13 pt), Graustufen.
+- Die Bilder (Kate Hadfield) und die Figuren der Märchen-Hilfe sind nicht übernommen.
+- Die Inhalte liegen in `extern/kollegin.json`, nicht im Repo.
+- Die Leseübungen haben jetzt Zeilennummern im Satz unserer Märchentexte und Worterklärungen als Fußnoten.
+- Die Anfänge „Hexe und Plumpsklo“ und „Zwerge und Zauberrezept“ sind wie die Grimm-Anfänge gesetzt: Text mit Zeilen, Aufgabenblatt, Schreibplan.
+
+**Korrigierte Fehler in den Vorlagen:**
+- **Sterntaler:** kein Zuhause, alles, was …, weiterging, Doppelpunkt vor der Rede
+- **12 Monate:** in den Wald, um …; „Dann sagte sie“
+- **Kaiser:** „immer mehr Geld“ statt „nimmer mehr“, hineinhelfen, Kommas, recht hatten
+- **Bremer Stadtmusikanten:**
+  - Zeichensetzung bei der wörtlichen Rede
+  - „herumzujagen“, „fortgemacht“
+  - „erzählte“ statt „erzählt“
+- **Märchen-Hilfe S. 10:** Nach der Rede steht auch nach ? und ! ein Komma („Wer klopft an meine Tür?“, fragte die Hexe). Die Vorlage sagte „außer bei ? und !“, ihr eigenes Beispiel hat das Komma aber.
+
+**Setzprüfung:** `build_f4.py` und `build_f4_pakete.py` melden jede Seite, auf der nur ein Rest steht.
+- „Der süße Brei“ und „Die drei Brüder“ werden jetzt leicht verdichtet gesetzt, sodass keine Einzelzeile mehr auf die nächste Seite rutscht. Das gilt allgemein in `build_texte.py`.
+- Blatt 1F, Blatt 4F, die Schreibrahmen und das Skript zu Input 4 sind gekürzt.
+
 ## Was aus Fassung 3 wegfällt
 
 - Probearbeit

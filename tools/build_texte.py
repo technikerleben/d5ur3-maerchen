@@ -44,6 +44,10 @@ h1{font-size:30pt;line-height:1.15;margin:1mm 0 1mm}
 """
 
 
+ENGER = ["", ".par{line-height:1.45;margin-bottom:2mm}", ".par{line-height:1.4;margin-bottom:1.5mm}",
+         ".par{line-height:1.36;margin-bottom:1mm}.quelle{margin-bottom:3mm}h1{font-size:27pt}"]
+
+
 def text_html(t: dict) -> tuple[str, list[dict]]:
     absaetze = [p.get("absatz") or "\n".join(p["vers"]) for p in t["text"]]
     marken = fussnoten_positionen(absaetze, t.get("fussnoten", []))
@@ -88,7 +92,15 @@ def main(ids: list[str]) -> int:
         for t in texte:
             inhalt, fns = text_html(t)
             pdf = AUS / f"{t['id']}_A4.pdf"
-            info = render_seiten(pg, inhalt, CSS, fns, pdf, fuss_rechts=t["titel"])
+            # Setzfehler vermeiden: Steht auf der letzten Seite nur ein Rest (unter 4 Zeilen), wird der Satz leicht verdichtet.
+            for enger in ENGER:
+                info = render_seiten(pg, inhalt, CSS + enger, fns, pdf, fuss_rechts=t["titel"])
+                rest = info["zeilen_je_seite"][-1]
+                if info["seiten"] == 1 or (rest and rest[1] - rest[0] + 1 >= 4):
+                    break
+            else:
+                print("  << %s: letzte Seite hat nur einen Rest" % t["id"])
+                fehler += 1
             # Zeile jeder Fußnote ermitteln
             fz = pg  # Seite ist nach dem Rendern noch im DOM
             fn_zeilen = fz.evaluate("""() => [...document.querySelectorAll('sup.fz')].map(s => {

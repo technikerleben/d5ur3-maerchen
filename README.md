@@ -2,7 +2,7 @@
 
 Unterrichtsreihe 3 im Jahrgang 5 (Aufgabentyp 6, produktionsorientiertes Schreiben). Zeitraum: Anfang Dezember 2026 bis 15.01.2027, ohne Weihnachtsferien; 900 Minuten (180 in vollen, 90 in unvollständigen Wochen). Das Material wird klassenübergreifend im Jahrgang genutzt.
 
-> **Aktuell: Fassung 4 (28.11.2026).** Etappe 1 Merkmale + GN1 (digital), Etappe 2 Spannungsbogen und spannend erzählen + GN2, dann Klassenarbeit „Ein Märchen zu Ende schreiben“ im Unterricht in eigenem Tempo (5 Anfänge ★–★★★, Abgabe des Rohentwurfs bis 13.01.), danach Schreibkonferenz ohne Note. Lernmaterial überwiegend von der Kollegin (`extern/`). Planung: [Fassung 4](planung/Fassung4.md) · Bau: `python3 tools/build_f4.py alles`.
+> **Aktuell: Fassung 4 (28.11.2026).** Etappe 1 Merkmale + GN1 (digital), Etappe 2 Spannungsbogen und spannend erzählen + GN2, dann Klassenarbeit „Ein Märchen zu Ende schreiben“ im Unterricht in eigenem Tempo (5 Anfänge ★–★★★, Abgabe des Rohentwurfs bis 13.01.), danach Schreibkonferenz ohne Note. Lernmaterial überwiegend von der Kollegin (`extern/`). Planung: [Fassung 4](planung/Fassung4.md) · Bau: `python3 tools/build_f4.py alles`, dann `python3 tools/build_f4_pakete.py` (Material der Kollegin im HBG-Design und vier Materialpakete; lokal, nicht im Repo).
 >
 > Vorher: **Fassung 3 (24.11.2026).** Teil 1 mit drei Etappen ab 09.12., Probearbeit am 22.12., Arbeit 3 am 13.01. (früh) und 20.01. (spät); Teil 2 unbenotet bis Halbjahresende; Sprache liest die Märchen freitags vorab. Planung: [Fassung 3](planung/Fassung3.md) · Bau: `python3 tools/build_f3.py alles` · GN1 digital: `apps/gn1-digital/index.html`. Fassung 1 und 2 bleiben als Archiv (Tags `fassung-1`, `fassung-2`).
 

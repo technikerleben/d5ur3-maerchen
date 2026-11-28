@@ -8,8 +8,8 @@ anschließend Schreibkonferenz und Überarbeitung ohne Note. Lernmaterial ist ü
     python3 tools/build_f4.py arbeit         Klassenarbeit: Auftrag, 5 Anfänge (normal/F), Erwartungshorizonte, Bewertungsbogen
     python3 tools/build_f4.py input [n]      Inputs 1–5
     python3 tools/build_f4.py raum           Lernweg F4, Zeitplan
-    python3 tools/build_f4.py druck          Druckanleitung und Gesamt-PDF (lokal)
-    python3 tools/build_f4.py alles
+    python3 tools/build_f4.py druck          alte Gesamt-Druckanleitung (ersetzt durch die vier Pakete in build_f4_pakete.py)
+    python3 tools/build_f4.py alles          alles außer druck; danach build_f4_pakete.py für Material der Kollegin und Pakete
 
 Inhalte: inhalt/f4/ · Ausgabe: ausgabe/f4/ · Bausteine: build_f2.py, build_f3.py · Material der Kollegin: extern/ (nicht im Repo).
 """
@@ -24,7 +24,8 @@ import pymupdf as fitz
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import build_f3 as f3  # noqa: E402  (stellt beim Import auf Fassung 3; wird unten auf Fassung 4 umgestellt)
 from build_material import GN_CSS, TEXTE, doc, esc, md, verbinde  # noqa: E402
-from satz import ROOT  # noqa: E402
+from satz import ROOT, kleinste_schrift, render_seiten  # noqa: E402
+import build_texte  # noqa: E402
 
 f2 = f3.f2
 IN = ROOT / "inhalt" / "f4"
@@ -95,6 +96,33 @@ def bau_etappe(b: f2.Bau, n: int):
     tmp.rmdir()
 
 
+# ------------------------------------------------------------ Texte mit Zeilennummern (Satz wie alle Märchentexte)
+KOL_JSON = ROOT / "extern" / "kollegin.json"
+KOL_TEXTE = json.loads(KOL_JSON.read_text("utf-8"))["anfaenge"] if KOL_JSON.exists() else {}
+
+
+def text_pdf(b: f2.Bau, t: dict, label: str, ziel: Path, info: str | None = None) -> Path:
+    tt = {"rolle": label, "titel": t["titel"], "quelle": t["quelle"], "text": t["text"], "fussnoten": t.get("fussnoten", []),
+          "vollstaendig": t.get("vollstaendig", True)}
+    inhalt, fns = build_texte.text_html(tt)
+    if info:
+        i = inhalt.find("<div class=par")
+        inhalt = inhalt[:i] + "<div style='border:1.4pt solid #111;border-radius:2mm;padding:2mm 3mm;margin:0 0 3mm;font-size:14pt'><b>Gut zu wissen:</b> %s</div>" % esc(info) + inhalt[i:]
+    pg = b.br.new_page()
+    for enger in build_texte.ENGER:
+        info_ = render_seiten(pg, inhalt, build_texte.CSS + enger, fns, ziel, fuss_rechts=t["titel"])
+        rest = info_["zeilen_je_seite"][-1]
+        if info_["seiten"] == 1 or (rest and rest[1] - rest[0] + 1 >= 4):
+            break
+    pg.close()
+    mn = kleinste_schrift(ziel, ausnahmen=(11.0,))
+    if mn < 14:
+        b.fehler.append("%s Schrift %.1f" % (ziel.name, mn))
+    b.bericht.append("%-40s %d S.  min %.1f pt" % (ziel.relative_to(AUS), info_["seiten"], mn))
+    return ziel
+
+
+
 # ------------------------------------------------------------ Klassenarbeit
 CSS_KA = F2_CSS + "td.k{width:12mm;text-align:center;font-size:17pt}"
 
@@ -151,7 +179,7 @@ def schreibplan_html(a: dict) -> str:
 
 
 def rahmen_html(a: dict) -> str:
-    rahmen = "".join("<div style='display:flex;gap:3mm;margin-top:2mm'><div style='width:12mm;font-size:20pt;font-weight:700;text-align:center'>%s</div>"
+    rahmen = "".join("<div style='display:flex;gap:3mm;margin-top:1.2mm'><div style='width:12mm;font-size:20pt;font-weight:700;text-align:center'>%s</div>"
                      "<div style='flex:1'><div style='font-size:15pt'>%s%s</div>%s</div></div>" % (
                          bu, "<i>%s:</i> " % w if w else "", esc(s) + " …", "<div class=linie></div>" * n) for bu, w, s, n in a["rahmen_f"])
     return doc(F2_CSS, kopf("Klassenarbeit F · %s %s" % (STERNE[a["stufe"]], a["titel"]), "Schreibrahmen: Schreibe das Märchen zu Ende", "plan")
@@ -231,7 +259,12 @@ def bau_arbeit(b: f2.Bau):
     b.mach(auftrag_html(), aus / "KA_0_Auftrag_A4.pdf", "Klassenarbeit · Auftrag", 12.5, 2)
     erw = []
     for i, a in enumerate(KA["anfaenge"], 1):
-        if a.get("extern"):
+        if a.get("extern") and a["id"] in KOL_TEXTE:
+            # Anfang der Kollegin im HBG-Satz (Text liegt in extern/kollegin.json)
+            txt = text_pdf(b, dict(KOL_TEXTE[a["id"]], vollstaendig=False), "Klassenarbeit · Märchenanfang", tmp / f"text_{a['id']}.pdf")
+            anf = [txt, b.mach(aufgaben_html(a, False), tmp / f"auf_{a['id']}.pdf", "Klassenarbeit · Aufgaben", 14, 1)]
+            anf_f = [txt, b.mach(aufgaben_html(a, True), tmp / f"auff_{a['id']}.pdf", "Klassenarbeit F · Aufgaben", 14, 1)]
+        elif a.get("extern"):
             anf = [extern_seiten(b, a["extern"], a["extern_seiten"], tmp / f"ext_{a['id']}.pdf")]
             anf_f = anf
         else:
@@ -239,14 +272,14 @@ def bau_arbeit(b: f2.Bau):
             anf = [txt, b.mach(aufgaben_html(a, False), tmp / f"auf_{a['id']}.pdf", "Klassenarbeit · Aufgaben", 14, 1)]
             anf_f = [anf[0], b.mach(aufgaben_html(a, True), tmp / f"auff_{a['id']}.pdf", "Klassenarbeit F · Aufgaben", 14, 1)]
         plan = b.mach(schreibplan_html(a), tmp / f"plan_{a['id']}.pdf", "Klassenarbeit · Schreibplan", 14, 1)
-        rahmen = b.mach(rahmen_html(a), tmp / f"rahmen_{a['id']}.pdf", "Klassenarbeit F · Schreibrahmen", 14, 2)
+        rahmen = b.mach(rahmen_html(a), tmp / f"rahmen_{a['id']}.pdf", "Klassenarbeit F · Schreibrahmen", 14, 1)
         name = f"KA_{i}_{a['id']}"
         s = verbinde(anf + [plan], aus / f"{name}_A4.pdf")
         sf = verbinde(anf_f + [plan, rahmen], aus / f"{name}_F_A4.pdf")
         b.bericht.append("%-40s %d S. · F: %d S.  (%s)" % (f"klassenarbeit/{name}_A4.pdf", s, sf, STERNE[a["stufe"]]))
         erw.append(erwartung_html(a))
-    b.mach(doc(GN_CSS + "body{font-size:12pt}table{font-size:12pt}", "<div style='break-before:page'></div>".join(erw)),
-           aus / "KA_Erwartungshorizonte_A4.pdf", "Erwartungshorizonte", 12, 2 * len(erw))
+    b.mach(doc(GN_CSS + "body{font-size:11.5pt}table{font-size:11.5pt}td,th{padding:1.1mm 1.8mm}h1{margin-bottom:1mm}",
+               "<div style='break-before:page'></div>".join(erw)), aus / "KA_Erwartungshorizonte_A4.pdf", "Erwartungshorizonte", 11.5, len(erw))
     b.mach(bogen_html(), aus / "KA_Bewertungsbogen_A4.pdf", "Bewertungsbogen", 9.4, 1)
     for x in tmp.iterdir():
         x.unlink()
@@ -383,6 +416,25 @@ def bau_druck(b: f2.Bau):
     b.bericht.append("%-40s %d S. (Anleitung %d S. + %d Teile), %.1f MB" % (ges.name, s, n, len(inv), ges.stat().st_size / 1e6))
 
 
+# ------------------------------------------------------------ Setzprüfung
+def pruefe_seiten(b: f2.Bau):
+    """Keine Seite darf nur einen Rest enthalten (z. B. ein Wort oder eine Zeile nach einem Umbruch)."""
+    import re
+    n = 0
+    for pdf in sorted(AUS.rglob("*.pdf")):
+        if pdf.name.startswith("Gesamtpaket") or "_teile" in pdf.parts or "pakete" in pdf.parts:
+            continue
+        d = fitz.open(pdf)
+        for i, pg in enumerate(d):
+            if len(d) == 1:
+                continue
+            body = re.sub(r"Deutsch · Jahrgang 5 · Märchen.*", "", pg.get_text(), flags=re.S).strip()
+            if len(body) < 120 and not pg.get_images():
+                b.fehler.append("Setzfehler: %s Seite %d hat nur einen Rest (%r)" % (pdf.relative_to(AUS), i + 1, body[:40]))
+        n += 1
+    b.bericht.append("%-40s %d PDFs ohne Restseiten" % ("Setzprüfung", n))
+
+
 # ------------------------------------------------------------ main
 def main(argv: list[str]) -> int:
     was = argv[0] if argv else "alles"
@@ -400,8 +452,9 @@ def main(argv: list[str]) -> int:
             f3.bau_input(b, n)
     if was in ("raum", "alles"):
         bau_raum(b)
-    if was in ("druck", "alles"):
+    if was == "druck":
         bau_druck(b)
+    pruefe_seiten(b)
     return b.ende()
 
 

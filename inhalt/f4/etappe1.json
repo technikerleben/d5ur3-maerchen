@@ -197,8 +197,7 @@
        "Das Brot spricht.",
        "Ein Auto fährt.",
        "Gold fällt auf das Mädchen.",
-       "Die faule Tochter bekommt Pech.",
-       "Das Mädchen spielt mit dem Handy."
+       "Die faule Tochter bekommt Pech."
       ],
       "loesung": [
        "Das Brot spricht.",
@@ -212,14 +211,6 @@
       "paare": [
        [
         "Das Mädchen hilft dem Brot.",
-        "G"
-       ],
-       [
-        "Sie hilft nicht.",
-        "F"
-       ],
-       [
-        "Es schüttelt das Bett.",
         "G"
        ],
        [
