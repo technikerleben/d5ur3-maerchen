@@ -65,13 +65,11 @@ def lese_aufgaben_html(L: dict) -> str:
                          "<span style='flex:1;border-bottom:1pt solid #111'></span></div>" % esc(f) for f in q.get("felder", []))
         teile.append("<div style='margin:0 0 2.5mm'><div style='font-size:15pt'><b>%d.</b> %s%s</div>%s%s</div>" % (
             i, esc(q["text"]), " <b>(Z.)</b>" if q.get("zeile") else "", felder, LINIE * q.get("linien", 1)))
-    zs = "".join("<div style='font-size:15pt;margin-top:1mm'>%s</div>%s%s" % (
-        esc(z["text"]), LINIE * z.get("linien", 0),
-        "<div style='border:1.2pt solid #111;border-radius:2mm;height:%dmm;margin-top:2mm'></div>" % z["kasten"] if z.get("kasten") else "")
+    zs = "".join("<div style='font-size:15pt;margin-top:1mm'>%s%s</div>%s" % (
+        esc(z["text"]), " <b>Male auf ein Extrablatt</b> – es liegt im Klassenraum bereit." if z.get("malen") else "", LINIE * z.get("linien", 0))
         for z in L.get("zusatz", []))
     if zs:
-        teile.append("%s<div class='kasten frei'><span class=etikett>%s FREIWILLIG</span>%s</div>" % (
-            "<div style='break-before:page'></div>" if L.get("zusatz_seite") else "", sym("plus", 6), zs))
+        teile.append("<div class='kasten frei'><span class=etikett>%s FREIWILLIG</span>%s</div>" % (sym("plus", 6), zs))
     return doc(F2_CSS + KOMPAKT, "".join(teile))
 
 
@@ -206,23 +204,7 @@ def bau_kollegin(b: f2.Bau) -> dict[str, Path]:
     for L in KOL["lese"]:
         t = dict(L, quelle=L["quelle"] + (" · %s" % L["untertitel"] if L.get("untertitel") else ""))
         tx = text_pdf(b, t, "Sprache · Leseübung %d · %s" % (L["n"], L["sterne"]), tmp / f"lese_{L['n']}_text.pdf", L.get("info"))
-        # Zeichenkasten so wählen, dass die Aufgaben auf eine Seite passen (keine Restseite)
-        LL = copy.deepcopy(L)
-        for _ in range(5):
-            au = b.mach(lese_aufgaben_html(LL), tmp / f"lese_{L['n']}_auf.pdf", "Leseübung %d · Aufgaben" % L["n"], 14, 2)
-            if len(fitz.open(au)) == 1 or LL.get("zusatz_seite"):
-                break
-            b.bericht.pop()
-            if not any(z.get("kasten", 0) > 14 for z in LL.get("zusatz", [])):
-                # passt nicht auf eine Seite: Zusatz bekommt eine eigene Seite mit großem Zeichenkasten
-                LL["zusatz_seite"] = True
-                for z in LL["zusatz"]:
-                    if z.get("kasten"):
-                        z["kasten"] = 190
-                continue
-            for z in LL["zusatz"]:
-                if z.get("kasten"):
-                    z["kasten"] -= 6
+        au = b.mach(lese_aufgaben_html(L), tmp / f"lese_{L['n']}_auf.pdf", "Leseübung %d · Aufgaben" % L["n"], 14, 1)
         p[f"lese_{L['n']}"] = KAUS / f"Leseuebung_{L['n']}_{L['id']}_A4.pdf"
         s = verbinde([tx, au], p[f"lese_{L['n']}"])
         b.bericht.append("%-40s %d S." % (p[f"lese_{L['n']}"].relative_to(AUS), s))
@@ -296,7 +278,8 @@ PAKETE = [
         ("Lehrkraft", "inputs/Skript_Input_5_A4.pdf", "A4", "1", "Input 5 Prüfen (Schreibkonferenz, nach der Abgabe)"),
         ("Lehrkraft", "Zeitplan_F4_Lehrkraft_A4.pdf", "A4", "1", "")]),
 ]
-DIGITAL = {"2": "apps/gn1-digital/index.html (Gelingensnachweis 1 am Laptop, Variante A oder B) · inputs/Input_1.html am Beamer · Videos „Was sind Märchen?“ und „Gebrüder Grimm“",
+DIGITAL = {"1": "Extrapapier (unliniert) für die freiwilligen Malaufgaben im Klassenraum bereitlegen · Lesekiste aus der Bibliothek",
+           "2": "apps/gn1-digital/index.html (Gelingensnachweis 1 am Laptop, Variante A oder B) · inputs/Input_1.html am Beamer · Videos „Was sind Märchen?“ und „Gebrüder Grimm“",
            "3": "inputs/Input_2.html und Input_3.html am Beamer",
            "4": "inputs/Input_4.html (vor dem Schreiben) und Input_5.html (Schreibkonferenz) am Beamer · liniertes Papier und eine Mappe je Kind; Mappen am Ende jeder Stunde einsammeln"}
 
