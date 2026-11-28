@@ -162,3 +162,18 @@ Bau: `python3 tools/build_f4.py alles`, danach `python3 tools/build_f4_pakete.py
 - Blatt 16: Bilder im Kopf (Wörter-Jagd + Beispiel-Höhepunkt)
 
 Keine Lösungen zu Gelingensnachweisen und Klassenarbeit. Die Blattnummern stehen auf den Arbeitsblättern („Kiosk, Blatt …“).
+
+## Inputs als Präsentation (laut denken und Strategien erklären)
+
+`apps/inputs/index.html` ist eine Datei mit allen fünf Inputs. Gebaut wird sie mit `tools/build_inputs_f4.py` aus `inhalt/f4/inputs_laut.json`. Vorbild ist der Zootiere-Input „laut gedacht“.
+
+**Aufbau jedes Inputs:**
+1. Mein Auftrag
+2. Strategie erklärt: Prüffragen, Signale im Text, wann sie hilft
+3. Ich denke laut: Klick für Klick. Die Textstelle wird markiert, eine Gedankenblase erscheint, und das Ergebnis wächst mit. An einer Stelle irre ich mich und verbessere mich.
+4. So klingt lautes Denken: Satzmuster
+5. Jetzt ihr: Auftrag, Hilfe, 30-Sekunden-Partnerimpuls
+
+**Steuerung:** → / Leertaste / Klick, ←, Bild ↑↓, 1–5, Esc, F (Vollbild), N (Hinweis für die Lehrkraft), ?. Dazu kommen Fortschrittsbalken pro Folie und ein Deep-Link (`#i3-4-2`).
+
+**Prüfung:** Jede Folie und jeder Schritt wird in 1280×720, 1024×768 und 1920×1080 geprüft (nichts läuft über, keine Konsolenfehler). Die alten Einzel-Inputs (`ausgabe/f4/inputs/Input_n.html`) und die Skripte bleiben.

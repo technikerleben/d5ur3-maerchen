@@ -1,0 +1,188 @@
+{
+ "_hinweis": "Fassung 4 · Gesamtpräsentation aller Inputs nach dem Prinzip „laut denken und Strategien erklären“ (Vorbild: Zootiere, Input Etappe 3 laut gedacht). Gebaut mit tools/build_inputs_f4.py → apps/inputs/index.html. Folientypen: auftrag, strategie, laut, ergebnis, jetzt. In laut-Folien: mark = Textstellen (müssen im Text stehen), denke = Gedankenblase, add = Eintrag ins Ergebnis, strike = letzten Eintrag einer Zone durchstreichen, satz = Satz neu setzen (**neu**, ~~weg~~), irrtum = Blase als Irrtum zeigen.",
+ "inputs": [
+  {
+   "nr": 1, "titel": "Märchenmerkmale finden", "wann": "Mi 09.12. · Etappe 1", "icon": "★",
+   "hinweis": "Kein Merkblatt vorlesen – es liegt auf der Lerntheke. Der Input zeigt nur das Vorgehen. Echte Unsicherheit zeigen und nachschlagen.",
+   "folien": [
+    {"typ": "auftrag", "titel": "Mein Auftrag",
+     "situation": "Ich lese ein Märchen. Ich soll herausfinden: **Woran erkenne ich, dass das ein Märchen ist?** Zu jedem Merkmal schreibe ich ein **Beispiel aus dem Text**.",
+     "denke": ["Genau das macht ihr gleich im Quiz – mit eurem Märchen aus der Leseübung.", "Ich lese nicht einfach drauflos. Ich stelle mir beim Lesen Fragen. Heute mache ich mein Denken sichtbar."]},
+    {"typ": "strategie", "titel": "Drei Fragen helfen mir",
+     "fragen": [["Gibt es das in Wirklichkeit?", "Nein? Dann ist es oft **Zauber**."], ["Kenne ich das aus anderen Märchen?", "Formeln, Zahlen, Figuren kommen immer wieder."], ["Wie heißt das auf dem Merkblatt?", "Ich schreibe auf: **Merkmal – Beispiel**."]],
+     "signale": [["„Es war einmal …“", "typischer Anfang"], ["-lein, -chen", "Verkleinerung"], ["3 · 7 · 12", "magische Zahl"], ["Tier spricht", "Zauber"], ["arm, fleißig ↔ gierig, böse", "Gut und Böse"]],
+     "wann": "beim Lesen eines Märchens – und wenn du selbst ein Märchen schreibst"},
+    {"typ": "laut", "titel": "Ich denke laut", "text_titel": "Das Schneiderlein (Übungstext)",
+     "text": "Es war einmal ein armes Schneiderlein, das wohnte in einem kleinen Häuschen am Waldrand. Sieben Tage in der Woche nähte es für die Leute im Dorf. Eines Abends klopfte es dreimal an die Tür. Draußen saß eine graue Katze und sprach: „Nähe mir einen Mantel aus Mondlicht, dann will ich dein Glück sein.“",
+     "ergebnis": {"art": "liste", "titel": "Meine Merkmale", "zonen": [["m", "Merkmal – Beispiel"]]},
+     "schritte": [
+      {"mark": ["Es war einmal"], "denke": "„Es war einmal“ – das kenne ich aus vielen Märchen. Frage 3: Auf dem Merkblatt heißt das **typischer Anfang**.", "add": [["m", "typischer Anfang – „Es war einmal“"]]},
+      {"mark": ["am Waldrand"], "denke": "Am Waldrand – das ist doch ein genauer Ort. Also kein Märchenmerkmal?", "irrtum": true, "add": [["m", "genauer Ort?"]]},
+      {"mark": ["am Waldrand"], "denke": "Halt, ich prüfe noch einmal: **Welcher** Wald? **Wann**? Das steht nirgends. Merkblatt: Zeit und Ort sind **unbestimmt**.", "strike": "m", "add": [["m", "Zeit und Ort unbestimmt – „am Waldrand“"]]},
+      {"mark": ["armes Schneiderlein", "Häuschen"], "denke": "Arm – auf dem Merkblatt steht: Die Guten sind oft arm. Und **-lein**, **-chen**: Verkleinerung. Zwei Merkmale!", "add": [["m", "Gut und Böse: die Gute ist arm – „armes Schneiderlein“"], ["m", "Verkleinerung – „Schneiderlein“, „Häuschen“"]]},
+      {"mark": ["dreimal", "Sieben Tage"], "denke": "Dreimal! Magische Zahl. Ich schaue im Text zurück: „Sieben Tage“ – noch eine.", "add": [["m", "magische Zahlen – „dreimal“, „Sieben“"]]},
+      {"mark": ["eine graue Katze und sprach"], "denke": "Frage 1: Gibt es das in Wirklichkeit? Nein, Katzen sprechen nicht. **Zauber: sprechendes Tier.**", "add": [["m", "sprechendes Tier – „Katze … sprach“"]]},
+      {"mark": ["Mantel aus Mondlicht"], "denke": "Ein Mantel aus Mondlicht – das ist fast unmöglich. Ich glaube, das ist eine **Prüfung**. Schafft er das? Ich lese weiter …", "add": [["m", "Prüfung – „Mantel aus Mondlicht“"]]}
+     ]},
+    {"typ": "ergebnis", "titel": "So klingt lautes Denken",
+     "satz": "„Hier steht … . Das ist das Merkmal … , weil … .“",
+     "punkte": ["Ich stelle mir die drei Fragen bei **jedem** Abschnitt.", "Wenn ich unsicher bin, schaue ich auf das Merkblatt – und prüfe noch einmal.", "Ich schreibe immer **Merkmal und Beispiel**."]},
+    {"typ": "jetzt", "titel": "Jetzt ihr",
+     "auftrag": ["Lies das Merkblatt Märchenmerkmale.", "Mach das **Quiz** mit **deinem** Märchen aus der Leseübung: zu jedem Bereich Merkmal und Beispiel.", "Sagt zu zweit laut: „Hier steht … . Das ist das Merkmal … , weil … .“"],
+     "hilfe": ["Merkblatt Märchenmerkmale", "Videos „Was sind Märchen?“ und „Gebrüder Grimm“", "Kontroll-Kiosk: Blatt 6–10"],
+     "partner": "In 30 Sekunden: Sag deinem Nachbarn, welches Märchen du nimmst und mit welcher Frage du anfängst."}
+   ]
+  },
+  {
+   "nr": 2, "titel": "Mit dem Spannungsbogen zusammenfassen", "wann": "Di 15.12. · Etappe 2", "icon": "⌒",
+   "hinweis": "Vorher oder nachher den Märchenrap gemeinsam sprechen. Den Irrtum beim Höhepunkt wirklich zeigen: kurz zögern, dann die Prüffrage stellen.",
+   "folien": [
+    {"typ": "auftrag", "titel": "Mein Auftrag",
+     "situation": "Ich will ein ganzes Märchen in **sieben Sätzen** erzählen. Dafür suche ich die sieben Schritte des Spannungsbogens: **J – W – A – D – D – A – A**.",
+     "denke": ["Genau so füllt ihr gleich euren Schreibplan – mit eurem Märchen aus der Leseübung.", "Die Buchstaben kenne ich aus dem Märchenrap. Aber woran erkenne ich sie im Text?"]},
+    {"typ": "strategie", "titel": "So finde ich die Schritte",
+     "fragen": [["Anfang: J – W – A", "**J**emand – **w**ollte – **a**ber: Wer? Was will er? Was kommt dazwischen?"], ["Weg: D – D", "**d**ann – **d**ann: Was tut die Figur? Wo wird es **am gefährlichsten**?"], ["Ende: A – A", "**a**lso – **a**lso: Wie wird es gut? Wer wird belohnt, wer bestraft?"]],
+     "signale": [["wollte, wünschte sich", "W · Wunsch"], ["aber, doch", "A · Problem"], ["da, dann, eines Tages", "D · Versuch"], ["plötzlich, wollte … fressen", "D · Höhepunkt"], ["nun, endlich, also", "A · Lösung, Schluss"]],
+     "wann": "wenn du ein Märchen nacherzählen oder ein Ende planen willst · Höhepunkt = die gefährlichste Stelle"},
+    {"typ": "laut", "titel": "Ich denke laut", "text_titel": "Die Gänsehirtin (Übungstext)",
+     "text": "Es war einmal eine arme Gänsehirtin, die wünschte sich ein Haus. Aber der geizige Graf nahm ihr jeden Lohn weg. Da fragte sie dreimal um Rat. Dann kam sie an einen Fluss, darin wohnte ein Drache, der wollte sie fressen. Da schenkte sie ihm ihre letzte goldene Feder. Nun bekam sie ein Häuschen, und der Graf musste seine Gänse selbst hüten.",
+     "ergebnis": {"art": "bogen", "titel": "Mein Spannungsbogen", "zonen": [["J", "J · jemand"], ["W", "W · wollte"], ["A1", "A · aber"], ["D1", "D · dann"], ["D2", "D · Höhepunkt"], ["A2", "A · also: Lösung"], ["A3", "A · also: Schluss"]]},
+     "schritte": [
+      {"mark": ["Es war einmal eine arme Gänsehirtin"], "denke": "J: Wer? Eine arme Gänsehirtin. Das ist die Heldin.", "add": [["J", "eine arme Gänsehirtin"]]},
+      {"mark": ["wünschte sich ein Haus"], "denke": "W: „wünschte sich“ – das heißt „wollte“. Das Signalwort steht nicht wörtlich da, aber es bedeutet dasselbe.", "add": [["W", "will ein Haus"]]},
+      {"mark": ["Aber der geizige Graf"], "denke": "Signalwort **Aber**! Hier fängt das Problem an. Der Graf ist der Gegenspieler.", "add": [["A1", "der Graf nimmt ihr den Lohn weg"]]},
+      {"mark": ["dreimal um Rat"], "denke": "Dreimal um Rat – das ist wichtig! Ist das schon der Höhepunkt?", "irrtum": true, "add": [["D2", "fragt dreimal um Rat?"]]},
+      {"mark": ["dreimal um Rat"], "denke": "Prüffrage: Ist es hier **am gefährlichsten**? Nein, niemand ist in Gefahr. Das ist ein Versuch – also das erste **D**.", "strike": "D2", "add": [["D1", "fragt dreimal um Rat"]]},
+      {"mark": ["der wollte sie fressen"], "denke": "Jetzt wird es gefährlich: Der Drache will sie fressen! **Das** ist der Höhepunkt.", "add": [["D2", "der Drache will sie fressen"]]},
+      {"mark": ["schenkte sie ihm ihre letzte goldene Feder"], "denke": "A: Wie wird es gut? Sie schenkt ihm ihr Letztes. Das ist die Lösung.", "add": [["A2", "schenkt dem Drachen die goldene Feder"]]},
+      {"mark": ["Nun bekam sie ein Häuschen", "der Graf musste seine Gänse selbst hüten"], "denke": "Signalwort **Nun**: der Schluss. Belohnung für sie, Strafe für den Graf. Fertig – sieben Schritte!", "add": [["A3", "sie bekommt ein Haus, der Graf wird bestraft"]]}
+     ]},
+    {"typ": "ergebnis", "titel": "So klingt lautes Denken",
+     "satz": "„Jemand … wollte … , aber … . Dann … . Dann … . Also … . Also … .“",
+     "punkte": ["Ich suche die **Signalwörter**. Manchmal steht ein anderes Wort mit derselben Bedeutung da.", "Beim Höhepunkt prüfe ich: Ist es hier **am gefährlichsten**?", "Zum Schluss erzähle ich das Märchen in sieben Sätzen."]},
+    {"typ": "jetzt", "titel": "Jetzt ihr",
+     "auftrag": ["Trag **dein** Märchen aus der Leseübung in den Schreibplan ein: J – W – A – D – D – A – A.", "★ als Lückentext · ★★ frei", "Sagt zu zweit laut: „Das ist A, weil hier das Problem anfängt …“"],
+     "hilfe": ["Merkblatt Spannungsbogen", "Märchenrap", "Kontroll-Kiosk: Blatt 11–15"],
+     "partner": "In 30 Sekunden: Erzähl deinem Nachbarn dein Märchen nur mit J – W – A."}
+   ]
+  },
+  {
+   "nr": 3, "titel": "Bilder im Kopf", "wann": "Mi 16.12. · Etappe 2", "icon": "◉",
+   "hinweis": "Bei „Augen zu“ wirklich kurz die Augen schließen. Auf Folie 4 den blassen Satz zuerst laut und flach vorlesen, am Ende den neuen Satz betont.",
+   "folien": [
+    {"typ": "auftrag", "titel": "Mein Auftrag",
+     "situation": "In meinem Märchen steht: „Der Prinz ging über eine Brücke.“ Das ist **blass**. Ich will die Stelle so erzählen, dass meine Leser **Bilder im Kopf** haben.",
+     "denke": ["Zuerst schaue ich bei einem guten Text ab: Mit welchen Wörtern macht der Erzähler die Bilder?", "Dann mache ich meinen eigenen Satz spannend."]},
+    {"typ": "strategie", "titel": "So mache ich Bilder im Kopf",
+     "fragen": [["Was sehe ich?", "Augen zu: Farben, Formen, Licht."], ["Was höre und fühle ich?", "Geräusche, Kälte, Angst."], ["Sieht mein Leser das?", "Diese Frage stelle ich bei **jedem** Satz."]],
+     "signale": [["Adjektive", "schwarz, schmal, kalt"], ["treffende Verben", "knirschte, heulte, tastete"], ["andere Satzanfänge", "Kaum …, da … · Plötzlich …"], ["wörtliche Rede", "„ … “, flüsterte er."]],
+     "wann": "wenn du dir eine Stelle vorstellen oder sie spannend erzählen willst"},
+    {"typ": "laut", "titel": "Ich gehe auf Wörter-Jagd", "text_titel": "Die Brücke aus Glas (Übungstext)",
+     "text": "Spät am Abend kam der Prinz an einen schwarzen See. Über das Wasser führte eine schmale Brücke aus Glas. Kaum setzte er den Fuß darauf, da knirschte und klirrte es unter ihm. Ein kalter Wind heulte. „Nur nicht hinunterschauen“, flüsterte er und tastete sich Schritt für Schritt voran.",
+     "ergebnis": {"art": "tabelle", "titel": "Meine Wörter-Jagd", "zonen": [["adj", "Adjektive"], ["verb", "treffende Verben"], ["anf", "Satzanfänge"], ["rede", "wörtliche Rede"]]},
+     "schritte": [
+      {"mark": ["schwarzen See"], "denke": "Augen zu: ein dunkler See, schwarz wie Tinte. Das **Adjektiv** macht das Bild.", "add": [["adj", "schwarz"]]},
+      {"mark": ["schmale Brücke aus Glas"], "denke": "Schmal und aus Glas – ich sehe sofort, wie gefährlich das ist.", "add": [["adj", "schmal, aus Glas"]]},
+      {"mark": ["Kaum setzte er den Fuß darauf, da"], "denke": "Kein „Dann“! „Kaum …, da …“ – der Satzanfang macht es schnell und spannend.", "add": [["anf", "Kaum …, da …"]]},
+      {"mark": ["knirschte und klirrte"], "denke": "Jetzt **höre** ich etwas! Treffende Verben statt „machte Geräusche“.", "add": [["verb", "knirschte, klirrte"]]},
+      {"mark": ["Ein kalter Wind heulte"], "denke": "Ich höre den Wind und friere. Fühlen ist der dritte Sinn.", "add": [["adj", "kalt"], ["verb", "heulte"]]},
+      {"mark": ["„Nur nicht hinunterschauen“, flüsterte er"], "denke": "Wörtliche Rede: Ich höre den Prinzen. Er hat Angst – das muss gar nicht dastehen.", "add": [["rede", "„Nur nicht hinunterschauen“, flüsterte er."], ["verb", "flüsterte"]]},
+      {"mark": ["tastete sich Schritt für Schritt voran"], "denke": "Er „tastete sich“ – nicht „ging“. Ich sehe, wie langsam und vorsichtig er ist.", "add": [["verb", "tastete sich"]]}
+     ]},
+    {"typ": "laut", "titel": "Ich mache meinen Satz spannend", "text_titel": "Mein Entwurf",
+     "text": "Der Prinz ging über eine Brücke.",
+     "ergebnis": {"art": "satz", "titel": "Mein Satz"},
+     "schritte": [
+      {"mark": ["ging über eine Brücke"], "denke": "Prüffrage: Sieht mein Leser das? Nein. Welche Brücke? Wie geht er? Das ist blass.", "satz": "Der Prinz ging über eine Brücke."},
+      {"mark": ["eine Brücke"], "denke": "Zuerst **Adjektive**: Wie sieht die Brücke aus?", "satz": "Der Prinz ging über eine **schmale** Brücke **aus Glas**."},
+      {"mark": ["ging"], "denke": "Jetzt ein **treffendes Verb**: Wie geht er? Nicht „ging“ – er tastet sich, weil er Angst hat.", "satz": "Der Prinz ~~ging~~ **tastete sich** über eine schmale Brücke aus Glas."},
+      {"mark": ["eine Brücke"], "denke": "Noch mehr Adjektive? „eine sehr, sehr schöne, schmale Brücke“ …", "irrtum": true, "satz": "Der Prinz tastete sich über eine **sehr, sehr schöne,** schmale Brücke aus Glas."},
+      {"mark": ["eine Brücke"], "denke": "Halt: „sehr, sehr schön“ macht kein Bild. Das streiche ich wieder. Lieber ein **Geräusch** und ein **anderer Satzanfang**.", "satz": "**Mit zitternden Knien** tastete sich der Prinz über die schmale Brücke aus Glas. **Unter ihm knirschte es.**"},
+      {"mark": ["Der Prinz"], "denke": "Zum Schluss **wörtliche Rede**: Dann höre ich seine Angst. Und jetzt: Sieht mein Leser das? **Ja!**", "satz": "Mit zitternden Knien tastete sich der Prinz über die schmale Brücke aus Glas. Unter ihm knirschte es. **„Nur nicht hinunterschauen“, flüsterte er.**"}
+     ]},
+    {"typ": "ergebnis", "titel": "So klingt lautes Denken",
+     "satz": "„Ich sehe … . Das Wort … macht das Bild.“",
+     "punkte": ["Augen zu: Was **sehe**, **höre**, **fühle** ich?", "Meine Werkzeuge: Adjektive, treffende Verben, andere Satzanfänge, wörtliche Rede.", "Nicht jedes Wort macht ein Bild. Ich prüfe: **Sieht mein Leser das?**"]},
+    {"typ": "jetzt", "titel": "Jetzt ihr",
+     "auftrag": ["Zu zweit: „Jorinde und Joringel“. Einer schließt die Augen, der andere liest vor.", "Sagt: „Ich sehe … · Ich höre …“ und geht auf Wörter-Jagd.", "Macht dann zusammen eine blasse Stelle spannend."],
+     "hilfe": ["Märchen-Hilfe S. 3 Satzanfänge · S. 4 Wortfelder · S. 5 Adjektive · S. 10 wörtliche Rede", "Märchenverben im Präteritum", "Kontroll-Kiosk: Blatt 16"],
+     "partner": "In 30 Sekunden: Sag deinem Nachbarn ein Bild-Wort aus dem Text und was du dabei siehst."}
+   ]
+  },
+  {
+   "nr": 4, "titel": "Ein Ende planen", "wann": "Di 22.12. · Start der Klassenarbeit", "icon": "✎",
+   "hinweis": "Den Plan nur in Stichworten zeigen. Den verworfenen Höhepunkt laut begründen. Am Ende betonen: Planen dürft ihr gemeinsam, schreiben tut jeder selbst.",
+   "folien": [
+    {"typ": "auftrag", "titel": "Mein Auftrag",
+     "situation": "Ich habe einen **Märchenanfang**. Ich soll ihn **passend zu Ende schreiben**. Bevor ich schreibe, **plane** ich.",
+     "denke": ["Genau das macht ihr gleich in der Klassenarbeit – mit eurem Anfang.", "Ein Plan ist noch kein Text. Stichworte reichen."]},
+    {"typ": "strategie", "titel": "So plane ich mein Ende",
+     "fragen": [["Was steht schon da?", "Markieren: **Wer?** Was ist das **Problem**? Welche **Merkmale**?"], ["Wo hört der Anfang auf?", "Mein erster Satz schließt **genau dort** an."], ["Wie geht es weiter?", "**D – D – A – A** in Stichworten. Höhepunkt = gefährlichste Stelle."]],
+     "signale": [["der letzte Satz", "hier schließe ich an"], ["gierig, böse, neidisch", "Gegenspieler: wird am Ende bestraft"], ["Zauberding, Wunsch", "muss im Ende wieder vorkommen"], ["3 · 7 · 12", "Zahl im Ende aufgreifen"]],
+     "wann": "wenn du ein Märchen zu Ende schreiben sollst · ich baue mindestens 4 Merkmale ein"},
+    {"typ": "laut", "titel": "Ich denke laut", "text_titel": "Der Fischer und der Stein (Übungsanfang)",
+     "text": "Es war einmal ein armer Fischer, der hatte drei hungrige Kinder. Eines Morgens fing er statt eines Fisches einen glänzenden Stein. „Wirf mich nicht zurück“, sprach der Stein, „ich erfülle dir einen Wunsch.“ Doch in der Nacht kam der gierige Nachbar und stahl den Stein aus der Hütte. Als der Fischer erwachte, war der Platz auf dem Tisch leer.",
+     "ergebnis": {"art": "bogen", "titel": "Mein Plan", "zonen": [["wer", "Wer? · Problem"], ["merk", "Merkmale"], ["start", "Mein erster Satz"], ["D1", "D · dann"], ["D2", "D · Höhepunkt"], ["A1", "A · Lösung"], ["A2", "A · Schluss"]]},
+     "schritte": [
+      {"mark": ["Es war einmal", "drei hungrige Kinder"], "denke": "Feste Formel am Anfang – und die **Drei**. Das sind schon zwei Merkmale. Ich markiere sie.", "add": [["merk", "„Es war einmal“"], ["merk", "Zahl 3"]]},
+      {"mark": ["ein armer Fischer"], "denke": "Wer? Ein armer Fischer – der Held. Er will Essen für seine Kinder.", "add": [["wer", "armer Fischer, will Essen für seine Kinder"]]},
+      {"mark": ["„Wirf mich nicht zurück“, sprach der Stein"], "denke": "Ein sprechender Stein, der Wünsche erfüllt: **Zauber**. Den Stein brauche ich im Ende wieder!", "add": [["merk", "Zauberstein"]]},
+      {"mark": ["der gierige Nachbar"], "denke": "Signalwort **Doch** – das Problem. Der gierige Nachbar ist der Gegenspieler. Wer gierig ist, wird im Märchen am Ende bestraft.", "add": [["wer", "Problem: der gierige Nachbar stiehlt den Stein"], ["merk", "Gut und Böse"]]},
+      {"mark": ["war der Platz auf dem Tisch leer"], "denke": "Hier hört der Anfang auf. Der Fischer wacht auf und der Stein ist weg. Mein erster Satz muss **genau hier** anschließen.", "add": [["start", "Der Fischer erschrak und suchte überall."]]},
+      {"mark": [], "denke": "D: Was tut der Fischer? Er sucht den Stein. Eine Möwe hilft ihm – ein Helfer.", "add": [["D1", "sucht den Stein, eine Möwe zeigt den Weg"]]},
+      {"mark": [], "denke": "Höhepunkt … vielleicht fliegt der Stein einfach von allein zurück?", "irrtum": true, "add": [["D2", "der Stein fliegt von allein zurück?"]]},
+      {"mark": [], "denke": "Nein – zu einfach! Da ist nichts gefährlich. Prüffrage: Wo wird es **am gefährlichsten**? Er muss nachts in das Haus des Nachbarn.", "strike": "D2", "add": [["D2", "schleicht nachts ins Haus, der Nachbar erwacht"]]},
+      {"mark": [], "denke": "Also: Der Stein ruft und hilft. Der Nachbar wird bestraft, der Fischer belohnt. Und ich prüfe: 4 Merkmale? Ja!", "add": [["A1", "der Stein verwandelt den Nachbarn in eine Kröte"], ["A2", "nie wieder Hunger – Schlussformel"]]}
+     ]},
+    {"typ": "ergebnis", "titel": "So klingt lautes Denken",
+     "satz": "„Der Anfang hört auf bei … . Deshalb muss als Nächstes … .“",
+     "punkte": ["Ich markiere zuerst, was **schon da** ist: Wer, Problem, Merkmale.", "Mein erster Satz schließt **genau** an den Anfang an.", "Ich plane in Stichworten und verwerfe Ideen, die nicht spannend sind."]},
+    {"typ": "jetzt", "titel": "Jetzt ihr · Klassenarbeit",
+     "auftrag": ["Wähle deinen Anfang: ★, ★★ oder ★★★.", "Markiere ihn und löse **Aufgabe 1 und 2**.", "Plane dein Ende mit dem **Schreibplan**. Dann schreibst du."],
+     "hilfe": ["Merkblatt Spannungsbogen · Schreibplan", "Märchen-Hilfe S. 2 (Märchen-Formeln)", "Planen dürft ihr gemeinsam – schreiben tut jeder selbst."],
+     "partner": "In 30 Sekunden: Sag deinem Nachbarn: „Mein Anfang hört auf bei … . Deshalb … .“"}
+   ]
+  },
+  {
+   "nr": 5, "titel": "Meinen Text prüfen", "wann": "ab 19.01. · nach der Abgabe", "icon": "✓",
+   "hinweis": "„Das hat Mia geschrieben“ – ein Übungstext, kein Kind der Klasse. Zwei Durchgänge deutlich trennen: erst Inhalt, dann Sprache. Mit grüner Farbe korrigieren wie die Kinder.",
+   "folien": [
+    {"typ": "auftrag", "titel": "Mein Auftrag",
+     "situation": "Mia hat ein Märchen zu Ende geschrieben. Ich bin in ihrer **Schreibkonferenz**. Ich soll ihr helfen, den Text noch besser zu machen – **freundlich und genau**.",
+     "denke": ["Ich lese zweimal: zuerst achte ich auf den **Inhalt**, dann auf die **Sprache**. So wie Zuhörkind 1 und Zuhörkind 2.", "Danach überarbeite ich selbst – mit grünem Stift."]},
+    {"typ": "strategie", "titel": "So prüfe ich einen Text",
+     "fragen": [["1. Durchgang: Inhalt", "Höhepunkt? Lösung? Märchenmerkmale? Wer wird belohnt oder bestraft?"], ["2. Durchgang: Sprache", "Präteritum? Verschiedene Satzanfänge? Redezeichen?"], ["Rückmeldung", "Erst **loben**, dann **höchstens 2 Tipps** – immer mit der **Stelle**."]],
+     "signale": [["geht, kommt, sagt", "Gegenwart → ging, kam, sagte"], ["Dann … Dann …", "anderer Satzanfang"], ["rief Gib …", "Redezeichen fehlen"], ["Text hört plötzlich auf", "Schlusssatz fehlt"]],
+     "wann": "in der Schreibkonferenz und wenn dein eigener Text fertig ist"},
+    {"typ": "laut", "titel": "Durchgang 1 und 2: Ich fülle die Feedbackkarte", "text_titel": "Das Ende von Mia (Übungstext)",
+     "text": "Der Fischer suchte dreimal nach dem Stein. Dann geht er zum Nachbarn. Dann sah er den Stein im Fenster. Der Fischer rief Gib mir meinen Stein zurück! Da sprach der Stein: „Komm zu mir.“ Und der Nachbar wurde zu einer Kröte.",
+     "ergebnis": {"art": "tabelle", "titel": "Feedbackkarte für Mia", "zonen": [["gut", "gelingt ✓"], ["noch", "noch nicht ~"], ["lob", "Das gefällt mir"], ["tipp", "Mein Tipp (mit Stelle)"]]},
+     "schritte": [
+      {"mark": ["suchte dreimal"], "denke": "Inhalt: „dreimal“ – magische Zahl. Ein Märchenmerkmal!", "add": [["gut", "Märchenmerkmale: Zahl 3"]]},
+      {"mark": ["Dann sah er den Stein im Fenster"], "denke": "Ist das der Höhepunkt? Hm … gefährlich ist es hier nicht. Er sieht den Stein einfach.", "add": [["noch", "Höhepunkt: nicht gefährlich"]]},
+      {"mark": ["Da sprach der Stein"], "denke": "Ein sprechender Stein: Zauber. Und er löst das Problem. Gut!", "add": [["gut", "Zauber und Lösung"]]},
+      {"mark": ["Und der Nachbar wurde zu einer Kröte"], "denke": "Strafe für den Nachbarn – passt! Aber was ist mit dem Fischer? Und dann hört der Text einfach auf.", "add": [["gut", "Strafe"], ["noch", "Belohnung und Schlusssatz fehlen"]]},
+      {"mark": ["Dann geht er"], "denke": "Jetzt Sprache. Halt: „geht“ ist Gegenwart. Im Märchen: **ging**.", "add": [["noch", "„geht“ → Präteritum"]]},
+      {"mark": ["Dann sah er"], "denke": "Schon wieder „Dann“. Zweimal hintereinander – das klingt langweilig.", "add": [["noch", "zweimal „Dann“"]]},
+      {"mark": ["rief Gib mir meinen Stein zurück!"], "denke": "Hier spricht jemand, aber die Redezeichen fehlen. Das prüft Mia später selbst mit dem Märchen-Check.", "add": [["noch", "Redezeichen fehlen"]]},
+      {"mark": [], "denke": "Jetzt meine Rückmeldung: zuerst loben, dann höchstens zwei Tipps mit Stelle.", "add": [["lob", "Mir gefällt, dass der gierige Nachbar zur Kröte wird."], ["tipp", "Bei „Dann sah er den Stein“: Mach es gefährlich – der Nachbar wacht auf."], ["tipp", "Am Schluss: Schreib, wie der Fischer belohnt wird."]]}
+     ]},
+    {"typ": "laut", "titel": "Ich überarbeite mit grünem Stift", "text_titel": "Mias Text – Kopie",
+     "text": "Der Fischer suchte dreimal nach dem Stein. Dann geht er zum Nachbarn. Dann sah er den Stein im Fenster.",
+     "ergebnis": {"art": "satz", "titel": "Überarbeitet"},
+     "schritte": [
+      {"mark": ["Dann geht er"], "denke": "Erst das Präteritum: geht → ging. Ich streiche und schreibe darüber.", "satz": "Der Fischer suchte dreimal nach dem Stein. Dann ~~geht~~ **ging** er zum Nachbarn. Dann sah er den Stein im Fenster."},
+      {"mark": ["Dann sah er"], "denke": "Ein anderer Satzanfang statt „Dann“: **Plötzlich**.", "satz": "Der Fischer suchte dreimal nach dem Stein. Dann ging er zum Nachbarn. ~~Dann~~ **Plötzlich** sah er den Stein im Fenster."},
+      {"mark": ["den Stein im Fenster"], "denke": "Und der Tipp zum Höhepunkt: Hier wird es jetzt gefährlich. Längere Stellen schreibe ich mit Stern ✱ auf ein Extrablatt.", "satz": "Der Fischer suchte dreimal nach dem Stein. Dann ging er zum Nachbarn. Plötzlich sah er den Stein im Fenster. **✱ Leise kletterte er hinein. Da knarrte der Boden, und der Nachbar riss die Augen auf.**"}
+     ]},
+    {"typ": "ergebnis", "titel": "So klingt lautes Denken",
+     "satz": "„Mir gefällt … . Mein Tipp: Bei der Stelle … könntest du … .“",
+     "punkte": ["Zwei Durchgänge: erst **Inhalt**, dann **Sprache**.", "Erst loben, dann höchstens **2 Tipps** – immer mit der Stelle.", "Ich überarbeite in der **Kopie** mit grünem Stift. Der Rohentwurf bleibt, wie er ist."]},
+    {"typ": "jetzt", "titel": "Jetzt ihr · Schreibkonferenz",
+     "auftrag": ["Schreibkonferenz zu dritt: Autorenkind, Zuhörkind 1 (Inhalt), Zuhörkind 2 (Sprache).", "Drei Runden – jedes Kind ist einmal Autorenkind.", "Danach: Überarbeitungsplan und überarbeiten mit grünem Stift."],
+     "hilfe": ["Ablaufkarte Schreibkonferenz · Feedbackkarte", "Märchen-Check · Märchenverben", "Märchen-Hilfe S. 10 und S. 12"],
+     "partner": "In 30 Sekunden: Sag deinem Nachbarn, auf welchen Punkt der Feedbackkarte du heute besonders achtest."}
+   ]
+  }
+ ]
+}
