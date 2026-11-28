@@ -184,7 +184,7 @@ def plakat_html() -> str:
     return doc(f2.PLAKAT_CSS, (
         "<div style='display:flex;justify-content:space-between;align-items:flex-end'><h1>Wo stehe ich?</h1>"
         "<div style='font-size:18pt;max-width:55%%'>%s Häng deine Klammer an den Schritt, an dem du gerade arbeitest.<br>"
-        "%s Partner gesucht? Wer an derselben Stelle hängt, arbeitet mit dir.</div></div><div class=raster>%s</div>")
+        "%s Partner gesucht? Arbeite mit einem anderen Kind, das gleich weit ist wie du.</div></div><div class=raster>%s</div>")
         % (sym("klammer", 9), sym("zwei", 9), "".join(sp)))
 
 
