@@ -414,7 +414,7 @@ def druck_html(inv: list[tuple], start: int) -> str:
         "<p>Seitenangaben beziehen sich auf das Gesamt-PDF. Pakete mit „A4 → A5“ verkleinert drucken (2 Seiten pro Blatt), alles andere in A4. Alles ist für Graustufen gemacht.</p>"
         "<table style='table-layout:fixed'><tr><th style='width:16mm'>Seiten</th><th style='width:20mm'>Teil</th><th style='width:52mm'>Datei</th><th style='width:30mm'>Format</th>"
         "<th style='width:20mm'>Anzahl</th><th>Hinweis</th></tr>%s</table>"
-        "<h2 style='font-size:15pt;margin:3mm 0 1.5mm'>Digital</h2><p>apps/gn1-digital/index.html: Gelingensnachweis 1 am Laptop · inputs/Input_1–5.html am Beamer</p>"
+        "<h2 style='font-size:15pt;margin:3mm 0 1.5mm'>Digital</h2><p>apps/gn1-digital/index.html: Gelingensnachweis 1 am Laptop · apps/inputs (alle Inputs als Präsentation) am Beamer</p>"
         "<h2 style='font-size:15pt;margin:3mm 0 1.5mm'>Material der Kollegin (von ihren Originalen drucken)</h2>"
         "<table><tr><th style='width:28mm'>wofür</th><th>Material</th><th>Hinweis</th></tr>%s</table>") % ("".join(rows), ext))
 
@@ -465,6 +465,41 @@ def pruefe_seiten(b: f2.Bau):
     b.bericht.append("%-40s %d PDFs ohne Restseiten" % ("Setzprüfung", n))
 
 
+# ------------------------------------------------------------ Skripte zu den Inputs (aus der Präsentation apps/inputs)
+LAUT = L(ROOT / "inhalt" / "f4" / "inputs_laut.json")
+
+
+def skript_html(n: int) -> str:
+    """Skript zu Input n aus inhalt/f4/inputs_laut.json – dieselben Klicks wie in apps/inputs (Taste S zeigt sie auch dort)."""
+    i = next(x for x in LAUT["inputs"] if x["nr"] == n)
+    rows = []
+    for k, fo in enumerate(i["folien"], 1):
+        t = fo["typ"]
+        if t == "auftrag":
+            klicks = [("Folie", "Situation vorlesen: " + fo["situation"])] + [("Klick", d) for d in fo["denke"]]
+        elif t == "strategie":
+            klicks = [("Klick %d" % m, "Frage: %s – %s" % (q, a)) for m, (q, a) in enumerate(fo["fragen"], 1)]
+            klicks.append(("Klick", "Signale: " + " · ".join("%s → %s" % (a, b) for a, b in fo["signale"])))
+        elif t == "laut":
+            klicks = [("Klick %d%s" % (m, " ⚠" if x.get("irrtum") else ""), x["denke"]) for m, x in enumerate(fo["schritte"], 1)]
+        elif t == "ergebnis":
+            klicks = [("Folie", "Gemeinsam sprechen: " + fo["satz"])] + [("Klick", p) for p in fo["punkte"]]
+        else:
+            klicks = [("Folie", "Auftrag: " + " · ".join(fo["auftrag"])), ("Klick", "Hilfe: " + " · ".join(fo["hilfe"])), ("Klick", "⏱ " + fo["partner"])]
+        rows.append("<tr><td colspan=2 style='background:#eee'><b>%d · %s</b></td></tr>" % (k, esc(fo["titel"])))
+        rows += ["<tr><td style='width:22mm;white-space:nowrap'>%s</td><td>%s</td></tr>" % (esc(a), md(b)) for a, b in klicks]
+    return doc(GN_CSS + "body{font-size:11.5pt}table{font-size:11.5pt;width:100%;border-collapse:collapse}td{border:1pt solid #999;padding:1.1mm 2mm;vertical-align:top}", (
+        "<div class=meta>Lehrkraft · Skript · %s</div><h1>Input %d · %s</h1>"
+        "<p style='margin-bottom:2mm'><b>Präsentation:</b> apps/inputs (Menü M → Teil %d springt zu diesem Input · S öffnet die Sprechernotizen) · höchstens 10 Minuten · "
+        "⚠ = hier den Irrtum zeigen und laut korrigieren.</p><p style='margin-bottom:3mm'><b>Hinweis:</b> %s</p><table>%s</table>")
+        % (esc(i["wann"]), n, esc(i["titel"]), n + 1, md(i["hinweis"]), "".join(rows)))
+
+
+def bau_skripte(b: f2.Bau):
+    for n in range(1, 6):
+        b.mach(skript_html(n), AUS / "inputs" / f"Skript_Input_{n}_A4.pdf", f"Skript Input {n}", 11, 2)
+
+
 # ------------------------------------------------------------ main
 def main(argv: list[str]) -> int:
     was = argv[0] if argv else "alles"
@@ -478,8 +513,7 @@ def main(argv: list[str]) -> int:
     if was in ("arbeit", "alles"):
         bau_arbeit(b)
     if was in ("input", "alles"):
-        for n in ([int(arg)] if arg else [1, 2, 3, 4, 5]):
-            f3.bau_input(b, n)
+        bau_skripte(b)
     if was in ("raum", "alles"):
         bau_raum(b)
     if was == "druck":

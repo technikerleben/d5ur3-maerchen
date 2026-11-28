@@ -290,9 +290,9 @@ PAKETE = [
         ("Lehrkraft", "Zeitplan_F4_Lehrkraft_A4.pdf", "A4", "1", "")]),
 ]
 DIGITAL = {"1": "Extrapapier (unliniert) für die freiwilligen Malaufgaben im Klassenraum bereitlegen · Lesekiste aus der Bibliothek",
-           "2": "apps/gn1-digital/index.html (Gelingensnachweis 1 am Laptop, Variante A oder B) · inputs/Input_1.html am Beamer · Videos „Was sind Märchen?“ und „Gebrüder Grimm“",
-           "3": "inputs/Input_2.html und Input_3.html am Beamer",
-           "4": "inputs/Input_4.html (vor dem Schreiben) und Input_5.html (Schreibkonferenz) am Beamer · liniertes Papier und eine Mappe je Kind; Mappen am Ende jeder Stunde einsammeln"}
+           "2": "apps/gn1-digital/index.html (Gelingensnachweis 1 am Laptop, Variante A oder B) · Präsentation apps/inputs, Input 1, am Beamer · Videos „Was sind Märchen?“ und „Gebrüder Grimm“",
+           "3": "Präsentation apps/inputs, Input 2 und 3, am Beamer",
+           "4": "Präsentation apps/inputs: Input 4 (vor dem Schreiben) und Input 5 (Schreibkonferenz) am Beamer · liniertes Papier und eine Mappe je Kind; Mappen am Ende jeder Stunde einsammeln"}
 
 
 def paket_anleitung_html(nr: str, titel: str, wann: str, inv: list[tuple], start: int) -> str:
