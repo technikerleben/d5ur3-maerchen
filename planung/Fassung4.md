@@ -165,15 +165,25 @@ Keine Lösungen zu Gelingensnachweisen und Klassenarbeit. Die Blattnummern stehe
 
 ## Inputs als Präsentation (laut denken und Strategien erklären)
 
-`apps/inputs/index.html` ist eine Datei mit allen fünf Inputs. Gebaut wird sie mit `tools/build_inputs_f4.py` aus `inhalt/f4/inputs_laut.json`. Vorbild ist der Zootiere-Input „laut gedacht“.
+`apps/inputs/index.html` enthält alle fünf Inputs als einen **html-vortrag**. Der Steuerungskern ist derselbe wie beim SRL-Vortrag in srl5. Die Farben sind die der Klasse 5.3: Blau #245688 führt, Minze #48DCCB steht für bestätigt/Hilfe, Orange #F0A66F für Auftrag/Irrtum. Schrift ist Jost, sie liegt lokal in `assets/fonts`.
 
-**Aufbau jedes Inputs:**
-1. Mein Auftrag
-2. Strategie erklärt: Prüffragen, Signale im Text, wann sie hilft
-3. Ich denke laut: Klick für Klick. Die Textstelle wird markiert, eine Gedankenblase erscheint, und das Ergebnis wächst mit. An einer Stelle irre ich mich und verbessere mich.
-4. So klingt lautes Denken: Satzmuster
-5. Jetzt ihr: Auftrag, Hilfe, 30-Sekunden-Partnerimpuls
+Gebaut wird mit `tools/build_inputs_f4.py`: Inhalt `inhalt/f4/inputs_laut.json`, Vorlage `tools/vorlagen/html_vortrag.html` (Kern unverändert).
 
-**Steuerung:** → / Leertaste / Klick, ←, Bild ↑↓, 1–5, Esc, F (Vollbild), N (Hinweis für die Lehrkraft), ?. Dazu kommen Fortschrittsbalken pro Folie und ein Deep-Link (`#i3-4-2`).
+**Folien:** Titel und Überblick, dann für jeden Input:
+1. Kapitelfolie
+2. Mein Auftrag
+3. Strategie erklärt: Prüffragen, Signale, wann sie hilft
+4. Ich denke laut: Mit jedem Klick werden die Textstelle markiert, die Gedankenblase gezeigt und das Ergebnis erweitert. Ein Irrtum wird gezeigt und korrigiert.
+5. So klingt lautes Denken
+6. Jetzt ihr
 
-**Prüfung:** Jede Folie und jeder Schritt wird in 1280×720, 1024×768 und 1920×1080 geprüft (nichts läuft über, keine Konsolenfehler). Die alten Einzel-Inputs (`ausgabe/f4/inputs/Input_n.html`) und die Skripte bleiben.
+Insgesamt 34 Folien, jeder Input ist ein Abschnitt.
+
+**Steuerung (wie in allen Vorträgen):**
+- → / Leertaste weiter, ← zurück
+- G Übersicht, M Menü mit Sprung zu Input 1–5
+- S Sprechernotizen mit den Klick-Gedanken und dem Hinweis für die Lehrkraft
+- F Vollbild, B schwarz, A Animationen, R Aufnahme
+- iPad-Gesten, Leseansicht auf dem Handy, Druck
+
+**Prüfung:** jede Folie in jedem Schritt (1280×720, 1024×768), Leseansicht und Druck.
