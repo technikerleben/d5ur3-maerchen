@@ -45,7 +45,7 @@ Stand: 28.11.2026 · nach Absprache mit den Kolleg:innen · ersetzt Fassung 3
 | Fr 08.01. | Sprache | Lesen; Verben und wörtliche Rede (Märchen-Hilfe S. 8–10) |
 | Di 12.01. | Deutsch | Klassenarbeit: Schreiben (spätestens jetzt alle) |
 | Mi 13.01. | Deutsch | Klassenarbeit: Schreiben, Prüfen mit dem Märchen-Check, **Abgabe des Rohentwurfs** |
-| ab 19.01. | Deutsch | ohne Note: Input 5, Schreibkonferenz, Überarbeiten, Reinschrift; Wahl: Märchenbuch, nachspielen, Comic, Märchenfilm, vorlesen |
+| ab 19.01. | Deutsch | ohne Note: Input 5, Schreibkonferenz zu dritt, Überarbeiten in einer Kopie des Rohentwurfs; Wahlzeit: P1 Märchenbuch, P2 Vorlesen, P3 Umformen |
 | bis 27.01. | Lehrkraft | Rohentwürfe bewertet, Noten eingetragen |
 
 **Schreibzeit:** je nach Tempo 2 bis 3 Doppelstunden. Das ist deutlich mehr als die 45 Minuten der bisherigen Arbeit 3.
@@ -72,6 +72,7 @@ Stand: 28.11.2026 · nach Absprache mit den Kolleg:innen · ersetzt Fassung 3
 | Teil | Dateien |
 |---|---|
 | Lernweg | `Lernweg_F4_A4.pdf` (1 Seite, Struktur der Kollegin) |
+| Plakat | `Plakat_Wo_stehe_ich_A3.pdf` (A3 quer): Start, Etappe 1, Etappe 2, Klassenarbeit, Nach der Abgabe, Wahlzeit – die Kinder hängen ihre Klammer weiter |
 | Etappe 1 | **GN1 digital** (`apps/gn1-digital`): Variante A jetzt „Das Lämmchen und das Fischchen“, weil „Die Sterntaler“ Leseübung 1 ist. Dazu GN1 A/B auf Papier als Ersatz, Erwartungshorizont, Förderpaket 1 mit GN1F |
 | Etappe 2 | `Etappe2_Bilder_im_Kopf_A4.pdf` („Jorinde und Joringel“, zu zweit, Arbeitsseite), **GN2 A/B neu**, Erwartungshorizont, Förderpaket 2 |
 | Klassenarbeit | `KA_0_Auftrag` (Situation, So arbeitest du, Auftrag, Wahl des Anfangs, Bewertungskriterien), 5 Anfänge als normale und als F-Fassung mit Schreibrahmen, `KA_Erwartungshorizonte` (je Anfang: Anknüpfung, Aufgabe 1, K1–K6, Original-Ende zum Vergleich), `KA_Bewertungsbogen` |
@@ -149,7 +150,6 @@ Bau: `python3 tools/build_f4.py alles`, danach `python3 tools/build_f4_pakete.py
 ## Noch offen
 
 - Die Leseübungen sind Nacherzählungen aus dem Netz (duda.news u. a.). Die Quellen stehen auf den Blättern.
-- Die Schreibkonferenz (Ablauf, Rollen, Feedbackkarte) ist noch nicht als eigenes Material gebaut. Input 5 zeigt das Prüfen.
 - Wer welchen Anfang wählt, wird mit der Lehrkraft abgesprochen. Eine Zuordnung nach dem GN2-Ergebnis ist möglich, aber nicht festgelegt.
 
 ## Kontroll-Kiosk (Fassung 4)
@@ -187,3 +187,27 @@ Insgesamt 34 Folien, jeder Input ist ein Abschnitt.
 - iPad-Gesten, Leseansicht auf dem Handy, Druck
 
 **Prüfung:** jede Folie in jedem Schritt (1280×720, 1024×768), Leseansicht und Druck.
+
+## Nach der Abgabe: Schreibkonferenz und Wahlzeit
+
+Bau: `python3 tools/build_f4_nachabgabe.py` → `ausgabe/f4/nach_der_abgabe/` (im Repo) und `Paket_5_Nach_der_Abgabe.pdf`. Inhalte: `inhalt/f4/nach_der_abgabe.json`.
+
+**Ablauf ab 19.01. (ohne Note):**
+1. Input 5 „Meinen Text prüfen“.
+2. Schreibkonferenz zu dritt mit drei Runden. Die Rollen sind Autorenkind, Zuhörkind 1 (Inhalt, K1–K3) und Zuhörkind 2 (Sprache, K4–K5). Etwa 15 Minuten pro Text.
+3. Überarbeitungsplan mit höchstens 3 Tipps. Die Kinder überarbeiten in einer **Kopie** des Rohentwurfs mit grünem Stift und prüfen danach mit dem Märchen-Check.
+4. Wahlzeit: Mit der Wahlhilfe üben die Kinder die offenen Kriterien K1–K6 des Bewertungsbogens. Danach wählen sie P1 Märchenbuch, P2 Vorlesen oder P3 Umformen.
+
+**Der Rohentwurf bleibt unverändert,** weil er die bewertete Klassenarbeit ist. Die Kinder arbeiten deshalb nur mit einer Kopie.
+
+| Material | |
+|---|---|
+| NA_0 Lehrkraft | Ablauf, Gruppen, Druckliste |
+| NA_1 Schreibkonferenz | Rollen, 6 Schritte (Vorlesen, noch einmal, Loben, Fragen, Tipps, Danke), Satzanfänge, Regeln |
+| NA_2/3 Feedbackkarte | normal (5 + 5 Punkte, gelingt / noch nicht, Lob, Tipp mit Stelle) und leicht (3 + 3 Punkte) |
+| NA_4 Überarbeitungsplan | 4 Schritte, Tabelle für 3 Tipps, Hilfen je Kriterium |
+| NA_5 Wahlhilfe | K1–K6 mit Übungswegen aus dem F4-Material (Merkblätter, Märchen-Hilfe, Märchenverben, Kiosk) |
+| NA_6 Projekte P1–P3 | wie in den früheren Fassungen; geändert ist nur der Bezug auf den Ablauf von F4 (überarbeitete Kopie statt Blatt 10/11, Leseübungen statt Frau Holle/Rumpelstilzchen, Merkblatt Märchenmerkmale statt Märchenkarten) |
+| NA_7 Reinschrift | Vorlage für das Märchenbuch, A4 Originalgröße |
+
+Entfallen: Wahlhilfe nach dem Feedbackbogen der Probearbeit, Training 1 und 2 („Das blaue Licht“, „Die zertanzten Schuhe“).

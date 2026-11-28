@@ -55,7 +55,7 @@ TERMINE = [
     ("Fr 08.01.", "Sprache", "Lesen; Verben und wörtliche Rede (Märchen-Hilfe S. 8–10)"),
     ("Di 12.01.", "Deutsch", "Klassenarbeit: Schreiben – spätestens jetzt schreiben alle, auch ohne GN2"),
     ("Mi 13.01.", "Deutsch", "Klassenarbeit: Schreiben, Prüfen mit dem Märchen-Check, Abgabe des Rohentwurfs (spätestens)"),
-    ("ab 19.01.", "Deutsch", "ohne Note: Input 5, Schreibkonferenz, Überarbeiten, Reinschrift; Wahl: Märchenbuch, nachspielen, Comic, Märchenfilm, vorlesen"),
+    ("ab 19.01.", "Deutsch", "ohne Note: Input 5, Schreibkonferenz zu dritt, Überarbeiten in einer Kopie des Rohentwurfs; Wahlzeit: P1 Märchenbuch, P2 Vorlesen, P3 Umformen"),
     ("bis 27.01.", "Lehrkraft", "Rohentwürfe bewertet (Bewertungsbogen), Noten eingetragen"),
 ]
 
@@ -322,8 +322,8 @@ def lernweg_html() -> str:
             + "<div class=zw>%s</div>" % "".join(o(x) for x in ["Anfang lesen und markieren", "Aufgabe 1 und 2", "Schreibplan (freiwillig)", "Text schreiben",
                                                                "Märchen-Check", "abgegeben am ________"])),
         blk(6, "Nach der Abgabe", "ohne Note",
-            "<div class=zw>%s</div>" % "".join(o(x) for x in ["Schreibkonferenz", "Text überarbeiten", "Reinschrift"])
-            + "<div class=p><b>Wähle:</b> ○&nbsp;Märchenbuch &nbsp; ○&nbsp;nachspielen &nbsp; ○&nbsp;Märchencomic &nbsp; ○&nbsp;Märchenfilm &nbsp; ○&nbsp;vorlesen</div>"),
+            "<div class=zw>%s</div>" % "".join(o(x) for x in ["Schreibkonferenz", "Überarbeitungsplan", "Kopie überarbeiten (grüner Stift)", "Wahlhilfe"])
+            + "<div class=p><b>Wahlzeit:</b> ○&nbsp;P1 Märchenbuch &nbsp; ○&nbsp;P2 Vorlesen &nbsp; ○&nbsp;P3 Umformen</div>"),
     ]
     return doc(css, "<div class=meta>Lernweg · Deutsch · Märchen</div><h1>Lernweg – Märchen</h1>"
                "<p style='margin-bottom:2mm'>Name: ____________________ &nbsp; Klasse: ______ &nbsp; Hake ab, was du geschafft hast.</p>" + "".join(teile))
@@ -340,7 +340,27 @@ def zeitplan_html() -> str:
         "<p style='margin-top:2mm'>Bei viel Krankheit und dadurch zu wenig Schreibzeit wird eine Sonderlösung gefunden.</p>") % (KA["abgabe"], rows))
 
 
+def plakat_html() -> str:
+    """Plakat „Wo stehe ich?“ (A3 quer): jede Spalte ein Block des Lernwegs, jedes Feld ein Ort für die Klammer."""
+    feld = lambda i, t, frei=False: "<div class='feld%s'>%s %s</div>" % (" frei" if frei else "", sym(i, 9), t)  # noqa: E731
+    sp = [
+        ("Start", "Lernweg holen, Klammer beschriften", feld("klammer", "Startklar")),
+        ("Etappe 1", "Märchenmerkmale", feld("zwei", "zu zweit: „Frau Holle“") + feld("eins", "Quiz mit meinem Märchen") + feld("haken", "Nachweis 1 am Laptop")),
+        ("Etappe 2", "Spannungsbogen und spannend erzählen", feld("eins", "Schreibplan für mein Märchen") + feld("zwei", "zu zweit: Bilder im Kopf") + feld("haken", "Nachweis 2")),
+        ("Klassenarbeit", "nur in der Schule · Abgabe bis %s" % esc(KA["abgabe"]), feld("stern", "Anfang gewählt") + feld("plan", "geplant") + feld("eins", "ich schreibe") + feld("haken", "geprüft und abgegeben")),
+        ("Nach der Abgabe", "ohne Note", feld("zwei", "Schreibkonferenz") + feld("eins", "Kopie überarbeitet")),
+        ("Wahlzeit", "freiwillig", feld("buch", "P1 Märchenbuch", True) + feld("lesen", "P2 Vorlesen", True) + feld("figur", "P3 Umformen", True)),
+    ]
+    spalten = "".join("<div class=spalte><h2>%s</h2><div class=w>%s</div>%s</div>" % (esc(a), b, c) for a, b, c in sp)
+    return doc(f2.PLAKAT_CSS, (
+        "<div style='display:flex;justify-content:space-between;align-items:flex-end'><h1>Wo stehe ich?</h1>"
+        "<div style='font-size:18pt;max-width:55%%'>%s Häng deine Klammer an den Schritt, an dem du gerade arbeitest.<br>"
+        "%s Partner gesucht? Arbeite mit einem anderen Kind, das gleich weit ist wie du.</div></div><div class=raster>%s</div>")
+        % (sym("klammer", 9), sym("zwei", 9), spalten))
+
+
 def bau_raum(b: f2.Bau):
+    b.mach(plakat_html(), AUS / "Plakat_Wo_stehe_ich_A3.pdf", "Plakat", 14, 1)
     b.mach(lernweg_html(), AUS / "Lernweg_F4_A4.pdf", "Lernweg", 11, 1)
     b.mach(zeitplan_html(), AUS / "Zeitplan_F4_Lehrkraft_A4.pdf", "Zeitplan", 11, 1)
 
@@ -359,7 +379,8 @@ EXTERN_DRUCK = [
 
 
 def druck_liste() -> list[tuple]:
-    r = [("Kinder", "Lernweg_F4_A4.pdf", "A4, einseitig", "je Kind 1", "zu Beginn; bleibt in der Mappe"),
+    r = [("Raum", "Plakat_Wo_stehe_ich_A3.pdf", "A3 quer, einseitig", "1 je Raum", "dazu Wäscheklammern mit Namen"),
+         ("Kinder", "Lernweg_F4_A4.pdf", "A4, einseitig", "je Kind 1", "zu Beginn; bleibt in der Mappe"),
          ("Etappe 1", "etappe1/GN1_A_A4.pdf", "A4, beidseitig", "nur als Ersatz", "GN1 läuft am Laptop (apps/gn1-digital)"),
          ("Etappe 1", "etappe1/GN1_B_A4.pdf", "A4, beidseitig", "nur als Ersatz", ""),
          ("Etappe 1", "etappe1/foerder/Foerderpaket_1_A4.pdf", "A4 → A5, beidseitig", "je F-Kind 1", "Lösungsstreifen umknicken"),
@@ -431,7 +452,7 @@ def pruefe_seiten(b: f2.Bau):
     import re
     n = 0
     for pdf in sorted(AUS.rglob("*.pdf")):
-        if pdf.name.startswith("Gesamtpaket") or "_teile" in pdf.parts or "pakete" in pdf.parts:
+        if pdf.name.startswith(("Gesamtpaket", "Paket_")) or "Reinschrift" in pdf.name or "_teile" in pdf.parts or "pakete" in pdf.parts:
             continue
         d = fitz.open(pdf)
         for i, pg in enumerate(d):

@@ -252,6 +252,7 @@ PAKETE = [
         ("Kinder", "verben", A5, "je Kind 1", "Verbliste; bleibt bis zur Klassenarbeit in der Mappe"),
         ("Kinder", "hilfe", "A4 → A5 als Heft (Broschüre)", "je Kind 1", "Märchen-Hilfe, Seiten 1–12; gilt bis zur Klassenarbeit")]),
     ("2", "Etappe 1 · Märchenmerkmale", "ab 09.12.", [
+        ("Raum", "Plakat_Wo_stehe_ich_A3.pdf", "A3 quer, einseitig", "1 je Raum", "Wäscheklammern mit Namen dazu; die Kinder hängen ihre Klammer weiter"),
         ("Kinder", "Lernweg_F4_A4.pdf", "A4, einseitig", "je Kind 1", "zu Beginn; bleibt in der Mappe"),
         ("Kinder", "merkmale", A5, "je Kind 1", "Merkblatt"),
         ("Kinder", "quiz", A5, "je Kind 1", "mit dem eigenen Lese-Märchen"),
