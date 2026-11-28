@@ -1,0 +1,300 @@
+{
+ "_hinweis": "Fassung 4 · Etappe 2 Spannungsbogen und spannend erzählen. Lernmaterial der Kollegin: Märchenrap, Merkblatt Spannungsbogen, Schreibplan für das eigene Lese-Märchen, Märchen-Hilfe S. 3–5 und 10. Von hier: zu zweit „Bilder im Kopf“ (an „Jorinde und Joringel“), GN2 A/B (neu: E2.1–E2.3 aus Fassung 2, E2.4 neu, E2.5 aus GN3 der Fassung 2), Förderpaket 2.",
+ "etappe": 2,
+ "titel": "Spannungsbogen und spannend erzählen",
+ "text": "jorinde-joringel",
+ "woche": "2. und 3. Doppelstunde",
+ "ziel": "Ich erkenne den Spannungsbogen eines Märchens, die Rollen der Figuren und schreibe einen passenden Schluss.",
+ "extern": [],
+ "gemeinsam": {
+  "titel": "Aus blass wird anschaulich",
+  "brauchst": "„Jorinde und Joringel“ · Stift · Märchen-Hilfe S. 4 und 5",
+  "strategien": [
+   "bilder"
+  ],
+  "schritte": [
+   "Häng deine Klammer am Plakat „Wo stehe ich?“ an **Etappe 2 · zu zweit**. Arbeite mit einem Kind, das dort hängt.",
+   "**Bilder im Kopf:** Ein Kind macht die Augen zu. Das andere liest langsam vor: von „Doch plötzlich“ ({Z:jorinde-joringel:Doch plötzlich sang sie}) bis „krummer Nase“. Wer zuhört, sagt: „Ich sehe … Ich höre …“ Dann tauscht ihr.",
+   "**Vergleicht:** Lest die blasse Fassung auf der nächsten Seite. Was fehlt ihr? Sagt es laut.",
+   "**Wörter-Jagd:** Sucht im Märchen die Wörter, die das Bild machen. Tragt sie in die Tabelle ein.",
+   "**Gemeinsam schreiben:** Macht den Höhepunkt anschaulich. Ein Kind schreibt, beide denken. Nehmt Wörter aus eurer Tabelle und dem Märchen-Hilfe (S. 4 und 5).",
+   "**Jeder kann es erklären:** Jedes Kind zeigt drei Stellen in eurem Text, die jetzt ein Bild im Kopf machen."
+  ],
+  "tipp": "Wörtliche Rede: Doppelpunkt, dann „ … “. *Die Eule schrie: „Schu, hu!“*",
+  "unterschrift": true,
+  "arbeitsseite": {
+   "titel": "Blass und anschaulich",
+   "boxen": [
+    {
+     "titel": "Blasse Fassung (die Verwandlung)",
+     "text": "Jorinde sang. Dann war sie ein Vogel. Eine Eule flog um sie herum. Joringel konnte sich nicht bewegen. Dann kam eine Frau. Sie nahm den Vogel mit."
+    }
+   ],
+   "tabelle": {
+    "spalten": [
+     "Adjektive",
+     "treffende Verben",
+     "Satzanfänge",
+     "wörtliche Rede"
+    ],
+    "beispiel": [
+     "glühenden Augen",
+     "schrie",
+     "Doch plötzlich",
+     "„Schu, hu, hu, hu.“"
+    ],
+    "zeilen": 2
+   },
+   "schreiben": {
+    "titel": "So geht das Märchen weiter – blasse Fassung des Höhepunkts",
+    "text": "Joringel fand eine rote Blume. Er ging zum Schloss. Die Frau war böse. Er berührte sie mit der Blume. Jorinde war wieder ein Mädchen.",
+    "auftrag": "Schreibt den Höhepunkt anschaulich (mindestens 5 Sätze):",
+    "linien": 7
+   }
+  }
+ },
+ "einzel": {
+  "titel": "–",
+  "aufgaben": []
+ },
+ "nachweis": {
+  "titel": "Spannungsbogen und spannend erzählen",
+  "signet": "lupe",
+  "ziele": [
+   {
+    "id": "E2.1",
+    "kurz": "Spannungsbogen",
+    "kind": "Ich ordne ein Märchen dem Spannungsbogen zu.",
+    "lehrkraft": "mindestens 5 von 7 richtig, Höhepunkt (2. D) richtig",
+    "ueben": "Merkblatt Spannungsbogen · Schreibplan für mein Märchen · Märchenrap"
+   },
+   {
+    "id": "E2.2",
+    "kurz": "Höhepunkt",
+    "kind": "Ich finde den Höhepunkt.",
+    "lehrkraft": "Stelle mit Zeile und Begründung (gefährlichste oder letzte Probe)",
+    "ueben": "Merkblatt Spannungsbogen: D = Höhepunkt · Märchenrap, Strophe 4"
+   },
+   {
+    "id": "E2.3",
+    "kurz": "Rollen",
+    "kind": "Ich bestimme Held:in, Gegenspieler:in und Helfer:in und belege das.",
+    "lehrkraft": "alle drei Rollen richtig, je ein Beleg",
+    "ueben": "Merkblatt Spannungsbogen · Schreibplan für mein Märchen"
+   },
+   {
+    "id": "E2.4",
+    "kurz": "Spannend",
+    "kind": "Ich erzähle eine blasse Stelle spannend.",
+    "lehrkraft": "mindestens 2 treffende Verben, 2 Adjektive, höchstens einmal „Dann“; Präteritum",
+    "ueben": "zu zweit: Bilder im Kopf · Märchen-Hilfe S. 3, 4 und 5"
+   },
+   {
+    "id": "E2.5",
+    "kurz": "wörtliche Rede",
+    "kind": "Ich setze die Zeichen der wörtlichen Rede.",
+    "lehrkraft": "Doppelpunkt und Anführungszeichen in beiden Sätzen (ein Fehler erlaubt)",
+    "ueben": "Märchen-Hilfe S. 10 (wörtliche Rede)"
+   }
+  ],
+  "varianten": {
+   "A": {
+    "maerchen": "drei-brueder",
+    "aufgaben": [
+     {
+      "ziel": "E2.1",
+      "text": "Lies „Die drei Brüder“. Schreibe **J, W, A, D, D, A** oder **A** vor jeden Satz.\n☐ Dann lernen die Söhne ein Handwerk und zeigen ihre Meisterstücke.\n☐ Ein Mann hat drei Söhne und ein Haus.\n☐ Also gibt der Vater dem Fechtmeister das Haus.\n☐ Jeder Sohn möchte das Haus haben.\n☐ Dann regnet es in Strömen, und der Fechtmeister muss trocken bleiben.\n☐ Also bleiben alle drei zusammen und leben zufrieden.\n☐ Aber der Vater hat alle gleich lieb und weiß nicht, wem er es geben soll.",
+      "linien": 0,
+      "erwartung": "D · J · A · W · D (Höhepunkt) · A · A"
+     },
+     {
+      "ziel": "E2.2",
+      "text": "Wo ist in „Die drei Brüder“ der **Höhepunkt**? Schreibe die Zeile auf und begründe.",
+      "linien": 2,
+      "erwartung": "Der Regen wird immer stärker, der Fechtmeister schwingt den Degen ({Z:drei-brueder:Als der Regen stärker wurde}) – die letzte und schwerste Probe"
+     },
+     {
+      "ziel": "E2.3",
+      "text": "Lies die Geschichte „Die Gans des Bauern“:\n*Es war einmal ein armer Bauer, der hatte nur eine einzige Gans. Er wollte sie auf dem Markt verkaufen, um Brot für seine Kinder zu kaufen. Aber unterwegs stahl ihm ein listiger Fuchs die Gans. Da lief der Bauer dem Fuchs nach, bis er sich im dunklen Wald verirrte. Eine Krähe flog zu ihm und rief: „Folge mir, ich kenne die Höhle des Fuchses!“ Dann kam der Bauer zur Höhle. Der Fuchs saß davor und lachte: „Die Gans bekommst du nie zurück!“ Also stellte sich der Bauer schlafend, und als der Fuchs einschlief, nahm er leise seine Gans zurück.*\nWer ist **Held:in**, wer **Gegenspieler:in**, wer **Helfer:in**? Schreibe zu jeder Figur einen Beleg aus der Geschichte.",
+      "linien": 3,
+      "erwartung": "Held: der Bauer (arm, will Brot für seine Kinder); Gegenspieler: der Fuchs (stiehlt die Gans, lacht); Helferin: die Krähe (zeigt den Weg)"
+     },
+     {
+      "ziel": "E2.4",
+      "text": "Diese Stelle ist blass. Schreibe sie **spannend** neu: Nimm treffende Verben, Adjektive und andere Satzanfänge als „Dann“.\n*Der Junge ging in den Wald. Dann sah er etwas. Dann sagte er etwas. Dann kam ein Wolf.*",
+      "linien": 5,
+      "erwartung": "z. B. Der müde Junge stapfte in den dunklen Wald. Plötzlich entdeckte er zwei glühende Augen. Ängstlich flüsterte er: „Wer ist da?“ Da sprang ein riesiger grauer Wolf hervor. – mindestens 2 treffende Verben, 2 Adjektive, höchstens einmal „Dann“, Präteritum"
+     },
+     {
+      "ziel": "E2.5",
+      "text": "Setze die Zeichen der wörtlichen Rede.\n*Der Junge rief Wo bin ich*\n*Der König sagte Bring mir die Botschaft*",
+      "linien": 2,
+      "erwartung": "Der Junge rief: „Wo bin ich?“ · Der König sagte: „Bring mir die Botschaft!“ (auch mit Punkt)"
+     }
+    ]
+   },
+   "B": {
+    "maerchen": "drei-faule",
+    "aufgaben": [
+     {
+      "ziel": "E2.1",
+      "text": "Lies „Die drei Faulen“. Schreibe **J, W, A, D, D, A** oder **A** vor jeden Satz.\n☐ Aber er hat alle drei gleich lieb.\n☐ Also wird der dritte Sohn König.\n☐ Ein König hat drei Söhne und ist alt und krank.\n☐ Dann erzählt der dritte Sohn die schlimmste Geschichte vom Graben voll kaltem Wasser.\n☐ Der König will wissen, wer nach ihm König werden soll.\n☐ Also sagt der Vater: „Du hast es am weitesten gebracht.“\n☐ Dann erzählen der erste und der zweite Sohn, wie faul sie sind.",
+      "linien": 0,
+      "erwartung": "A · A · J · D (Höhepunkt) · W · A · D"
+     },
+     {
+      "ziel": "E2.2",
+      "text": "Wo ist in „Die drei Faulen“ der **Höhepunkt**? Schreibe die Zeile auf und begründe.",
+      "linien": 2,
+      "erwartung": "Der dritte Sohn: lieber im kalten Wasser liegen als nach dem Seil greifen ({Z:drei-faule:so bliebe ich lieber im kalten Wasser liegen}) – die stärkste, letzte Geschichte"
+     },
+     {
+      "ziel": "E2.3",
+      "text": "Lies die Geschichte „Der Schuhmacher und der Riese“:\n*Es war einmal ein fleißiger Schuhmacher, der wünschte sich ein eigenes kleines Haus. Aber ein gieriger Riese nahm ihm jeden Taler weg, den er verdiente. Da ging der Schuhmacher zum Berg des Riesen. Unterwegs traf er eine kleine Maus, die sprach: „Der Riese fürchtet nur eines: Er kann nicht zählen.“ Dann stand der Schuhmacher vor dem Riesen, und der Riese brüllte: „Was willst du hier?“ Also forderte der Schuhmacher ihn zu einem Wettzählen heraus. Der Riese verzählte sich so lange, bis er vor Wut einschlief. Da nahm der Schuhmacher alle seine Taler zurück.*\nWer ist **Held:in**, wer **Gegenspieler:in**, wer **Helfer:in**? Schreibe zu jeder Figur einen Beleg aus der Geschichte.",
+      "linien": 3,
+      "erwartung": "Held: der Schuhmacher (fleißig, will ein Haus); Gegenspieler: der Riese (nimmt die Taler, brüllt); Helferin: die Maus (verrät das Geheimnis)"
+     },
+     {
+      "ziel": "E2.4",
+      "text": "Diese Stelle ist blass. Schreibe sie **spannend** neu: Nimm treffende Verben, Adjektive und andere Satzanfänge als „Dann“.\n*Das Mädchen ging zum Brunnen. Dann sah es etwas. Dann sagte es etwas. Dann kam eine Hexe.*",
+      "linien": 5,
+      "erwartung": "z. B. Das arme Mädchen schlich zum alten Brunnen. Auf einmal bemerkte es einen goldenen Schimmer im Wasser. Erstaunt rief es: „Was glänzt denn da?“ Da humpelte eine krumme Hexe heran. – mindestens 2 treffende Verben, 2 Adjektive, höchstens einmal „Dann“, Präteritum"
+     },
+     {
+      "ziel": "E2.5",
+      "text": "Setze die Zeichen der wörtlichen Rede.\n*Das Gesicht flüsterte Hilf mir*\n*Das Mädchen fragte Wer bist du*",
+      "linien": 2,
+      "erwartung": "Das Gesicht flüsterte: „Hilf mir!“ · Das Mädchen fragte: „Wer bist du?“"
+     }
+    ]
+   }
+  }
+ },
+ "foerder": {
+  "bild": "brunnen_spindel",
+  "merkkarte": [
+   [
+    "Held",
+    "Die Hauptfigur. Sie hat ein Problem."
+   ],
+   [
+    "Gegner",
+    "Eine böse Figur. Sie macht Ärger."
+   ],
+   [
+    "Helfer",
+    "Eine gute Figur. Sie hilft."
+   ],
+   [
+    "Spannung",
+    "Anfang → Problem → **spannendste Stelle** → Ende"
+   ],
+   [
+    "Früher",
+    "Märchen erzählen von früher: *er geht → er **ging***"
+   ]
+  ],
+  "blaetter": [
+   {
+    "nr": "3F",
+    "titel": "Wer ist wer?",
+    "signet": "lupe",
+    "auftraege": [
+     {
+      "art": "lesen",
+      "text": "Lies: *Ein Mädchen sucht seinen Bruder. Eine Hexe hat ihn eingesperrt. Ein Rabe zeigt dem Mädchen den Weg.*"
+     },
+     {
+      "art": "zuordnen",
+      "text": "Wer ist wer? Schreibe **H** (Held), **G** (Gegner) oder **F** (Helfer) in das Kästchen.",
+      "paare": [
+       [
+        "der Rabe",
+        "F"
+       ],
+       [
+        "das Mädchen",
+        "H"
+       ],
+       [
+        "die Hexe",
+        "G"
+       ]
+      ]
+     },
+     {
+      "art": "ankreuzen",
+      "text": "Der Rabe zeigt den Weg. Wie ist der Rabe? Kreuze an.",
+      "optionen": [
+       "hilfsbereit",
+       "gemein"
+      ],
+      "loesung": [
+       "hilfsbereit"
+      ]
+     },
+     {
+      "art": "ankreuzen",
+      "text": "Welcher Satz erzählt von **früher**? Kreuze an.",
+      "optionen": [
+       "Das Mädchen sucht den Bruder.",
+       "Das Mädchen suchte den Bruder."
+      ],
+      "loesung": [
+       "Das Mädchen suchte den Bruder."
+      ]
+     }
+    ]
+   },
+   {
+    "nr": "4F",
+    "titel": "Der Spannungsbogen",
+    "signet": "weiterschreiben",
+    "auftraege": [
+     {
+      "art": "lesen",
+      "text": "Lies: *Ein armer Junge hat Hunger. Er geht in den Wald. Ein Zwerg sagt: „Bring mir drei Pilze.“ Ein Wolf will den Jungen fressen. Der Junge läuft schnell weg und findet die Pilze. Der Zwerg schenkt ihm einen Zaubertopf.*"
+     },
+     {
+      "art": "zuordnen",
+      "text": "In welcher Reihenfolge? Schreibe **1**, **2**, **3** oder **4** in das Kästchen.",
+      "paare": [
+       [
+        "Ein Wolf will den Jungen fressen.",
+        "3"
+       ],
+       [
+        "Ein armer Junge hat Hunger.",
+        "1"
+       ],
+       [
+        "Der Zwerg schenkt ihm einen Zaubertopf.",
+        "4"
+       ],
+       [
+        "Ein Zwerg will drei Pilze.",
+        "2"
+       ]
+      ]
+     },
+     {
+      "art": "ankreuzen",
+      "text": "Wo ist es **am spannendsten**? Kreuze an.",
+      "optionen": [
+       "Der Junge geht in den Wald.",
+       "Ein Wolf will den Jungen fressen."
+      ],
+      "loesung": [
+       "Ein Wolf will den Jungen fressen."
+      ]
+     },
+     {
+      "art": "schreiben",
+      "text": "Wie endet das Märchen? Was macht der Junge mit dem Zaubertopf? Schreibe einen Satz.",
+      "linien": 2
+     }
+    ]
+   }
+  ]
+ }
+}

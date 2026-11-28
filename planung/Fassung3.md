@@ -1,3 +1,5 @@
+> **Abgelöst durch [Fassung 4](Fassung4.md) (28.11.2026).**
+
 # Märchen · Fassung 3 (Neuplanung 24.11.2026)
 
 Stand: 24.11.2026 · Grundlage: Entscheidungen von C vom 24.11.2026 ([Dokument](https://claude.ai/artifact/V5grngsjJNyCaEwKBjaCpf)) · ersetzt Fassung 2 und deren offenes Gate D4

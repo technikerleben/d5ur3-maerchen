@@ -9,7 +9,7 @@ Stand: 18.10.2026. Übernimmt die Regeln aus `d5ur2-zootiere/skill.md` (Stand 08
 
 ## Vor jeder Arbeitssitzung lesen
 
-**Aktuell gilt Fassung 3:** `planung/Fassung3.md` zuerst lesen; Inhalte in `inhalt/f3/`, Bau mit `tools/build_f3.py`. Auf Kinderblättern Richtwerte als Doppelstunden, Daten nur in Lehrkraft-Material. Die folgenden Regeln gelten weiter, soweit Fassung 3 nichts anderes festlegt.
+**Aktuell gilt Fassung 4:** `planung/Fassung4.md` zuerst lesen; Inhalte in `inhalt/f4/`, Bau mit `tools/build_f4.py`; Material der Kollegin in `extern/` (nicht im Repo) hat Vorrang vor eigenem. Auf Kinderblättern Richtwerte als Doppelstunden, Daten nur in Lehrkraft-Material. Die folgenden Regeln gelten weiter, soweit Fassung 3 nichts anderes festlegt.
 
 1. Diese Datei
 2. `planung/Rueckwaertsplanung.md` – Etappen, Blätter 1–11, Indikatoren E1.1–E5.5, Kapazität, Sprachspur

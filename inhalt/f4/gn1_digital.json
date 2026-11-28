@@ -1,0 +1,340 @@
+{
+ "_hinweis": "Fassung 4 · GN1 digital (Etappe 1). Geschlossene Aufgaben werden sofort ausgewertet; die Vorhersage (E1.5) mit Vergleichsbeispielen und Selbstprüfung. Indikatoren wie etappe1.json (E1.3 jetzt Zauberei). Freigabe ab 4 von 5. Es werden keine Namen gespeichert; der Zwischenstand liegt nur im Browser (localStorage, ohne Namen). Variante A seit Fassung 4: „Das Lämmchen und das Fischchen“.",
+ "freigabe": 4,
+ "varianten": {
+  "A": {
+   "maerchen": "laemmchen",
+   "anfang": "gn1a",
+   "aufgaben": [
+    {
+     "ziel": "E1.1",
+     "art": "zuordnen",
+     "frage": "Welches Märchenmerkmal zeigt diese Stelle? Wähle für jede Stelle ein Merkmal.",
+     "optionen": [
+      "Märchenanfang",
+      "gute Figur",
+      "böse Figur",
+      "Helferfigur",
+      "Zauberspruch",
+      "Belohnung"
+     ],
+     "stellen": [
+      {
+       "text": "„Es war einmal ein Brüderchen und ein Schwesterchen …“",
+       "richtig": [
+        "Märchenanfang"
+       ]
+      },
+      {
+       "text": "„… sie hatten eine Stiefmutter, die war ihnen nicht gut und tat ihnen heimlich viel Leid an.“",
+       "richtig": [
+        "böse Figur"
+       ]
+      },
+      {
+       "text": "„Dort lebten sie allein, aber zufrieden und glücklich.“",
+       "richtig": [
+        "Belohnung"
+       ]
+      }
+     ],
+     "mindestens": 3,
+     "erklaerung": "„Es war einmal“ ist der Märchenanfang. Die Stiefmutter quält die Kinder: Sie ist die böse Figur. Zufrieden und glücklich leben: Das ist die Belohnung."
+    },
+    {
+     "ziel": "E1.2",
+     "art": "auswahl",
+     "fragen": [
+      {
+       "frage": "Wer wird belohnt?",
+       "optionen": [
+        "die Stiefmutter",
+        "Brüderchen und Schwesterchen",
+        "der Koch"
+       ],
+       "richtig": "Brüderchen und Schwesterchen"
+      },
+      {
+       "frage": "Womit?",
+       "optionen": [
+        "Sie werden wieder Menschen und leben glücklich.",
+        "Sie bekommen einen Sack Gold.",
+        "Sie dürfen im Schloss wohnen."
+       ],
+       "richtig": "Sie werden wieder Menschen und leben glücklich."
+      },
+      {
+       "frage": "Warum?",
+       "optionen": [
+        "weil sie die Stiefmutter besiegt haben",
+        "weil sie gut sind und sich lieb haben",
+        "weil sie fleißig gearbeitet haben"
+       ],
+       "richtig": "weil sie gut sind und sich lieb haben"
+      }
+     ],
+     "mindestens": 3,
+     "erklaerung": "Die Kinder haben nichts Böses getan. Die weise Frau erlöst sie, und sie leben zufrieden und glücklich."
+    },
+    {
+     "ziel": "E1.3",
+     "art": "ankreuzen",
+     "frage": "Was ist in „Das Lämmchen und das Fischchen“ Zauberei? Kreuze alles an, was Zauberei ist.",
+     "optionen": [
+      {
+       "text": "Die Stiefmutter verwandelt die Kinder in einen Fisch und ein Lamm.",
+       "richtig": true
+      },
+      {
+       "text": "Die Kinder spielen auf der Wiese.",
+       "richtig": false
+      },
+      {
+       "text": "Das Lämmchen und das Fischchen sprechen miteinander.",
+       "richtig": true
+      },
+      {
+       "text": "Der Koch nimmt ein anderes Tier für die Gäste.",
+       "richtig": false
+      },
+      {
+       "text": "Die weise Frau macht die beiden wieder zu Menschen.",
+       "richtig": true
+      }
+     ],
+     "max_fehler": 1,
+     "erklaerung": "Menschen werden nicht zu Tieren, und Tiere sprechen nicht. Das ist Zauberei – so wie der Segen der weisen Frau."
+    },
+    {
+     "ziel": "E1.4",
+     "art": "formeln",
+     "formel": {
+      "frage": "Wie heißt die feste Anfangsformel im Märchen?",
+      "optionen": [
+       "Eines Tages …",
+       "Es war einmal …",
+       "Vor kurzem …"
+      ],
+      "richtig": "Es war einmal …"
+     },
+     "woerter": {
+      "frage": "Tippe alle Verkleinerungsformen (-chen, -lein) aus dem Text an.",
+      "liste": [
+       {
+        "text": "Brüderchen",
+        "richtig": true
+       },
+       {
+        "text": "Teich",
+        "richtig": false
+       },
+       {
+        "text": "Fischchen",
+        "richtig": true
+       },
+       {
+        "text": "Messer",
+        "richtig": false
+       },
+       {
+        "text": "Lämmchen",
+        "richtig": true
+       },
+       {
+        "text": "Wiese",
+        "richtig": false
+       },
+       {
+        "text": "Häuschen",
+        "richtig": true
+       },
+       {
+        "text": "Gäste",
+        "richtig": false
+       }
+      ],
+      "mindestens": 2,
+      "max_fehler": 1
+     },
+     "erklaerung": "Märchen beginnen oft mit „Es war einmal …“. Brüderchen, Fischchen, Lämmchen und Häuschen sind Verkleinerungsformen."
+    },
+    {
+     "ziel": "E1.5",
+     "art": "vorhersage",
+     "beispiele": [
+      "Ich vermute, dass die drei Lichter dem Jungen helfen, weil im Text steht, dass zwischen den Bäumen auf einmal drei kleine Lichter leuchteten. – Der Junge ging auf die Lichter zu. Da sah er, dass es drei kleine Feen waren.",
+      "Ich vermute, dass der Junge das Schaf findet, aber zuerst eine Gefahr bestehen muss, weil im Text steht, dass er es bis morgen zurückbringen muss. – Im Wald hörte er ein leises Blöken. Doch vor dem Schaf saß ein großer schwarzer Wolf."
+     ]
+    }
+   ]
+  },
+  "B": {
+   "maerchen": "suesser-brei",
+   "anfang": "gn1b",
+   "aufgaben": [
+    {
+     "ziel": "E1.1",
+     "art": "zuordnen",
+     "frage": "Welches Märchenmerkmal zeigt diese Stelle? Wähle für jede Stelle ein Merkmal.",
+     "optionen": [
+      "Märchenanfang",
+      "gute Figur",
+      "Helferfigur",
+      "Zauberspruch",
+      "Belohnung",
+      "Strafe"
+     ],
+     "stellen": [
+      {
+       "text": "„Es war einmal ein armes, frommes Mädchen …“",
+       "richtig": [
+        "Märchenanfang"
+       ]
+      },
+      {
+       "text": "„Dort begegnete ihm eine alte Frau, die wusste schon von seinem Kummer. Sie schenkte ihm ein Töpfchen.“",
+       "richtig": [
+        "Helferfigur"
+       ]
+      },
+      {
+       "text": "„Nun waren sie ihre Armut und ihren Hunger los und aßen süßen Brei, so oft sie wollten.“",
+       "richtig": [
+        "Belohnung"
+       ]
+      }
+     ],
+     "mindestens": 3,
+     "erklaerung": "„Es war einmal“ ist der Märchenanfang. Die alte Frau hilft dem Mädchen: Sie ist die Helferfigur. Kein Hunger mehr: Das ist die Belohnung."
+    },
+    {
+     "ziel": "E1.2",
+     "art": "auswahl",
+     "fragen": [
+      {
+       "frage": "Wer wird belohnt?",
+       "optionen": [
+        "das arme Mädchen",
+        "die alte Frau",
+        "die Nachbarn in der Stadt"
+       ],
+       "richtig": "das arme Mädchen"
+      },
+      {
+       "frage": "Womit?",
+       "optionen": [
+        "mit Gold",
+        "mit einem Töpfchen, das süßen Brei kocht",
+        "mit einem neuen Haus"
+       ],
+       "richtig": "mit einem Töpfchen, das süßen Brei kocht"
+      },
+      {
+       "frage": "Warum?",
+       "optionen": [
+        "weil es den Brei gestohlen hat",
+        "weil es arm ist und Hunger hat",
+        "weil es die alte Frau ausgelacht hat"
+       ],
+       "richtig": "weil es arm ist und Hunger hat"
+      }
+     ],
+     "mindestens": 3,
+     "erklaerung": "Das Mädchen ist arm und fromm und hat nichts zu essen. Die alte Frau schenkt ihm ein Zaubertöpfchen."
+    },
+    {
+     "ziel": "E1.3",
+     "art": "ankreuzen",
+     "frage": "Was ist in „Der süße Brei“ Zauberei? Kreuze alles an, was Zauberei ist.",
+     "optionen": [
+      {
+       "text": "Das Töpfchen kocht von allein süßen Brei.",
+       "richtig": true
+      },
+      {
+       "text": "Das Mädchen geht in den Wald.",
+       "richtig": false
+      },
+      {
+       "text": "Auf „Töpfchen, steh!“ hört das Töpfchen auf zu kochen.",
+       "richtig": true
+      },
+      {
+       "text": "Die Mutter isst sich satt.",
+       "richtig": false
+      },
+      {
+       "text": "Der Brei aus dem kleinen Topf füllt die ganze Stadt.",
+       "richtig": true
+      }
+     ],
+     "max_fehler": 1,
+     "erklaerung": "Ein echter Topf kocht nicht von allein und hört nicht auf ein Zauberwort. Und aus einem kleinen Topf kommt nie so viel Brei, dass eine Stadt voll wird."
+    },
+    {
+     "ziel": "E1.4",
+     "art": "formeln",
+     "formel": {
+      "frage": "Wie heißt die feste Anfangsformel im Märchen?",
+      "optionen": [
+       "Neulich …",
+       "Eines Morgens …",
+       "Es war einmal …"
+      ],
+      "richtig": "Es war einmal …"
+     },
+     "woerter": {
+      "frage": "Tippe die Verkleinerungsform (-chen, -lein) aus dem Text an.",
+      "liste": [
+       {
+        "text": "Hirsebrei",
+        "richtig": false
+       },
+       {
+        "text": "Töpfchen",
+        "richtig": true
+       },
+       {
+        "text": "Küche",
+        "richtig": false
+       },
+       {
+        "text": "Straße",
+        "richtig": false
+       },
+       {
+        "text": "Kummer",
+        "richtig": false
+       }
+      ],
+      "mindestens": 1,
+      "max_fehler": 0
+     },
+     "spruch": {
+      "frage": "Welcher Satz ist ein Zauberspruch?",
+      "optionen": [
+       "„Nun gib mir dein Kind!“",
+       "„Töpfchen, koche!“",
+       "„Ach, gib mir etwas zu essen.“"
+      ],
+      "richtig": "„Töpfchen, koche!“"
+     },
+     "erklaerung": "Märchen beginnen oft mit „Es war einmal …“. „Töpfchen“ ist die Verkleinerung von „Topf“. „Töpfchen, koche!“ ist der Zauberspruch."
+    },
+    {
+     "ziel": "E1.5",
+     "art": "vorhersage",
+     "beispiele": [
+      "Ich vermute, dass vor der Tür jemand steht, der Hilfe braucht, weil im Text steht, dass es an die Tür klopfte. – Die jüngste Tochter öffnete die Tür. Draußen stand ein alter Mann, der vor Kälte zitterte.",
+      "Ich vermute, dass das Licht der jüngsten Tochter ein Zauberlicht ist, weil im Text steht, dass nur auf ihrem Tisch noch ein kleines Licht brannte. – Vor der Tür stand eine Fee. Sie sprach: „Dein Licht kann das ganze Dorf retten.“"
+     ]
+    }
+   ]
+  }
+ },
+ "selbstpruefung": [
+  "Ich habe eine Vermutung aufgeschrieben: Ich vermute, dass …",
+  "Ich habe eine Stelle aus dem Text genannt, die zu meiner Vermutung passt.",
+  "Ich habe zwei Sätze weitergeschrieben, die zum Anfang passen."
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "woche": 2,
+ "titel": "Mit dem Spannungsbogen zusammenfassen",
+ "strategie": "bogen",
+ "dauer": "höchstens 10 Minuten",
+ "text_titel": "Die Gänsehirtin (Übungstext)",
+ "text": "Es war einmal eine arme Gänsehirtin, die wünschte sich ein Haus. Aber der geizige Graf nahm ihr jeden Lohn weg. Da fragte sie dreimal um Rat. Dann kam sie an einen Fluss, darin wohnte ein Drache, der wollte sie fressen. Da schenkte sie ihm ihre letzte goldene Feder. Nun bekam sie ein Häuschen, und der Graf musste seine Gänse selbst hüten.",
+ "denken": [
+  {
+   "stelle": "Es war einmal eine arme Gänsehirtin",
+   "gedanke": "J: Wer? Eine arme Gänsehirtin.",
+   "sagen": "Zeige auf das Merkblatt Spannungsbogen: J = Einleitung."
+  },
+  {
+   "stelle": "wünschte sich",
+   "gedanke": "W: „wünschte sich“ heißt auch „wollte“. Sie will ein Haus.",
+   "sagen": "Signalwörter stehen nicht immer wörtlich im Text – laut darüber nachdenken."
+  },
+  {
+   "stelle": "Aber der geizige Graf",
+   "gedanke": "A: Das Problem. Der Graf ist der Gegenspieler.",
+   "sagen": "Figurenrolle nebenbei nennen (Brücke zur Karte „Figuren befragen“)."
+  },
+  {
+   "stelle": "dreimal um Rat",
+   "gedanke": "D: Sie versucht etwas – dreimal (Sonne, Mond, Wind)!",
+   "sagen": ""
+  },
+  {
+   "stelle": "der wollte sie fressen",
+   "gedanke": "D: Hier ist es am gefährlichsten. Der Höhepunkt!",
+   "sagen": "Kurz zweifeln: „War der Rat schon der Höhepunkt? Nein, da war es noch nicht gefährlich.“"
+  },
+  {
+   "stelle": "schenkte sie ihm ihre letzte goldene Feder",
+   "gedanke": "A: Die Lösung. Sie gibt ihr Letztes.",
+   "sagen": ""
+  },
+  {
+   "stelle": "der Graf musste seine Gänse selbst hüten",
+   "gedanke": "A: Belohnung und Strafe. Fertig: sieben Sätze!",
+   "sagen": "Zum Schluss den ganzen Bogen einmal laut in sieben Sätzen erzählen."
+  }
+ ],
+ "jetzt": [
+  "Trag **dein** Märchen aus der Leseübung in den Schreibplan ein: J – W – A – D – D – A – A. ★ als Lückentext, ★★ frei.",
+  "Sagt zu zweit laut: „Das ist A, weil hier das Problem anfängt …“"
+ ],
+ "hilfe": [
+  "Merkblatt Märchen-Spannungsbogen · Märchenrap",
+  "Lernweg: Hake ab, was du geschafft hast. Wer an derselben Stelle ist, kann mit dir arbeiten."
+ ],
+ "skript": [
+  "Vor dem Lesen: „Ich zeige euch, wie ich ein Märchen in sieben Sätzen erzählen kann. Hört zu, ich denke laut.“",
+  "Beim Lesen Buchstaben sichtbar an den Rand schreiben (Tafel oder Beamer-Stift).",
+  "Vorher oder nachher: den Märchenrap gemeinsam sprechen; die Buchstaben J-W-A-D-D-A-A an der Tafel zeigen.",
+  "Nach dem Input (30 Sekunden): Jedes Kind erzählt dem Nachbarn sein Lese-Märchen nur mit J – W – A."
+ ]
+}

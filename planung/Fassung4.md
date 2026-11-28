@@ -1,0 +1,121 @@
+# Märchen · Fassung 4 (28.11.2026)
+
+Stand: 28.11.2026 · nach Absprache mit den Kolleg:innen · ersetzt Fassung 3
+
+## Idee
+
+- **Etappe 1:** Märchenmerkmale kennenlernen, Abschluss mit **GN1**.
+- **Etappe 2:** Spannungsbogen kennenlernen und spannend erzählen, Abschluss mit **GN2**.
+- **Klassenarbeit:** Danach schreiben die Kinder einen **Märchenanfang zu Ende**.
+  - Der Rohentwurf ist eine **echte schriftliche Klassenarbeit**, keine Alternativleistung.
+  - Geöffnet sind nur **Raum und Zeit**: Die Kinder schreiben ausschließlich **im Unterricht unter Aufsicht** und in ihrem Tempo.
+  - Die Mappen werden am Ende jeder Stunde eingesammelt, damit der Prozess in der Schule bleibt.
+  - Statt eines Termins gibt es eine **späteste Abgabe: 13.01.2027**.
+- **Danach ohne Note:** Schreibkonferenz, Überarbeitung, Reinschrift, Wahlangebote.
+- **Ziel:** Das Produkt soll Lernzuwachs ermöglichen und nicht nur prüfen, weil geprüft werden muss.
+
+## Entscheidungen
+
+| Frage | Entscheidung |
+|---|---|
+| Anfänge | mehrere zur Auswahl, unterschiedlich anspruchsvoll, damit alle Kinder Leistung zeigen können; je Anfang ein Erwartungshorizont |
+| Hilfsmittel | alle erlaubt (Märchen-Hilfe, Märchenverben, Merkblätter, Schreibplan) |
+| Kooperation | erlaubt. Regel für die Kinder: Ideen besprechen und Feedback geben ja, Sätze anderer übernehmen nein |
+| Schreiben | von Hand; Mappen werden eingesammelt |
+| Start | nach GN2 geht es los; spätestens ab 12.01. schreiben alle, auch ohne GN2 |
+| Abgabe | spätestens 13.01. |
+| Bewertung | Kriterien des Feedbackbogens der Kollegin (100 Punkte, K1–K6, Notengrenzen 87/73/59/45/18) |
+| Lückentext | erlaubt für Kinder mit Förderschwerpunkt Lernen, LRS oder geringen Deutschkenntnissen; auf dem Bewertungsbogen vermerkt |
+| Schreibzeit | keine Höchstzeit; bei viel Krankheit wird eine Sonderlösung gefunden |
+| Lesen | freitags in Sprache: offenes Lesen der Leseübungen 1–5 im eigenen Tempo, dazu die Lesekiste aus der Bibliothek |
+| Arbeit 3 der Kollegin | ihre Anfänge vorerst nicht |
+| Note je Stufe | mit jedem Anfang sind alle Punkte erreichbar (so steht es auf dem Auftragsblatt) |
+
+## Zeitplan
+
+| Datum | Fach | Inhalt |
+|---|---|---|
+| Fr 04.12. | Sprache | Offenes Lesen: Leseübungen 1–5 (★–★★★) im Tandem, Lesekiste. Wer am 08.12. den späten Zootiere-Termin schreibt, bereitet sich vor. |
+| Mi 09.12. | Deutsch | Etappe 1: Videos, Input 1, Merkblatt Märchenmerkmale, Quiz mit dem eigenen Lese-Märchen |
+| Fr 11.12. | Sprache | Lesen; Märchenverben im Präteritum |
+| Di 15.12. | Deutsch | **GN1 am Laptop** · Etappe 2: Märchenrap, Input 2, Merkblatt Spannungsbogen, Schreibplan für das eigene Märchen |
+| Mi 16.12. | Deutsch | Input 3 · Bilder im Kopf zu zweit, Märchen-Hilfe S. 3–5 und 10 · GN2 für alle, die so weit sind |
+| Fr 18.12. | Sprache | Lesen; Märchen-Hilfe (Nomen, Fälle, wo/wohin) |
+| Di 22.12. | Deutsch | GN2 für die übrigen · Input 4 · ab GN2 beginnt die **Klassenarbeit** |
+| Fr 08.01. | Sprache | Lesen; Verben und wörtliche Rede (Märchen-Hilfe S. 8–10) |
+| Di 12.01. | Deutsch | Klassenarbeit: Schreiben (spätestens jetzt alle) |
+| Mi 13.01. | Deutsch | Klassenarbeit: Schreiben, Prüfen mit dem Märchen-Check, **Abgabe des Rohentwurfs** |
+| ab 19.01. | Deutsch | ohne Note: Input 5, Schreibkonferenz, Überarbeiten, Reinschrift; Wahl: Märchenbuch, nachspielen, Comic, Märchenfilm, vorlesen |
+| bis 27.01. | Lehrkraft | Rohentwürfe bewertet, Noten eingetragen |
+
+**Schreibzeit:** je nach Tempo 2 bis 3 Doppelstunden. Das ist deutlich mehr als die 45 Minuten der bisherigen Arbeit 3.
+
+## Material
+
+### Von der Kollegin (liegt in `extern/`, nicht im Repo)
+
+| Material | Einsatz |
+|---|---|
+| AB-Leseübung 1–5 (Sterntaler ★, 12 Monate ★, Kaiser ★★, Hänsel und Gretel ★★, Bremer Stadtmusikanten ★★★) | Sprache, freitags; jedes Kind wählt sein Märchen für die Arbeit in Deutsch |
+| Lernweg-Tabelle | Vorlage für den Lernweg F4 (gleiche Struktur, ergänzt um GN1, GN2 und die Klassenarbeit) |
+| Videos „Was sind Märchen?“, „Gebrüder Grimm“; Märchenfilme und Kindersendungen | Einstieg Etappe 1; nach der Abgabe als Wahlangebot (z. B. Film und Text vergleichen) |
+| Merkblatt Märchenmerkmale, Quiz Märchenmerkmale | Etappe 1; das Quiz wird mit dem **eigenen Lese-Märchen** gemacht |
+| Märchenrap, Merkblatt Spannungsbogen, Märchen-Schreibplan | Etappe 2; Schreibplan erst für das eigene Lese-Märchen, später für das Ende in der Arbeit |
+| Märchen-Hilfe (Heft, 12 S.) | Etappe 2 (S. 3–5, 10) und Werkzeugkasten in der Klassenarbeit; Grammatik in Sprache |
+| Märchenverben im Präteritum | ist die Verbliste: Sprache, Etappe 2, Klassenarbeit |
+| Märchen-Lückentext mit Wortspeicher | Hilfe in der Klassenarbeit für Kinder mit Förderschwerpunkt Lernen, LRS, geringen Deutschkenntnissen |
+| Märchen-Check (eigenes Märchen) | ist der Rechtschreib-Check; wird mit dem Rohentwurf abgegeben; Grundlage der Schreibkonferenz |
+| Vertiefung 1 und 2 | Seite 2 (Anfang mit Aufgabe 1 und 2) wird als Anfang ★ und ★★ in die Klassenarbeit eingelegt |
+
+### Gebaut (`python3 tools/build_f4.py alles` → `ausgabe/f4/`)
+
+| Teil | Dateien |
+|---|---|
+| Lernweg | `Lernweg_F4_A4.pdf` (1 Seite, Struktur der Kollegin) |
+| Etappe 1 | **GN1 digital** (`apps/gn1-digital`): Variante A jetzt „Das Lämmchen und das Fischchen“, weil „Die Sterntaler“ Leseübung 1 ist. Dazu GN1 A/B auf Papier als Ersatz, Erwartungshorizont, Förderpaket 1 mit GN1F |
+| Etappe 2 | `Etappe2_Bilder_im_Kopf_A4.pdf` („Jorinde und Joringel“, zu zweit, Arbeitsseite), **GN2 A/B neu**, Erwartungshorizont, Förderpaket 2 |
+| Klassenarbeit | `KA_0_Auftrag` (Situation, So arbeitest du, Auftrag, Wahl des Anfangs, Bewertungskriterien), 5 Anfänge als normale und als F-Fassung mit Schreibrahmen, `KA_Erwartungshorizonte` (je Anfang: Anknüpfung, Aufgabe 1, K1–K6, Original-Ende zum Vergleich), `KA_Bewertungsbogen` |
+| Inputs | 1 Märchenmerkmale · 2 Spannungsbogen · 3 Bilder im Kopf · 4 Ein Ende planen · 5 Meinen Text prüfen (für die Schreibkonferenz) |
+| Lehrkraft | `Zeitplan_F4_Lehrkraft_A4.pdf`, `Druckanleitung_F4_A4.pdf`; das Gesamt-PDF wird lokal gebaut |
+
+### GN2 (neu)
+
+| | Indikator | Herkunft |
+|---|---|---|
+| E2.1 | Ich ordne ein Märchen dem Spannungsbogen zu. | GN2 Fassung 2 |
+| E2.2 | Ich finde den Höhepunkt. | GN2 Fassung 2 |
+| E2.3 | Ich bestimme Held:in, Gegenspieler:in und Helfer:in und belege das. | GN2 Fassung 2 |
+| E2.4 | Ich erzähle eine blasse Stelle spannend. | neu |
+| E2.5 | Ich setze die Zeichen der wörtlichen Rede. | GN3 Fassung 2 |
+
+Texte: A „Die drei Brüder“, B „Die drei Faulen“. Freigabe ab 4 von 5.
+
+### Die fünf Anfänge
+
+| | Anfang | Quelle | warum diese Stufe |
+|---|---|---|---|
+| ★ | Hexe und Plumpsklo | Vertiefung 1 (Kollegin, © unterrichtmitspass) | kurz und witzig; das Problem (der Fluch) ist klar |
+| ★★ | Zwerge und Zauberrezept | Vertiefung 2 (Kollegin, © unterrichtmitspass) | das Problem muss selbst erfunden werden |
+| ★★ | Die goldene Gans | Grimm, bearbeitet | klare Figuren, das Ende ist offen |
+| ★★★ | Die weiße Schlange | Grimm, bearbeitet | ältere Sprache; die Tiersprache muss klug genutzt werden |
+| ★★★ | Die drei Federn | Grimm, bearbeitet | ältere Sprache, Zauberreim; Aufgaben und Gefahren müssen selbst erfunden werden |
+
+Zu jedem Anfang gibt es eine F-Fassung: Aufgabe 1 zum Ankreuzen (bei Vertiefung 1/2 die Originalseite) und einen Schreibrahmen mit Satzanfängen, der zum Anfang passt.
+
+## Was aus Fassung 3 wegfällt
+
+- Probearbeit
+- Arbeit 3 im 45-Minuten-Format mit zwei Terminen
+- Input „Zeit einteilen“
+- Teil 2 als eigene Etappe: „Bilder im Kopf“ steckt jetzt in Etappe 2
+- eigene Merkblätter, eigener Märchen-Check und eigene Strategiekarten (dafür gibt es das Material der Kollegin)
+- Etappenpakete 1 und 3
+- Sprachblätter (Sprache arbeitet mit den Leseübungen und der Märchen-Hilfe)
+
+**Fassung 3 bleibt als Archiv:** `inhalt/f3`, `build_f3.py`. GN1 digital ist in beiden Fassungen dieselbe App, jetzt mit Variante A „Lämmchen“.
+
+## Noch offen
+
+- Die Leseübungen sind Nacherzählungen aus dem Netz (duda.news u. a.). Die Quellen stehen auf den Blättern.
+- Die Schreibkonferenz (Ablauf, Rollen, Feedbackkarte) ist noch nicht als eigenes Material gebaut. Input 5 zeigt das Prüfen.
+- Wer welchen Anfang wählt, wird mit der Lehrkraft abgesprochen. Eine Zuordnung nach dem GN2-Ergebnis ist möglich, aber nicht festgelegt.
