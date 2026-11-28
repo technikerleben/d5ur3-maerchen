@@ -151,3 +151,14 @@ Bau: `python3 tools/build_f4.py alles`, danach `python3 tools/build_f4_pakete.py
 - Die Leseübungen sind Nacherzählungen aus dem Netz (duda.news u. a.). Die Quellen stehen auf den Blättern.
 - Die Schreibkonferenz (Ablauf, Rollen, Feedbackkarte) ist noch nicht als eigenes Material gebaut. Input 5 zeigt das Prüfen.
 - Wer welchen Anfang wählt, wird mit der Lehrkraft abgesprochen. Eine Zuordnung nach dem GN2-Ergebnis ist möglich, aber nicht festgelegt.
+
+## Kontroll-Kiosk (Fassung 4)
+
+`apps/kontroll-kiosk/index.html`, gebaut mit `tools/build_kiosk_f4.py` aus `inhalt/f4/kiosk.json` (nach `build_f4_pakete.py` ausführen, weil die Zeilenangaben der Leseübungen aus dem Satz kommen).
+
+- Blatt 1–5: Leseübungen 1–5 (Sprache), Lösungen mit Zeilenangaben
+- Blatt 6–10: Quiz Märchenmerkmale – je ein Beispiel pro Märchen (Sterntaler, 12 Monate, Kaiser, Hänsel und Gretel, Bremer)
+- Blatt 11–15: Schreibplan/Lückentext J-W-A-D-D-A-A – je ein Beispiel pro Märchen
+- Blatt 16: Bilder im Kopf (Wörter-Jagd + Beispiel-Höhepunkt)
+
+Keine Lösungen zu Gelingensnachweisen und Klassenarbeit. Die Blattnummern stehen auf den Arbeitsblättern („Kiosk, Blatt …“).

@@ -39,6 +39,14 @@ KOMPAKT = ".kasten:last-child,div:last-child{margin-bottom:0}table.st td,table.s
 text_pdf = f4.text_pdf
 
 
+KIOSK_MAERCHEN = "Sterntaler {0} · 12 Monate {1} · Kaiser {2} · Hänsel und Gretel {3} · Bremer Stadtmusikanten {4}"
+
+
+def kiosk_zeile(start: int) -> str:
+    return ("<div style='font-size:13pt;margin-top:2mm'>%s <b>Kontroll-Kiosk</b> – wenn du fertig bist, vergleiche: Blatt %s</div>"
+            % (sym("lupe", 5), KIOSK_MAERCHEN.format(*range(start, start + 5))))
+
+
 # ------------------------------------------------------------ Paket 1: Lesen in Sprache
 def lese_deck_html() -> str:
     wahl = "".join("<div class=anfang style='margin:0 0 1.2mm;padding:1.2mm 3mm'><b>☐ &nbsp;%s &nbsp; %s</b>%s</div>"
@@ -59,7 +67,8 @@ def lese_deck_html() -> str:
 def lese_aufgaben_html(L: dict) -> str:
     teile = [kopf("Sprache · Leseübung %d · %s" % (L["n"], L["sterne"]), "Aufgaben zu „%s“" % L["titel"], "lesen"),
              "<div style='font-size:14.5pt;margin-bottom:1mm'>☐ im Tandem lesen &nbsp; ☐ noch einmal leise lesen &nbsp; ☐ nacherzählen &nbsp; ☐ Fragen beantworten</div>",
-             "<div style='font-size:14pt;margin-bottom:2.5mm'><b>(Z.)</b> heißt: Schreib die Zeile dazu, zum Beispiel <b>(Z. 5)</b>.</div>"]
+             "<div style='font-size:14pt;margin-bottom:2.5mm'><b>(Z.)</b> = Zeile dazuschreiben, z. B. <b>(Z. 5)</b>. "
+             "Fertig? <b>Kiosk, Blatt %d</b>.</div>" % L["n"]]
     for i, q in enumerate(L["fragen"], 1):
         felder = "".join("<div style='display:flex;gap:2mm;margin-top:2mm;font-size:15pt'><span style='white-space:nowrap'>%s</span>"
                          "<span style='flex:1;border-bottom:1pt solid #111'></span></div>" % esc(f) for f in q.get("felder", []))
@@ -132,7 +141,7 @@ def quiz_html() -> str:
     return doc(F2_CSS, kopf("Etappe 1 · Quiz", "Quiz Märchenmerkmale", "stern")
                + "<div style='font-size:15pt;margin-bottom:2mm'>Name: ______________ &nbsp; Mein Märchen: ______________________</div>"
                + "<div class=hilft>Finde in deinem Märchen zu jedem Bereich ein Merkmal und ein Beispiel. Das Merkblatt hilft dir. Schreibe die Zeile dazu.</div>"
-               + "<table class=st style='table-layout:fixed;font-size:13pt'>%s</table>" % "".join(rows))
+               + "<table class=st style='table-layout:fixed;font-size:13pt'>%s</table>" % "".join(rows) + kiosk_zeile(6))
 
 
 def bogen_html() -> str:
@@ -170,10 +179,10 @@ def schreibplan_html() -> str:
     return doc(F2_CSS, kopf("Etappe 2 · Schreibplan ★★", "Mein Märchen-Schreibplan", "plan")
                + "<div style='font-size:15pt;margin-bottom:2mm'>Name: ______________ &nbsp; Mein Märchen: ______________________</div>"
                + "<div class=hilft>Trage dein Märchen in Stichwörtern ein. Das Merkblatt Spannungsbogen hilft dir.</div>"
-               + "<table class=st style='font-size:14pt;table-layout:fixed'>%s</table>" % rows)
+               + "<table class=st style='font-size:14pt;table-layout:fixed'>%s</table>" % rows + kiosk_zeile(11))
 
 
-def lueckentext_html(meta: str) -> str:
+def lueckentext_html(meta: str, kiosk: bool = False) -> str:
     rows = "".join("<div style='display:flex;gap:3mm;margin-top:2mm;break-inside:avoid'><div style='width:13mm;text-align:center'><div style='font-size:22pt;font-weight:700'>%s</div>"
                    "<div style='font-size:11.5pt'>%s</div></div><div style='flex:1'>%s</div></div>"
                    % (b_, esc(w), "".join("<div style='font-size:15pt;margin-top:1mm'>%s …</div>%s" % (esc(s), LINIE * 2) for s in starts))
@@ -182,7 +191,8 @@ def lueckentext_html(meta: str) -> str:
     return doc(F2_CSS, kopf(meta, "Märchen-Lückentext", "plan")
                + "<div class=hilft>Schreibe das Märchen weiter. Fülle die Lücken: Schreibe passende Wörter und Sätze auf die Linien. Der Wortspeicher hilft dir.</div>"
                + "<div style='font-size:15pt'><b>Überschrift:</b> ______________________________</div>" + rows
-               + "<div class=anfang style='margin-top:4mm;break-inside:avoid'><b>Wortspeicher</b><div style='font-size:14pt'>%s</div></div>" % ws)
+               + "<div class=anfang style='margin-top:4mm;break-inside:avoid'><b>Wortspeicher</b><div style='font-size:14pt'>%s</div></div>" % ws
+               + (kiosk_zeile(11) if kiosk else ""))
 
 
 def check_html() -> str:
@@ -203,7 +213,7 @@ def bau_kollegin(b: f2.Bau) -> dict[str, Path]:
     p["lese_deck"] = b.mach(lese_deck_html(), KAUS / "Lesen_Deckblatt_A4.pdf", "Märchen lesen", 13.5, 1)
     for L in KOL["lese"]:
         t = dict(L, quelle=L["quelle"] + (" · %s" % L["untertitel"] if L.get("untertitel") else ""))
-        tx = text_pdf(b, t, "Sprache · Leseübung %d · %s" % (L["n"], L["sterne"]), tmp / f"lese_{L['n']}_text.pdf", L.get("info"))
+        tx = text_pdf(b, t, "Sprache · Leseübung %d · %s" % (L["n"], L["sterne"]), tmp / f"lese_{L['n']}_text.pdf", L.get("info"), zid=L["id"])
         au = b.mach(lese_aufgaben_html(L), tmp / f"lese_{L['n']}_auf.pdf", "Leseübung %d · Aufgaben" % L["n"], 14, 1)
         p[f"lese_{L['n']}"] = KAUS / f"Leseuebung_{L['n']}_{L['id']}_A4.pdf"
         s = verbinde([tx, au], p[f"lese_{L['n']}"])
@@ -224,7 +234,7 @@ def bau_kollegin(b: f2.Bau) -> dict[str, Path]:
     p["bogen"] = b.mach(bogen_html(), KAUS / "Merkblatt_Spannungsbogen_A4.pdf", "Merkblatt Spannungsbogen", 13, 1)
     p["rap"] = b.mach(rap_html(), KAUS / "Maerchenrap_A4.pdf", "Märchenrap", 12.5, 2)
     p["schreibplan"] = b.mach(schreibplan_html(), KAUS / "Schreibplan_A4.pdf", "Schreibplan", 12.5, 2)
-    p["lueckentext_e2"] = b.mach(lueckentext_html("Etappe 2 · Schreibplan ★"), KAUS / "Lueckentext_Etappe2_A4.pdf", "Märchen-Lückentext", 11.5, 2)
+    p["lueckentext_e2"] = b.mach(lueckentext_html("Etappe 2 · Schreibplan ★", kiosk=True), KAUS / "Lueckentext_Etappe2_A4.pdf", "Märchen-Lückentext", 11.5, 2)
     p["lueckentext_ka"] = b.mach(lueckentext_html("Klassenarbeit F · Hilfe"), KAUS / "Lueckentext_Klassenarbeit_A4.pdf", "Märchen-Lückentext", 11.5, 2)
     p["check"] = b.mach(check_html(), KAUS / "Maerchen_Check_A4.pdf", "Märchen-Check", 14, 1)
     for x in tmp.iterdir():

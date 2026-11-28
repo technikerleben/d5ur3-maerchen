@@ -101,7 +101,7 @@ KOL_JSON = ROOT / "extern" / "kollegin.json"
 KOL_TEXTE = json.loads(KOL_JSON.read_text("utf-8"))["anfaenge"] if KOL_JSON.exists() else {}
 
 
-def text_pdf(b: f2.Bau, t: dict, label: str, ziel: Path, info: str | None = None) -> Path:
+def text_pdf(b: f2.Bau, t: dict, label: str, ziel: Path, info: str | None = None, zid: str | None = None) -> Path:
     tt = {"rolle": label, "titel": t["titel"], "quelle": t["quelle"], "text": t["text"], "fussnoten": t.get("fussnoten", []),
           "vollstaendig": t.get("vollstaendig", True)}
     inhalt, fns = build_texte.text_html(tt)
@@ -114,7 +114,16 @@ def text_pdf(b: f2.Bau, t: dict, label: str, ziel: Path, info: str | None = None
         rest = info_["zeilen_je_seite"][-1]
         if info_["seiten"] == 1 or (rest and rest[1] - rest[0] + 1 >= 4):
             break
+    zeilentext = pg.evaluate("""() => [...document.querySelectorAll('.ln[data-zeile]')].map(l => {
+        const c = l.cloneNode(true); c.querySelectorAll('.nr, sup').forEach(x => x.remove());
+        return c.textContent.replace(/\\s+/g, ' ').trim(); })""")
     pg.close()
+    if zid:  # Zeilen merken (für Zeilenangaben im Kontroll-Kiosk); liegt bei den Texten der Kollegin, nicht im Repo
+        zj = AUS / "kollegin" / "zeilen.json"
+        zj.parent.mkdir(parents=True, exist_ok=True)
+        alle = json.loads(zj.read_text("utf-8")) if zj.exists() else {}
+        alle[zid] = {"zeilentext": zeilentext, "seiten": info_["seiten"]}
+        zj.write_text(json.dumps(alle, ensure_ascii=False, indent=1), "utf-8")
     mn = kleinste_schrift(ziel, ausnahmen=(11.0,))
     if mn < 14:
         b.fehler.append("%s Schrift %.1f" % (ziel.name, mn))
