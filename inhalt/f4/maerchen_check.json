@@ -1,0 +1,55 @@
+{
+ "titel": "Märchen-Check",
+ "unter": "So prüfst du dein Märchen. Die Lehrkraft bewertet genau diese sechs Punkte.",
+ "punkte": [
+  {
+   "k": "K1",
+   "name": "Aufbau",
+   "fragen": [
+    "Mein erster Satz schließt genau an den Anfang an.",
+    "Mein Märchen hat einen Höhepunkt: die gefährlichste Stelle.",
+    "Die Lösung passt zur Geschichte."
+   ]
+  },
+  {
+   "k": "K2",
+   "name": "Märchenmerkmale",
+   "fragen": [
+    "Ich habe mindestens 4 Märchenmerkmale eingebaut."
+   ]
+  },
+  {
+   "k": "K3",
+   "name": "Schluss",
+   "fragen": [
+    "Man sieht, wer belohnt oder bestraft wird.",
+    "Ich habe einen Schlusssatz geschrieben."
+   ]
+  },
+  {
+   "k": "K4",
+   "name": "Sprache",
+   "fragen": [
+    "Alle Verben stehen im Präteritum (Verbliste).",
+    "Ich habe treffende Verben und Adjektive benutzt.",
+    "Meine Sätze fangen verschieden an."
+   ]
+  },
+  {
+   "k": "K5",
+   "name": "Verständlich",
+   "fragen": [
+    "Die Reihenfolge stimmt. Ich habe Absätze gemacht.",
+    "Überschrift und Name stehen auf dem Blatt."
+   ]
+  },
+  {
+   "k": "K6",
+   "name": "Prüfen",
+   "fragen": [
+    "Ich habe mit dem Rechtschreib-Check geprüft: Großschreibung, Satzzeichen, wörtliche Rede.",
+    "Ich habe Fehler mit einem anderen Stift verbessert."
+   ]
+  }
+ ]
+}

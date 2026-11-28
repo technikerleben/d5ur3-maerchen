@@ -1,0 +1,721 @@
+{
+ "_hinweis": "Fassung 4 · Klassenarbeit „Ein Märchen zu Ende schreiben“. Echte schriftliche Klassenarbeit; nur Raum und Zeit sind geöffnet: Die Kinder schreiben ausschließlich im Unterricht unter Aufsicht, in ihrem Tempo ab GN2 (spätestens ab 12.01.), Abgabe des Rohentwurfs spätestens 13.01. Die Mappen werden am Ende jeder Stunde eingesammelt. Hilfen sind erlaubt; Kooperation ist erlaubt (Ideen besprechen, Feedback geben), der Text wird selbst geschrieben. Bewertet wird mit den Kriterien des Feedbackbogens der Kollegin (100 Punkte). Lückentext/Schreibrahmen für Kinder mit Förderschwerpunkt Lernen, LRS oder geringen Deutschkenntnissen; auf dem Bewertungsbogen vermerkt. Fünf Anfänge in drei Stufen; Vertiefung 1 und 2 (© unterrichtmitspass) werden von den Originalen der Kollegin eingelegt.",
+ "titel": "Ein Märchen zu Ende schreiben",
+ "abgabe": "13.01.",
+ "situation": "Eure Klasse schreibt ein Märchenbuch. Von einigen Märchen ist nur der Anfang da – das Ende ist verloren gegangen. Wähle einen Anfang und schreibe das Märchen zu Ende. Es soll spannend sein und wie ein echtes Märchen klingen.",
+ "so": [
+  "Du schreibst **nur in der Schule**. Am Ende jeder Stunde gibst du deine Mappe ab.",
+  "Du arbeitest **in deinem Tempo**. Gib deinen Rohentwurf **spätestens am %ABGABE%** ab.",
+  "Du darfst **alle Hilfen** benutzen: Märchen-Hilfe, Märchenverben, Merkblätter, Schreibplan.",
+  "Du darfst **Ideen besprechen** und um Feedback bitten. Deinen Text schreibst du **selbst**: Übernimm keine Sätze von anderen."
+ ],
+ "auftrag": [
+  "Wähle einen Anfang. Lies ihn genau. Markiere wichtige Stellen. Löse Aufgabe 1 und 2.",
+  "Plane dein Ende mit dem Schreibplan. Du darfst ihn nutzen, du musst aber nicht.",
+  "Schreibe das Märchen auf liniertem Papier zu Ende. Mach genau da weiter, wo der Anfang aufhört. Schreibe eine Überschrift und deinen Namen darauf.",
+  "Schreibe im Präteritum. Die Märchenverben helfen dir.",
+  "Baue die Merkmale ein, die du in Aufgabe 2 angekreuzt hast.",
+  "Prüfe deinen Text mit dem Märchen-Check. Verbessere mit einem anderen Stift. Gib den Märchen-Check mit deinem Text ab."
+ ],
+ "bewertet": [
+  [
+   "Aufbau",
+   "anschließen, Höhepunkt, Lösung"
+  ],
+  [
+   "Märchenmerkmale",
+   "mindestens 4 passende"
+  ],
+  [
+   "Schluss",
+   "Belohnung oder Strafe, Schlusssatz"
+  ],
+  [
+   "Sprache",
+   "Präteritum, treffende Wörter, Satzanfänge"
+  ],
+  [
+   "Verständlich",
+   "geordnet, Überschrift, Name"
+  ],
+  [
+   "Prüfen",
+   "Fehler gefunden und verbessert"
+  ]
+ ],
+ "rohentwurf": "Dein Text ist ein **Rohentwurf**: Verbesserungen dürfen darin stehen. Danach überarbeitest du ihn ohne Note – in der Schreibkonferenz und in der Reinschrift.",
+ "merkmale": [
+  "magische Zahl (die 3)",
+  "magischer Gegenstand",
+  "Gegenspieler:in (böse Figur)",
+  "Reim oder Zauberspruch",
+  "Verkleinerungsform (*-chen, -lein*)",
+  "Verwandlung",
+  "Belohnung für die Guten",
+  "Strafe für die Bösen",
+  "feste Formel am Schluss"
+ ],
+ "anfaenge": [
+  {
+   "id": "plumpsklo",
+   "stufe": 1,
+   "titel": "Hexe und Plumpsklo",
+   "extern": "Vertiefung_1",
+   "extern_seiten": [
+    2
+   ],
+   "teaser": "Ein König wurde in eine Fliege verwandelt. Wie wird er den Fluch wieder los?",
+   "warum": "kurz und witzig; das Problem (der Fluch) ist klar; die Lösung liegt nahe",
+   "aufgabe1": [
+    [
+     "Märchenanfang",
+     "„Vor langer Zeit lebte …“"
+    ],
+    [
+     "magisches Wesen",
+     "die gemeine Hexe"
+    ],
+    [
+     "Verwandlung",
+     "Der König wird in eine Fliege verwandelt."
+    ],
+    [
+     "wörtliche Rede",
+     "„Ehrenwerte Hexe! …“ oder die Antwort der Hexe"
+    ]
+   ],
+   "aufgabe1_f": {
+    "text": "Welche Märchenmerkmale findest du im Anfang? Kreuze **drei** an.",
+    "optionen": [
+     "eine Hexe",
+     "ein Fahrrad",
+     "ein Fluch: der König wird eine Fliege",
+     "„Vor langer Zeit lebte …“",
+     "ein Handy"
+    ],
+    "loesung": [
+     "eine Hexe",
+     "ein Fluch: der König wird eine Fliege",
+     "„Vor langer Zeit lebte …“"
+    ]
+   },
+   "rahmen_f": [
+    [
+     "",
+     "",
+     "Die alte Hexe kicherte und antwortete: „",
+     2
+    ],
+    [
+     "D",
+     "dann",
+     "Der König flog los. Zuerst",
+     2
+    ],
+    [
+     "D",
+     "dann",
+     "Plötzlich",
+     2
+    ],
+    [
+     "",
+     "",
+     "Es wurde gefährlich, denn",
+     1
+    ],
+    [
+     "A",
+     "also",
+     "Da half",
+     2
+    ],
+    [
+     "A",
+     "also",
+     "Am Ende",
+     2
+    ],
+    [
+     "",
+     "",
+     "Und wenn er nicht gestorben ist,",
+     1
+    ]
+   ],
+   "anknuepfung": "Der Anfang hört mitten in der Antwort der Hexe auf („…). Der erste Satz setzt ihre Rede fort und nennt, wie der Fluch aufgehoben werden kann (Anführungszeichen schließen!).",
+   "erwartung": [
+    [
+     "K1 Aufbau",
+     "setzt die Rede der Hexe fort: Bedingung für die Erlösung (z. B. drei Aufgaben, eine gute Tat, ein Zauberspruch, ein Gegenstand); Versuche des Fliegen-Königs; Höhepunkt (z. B. Flucht vor der Fliegenklatsche, Begegnung mit der Hexe); Lösung passt zur Bedingung"
+    ],
+    [
+     "K2 Merkmale",
+     "mindestens 4 passende, z. B. Zahl 3 (drei Aufgaben), Reim oder Zauberspruch der Hexe, Rückverwandlung, Helfer:in (Spinne, Diener, Tier), magischer Gegenstand, Belohnung oder Strafe"
+    ],
+    [
+     "K3 Schluss",
+     "König wird erlöst (gern mit Lehre: verstopft das Klo nie wieder); Hexe wird bestraft oder zieht ab; Schlusssatz"
+    ],
+    [
+     "K4 Sprache",
+     "Präteritum durchgehend (Rede im Präsens); treffende Verben (summte, brummte, flatterte); nicht nur „Dann“"
+    ],
+    [
+     "K5 Verständlich",
+     "sinnvolle Reihenfolge, Absätze; Überschrift und Name"
+    ],
+    [
+     "K6 Prüfen",
+     "Rechtschreibung, Zeichensetzung, wörtliche Rede; sichtbare Korrekturen; Märchen-Check abgehakt"
+    ]
+   ]
+  },
+  {
+   "id": "zwerge",
+   "stufe": 2,
+   "titel": "Zwerge und Zauberrezept",
+   "extern": "Vertiefung_2",
+   "extern_seiten": [
+    2
+   ],
+   "teaser": "Drei Zwerge backen ein Brot nach einem seltsamen Rezept. Dann geschieht etwas Merkwürdiges …",
+   "warum": "das Problem ist noch nicht da: Du musst selbst erfinden, was passiert",
+   "aufgabe1": [
+    [
+     "Märchenanfang",
+     "„In einem kleinen Dorf lebten einst …“"
+    ],
+    [
+     "magische Zahl",
+     "drei fleißige Zwerge"
+    ],
+    [
+     "magischer Gegenstand",
+     "das Zauberrezept oder das Brot"
+    ],
+    [
+     "Spannung",
+     "„… bis plötzlich etwas Merkwürdiges geschah …“"
+    ]
+   ],
+   "aufgabe1_f": {
+    "text": "Welche Märchenmerkmale findest du im Anfang? Kreuze **drei** an.",
+    "optionen": [
+     "drei Zwerge",
+     "ein Zauberrezept",
+     "ein Auto",
+     "eine seltsame Frau",
+     "ein Computer"
+    ],
+    "loesung": [
+     "drei Zwerge",
+     "ein Zauberrezept",
+     "eine seltsame Frau"
+    ]
+   },
+   "rahmen_f": [
+    [
+     "D",
+     "dann",
+     "Auf einmal wurde der älteste Zwerg",
+     2
+    ],
+    [
+     "D",
+     "dann",
+     "Die beiden anderen Zwerge",
+     2
+    ],
+    [
+     "",
+     "",
+     "Es wurde gefährlich, denn",
+     2
+    ],
+    [
+     "A",
+     "also",
+     "Da half",
+     2
+    ],
+    [
+     "A",
+     "also",
+     "Am Ende",
+     2
+    ],
+    [
+     "",
+     "",
+     "Und wenn sie nicht gestorben sind,",
+     1
+    ]
+   ],
+   "anknuepfung": "Der Anfang hört auf, als der älteste Zwerg das Brot probiert und „etwas Merkwürdiges“ geschieht. Das Kind muss das Problem selbst erfinden (z. B. Verwandlung, Schrumpfen, Unsichtbarkeit, der Zwerg kann nur noch reimen) und daraus die Handlung entwickeln.",
+   "erwartung": [
+    [
+     "K1 Aufbau",
+     "erzählt, was Merkwürdiges geschieht, und macht daraus ein Problem; die seltsame Frau wird sinnvoll eingebunden (z. B. als Hexe/Gegenspielerin); Versuche der anderen Zwerge; Höhepunkt; Lösung (Gegenzauber, Gegenrezept, List, Helfer:in)"
+    ],
+    [
+     "K2 Merkmale",
+     "mindestens 4 passende, z. B. Zahl 3 aufgreifen, Verwandlung, Gegenspielerin, Zauberspruch oder Reim, magischer Gegenstand, Helfer:in, Belohnung oder Strafe"
+    ],
+    [
+     "K3 Schluss",
+     "die Zwerge werden belohnt oder der Zauber wird gelöst; die Frau wird bestraft oder verschwindet; Schlusssatz"
+    ],
+    [
+     "K4 Sprache",
+     "Präteritum durchgehend; treffende Verben und Adjektive (knusprig, merkwürdig, verzaubert); nicht nur „Dann“"
+    ],
+    [
+     "K5 Verständlich",
+     "sinnvolle Reihenfolge, Absätze; das Problem wird klar; Überschrift und Name"
+    ],
+    [
+     "K6 Prüfen",
+     "Rechtschreibung, Zeichensetzung, wörtliche Rede; sichtbare Korrekturen; Märchen-Check abgehakt"
+    ]
+   ]
+  },
+  {
+   "id": "goldene-gans",
+   "stufe": 2,
+   "titel": "Die goldene Gans",
+   "text": "goldene-gans",
+   "teaser": "Der Dummling teilt sein Essen mit einem grauen Männlein und findet eine goldene Gans.",
+   "warum": "ein echter Grimm-Anfang; die Figuren sind klar, das Ende musst du selbst erfinden",
+   "aufgabe1": [
+    [
+     "magische Zahl",
+     "drei Söhne ({Z:goldene-gans:der hatte drei Söhne}) oder: Das Männlein bittet dreimal um Essen."
+    ],
+    [
+     "magisches Wesen",
+     "das alte graue Männlein ({Z:goldene-gans:begegnete ihm ein altes graues Männlein})"
+    ],
+    [
+     "Verwandlung",
+     "Aschenkuchen wird zum Eierkuchen, saures Bier zu Wein ({Z:goldene-gans:war es ein feiner Eierkuchen})"
+    ],
+    [
+     "magischer Gegenstand",
+     "die Gans mit Federn aus reinem Gold ({Z:goldene-gans:Federn aus reinem Gold})"
+    ]
+   ],
+   "aufgabe1_f": {
+    "text": "Welche Märchenmerkmale findest du im Anfang? Kreuze **drei** an.",
+    "optionen": [
+     "die Zahl drei",
+     "ein Handy",
+     "ein graues Männlein",
+     "eine goldene Gans",
+     "ein Fußballspiel"
+    ],
+    "loesung": [
+     "die Zahl drei",
+     "ein graues Männlein",
+     "eine goldene Gans"
+    ]
+   },
+   "rahmen_f": [
+    [
+     "D",
+     "dann",
+     "Am Abend kam der Dummling mit seiner Gans in ein Wirtshaus. Dort",
+     3
+    ],
+    [
+     "D",
+     "dann",
+     "Plötzlich",
+     2
+    ],
+    [
+     "",
+     "",
+     "Es wurde gefährlich, denn",
+     2
+    ],
+    [
+     "A",
+     "also",
+     "Da half",
+     2
+    ],
+    [
+     "A",
+     "also",
+     "Am Ende",
+     2
+    ],
+    [
+     "",
+     "",
+     "Und wenn sie nicht gestorben sind,",
+     1
+    ]
+   ],
+   "anknuepfung": "Der Anfang hört auf, als der Dummling mit der Gans in ein Wirtshaus geht, um zu übernachten. Der erste Satz schließt im Wirtshaus an.",
+   "original": "Bei Grimm wollen die Wirtstöchter Goldfedern stehlen und bleiben an der Gans kleben; immer mehr Leute hängen sich an. Eine Königstochter, die nie lacht, lacht darüber. Der König stellt noch Aufgaben (einen Keller Wein austrinken, einen Berg Brot essen, ein Schiff für Wasser und Land); das Männlein hilft. Der Dummling heiratet die Königstochter und erbt das Reich.",
+   "erwartung": [
+    [
+     "K1 Aufbau",
+     "schließt im Wirtshaus mit der Gans an (Wirtstöchter, Diebstahl, Weg zum Königsschloss o. Ä.); Höhepunkt erkennbar; Lösung passt zum Anfang (z. B. hilft das Männlein, die Gans hilft dem Guten)"
+    ],
+    [
+     "K2 Merkmale",
+     "mindestens 4 passende, z. B. Zahl 3 aufgreifen, Männlein als Helfer, Zauber der Gans, Verwandlung, Gegenspieler:in (Wirt, König, Brüder), Belohnung des Dummlings"
+    ],
+    [
+     "K3 Schluss",
+     "Dummling wird belohnt (Königstochter, Reich, Ansehen); Böse werden bestraft; Schlusssatz (z. B. „Und wenn sie nicht gestorben sind …“)"
+    ],
+    [
+     "K4 Sprache",
+     "Präteritum durchgehend; treffende Verben und Adjektive; nicht nur „Dann“"
+    ],
+    [
+     "K5 Verständlich",
+     "sinnvolle Reihenfolge, Absätze; Überschrift und Name"
+    ],
+    [
+     "K6 Prüfen",
+     "Rechtschreibung, Zeichensetzung, wörtliche Rede; sichtbare Korrekturen; Märchen-Check abgehakt"
+    ]
+   ]
+  },
+  {
+   "id": "weisse-schlange",
+   "stufe": 3,
+   "titel": "Die weiße Schlange",
+   "text": "weisse-schlange",
+   "teaser": "Ein Diener versteht plötzlich die Sprache der Tiere – und soll ein Dieb sein.",
+   "warum": "ältere Sprache; du musst die Tiersprache klug für die Lösung nutzen",
+   "aufgabe1": [
+    [
+     "Märchenanfang",
+     "„Vor langer Zeit lebte ein König …“ ({Z:weisse-schlange:Vor langer Zeit lebte ein König})"
+    ],
+    [
+     "magisches Wesen",
+     "die weiße Schlange ({Z:weisse-schlange:Da lag eine weiße Schlange darin})"
+    ],
+    [
+     "Zauber: sprechende Tiere",
+     "die Sperlinge sprechen miteinander ({Z:weisse-schlange:Sperlinge waren, die miteinander sprachen})"
+    ],
+    [
+     "Verkleinerungsform",
+     "ein Stückchen ({Z:weisse-schlange:schnitt ein Stückchen davon ab})"
+    ]
+   ],
+   "aufgabe1_f": {
+    "text": "Welche Märchenmerkmale findest du im Anfang? Kreuze **drei** an.",
+    "optionen": [
+     "eine weiße Schlange",
+     "Vögel, die sprechen",
+     "ein Smartphone",
+     "ein König",
+     "ein Bus"
+    ],
+    "loesung": [
+     "eine weiße Schlange",
+     "Vögel, die sprechen",
+     "ein König"
+    ]
+   },
+   "rahmen_f": [
+    [
+     "D",
+     "dann",
+     "Im Hof hörte der Diener, wie",
+     2
+    ],
+    [
+     "D",
+     "dann",
+     "Da",
+     2
+    ],
+    [
+     "",
+     "",
+     "Es wurde gefährlich, denn",
+     2
+    ],
+    [
+     "A",
+     "also",
+     "Da half",
+     2
+    ],
+    [
+     "A",
+     "also",
+     "Am Ende",
+     2
+    ],
+    [
+     "",
+     "",
+     "Und wenn sie nicht gestorben sind,",
+     1
+    ]
+   ],
+   "anknuepfung": "Der Anfang hört auf, als der Diener verzweifelt im Hof steht. Er hat bis morgen Zeit, den Dieb des Rings zu finden, sonst gilt er selbst als Dieb. Ein schlüssiges Ende nutzt seine neue Gabe: Er versteht die Tiere.",
+   "original": "Bei Grimm hört der Diener im Hof Enten reden: Eine hat den Ring verschluckt. Sie wird geschlachtet, der Ring gefunden, seine Unschuld bewiesen. Danach zieht er in die Welt, rettet Fische, Ameisen und junge Raben. Eine Königstochter stellt ihm schwere Aufgaben (Ring aus dem Meer, Hirse auflesen, Apfel vom Lebensbaum); die geretteten Tiere helfen. Am Ende heiraten die beiden.",
+   "erwartung": [
+    [
+     "K1 Aufbau",
+     "knüpft im Hof an; die Gabe, Tiere zu verstehen, wird für die Lösung genutzt (z. B. Tiere verraten den Dieb oder den Ort des Rings); Höhepunkt (z. B. Frist läuft ab, Gefahr der Strafe, Suche); Unschuld wird bewiesen"
+    ],
+    [
+     "K2 Merkmale",
+     "mindestens 4 passende, z. B. sprechende Tiere, Zahl 3 (drei Tiere/Proben), Helfer-Tiere, magischer Gegenstand (Ring), Gegenspieler:in (wahrer Dieb), Belohnung"
+    ],
+    [
+     "K3 Schluss",
+     "Diener wird belohnt (Ehre, Gold, Freiheit, Hochzeit); der wahre Dieb wird bestraft oder entlarvt; Schlusssatz"
+    ],
+    [
+     "K4 Sprache",
+     "Präteritum durchgehend; treffende Verben und Adjektive; abwechslungsreiche Satzanfänge"
+    ],
+    [
+     "K5 Verständlich",
+     "sinnvolle Reihenfolge, Absätze; die Lösung ist nachvollziehbar; Überschrift und Name"
+    ],
+    [
+     "K6 Prüfen",
+     "Rechtschreibung, Zeichensetzung, wörtliche Rede; sichtbare Korrekturen; Märchen-Check abgehakt"
+    ]
+   ]
+  },
+  {
+   "id": "drei-federn",
+   "stufe": 3,
+   "titel": "Die drei Federn",
+   "text": "drei-federn",
+   "teaser": "Der Dummling soll den feinsten Teppich finden. Seine Feder führt ihn zu einer dicken Kröte.",
+   "warum": "ältere Sprache und ein Zauberreim; die Aufgaben und Gefahren musst du selbst erfinden",
+   "aufgabe1": [
+    [
+     "Märchenanfang",
+     "„Es war einmal ein König …“ ({Z:drei-federn:Es war einmal ein König})"
+    ],
+    [
+     "magische Zahl",
+     "drei Söhne, drei Federn ({Z:drei-federn:blies drei Federn in die Luft})"
+    ],
+    [
+     "Reim oder Zauberspruch",
+     "„Jungfer grün und klein …“ ({Z:drei-federn:Jungfer grün und klein})"
+    ],
+    [
+     "Verkleinerungsform",
+     "Hündchen ({Z:drei-federn:Hutzelbeins Hündchen})"
+    ]
+   ],
+   "aufgabe1_f": {
+    "text": "Welche Märchenmerkmale findest du im Anfang? Kreuze **drei** an.",
+    "optionen": [
+     "drei Federn",
+     "eine dicke Kröte",
+     "ein Fernseher",
+     "ein Zauberreim",
+     "ein Flugzeug"
+    ],
+    "loesung": [
+     "drei Federn",
+     "eine dicke Kröte",
+     "ein Zauberreim"
+    ]
+   },
+   "rahmen_f": [
+    [
+     "",
+     "",
+     "Der Dummling antwortete: „",
+     2
+    ],
+    [
+     "D",
+     "dann",
+     "Die dicke Kröte",
+     2
+    ],
+    [
+     "D",
+     "dann",
+     "Doch",
+     2
+    ],
+    [
+     "",
+     "",
+     "Es wurde schwierig, denn",
+     1
+    ],
+    [
+     "A",
+     "also",
+     "Da half",
+     2
+    ],
+    [
+     "A",
+     "also",
+     "Am Ende",
+     2
+    ],
+    [
+     "",
+     "",
+     "Und wenn sie nicht gestorben sind,",
+     1
+    ]
+   ],
+   "anknuepfung": "Der Anfang hört auf, als die dicke Kröte den Dummling fragt, was er sich wünscht. Er braucht den feinsten Teppich für den König. Naheliegend ist die Kröte als Helferin; die spöttischen Brüder machen es sich leicht.",
+   "original": "Bei Grimm holt die dicke Kröte einen wunderschönen Teppich aus einer großen Schachtel. Die Brüder bringen grobe Tücher. Der König stellt noch zwei Aufgaben (den schönsten Ring, die schönste Frau); die Kröte hilft jedes Mal, eine kleine Kröte wird zur schönen Frau. Der Dummling bekommt die Krone.",
+   "erwartung": [
+    [
+     "K1 Aufbau",
+     "knüpft bei der Frage der Kröte an (Wunsch: feinster Teppich); Versuche oder weitere Aufgaben; Höhepunkt (z. B. Wettstreit mit den Brüdern, die schwerste Aufgabe); Lösung mit Hilfe der Kröte"
+    ],
+    [
+     "K2 Merkmale",
+     "mindestens 4 passende, z. B. Zahl 3 (drei Aufgaben), Helferin Kröte, Zauberspruch oder Reim, Verwandlung, magischer Gegenstand, Gut und Böse (Dummling und spöttische Brüder)"
+    ],
+    [
+     "K3 Schluss",
+     "Dummling wird König oder anders belohnt; die Brüder gehen leer aus oder werden bestraft; Schlusssatz"
+    ],
+    [
+     "K4 Sprache",
+     "Präteritum durchgehend; treffende Verben und Adjektive; abwechslungsreiche Satzanfänge"
+    ],
+    [
+     "K5 Verständlich",
+     "sinnvolle Reihenfolge, Absätze; Überschrift und Name"
+    ],
+    [
+     "K6 Prüfen",
+     "Rechtschreibung, Zeichensetzung, wörtliche Rede; sichtbare Korrekturen; Märchen-Check abgehakt"
+    ]
+   ]
+  }
+ ],
+ "bogen": {
+  "kriterien": [
+   [
+    "K1",
+    "Aufbau",
+    "dort weitergeschrieben, wo der Anfang aufhört; Höhepunkt (= gefährlichste Stelle); passende Lösung",
+    [
+     0,
+     5,
+     10,
+     15,
+     20
+    ]
+   ],
+   [
+    "K2",
+    "Märchenmerkmale",
+    "mindestens 4 passende Merkmale eingebaut",
+    [
+     0,
+     6,
+     13,
+     19,
+     25
+    ]
+   ],
+   [
+    "K3",
+    "Schluss",
+    "wer belohnt oder bestraft wird; passender Schlusssatz",
+    [
+     0,
+     4,
+     8,
+     11,
+     15
+    ]
+   ],
+   [
+    "K4",
+    "Sprache",
+    "Präteritum (Märchenverben); genaue Verben und Adjektive; abwechslungsreiche Satzanfänge",
+    [
+     0,
+     5,
+     10,
+     15,
+     20
+    ]
+   ],
+   [
+    "K5",
+    "Verständlich",
+    "sinnvoll geordnet (Absätze, Reihenfolge); Überschrift und Name",
+    [
+     0,
+     3,
+     7,
+     10,
+     13
+    ]
+   ],
+   [
+    "K6",
+    "Prüfen",
+    "Rechtschreibung, Zeichensetzung, wörtliche Rede (Märchen-Check); eigene Fehler gefunden und korrigiert",
+    [
+     0,
+     2,
+     4,
+     5,
+     7
+    ]
+   ]
+  ],
+  "stufen": [
+   "fehlt",
+   "in Ansätzen",
+   "Mindest",
+   "Regel",
+   "Leistung"
+  ],
+  "zusatz": "besonders originelle Idee, die zum Märchen passt: 0 · 5 · 10 (gleicht fehlende Punkte aus; höchstens 100 zählen)",
+  "noten": [
+   [
+    "sehr gut",
+    87
+   ],
+   [
+    "gut",
+    73
+   ],
+   [
+    "befriedigend",
+    59
+   ],
+   [
+    "ausreichend",
+    45
+   ],
+   [
+    "mangelhaft",
+    18
+   ],
+   [
+    "ungenügend",
+    0
+   ]
+  ]
+ }
+}

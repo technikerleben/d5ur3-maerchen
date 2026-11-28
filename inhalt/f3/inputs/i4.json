@@ -1,0 +1,53 @@
+{
+ "woche": 4,
+ "titel": "Prüfen und Zeit einteilen",
+ "strategie": "zeit",
+ "dauer": "höchstens 10 Minuten",
+ "text_titel": "Mein Zeitplan und Mias Ende (Übungstext mit Fehlern)",
+ "text": "Lesen und Markieren: 5 Minuten. Schreibplan: 10 Minuten. Schreiben: 25 Minuten. Prüfen: 5 Minuten. Mias Ende: Dann geht der Fischer zum Nachbarn. Er rief Gib mir meinen Stein zurück! Und der Nachbar wurde zu einer Kröte.",
+ "denken": [
+  {
+   "stelle": "Lesen und Markieren",
+   "gedanke": "Ich lese den Anfang ganz. Ich markiere: Wer? Problem? Wo hört er auf? Dann Aufgabe 1 und 2.",
+   "sagen": "Uhr an der Wand zeigen."
+  },
+  {
+   "stelle": "Schreibplan: 10 Minuten",
+   "gedanke": "Nur Stichworte: D, D, A, A. Nach 10 Minuten fange ich an – fertig oder nicht.",
+   "sagen": ""
+  },
+  {
+   "stelle": "Schreiben: 25 Minuten",
+   "gedanke": "Nach der Hälfte schaue ich auf die Uhr: Bin ich schon beim Höhepunkt?",
+   "sagen": "Zwischenzeit an die Tafel schreiben lassen."
+  },
+  {
+   "stelle": "Dann geht",
+   "gedanke": "Jetzt prüfe ich Mias Ende. „geht“ ist Gegenwart. Präteritum: „ging“. Ich verbessere mit grünem Stift.",
+   "sagen": "Sichtbar mit anderer Farbe korrigieren."
+  },
+  {
+   "stelle": "rief Gib",
+   "gedanke": "Hier fehlen die Redezeichen: rief: „Gib mir …!“",
+   "sagen": "Rechtschreib-Check zeigen."
+  },
+  {
+   "stelle": "wurde zu einer Kröte",
+   "gedanke": "Strafe – gut. Aber wo ist die Belohnung für den Fischer? Und der Schlusssatz fehlt.",
+   "sagen": "Märchen-Check K3 zeigen."
+  }
+ ],
+ "jetzt": [
+  "Lies deinen Feedbackbogen zur Probearbeit: Was übst du heute?",
+  "Trainingsrunde: Schreib dir die Uhrzeiten auf. Wann ist Halbzeit? Prüft danach zu zweit mit dem Märchen-Check."
+ ],
+ "hilfe": [
+  "Lerntheke: Strategiekarten „Ein Ende in 45 Minuten“ und „Meinen Text prüfen“, Märchen-Check, Rechtschreib-Check, Verbliste",
+  "Plakat „Wo stehe ich?“: Häng deine Klammer an deinen Schritt."
+ ],
+ "skript": [
+  "Vor dem Input: „In der Arbeit habt ihr 45 Minuten. Ich zeige, wie ich die Zeit einteile und wie ich in den letzten 5 Minuten prüfe.“",
+  "Uhrzeiten für die Trainingsrunde konkret ausrechnen; Mias Ende mit anderer Stiftfarbe korrigieren.",
+  "Nach dem Input (30 Sekunden): Jedes Kind sagt dem Nachbarn, wann es mit dem Schreiben anfängt und was es beim Prüfen besonders anschaut."
+ ]
+}

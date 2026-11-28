@@ -1,0 +1,48 @@
+{
+ "woche": 5,
+ "titel": "Meinen Text prüfen",
+ "strategie": "pruefen",
+ "dauer": "höchstens 10 Minuten",
+ "text_titel": "Das Ende von Mia (Übungstext mit Fehlern)",
+ "text": "Der Fischer suchte dreimal nach dem Stein. Dann geht er zum Nachbarn. Dann sah er den Stein im Fenster. Der Fischer rief Gib mir meinen Stein zurück! Da sprach der Stein: „Komm zu mir.“ Und der Nachbar wurde zu einer Kröte.",
+ "denken": [
+  {
+   "stelle": "suchte dreimal",
+   "gedanke": "Magische Zahl – im Märchen-Check unterstreiche ich sie als Märchenmerkmal.",
+   "sagen": "Märchen-Check zeigen."
+  },
+  {
+   "stelle": "Dann geht er",
+   "gedanke": "Halt: „geht“ ist Gegenwart. Präteritum: „ging“. Ich verbessere mit grünem Stift.",
+   "sagen": "Sichtbar korrigieren."
+  },
+  {
+   "stelle": "Dann sah er",
+   "gedanke": "Schon wieder „Dann“. Besser: „Plötzlich sah er …“",
+   "sagen": ""
+  },
+  {
+   "stelle": "Der Fischer rief Gib",
+   "gedanke": "Hier fehlen die Redezeichen: rief: „Gib mir …!“",
+   "sagen": "Rechtschreib-Check zeigen."
+  },
+  {
+   "stelle": "wurde zu einer Kröte",
+   "gedanke": "Strafe – gut. Aber wo ist die Belohnung für den Fischer? Und der Schlusssatz fehlt. K3!",
+   "sagen": "Zum Schluss: zwei Dinge loben, zwei verbessern."
+  }
+ ],
+ "jetzt": [
+  "Schreibkonferenz: Ein Kind liest seinen Text vor. Die anderen sagen: „Das gelingt schon: … Verbessere noch: …“",
+  "Überarbeite danach deinen Text mit dem Märchen-Check und deinem Feedbackbogen."
+ ],
+ "hilfe": [
+  "Märchen-Check · Märchenverben · Märchen-Hilfe S. 10 und S. 12 (Rechtschreib-Tipps)",
+  "Lernweg: Hake ab, was du geschafft hast. Wer an derselben Stelle ist, kann mit dir arbeiten."
+ ],
+ "skript": [
+  "Vor dem Lesen: „Das hat Mia geschrieben. Ich prüfe es laut – so wie ihr gleich in der Schreibkonferenz.“",
+  "Mit anderer Stiftfarbe korrigieren.",
+  "Nach dem Input (30 Sekunden): Jedes Kind nennt dem Nachbarn den Punkt im Märchen-Check, an dem es heute arbeitet."
+ ]
+}

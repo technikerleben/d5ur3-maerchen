@@ -1,0 +1,58 @@
+{
+ "woche": 5,
+ "titel": "Bilder im Kopf",
+ "strategie": "bilder",
+ "dauer": "höchstens 10 Minuten",
+ "text_titel": "Die Brücke aus Glas (Übungstext)",
+ "text": "Spät am Abend kam der Prinz an einen schwarzen See. Über das Wasser führte eine schmale Brücke aus Glas. Kaum setzte er den Fuß darauf, da knirschte und klirrte es unter ihm. Ein kalter Wind heulte. „Nur nicht hinunterschauen“, flüsterte er und tastete sich Schritt für Schritt voran.",
+ "denken": [
+  {
+   "stelle": "schwarzen See",
+   "gedanke": "Augen zu: ein dunkler See, schwarz wie Tinte. Das Adjektiv macht das Bild.",
+   "sagen": "Wirklich kurz die Augen schließen."
+  },
+  {
+   "stelle": "schmale Brücke aus Glas",
+   "gedanke": "Schmal und aus Glas – ich sehe, wie gefährlich das ist.",
+   "sagen": ""
+  },
+  {
+   "stelle": "Kaum setzte er den Fuß darauf",
+   "gedanke": "Kein „Dann“! „Kaum … da“ macht es spannend.",
+   "sagen": "Brücke zu den Satzanfängen."
+  },
+  {
+   "stelle": "knirschte und klirrte",
+   "gedanke": "Jetzt höre ich etwas! Treffende Verben statt „machte Geräusche“.",
+   "sagen": ""
+  },
+  {
+   "stelle": "Ein kalter Wind heulte",
+   "gedanke": "Ich höre den Wind und friere.",
+   "sagen": "Fühlen als dritter Sinn."
+  },
+  {
+   "stelle": "„Nur nicht hinunterschauen“",
+   "gedanke": "Wörtliche Rede: Ich höre den Prinzen. Er hat Angst.",
+   "sagen": "Auf die Zeichen „ … “ zeigen."
+  },
+  {
+   "stelle": "tastete sich Schritt für Schritt voran",
+   "gedanke": "Ich sehe, wie langsam er geht. Sieht mein Leser das? Ja!",
+   "sagen": "Zum Schluss: blasse Fassung laut dagegenhalten: „Der Prinz ging über eine Brücke.“"
+  }
+ ],
+ "jetzt": [
+  "Etappe 4, zu zweit: Einer schließt die Augen, der andere liest vor. Sagt: „Ich sehe … Ich höre …“",
+  "Sucht die Wörter, die das Bild machen."
+ ],
+ "hilfe": [
+  "Lerntheke: Strategiekarte „Bilder im Kopf“ und Wortspeicher",
+  "Plakat „Wo stehe ich?“: Häng deine Klammer an deinen Schritt."
+ ],
+ "skript": [
+  "Vor dem Lesen: „Ich zeige euch, wie aus Wörtern ein Bild im Kopf wird. Ich denke laut.“",
+  "Beim Lesen die Bild-Wörter sichtbar markieren.",
+  "Nach dem Input (30 Sekunden): Jedes Kind sagt dem Nachbarn ein Bild-Wort aus dem Text und was es dabei sieht."
+ ]
+}

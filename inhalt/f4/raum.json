@@ -1,0 +1,75 @@
+{
+ "etappen": [
+  {
+   "n": 1,
+   "titel": "Märchen erkennen",
+   "woche": "1. Doppelstunde",
+   "teil": 1
+  },
+  {
+   "n": 2,
+   "titel": "Der Spannungsbogen",
+   "woche": "2. Doppelstunde",
+   "teil": 1
+  },
+  {
+   "n": 3,
+   "titel": "Ein Märchen zu Ende schreiben",
+   "woche": "3. Doppelstunde",
+   "teil": 1
+  },
+  {
+   "n": 4,
+   "titel": "Bilder im Kopf",
+   "woche": "nach der Arbeit",
+   "teil": 2
+  }
+ ],
+ "ziel": "Ich kann ein Märchen spannend zu Ende schreiben.",
+ "zonen": [
+  {
+   "name": "Stillraum",
+   "symbol": "eins",
+   "text": "Hier arbeitest du allein und leise.",
+   "was": "Einzelblatt · Gelingensnachweis · Probearbeit"
+  },
+  {
+   "name": "Denkraum",
+   "symbol": "zwei",
+   "text": "Hier arbeitet ihr zu zweit. Sprecht mit Flüsterstimme.",
+   "was": "gemeinsame Aufgaben · Lerntheke · Kiosk"
+  },
+  {
+   "name": "Flur",
+   "symbol": "lesen",
+   "text": "Hier lest und plant ihr zu zweit.",
+   "was": "Lesen im Tandem · gemeinsam planen"
+  }
+ ],
+ "satzstarter": [
+  [
+   "Vermuten",
+   "Ich vermute …, weil im Text steht …."
+  ],
+  [
+   "Begründen",
+   "Das ist das Merkmal …, weil …."
+  ],
+  [
+   "Fragen",
+   "Ich frage mich, warum …."
+  ],
+  [
+   "Zustimmen",
+   "Stimmt, und außerdem …."
+  ],
+  [
+   "Widersprechen",
+   "Ich sehe das anders: …."
+  ],
+  [
+   "Nachschauen",
+   "Lass uns nachschauen – in Zeile … steht …."
+  ]
+ ]
+}

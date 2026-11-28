@@ -124,7 +124,7 @@ def deckblatt_html(e: dict) -> str:
         "<table class=st>%s</table>"
         "<div class=hilft style='margin-top:4mm'><b>Diese Strategien helfen dir.</b> Die Karten liegen auf der Lerntheke:<br>%s</div>"
         "<div class=hilft>%s <b>Wo stehe ich?</b> Häng deine Klammer am Plakat weiter, wenn du einen Schritt geschafft hast. "
-        "Wer an derselben Stelle hängt, kann dein Partner sein.</div>")
+        "Ein anderes Kind, das gleich weit ist wie du, kann dein Partner sein.</div>")
         % (e["etappe"], esc(e["titel"]), esc(e["ziel"]), esc(e["woche"]), esc(t),
            (" · %s" % e.get("extern_name", "Quiz Märchenmerkmale") if e.get("extern") else "") + (" mit Legeplan und Satzstreifen" if e["gemeinsam"].get("legeplan") else "") + (" mit Arbeitsseite" if e["gemeinsam"].get("arbeitsseite") else ""),
            " · Märchen-Check" if e.get("anhang_check") else "", rows,
@@ -361,7 +361,7 @@ def plakat_html() -> str:
     return doc(PLAKAT_CSS, (
         "<div style='display:flex;justify-content:space-between;align-items:flex-end'><h1>Wo stehe ich?</h1>"
         "<div style='font-size:18pt;max-width:55%%'>%s Häng deine Klammer an den Schritt, an dem du gerade arbeitest.<br>"
-        "%s Partner gesucht? Wer an derselben Stelle hängt, arbeitet mit dir.</div></div><div class=raster>%s</div>")
+        "%s Partner gesucht? Arbeite mit einem anderen Kind, das gleich weit ist wie du.</div></div><div class=raster>%s</div>")
         % (sym("klammer", 9), sym("zwei", 9), "".join(sp)))
 
 

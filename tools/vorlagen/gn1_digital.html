@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gelingensnachweis 1 · Märchen erkennen – HBG</title>
+<style>
+/*FONTS*/
+:root{
+ --col-slate-dark:#2C3D4C;--col-slate:#3E5668;--col-slate-mid:#6A8599;--col-slate-pale:#D0DCE6;--col-slate-ghost:#EEF3F7;
+ --col-rust-dark:#9E4E22;--col-rust:#D97A4A;--col-rust-pale:#F5DDD1;--col-rust-ghost:#FBF0EB;
+ --col-sage-dark:#4D8B3F;--col-sage:#7DBB6F;--col-sage-pale:#DDF0D8;
+ --col-warning:#C17B00;--col-warning-pale:#FFF3CC;--col-warning-text:#5C4400;
+ --col-error:#C0392B;--col-error-pale:#FDECEA;--col-error-text:#7A1B14;
+ --col-bg:#F5F4F1;--col-white:#FFFFFF;--col-text:#1E2A35;--col-text-muted:#5A6A78;--col-border:#D4D0C8;
+ --col-disabled-bg:#EBEBEA;--col-disabled-text:#7A7672;--col-focus:#3E5668;--col-shadow:rgba(62,86,104,.10);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{font-family:'Andika',-apple-system,'Helvetica Neue',Arial,sans-serif;background:var(--col-bg);color:var(--col-text);font-size:18px;line-height:1.5;display:flex;flex-direction:column}
+:focus-visible{outline:3px solid var(--col-focus);outline-offset:3px;border-radius:4px}
+header{background:var(--col-slate);color:#fff;padding:10px 24px;display:flex;justify-content:space-between;align-items:center;gap:16px;flex:none}
+header h1{font-size:1.4rem;line-height:1.2}
+.meta{font-size:.75rem;color:var(--col-slate-pale);text-transform:uppercase;letter-spacing:.06em}
+.wort{display:flex;align-items:flex-end;gap:5px}.wort b{font-size:1.3rem;font-weight:800}.wort span{font-size:.8rem;color:#EBA882;margin-bottom:2px}
+.punkte{display:flex;gap:6px}
+.punkte i{width:30px;height:30px;border-radius:50%;border:2px solid var(--col-slate-pale);display:grid;place-items:center;font-style:normal;font-size:.85rem;font-weight:700;color:#fff}
+.punkte i.jetzt{border-color:#fff;background:var(--col-slate-dark)}
+.punkte i.ja{background:var(--col-sage-dark);border-color:var(--col-sage-dark)}
+.punkte i.nein{background:var(--col-slate-mid);border-color:var(--col-slate-mid)}
+main{flex:1;min-height:0;display:flex}
+.wrap{max-width:1180px;width:100%;margin:0 auto;padding:18px 24px;display:flex;gap:20px;min-height:0}
+.textpanel{flex:1.05;background:var(--col-white);border-radius:12px;box-shadow:0 2px 8px var(--col-shadow);padding:18px 22px;overflow:auto;min-height:0}
+.textpanel h2{font-size:1.25rem;margin-bottom:2px}
+.textpanel .quelle{font-size:.85rem;color:var(--col-text-muted);margin-bottom:10px}
+.textpanel p{margin-bottom:10px;line-height:1.65}
+.textpanel .vers{margin:0 0 10px 28px;font-style:italic}
+.fn{border-top:1px solid var(--col-border);margin-top:10px;padding-top:8px;font-size:.9rem;color:var(--col-text-muted)}
+.fn div{margin-bottom:2px}
+sup{font-size:.7rem;font-weight:700;color:var(--col-slate)}
+.aufgabe{flex:1;display:flex;flex-direction:column;gap:12px;overflow:auto;min-height:0;padding-bottom:6px}
+.card{background:var(--col-white);border-radius:12px;padding:16px 20px;box-shadow:0 2px 8px var(--col-shadow)}
+.task{border-left:5px solid var(--col-rust)}
+.task h3{font-size:1.15rem;margin-bottom:6px}
+.ziel{display:inline-block;background:var(--col-rust-pale);color:var(--col-rust-dark);border-radius:999px;padding:2px 12px;font-size:.8rem;font-weight:700;margin-bottom:8px}
+.zeile{display:flex;flex-direction:column;gap:6px;padding:10px 0;border-top:1px solid var(--col-border)}
+.zeile:first-of-type{border-top:none}
+.zitat{font-style:italic}
+.wahl{display:flex;flex-wrap:wrap;gap:8px}
+button{font-family:inherit;font-size:1rem;cursor:pointer;min-height:44px;border-radius:8px}
+.opt{background:var(--col-white);color:var(--col-slate-dark);border:2px solid var(--col-slate-pale);padding:8px 14px;text-align:left;font-weight:600}
+.opt:hover:not(:disabled){background:var(--col-slate-ghost)}
+.opt.an{background:var(--col-slate);border-color:var(--col-slate);color:#fff}
+.opt.ok{background:var(--col-sage-pale);border-color:var(--col-sage-dark);color:#2D5C25}
+.opt.falsch{background:var(--col-error-pale);border-color:var(--col-error);color:var(--col-error-text)}
+.opt.fehlt{border-style:dashed;border-color:var(--col-sage-dark);color:#2D5C25}
+.opt:disabled{cursor:default}
+.opt.ok::before{content:'✓ '}.opt.falsch::before{content:'✗ '}.opt.fehlt::before{content:'→ '}
+.btn{background:var(--col-rust-dark);color:#fff;border:none;padding:10px 26px;font-weight:700}
+.btn:hover{background:#B55E2A}.btn:disabled{background:var(--col-disabled-bg);color:var(--col-disabled-text);cursor:not-allowed}
+.btn.gruen{background:var(--col-sage-dark)}.btn.gruen:hover{background:#3D7032}
+.btn2{background:transparent;color:var(--col-slate);border:2px solid var(--col-slate);padding:8px 20px;font-weight:700}
+.btn2:hover{background:var(--col-slate-ghost)}
+.leiste{display:flex;justify-content:flex-end;gap:10px;align-items:center}
+.hinweis{font-size:.9rem;color:var(--col-text-muted)}
+.fb{border-radius:0 8px 8px 0;padding:10px 14px}
+.fb.richtig{background:var(--col-sage-pale);border-left:4px solid var(--col-sage-dark);color:#2D5C25}
+.fb.falsch{background:var(--col-error-pale);border-left:4px solid var(--col-error);color:var(--col-error-text)}
+.fb.tipp{background:var(--col-slate-pale);border-left:4px solid var(--col-slate-mid)}
+.fb.warn{background:var(--col-warning-pale);border-left:4px solid var(--col-warning);color:var(--col-warning-text)}
+.fb b{display:block}
+label{font-weight:700;display:block;margin:8px 0 4px}
+textarea,input[type=text]{font-family:inherit;font-size:1rem;padding:10px 14px;border:2px solid var(--col-border);border-radius:8px;width:100%;background:#fff;color:var(--col-text)}
+textarea{min-height:92px;resize:vertical}
+textarea:focus-visible,input:focus-visible{outline:none;border-color:var(--col-slate);box-shadow:0 0 0 3px var(--col-slate-pale)}
+textarea:disabled{background:var(--col-slate-ghost);color:var(--col-text)}
+.bsp{background:var(--col-slate-ghost);border-radius:8px;padding:10px 14px;margin-top:8px;font-size:.95rem}
+.sp{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:8px 0;border-top:1px solid var(--col-border)}
+.sp .wahl{flex:none}
+.start{max-width:760px;margin:0 auto;padding:28px 24px;display:flex;flex-direction:column;gap:16px;overflow:auto}
+.start h2{font-size:1.6rem}
+.varianten{display:flex;gap:14px}
+.varianten button{flex:1;font-size:1.3rem;padding:18px}
+table.erg{width:100%;border-collapse:collapse;font-size:1rem}
+table.erg td{padding:8px 10px;border-top:1px solid var(--col-border);vertical-align:top}
+table.erg td.s{width:110px;font-weight:700;white-space:nowrap}
+.ja{color:var(--col-sage-dark)}.nein{color:var(--col-error)}
+.gross{font-size:1.5rem;font-weight:700}
+@media print{header .punkte,.leiste,.noprint{display:none!important}body{background:#fff}.card{box-shadow:none;border:1px solid #999}}
+</style>
+</head>
+<body>
+<header>
+ <div><div class="meta">HBG Dortmund · Deutsch · Jahrgang 5 · Märchen</div><h1 id="titel">Gelingensnachweis 1 · Märchen erkennen</h1></div>
+ <div class="punkte" id="punkte" aria-label="Fortschritt"></div>
+ <div class="wort" aria-hidden="true"><b>HBG</b><span>SRL</span></div>
+</header>
+<main id="main"></main>
+<script>
+const DATEN = /*DATEN*/null;
+const KEY = 'hbg_maerchen_gn1_stand';
+let S = null;            // Stand: {v, schritt, erg:{E1.x:true/false}, antw:{}, name (nur im Speicher)}
+let NAME = '';
+const $ = (s, el = document) => el.querySelector(s);
+const esc = t => String(t).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const md = t => esc(t).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/\*(.+?)\*/g, '<i>$1</i>');
+function speichern(){ try{ const k = {...S}; delete k.name; localStorage.setItem(KEY, JSON.stringify(k)); }catch(e){} }
+function laden(){ try{ return JSON.parse(localStorage.getItem(KEY)); }catch(e){ return null; } }
+function loeschen(){ try{ localStorage.removeItem(KEY); }catch(e){} }
+
+/* ---------- Text links (mit Fußnoten) */
+function textHtml(id){
+ const t = DATEN.texte[id]; let n = 0; const fns = [];
+ const markiere = s => { let h = esc(s);
+  (t.fussnoten || []).forEach(f => { if (fns.includes(f)) return; const st = esc(f.stelle);
+   const re = new RegExp('(^|[^\\wäöüÄÖÜß])(' + st.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')(?![\\wäöüÄÖÜß])');
+   if (re.test(h)) { fns.push(f); n++; h = h.replace(re, `$1$2<sup>${n}</sup>`); } });
+  return h; };
+ const body = t.text.map(p => p.absatz ? `<p>${markiere(p.absatz)}</p>` : `<p class="vers">${p.vers.map(markiere).join('<br>')}</p>`).join('');
+ return `<h2>${esc(t.titel)}</h2><div class="quelle">${esc(t.quelle)}</div>${body}` +
+  (fns.length ? `<div class="fn">${fns.map((f, i) => `<div><sup>${i + 1}</sup> <i>${esc(f.stelle)}:</i> ${esc(f.erklaerung)}</div>`).join('')}</div>` : '');
+}
+
+/* ---------- Kopf: fünf Punkte */
+function punkte(){
+ const el = $('#punkte'); if (!S || !S.v) { el.innerHTML = ''; return; }
+ el.innerHTML = DATEN.ziele.map((z, i) => {
+  const e = S.erg[z.id]; const c = e === true ? 'ja' : e === false ? 'nein' : (i === S.schritt ? 'jetzt' : '');
+  return `<i class="${c}" title="${esc(z.kind)}">${e === true ? '✓' : e === false ? '–' : i + 1}</i>`; }).join('');
+}
+
+/* ---------- Start */
+function start(){
+ const alt = laden();
+ $('#titel').textContent = 'Gelingensnachweis 1 · Märchen erkennen';
+ $('#main').innerHTML = `<div class="start">
+  <div class="card"><h2>Gelingensnachweis 1</h2>
+   <p>Du zeigst allein, was du in Etappe 1 gelernt hast. Es gibt <b>5 Aufgaben</b>.
+   Nach jeder Aufgabe siehst du sofort, ob sie geschafft ist. Ab <b>${DATEN.freigabe} von 5</b> geht es weiter mit Etappe 2.</p>
+   <p class="hinweis" style="margin-top:6px">Du arbeitest allein und ohne Hilfen. Lies die Aufgaben genau.</p></div>
+  <div class="card"><label for="name">Dein Vorname</label><input type="text" id="name" autocomplete="off" maxlength="40">
+   <p class="hinweis" style="margin-top:6px">Der Name wird nirgends gespeichert. Er steht nur auf deinem Ergebnis für die Lehrkraft.</p></div>
+  ${alt && alt.v ? `<div class="fb warn"><b>${alt.schritt >= 5 ? `Hier ist noch ein Ergebnis gespeichert (Variante ${esc(alt.v)}).`
+    : `Ein Nachweis ist noch nicht fertig (Variante ${esc(alt.v)}, Aufgabe ${alt.schritt + 1}).`}</b>
+    Schreib deinen Namen und mach weiter.<div class="leiste" style="justify-content:flex-start;margin-top:8px">
+    <button class="btn" id="weiter">Weitermachen</button></div></div>` : ''}
+  <div class="card"><p style="margin-bottom:10px"><b>Welche Variante?</b> Die Lehrkraft sagt sie dir.</p>
+   <div class="varianten"><button class="btn2" data-v="A">Variante A</button><button class="btn2" data-v="B">Variante B</button></div>
+   <p id="namehinweis" class="hinweis" style="margin-top:8px" role="status"></p></div></div>`;
+ const los = v => { NAME = $('#name').value.trim(); if (!NAME) { $('#namehinweis').textContent = 'Schreib zuerst deinen Vornamen auf.'; $('#name').focus(); return null; } return true; };
+ document.querySelectorAll('[data-v]').forEach(b => b.onclick = () => { if (!los()) return;
+  S = {v: b.dataset.v, schritt: 0, erg: {}, antw: {}, start: new Date().toISOString()}; speichern(); aufgabe(); });
+ const w = $('#weiter'); if (w) w.onclick = () => { if (!los()) return; S = alt; S.schritt >= 5 ? ergebnis() : aufgabe(); };
+ punkte();
+}
+
+/* ---------- Aufgaben */
+function rahmen(a, inhalt){
+ const z = DATEN.ziele.find(x => x.id === a.ziel);
+ const textId = a.art === 'vorhersage' ? DATEN.varianten[S.v].anfang : DATEN.varianten[S.v].maerchen;
+ $('#main').innerHTML = `<div class="wrap"><section class="textpanel" aria-label="Text">${textHtml(textId)}</section>
+  <section class="aufgabe"><div class="card task"><span class="ziel">Aufgabe ${S.schritt + 1} von 5 · ${esc(z.id)}</span>
+   <h3>${esc(z.kind)}</h3>${inhalt}</div>
+   <div id="fb" role="status" aria-live="polite"></div>
+   <div class="leiste"><span class="hinweis" id="info"></span><button class="btn" id="pruefen">Prüfen</button><button class="btn gruen" id="next" hidden>Weiter</button></div></section></div>`;
+ $('.textpanel').scrollTop = 0;
+ $('#next').onclick = () => { S.schritt++; speichern(); S.schritt >= 5 ? ergebnis() : aufgabe(); };
+}
+function knopfgruppe(id, opts, mehr = false){
+ return `<div class="wahl" data-gruppe="${id}" data-mehr="${mehr ? 1 : 0}">${opts.map(o => `<button class="opt" data-w="${esc(o)}" aria-pressed="false">${esc(o)}</button>`).join('')}</div>`;
+}
+function aktivieren(){
+ document.querySelectorAll('.wahl').forEach(g => g.querySelectorAll('.opt').forEach(b => b.onclick = () => {
+  if (g.dataset.mehr !== '1') g.querySelectorAll('.opt').forEach(x => { x.classList.remove('an'); x.setAttribute('aria-pressed', 'false'); });
+  const an = !b.classList.contains('an'); b.classList.toggle('an', an); b.setAttribute('aria-pressed', an); }));
+}
+const gewaehlt = id => [...document.querySelectorAll(`[data-gruppe="${id}"] .opt.an`)].map(b => b.dataset.w);
+function markieren(id, richtig){
+ document.querySelectorAll(`[data-gruppe="${id}"] .opt`).forEach(b => { const r = richtig.includes(b.dataset.w), an = b.classList.contains('an');
+  b.classList.remove('an'); b.disabled = true; if (an && r) b.classList.add('ok'); else if (an) b.classList.add('falsch'); else if (r) b.classList.add('fehlt'); });
+}
+function abschluss(a, ok, extra = ''){
+ S.erg[a.ziel] = ok; speichern(); punkte();
+ $('#fb').innerHTML = `<div class="fb ${ok ? 'richtig' : 'falsch'}"><b>${ok ? '✓ Geschafft!' : '✗ Diesmal noch nicht geschafft.'}</b>${extra}${a.erklaerung ? `<div style="margin-top:4px">${md(a.erklaerung)}</div>` : ''}
+  ${ok ? '' : `<div style="margin-top:4px"><i>Üben:</i> ${esc(DATEN.ziele.find(z => z.id === a.ziel).ueben)}</div>`}</div>`;
+ $('#pruefen').hidden = true; $('#next').hidden = false; $('#next').focus();
+}
+function aufgabe(){
+ const a = DATEN.varianten[S.v].aufgaben[S.schritt]; punkte();
+ if (a.art === 'zuordnen') {
+  rahmen(a, `<p>${md(a.frage)}</p>` + a.stellen.map((s, i) => `<div class="zeile"><div class="zitat">${esc(s.text)}</div>${knopfgruppe('s' + i, a.optionen)}</div>`).join(''));
+  aktivieren();
+  $('#pruefen').onclick = () => {
+   if (a.stellen.some((s, i) => !gewaehlt('s' + i).length)) { $('#info').textContent = 'Wähle bei jeder Stelle ein Merkmal.'; return; }
+   let r = 0; a.stellen.forEach((s, i) => { if (s.richtig.includes(gewaehlt('s' + i)[0])) r++; markieren('s' + i, s.richtig); });
+   abschluss(a, r >= a.mindestens, `<div>${r} von ${a.stellen.length} richtig.</div>`); };
+ } else if (a.art === 'auswahl') {
+  rahmen(a, a.fragen.map((f, i) => `<div class="zeile"><b>${esc(f.frage)}</b>${knopfgruppe('f' + i, f.optionen)}</div>`).join(''));
+  aktivieren();
+  $('#pruefen').onclick = () => {
+   if (a.fragen.some((f, i) => !gewaehlt('f' + i).length)) { $('#info').textContent = 'Beantworte alle drei Fragen.'; return; }
+   let r = 0; a.fragen.forEach((f, i) => { if (gewaehlt('f' + i)[0] === f.richtig) r++; markieren('f' + i, [f.richtig]); });
+   abschluss(a, r >= a.mindestens, `<div>${r} von ${a.fragen.length} richtig.</div>`); };
+ } else if (a.art === 'ankreuzen') {
+  rahmen(a, `<p>${md(a.frage)}</p>${knopfgruppe('k', a.optionen.map(o => o.text), true).replace('class="wahl"', 'class="wahl" style="flex-direction:column"')}`);
+  aktivieren();
+  $('#pruefen').onclick = () => {
+   const g = gewaehlt('k'); if (!g.length) { $('#info').textContent = 'Kreuze mindestens eine Stelle an.'; return; }
+   const fehler = a.optionen.filter(o => o.richtig !== g.includes(o.text)).length;
+   markieren('k', a.optionen.filter(o => o.richtig).map(o => o.text));
+   abschluss(a, fehler <= a.max_fehler, `<div>${fehler === 0 ? 'Alles richtig.' : fehler + (fehler === 1 ? ' Fehler.' : ' Fehler.')}</div>`); };
+ } else if (a.art === 'formeln') {
+  rahmen(a, `<div class="zeile"><b>${esc(a.formel.frage)}</b>${knopfgruppe('fo', a.formel.optionen)}</div>
+   <div class="zeile"><b>${md(a.woerter.frage)}</b>${knopfgruppe('wo', a.woerter.liste.map(w => w.text), true)}</div>
+   ${a.spruch ? `<div class="zeile"><b>${esc(a.spruch.frage)}</b>${knopfgruppe('sp', a.spruch.optionen)}</div>` : ''}`);
+  aktivieren();
+  $('#pruefen').onclick = () => {
+   if (!gewaehlt('fo').length || !gewaehlt('wo').length || (a.spruch && !gewaehlt('sp').length)) { $('#info').textContent = 'Bearbeite alle Teile der Aufgabe.'; return; }
+   const fOk = gewaehlt('fo')[0] === a.formel.richtig; const g = gewaehlt('wo');
+   const treffer = a.woerter.liste.filter(w => w.richtig && g.includes(w.text)).length;
+   const falsch = a.woerter.liste.filter(w => !w.richtig && g.includes(w.text)).length;
+   const wOk = treffer >= a.woerter.mindestens && falsch <= a.woerter.max_fehler;
+   const sOk = !a.spruch || gewaehlt('sp')[0] === a.spruch.richtig;
+   markieren('fo', [a.formel.richtig]); markieren('wo', a.woerter.liste.filter(w => w.richtig).map(w => w.text)); if (a.spruch) markieren('sp', [a.spruch.richtig]);
+   abschluss(a, fOk && wOk && sOk); };
+ } else if (a.art === 'vorhersage') {
+  const alt = S.antw[a.ziel] || {};
+  rahmen(a, `<p>Lies den Märchenanfang links. Was passiert als Nächstes?</p>
+   <label for="v1">1. Deine Vermutung mit Begründung</label>
+   <textarea id="v1" placeholder="Ich vermute, dass …, weil im Text steht, dass …">${esc(alt.v1 || '')}</textarea>
+   <label for="v2">2. Schreibe zwei Sätze weiter (Präteritum)</label>
+   <textarea id="v2" placeholder="Der Junge … / Die Tochter …">${esc(alt.v2 || '')}</textarea>
+   <div id="vergleich"></div>`);
+  ['v1', 'v2'].forEach(id => $('#' + id).oninput = () => { S.antw[a.ziel] = {v1: $('#v1').value, v2: $('#v2').value}; speichern(); });
+  $('#pruefen').textContent = 'Fertig – vergleichen';
+  $('#pruefen').onclick = () => {
+   const v1 = $('#v1').value.trim(), v2 = $('#v2').value.trim();
+   if (v1.length < 25 || v2.length < 25) { $('#info').textContent = 'Schreibe eine Vermutung mit „weil“ und zwei ganze Sätze.'; return; }
+   $('#info').textContent = ''; $('#v1').disabled = $('#v2').disabled = true;
+   S.antw[a.ziel] = {v1, v2}; speichern();
+   $('#vergleich').innerHTML = `<div class="fb tipp" style="margin-top:12px"><b>So könnte es aussehen (es gibt viele richtige Lösungen):</b>
+    ${a.beispiele.map(b => `<div class="bsp">${esc(b)}</div>`).join('')}</div>
+    <div style="margin-top:12px"><b>Prüfe dich selbst. Sei ehrlich – die Lehrkraft liest deinen Text auch.</b>
+    ${DATEN.selbstpruefung.map((t, i) => `<div class="sp"><span>${esc(t)}</span>${knopfgruppe('sp' + i, ['ja', 'noch nicht'])}</div>`).join('')}</div>`;
+   aktivieren();
+   $('#pruefen').textContent = 'Selbstprüfung abschließen';
+   $('#pruefen').onclick = () => {
+    const ant = DATEN.selbstpruefung.map((_, i) => gewaehlt('sp' + i)[0]);
+    if (ant.some(x => !x)) { $('#info').textContent = 'Beantworte alle drei Fragen.'; return; }
+    S.antw[a.ziel].selbst = ant; DATEN.selbstpruefung.forEach((_, i) => document.querySelectorAll(`[data-gruppe="sp${i}"] .opt`).forEach(b => b.disabled = true));
+    const ok = ant.every(x => x === 'ja');
+    abschluss({...a, erklaerung: ok ? 'Die Lehrkraft schaut sich deine Vorhersage noch an.' : ''}, ok); };
+  };
+ }
+}
+
+/* ---------- Ergebnis */
+function ergebnis(){
+ punkte();
+ const n = Object.values(S.erg).filter(x => x).length, frei = n >= DATEN.freigabe;
+ const v = S.antw['E1.5'] || {};
+ const offen = DATEN.ziele.filter(z => !S.erg[z.id]);
+ const zeit = new Date().toLocaleString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit'});
+ $('#main').innerHTML = `<div class="start" style="max-width:900px">
+  <div class="fb ${frei ? 'richtig' : 'warn'}"><span class="gross">${frei ? '✓ Geschafft: ' : '↻ Noch nicht ganz: '}${n} von 5</span>
+   <div>${frei ? 'Du hast Etappe 1 geschafft. Weiter geht es mit Etappe 2! Häng deine Klammer am Plakat weiter.'
+    : 'Übe die offenen Punkte. Danach machst du die andere Variante. Die Lehrkraft hilft dir.'}</div></div>
+  <div class="card"><p><b>${esc(NAME || '–')}</b> · Variante ${esc(S.v)} · ${esc(zeit)}</p>
+   <table class="erg">${DATEN.ziele.map(z => `<tr><td class="s ${S.erg[z.id] ? 'ja' : 'nein'}">${S.erg[z.id] ? '✓ geschafft' : '✗ offen'}</td>
+    <td><b>${esc(z.id)}</b> ${esc(z.kind)}${S.erg[z.id] ? '' : `<br><span class="hinweis">Üben: ${esc(z.ueben)}</span>`}</td></tr>`).join('')}</table></div>
+  <div class="card"><b>Meine Vorhersage (für die Lehrkraft)</b>
+   <div class="bsp">${esc(v.v1 || '–')}</div><div class="bsp">${esc(v.v2 || '–')}</div>
+   <div class="hinweis" style="margin-top:6px">Selbstprüfung: ${(v.selbst || []).map(esc).join(' · ') || '–'}</div></div>
+  <div class="fb tipp noprint"><b>Zeig diesen Bildschirm deiner Lehrkraft.</b> Sie trägt dein Ergebnis auf dem Deckblatt ein.</div>
+  <div class="leiste noprint"><button class="btn2" id="druck">Drucken</button><button class="btn2" id="neu">Neu beginnen (Lehrkraft)</button></div></div>`;
+ $('#druck').onclick = () => window.print();
+ $('#neu').onclick = () => { const b = $('#neu'); if (b.dataset.sicher) { loeschen(); S = null; NAME = ''; start(); } else { b.dataset.sicher = 1; b.textContent = 'Wirklich? Noch einmal tippen'; } };
+}
+
+start();
+</script>
+</body>
+</html>
