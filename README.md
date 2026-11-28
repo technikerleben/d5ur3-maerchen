@@ -65,3 +65,7 @@ Unterrichtsreihe 3 im Jahrgang 5 (Aufgabentyp 6, produktionsorientiertes Schreib
 
 - Jahresplanung Deutsch 5: <https://d5-jahresplanung.vercel.app/>
 - Vorgängerreihe und technisches Muster: [d5ur2-zootiere](https://github.com/technikerleben/d5ur2-zootiere)
+
+## Online
+
+https://d5ur3-maerchen.vercel.app – Startseite mit GN1 digital (`apps/gn1-digital/`) und Kontroll-Kiosk (`apps/kontroll-kiosk/`). Vercel baut automatisch bei jedem Push auf `main`.
